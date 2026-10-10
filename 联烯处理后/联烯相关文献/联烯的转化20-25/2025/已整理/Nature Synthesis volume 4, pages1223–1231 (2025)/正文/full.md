@@ -1,0 +1,214 @@
+Article
+
+# Enantioselective type II intramolecular [5 + 2] cycloadditions of oxidopyrylium ylides using chiral-phosphoric-acid catalysis
+
+https://doi.org/10.1038/s44160-025-00803-w
+
+Received: 17 September 2024
+
+Accepted: 3 April 2025
+
+Published online: 12 May 2025
+
+Check for updates
+
+Liangliang Yang  <sup>1,2</sup>, Ka Lok Chan<sup>1</sup>, Ka Key Cheung<sup>1</sup>, Pauline Chiu  <sup>3</sup>, Zhenyang Lin  <sup>1</sup> & Jianwei Sun  <sup>1,2</sup>
+
+Intramolecular [5 + 2] cycloaddition reactions of oxidopyrylium ylides provide rapid access to privileged bridged seven-membered polycyclic structures. In particular, type II variants provide convenient access to highly strained adducts bearing an anti-Bredt double bond. However, enantioselective variants using catalytic methods remain unknown. Here we report an enantioselective method enabled by a non-covalent activation strategy using chiral acid catalysis. The use of a suitable leaving group in the oxidopyrylium precursor and an efective chiral-phosphoric-acid catalyst are crucial to the process. Multiple stereogenic centres can be constructed in one step with high eficiency and excellent enantioselectivity and diastereoselectivity under mild conditions. The products generated from this process are not only structurally intriguing but also represent core structures or advanced intermediates found in natural products. Both mechanistic experiments and computational calculations reveal that enolization is the rate-determining step, whereas the cycloaddition is the enantiodetermining step.
+
+The development of methods for the efficient generation of molecular complexity and diversity remains a constant pursuit for synthetic chemists<sup>1</sup>. Chiral bridged polycyclic structures, particularly those bearing a bridged seven-membered subunit (Fig. 1a), are widely present in natural and biologically significant molecules<sup>2–11</sup>. However, these complex and intriguing molecular architectures have posed substantial challenges for the design of efficient synthetic strategies. Among the available approaches, intramolecular [5 + 2] cycloaddition of versatile dipolar molecules, such as 3-oxidopyrylium ylides<sup>12–16</sup>, represents one of the few efficient processes to permit general access to molecular complexity of this type<sup>7–19</sup>.
+
+The intramolecular [5 + 2] cycloaddition of 3-oxidopyrylium ylides can be classified into two types depending on the connectivity of the dipolarophile to the oxidopyrylium. Type I cycloadditions occur for substrates whose dipolarophiles are tethered to the carbons α to the oxonium (C2 or C6, Fig. 1b), whereas type II substrates are tethered to the β-position (C3, Fig. 1b)<sup>20–22</sup>, such that the cycloaddition generates a product bearing a bridge-head double bond<sup>23,24</sup>, a strained polycyclic topology as it is an anti-Bredt compound<sup>25</sup>.
+
+Despite the broad utility of this cycloaddition, the development of their asymmetric variants has met with limited success<sup>17–19,26–29</sup>. In particular, there has been no report on catalytic enantioselective type II cycloaddition, although it is uniquely powerful and has been used as the key step for the syntheses of diverse complex natural products, as pioneered by Li and co-workers<sup>20–22,30–33</sup>. Indeed, all the type II cycloadditions thus far either generate racemic products or rely on enantiomerically enriched substrates<sup>20–22</sup>.
+
+The paucity of catalytic enantioselective [5 + 2] cycloadditions of 3-oxidopyrylium ylides might be partly associated with the lack of (1) catalyst activation modes for such planar aromatic zwitterionic species and (2) effective chiral catalysts that are also compatible with the conditions for the in situ generation of these species, which are typically either thermal or basic conditions<sup>15,16</sup>. Moreover, additional challenges associated with the type II cycloaddition, as compared to the type I variant, are partly attributed to the less favoured kinetic and thermodynamic features as a result of not only the presence of a strained bridge-head double bond but also a more complex structure topology. For example, it is known that the chiral tertiary amine, dihydroquinidine, can promote such reactions and achieve good chemical yields, but unfortunately, without any enantioselective induction<sup>33</sup>.
+
+![](images/dcaa49ad793d7194a4e3e51ef202ea698aa1cf29c249871d31bfb40999e261e0.jpg)  
+Fig. 1 | Introduction and design of enantioselective type II [5 + 2] cycloaddition reactions using CPA catalysis. a, Representative natural products and pharmaceuticals having bridged structures featuring seven-membered ring. Me, methyl. b, Introduction to the type II [5 + 2] cycloaddition of oxidopyrylium ylides, typically under heating and basic conditions. Current examples<sup>30–33</sup> are  
+limited to either racemic synthesis or diastereoselective synthesis with stereocontrol induced by substrate existing chirality. Δ, heating. c, The first catalytic enantioselective [5 + 2] cycloadditions of oxidopyrylium ylides by weak activation with chiral acid catalyst under mild conditions. LG, leaving group.
+
+We envisioned that, if the key oxidopyrylium intermediate could be generated under mild acidic conditions from a suitably designed precursor, such as an acetal (Fig. 1c), a chiral acid catalyst might be able not only to promote the first step but also catalyse the cycloaddition step and provide the essential facial discrimination by forming a hydrogen bond with the oxidopyrylium. It should be noted, however, that such an asymmetric induction via weak activation by a chiral catalyst is unprecedented even for the limited examples of type I cycloadditions, where the formation of a covalent bond between the amine catalyst and substrate is required for effective enantiocontrol, as pioneered by Jacobsen, Reyes and Vicario<sup>26–28</sup>. Here we report the successful realization of a chiral acid catalytic system, which represents the first catalytic enantioselective type II [5 + 2] cycloaddition of oxidopyryliums, providing efficient access to a range of functionalized, oxygen-bridged polycyclic molecules with excellent enantioselectivities and diastereoselectivities under mild conditions.
+
+## Results and discussion Reaction development
+
+First, a family of pyranones 1 with the olefinic dipolarophiles tethered at the 3-positions was prepared for reaction as the oxidopyrylium precursors. In our initial attempts, we used acetoxypyranone 1aa as substrate because this is a common precursor to oxidopyrylium ylides, although they are typically generated under basic conditions<sup>30–33</sup>. Unfortunately, in the presence of a chiral-phosphoric-acid (CPA) catalyst, no reaction was observed (Table 1, entry 1). We also tried the dual catalytic system with a chiral amine and an achiral thiourea, developed for the type I cycloaddition by Jacobsen and co-workers<sup>26</sup>; however, this system proved ineffective for the type II cycloaddition (see Supplementary Table 1 for details). To improve the reactivity, hydroxypyranone 1ab was examined with the expectation that acid-catalysed dehydration should be more effective (entry 1). Disappointingly, only the decomposition of 1ab to form a furfuryl aldehyde was observed, which was attributed to the ready ring-opening of the hemiacetal followed by recyclization (see Supplementary Table 1 for details). To avoid this undesired ring-opening, we reasoned that installing an alkoxy group should encourage productive elimination towards oxidopyrylium formation. In the event, methoxypyranone 1ac was prepared and subjected to reaction to successfully generate the desired cycloadduct 2 in 40% yield, but with low enantioselectivity using A1 as catalyst (entry 2). We then surveyed various binaphthol (BINOL)-derived CPA catalysts. Although the majority of these failed to substantially improve the enantioselectivity of the cycloaddition, it was notable that the use of the very bulky CPA A3 bearing 2,6-dimethyl-4-t-butyl substituents at the 3,3′-positions did dramatically increase the reaction e.e., albeit with a low yield (64% e.e., 13% yield, entry 4). Next, we examined another series of CPAs derived from 2,2′,3,3′-tetrahydro-1,1′-spirobi[phenalene]- 9,9′-diol (SPHENOL), a new rigid chiral backbone developed in our own laboratory<sup>34</sup>. When B1 was used as catalyst, the reaction cleanly afforded the desired cycloadduct 2 in 87% yield and 79% e.e. (entry 5). Further optimizations of other reaction parameters (for example, solvent, temperature, concentration) did not lead to obvious improvements. However, we noted that the protective group on the nitrogen atom in the linker influenced the enantioselectivity of the reaction. Replacing the Ts with Ps (phenylsulfonyl) resulted in substrate 1a undergoing cycloaddition with improved enantioselectivity (90% e.e., entry 8). In comparison, catalyst A3 showed very low catalytic activity (6% yield, entry 9). Not surprisingly, the reaction was not sensitive to the concentration (entry 10). Decreasing the temperature did not greatly improve the enantioselectivity, but significantly compromised the chemical yield (entry 11). Finally, the use of activated 4-Å molecular sieves was essential to achieve a high yield of the enone product 2, by capturing the methanol by-product that would otherwise readily add to the highly reactive bridge-head double bond to form the conjugate adduct 2′. In fact, without molecular sieves, 2 was isolated in only 17% yield, whereas 2′ was obtained in 55% yield (entry 12).
+
+Table 1 | Studies to optimize reaction conditions<sup>a</sup>  
+![](images/d7d71cf7ddd2a792b28c218952fe5ba343af8d41a19fce748045861a0ae422f2.jpg)
+
+<table><tr><td>Entry</td><td>Catalyst</td><td>1</td><td>Yield (%)</td><td>e.e. (%)</td><td>Entry</td><td>Catalyst</td><td>1</td><td>Yield (%)</td><td>e.e. (%)</td></tr><tr><td>1</td><td>(R)-A1</td><td>1aa/1ab</td><td>0</td><td>一</td><td>7℃</td><td>(R)-B1</td><td>1ac</td><td>5</td><td>70</td></tr><tr><td>2</td><td>(R)-A1</td><td>1ac</td><td>40</td><td>13</td><td>8</td><td>(R)-B1</td><td>1a</td><td>80</td><td>90</td></tr><tr><td>3</td><td>(R)-A2</td><td>1ac</td><td>29</td><td>13</td><td>9</td><td>(R)-A3</td><td>1a</td><td>6</td><td>80</td></tr><tr><td>4</td><td>(R)-A3</td><td>1ac</td><td>13</td><td>64</td><td>10d</td><td>(R)-B1</td><td>1a</td><td>75</td><td>89</td></tr><tr><td>5</td><td>(R)-B1</td><td>1ac</td><td>87</td><td>79</td><td>11e</td><td>(R)-B1</td><td>1a</td><td>25</td><td>91</td></tr><tr><td>6b</td><td>(R)-B1</td><td>1ac</td><td>43</td><td>53</td><td>12f</td><td>(R)-B1</td><td>1a</td><td>17</td><td>一</td></tr></table>
+
+![](images/0e444d05d58d19656cdf21efc44851aed387ba2bb45f0e038f1dfea1f69eb0ca.jpg)  
+<sup>a</sup>Reaction conditions: 1 (0.025 mmol), catalyst (10 mol%), 4-Å molecular sieve (12 mg), toluene (0.5 ml), r.t. Yields were based on the analysis of the <sup>1</sup>H NMR spectrum of the crude reaction mixture using CH Br as an internal standard; e.e. is determined by HPLC with a chiral stationary phase. <sup>b</sup>CH Cl as solvent. <sup>c</sup>Et O as solvent. <sup>d</sup>Concentration, 0.1 M. <sup>e</sup>Reaction temperature, 0 °C. <sup>f</sup>Without a 4-Å molecular sieve, 2a was also obtained in 55% yield. Bn, benzyl; Ar, aryl; <sup>t</sup>Bu, tert-butyl; Ts, tosyl; Ac, acetyl; MS, molecular sieve; $\mathsf { E t } _ { 2 } \mathsf { O } ,$ ethyl ether.
+
+## Scope of 8-azabicyclo[4.3.1]decanes
+
+Using this optimized protocol (Table 1, entry 9), a series of enantiomerically enriched 8-azabicyclo[4.3.1]decanes were successfully generated under mild conditions, with good yields and excellent enantioselectivities (Fig. 2). Pyranones bearing extended alkyl chains at the 2-position (1b, 1c) underwent reaction with similar yields and enantioselectivities. Moreover, pyranones bearing alkoxymethyl groups at C2 (1d, 1e), which allow further manipulations at those positions, were smoothly converted into the desired products 2d and 2e with good yields and excellent enantioselectivities (90% e.e.). Substrate 1f with allyl substitution at this position proved compatible as well, resulting in 2f with a good enantioselectivity (88% e.e.) and a modest yield. The pyranone bearing a 1,1-disubstituted olefin (1g) also reacted smoothly to generate 2g having vicinal tetrasubstituted stereocentres at bridge-head positions. It should be noted that the installation of a quaternary stereogenic carbon centre at the bridge-head position of a polycyclic structure is a formidable challenge in organic synthesis<sup>35</sup>. Besides terminal olefins, internal alkenes were also suitable for cycloaddition, although a slightly higher reaction temperature was needed. For example, pyranones 1h tethered to a 1,2-disubstituted double bond and 1i bearing an even sterically more hindered trisubstituted double bond both reacted smoothly at $4 0 ^ { \circ } \mathrm { C }$ to provide the corresponding azabicyclo[4.3.1]decanes 2h and 2i, respectively, with excellent enantioselectivities (96% e.e.). The structure and absolute configuration of 2h′, the methanol adduct of 2h, were determined by single-crystal X-ray diffraction analysis (CCDC 2340809). Cycloadduct 2j was obtained from the reaction of α,β-unsaturated ester 1j in 75% yield and 90% e.e., indicating that this cycloaddition is amenable to olefins with different electronic properties. Moreover, the cycloaddition was highly stereospecific, with the double-bond configuration perfectly translated to the cycloadduct stereochemistry. Notably, this cycloaddition generates tricyclic cycloadducts bearing four new stereogenic centres with high enantioselectivity and diastereoselectivity in a single step. An allene (1k) was also a good cycloaddition substrate, although the reaction proceeded with a slightly compromised yield and enantioselectivity. Finally, acetal substrate 1l (as opposed to the others which are ketals) also underwent cycloaddition, but the direct cycloaddition product 2l is very unstable toward addition to relieve anti-Bredt destabilization. Thus, 2l was isolated as its methanolic adduct 2l′ by purposely excluding molecular sieves.
+
+## Scope of cycloadducts with bicyclo[4.n.1]alkane cores
+
+The successful assembly of enantiomerically enriched 8-azabicyclo [4.3.1]dodecane cycloadducts prompted us to further explore the reaction of substrates with alternative tethers. For substrates bearing an all-carbon tether between the olefin and pyranone, slight modifications of the reaction conditions were needed to achieve the best outcomes. For these substrates, BINOL-based CPA A4 was found to be a superior catalyst, promoting the reaction with high efficiency and enantioselectivities (see Supplementary Table 6 for more details). Among the malonate-derived substrates (3a, 3b, 3c), 3c bearing sterically hindered isopropyl ester groups reacted with the highest enantioselectivity. The structure of cycloadduct 4c was unambiguously confirmed by X-ray crystallography (CDCC 2340807). Variations of the substituent at the 2-position (the ketal carbon) of the pyranone (3c, 3d) did not result in significant differences on the reactivity or enantioselectivity. Alkene substrates with various substitution patterns, including 1,2- (3e, 3f) and 1,1-disubstituted double bonds (3g), and those that are electron-rich (3e, 3g) and electron-poor (3f), all engaged in [5 + 2] cycloaddition with good-to-excellent yields and enantioselectivities.
+
+![](images/086ad51adcce3a856e6a4b39c857e86884d1e62fee7e095c5060efc35e4cc52a.jpg)  
+Fig. 2 | Enantioselective synthesis of 8-azabicyclo[4.3.1]decanes. <sup>a</sup>Reaction conditions: 1 (0.3 mmol), (R)-B1 (10 mol%), 4-Å molecular sieve (144 mg), toluene (6.0 ml), r.t., isolated yield, e.e. was determined by HPLC with a chiral stationary phase. <sup>b</sup>40 °C. <sup>c</sup>Without 4-Å molecular sieve. Et, ethyl; MOM, methoxymethyl; Ph, phenyl.
+
+Next, we examined the effects of the lengths of the tethers between the olefins and the pyranones. Cycloadditions that form intervening rings of variable ring sizes were generally successful and enantioselective. Substrates 3h and 3i, which undergo cycloaddition to form intervening seven-membered rings, proceeded to furnish cycloadducts 4h and 4i, respectively. Bicyclo[5.4.1]dodecane cycloadduct 4j with an intervening eight-membered ring, and the even more unusual bicyclo[6.4.1]tridecane 4k with a nine-membered carbocycle, were also successfully constructed. The efficient assembly of medium-sized rings is a well-recognized challenge in organic synthesis. Significantly, pyranone 3i tethered to a cyclic olefin underwent intramolecular [5 + 2] cycloaddition, so that an additional ring was thus readily forged into the polycyclic product 4i, to establish the tricyclic core of the natural product ingenol (Fig. 1a). Thus, our protocol not only provides rapid access to complex molecular targets, but also allows expedient diversifications to access complex structures that are otherwise tedious to synthesize by conventional approaches. Notably, substrate 3l also reacted to generate cycloadduct 4l with a good yield and excellent enantioselectivity, showing that this challenging cycloaddition does not require a Thorpe–Ingold effect to proceed. Finally, all these type II intramolecular [5 + 2] cycloaddition reactions proceeded with exclusive endo selectivity (Fig. 3).
+
+![](images/9973a6b0a15c2716b7c307825ee05bf5c79fb398fff576b4a226156f60b7527f.jpg)  
+Fig. 3 | Enantioselective synthesis of cycloadducts with bicyclo[4.n.1]alkane cores. <sup>a</sup>Reaction conditions: 3 (0.25 mmol), (S)-A4 (10 mol%), 4-Å molecular sieve (120 mg), toluene (5.0 ml), r.t., isolated yield, e.e. was determined by HPLC with a chiral stationary phase. <sup>b</sup>3c, 3d (0.3 mmol). <sup>c</sup>3i (0.1 mmol) with (R)-B2 as catalyst. <sup>d</sup>3l (0.1 mmol). Np, naphthyl; <sup>i</sup>Pr, isopropyl.
+
+## Synthetic applications
+
+We conducted studies to demonstrate the utility and potential applications of these enantioselective [5 + 2] cycloadditions (Fig. 4). The cycloadditions to generate the enantiomerically enriched oxygen-bridged polycyclic products 2e and 4c could be scaled up to >1-mmol scales efficiently, and with virtually no loss in yields or enantioselectivities.
+
+We also examined the transformations of the enantioenriched products generated from our process. The anti-Bredt compound 2e is highly reactive. Thus 1,2-reduction and 1,4-addition from the convex face proceeded readily to generate 5 and 6, respectively, in excellent yields and as single diastereomers. The Diels–Alder reaction of 2e with cyclopentadiene provided polycyclic 7 with 2.5:1 diastereomeric ratio (d.r.) and 88% e.e. (major). It is also worth noting that a compound closely related to 2e with its 8-azabicyclo[4.3.1] structure was an advanced intermediate in the asymmetric total synthesis of the natural product daphgraciline<sup>33</sup>. The bicyclo[4.3.1] decane 4c could be hydrogenated to afford saturated ketone 8. Treatment of 4c under Corey–Chaykovsky reaction conditions provided cyclopropanated 9, and the reaction with an excess of the sulfoxonium reagent further induced epoxidation to furnish 10 as a single diastereomer.
+
+![](images/ff0d5751bfdcfd2c8225f36014e6651260dbafb7548149777d81e15d1029708e.jpg)
+
+![](images/b6ef82d8a7b4795c08f21824c8324171c6b5f8004796630faa66485b517e094f.jpg)  
+Fig. 4 | Scaled-up syntheses and product transformations. a, (1) CeCl ·7H O, NaBH , methanol, 0 °C; (2) PhSH, $\mathsf { E t } _ { 3 } \mathsf { N } , \mathsf { C H } _ { 2 } \mathsf { C l } _ { 2 } , \mathsf { r } . \mathsf { t } . ; ( 3 )$ cyclopentadiene, $. Z \mathsf { n C l } _ { 2 } ,$ benzene, r.t. b, (4) Ph SiH , Pd(PPh ) , ZnCl , CHCl , r.t.; (5) 1.0 equiv. Me SO<sup>+</sup>I<sup>−</sup>, 1.1 equiv. NaH, DMSO, 0 °C → r.t.; (6) 2.2 equiv. Me SO<sup>+</sup>I<sup>−</sup>, 2.2 equiv. NaH, DMSO, 0 °C → r.t. DMSO, dimethylsulfoxide; equiv., equivalent.
+
+![](images/4f8ea643dd2b975167fdd74aecc44b2a959b8b91e435e4b5f66bdfe59a4b3719.jpg)
+
+![](images/8de26beb2a6ddf452cafbd55ce6e764e26058ba263721f26ca0a0d01c04e3bf2.jpg)
+
+![](images/47d32579346e517fb5e1585841f9493088f96104c7158601bf341211226a8e59.jpg)  
+Fig. 5 | Mechanism experiments. a, A primary kinetic isotope effect was observed, indicating that enolization is the rate-determining step. b, A linear relationship between the reaction rate (2e) and the loading of catalyst (R)-B1 indicated first-order kinetics in catalyst. c, A linear relationship exists
+
+![](images/675cf7734cd98de50e1cf3caeec24237b208d9bb0d16e9a140e8fdebfbd17461.jpg)  
+between the e.e. values of catalyst B1 and those of product 2e. d, Time dependence of the e.e. values of the recovered 1e and product 2e and yield of 2e in the reaction process.
+
+Density functional theory calculation and mechanism studies To better understand the reaction mechanism, the following experiments on the type II cycloaddition were conducted. First, a kinetic isotope effect experiment using α-deuterated pyranone 1a-d indicated that the non-deuterated substrate 1a reacted 7.2 times faster $( k _ { \mathrm { H } } / k _ { \mathrm { D } } = 7 . 2 )$ , suggesting that cleavage of the α-C–H bond, that is, enolization, is the rate-determining step (Fig. 5a). Secondly, the reaction was found to be first order in catalyst, suggesting that one CPA molecule is likely to be involved in or before the rate-determining enolization step (Fig. 5b). The e.e. values of product were found to have a linear relationship with the e.e. values of the catalyst (Fig. 5c).
+
+Finally, over the course of the reaction, the e.e. value of the prod uct remained constant, but the e.e. value of the remaining unreacted substrate increased over time (Fig. 5d). These results indicated that kinetic resolution of the substrate occurs, and the elimination of the methoxy group is likely to be irreversible. The enantioconvergence may be due to the formation of the achiral oxidopyrylium ylide intermediate. Moreover, the C–C bond formation step is enantiodetermining, but not rate-determining.
+
+![](images/c88f02023610b36ae149ac863bdff12283c7fb9cad8ea5d86245605c9f59c9d2.jpg)  
+Fig. 6 | DFT calculations. a, DFT-calculated energy profile for the type II intramolecular [5 + 2] cycloaddition reaction from 1ac to 2ac. The CPA molecule used is (R)-B1 catalyst used experimentally. ∆G, free energy change; ∆E, electronic energy change. b, The relative stability of the pair of the most favourable enantiodetermining transition-state structures for the formation of the major and minor enantioselective products. TS, transition state. Level  
+of theory: optimized at M06-2X/6-31G\*\*, single-point energy at M06-2X/def2- TZVPP with the SMD solvation model and toluene as the solvent. Relative free energies and electronic energies (in parentheses) are given in kcal mol<sup>−1</sup>; bond lengths are given in ångströms. Gray, carbon; red, oxygen; yellow, sulfur; orange, phosphorus.
+
+To gain further insight into the mechanism, we conducted density functional theory (DFT) calculations on the type II intramolecular $[ 5 + 2 ]$ cycloaddition using model substrate 1ac and catalyst (R)-B1. Figure 6a depicts the energy profile for the most favourable pathway, which mainly consists of four steps, namely, enolization, elimination to form the oxidopyrylium, cycloaddition, and product release. The first step is the CPA-assisted enolization of the activated IM1 to produce enol IM2. The barrier for this enolization was calculated to be 20.4 kcal mol<sup>−1</sup>, which is the highest in the whole reaction process. Thus, this step is rate-determining, consistent with the significant primary kinetic isotope effect that was found experimentally. The observation of the kinetic resolution of the substrate can be explained by the irreversibility of this step and the different enolization rates of the two enantiomers imposed by the chiral catalyst. The second step generates the oxidopyrylium intermediate IM3 by extrusion of the methoxy group as methanol, which is also assisted by the CPA catalyst. Next, the enantiodetermining concerted carbon–carbon bond formation via transition state $\mathbf { T S } _ { 4 5 }$ involves only one CPA molecule, which is consistent with the absence of non-linear effects. The final step releases the cycloadduct by exchange with another molecule of the substrate to complete the catalytic cycle.
+
+We also explored alternative pathways for the generation of the key oxidopyrylium intermediate IM3. Unfortunately, a catalyst-assisted concerted elimination/enolization transition state was not found. Next, the dissociation of the methoxy group prior to enolization was considered. However, the corresponding intermediate IM2′ resulting from this dissociation was calculated to be 28.6 kcal mol<sup>−1</sup> (see Supplementary Fig. 1 for details), which is already higher than the activation barrier of the previous mechanism (20.4 kcal mol<sup>−1</sup>, Fig. 6a). Therefore, the barrier for this pathway should be significantly greater, and thus can be excluded. This can be rationalized because dissociation of methoxide results in aromatization to form IM3, whereas dissociation of methoxide prior to enolization does not gain any particular stabilization, thus requiring a higher energy cost.
+
+We then investigated the origins of enantioselectivity by comparing the lowest-energy conformers calculated for the two enantiodetermining transition states, $\mathbf { T S _ { 4 5 \cdot m a j o r } }$ and $\mathbf { T S _ { 4 5 \cdot m i n o r } } ,$ as illustrated in Fig. 6b. We found a shorter O<sup>…</sup>H distance in $\mathbf { T S _ { 4 5 \cdot m a j o r } } ( 1 . 3 1 \mathring { \mathbf { A } } )$ , suggesting more effective hydrogen-bond activation than that in $\mathbf { T S _ { 4 5 \cdot m i n o r } }$ (1.43 Å). In addition, the C–H<sup>…</sup>π interaction between the methyl group of an aryl substituent in catalyst (R)-B1 and the aryl ring of substrate 1ac is stronger in $\mathbf { T S _ { 4 5 \cdot m a j o r } }$ than that in $\mathbf { T S _ { 4 5 \cdot m i n o r } }$ . It was believed that the stronger hydrogen-bonding and C–H<sup>…</sup>π interactions in $\mathbf { T S _ { 4 5 \cdot m a j o r } }$ contribute to the energy difference between these two enantiodetermining transition states.
+
+Conformer–Rotamer Ensemble Sampling Tool (CREST) analysis (see Supplementary Fig. 2 for details) identified the three lowest-energy conformers of $\mathbf { T S _ { 4 5 m a j o r } }$ and the lowest-energy conformer $\mathbf { T S _ { 4 5 \operatorname* { m i n } \mathbf { o r } ^ { . } } }$ These conformers were used to calculate the e.e. via the Boltzmann distribution to estimate the ratio of major and minor enantiomers. This allowed an estimation of 74% e.e., in good agreement with the experimentally observed value of 78% e.e.
+
+## Conclusion
+
+We have developed a catalytic enantioselective type II [5 + 2] cycloaddition reaction of oxidopyrylium ylides, a formidable challenge that necessitates overcoming the formation of strained, anti-Bredt cycloadducts bearing bridge-head double bonds while exerting enantiocontrol. The process also represents the first demonstration of non-covalent activation by a chiral acid catalysis for the challenging asymmetric induction of cycloadditions of oxidopyryliums, in contrast the previously required covalent activation. The choice of a suitable leaving group to facilitate the in situ generation of the key 3-oxidopyrylium intermediate under acidic conditions proved crucial to the success of these reactions. Notably, CPAs derived from the SPHENOL backbone developed in our own laboratories proved uniquely effective at inducing enantioselectivity in some of these cycloadditions. The protocol provides various functionalized and bridged carbocycles, which can serve as advanced intermediates in complex molecule synthesis, a few of which are already the core structures of some important natural products and drug molecules. Our mechanistic experiments and DFT calculations indicate that the reaction pathway involves enolization as the rate-determining step prior to elimination of the alkoxide to form the key 3-oxidopyrylium ylide intermediate, which is followed by the enantiodiscriminating $[ 5 + 2 ]$ cycloaddition. The chiral acid catalyst plays a dual role, serving as (1) a promoter for the rate-determining enolization and (2) a source of asymmetric induction for the enantioselective C–C bond formation. This protocol is expected to be applicable to other cycloadditions and would find more applications in the rapid synthesis and diversification of other useful complex molecules.
+
+## Methods
+
+## Enantioselective synthesis of 8-azabicyclo[4.3.1]decanes
+
+An oven-dried 20-ml vial was charged with 1 (0.3 mmol), 4-Å molecular sieve (160 mg, 480 mg mmol<sup>−1</sup>), dry toluene (0.05 M, 6 ml) and (R)-B1 (10 mol%). The vial was sealed and allowed to stir at room temperature and the progress was monitored by thin-layer chromatography. Next, the mixture was concentrated under reduced pressure. The crude product was purified by silica-gel flash chromatography (n-hexane/ethyl acetate, 10:1 → 3:1). The e.e. was determined by chiral high-performance liquid chromatography (HPLC) after chromatographic purification on silica gel.
+
+## Enantioselective synthesis of cycloadducts with bicyclo[4.n.1] alkane cores
+
+An oven-dried 20-ml vial was charged with 3 (0.25 mmol), 4-Å molecular sieve (120 mg, 480 mg mmol<sup>−1</sup>, stored in a glovebox), dry toluene (0.05 M, 5 ml) and (R)-A4 (10 mol%). The vial was sealed and allowed to stir at room temperature and the progress was monitored by thin-layer chromatography. Next, the mixture was concentrated under reduced pressure. The crude product was purified by silica-gel flash chromatography (n-hexane/ethyl acetate, 10:1 → 4:1). The e.e. was determined by chiral HPLC after chromatographic purification on silica gel.
+
+## Data availability
+
+All data, including experimental details, characterization data, NMR spectra and HLPC traces, are available in the Supplementary Information. The X-ray crystallographic coordinates for structures of 2h′ and 4c have been deposited at the Cambridge Crystallographic Data Centre under deposition numbers CCDC 2340809 and 2340807, respectively, and can be obtained free of charge from the CCDC via http://www.ccdc. cam.ac.uk/data\_request/cif.
+
+## References
+
+1. Nicolaou, K. C., Hale, C. R., Nilewski, C. & Ioannidou, H. A. Constructing molecular complexity and diversity: total synthesis of natural products of biological and medicinal importance. Chem. Soc. Rev. 41, 5185–5238 (2012).
+
+2. Zhao, W. Novel syntheses of bridge-containing organic compounds. Chem. Rev. 110, 1706–1745 (2010).
+
+3. Ruiz, M., Lopez-Alvarado, P., Giorgi, G. & Menendez, J. C. Domino reactions for the synthesis of bridged bicyclic frameworks: fast access to bicyclo[n.3.1]alkanes. Chem. Soc. Rev. 40, 3445–3454 (2011).
+
+4. Rodriguez, S. et al. Enantioselective construction of the 8-azabicyclo[3.2.1]octane scafold: application in the synthesis of tropane alkaloids. Org. Biomol. Chem. 19, 3763–3775 (2021).
+
+5. Kobayashi, S. & Jørgensen, K. A. Cycloaddition Reactions in Organic Synthesis (Wiley-VCH, 2002).
+
+6. Presset, M., Coquerel, Y. & Rodriguez, J. Syntheses and applications of functionalized bicyclo[3.2.1]octanes: thirteen years of progress. Chem. Rev. 113, 525–595 (2013).
+
+7. Gao, K., Zhang, Y. G., Wang, Z. & Ding, H. Recent development on the [5 + 2] cycloadditions and their application in natural product synthesis. Chem. Commun. 55, 1859–1878 (2019).
+
+8. Ylijoki, K. E. & Stryker, J. M. [5 + 2] Cycloaddition reactions in organic and natural product synthesis. Chem. Rev. 113, 2244–2266 (2013).
+
+9. Gao, K., Hu, J. & Ding, H. Tetracyclic diterpenoid synthesis facilitated by ODI-cascade approaches to bicyclo[3.2.1]octane skeletons. Acc. Chem. Res. 54, 875–889 (2021).
+
+10. Otevrel, J., Eugui, M., Ričko, S. & Jørgensen, K. A. Enantioselective organocatalytic cycloadditions for the synthesis of medium-sized rings. Nat. Synth. 2, 1142–1158 (2023).
+
+11. Liu, C. H. & Yu, Z. X. Rhodium(I)-catalyzed bridged [5 + 2] cycloaddition of cis-allene-vinylcyclopropanes to synthesize the bicyclo[4.3.1]decane skeleton. Angew. Chem. Int. Ed. 56, 8667–8671 (2017).
+
+12. Singh, V., Murali Krishna, U., Vikrant & Trivedi, G. K. Cycloaddition of oxidopyrylium species in organic synthesis. Tetrahedron 64, 3405–3428 (2008).
+
+13. Pellissier, H. Recent developments in the [5+2] cycloaddition. Adv. Synth. Cat. 353, 189–218 (2011).
+
+14. Bejcek, L. P. & Murelli, R. P. Oxidopyrylium [5 + 2] cycloaddition chemistry: historical perspective and recent advances (2008– 2018). Tetrahedron 74, 2501–2521 (2018).
+
+15. Hendrickson, J. B. & Farina, J. S. A new 7-ring cycloaddition reaction. J. Org. Chem. 45, 3359–3361 (1980).
+
+16. Sammes, P. G. & Street, L. J. Intramolecular cycloadditions with oxidopyrylium ylides. J. Chem. Soc. https://doi.org/10.1039/ C39820001056 (1982).
+
+17. Aggarwal, V. K. et al. Highly diastereoselective 1,3-dipolar cycloaddition reactions of trans-2-methylene-1,3-dithiolane 1,3-dioxide with 3-oxidopyridinium and 3-oxidopyrylium betaines: a route to the tropane skeleton. Org. Biomol. Chem. 1, 1884–1893 (2003).
+
+18. Wender, P. A., Rice, K. D. & Schnute, M. E. The first formal asymmetric synthesis of phorbol. J. Am. Chem. Soc. 119, 7897–7898 (1997).
+
+19. Zou, Y. P. et al. Total synthesis of (±)- and (−)-daphnillonin B. J. Am. Chem. Soc. 145, 10998–11004 (2023).
+
+20. Mei, G., Liu, X., Qiao, C., Chen, W. & Li, C. C. Type II intramolecular [5 + 2] cycloaddition: facile synthesis of highly functionalized bridged ring systems. Angew. Chem. Int. Ed. 54, 1754–1758 (2015).
+
+21. Min, L., Liu, X. & Li, C. C. Total synthesis of natural products with bridged bicyclo[m.n.1] ring systems via type II [5 + 2] cycloaddition. Acc. Chem. Res. 53, 703–718 (2020).
+
+22. Min, L., Hu, Y. J., Fan, J. H., Zhang, W. & Li, C. C. Synthetic applications of type II intramolecular cycloadditions. Chem. Soc. Rev. 49, 7015–7043 (2020).
+
+23. Mak, J. Y., Pouwer, R. H. & Williams, C. M. Natural products with anti-Bredt and bridge-head double bonds. Angew. Chem. Int. Ed. 53, 13664–13688 (2014).
+
+24. Liu, J., Liu, X., Wu, J. & Li, C.-C. Total synthesis of natural products containing a bridge-head double bond. Chem 6, 579–615 (2020).
+
+25. Bredt, J. Steric hindrance in the bridge ring (Bredt’s rule) and the meso-trans-position in condensed ring systems of the hexamethylenes. Justus Liebigs Ann. Chem 437, 1–13 (1924).
+
+26. Burns, N. Z., Witten, M. R. & Jacobsen, E. N. Dual catalysis in enantioselective oxidopyrylium-based [5 + 2] cycloadditions. J. Am. Chem. Soc. 133, 14578–14581 (2011).
+
+27. Witten, M. R. & Jacobsen, E. N. Catalytic asymmetric synthesis of 8-oxabicyclooctanes by intermolecular [5 + 2] pyrylium cycloadditions. Angew. Chem. Int. Ed. 53, 5912–5916 (2014).
+
+28. Orue, A., Uria, U., Reyes, E., Carrillo, L. & Vicario, J. L. Catalytic enantioselective [5 + 2] cycloaddition between oxidopyrylium ylides and enals under dienamine activation. Angew. Chem. Int. Ed. 54, 3043–3046 (2015).
+
+29. Fuhr, K. N., Hirsch, D. R., Murelli, R. P. & Brenner-Moyer, S. E. Catalytic enantioselective intermolecular [5 + 2] dipolar cycloadditions of a 3-hydroxy-4-pyrone-derived oxidopyrylium ylide. Org. Lett. 19, 6356–6359 (2017).
+
+30. Liu, J. et al. Asymmetric total synthesis of cyclocitrinol. J. Am. Chem. Soc. 140, 5365–5369 (2018).
+
+31. Liu, X. et al. Asymmetric total synthesis of cerorubenic acid-III. J. Am. Chem. Soc. 141, 2872–2877 (2019).
+
+32. Min, L., Lin, X. & Li, C. C. Asymmetric total synthesis of (−)-vinigrol. J. Am. Chem. Soc. 141, 15773–15778 (2019).
+
+33. Li, L.-X. et al. Total synthesis of yuzurine-type alkaloid daphgraciline. J. Am. Chem. Soc. 144, 18823–18828 (2022).
+
+34. Zhang, R., Ge, S. & Sun, J. SPHENOL, a new chiral framework for asymmetric synthesis. J. Am. Chem. Soc. 143, 12445–12449 (2021).
+
+35. Spiegel, D. A., Njardarson, J. T., McDonald, I. M. & Wood, J. L. The art of innovation in organic chemistry: synthetic eforts toward the phomoidrides. Chem. Rev. 103, 2691–2728 (2003).
+
+## Acknowledgements
+
+We thank the National Natural Science Foundation of China (22271242 and 22471232 to J.S.), the Hong Kong Research Grants Council (C6012-21G, 16304322, 16309722 and 16309023 to J.S.) and the Innovation and Technology Commission (ITC-CNERC14SC01 to J.S.) for financial support. L.Y. thanks the Hong Kong Scholars Program for a postdoctoral fellowship. P.C. acknowledges the support of the State Key Laboratory of Synthetic Chemistry. We also thank H. H. Y. Sung for help with structure elucidation.
+
+## Author contributions
+
+J.S. conceived and directed the project. L.Y. designed and performed experiments. Z.L. conceived and directed the computational study. K.L.C. and K.K.C. performed the computational study. P.C. assisted with the mechanism study. All authors discussed the results and commented on the paper.
+
+## Competing interests
+
+The authors declare no competing interests.
+
+## Additional information
+
+Supplementary information The online version contains supplementary material available at https://doi.org/10.1038/s44160-025-00803-w.
+
+Correspondence and requests for materials should be addressed to Zhenyang Lin or Jianwei Sun.
+
+Peer review information Nature Synthesis thanks the anonymous reviewers for their contribution to the peer review of this work. Primary Handling Editor: Thomas West, in collaboration with the Nature Synthesis team.
+
+Reprints and permissions information is available at www.nature.com/reprints.
+
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional afiliations.
+
+Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.
+
+© The Author(s), under exclusive licence to Springer Nature Limited 2025

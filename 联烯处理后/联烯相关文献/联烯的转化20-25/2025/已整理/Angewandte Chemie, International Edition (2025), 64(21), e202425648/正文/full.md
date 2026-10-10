@@ -1,0 +1,251 @@
+Cyclic Polymers
+
+How to cite: Angew. Chem. Int. Ed. 2025, 64, e202425648
+
+doi.org/10.1002/anie.202425648
+
+# Synthesis of Linear and Cyclic Poly(allenamer)s by Powerful Cyclic–Alkyl–Amino–Carbene (CAAC) Ruthenium Catalysts and Facile Post-modification
+
+Yongkang Yang, Minjae Jang, Hoonseok Kang, Solhye Choe, Eunsung Lee,\* and Tae-Lim Choi\*
+
+Abstract: Cyclic polymers are very attractive due to their unique properties; however, so far, they have simple and less reactive backbone structures due to synthetic limitations, restricting their further post-modification. Notably, allenes present a potentially useful platform in polymer chemistry due to their well-established toolbox in organic chemistry. Nevertheless, the biggest challenge remains in synthesizing poly(allenamer)s with high allene contents or polymerization efficiency, as well as synthesizing different types of cyclic poly(allenamer)s. Herein, we synthesized linear and cyclic poly(allenamer)s via ring-opening metathesis polymerization (ROMP) and ring-expansion metathesis polymerization (REMP), employing highly efficient cyclic–alkyl–amino–carbene (CAAC) ruthenium catalysts. Mechanistic studies suggested CAAC ligands enhanced stability of propagating Ru vinylidene, enabling various linear and cyclic poly(allenamer)s with turnover number up to 1360 and molecular weight reaching 549 kDa. Their cyclic architecture was thoroughly characterized by multiangle light scattering size-exclusion chromatography (MALS SEC) with viscometer. Moreover, controlled ROMP of a highly reactive α-substituted cyclic allene was achieved using third-generation Grubbs catalyst. Finally, we demonstrated highly efficient and selective post-modifications on poly(allenamer)s with primary and secondary alcohols. This broadens the scope of cyclic polymers with improved efficiency and structural control, affording a practical platform for diverse macromolecules.
+
+## Introduction
+
+Allenes, the simplest cumulenes,<sup>[1]</sup> have emerged as valuable functional groups enabling diverse organic transformations due to their unique structures and reactivities.<sup>[2,3]</sup> Similarly, their incorporation into polymer chemistry holds significant potential<sup>[4–6]</sup> as poly(allenamer)s, with their unique unsaturation and axially chiral scaffolds, could serve as versatile platforms for further modification and application.<sup>[7–9]</sup> However, their synthetic accessibility remains highly restricted. A previous apporach to synthesize poly(allenamer)s involved a two-step post-modification of polynorbornenes, but yielded ill-defined backbones with varying allene incorporation (20% 95%).<sup>[10]</sup>
+
+Alternatively, direct polymerization from allene monomers offers a more promising strategy for accessing structurally well-defined poly(allenamer)s. Given the structural similarity between allenes and alkenes, both featuring C═C double bonds, ring-opening metathesis polymerization (ROMP) of cyclic allenes should, in priciple, provide a straightforward route to diverse poly(allenamer)s. However, despite this potential, there have been only three recent reports on the ROMP of cyclic allene utilizing Grubbs catalysts published independently and simultaneously by the Bielawski and Moore groups.<sup>[11–13]</sup> Initially, both studies demonstrated ROMP using only a single monomer, yielding the simplest poly(allenamer)s. However, despite the high ring strain of cyclic allenes (12.7 kcal mol−<sup>1</sup>), the polymerization process was relatively sluggish, with a limited turnover number (TON) of 70 from second-generation Grubbs catalyst (G2), whereas first-generation Grubbs’ catalyst (G1) was inactive at all.<sup>[11]</sup> Very recently, Moore’s group improved the efficiency of ROMP by introducing bulky substituents to the cyclic allenes.<sup>[13]</sup> Nevertheless, achieving more complex architectures such as cyclic poly(allenamer)s remains a challenge and would require the development of more robust catalysts.
+
+The synthesis of cyclic polymers remains highly challenging yet crucial as these macromolecules possess “endless” hoop-like architectures that distinguish them from their linear counterparts. This unique topology imparts distinctive properties, including reduced hydrodynamic radii, enhanced thermal stability, and lower viscosity, rendering them valuable for a wide range of applications.<sup>[14,15]</sup> Ring-expansion metathesis polymerization (REMP) of cyclic monomers represents one of the most appealing methods toward structurally well-defined and high molecular weight cyclic macromolecules.<sup>[16,17]</sup> However, the development of REMP remains limited, likely due to the restricted scope of suitable monomers.<sup>[18–20]</sup> For example, state-of-art cyclic Ru catalysts containing N-heterocyclic carbene (NHC) ligands have been reported for REMP of highly reactive norbornene, whereas they exhibit a significant loss of activity in the REMP of cyclic allenes, potentially due to their limited stability and/or catalytic efficiency.<sup>[21,22]</sup>
+
+![](images/632f813dfca0ddf024d59b50526413aa4421311ad04b1f3baba0b41df77e02fb.jpg)  
+Figure 1. Comparison of previous ROMP of cyclic allenes to current ROMP and REMP.
+
+Compared to NHC ligands in many of Grubbs’ catalysts (e.g., G2, Figure 1a), cyclic–alkyl–amino–carbene (CAAC) ligands (Figure 1b), characterized by stronger σ donation and π acceptance, exhibit superior coordination to the metal center and improved catalytic activity.<sup>[23–25]</sup> Additionally, the increased steric bulk of CAAC ligands contributes to greater stability of both the catalysts and their propagation carbenes.<sup>[26,27]</sup> Consequently, several commercially available CAAC–Ru catalysts have shown significantly improved catalytic efficiency and regioselectivity compared to conventional Grubbs’ catalysts,<sup>[28]</sup> particularly in cross-metathesis reactions involving terminal olefins<sup>[29,30]</sup> and allenes.<sup>[31]</sup> Based on these considerations, we hypothesized that CAAC– Ru catalysts should improve the overall performance of ROMP/REMP for challenging cyclic allenes. Indeed, our very recent study disclosed a new type of cyclic CAAC–Ru catalysts on the first successful REMP of simple cyclic allene.<sup>[32]</sup>
+
+Herein, we systematically report the superior performance of highly stable CAAC–Ru catalysts in both ROMP and REMP of various cyclic allenes. Mechanistic study elucidated that the key to this success lies in the stabilization of the Ru vinylidene carbene intermediate by the CAAC ligand. A diverse range of substituted cyclic allenes underwent efficient ROMP and REMP with TON up to 1360, yielding a library of linear and cyclic poly(allenamer)s with $M _ { \mathrm { n } }$ reaching 549 kDa. Furthermore, utilizing a highly reactive α-substituted cyclic allene in combination with the third-generation Grubbs’ catalyst (G3), we achieved the groundbreaking controlled ROMP with low dispersity for the first time. Lastly, leveraging the versatile reactivity of allenes, we disclosed a highly efficient selective post-modification strategy involving the addition of alcohols to poly(allenamer)s, thereby further broadening the scope of cyclic polymers.
+
+Table 1: ROMP of M1.<sup>a)</sup>
+<table><tr><td>Entry M/I</td><td></td><td>Cat.</td><td>Time (h)</td><td>Conv. (%) b)</td><td>Yield (%)c) Mn(kDa)d) Đd)</td><td></td><td></td></tr><tr><td>1</td><td>250</td><td>G2</td><td>2</td><td>29</td><td>一</td><td>一</td><td>一</td></tr><tr><td>2</td><td>250</td><td>Ru1</td><td>2</td><td>77</td><td>45</td><td>13.1</td><td>2.20</td></tr><tr><td>3</td><td>250</td><td>Ru2</td><td>2</td><td>&gt;99</td><td>67</td><td>17.7</td><td>2.31</td></tr><tr><td>4</td><td>250</td><td>Ru3</td><td>2</td><td>95</td><td>61</td><td>18.1</td><td>2.09</td></tr><tr><td>5</td><td>500</td><td>Ru2</td><td>6</td><td>93</td><td>54</td><td>26.7</td><td>2.02</td></tr><tr><td>6</td><td>500</td><td>Ru3</td><td>6</td><td>82</td><td>47</td><td>20.7</td><td>1.91</td></tr><tr><td>7</td><td>1000</td><td>Ru2</td><td>12e)</td><td>71</td><td>44</td><td>34.7</td><td>2.28</td></tr></table>
+
+<sup>a)</sup> General conditions: neat and rt. <sup>b)</sup> Determined by crude <sup>1</sup>H NMR analysis. <sup>c)</sup> Isolated yield after precipitation into MeOH. <sup>d)</sup> Determined by THF SEC calibrated by polystyrene standards. <sup>e)</sup> Conducted at 50 °C.
+
+![](images/eb58fbc26e2feb5fc31a1540c635b5eb83f5739bfc84c2d11da5a3ef6e4a12ad.jpg)  
+Figure 2. ROMP of cyclic allene monomers and catalysts.
+
+## Results and Discussion
+
+For the initial exploration of ROMP using nonsubstituted cyclic allene (M1), we first tested the activity of G2 with a monomer-to-initiator (M/I) ratio of 250 under neat conditions at room temperature (Entry 1, Table 1). As expected from the literature, ROMP proceeded with 29% conversion (conv.% $= 1 0 0 \% \times 1 \mathrm { H _ { p o l y m e r } / ( ^ { 1 } H _ { p o l y m e r } ~ + ~ ^ { 1 } H _ { m o n o m e r s } ) }$ , according to <sup>1</sup>H NMR analysis, Figure S1) or TON of 72.<sup>[12]</sup> To our delight, replacing the NHC ligand with CAAC greatly enhanced catalytic performance, outperforming G2 under identical conditions. When ROMP of M1 was tested with three commercially available CAAC–Ru catalysts (Ru1–Ru3, Figure 2c), conversions above 77% were achieved (Entries 2–4). Notably, Ru2 and Ru3, which feature a bulkier diethyl phenyl substituent instead of mesityl in Ru1, exhibited markedly higher conversions exceeding 95%, yielding P1 with a number-average molecular weight $( M _ { \mathrm { n } } )$ of 18 kDa. Further, evaluation at M/I 500 revealed that the bulkiest Ru2 exhibited the highest conversion of 93% $( M _ { \mathrm { n } } = 2 6 . 7 \mathrm { k D a }$ Ð 2.02, Entry 5) compared to 82% of Ru3 $( M _ { \mathrm { n } } = 2 0 . 7 \mathrm { k D a }$ Ð 1.91, Entry 6). Benefiting from its excellent performance, we further increased the feed ratio to 1000 and temperature to 50 °C (Entry 7). As a result, we obtained P1 with $M _ { \mathrm { n } }$ up to 34.7 kDa $( \mathcal { P } = 2 . 2 8 )$ , significantly surpassing the previously reported 10.4 kDa $( D = 2 . 9 ) , ^ { [ 1 2 ] }$ and more importantly, with the highest TON of 710 (71% conversion from M/I 1000, TON 1000 71%), over ten times the previous reports.
+
+![](images/6fbf1da70ed82cad6d05111232b060b967c4dfd79ee5c625b41257bd660cc760.jpg)  
+Figure 3. a) Mechanism study using Ru3 and cis-COE or M1 (resulting in Ru alkylidene or vinylidene carbene) and b) their corresponding $^ { 1 3 } \mathsf { C }$ NMR comparison.
+
+Subsequently, we delved into the mechanism for ROMP for cyclic allenes with Ru3 displaying faster initiation.<sup>[28]</sup> Figure 3a illustrates two possible pathways depending on the insertion orientation of the monomer into Ru3: α- or $\beta -$ addition, resulting in Ru alkylidene or vinylidene carbene, respectively. As a control experiment, we treated Ru3 with cis-cyclooctene (COE) and 3-Cl pyridine (Py), a wellestablished ROMP example, and identified the Ru alkylidene carbene at 18.64 ppm in <sup>1</sup>H NMR (Figure S3). However, when M1 was used instead of COE under identical conditions, no new peaks above 10 ppm were observed, implying that Ru alkylidene carbene via α-addition was unlikely to be the propagating intermediate (Figure S3). Furthermore, endgroup analysis of the styrene-terminated oligomer revealed two distinct peaks at 6.65 ppm with $^ { 3 } J ~ = ~ 1 6 . 0$ Hz and 6.45 ppm with $^ { 3 } J = 1 2 . 0 ~ \mathrm { H z }$ , suggesting for the formation of typical trans and cis C═C double bonds (Figures 3a (red protons) and S4) as well as Ru vinylidene carbene via $\beta -$ addition. The decisive proof came from <sup>13</sup>C NMR analysis. As depicted in Figure 3b, the benzylidene of Ru3 appeared at 263.5 ppm, whereas Ru alkylidene carbene after reacting with cis-COE and Py appeared at 270.4 ppm. However, when Ru3 reacted with M1 in the presence of Py ligands, a completely new peak emerged at 346.5 ppm, with no signals observed between 240–300 ppm.<sup>[11]</sup> Overall, these findings confirm that Ru vinylidene was the propagating species during ROMP of cyclic allenes initiated by CAAC– Ru, not alkylidene as proposed previously.<sup>[11]</sup> This conclusion implies that greatly enhanced stability of strongly coordinated CAAC–Ru vinylidene compared to NHC–Ru vinylidene<sup>[12]</sup> would be the main reason why catalytic performance on ROMP of cyclic allenes was greatly improved. In contrast, if Ru alkylidene were the propagating species (as in ROMP of cis-COE), NHC–Ru catalysts should have exhibited similar polymerization efficiency for M1, which was not observed.
+
+With this mechanistic insight, we expanded the ROMP scope to other substituted cyclic allenes, M2–M5, which were easily synthesized from 1,4-cyclooctadiene (see Scheme S2–S5 for details). First, M2 and M3 containing bis-benzyloxy groups at the 6 and 7 positions were designed as trans and cis stereoisomers, respectively (Figure 2b). Using Ru2, both M2 and M3 exhibited good ROMP performance with a maximum TON of 300 (Entries 1–8, Table 2). Notably, ROMP under neat conditions at $\mathbf { M } / \mathrm { I } \le 1 0 0$ should be avoided as it would lead to rapid gelation upon catalyst addition. Unlike M1, ROMP of M2 and M3 displayed roughly controlled $M _ { \mathrm { n } }$ ranging from 11.3 to 98.9 kDa with increasing feed ratios from 50 to 500, despite high dispersities $( \boldsymbol { D } = 1 . 7 9 – 2 . 7 2 )$ due to chain transfer reactions. Another allene monomer M4, fused cyclic acetal group in cis-configuration, exhibited good ROMP performance with a maximum TON of 200, $M _ { \mathrm { n } }$ up to 33.8 kDa, and Ð of 2.69 under neat and 60 $^ \circ \mathrm { C }$ conditions (Entries 9–12). However, its trans analog M5 displayed much lower conversion of 60% even at M/I 50, resulting in P5 with $M _ { \mathfrak { n } }$ of 5.6 kDa and Ð of 2.71 (Scheme S6). This significant difference is still puzzling as the ring-strain energy (RSE) of both monomers calculated by DFT are high enough $( \mathrm { R S E } _ { \mathbf { M } 4 } = 1 4 . 0$ kcal mol−<sup>1</sup> and $\mathrm { R S E } _ { \mathbf { M } \mathbf { 5 } } = 1 3 . 3$ kcal mol−<sup>1</sup>, Table S2).
+
+Despite these advances, the overall performance of allene ROMP still lagged behind that of conventional ROMP of cyclic alkenes. This prompted us to explore more reactive monomers. Recently, Moore’s group reported improved ROMP of cyclic allenes containing bulky substituents using G2, presumably due to destabilization on their metallacyclobutane intermediate leading to faster ROMP (TON 330).<sup>[13]</sup> Additionally, based on our previous reports,<sup>[33–36]</sup> we postulated that introducing a bulky α-substituent near the propagating Ru vinylidene would enhance its stability and improve ROMP performance. Therefore, we designed a highly bulky α-OTIPS substituted cyclic allene, M6 (Figure 2b), and ROMP was successful at M/I 50, yielding P6 with $M _ { \mathrm { n } }$ of 9.1 kDa and Ð of 1.94 (Entry 1, Table 3). Interestingly, <sup>1</sup>H NMR analysis of P6 indicated a high head-to-tail (HT) selectivity of 86% (HT% 100% $\mathrm { ^ { 1 } \bar { H _ { H T } } / ( ^ { 1 } H _ { H T } + ^ { 1 } H _ { H H } + ^ { 1 } H _ { H T } ) }$ , Figure S2). However, ROMP at M/I 100 exhibited lower conversion of 61% (Entry 2), likely due to too slow propagation hampered by too bulky α-OTIPS group. Nevertheless, with slightly higher $M _ { \mathrm { n } }$ of 11.4 kDa, exceptional HT selectivity exceeding 99% was obtained (Figures S2 and S29).
+
+Table 2: ROMP of substituted cyclic allenes M2–M5 catalyzed by $\mathsf { R } \mathsf { u } 2 . \mathsf { \Omega } ^ { \mathrm { a } } )$
+<table><tr><td>Entry</td><td>M</td><td>M/1</td><td>Conc. (M)</td><td>Temp. (°C)</td><td> $\mathsf { C o n v . } ( \% ) ^ { \mathsf { b } ) }$ </td><td> $\forall \mathsf { i e l d \ ( \% ) ^ { c ) } }$ </td><td> $M _ { \mathfrak { n } } \ ( \mathsf { k } \mathsf { D } \mathsf { a } ) ^ { \mathsf { d } ) }$ </td><td> $\phi ^ { \mathrm { d } ) }$ </td></tr><tr><td>1</td><td>M2</td><td>50</td><td>1</td><td>rt</td><td>&gt;99</td><td>91</td><td>17.3</td><td>2.53</td></tr><tr><td>2</td><td>M2</td><td>100</td><td>1</td><td>rt</td><td>&gt;99</td><td>89</td><td>35.1</td><td>1.94</td></tr><tr><td>3</td><td>M2</td><td>200</td><td>neat</td><td>rt</td><td>98</td><td>86</td><td>65.1</td><td>2.11</td></tr><tr><td>4</td><td>M2</td><td>500</td><td>neat</td><td>50</td><td>60</td><td>57</td><td>90.7</td><td>2.72</td></tr><tr><td>5</td><td>M3</td><td>50</td><td>2</td><td>rt</td><td>&gt;99</td><td>89</td><td>11.3</td><td>2.10</td></tr><tr><td>6</td><td>M3</td><td>100</td><td>2</td><td>rt</td><td>&gt;99</td><td>90</td><td>21.6</td><td>2.24</td></tr><tr><td>7</td><td>M3</td><td>200</td><td>neat</td><td>50</td><td>&gt;99</td><td>89</td><td>87.9</td><td>1.79</td></tr><tr><td>8</td><td>M3</td><td>500</td><td>neat</td><td>60</td><td>61</td><td>57</td><td>98.9</td><td>2.48</td></tr><tr><td>9</td><td>M4</td><td>50</td><td>2</td><td>rt</td><td>&gt;99</td><td>70</td><td>9.9</td><td>1.82</td></tr><tr><td>10</td><td>M4</td><td>100</td><td>2</td><td>rt</td><td>97</td><td>66</td><td>17.2</td><td>2.37</td></tr><tr><td>11</td><td>M4</td><td>200</td><td>neat</td><td>50</td><td>87</td><td>50</td><td>31.4</td><td>2.80</td></tr><tr><td>12</td><td>M4</td><td>300</td><td>neat</td><td>60</td><td>67</td><td>37</td><td>33.8</td><td>2.69</td></tr></table>
+
+<sup>a)</sup> ROMP was run for 12 h. <sup>b)</sup> Determined by crude <sup>1</sup>H NMR analysis. <sup>c)</sup> Isolated yield after precipitation into MeOH. <sup>d)</sup> Determined by THF SEC calibrated by polystyrene standards.
+
+Table 3: ROMP of α-substituted cyclic allenes M6 and M7.
+<table><tr><td colspan="10"></td></tr><tr><td>Entry M</td><td>M/I</td><td></td><td>Cat.</td><td>Conc. (M)</td><td>Temp. (°C)</td><td>Time (h)</td><td> $\mathsf { C o n v . } ( \% ) ^ { a ) }$ </td><td> $\forall \mathsf { i e l d \ ( \% ) } ^ { \mathsf { b } ) }$ </td><td> $M _ { \mathfrak { n } } ( M _ { \mathfrak { n } \mathrm { t h e o . } } )$   $( k \mathsf { D } \mathsf { a } ) ^ { \mathsf { c } ) }$ </td><td> $\wp ^ { \mathsf { c } ) }$ </td><td>HT  $( \% ) ^ { \mathsf { d } }$ </td></tr><tr><td>1</td><td>M6</td><td>50</td><td>Ru2</td><td>1</td><td>rt</td><td>12</td><td>88</td><td>59</td><td>9.1</td><td>1.94</td><td>86</td></tr><tr><td>2</td><td>M6</td><td>100</td><td>Ru2</td><td>1</td><td>rt</td><td>12</td><td>61</td><td>33</td><td>11.4</td><td>2.12</td><td>&gt;99</td></tr><tr><td>3</td><td>M7</td><td>300</td><td>Ru2</td><td>1</td><td>rt</td><td>6</td><td>&gt;99</td><td>92</td><td>45.9</td><td>1.81</td><td>&gt;99</td></tr><tr><td>4</td><td>M7</td><td>500</td><td>Ru2</td><td>1</td><td>rt</td><td>12</td><td>&gt;99</td><td>93</td><td>72.2</td><td>2.30</td><td>&gt;99</td></tr><tr><td>5</td><td>M7</td><td>500</td><td>HG2</td><td>1</td><td>rt</td><td>12</td><td>73</td><td>67</td><td>49.9</td><td>2.13</td><td>&gt;99</td></tr><tr><td>6</td><td>M7</td><td>1000</td><td>Ru2</td><td>2</td><td>rt</td><td>12</td><td>90</td><td>77</td><td>151.2</td><td>2.21</td><td>&gt;99</td></tr><tr><td>7</td><td>M7</td><td>2000</td><td>Ru2</td><td>2</td><td>rt</td><td>12</td><td>68</td><td>65</td><td>186.9</td><td>2.32</td><td>&gt;99</td></tr><tr><td>8</td><td>M7</td><td>20</td><td>G3</td><td>0.5</td><td>10</td><td>2</td><td>&gt;99</td><td>54</td><td>4.4 (5.0)</td><td>1.15</td><td>95</td></tr><tr><td>9</td><td>M7</td><td>40</td><td>G3</td><td>0.5</td><td>10</td><td>2</td><td>&gt;99</td><td>78</td><td>8.7 (10.0)</td><td>1.21</td><td>98</td></tr><tr><td>10</td><td>M7 M7</td><td>60</td><td>G3 G3</td><td>0.5</td><td>10</td><td>2</td><td>96</td><td>88</td><td>12.9 (14.5)</td><td>1.29</td><td>98</td></tr><tr><td>11</td><td></td><td>100</td><td></td><td>0.6</td><td>10</td><td>3</td><td>80</td><td>71</td><td>16.3 (20.2)</td><td>1.38</td><td>&gt;99</td></tr><tr><td>12</td><td>M7</td><td>200</td><td>G3</td><td>0.6</td><td>10</td><td>6</td><td>61</td><td>35</td><td>21.9 (30.7)</td><td>1.81</td><td>&gt;99</td></tr></table>
+
+<sup>a)</sup> Determined by crude <sup>1</sup>H NMR analysis. <sup>b)</sup> Isolated yield after precipitation into MeOH. <sup>c)</sup> Determined by THF SEC calibrated by polystyrene standards. <sup>d)</sup> Head-to-tail (HT) regioselectivity was calculated based on <sup>1</sup>H NMR of isolated polymers.
+
+Building on these observations, we further designed M7 by replacing $\alpha { \mathrm { - O T I P S } }$ in M6 with smaller α-OTBS group (Figure 2b) and found that M7 demonstrated excellent ROMP with a maximum TON of up to 1360 (Entries 3–7, Table 3). Moreover, better control over $M _ { \mathfrak { n } }$ was achieved, ranging from 45.9 to 186.9 kDa according to the feed ratios from 300 to 2000, despite high Ð between 1.81 and 2.32. Compared to Hoveyda–Grubbs’ second-generation catalyst, the NHC analog (HG2, Figure 2c), although significantly higher TON of 365 (Entry 5) was achieved compared to M1 (TON of 72, Entry 1, Table 1), the current Ru2 clearly demonstrates superior performance showing almost four times higher TON (1360, Entry 7). This supports our two hypotheses that the stronger and bulkier CAAC ligand and sterically protected vinylidene enables the Ru center to be more active and stable, thereby improving ROMP efficiency significantly. Moreover, ROMP of M7 containing bulky α-OTBS exhibited remarkable regioselectivity $( \mathrm { H T } > 9 9 \%$ , Entries 3–7). As shown in Figure 4a, a clear and well-assigned <sup>1</sup>H NMR of P7 without any defect peaks revealed the well-defined polymer sequence structures. Furthermore, <sup>13</sup>C NMR showed only two $\mathrm { C } _ { \mathrm { s p } }$ signals at 202 ppm due to axial chirality of allene bonds in polymer backbones, confirming the welldefined poly(allenamer)s sequence without any other allene peaks (Figure 4b), aligning with Moore’s results.<sup>[13]</sup> Following the proposed mechanism above, two possible pathways<sup>[37]</sup> were considered (Figures 4c and S5a): proximal or distal face, depending on the orientation between the propagation carbenes and α-OTBS group, releasing Ru vinylidene without or with ─OTBS at α-position, respectively. According to careful NMR analysis on the system of $\mathbf { R u 3 } + \mathbf { M 7 } + \mathbf { P y } ,$ we rationalized: 1) the corresponding Ru–vinylidene carbene is again confirmed by a characteristic $^ { 1 3 } \mathrm { C }$ NMR peak at 356 ppm (Figure S5b); 2) α-OTBS group is close to Ru– vinylidene rather than end-styrene according to <sup>1</sup>H and COSY NMR (Figure S5c,d). Based on these results, we concluded that Ru2 would preferentially undergo the distal pathway to minimize steric repulsion between α-OTBS on M7 and the growing polymer chains, allowing for the fast and selective approach. In contrast, the crowded environment in proximal face would be disfavored (Figure 4c). Chain transfer between the polymers would also be expected to proceed regioselectively based on similar arguments, leading the overall high regioselectivity.
+
+Upon recognizing the excellent reactivity and selectivity of M7, we became intrigued by its potential controlled
+
+![](images/d75b5bff89b90d3794f90c163568ec64cd2540266e43b45716daa3e817ab9cc8.jpg)
+
+![](images/2c30e615d458f54e1986a1e85fdd920d46ec485d5e8df48ebc906ed9c9e1beee.jpg)
+
+![](images/95970cc12c90d56d052e0c2761fc195301fb3f8a81f61e6ff4ddfcba592052cd.jpg)  
+Figure 4. High regioselectivity of M7 ROMP. a) <sup>1</sup>H NMR of $\mathsf { P } 7 . \mathsf { b } ) \ ^ { 1 3 } \mathsf C$ NMR of P7. c) Two possible pathways for regioselective ROMP of M7.
+
+ROMP because one could obtain precision polymerization with excellent molecular weights control and low dispersity. To realize this, it is crucial to eliminate side reactions, such as chain transfer (CT), termination, or decomposition of propagation species while maintaining a sufficiently high initiation/propagation rate ratio $( k _ { \mathrm { i } } / k _ { \mathrm { p } } )$ . Unfortunately, as CAAC–Ru catalysts showed slow initiation, we chose fast initiating G3 catalyst (Figure 5a) to enhance $k _ { \mathrm { i } } / k _ { \mathrm { p } }$ values, whereas the bulky ─OTBS group would still provide significant stabilization to the propagating species despite being NHC–Ru vinylidene. Another challenge is readily occurring CT reaction because the allenes containing $\mathsf { s p } \mathrm { - s p } ^ { 2 }$ carbons in the polymer backbones are more exposed than alkenes, thereby being reactive toward catalysts backbiting. Fortunately, after screening various conditions, we could achieve controlled ROMP at low temperature of $1 0 ~ ^ { \circ } \mathrm { C }$ and low concentrations of 0.5–0.6 M in THF to suppress CT process. $M _ { \mathrm { n } }$ of P7 was precisely controlled with linear increase from 4.4 to 16.3 kDa by varying M/I ratios from 20:1 to 100:1 while maintaining low Ð of 1.15–1.38 (Entries 8–11, Table 3, Figure 5b and 5c). Higher feed ratios at 200 caused loss of control $( M _ { \mathrm { n } }$ of 21.9 kDa and Ð of 1.83, Entry 12) probably due to the catalyst decomposition/deactivation from inherently limited stability of NHC complex. In addition, all P7 exhibited excellent regioselectivity of $\ge 9 5 \%$ , confirming the efficacy of the high-level control in various aspects.
+
+![](images/cc768c314bbfe1a9ddde32968d96a1c82c1e0d53d26d4157e2c4d735783271ba.jpg)
+
+![](images/caabd0b35531400e74a0eecf745337114e1623144402f2b18d8586ede1589d35.jpg)
+
+![](images/eee6f5178f6b191972161da150baadcdb963c2f6e85e0a1f3446377b7863b710.jpg)  
+Figure 5. a) Controlled ROMP of M7. b) SEC traces depending on feed ratios. c) Plots of $M _ { \mathfrak { n } }$ and Ð as a function of the M/I conversion.
+
+The biggest challenge in REMP to produce cyclic polymers is overcoming the issue of limited stability of the cyclic catalysts.<sup>[38–45]</sup> According to our results so far, CAAC–Ru should outperform the previous NHC–Ru even for the REMP of cyclic allenes. With the development of highly stable cyclic CAAC–Ru4 catalyst even at $8 0 ~ ^ { \circ } \mathrm { C }$ in $\mathrm { a i r } , ^ { \left[ 3 2 \right] }$ we reported our preliminary REMP with M1. Encouraged by this initial success and the current work on much broader monomer scope (M2–M7) via ROMP, we attempted to synthesize various well-defined cyclic poly(allenamer)s via REMP.
+
+Initially, we prepared a reference linear polymer, LP2 via ROMP of M2 using Ru2 at M/I 200 under neat conditions and conducted multiangle light scattering (MALS) to obtain absolute $M _ { \mathrm { n } }$ (181.6 kDa, Ð 2.1). Then, cyclic poly(allenamer), CP2, was synthesized through REMP of M2 by Ru4 at M/I 200 in 82% conversion with absolute $M _ { \mathrm { n } }$ of 152.0 kDa $( \mathcal { P } = 1 . 6 $ , Entry 2, Table 4) analyzed by MALS. Similar MW of LP2 and CP2 allowed us to conduct further conformational analysis by MALS and viscometer detector to compare their radius of gyration $( R _ { \mathrm { g } } )$ , intrinsic viscosity (η), and hydrodynamic volumes $( R _ { \mathrm { h } } \mathbf { v } )$ at given absolute molecular weight. As expected from cyclic polymers, CP2 was eluted at a longer retention time than LP2 at the identical MW due to the smaller $R _ { \mathrm { h } } \mathbf { v }$ of cyclic polymers than their linear counterparts<sup>[46,47]</sup> (Figure 6a,b). $R _ { \mathrm { g } }$ of CP2 was consistently lower than that of LP2 with ranging $< { R _ { \mathrm { g } } } ^ { 2 } { > } _ { \mathrm { C P } 2 } / { < } { R _ { \mathrm { g } } } ^ { 2 } { > } _ { \mathrm { L P } 2 }$ ratios in range of 0.54–0.60, close to the theoretically predicted ratio of 0.5 (Figure 6c).<sup>[48,49]</sup> Last evidence came from the comparison of η where CP2 overall showed lower η than LP2 with $\eta _ { \mathrm { C P 2 } } / \eta _ { \mathrm { L P 2 } } = 0 . 4 9$ , again, close to the theoretical value of 0.58 (Figure 6d).<sup>[49]</sup>
+
+With initial success in confirming the cyclic structures, M3, M4, and M7, were also subjected to REMP catalyzed by Ru4.
+
+Table 4: ROMP/REMP of M2, M3, M4, and M7.  
+![](images/695311f46ac7afa7df41324180428531cd305a288225a26ba356165375fbc7b1.jpg)
+
+<table><tr><td>Entry</td><td>M</td><td> $\mathsf { C a t . }$ </td><td>M/I</td><td>Conc. (M)</td><td>Temp. (°℃)</td><td> $\mathsf { C o n v . }$   $( \% ) ^ { a ) }$ </td><td>Yield  $( \% ) ^ { \mathsf { b } ) }$ </td><td> $M _ { \mathfrak { n } } \ ( \mathsf { k } \mathsf { D } \mathsf { a } )$   $( \boldsymbol { \mathcal { D } } ) ^ { \mathtt { c } ) }$ </td><td> $< R _ { \mathrm { g } } ^ { 2 } > _ { \mathsf { C P } } / < R _ { \mathrm { g } } ^ { \ 2 } > _ { \mathsf { L P } } ^ { \mathrm { d } }$ </td><td> $\eta _ { \mathsf { C P } } / \eta _ { \mathsf { L P } } ^ { \mathsf { d } ) }$ </td><td> $R _ { \mathsf { h } } { \mathsf { v } } _ { \mathsf { C P } } / R _ { \mathsf { h } } { \mathsf { v } } _ { \mathsf { L P } } { } ^ { \mathsf { d } } )$ </td></tr><tr><td>1</td><td>M2</td><td>Ru2</td><td>200</td><td>neat</td><td>50</td><td>97</td><td>86</td><td>181.6 (2.1)</td><td>一</td><td>一</td><td>一</td></tr><tr><td>2</td><td>M2</td><td>Ru4</td><td>200</td><td>neat</td><td>50</td><td>82</td><td>60</td><td>152.0 (1.6)</td><td> $0 . 5 4 - 0 . 6 0$ </td><td>0.49</td><td>0.75</td></tr><tr><td>3</td><td>M3</td><td>Ru2</td><td>200</td><td>neat</td><td>50</td><td>&gt;99</td><td>89</td><td>87.9 (1.8)</td><td>一</td><td>一</td><td>1</td></tr><tr><td>4</td><td>M3</td><td>Ru4</td><td>200</td><td>neat</td><td>50</td><td>83</td><td>65</td><td>142.7 (1.7)</td><td> $0 . 4 4 { - } 0 . 5 3 $ </td><td>0.44</td><td>0.66</td></tr><tr><td>5</td><td>M4</td><td>Ru2</td><td>200</td><td>neat</td><td>50</td><td>72</td><td>50</td><td>22.4 (1.8)</td><td>一</td><td>一</td><td>一</td></tr><tr><td>6</td><td>M4</td><td>Ru4</td><td>150</td><td>neat</td><td>50</td><td>65</td><td>21</td><td>21.3 (1.7)</td><td> $0 . 3 5 { - } 0 . 4 4$ </td><td>0.39</td><td>0.73</td></tr><tr><td>7</td><td>M7</td><td>Ru2</td><td>1000</td><td>2</td><td>rt</td><td>91</td><td>77</td><td>197.5 (1.7)</td><td></td><td></td><td>一</td></tr><tr><td>8</td><td>M7</td><td>Ru4</td><td>1000</td><td>0.5</td><td>30</td><td>86</td><td>73</td><td>548.8 (1.6)</td><td>0.56</td><td>0.57–0.63</td><td>0.84</td></tr></table>
+
+<sup>a)</sup> Determined by crude <sup>1</sup>H NMR. <sup>b)</sup> Isolated yield after precipitation into MeOH. <sup>c)</sup> Determined by THF MALS SEC. <sup>d)</sup> Determined by SEC viscometer.
+
+![](images/9e2f1ff6e3f4b28b6acb23a49212857a3bc2c2611374b53e6f235b148841d43a.jpg)
+
+![](images/8a39d29e0c5b3d8b37c2d1624adc5a2e1e1da2edac2ff0093849f75af1e327e0.jpg)
+
+![](images/75da967f534e33d26771941f94259a42a117eba5dfa90c95fbc881d689ae2ad0.jpg)
+
+![](images/b5fa7abd70be9c9d77a66db0ffe9a6f8be7437179fb4c14a9359faed41828082.jpg)  
+Figure 6. Comparative characterization between LP2 and CP2 by plots of LP2/CP2 a) between log(MW) and retention time, b) between log(R v) and log(MW), c) between $\log ( R _ { \mathrm { g } } )$ and log(MW), and d) for viscosity analysis.
+
+All resulting CP3, CP4, and CP7 were compared with their corresponding linear polymers through MALS and viscometer detection (Entries 3–8, Table 4, and Figures S7–S9) to confirm their cyclic morphologies. For example, their ${ < } R _ { \mathrm { g } } { } ^ { 2 } >$ ratios from CP to LP were between 0.35–0.56 and η ratios between 0.39 and 0.63, which matched with theoretical values well, thereby confirming the cyclic polymers. It is noteworthy that, unlike ROMP, REMP of M7 should be performed at the concentrations below 0.6 M; otherwise, mixed topology or even gel would be formed presumably due to some side reactions by highly active Ru4. On the other hand, highly reactive M7 and Ru4 catalyst afforded REMP with TON up to 860 and the largest $M _ { \mathrm { n } }$ (548.8 kDa, $\varTheta = 1 . 6$ , Entry 8) of poly(allenamer)s reported so far.
+
+Kinetics study revealed that at the beginning of M7- REMP, the ultrahigh MW (>900 kDa) cyclic polymer was first formed due to slow initiation (Figure S9f,g). MW then continuously decreased to 430 kDa due to chain transfer over the REMP course, reaching statistical distribution (Figure S9f). This indicates that the current REMP follows typical mechanism of REMP where chain-transfer and ring-closing reactions occur in an equilibrium-controlled manner.<sup>[20]</sup> In addition, to confirm catalyst releasing through ring-closing metathesis (RCM), the residual Ru in the resulting CP7 was measured using inductively coupled plasma mass spectrometry (ICP-MS). The result of 124 ppm revealed significantly lower levels of residual Ru than the theoretical maximum value of 3130 ppm. Overall, this successful REMP of Ru4 highlights the crucial role of the strongly coordinated CAAC ligands in enhancing catalytic performance even toward the cyclic polymers.
+
+Thermal and photophysical properties of P1 to P7 were also studied. Thermogravimetric analysis (TGA) demonstrated good thermal stability with $T _ { \mathrm { d } }$ from $3 2 7 { - } 4 2 4 ~ ^ { \circ } \mathrm { C }$ at 5% mass loss (Table S3). Differential scanning calorimetry (DSC) showed a glass transition temperature $( T _ { \mathrm { g } } ) - 3 6 $ to $2 \ ^ { \circ } \mathrm { C } ,$ whereas there was no obvious $T _ { \mathrm { g } }$ difference between the linear and the cyclic polymers. The relatively low $T _ { \mathrm { { g } } }$ is probably due to flexible methylene chains being dominant backbone. On the other hand, contrary to the literature reports,<sup>[10,11]</sup> we did not observe any fluorescence from any of the resulting poly(allenamer)s.
+
+Lastly, to extend the scope of cyclic polymers even further, we aimed for versatile post-modification of poly(allenamer)s as a potential platform for diverse cyclic polymers. Although allenes have been employed as a valuable toolbox in organic synthesis due to its higher reactivity than alkenes, post-modification on allenes was rarely utilized in polymer chemistry.<sup>[12]</sup> Among several potential methods, we chose gold-catalyzed addition of alcohols to internal disubstituted allenes. Disappointingly, when we repeated the literature conditions on our poly(allenamer)s of LP2 and CP2 with primary or secondary alcohols (<sup>n</sup>PrOH/<sup>i</sup>PrOH (IPA)) in the presence of $\mathrm { P P h } _ { 3 } \mathrm { A u C l }$ and AgOTf as cocatalysts,<sup>[50,51]</sup> only insoluble gel was obtained, revealing the big challenge on this post-modification. We then lowered the concentrations from neat to the optimized conditions at 0.02 M in toluene for <sup>n</sup>PrOH (Entries 1 and 2, Table 5) and 0.2 M for IPA (Entries 3 and 4) and obtained new products in high yields after precipitation into methanol. To our delight, all new polymers (LP8 and CP8 from <sup>n</sup>PrOH, LP9 and CP9 from IPA) showed clear size-exclusion chromatography (SEC) peak shifts compared to the pristine LP2 and CP2 (Figure 7a,b), in which the absolute $M _ { \mathfrak { n } }$ of new polymers increased from 86–90 kDa to over 110 kDa, confirming the successful post-modifications. The unambiguous evidence came from full NMR analysis (Figures $^ { 7 \mathrm { c } , }$ S10, and S12) where all allenyl $\mathrm { C _ { \mathrm { s p 2 } } \mathrm { - H a t } } 5 . 0 7$ ppm completely disappeared; instead, new peaks from expected alkenyl $\mathrm { C } _ { \mathrm { s p } 2 } \mathrm { - H }$ moieties on the polymer backbones appeared at 5.2 and 5.4 ppm with $^ 3 J = 1 5 . 0$ Hz each, suggesting for the quantitative formation of new trans-olefins. Finally, we evaluated the microstructure of the resulting polymers by MALS and viscometric analysis to confirm that the cyclic identity was still preserved even after post-modification with both alcohols. As shown in Table 5 and Figures 7, S11, and S13, by comparing LP8 and LP9 to CP8 and $\mathbf { C P 9 } , < { R _ { \mathrm { g } } } ^ { 2 } >$ ratios of 0.55 and 0.58, η ratios of 0.73 and 0.72, and $R _ { \mathrm { h } } \mathbf { v }$ ratios of 0.86 and 0.85, respectively, were obtained. These matched well with the theoretical values, supporting their cyclic microstructures. So far, there was only one post-modification of simple hydrogenation on the REMP products, affording cyclic polyethylene.<sup>[17]</sup> Herein, we have successfully demonstrated diverse post-modifications on the cyclic poly(allenamer)s by adding alcohols with excellent efficiency and selectivity for the first time. As a result, multiple substituents can be readily attached to give various cyclic architectures, thereby broadening the scope of accessible cyclic polymers.
+
+Table 5: Post-modification on linear and cyclic P2.
+<table><tr><td colspan="10"><img src="images/8bca509e766a5708e34e5d2168107b971658f82ca24e8956ca59d0740b5f4f07.jpg"/></td></tr><tr><td>Pristine</td><td>Alcohols</td><td></td><td> $\mathsf { C P 2 : } \mathsf { \overrightarrow { M _ { n } } = 8 6 . 1 \ k D a \ ( \mathrm { \overrightarrow { \varepsilon } = 1 . 6 ) } }$  Conc.</td><td> $\mathsf { L P 2 : } \ : M _ { \mathsf { n } } = 8 9 . 6 \ \mathsf { k D a } \ ( \theta = 1 . 5 )$  Conv.</td><td>Yield</td><td> $M _ { \mathfrak { n } } \ ( \mathsf { k } \mathsf { D } \mathsf { a } )$ </td><td></td><td></td><td></td></tr><tr><td>Entry 1</td><td>polymers LP2</td><td>nPrOH</td><td>(M) 0.02</td><td> $( \% ) ^ { a ) }$  &gt;99</td><td> $( \% ) ^ { \mathsf { b } ) }$  86</td><td>Products  $( \boldsymbol { \mathcal { D } } ) ^ { \mathtt { c } ) }$  LP8 123.4</td><td> $< R _ { \mathrm { g } } ^ { 2 } > _ { \mathsf { C P } } / < R _ { \mathrm { g } } ^ { \ 2 } > _ { \mathsf { L P } } [ \mathsf { d } ) ]$  一</td><td> $\eta _ { \mathsf { C P } } / \eta _ { \mathsf { L P } } { } ^ { \mathsf { d } }$  一</td><td> $R _ { \mathsf { h } } { \mathsf { v } } _ { \mathsf { C P } } / R _ { \mathsf { h } } { \mathsf { v } } _ { \mathsf { L P } } { } ^ { \mathsf { d } } )$  一</td></tr><tr><td>2</td><td></td><td>nPrOH</td><td>0.02</td><td>&gt;99</td><td></td><td>(1.6)</td><td></td><td></td><td></td></tr><tr><td>3</td><td>CP2 LP2</td><td>IPA</td><td>0.2</td><td>&gt;99</td><td>92 89</td><td>CP8 LP9 145.7 (1.6)</td><td>112.8 (1.8) 0.55 一</td><td>0.73</td><td>0.86 一</td></tr><tr><td>4</td><td>CP2</td><td>IPA</td><td>0.2</td><td>&gt;99</td><td>87</td><td>CP9 121.2 (1.7)</td><td>0.58</td><td>0.72</td><td>0.85</td></tr></table>
+
+<sup>a)</sup> Determined by crude <sup>1</sup>H NMR. <sup>b)</sup> Isolated yield after precipitation into MeOH. <sup>c)</sup> Determined by THF MALS SEC. <sup>d)</sup> Determined by SEC viscometer.
+
+![](images/0327d9b8324ea68d0fb4b2a509b51ad9ee8f5c96e3b3345da552d7ab8942a933.jpg)
+
+![](images/c10f6ac8554ba8495281c66b29e50083d0be1b57c4ba13c2acc55b209c4ae304.jpg)
+
+## Conclusion
+
+In conclusion, our investigation demonstrated the remarkable activity of CAAC–Ru catalysts toward both ROMP and REMP of cyclic allenes. Mechanistic studies revealed that CAAC ligand with enhanced coordination capacity and significant steric shielding stabilized a Ru vinylidene carbene intermediate, thereby enabling superior polymerization performance compared to the previous reported systems. In addition, a wide range of monomers, including disubstituted, ring-fused, and α-substituted cyclic allenes, successfully underwent ROMP/REMP with high TON using both linear and cyclic CAAC–Ru catalysts. Notably, α-OTBS cyclic allene exhibited the highest reactivity, achieving TON of up to 1360 in ROMP and 860 in REMP, and addtionally enabled successful regioselective controlled polymerization using G3 catalyst. Cyclic nature of these poly(allenamer)s prepared by REMP has been thoroughly characterized by MALS and viscometer analysis to confirm their cyclic topology compared to their linear counterparts. Last, we developed a practical method for versatile post-modification of poly(allenamer)s with excellent efficiency and selectivity, from which, a series of new multifunctionalized linear and cyclic polymers were successfully prepared. In short, this showcased that poly(allenamer)s would become a great platform to prepare diverse cyclic macromolecules.
+
+![](images/3adf185dd5f3fc1307b1a4d0f2cf762d23332fa09448f949256930ea2a2d29a4.jpg)
+
+![](images/f054943084b211b63db939e990d6112514c2213160febc58e004d5d90ef8cae1.jpg)
+
+![](images/13b98db0c82bae8c7d4b9507706bc62651fbf79039d543bf10981f39a2fb9053.jpg)  
+Figure 7. Post-modification of LP2/CP2 using nPrOH/iPrOH. a) SEC traces of LP2 post-modification. b) SEC traces of CP2 post-modification. c) <sup>1</sup>H NMR of P9. d) Plots of log(MW) versus retention time of LP9/CP9. e) Viscosity comparison between LP9 and CP9.
+
+## Acknowledgements
+
+The authors are thankful for financial support from the National Research Foundation of Korea (NRF) grant (RS-2024-00352307) funded by the Korea government (MSIT) and the China Scholarship Council (CSC fellowship to Y.Y.).
+
+## Conflict ofInterests
+
+The authors declare no conflict of interest.
+
+## Data Availability Statement
+
+The data that support the findings of this study are available in the Supporting Information of this article.
+
+Keywords: Cyclic allenes • Cyclic polymers • Polymer post-modification • Ring-opening metathesis polymerization • Ruthenium catalysts
+
+[1] B. S. Burton, H. von Pechmann, Ber. Dtsch. Chem. Ges. 1887, 20, 145.
+
+[2] B. Alcaide, P. Almendros, Chem. Soc. Rev. 2014, 43, 2886.
+
+[3] N. Krause, A. S. K. Hashmi, Modern Allene Chemistry, Wiley-VCH, Weinheim 2004, Vol. 2.
+
+[4] S. Otsuka, K. Mori, F. Imaizumi, J. Am. Chem. Soc. 1965, 87, 3017.
+
+[5] S. Otsuka, K. Mori, T. Suminoe, F. Imaizumi, Eur. Polym. J. 1967, 3, 73.
+
+[6] J. P. Scholten, H. J. van der Ploeg, J. Polym. Sci. Part A: Polym. Chem. 1972, 10, 3067.
+
+[7] A. Sen, Acc. Chem. Res. 1993, 26, 303.
+
+[8] P. Rivera-Fuentes, F. Diederich, Angew. Chem. Int. Ed. 2012, 51, 2818.
+
+[9] M. H. Garner, C. Corminboeuf, Org. Lett. 2020, 22, 8028–8033.
+
+[10] N. J. Galan, J. N. Brantley, ACS Macro Lett. 2020, 9, 1662.
+
+[11] W. J. Neary, Y. Sun, J. S. Moore, ACS Macro Lett. 2021, 10, 642.
+
+[12] G. Park, C. W. Bielawski, Macromolecules 2021, 54, 6135–6143.
+
+[13] W. J. Neary, F. Zhao, M. C. Murphy, Y. Chen, F. Liu, K. N. Houk, J. S. Moore, Macromolecules 2024, 57, 5350–5357.
+
+[14] C. Chen, T. Weil, Nanoscale Horiz. 2022, 7, 1121–1135.
+
+[15] M. Romio, L. Trachsel, G. Morgese, S. N. Ramakrishna, N. D. Spencer, E. M. Benetti, ACS Macro Lett. 2020, 9, 1024–1033.
+
+[16] J. P. Edwards, W. J. Wolf, R. H. Grubbs, J. Polym. Sci. Part A: Polym. Chem. 2019, 57, 228–242.
+
+[17] J. Ochs, C. A. Pagnacco, F. Barroso-Bujans, Prog. Polym. Sci. 2022, 134, 101606.
+
+[18] C. W. Bielawski, D. Benitez, R. H. Grubbs, Science 2002, 297, 2041–2044.
+
+[19] A. J. Boydston, Y. Xia, J. A. Kornfield, I. A. Gorodetskaya, R. H. Grubbs, J. Am. Chem. Soc. 2008, 130, 12775–12782.
+
+[20] Y. Xia, A. J. Boydston, Y. Yao, J. A. Kornfield, I. A. Gorodetskaya, H. W. Spiess, R. H. Grubbs, J. Am. Chem. Soc. 2009, 131, 2670–2677.
+
+[21] K.-Y. Yoon, J. Noh, Q. Gan, J. P. Edwards, R. Tuba, T.-L. Choi, R. H. Grubbs, Nat. Chem. 2022, 14, 1242–1248.
+
+[22] D. J. Nelson, P. Queval, M. Rouen, M. Magrez, L. Toupet, F. Caijo, E. Borré, I. Laurent, C. Crévisy, O. Baslé, M. Mauduit, J. M. Percy, ACS Catal. 2013, 3, 259–264.
+
+[23] J. Morvan, M. Mauduit, G. Bertrand, R. Jazzar, ACS Catal. 2021, 11, 1714–1748.
+
+[24] F. Vermersch, L. Oliveira, J. Hunter, M. Soleilhavoup, R. Jazzar, G. Bertrand, J. Org. Chem. 2022, 87, 3511–3518.
+
+[25] A. Del Vecchio, J. Talcik, S. Colombel-Rouen, J. Lorkowski, M. R. Serrato, T. Roisnel, N. Vanthuyne, G. Bertrand, R. Jazzar, M. Mauduit, ACS Catal. 2023, 13, 6195–6202.
+
+[26] D. L. Nascimento, D. E. Fogg, J. Am. Chem. Soc. 2019, 141, 19236–19240.
+
+[27] D. L. Nascimento, M. Foscato, G. Occhipinti, V. R. Jensen, D. E. Fogg, J. Am. Chem. Soc. 2021, 143, 11072–11079.
+
+[28] V. M. Marx, A. H. Sullivan, M. Melaimi, S. C. Virgil, B. K. Keitz, D. S. Weinberger, G. Bertrand, R. H. Grubbs, Angew. Chem. Int. Ed. 2015, 54, 1919–1923.
+
+[29] R. Gawin, A. Kozakiewicz, P. A. Gunka, P. D´ abrowski, K.˛ Skowerski, Angew. Chem. Int. Ed. 2017, 56, 981–986.
+
+[30] M. Kim, H. Kim, S. Kim, S. Hong, E. Lee, Organometallics 2022, 41, 1905–1910.
+
+[31] S. A. Gonsales, Z. C. Mueller, F. Zhao, P. H. S. Paioti, L. Karmazin, J. Wan, F. Liu, K. N. Houk, A. H. Hoveyda, J. Am. Chem. Soc. 2021, 143, 20640–20644.
+
+[32] M. Jang, E. Jung, Y. Yang, J. Noh, H. Song, H. Kim, H. Kang, T.-L. Choi, E. Lee, J. Am. Chem. Soc. 2025, 147, 2571–2578.
+
+[33] H. Ryu, J.-C. Sung, G. Kim, Y. Xu, R. H. Grubbs, T.-L. Choi, Angew. Chem. Int. Ed. 2022, 61, e202210244.
+
+[34] C. Kang, K. Jung, S. Ahn, T.-L. Choi, J. Am. Chem. Soc. 2020, 142, 17140–17146.
+
+[35] H. Park, E.-H. Kang, L. Müller, T.-L. Choi, J. Am. Chem. Soc. 2016, 138, 2244–2251.
+
+[36] E.-H. Kang, S. Yu, I. Lee, S. Park, T.-L. Choi, J. Am. Chem. Soc. 2014, 136, 10508–10514.
+
+[37] S. Kobayashi, L. M. Pitet, M. A. Hillmyer, J. Am. Chem. Soc. 2011, 133, 5794–5797.
+
+[38] M. G. Jafari, J. B. Russell, H. Lee, B. Pudasaini, D. Pal, Z. Miao, M. R. Gau, P. J. Carroll, B. S. Sumerlin, A. S. Veige, M.-H. Baik, D. J. Mindiola, J. Am. Chem. Soc. 2024, 146, 2997–3009.
+
+[39] A. M. Beauchamp, J. Chakraborty, I. Ghiviriga, K. A. Abboud, D. W. Lester, A. S. Veige, J. Am. Chem. Soc. 2023, 145, 22796– 22802.
+
+[40] Z. Miao, S. A. Gonsales, C. Ehm, F. Mentink-Vigier, C. R. Bowers, B. S. Sumerlin, A. S. Veige, Nat. Chem. 2021, 13, 792–799.
+
+[41] M. J. Elardo, A. M. Levenson, A. P. K. Vasconcelos, M. N. Pomfret, M. R. Golder, Chem. Sci. 2024, 15, 17193–17199.
+
+[42] A. M. Levenson, C. M. Morrison, P.-R. Huang, T.-W. Wang, Z. Carter-Schwendler, M. R. Golder, ACS Macro Lett. 2023, 12, 1286–1292.
+
+[43] C. M. Morrison, M. R. Golder, Synlett 2022, 33, 699–704.
+
+[44] T.-W. Wang, P.-R. Huang, J. L. Chow, W. Kaminsky, M. R. Golder, J. Am. Chem. Soc. 2021, 143, 7314–7319.
+
+[45] T.-W. Wang, M. R. Golder, Polym. Chem. 2021, 12, 958–969.
+
+[46] B. A. Laurent, S. M. Grayson, Chem. Soc. Rev. 2009, 38, 2202– 2213.
+
+[47] A. M. Rubio, J. J. Freire, M. Bishop, J. H. R. Clarke, Macromolecules 1995, 28, 2240–2246.
+
+[48] B. H. Zimm, W. H. Stockmayer, J. Chem. Phys. 1949, 17, 1301– 1314.
+
+[49] A. Blencowe, G. G. Qiao, J. Am. Chem. Soc. 2013, 135, 5717– 5725.
+
+[50] N. Nishina, Y. Yamamoto, Angew. Chem. Int. Ed. 2006, 45, 3314– 3317.
+
+[51] Z. J. Wang, D. Benitez, E. Tkatchouk, W. Goddard, F. D. Toste, J. Am. Chem. Soc. 2010, 132, 13064–13071.
+
+Manuscript received: December 31, 2024
+
+Revised manuscript received: March 06, 2025
+
+Accepted manuscript online: March 10, 2025
+
+Version of record online: March 18, 2025

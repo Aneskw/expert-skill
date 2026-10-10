@@ -1,0 +1,2611 @@
+[
+  [
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": [
+          {
+            "type": "text",
+            "content": "Asymmetric Catalysis"
+          }
+        ]
+      },
+      "bbox": [
+        90,
+        72,
+        277,
+        91
+      ]
+    },
+    {
+      "type": "title",
+      "content": {
+        "title_content": [
+          {
+            "type": "text",
+            "content": "Radical-Based Enantioconvergent Reductive Couplings of Racemic Allenes and Aldehydes"
+          }
+        ],
+        "level": 1
+      },
+      "bbox": [
+        84,
+        103,
+        884,
+        148
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": [
+          {
+            "type": "text",
+            "content": "Haigen Shen<sup>+</sup>, Ling Yang<sup>+</sup>, Mingrui Xu, Zhaoxin Shi, Ke Gao, Xiaowen Xia, and Zhaobin Wang*"
+          }
+        ]
+      },
+      "bbox": [
+        82,
+        159,
+        806,
+        196
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": [
+          {
+            "type": "text",
+            "content": "Abstract: Transition metal-catalyzed radical-based enantioconvergent reactions have become a powerful strategy to synthesize enantiopure compounds from racemic starting materials. However, existing methods primarily address precursors with central chirality, neglecting those with axial chirality. Herein, we describe the enantioconvergent reductive coupling of racemic allenes with aldehydes, facilitated by a photoredox, chromium, and cobalt triple catalysis system. This method selectively affords one product from sixteen possible regioand stereoisomers. The protocol leverages Co<sup>III</sup>\u0000H mediated hydrogen atom transfer (MHAT) and Crcatalyzed radical-polar crossover for efficient stereoablation of axial chirality and asymmetric addition, respectively. Supported by mechanistic insights from control experiments, deuterium labeling, and DFT calculations, our approach offers synthetic chemists a valuable tool for creating enantioenriched chiral homoallylic alcohols, promising to advance radical-based strategies for synthesizing complex chiral molecules."
+          }
+        ]
+      },
+      "bbox": [
+        92,
+        224,
+        480,
+        505
+      ]
+    },
+    {
+      "type": "title",
+      "content": {
+        "title_content": [
+          {
+            "type": "text",
+            "content": "Introduction"
+          }
+        ],
+        "level": 2
+      },
+      "bbox": [
+        82,
+        544,
+        184,
+        560
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": [
+          {
+            "type": "text",
+            "content": "Enantioselective catalysis has significantly transformed organic synthesis, serving as a practical platform for efficiently creating chiral molecules in the fields of organic chemistry, pharmaceuticals, and materials science.<sup>[1]</sup> Notably, the emergence of transition metal-catalyzed radical-based enantioconvergent reactions stands out as a powerful strategy for synthesizing enantioenriched molecules.<sup>[2]</sup> This approach leverages the ready availability and diversity of racemic starting materials, coupled with the versatile reactivity of alkyl radicals (Figure 1a). Pioneering studies on Ni-catalytic radical-based enantioconvergent cross-coupling reactions by the Fu group<sup>[3]</sup> have not only validated the efficacy of this methodology but also stimulated the development of more sophisticated catalytic systems involving first-row transition metals (Fe, Co, Ni, Cu).<sup>[4]</sup> However, current investigations have predominantly focused on the radical stereoablation of racemic precursors bearing central chirality. In stark contrast, synthetic methodologies for achieving enantiopure compounds in a radical-based enantioconvergence manner, specifically through the stereoablation of other chiral elements, such as axial chirality, remain elusive.<sup>[5]</sup> The primary challenge lies in the absence of suitable radical catalytic systems and reaction models, despite the wellestablished protocols for the enantioselective transformation of racemic allenes or biaryls through dynamic kinetic asymmetric transformations (DyKATs).<sup>[6]</sup> Notably, recent exceptional reports describe several examples of siteselective C(sp<sup>2</sup>)\u0000H cyanation of racemic allenes in moderate to good enantioselectivity via copper-catalyzed radical relay.<sup>[7]</sup> Given the importance of radical-based transitionmetal catalysis, there is a persistent need to exploit efficient catalyst systems to expand the substrate scopes and reaction patterns."
+          }
+        ]
+      },
+      "bbox": [
+        80,
+        573,
+        492,
+        725
+      ]
+    },
+    {
+      "type": "image",
+      "content": {
+        "image_source": {
+          "path": "images/8dba2bc2e8eb7c78b9a1b5def5addf3bcd4e7589728c4f89886b3793ea0f7017.jpg"
+        },
+        "image_caption": [
+          {
+            "type": "text",
+            "content": "Figure 1. Transition metal-catalyzed radical-based enantioconvergent couplings."
+          }
+        ],
+        "image_footnote": []
+      },
+      "bbox": [
+        507,
+        217,
+        905,
+        535
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": []
+      },
+      "bbox": [
+        504,
+        600,
+        917,
+        876
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "GDCh"
+          }
+        ]
+      },
+      "bbox": [
+        84,
+        17,
+        156,
+        47
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "Check for updates"
+          }
+        ]
+      },
+      "bbox": [
+        870,
+        0,
+        1000,
+        15
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "Research Article"
+          }
+        ]
+      },
+      "bbox": [
+        406,
+        24,
+        591,
+        43
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "An<sub>g</sub>ewan<sup>d</sup>te International Edition Ch<sub>em</sub>i<sub>e</sub> www.angewandte.org"
+          }
+        ]
+      },
+      "bbox": [
+        731,
+        17,
+        914,
+        53
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "How to cite: Angew. Chem. Int. Ed. 2025, 64, e202413198 doi.org/10.1002/anie.202413198"
+          }
+        ]
+      },
+      "bbox": [
+        542,
+        57,
+        915,
+        86
+      ]
+    },
+    {
+      "type": "page_footer",
+      "content": {
+        "page_footer_content": [
+          {
+            "type": "text",
+            "content": "© 2024 Wiley-VCH GmbH"
+          }
+        ]
+      },
+      "bbox": [
+        776,
+        884,
+        914,
+        898
+      ]
+    },
+    {
+      "type": "page_footnote",
+      "content": {
+        "page_footnote_content": [
+          {
+            "type": "text",
+            "content": "[*] H. Shen,<sup>+</sup> L. Yang,<sup>+</sup> M. Xu, Z. Shi, K. Gao, X. Xia, Z. Wang Key Laboratory of Precise Synthesis of Functional Molecules of Zhejiang Province, Department of Chemistry, School of Science and Research Center for Industries of the Future, Westlake University 310024 Hangzhou (China) E-mail: wangzhaobin@westlake.edu.cn"
+          }
+        ]
+      },
+      "bbox": [
+        82,
+        746,
+        490,
+        820
+      ]
+    },
+    {
+      "type": "page_footnote",
+      "content": {
+        "page_footnote_content": [
+          {
+            "type": "text",
+            "content": "H. Shen,<sup>+</sup> L. Yang,<sup>+</sup> Z. Wang Institute of Natural Sciences, Westlake Institute for Advanced Study 310024 Hangzhou (China)"
+          }
+        ]
+      },
+      "bbox": [
+        100,
+        821,
+        490,
+        859
+      ]
+    },
+    {
+      "type": "page_footnote",
+      "content": {
+        "page_footnote_content": [
+          {
+            "type": "text",
+            "content": "[<sup>+</sup>] These authors contributed equally."
+          }
+        ]
+      },
+      "bbox": [
+        80,
+        859,
+        307,
+        876
+      ]
+    },
+    {
+      "type": "page_footer",
+      "content": {
+        "page_footer_content": [
+          {
+            "type": "text",
+            "content": "Angew. Chem. Int. Ed. 2025, 64, e202413198 (1 of 10)"
+          }
+        ]
+      },
+      "bbox": [
+        82,
+        884,
+        349,
+        898
+      ]
+    }
+  ],
+  [
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": []
+      },
+      "bbox": [
+        80,
+        66,
+        489,
+        95
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": [
+          {
+            "type": "text",
+            "content": "Allenes, characterized by two cumulative π-bonds displaying axial chirality, represent highly valuable synthetic precursors in organic chemistry due to their easily accessible and distinctive chemical properties.<sup>[8]</sup> In particular, stereoselective couplings of allenes with carbonyl compounds have evolved into a versatile platform for accessing diverse chiral allylic or homoallylic alcohols.<sup>[9]</sup> Diverging from conventional carbonyl additions, these strategies utilize easily accessible allenes as latent carbanion equivalents, allowing for better functional group compatibility. In elegant work using Ir and Ru-based metal-H catalysis, the Krische group pioneered versatile asymmetric couplings of allenes and carbonyls under hydrogenation and transfer hydrogenation conditions.<sup>[10]</sup> However, existing methods have predominantly focused on the transformations of terminal allenes.<sup>[11]</sup> In contrast, catalytic enantioconvergent reductive couplings of racemic allenes and carbonyls, yielding chiral products with more versatile structural complexity, remain challenging due to the added difficulty in enhancing the efficiency of transformation with sterically hindered allenes and controlling regio-, and stereoselectivities.<sup>[12]</sup> Additionally, it is difficult to achieve the stereoablation via a classical oxidative carbometallation approach which generally proceed in a stereospecific fashion.<sup>[13]</sup> In this context, exceptional works have achieved the asymmetric [3+2] annulation of racemic allenes and imines using chiral phosphine catalysis<sup>[14]</sup> or Rh catalysis<sup>[15]</sup> in a two-electron nucleophilic catalysis manner. Nevertheless, a mechanistically distinct and broadly applicable catalyst system for enantioconvergent couplings of these racemic feedstocks remains elusive."
+          }
+        ]
+      },
+      "bbox": [
+        80,
+        93,
+        492,
+        505
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": [
+          {
+            "type": "text",
+            "content": "Our recent focus involves the development of radicalbased asymmetric additions to carbonyls, providing access to enantioenriched alcohols bearing vicinal stereocenters.<sup>[16]</sup> In this context, we envisioned the stereoablative axial chirality of allenes by taking advantage of "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathrm { C o ^ { I I I } - H }"
+          },
+          {
+            "type": "text",
+            "content": "mediated hydro gen atom transfer (MHAT).<sup>[17]</sup> The merger of chromium catalysis and MHAT holds the potential to achieve the radical-based enantioconvergent reductive coupling of racemic allenes and carbonyls. Success in this design relies on establishing a synergistic catalytic system to promote radical-based reductive couplings and choosing a suitable chiral chromium catalyst to control complex regio- and stereoselectivities.<sup>[18]</sup> Herein, we present the radical-based enantioconvergent reductive coupling of racemic allenes with aldehydes via photoredox/Cr/Co triple-catalysis, selectively forming one of the sixteen possible regio- and stereoisomers. This protocol provides modular access to various synthetically valuable chiral homoallylic alcohols bearing a stereo-defined internal carbon-carbon double bond. Notably, both Z- and E-configured stereoisomers can be selectively obtained through precise tuning of reaction parameters (Figure 1b)."
+          }
+        ]
+      },
+      "bbox": [
+        80,
+        505,
+        492,
+        808
+      ]
+    },
+    {
+      "type": "title",
+      "content": {
+        "title_content": [
+          {
+            "type": "text",
+            "content": "Results and Discussion"
+          }
+        ],
+        "level": 2
+      },
+      "bbox": [
+        507,
+        65,
+        685,
+        82
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": [
+          {
+            "type": "text",
+            "content": "Given the synthetic versatility of sulfonyl groups and the prevalence of the vinyl sulfone moiety in biological molecules,<sup>[19]</sup> we initially employed the reductive coupling of benzaldehyde and allenyl sulfones<sup>[20]</sup> (Table 1). Considering that the steric and electronic properties of sulfonyl groups would affect the Zimmerman–Traxler transition states, different substituted allenyl sulfones were screened (see Figures S1–S6). To our delight, we found that the E/Z-, diastereo-, and enantioselectivity (14 :1 E/Z, 15: 1 dr, and 91 % ee) could be well-controlled simultaneously with the combination of the steric 2,4,6-trimethylbenzenesulfonylsubstituted allene 2a and the chiral bisoxazoline (R,S)-L1, affording homoallylic alcohol 3a bearing a vinyl sulfone moiety in 80 % yield as a single regioisomer (entry 1, Table 1). The observation of 3a in 80 % yield and 91 % ee using 1.1 equivalents of 2a strongly suggests an enantioconvergent process rather than kinetic resolution. Control experiments revealed that CrCl , CoTPP, Ir(dF(CF )ppy) - (dtbpy)]PF , and light were all essential for this reductive coupling (entry 2, Table 1). NiCl was ineffective for this transformation, while TiCl could catalyze the reaction, but it afforded 3a in poor yield and stereoselectivities (entries 3–4, Table 1). Regarding the chiral ligand, other bisoxazoline ligands were not suitable under the optimal condition, providing the desired product 3a with diminished efficiency (entries 5–8, Table 1). Only a trace amount of the product was observed when using the chiral diamine ligand L6 (entry 9, Table 1). Replacing 2a with less sterically hindered 2b or 2 c led to diminished E/Z ratio and enantioselectivities (entries 10–11, Table 1), explained by invoking a Zimmerman–Traxler transition state, wherein the more sterically hindered sulfonyl group prefers to occupy the less hindered equatorial position. The use of more electron-deficient 2d also resulted in decreased stereo selectivity compared to 2a (entry 12, Table 1). These results indicate that the steric properties of the allene play a more important role than electronic properties in controlling stereoselectivities. Using EtOAc or THF as the solvent slightly decreased efficiency (entries 13–14, Table 1). The yield and E/Z ratio significantly diminished when CH CN was employed as the solvent (entry 15, Table 1)."
+          }
+        ]
+      },
+      "bbox": [
+        504,
+        93,
+        915,
+        178
+      ]
+    },
+    {
+      "type": "table",
+      "content": {
+        "image_source": {
+          "path": "images/32ebeac6df1a16822dc8843531969a604a6a51609bf06f4705764ed72872d0f7.jpg"
+        },
+        "table_caption": [
+          {
+            "type": "text",
+            "content": "Table 1: The effects of different parameters."
+          }
+        ],
+        "table_footnote": [],
+        "html": "<table><tr><td>C + Ph H 1a (±)-2b: (±)-2c: (±)-2d:</td><td>S Ar Me (±)-2a  $\\mathsf { A r } = 2 , 4 , 6 \\mathsf { - M e } _ { 3 } \\mathsf { - C } _ { 6 } \\mathsf { H } _ { 2 }$   ${ \\mathsf { A } } { \\mathsf { r } } = 2 { \\mathsf { - M } } { \\mathsf { e } } { \\mathsf { - C } } _ { 6 } { \\mathsf { H } } _ { 4 }$   $A r = 4 - M e - C _ { 6 } H _ { 4 }$   $A r = 4 - C F _ { 3 } - C _ { 6 } H _ { 4 }$ </td><td>CrCl2 (5 mol%)/(R,S)-L1 (9 mol%) CoTPP (2.5 mol%)/[Ir] (1 mol%) Hantzsch ester (2.0 equiv) DME (0.05 M), 30 °C, 12 h Blue LED &quot;standard conditions&quot;</td><td>QH Ph</td><td></td><td>Ar Me 3a</td></tr><tr><td>Entry</td><td colspan=\"3\">Variations from &quot;standard conditions&quot; yield [%]ª</td><td>E/Zb</td><td>drb</td><td>ee [%]{</td></tr><tr><td>1</td><td colspan=\"3\">none 81 (80)d</td><td>14:1</td><td>15:1</td><td>91</td></tr><tr><td>2</td><td colspan=\"3\"> $\\mathsf { w } / \\mathsf { o } \\mathsf { C r C l } _ { 2 } , \\mathsf { C o T P P } , \\mathsf { [ I r ] } , \\mathsf { l i g h t }$ </td><td>一</td><td>一</td><td>一</td></tr><tr><td>3</td><td colspan=\"3\">NiCl2, instead of CrCl2</td><td>一</td><td>一</td><td>一</td></tr><tr><td>4</td><td colspan=\"3\">TiCl4, instead of CrCl2</td><td>&gt; 20:1</td><td>2:1</td><td>30</td></tr><tr><td>5</td><td colspan=\"3\">L2, instead of (R,S)-L1</td><td>6:1</td><td>9:1</td><td>70</td></tr><tr><td>6</td><td colspan=\"3\">L3, instead of (R,S)-L1</td><td>6:1</td><td>5:1</td><td>62</td></tr><tr><td>7</td><td colspan=\"3\">L4, instead of (R,S)-L1</td><td>1:2</td><td>&gt; 20:1</td><td>6</td></tr><tr><td>8</td><td colspan=\"3\">L5, instead of (R,S)-L1</td><td>64 1:20</td><td>&gt; 20:1</td><td>10</td></tr><tr><td>9</td><td colspan=\"3\">L6, instead of (R,S)-L1</td><td>&lt; 2 一</td><td>一</td><td>一</td></tr><tr><td>10</td><td colspan=\"3\">2b, instead of 2a</td><td>64 4:1</td><td>5:1</td><td>82</td></tr><tr><td>11</td><td colspan=\"3\">2c, instead of 2a</td><td>61 1.3:1</td><td>5:1</td><td>68</td></tr><tr><td>12</td><td colspan=\"3\">2d, instead of 2a</td><td>57 1.6:1</td><td>5:1</td><td>70</td></tr><tr><td>13</td><td colspan=\"3\">EtOAc, instead of DME</td><td>71 12:1</td><td>13:1</td><td>88</td></tr><tr><td></td><td colspan=\"3\">THF, instead of DME</td><td>12:1</td><td></td><td></td></tr><tr><td>14 15</td><td colspan=\"3\">CH3CN, instead of DME</td><td>70 16 5:1</td><td>11:1 11:1</td><td>87 86</td></tr></table>",
+        "table_type": "complex_table",
+        "table_nest_level": 1
+      },
+      "bbox": [
+        510,
+        228,
+        909,
+        520
+      ]
+    },
+    {
+      "type": "image",
+      "content": {
+        "image_source": {
+          "path": "images/628ce424f45c3679bda77c43b8b38bd4de08a2fac47ce7b6f0274d21ac5af863.jpg"
+        },
+        "image_caption": [
+          {
+            "type": "text",
+            "content": "Standard reaction conditions: 1 a (0.2 mmol, 1.0 equiv.), 2 a (1.1 equiv.), CrCl (5 mol %), (R,S)-L1 (9 mol %), [Ir] (1 mol %), CoTPP (2.5 mol %), Hantzsch ester (2.0 equiv.), DME (0.05 M), upon Blue LEDs (440 nm, 20 W) irradiation for 12 h under "
+          },
+          {
+            "type": "equation_inline",
+            "content": "{ \\Nu } _ { 2 }"
+          },
+          {
+            "type": "text",
+            "content": "at 30 °C. [Ir] = Ir(dF(CF )ppy) (dtbpy)]PF . <sup>a</sup> The yield of product as mixture stereoisomers were determined by <sup>1</sup>H NMR analysis using 1,3,5-trimethoxybenzene as the internal standard. <sup>b</sup> The Z/E and dr value were determined by <sup>1</sup>H NMR analysis of crude reaction mixture. <sup>c</sup> The ee value was determined by SFC analysis. <sup>d</sup> Isolated yields as mixture stereoisomers based on aldehyde 1 a."
+          }
+        ],
+        "image_footnote": []
+      },
+      "bbox": [
+        510,
+        527,
+        907,
+        745
+      ]
+    },
+    {
+      "type": "page_aside_text",
+      "content": {
+        "page_aside_text_content": []
+      },
+      "bbox": [
+        966,
+        15,
+        983,
+        984
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "GDCh"
+          }
+        ]
+      },
+      "bbox": [
+        84,
+        17,
+        156,
+        46
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "Research Article"
+          }
+        ]
+      },
+      "bbox": [
+        408,
+        24,
+        591,
+        43
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "An<sub>g</sub>ewan<sup>d</sup>te International Editio Ch<sub>em</sub>i<sub>e</sub>"
+          }
+        ]
+      },
+      "bbox": [
+        784,
+        17,
+        914,
+        46
+      ]
+    },
+    {
+      "type": "page_footer",
+      "content": {
+        "page_footer_content": [
+          {
+            "type": "text",
+            "content": "Angew. Chem. Int. Ed. 2025, 64, e202413198 (2 of 10)"
+          }
+        ]
+      },
+      "bbox": [
+        82,
+        885,
+        349,
+        898
+      ]
+    },
+    {
+      "type": "page_footer",
+      "content": {
+        "page_footer_content": [
+          {
+            "type": "text",
+            "content": "© 2024 Wiley-VCH GmbH"
+          }
+        ]
+      },
+      "bbox": [
+        776,
+        885,
+        914,
+        898
+      ]
+    }
+  ],
+  [
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": []
+      },
+      "bbox": [
+        80,
+        66,
+        492,
+        545
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": [
+          {
+            "type": "text",
+            "content": "With the optimal conditions in hand, we explored the substrate scope (Scheme 1). To our delight, good to excellent yields and stereoselectivities were obtained using various aromatic aldehydes with different substituents on the para, ortho and meta positions, including trifluoromethoxy, boronate, halide, ether, and ester (3 a–3 i). 1-Naphthaldehyde also served as a competent substrate (3 j). Various heteroaromatic aldehydes, including furan, indole, and pyrimidine proved suitable, yielding satisfactory results (3 k– 3m). Additionally, drug-related aldehyde was smoothly transformed into the corresponding product with excellent yield and stereoselectivities (3 n). Unfortunately, alkylsubstituted "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathbf { \\alpha } _ { \\mathbf { { \\mathfrak { a } } } , \\beta } ."
+          },
+          {
+            "type": "text",
+            "content": "-unsaturated aldehydes and ynal did not react under optimal conditions. Regarding aliphatic aldehydes, the scope was broad, with various primary and secondary aliphatic aldehydes reacting smoothly under optimal conditions, affording desired coupling products with excellent efficiency (3 o–3aa). Good functional group compatibility was observed. Additionally, tertiary aliphatic aldehydes led to product 3ab with decreased E/Z ratio and enantioselectivity. Importantly, our protocol proved effective for chiral aldehydes, with moderate yields and excellent stereoselectivities observed when using ketal-protected glyceraldehyde as a substrate (3 ac–3ad). Chiral aldehydes, derived from amino acids, all performed well under optimal conditions, affording desired products with moderate to good yields, high E/Z ratios, and excellent diastereoselectivities (3 ae– 3an). Moreover, cholanal was also suitable for this reaction (3 ao–3ap). It is noteworthy that the stereochemistry of the chiral catalyst, rather than existing stereocenters on the aldehydes, predominantly determines the stereochemistry of the newly formed vicinal stereocenters in coupling products. We next explored the scope of allenyl sulfones (Scheme 1). Pleasingly, excellent yields and stereoselectivities were obtained for a broad array of allenyl sulfones bearing a primary alkyl substituent (3 aq–3 av). Interestingly, the terminal alkene was inert under optimal conditions (3at). In addition, allenyl sulfones bearing a secondary alkyl substituent, including cyclopropyl, cyclohexyl, and isopropyl, all reacted effectively with aliphatic aldehyde, furnishing desired homoallylic alcohols in good yields, high E/Z ratios, and excellent diastereoselectivities (3 aw–3ay). When using the allenyl sulfone attached to a sterically hindered tert-butyl group, the reductive coupling proceeded smoothly without erosion of efficiency, albeit with a slightly diminished yield (3 az). Notably, the use of 3,3-disubstituted allenyl sulfones could also afford the desired products in moderate yields and excellent enantioselectivities (3 ba–3bc). The structure and absolute configuration of 3as were established by x-ray crystallographic analysis, and all other compounds with an E configuration vinyl sulfone moiety were assigned by analogy accordingly."
+          }
+        ]
+      },
+      "bbox": [
+        80,
+        545,
+        492,
+        875
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": []
+      },
+      "bbox": [
+        504,
+        66,
+        915,
+        450
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": [
+          {
+            "type": "text",
+            "content": "Z-alkenes widely exist as basic structural motifs in natural products and bioactive compounds. However, compared to the preparation of E-alkenes, their efficient and highly selective synthesis remains a challenge.<sup>[21]</sup> In this context, we further optimized the reaction conditions for generating products with Z configured carbon-carbon double bond. After carefully investigating various reaction parameters (see Figures S7–S9), we determined optimal conditions with 4-methylbenzenesulfonyl as the protecting group, bisoxazoline (S,R)-L4 as the chiral ligand, and EtOAc as the solvent. Critically, the use of MgCl as an additive was crucial to improving enantioselectivity. Then, we investigated the substrate scopes for Z-alkene selectivity (Scheme 2). The enantioconvergent reductive coupling reaction proceeded effectively to afford the desired products in good yields with moderate Z/E ratios when using a variety of aromatic aldehydes bearing substituents on the para, ortho or meta position. Nevertheless, excellent stereoselectivities for Z-alkene were achieved (4 a–4 g). Heterocyclic aldehyde furfural was also a competent substrate (4 h). In contrast, the use of aliphatic aldehyde led to slightly decreased stereoselectivities (4 i, 7 : 1 dr, 80 % ee). Regarding the scope of allenyl sulfones, the alkyl substituent on allenes could range in steric demand from methyl, n-pentyl, cyclohexyl to tert-butyl, providing desired products in moderate to good yields and excellent stereoselectivities were still obtained for Z-alkenes (4j–4l). Despite the moderate control of Z/E ratio under these cases, this protocol offers a new access to chiral homoallylic alcohols bearing a Z/E defined alkene unit in a mechanistically distinct radical enantioconvergent manner."
+          }
+        ]
+      },
+      "bbox": [
+        504,
+        449,
+        917,
+        875
+      ]
+    },
+    {
+      "type": "page_aside_text",
+      "content": {
+        "page_aside_text_content": []
+      },
+      "bbox": [
+        966,
+        19,
+        983,
+        982
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "GDCh"
+          }
+        ]
+      },
+      "bbox": [
+        84,
+        17,
+        154,
+        46
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "Research Article"
+          }
+        ]
+      },
+      "bbox": [
+        408,
+        24,
+        591,
+        43
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "An<sub>g</sub>ewan<sup>d</sup>te International Edition Ch<sub>em</sub>i<sub>e</sub>"
+          }
+        ]
+      },
+      "bbox": [
+        784,
+        19,
+        914,
+        46
+      ]
+    },
+    {
+      "type": "page_footer",
+      "content": {
+        "page_footer_content": [
+          {
+            "type": "text",
+            "content": "Angew. Chem. Int. Ed. 2025, 64, e202413198 (3 of 10)"
+          }
+        ]
+      },
+      "bbox": [
+        82,
+        885,
+        349,
+        898
+      ]
+    },
+    {
+      "type": "page_footer",
+      "content": {
+        "page_footer_content": [
+          {
+            "type": "text",
+            "content": "© 2024 Wiley-VCH GmbH"
+          }
+        ]
+      },
+      "bbox": [
+        776,
+        885,
+        914,
+        898
+      ]
+    }
+  ],
+  [
+    {
+      "type": "image",
+      "content": {
+        "image_source": {
+          "path": "images/b6e60e82f101031f139dfd363d0fad496267c262d0666800d7b775446f0c43a3.jpg"
+        },
+        "image_caption": [
+          {
+            "type": "text",
+            "content": "Scheme 1. The substrate scope for E-selectivity. <sup>a</sup> Yields indicate the yield of the isolated product as mixture stereoisomers based on aldehyde 1. <sup>b</sup> 2.0 equiv. of 2 a were used. <sup>c</sup> The dr was determined by SFC or HPLC analysis. <sup>d</sup> 8 : 1 dr for newly generated chiral center. <sup>e</sup> 4 : 1 dr for newly generated chiral center. <sup>f</sup>2.0 equiv. of 2 h and 1.0 equiv. of Hantzsch ester were used."
+          }
+        ],
+        "image_footnote": []
+      },
+      "bbox": [
+        168,
+        65,
+        830,
+        822
+      ]
+    },
+    {
+      "type": "page_aside_text",
+      "content": {
+        "page_aside_text_content": []
+      },
+      "bbox": [
+        966,
+        17,
+        984,
+        980
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "CDCh"
+          }
+        ]
+      },
+      "bbox": [
+        84,
+        16,
+        156,
+        46
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "Research Article"
+          }
+        ]
+      },
+      "bbox": [
+        406,
+        24,
+        591,
+        43
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "An<sub>g</sub>ewan<sup>d</sup>te International Editio Ch<sub>em</sub>i<sub>e</sub>"
+          }
+        ]
+      },
+      "bbox": [
+        783,
+        17,
+        914,
+        48
+      ]
+    },
+    {
+      "type": "page_footer",
+      "content": {
+        "page_footer_content": [
+          {
+            "type": "text",
+            "content": "Angew. Chem. Int. Ed. 2025, 64, e202413198 (4 of 10)"
+          }
+        ]
+      },
+      "bbox": [
+        82,
+        885,
+        349,
+        898
+      ]
+    },
+    {
+      "type": "page_footer",
+      "content": {
+        "page_footer_content": [
+          {
+            "type": "text",
+            "content": "© 2024 Wiley-VCH GmbH"
+          }
+        ]
+      },
+      "bbox": [
+        776,
+        885,
+        914,
+        898
+      ]
+    }
+  ],
+  [
+    {
+      "type": "image",
+      "content": {
+        "image_source": {
+          "path": "images/545ab6e280587431a5a051ad1d6cad6bf2b5e39c591d773bb196ba612cda6cd6.jpg"
+        },
+        "image_caption": [
+          {
+            "type": "text",
+            "content": "Scheme 2. The substrate scope for Z-selectivity. Standard reaction conditions: 1 (0.2 mmol, 1.0 equiv.), 2 (2.0 equiv.), CrCl (15 mol %), (S,R)-L4 (25 mol %), [Ir] (1 mol %), CoTPP (2.5 mol %), MgCl (10 mol %), Hantzsch ester (2.0 equiv.), EtOAc (0.05 M), upon Blue LEDs (440 nm, 20 W) irradiation for 12 h under N at 30°C. <sup>a</sup> Yields indicate the yield of the isolated product as mixture stereoisomers based on aldehyde 1."
+          }
+        ],
+        "image_footnote": []
+      },
+      "bbox": [
+        78,
+        67,
+        492,
+        367
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": [
+          {
+            "type": "text",
+            "content": "Allenyl esters are versatile synthons in organic synthesis, readily engaging in a range of annulation transformations, including Rh-catalyzed Pauson \u0000 Khand reaction and Aucatalyzed cycloisomerization reaction.<sup>[22]</sup> They are generally prepared from the corresponding propargylic precursors by a formal 1,3 shift under Cu-, Rh-, or Ag-catalysis.<sup>[23]</sup> However, those methodologies were not applicable to the synthesis of 1,3-disubstituted allenyl esters. In this context, we successfully developed a general Cr-catalytic protonation of α-chloro benzoate, leading to a series of 1,3-disubstituted allenyl benzoates (see Figures S10–S11). Next, we achieved the radical enantioconvergent reductive coupling of racemic allenyl benzoates with aldehydes under similar reaction conditions via photoredox/Cr/Co triple catalysis. As demonstrated in Scheme 3, various aromatic aldehydes proceeded smoothly under the optimal conditions, affording the corresponding products in moderate to good yields and excellent stereoselectivities (5 a–5h). In addition, the use of α,β-unsaturated aldehyde was also effective (5 i). As expected, this reaction could also extend to aliphatic aldehydes. Primary and secondary aldehydes bearing different functional groups were compatible, yielding the desired products (5 j–5 q) with excellent efficiency, except for 5 o with the lower ee value (64% ee). Furthermore, chiral aldehyde cholanal also performed well and furnished products with excellent diastereoselectivity (5 r–5 s). However, tertiary aldehydes were not suitable for this reaction, possibly due to their increased steric hindrance. We also investigated different 2,4,6-trimethylbenzoyloxy-substituted allenes and found that those with 3-monosubstituted substrates could readily participate under the optimal conditions, affording the corresponding products in good yields with good to excellent enantioselectivities (5 t–5x). Finally, it is noteworthy that excellent diastereoselectivities and Z-selectivity were observed under all these cases.<sup>[18]</sup>"
+          }
+        ]
+      },
+      "bbox": [
+        80,
+        489,
+        492,
+        876
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": []
+      },
+      "bbox": [
+        504,
+        66,
+        915,
+        162
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": [
+          {
+            "type": "text",
+            "content": "To further demonstrate the synthetic utility of this protocol, the chiral product 3 s was subjected to synthetic transformations (Figure 2). Firstly, 3 s was converted to the corresponding TBS protected product 6 in a 63 % isolated yield (93 % ee, 18 : 1 dr) by the reaction with TBSOTf. Subsequently, treatment of 6 with TBHP under basic conditions resulted in an epoxidation reaction to give sulphonyl oxirane 7 in a 63% isolated yield (92 % ee, >20 :1 dr), which could serve as an acyl anion equivalent in organic synthesis.<sup>[24]</sup> Alternatively, the vinyl sulfone moiety could participate in the Ni-catalyzed cross-coupling reaction with Grignard reagents.<sup>[25]</sup> Product 8 was obtained in a 51% isolated yield (90 % ee, 18 :1 dr) by the cross-coupling with PhMgBr. Pleasingly, the use of MeMgBr as a nucleophile was also compatible, affording product 9 effectively (92 % ee, 17 : 1 dr). Moreover, 3 s isomerized to the E-allylic alcohol 10 in a 60% isolated yield with 93% ee when treated with DBU.<sup>[26]</sup> Hydrogenation of 3s afforded 11 with an alkyl sulfone moiety in a 67 % isolated yield (86 % ee, >20 :1 dr). Notably, compound 13 with a syn-1,3-diol unit, which widely occurs in natural products and drugs,<sup>[27]</sup> could be readily accessed by a domino hemiacetal/oxy-Michael reaction<sup>[28]</sup> with benzaldehyde and subsequent hydrolysis with 80 % AcOH/H O. However, the ee value of 13 was slightly diminished (83 % ee). Finally, the sulfone group could be easily removed upon treatment with Mg powder, furnishing"
+          }
+        ]
+      },
+      "bbox": [
+        504,
+        161,
+        915,
+        521
+      ]
+    },
+    {
+      "type": "image",
+      "content": {
+        "image_source": {
+          "path": "images/239d851eb16536f69372cdaa1d0124f7cc4dab5ae584039cf9b0ad915ccb909b.jpg"
+        },
+        "image_caption": [
+          {
+            "type": "text",
+            "content": "Figure 2. Product diversifications. (a) TBSOTf, Et N, DCM, \u000078 °C, 12 h. (b) TBHP, t-BuOK, THF, \u0000 78 °C to rt. 12 h. (c) NiCl , 4,4-di-tertbutyl-2,2-bipyridine, PhMgBr, THF, 80 °C, overnight. (d) Ni(acac) , MeMgBr, THF, 80 °C, overnight. (e) DBU, CH CN, rt, 7 h. (f) Pd/C, H , MeOH, overnight. (g) PhCHO, t-BuOK, 0 °C, 1 h. (h) 80 % AcOH/H O, overnight. (i) Mg powder, MeOH, 80 °C, 24 h."
+          }
+        ],
+        "image_footnote": []
+      },
+      "bbox": [
+        507,
+        538,
+        915,
+        790
+      ]
+    },
+    {
+      "type": "page_aside_text",
+      "content": {
+        "page_aside_text_content": []
+      },
+      "bbox": [
+        966,
+        17,
+        983,
+        982
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "GDCh"
+          }
+        ]
+      },
+      "bbox": [
+        84,
+        17,
+        156,
+        46
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "Research Article"
+          }
+        ]
+      },
+      "bbox": [
+        408,
+        24,
+        591,
+        43
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "An<sub>g</sub>ewan<sup>d</sup>te International Edition Ch<sub>em</sub>i<sub>e</sub>"
+          }
+        ]
+      },
+      "bbox": [
+        783,
+        17,
+        914,
+        47
+      ]
+    },
+    {
+      "type": "page_footer",
+      "content": {
+        "page_footer_content": [
+          {
+            "type": "text",
+            "content": "Angew. Chem. Int. Ed. 2025, 64, e202413198 (5 of 10)"
+          }
+        ]
+      },
+      "bbox": [
+        82,
+        885,
+        349,
+        898
+      ]
+    },
+    {
+      "type": "page_footer",
+      "content": {
+        "page_footer_content": [
+          {
+            "type": "text",
+            "content": "© 2024 Wiley-VCH GmbH"
+          }
+        ]
+      },
+      "bbox": [
+        776,
+        885,
+        914,
+        898
+      ]
+    }
+  ],
+  [
+    {
+      "type": "image",
+      "content": {
+        "image_source": {
+          "path": "images/97591add1bbff914f16b64710a6c85d740e0d4020d298add70fccac782e45df8.jpg"
+        },
+        "image_caption": [
+          {
+            "type": "text",
+            "content": "Scheme 3. The substrate scopes for allenyl benzoate. Standard reaction conditions: 1 (0.2 mmol, 1.0 equiv.), 2 (1.5 equiv.), CrCl (15 mol %), (S,R)- L7 (25 mol %), [Ir] (1 mol %), CoTPP (2 mol %), Hantzsch ester (2.0 equiv.), DME (0.05 M), upon Blue LEDs (440 nm, 20 W) irradiation for 12 h under "
+          },
+          {
+            "type": "equation_inline",
+            "content": "{ \\Nu } _ { 2 }"
+          },
+          {
+            "type": "text",
+            "content": "at 30 °C. <sup>a</sup> The yields are isolated yields based on aldehyde 1. Ar = 2,4,6-trimethyl benzoyl. <sup>b</sup> di-tert-Butyl 2,6-dimethyl-1,4-dihydropyridine 3,5-dicarboxylate instead of Hantzsch ester (2.0 equiv.). <sup>c</sup> 2.0 equiv. of 2 u were used. <sup>d</sup>2.0 equiv. of 2 z and 1.0 equiv. of Hantzsch ester were used."
+          }
+        ],
+        "image_footnote": []
+      },
+      "bbox": [
+        154,
+        65,
+        840,
+        544
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": [
+          {
+            "type": "text",
+            "content": "the homoallylic alcohol 14 in a 63 % isolated yield (88% ee, > 20 : 1 dr).<sup>[29]</sup> These successful transformations demonstrate the feasibility of our newly developed protocol and the potential for wide application in the synthesis of structurally diverse natural products."
+          }
+        ]
+      },
+      "bbox": [
+        80,
+        642,
+        489,
+        709
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": [
+          {
+            "type": "text",
+            "content": "To gain further insight into this reaction, mechanistic studies were carried out (Figure 3). The addition of 2,2,6,6- tetramethylpiperidin-1-oxyl (TEMPO) completely inhibited product formation (Figure 3A). Using enantiopure (M)-2 a or the opposite enantiomer (P)-2 a as substrate resulted in the same product 3 p with identical stereoselectivities, indicating that this reaction proceeded in an enantioconvergent process (Figure 3B). To further elucidate the reaction pathway, time course experiments of the reaction of enantiopure (M)-2a and racemic 2a were conducted, respectively (Figure 3C). Firstly, nearly identical consumption rates were observed for enantiopure (M)-2a and racemic 2 a. Moreover, the 3p formation rates were also identical. These results unambiguously demonstrated that each enantiomer of 2a has the same reactivity under the reaction conditions. Interestingly, an induction period was involved for this reaction in the first 2 hours to give 3p in only 10 % yield. We speculated that this phenomenon may be attributed to the low concentration of the active Co<sup>I</sup> species in the initial stage, which was necessary for the "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathrm { C o ^ { I I I } { - } H }"
+          },
+          {
+            "type": "text",
+            "content": "species formation. Regarding the stereochemical outcomes. We found no enantio-erosion or enantio-enrichment of the recovered enantiopure (M)-2 a and racemic 2a, respectively, which exclude fast racemization or kinetic resolution of allenes as the possible reaction pathways. In addition, almost constant product ee values were observed under the reaction conditions. Based on our previous work and the above results, we believed that our method goes through a standard radical stereoablative process, wherein an allylic radical species was generated irreversibly with identical rates "
+          },
+          {
+            "type": "equation_inline",
+            "content": "( k _ { \\mathrm { P } } = k _ { \\mathrm { M } } )"
+          },
+          {
+            "type": "text",
+            "content": "by the radical stereoablation of two enantiomer allenes with a "
+          },
+          {
+            "type": "equation_inline",
+            "content": "{ \\mathrm { C o } } ^ { \\mathrm { I I I } } \\mathrm { - }"
+          },
+          {
+            "type": "text",
+            "content": "\u0000H mediated MHAT process (see Figure S14). Deuterium-labeling experiments revealed that the "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathrm { C o } ^ { \\mathrm { I I I } } { \\mathrm { - H } }"
+          },
+          {
+            "type": "text",
+            "content": "mediated MHAT is a regiospecific process that occurred exclusively at the 2-position of the allene."
+          }
+        ]
+      },
+      "bbox": [
+        80,
+        709,
+        492,
+        875
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": []
+      },
+      "bbox": [
+        504,
+        642,
+        915,
+        875
+      ]
+    },
+    {
+      "type": "page_aside_text",
+      "content": {
+        "page_aside_text_content": []
+      },
+      "bbox": [
+        966,
+        17,
+        984,
+        982
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "GDCh"
+          }
+        ]
+      },
+      "bbox": [
+        84,
+        17,
+        156,
+        46
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "Research Article"
+          }
+        ]
+      },
+      "bbox": [
+        406,
+        24,
+        591,
+        43
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "An<sub>g</sub>ewan<sup>d</sup>te International Edition Ch<sub>em</sub>i<sub>e</sub>"
+          }
+        ]
+      },
+      "bbox": [
+        783,
+        17,
+        914,
+        47
+      ]
+    },
+    {
+      "type": "page_footer",
+      "content": {
+        "page_footer_content": [
+          {
+            "type": "text",
+            "content": "Angew. Chem. Int. Ed. 2025, 64, e202413198 (6 of 10)"
+          }
+        ]
+      },
+      "bbox": [
+        82,
+        885,
+        349,
+        898
+      ]
+    },
+    {
+      "type": "page_footer",
+      "content": {
+        "page_footer_content": [
+          {
+            "type": "text",
+            "content": "© 2024 Wiley-VCH GmbH"
+          }
+        ]
+      },
+      "bbox": [
+        776,
+        885,
+        914,
+        898
+      ]
+    }
+  ],
+  [
+    {
+      "type": "image",
+      "content": {
+        "image_source": {
+          "path": "images/148d31054673b7d9abb5a05bbfdab78edd951a213570ddb4b6cb0c447c3d5a4f.jpg"
+        },
+        "image_caption": [],
+        "image_footnote": []
+      },
+      "bbox": [
+        80,
+        233,
+        477,
+        298
+      ]
+    },
+    {
+      "type": "image",
+      "content": {
+        "image_source": {
+          "path": "images/8292ae792e6c45041374fac7448059d29eab4409e55fe8ac6122e5decf9cb40e.jpg"
+        },
+        "image_caption": [
+          {
+            "type": "text",
+            "content": "A. TEMPO inhibition experiments"
+          }
+        ],
+        "image_footnote": []
+      },
+      "bbox": [
+        82,
+        91,
+        477,
+        146
+      ]
+    },
+    {
+      "type": "image",
+      "content": {
+        "image_source": {
+          "path": "images/970150b746138265450e01e79f1af7a1ed07b19e01a092bfd4f0200301981736.jpg"
+        },
+        "image_caption": [
+          {
+            "type": "text",
+            "content": "B. Evidence for enantioconvergent coupling"
+          }
+        ],
+        "image_footnote": []
+      },
+      "bbox": [
+        78,
+        167,
+        477,
+        224
+      ]
+    },
+    {
+      "type": "image",
+      "content": {
+        "image_source": {
+          "path": "images/7f7a506f9826cdac8016414fdf2d0cb529b56f24393950b08a55208963414b52.jpg"
+        },
+        "image_caption": [],
+        "image_footnote": []
+      },
+      "bbox": [
+        497,
+        83,
+        919,
+        210
+      ]
+    },
+    {
+      "type": "image",
+      "content": {
+        "image_source": {
+          "path": "images/b8cda4370db9f63eeded4a983667913a73342309dc2223fb3c577487d0052d2e.jpg"
+        },
+        "image_caption": [],
+        "image_footnote": []
+      },
+      "bbox": [
+        500,
+        215,
+        921,
+        316
+      ]
+    },
+    {
+      "type": "image",
+      "content": {
+        "image_source": {
+          "path": "images/cc3eef5e885cd6efb5d8b5751370ab871a25ef6099057c20aff6c9727dc24686.jpg"
+        },
+        "image_caption": [
+          {
+            "type": "text",
+            "content": "C. Time course experiments"
+          }
+        ],
+        "image_footnote": []
+      },
+      "bbox": [
+        85,
+        321,
+        907,
+        519
+      ]
+    },
+    {
+      "type": "image",
+      "content": {
+        "image_source": {
+          "path": "images/3a06c9803fe14a45fadb1b89da9ef42cd8029d2298657e2e06695948def15641.jpg"
+        },
+        "image_caption": [
+          {
+            "type": "text",
+            "content": "E. Proposed mechanism"
+          },
+          {
+            "type": "text",
+            "content": "Figure 3. Mechanistic studies."
+          }
+        ],
+        "image_footnote": []
+      },
+      "bbox": [
+        181,
+        554,
+        784,
+        776
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": []
+      },
+      "bbox": [
+        80,
+        832,
+        492,
+        875
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": []
+      },
+      "bbox": [
+        504,
+        832,
+        915,
+        875
+      ]
+    },
+    {
+      "type": "page_aside_text",
+      "content": {
+        "page_aside_text_content": []
+      },
+      "bbox": [
+        966,
+        16,
+        983,
+        982
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "CDCh"
+          }
+        ]
+      },
+      "bbox": [
+        84,
+        17,
+        156,
+        46
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "Research Article"
+          }
+        ]
+      },
+      "bbox": [
+        408,
+        24,
+        591,
+        43
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "An<sub>g</sub>ewan<sup>d</sup>te International Edition Ch<sub>em</sub>i<sub>e</sub>"
+          }
+        ]
+      },
+      "bbox": [
+        783,
+        17,
+        914,
+        47
+      ]
+    },
+    {
+      "type": "page_footer",
+      "content": {
+        "page_footer_content": [
+          {
+            "type": "text",
+            "content": "Angew. Chem. Int. Ed. 2025, 64, e202413198 (7 of 10)"
+          }
+        ]
+      },
+      "bbox": [
+        82,
+        885,
+        349,
+        898
+      ]
+    },
+    {
+      "type": "page_footer",
+      "content": {
+        "page_footer_content": [
+          {
+            "type": "text",
+            "content": "© 2024 Wiley-VCH GmbH"
+          }
+        ]
+      },
+      "bbox": [
+        776,
+        885,
+        914,
+        898
+      ]
+    }
+  ],
+  [
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": [
+          {
+            "type": "text",
+            "content": "Moreover, no deuterium incorporation was observed when using HEH-II without deuterium of the N\u0000H bond while about 74 % deuterium incorporation was found when using HEH-I with 77% deuterium of the N\u0000H bond, indicating that the hydrogen in "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathrm { C o } ^ { \\mathrm { I I I } } \\mathrm { - }"
+          },
+          {
+            "type": "text",
+            "content": "\u0000H species comes from N\u0000H bond, not the allylic C\u0000H bond. This conclusion was further validated from the reaction of 3-phenylpropanal with racemic 2 a in the presence of HEH-II, affording product 3 o without any deuterium at C2-position, albeit in nearly quantitative yield (Figure 3D)."
+          }
+        ]
+      },
+      "bbox": [
+        80,
+        66,
+        492,
+        204
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": [
+          {
+            "type": "text",
+            "content": "We next performed DFT calculations to explore the reaction mechanism and the origins of regio- and stereoselectivity, using benzaldehyde 1a and allenyl sulfone 2a as the model substrates and (R,S)-L1 as the ligand (Figure 4). Firstly, allyl radical A1 is generated by the regiospecific MHAT of "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathrm { \\dot { C } o ^ { m } { - } H }"
+          },
+          {
+            "type": "text",
+            "content": "species with 2a, having only 0.2 kcal/mol transition state free energy (see Figure S15). The subsequent radical capture by Cr<sup>II</sup>/L1 Int1 via radical-polar crossover delivers allyl- "
+          },
+          {
+            "type": "equation_inline",
+            "content": "{ \\bf \\nabla } { \\bf { C r ^ { \\mathrm { I I I } } } } / { \\bf { L 1 } }"
+          },
+          {
+            "type": "text",
+            "content": "Int2. Next, aldehyde coordination to Int2 generates Int3. The subsequent asymmetric carbonyl addition occurs through a Zimmerman–Traxler transition state TS1 with 11.0 kcal/mol free energy, affording the protected homoallylic alcohol with O\u0000 Cr bond Int4, which then undergoes protolysis to furnish Int5 with a Crcoordination interaction. Finally, the dissociation of Int5 eventually liberates the reductive coupling product 3a and regenerates the Int1 through the reduction of "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathrm { C r } ^ { \\mathrm { I I I } } / \\mathbf { L 1 }"
+          },
+          {
+            "type": "text",
+            "content": "species (Figure 4A). We also examined the origins of regioand E/Z selectivity (Figure 4A). Computational results revealed that the regioisomer allyl- "
+          },
+          {
+            "type": "equation_inline",
+            "content": "{ \\bf \\cdot } { \\bf \\cal { C r } } ^ { \\mathrm { I I I } } / { \\bf \\cal { L } } { \\bf 1 }"
+          },
+          {
+            "type": "text",
+            "content": "species Int6 was 7.6 kcal/mol less stable than Int2. Moreover, the transition state (TS1 and TS2) for Cr-catalytic C\u0000C bond formation has a 3.7 kcal/mol free energy difference, favoring the homoallylic alcohol with a vinyl sulfone moiety product. This is consistent with the experiment results, in which no other regioisomers are observed in all cases. In addition, the results of 4.8 kcal/mol less stable for Int8 and 5.2 kcal/mol higher in transition state free energy for TS3 indicated that the pathway of generating Z-3a is less favorable. Regarding the enantio- and diastereoselectivity of this process, our calculations revealed that the interconversion among the "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathbf { a l l y l - C r } ^ { \\mathrm { { I I I } } } / \\mathbf { L 1 }"
+          },
+          {
+            "type": "text",
+            "content": "species is kinetically facile. Therefore, based on Curtin \u0000 Hammett principle, the Cr-catalyzed carbonyl addition step determines the overall regio, enantio- and diastereoselectivity. The DFT calculated transition state free energy changes are shown in Figure 4B (see Figures S18–S21). Based on the optimized structures, the enantioisomeric C\u0000C bond formation transition state TS4-(S,S), which has a boat conformation, is 2.9 kcal/mol less favourable than TS4- (R,R). In addition, the diastereoisomeric C\u0000C bond formation transition states TS5-(R,S) and TS6-(S,R) have a 3.2 kcal/mol and 1.7 kcal/mol free energy differences with TS1-(R,R), respectively, favoring the (R,R)-product. The transition state TS5-(R,S) has the same chair conformation as TS1-(R,R). However, the axial position of the methyl group in TS5-(R,S) makes its less favorable. While the transition state TS6-(S,R) is a boat conformation, which results in an increased free energy of 1.7 kcal/mol. This result is consistent with the observed excellent distereoselectivity for 3 a (15 : 1 dr, 1.6 kcal/mol ΔΔG<sup>‡</sup>)."
+          }
+        ]
+      },
+      "bbox": [
+        80,
+        203,
+        492,
+        247
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": []
+      },
+      "bbox": [
+        504,
+        66,
+        915,
+        247
+      ]
+    },
+    {
+      "type": "image",
+      "content": {
+        "image_source": {
+          "path": "images/2233ebccafa2c5e934135da163b141c304b56645bb3f27efc25b5ed296b5db93.jpg"
+        },
+        "image_caption": [
+          {
+            "type": "text",
+            "content": "Figure 4. DFT calculations."
+          }
+        ],
+        "image_footnote": []
+      },
+      "bbox": [
+        110,
+        278,
+        885,
+        851
+      ]
+    },
+    {
+      "type": "page_aside_text",
+      "content": {
+        "page_aside_text_content": []
+      },
+      "bbox": [
+        966,
+        16,
+        984,
+        982
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "GDCh"
+          }
+        ]
+      },
+      "bbox": [
+        84,
+        17,
+        156,
+        46
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "Research Article"
+          }
+        ]
+      },
+      "bbox": [
+        408,
+        24,
+        591,
+        43
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "An<sub>g</sub>ewan<sup>d</sup>te International Editior Ch<sub>em</sub>i<sub>e</sub>"
+          }
+        ]
+      },
+      "bbox": [
+        783,
+        17,
+        914,
+        46
+      ]
+    },
+    {
+      "type": "page_footer",
+      "content": {
+        "page_footer_content": [
+          {
+            "type": "text",
+            "content": "Angew. Chem. Int. Ed. 2025, 64, e202413198 (8 of 10)"
+          }
+        ]
+      },
+      "bbox": [
+        82,
+        884,
+        349,
+        898
+      ]
+    },
+    {
+      "type": "page_footer",
+      "content": {
+        "page_footer_content": [
+          {
+            "type": "text",
+            "content": "© 2024 Wiley-VCH GmbH"
+          }
+        ]
+      },
+      "bbox": [
+        776,
+        885,
+        914,
+        898
+      ]
+    }
+  ],
+  [
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": []
+      },
+      "bbox": [
+        80,
+        66,
+        490,
+        532
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": [
+          {
+            "type": "text",
+            "content": "Accordingly, a plausible mechanism was proposed (Figure "
+          },
+          {
+            "type": "equation_inline",
+            "content": "3 \\mathrm { E } ) . ^ { \\left[ 1 8 \\right] }"
+          },
+          {
+            "type": "text",
+            "content": "The excited photocatalyst Ir(dF(CF )ppy) - "
+          },
+          {
+            "type": "equation_inline",
+            "content": "( \\mathrm { d t b p y } ) ] \\mathrm { P F } _ { 6 } \\ : ( E _ { 1 / 2 } \\ : ( \\mathrm { I r ^ { I I I * } / I r ^ { I I } } ) = + 1 . 2 1 \\ : \\mathrm { V }"
+          },
+          {
+            "type": "text",
+            "content": "vs SCE in MeCN) is reductively quenched by the Hantzsch ester (HEH) "
+          },
+          {
+            "type": "equation_inline",
+            "content": "( E _ { 1 / 2 }"
+          },
+          {
+            "type": "equation_inline",
+            "content": "( \\mathrm { H E H ^ { \\bullet + } / H E H } ) = + 0 . 9 5 \\ : \\mathrm { V }"
+          },
+          {
+            "type": "text",
+            "content": "vs SCE in MeCN), generating "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathrm { I r } ^ { \\mathrm { I I } }"
+          },
+          {
+            "type": "text",
+            "content": "and "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathrm { H E H ^ { \\bullet ^ { + } } }"
+          },
+          {
+            "type": "text",
+            "content": ". Then "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathrm { H E H ^ { \\bullet ^ { + } } }"
+          },
+          {
+            "type": "text",
+            "content": "is expected to extrude a proton to generate HE<sup>*</sup>. And, the reduced photocatalyst "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathrm { I r } ^ { \\mathrm { \\scriptsize { ^ { I I } } } } \\left( E _ { 1 / 2 } \\right."
+          },
+          {
+            "type": "equation_inline",
+            "content": "( \\mathrm { I r } ^ { \\mathrm { I I I } } / \\mathrm { I r } ^ { \\mathrm { I I } } ) { = } { - } 1 . 3 7"
+          },
+          {
+            "type": "text",
+            "content": "V vs SCE in MeCN) is oxidized by the "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathrm { C o } ^ { \\mathrm { I I } }"
+          },
+          {
+            "type": "text",
+            "content": "species "
+          },
+          {
+            "type": "equation_inline",
+            "content": "( E _ { 1 / 2 } ~ ( \\mathrm { C o ^ { I I } / C o ^ { I } } ) { = } { - } 0 . 8 5 ~ \\mathrm { V }"
+          },
+          {
+            "type": "text",
+            "content": "vs SCE in PhCN), providing the "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathrm { C o ^ { I } }"
+          },
+          {
+            "type": "text",
+            "content": "species and completing the photoredox cycle. Subsequent oxidative protonation of "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathrm { C o ^ { I } }"
+          },
+          {
+            "type": "text",
+            "content": "species forms the "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathrm { C o } ^ { \\mathrm { I I I } } \\mathrm { \\Omega }"
+          },
+          {
+            "type": "text",
+            "content": "\u0000H, which is then intercepted by substrate 2a through the MHAT process, yielding a reactive allyl radical and the "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathrm { C o } ^ { \\mathrm { I I } }"
+          },
+          {
+            "type": "text",
+            "content": ". Next, the allyl radical is captured by "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathrm { C r ^ { I I } / L 1 }"
+          },
+          {
+            "type": "text",
+            "content": ", affording the nucleophilic allyl- "
+          },
+          {
+            "type": "equation_inline",
+            "content": "{ \\bf \\cdot } { \\bf \\cal { C r } } ^ { \\mathrm { I I I } } / { \\bf \\cal { L } } { \\bf 1 }"
+          },
+          {
+            "type": "text",
+            "content": "complex. The nucleophilic addition of "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathbf { a l l y l - C r ^ { \\mathrm { { I I I } } } / L 1 }"
+          },
+          {
+            "type": "text",
+            "content": "complex to aldehyde 1a is proceed through a Zimmerman–Traxler transition state, affording the product 3 a after further protonation. Finally, the "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathrm { C r } ^ { \\mathrm { I I I } } /"
+          },
+          {
+            "type": "text",
+            "content": "L1 complex "
+          },
+          {
+            "type": "equation_inline",
+            "content": "( E _ { 1 / 2 } ~ ( \\mathrm { C r ^ { I I I } / C r ^ { I I } } ) { = } { - } 0 . 5 1 \\ : \\mathrm { V }"
+          },
+          {
+            "type": "text",
+            "content": "vs SCE in DMF) is reduced to "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathrm { C r } ^ { \\mathrm { I I } } / \\mathbf { L 1 }"
+          },
+          {
+            "type": "text",
+            "content": "by "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathrm { I r } ^ { \\mathrm { I I } } \\left( E _ { 1 / 2 } \\left( \\mathrm { I r } ^ { \\mathrm { I I I } } / \\mathrm { I r } ^ { \\mathrm { I I } } \\right) = - 1 . 3 7 \\mathrm { V } \\right."
+          },
+          {
+            "type": "text",
+            "content": "vs SCE in MeCN) to close the Cr-catalytic cycle. Alternatively, HE<sup>*</sup> "
+          },
+          {
+            "type": "equation_inline",
+            "content": "( E _ { 1 / 2 } \\ ( \\mathrm { H E ^ { + } / H E ^ { \\bullet } } ) = - 0 . 7 6 \\mathrm { \\ V }"
+          },
+          {
+            "type": "text",
+            "content": "vs SCE in MeCN) could also reduce "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathrm { C r } ^ { \\mathrm { I I I } } / \\mathbf { L 1 }"
+          },
+          {
+            "type": "text",
+            "content": "to "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathrm { C r } ^ { \\mathrm { I I } } / \\mathbf { L 1 }"
+          },
+          {
+            "type": "text",
+            "content": ", generating the pyridine byproduct."
+          }
+        ]
+      },
+      "bbox": [
+        80,
+        531,
+        492,
+        860
+      ]
+    },
+    {
+      "type": "title",
+      "content": {
+        "title_content": [
+          {
+            "type": "text",
+            "content": "Conclusion"
+          }
+        ],
+        "level": 2
+      },
+      "bbox": [
+        507,
+        65,
+        596,
+        80
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": [
+          {
+            "type": "text",
+            "content": "In conclusion, we have developed a radical-based enantioconvergent reductive coupling of racemic allenes and aldehydes via photoredox/Cr/Co triple catalysis. This method furnishes a broad range of synthetically versatile chiral homoallylic alcohols bearing an internal carbon-carbon double bond with excellent efficiency, selectivity, and functional group tolerance. The robustness of the protocol is highlighted by its broad substrate scope, including various aromatic, heteroaromatic, aliphatic aldehydes and chiral aldehydes. The reductive coupling products could be readily transformed into a series of valuable chiral building blocks, demonstrating the potential synthetic utility of this protocol. Preliminary mechanistic studies, including TEMPO inhibition, control experiments and time-course study, unambiguously suggest that this protocol proceeds in a radical-based enantioconvergence manner. Deuterium-labeling experiments and DFT calculations provide insights into the origin of regio- and stereoselectivity. We anticipate that this protocol will become a valuable tool for synthetic chemists, offering efficient access to enantioenriched chiral homoallylic alcohols with a stereo-defined internal carbon-carbon double bond."
+          }
+        ]
+      },
+      "bbox": [
+        504,
+        93,
+        915,
+        395
+      ]
+    },
+    {
+      "type": "title",
+      "content": {
+        "title_content": [
+          {
+            "type": "text",
+            "content": "Acknowledgements"
+          }
+        ],
+        "level": 2
+      },
+      "bbox": [
+        505,
+        428,
+        660,
+        443
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": [
+          {
+            "type": "text",
+            "content": "We are grateful for financial support from the National Natural Science Foundation of China (22171231), Zhejiang Provincial Key Laboratory Construction Project, Zhejiang Provincial Natural Science Foundation of China (XHD23B0101), and WESynBio Center at Westlake University (WU2022A007). We thank Westlake University Instrumentation and Service Center for Molecular Science and Physical Sciences, and High-performance Computing Center for the assistance in measurement and data interpretation."
+          }
+        ]
+      },
+      "bbox": [
+        504,
+        449,
+        915,
+        588
+      ]
+    },
+    {
+      "type": "title",
+      "content": {
+        "title_content": [
+          {
+            "type": "text",
+            "content": "Conflict of Interest"
+          }
+        ],
+        "level": 2
+      },
+      "bbox": [
+        507,
+        612,
+        655,
+        629
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": [
+          {
+            "type": "text",
+            "content": "The authors declare no conflict of interest."
+          }
+        ]
+      },
+      "bbox": [
+        507,
+        640,
+        794,
+        656
+      ]
+    },
+    {
+      "type": "title",
+      "content": {
+        "title_content": [
+          {
+            "type": "text",
+            "content": "Data Availability Statement"
+          }
+        ],
+        "level": 2
+      },
+      "bbox": [
+        507,
+        681,
+        729,
+        696
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": [
+          {
+            "type": "text",
+            "content": "The data that support the findings of this study are available in the supplementary material of this article."
+          }
+        ]
+      },
+      "bbox": [
+        505,
+        708,
+        912,
+        738
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "paragraph_content": [
+          {
+            "type": "text",
+            "content": "Keywords: Diastereoselectivity · Enantioselectivity · Homogeneous Catalysis · Photoredox Catalysis · Radicals"
+          }
+        ]
+      },
+      "bbox": [
+        507,
+        755,
+        873,
+        784
+      ]
+    },
+    {
+      "type": "list",
+      "content": {
+        "list_type": "reference_list",
+        "list_items": [
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[1] a) D.-F. Chen, L.-Z. Gong, J. Am. Chem. Soc. 2022, 144, 2415– 2437; b) B. A. Sandoval, T. K. Hyster, Curr. Opin. Chem. Biol. 2020, 55, 45–51; c) S.-H. Xiang, B. Tan, Nat. Commun. 2020, 11, 3786."
+              }
+            ]
+          }
+        ]
+      },
+      "bbox": [
+        515,
+        825,
+        912,
+        872
+      ]
+    },
+    {
+      "type": "page_aside_text",
+      "content": {
+        "page_aside_text_content": []
+      },
+      "bbox": [
+        966,
+        17,
+        983,
+        982
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "GDCh"
+          }
+        ]
+      },
+      "bbox": [
+        84,
+        17,
+        154,
+        46
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "Research Article"
+          }
+        ]
+      },
+      "bbox": [
+        408,
+        24,
+        591,
+        43
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "An<sub>g</sub>ewan<sup>d</sup>te International Edition Ch<sub>em</sub>i<sub>e</sub>"
+          }
+        ]
+      },
+      "bbox": [
+        784,
+        19,
+        914,
+        46
+      ]
+    },
+    {
+      "type": "page_footer",
+      "content": {
+        "page_footer_content": [
+          {
+            "type": "text",
+            "content": "Angew. Chem. Int. Ed. 2025, 64, e202413198 (9 of 10)"
+          }
+        ]
+      },
+      "bbox": [
+        82,
+        885,
+        347,
+        898
+      ]
+    },
+    {
+      "type": "page_footer",
+      "content": {
+        "page_footer_content": [
+          {
+            "type": "text",
+            "content": "© 2024 Wiley-VCH GmbH"
+          }
+        ]
+      },
+      "bbox": [
+        776,
+        885,
+        912,
+        897
+      ]
+    }
+  ],
+  [
+    {
+      "type": "list",
+      "content": {
+        "list_type": "reference_list",
+        "list_items": [
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[2] a) V. Bhat, E. R. Welin, X. Guo, B. M. Stoltz, Chem. Rev. 2017, 117, 4528–4561; b) M. Yus, C. Nájera, F. Foubelo, J. M. Sansano, Chem. Rev. 2023, 123, 11817–11893."
+              }
+            ]
+          },
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[3] C. Fischer, G. C. Fu, J. Am. Chem. Soc. 2005, 127, 4594–4595."
+              }
+            ]
+          },
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[4] a) A. H. Cherney, N. T. Kadunce, S. E. Reisman, Chem. Rev. 2015, 115, 9587–9652; b) J. Choi, G. C. Fu, Science 2017, 356, eaaf7230; c) G. C. Fu, ACS Cent. Sci. 2017, 3, 692–700; d) X.-Y. Dong, Z.-L. Li, Q.-S. Gu, X.-Y. Liu, J. Am. Chem. Soc. 2022, 144, 17319–17329; e) Z. Zhang, P. Chen, G. Liu, Chem. Soc. Rev. 2022, 51, 1640–1658; f) F.-D. Lu, J. Chen, X. Jiang, J.-R. Chen, L.-Q. Lu, W.-J. Xiao, Chem. Soc. Rev. 2021, 50, 12808– 12827."
+              }
+            ]
+          },
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[5] A. Hölzl-Hobmeier, A. Bauer, A. V. Silva, S. M. Huber, C. Bannwarth, T. Bach, Nature 2018, 564, 240–243."
+              }
+            ]
+          },
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[6] a) R. Zeng, C. Fu, S. Ma, J. Am. Chem. Soc. 2012, 134, 9597– 9600; b) L. J. Hilpert, S. V. Sieger, A. M. Haydl, B. Breit, Angew. Chem. Int. Ed. 2019, 58, 3378–3381; c) D. A. Khrakovsky, C. Tao, M. W. Johnson, R. T. Thornbury, S. L. She-vick, F. D. Toste, Angew. Chem. Int. Ed. 2016, 55, 6079–6083; d) Z. Zhang, C. F. Bender, R. A. Widenhoefer, J. Am. Chem. Soc. 2007, 129, 14148–14149; e) H. Ni, W.-L. Chan, Y. Lu, Chem. Rev. 2018, 118, 9344–9411; f) X. Jiang, W. Xiong, S. Deng, F.- D. Lu, Y. Jia, Q. Yang, L.-Y. Xue, X. Qi, J. A. Tunge, L.-Q. Lu, W.-J. Xiao, Nat. Catal. 2022, 5, 788–797; g) J. K. Cheng, S.- H. Xiang, S. Li, L. Ye, B. Tan, Chem. Rev. 2021, 121, 4805– 4902."
+              }
+            ]
+          },
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[7] a) Z. Cheng, T. Yang, C. Li, Y. Deng, F. Zhang, P. Chen, Z. Lin, S. Ma, G. Liu, J. Am. Chem. Soc. 2023, 145, 25995–26002; b) Y. Wei, Z. Wang, K. Wang, J. K. Qiu, Z. Wang, H. Li, X. Duan, K. Guo, X. Bao, X. Wu, Angew. Chem. Int. Ed. 2023, 63, e202317132."
+              }
+            ]
+          },
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[8] a) S. Yu, S. Ma, Chem. Commun. 2011, 47, 5384–5418; b) S. Ma, Chem. Rev. 2005, 105, 2829–2871; c) S. Ma, Acc. Chem. Res. 2009, 42, 1679–1688; d) S. Yu, S. Ma, Angew. Chem. Int. Ed. 2012, 51, 3074–3112; e) R. Blieck, M. Taillefer, F. Monnier, Chem. Rev. 2020, 120, 13545–13598."
+              }
+            ]
+          },
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[9] a) M. Holmes, L. A. Schwartz, M. J. Krische, Chem. Rev. 2018, 118, 6026–6052; b) M. Xiang, D. E. Pfaffinger, M. J. Krische, Chem. Eur. J. 2021, 27, 13107–13116; c) H. Xie, B. Breit, ACS Catal. 2022, 12, 3249–3255."
+              }
+            ]
+          },
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[10] a) S. B. Han, I. S. Kim, H. Han, M. J. Krische, J. Am. Chem. Soc. 2009, 131, 6916–6917; b) T. Liang, K. D. Nguyen, W. Zhang, M. J. Krische, J. Am. Chem. Soc. 2015, 137, 3161–3164; c) E. Ortiz, B. J. Spinello, Y. Cho, J. Wu, M. J. Krische, Angew. Chem. Int. Ed. 2022, 61, e202212814;; d) K. Spielmann, M. Xiang, L. A. Schwartz, M. J. Krische, J. Am. Chem. Soc. 2019, 141, 14136–14141; e) M. Xiang, D. E. Pfaffinger, E. Ortiz, G. A. Brito, M. J. Krische, J. Am. Chem. Soc. 2021, 143, 8849– 8854."
+              }
+            ]
+          },
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[11] a) F. Meng, H. Jang, B. Jung, A. H. Hoveyda, Angew. Chem. Int. Ed. 2013, 52, 5046–5051; b) J. Kawai, P. K. Chikkade, Y. Shimizu, M. Kanai, Angew. Chem. Int. Ed. 2013, 52, 7177–7180;"
+              }
+            ]
+          },
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "c) X. Zhang, X. Han, X. Lu, Org. Lett. 2015, 17, 3910–3913; d) E. Y. Tsai, R. Y. Liu, Y. Yang, S. L. Buchwald, J. Am. Chem. Soc. 2018, 140, 2007–2011; e) W. Huang, J. Bai, Y. Guo, Q. Chong, F. Meng, Angew. Chem. Int. Ed. 2023, 62, e202219257."
+              }
+            ]
+          },
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[12] M. Chen, W. R. Roush, J. Am. Chem. 2011, 133, 5744–5747."
+              }
+            ]
+          },
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[13] a) S.-S. Ng, T. F. Jamison, J. Am. Chem. Soc. 2005, 127, 7320– 7321; b) S. Z. Tasker, E. A. Standley, T. F. Jamison, Nature 2014, 509, 299–309."
+              }
+            ]
+          },
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[14] X. Han, W. L. Chan, W. Yao, Y. Wang, Y. Lu, Angew. Chem. Int. Ed. 2016, 55, 6492–6496."
+              }
+            ]
+          },
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[15] D. N. Tran, N. Cramer, Angew. Chem. Int. Ed. 2013, 52, 10630– 10634."
+              }
+            ]
+          },
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[16] a) A. Fürstner, Chem. Rev. 1999, 99, 991–1045; b) F. H. Zhang, X. Guo, X. Zeng, Z. Wang, Angew. Chem. Int. Ed. 2022, 61, e202117114; c) H. Hu, Z. Shi, X. Guo, F. H. Zhang, Z. Wang, J. Am. Chem. Soc. 2024, 146, 5316–5323."
+              }
+            ]
+          },
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[17] S. W. M. Crossley, C. Obradors, R. M. Martinez, R. A. Shenvi, Chem. Rev. 2016, 116, 8912–9000."
+              }
+            ]
+          },
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[18] H. Shen, Z. Zhang, Z. Shi, K. Gao, Z. Wang, Chem 2024, 10, 998–1014."
+              }
+            ]
+          },
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[19] D. C. Meadows, J. Gervay-Hague, Med. Res. Rev. 2006, 26, 793–814."
+              }
+            ]
+          },
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[20] D. Yadav, R. S. Menon, Org. Biomol. Chem. 2020, 18, 365–378."
+              }
+            ]
+          },
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[21] W.-Y. Siau, Y. Zhang, Y. Zhao, Stereoselective Synthesis of Z-Alkenes. In Stereoselective Alkene Synthesis, J. Wang, Ed. Springer, 2012, pp 33–58."
+              }
+            ]
+          },
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[22] a) N. Marion, S. Díez-González, P. de Frémont, A. R. Noble, S. P. Nolan, Angew. Chem. Int. Ed. 2006, 45, 3647–3650; b) L. C. Burrows, L. T. Jesikiewicz, G. Lu, S. J. Geib, P. Liu, K. M. Brummond, J. Am. Chem. Soc. 2017, 139, 15022–15032."
+              }
+            ]
+          },
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[23] a) H. Schlossarczyk, W. Sieber, M. Hesse, H. J. Hansen, H. Schmid, Helv. Chim. Acta 1973, 56, 875–944; b) D. G. Oelberg, M. D. Schiavelli, J. Org. Chem. 1977, 42, 1804–1806; c) M. Asikainen, W. Lewis, A. J. Blake, S. Woodward, Tetrahedron Lett. 2010, 51, 6454–6456."
+              }
+            ]
+          },
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[24] M. Ashwell, W. Clegg, R. F. W. Jackson, J. Chem. Soc. Perkin Trans. 1 1991, 1991, 897–908."
+              }
+            ]
+          },
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[25] S. R. Dubbaka, P. Vogel, Angew. Chem. Int. Ed. 2005, 44, 7674–7684."
+              }
+            ]
+          },
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[26] K. Inomata, S.-i. Sasaoka, T. Kobayashi, Y. Tanaka, S. Igarashi, T. Ohtani, H. Kinoshita, H. Kotake, Bull. Chem. Soc. Jpn. 1987, 60, 1767–1779."
+              }
+            ]
+          },
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[27] D. J. Newman, G. M. Cragg, J. Nat. Prod. 2004, 67, 1216–1238."
+              }
+            ]
+          },
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[28] D. A. Evans, J. A. Gauchet-Prunet, J. Org. Chem. 1993, 58, 2446–453."
+              }
+            ]
+          },
+          {
+            "item_type": "text",
+            "item_content": [
+              {
+                "type": "text",
+                "content": "[29] C. Nájera, M. Yus, Tetrahedron 1999, 55, 10547–10658."
+              }
+            ]
+          }
+        ]
+      },
+      "bbox": [
+        90,
+        66,
+        487,
+        103
+      ]
+    },
+    {
+      "type": "page_aside_text",
+      "content": {
+        "page_aside_text_content": []
+      },
+      "bbox": [
+        966,
+        19,
+        983,
+        980
+      ]
+    },
+    {
+      "type": "page_footnote",
+      "content": {
+        "page_footnote_content": [
+          {
+            "type": "text",
+            "content": "Manuscript received: July 13, 2024"
+          }
+        ]
+      },
+      "bbox": [
+        507,
+        649,
+        715,
+        662
+      ]
+    },
+    {
+      "type": "page_footnote",
+      "content": {
+        "page_footnote_content": [
+          {
+            "type": "text",
+            "content": "Version of record online: October 25, 2024"
+          }
+        ]
+      },
+      "bbox": [
+        509,
+        674,
+        766,
+        686
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "GDCh"
+          }
+        ]
+      },
+      "bbox": [
+        84,
+        17,
+        154,
+        46
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "Research Article"
+          }
+        ]
+      },
+      "bbox": [
+        408,
+        24,
+        591,
+        43
+      ]
+    },
+    {
+      "type": "page_header",
+      "content": {
+        "page_header_content": [
+          {
+            "type": "text",
+            "content": "An<sub>g</sub>ewan<sup>d</sup>te International Edition Ch<sub>em</sub>i<sub>e</sub>"
+          }
+        ]
+      },
+      "bbox": [
+        784,
+        19,
+        914,
+        46
+      ]
+    },
+    {
+      "type": "page_footer",
+      "content": {
+        "page_footer_content": [
+          {
+            "type": "text",
+            "content": "Angew. Chem. Int. Ed. 2025, 64, e202413198 (10 of 10)"
+          }
+        ]
+      },
+      "bbox": [
+        84,
+        885,
+        354,
+        898
+      ]
+    },
+    {
+      "type": "page_footer",
+      "content": {
+        "page_footer_content": [
+          {
+            "type": "text",
+            "content": "© 2024 Wiley-VCH GmbH"
+          }
+        ]
+      },
+      "bbox": [
+        776,
+        885,
+        914,
+        897
+      ]
+    }
+  ]
+]

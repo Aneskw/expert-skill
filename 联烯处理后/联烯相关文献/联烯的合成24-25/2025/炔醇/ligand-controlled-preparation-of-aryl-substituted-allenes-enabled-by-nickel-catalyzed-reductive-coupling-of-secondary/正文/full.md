@@ -1,0 +1,149 @@
+# Ligand-Controlled Preparation of Aryl-Substituted Allenes Enabled by Nickel-Catalyzed Reductive Coupling of Secondary Propargylic Carbonates with Aryl Halides
+
+Ruotong Li, Jie Hu, Yonghao Xi, Hegui Gong,\* and Weichen Huang\*
+
+![](images/163313a075696462480aaa760bb4dc0c9319b9c4e606e943a3ba80f4a4ed14f2.jpg)  
+ABSTRACT: Herein, we developed a new method for the synthesis of aryl-substituted allenes through a nickel-catalyzed reductive coupling reaction between secondary propargyl carbonates and aryl halides. By employing the dimethyl-1,10-phenanthroline ligand, we achieved a ligand-controlled, regioselective nickel-catalyzed reductive arylation, overcoming the structural limitations of propargyl electrophiles. Notably, this reaction exhibits exceptional functional group compatibility, rendering it particularly suitable for latestage allenylation modifications of complex molecules.
+
+A s key cumulated dienes, allenes have attracted attention in pharmaceutical and synthetic chemistry for their unique biological and chemical properties.<sup>1</sup> They are present in naturally occurring bioactive molecules and also serve as versatile building blocks in organic synthesis, facilitating complex molecule construction.<sup>1−3</sup> Among the numerous strategies devised for the synthesis of allenes,<sup>4</sup> the transitionmetal-catalyzed cross-coupling of propargyl electrophiles with diverse aryl nucleophiles has emerged as a reliable and efective approach to aryl-substituted allenes (Scheme 1A).<sup>5</sup> However, this classic approach faces the following challenges: (1) the narrow scope of aryl organometallic nucleophiles; (2) poor regioselectivity between propargylic and allenyl substitution; (3) low functional group compatibilities and application values. As a result, there remains a need to explore more eficient synthetic methods to address the limitations of conventional nucleophile-involved coupling processes.
+
+Recently, nickel-catalyzed reductive coupling reactions have gained recognition in both academia and industry as an alternative to traditional coupling reactions. By directly employing stable, readily available organic halides, these reactions simplify synthetic operations, and avoids the need for metal reagent preparations.<sup>6</sup> In this context, nickel-catalyzed reductive coupling of propargyl electrophiles with various alkyl electrophiles has been advanced for practical synthesis of alkyl substituted allenes (Scheme 1B).<sup>7</sup> In contrast, preparation of aryl-substituted allenes through similar nickel-catalyzed reductive coupling protocols has been significantly delayed, often plagued by challenges related to 1,3-regioselectivity. As demonstrated by Shi and Wang<sup>8</sup> in their Ni-catalyzed reductive arylation of propargylic chloride, 3,3-disubstituted tertiary propargyl electrophiles predominantly yield C1-arylated allenes, whereas 3-monosubstituted secondary propargyl electrophiles tend to produce C3-arylated propargyl products as the major outcome (Scheme 1C).<sup>7a,9</sup> According to previous reports,<sup>10</sup> formation of a C1-η<sup>1</sup>-allenyl−metal species (A) is generally favored over its regioisomeric C3-η<sup>1</sup>-propargyl metal analog (P, Scheme 1D). Specifically, In A, the C1 carbon of the allene adopts an sp<sup>2</sup>-hybridized configuration, with the nickel center forming a 120° angle relative to both the red sphere and the allene moiety. In contrast, for P, the propargylic C3 carbon is sp<sup>3</sup>-hybridized, and the nickel center exhibits a more congested geometry, forming a 109.5° angle with the purple sphere and the alkynyl group. Upon increasing steric bulk at the nickel center, the stability of intermediate P is disproportionately afected due to its inherently crowded structure, thereby shifting the reaction equilibrium toward A. Thus, we envision that regioselective preparation of C1-arylated allenes from reductive coupling of secondary propargyl electrophiles is feasible, provided the steric efect ofNi/ligands is maximized to push the A/P equilibrium to A.
+
+![](images/642a8936e21d548d2cca39b24acc68677ce8543f2fb4f50d575f662e814dfd0a.jpg)
+
+Scheme 1. Transition Metal-Catalyzed Coupling for the Preparation of Aryl-Substituted Allenes  
+![](images/d3770c15e4050afd39c81026a5c3d33b231e54966590a9f1b19900f8a9ddda1e.jpg)
+
+Herein, we disclosed our success in the development of an unprecedented ligand-controlled regioselective nickel-catalyzed reductive arylation of C3-secondary propargyl electrophiles, ofering an eficient approach to C1-arylated allenes in high eficiency, and providing a solution to previously unaddressed substrate-dependent regioselectivity issue. By employing readily accessible aryl halides, this method facilitates the synthesis of structurally varied aryl-substituted allenes, demonstrating remarkable regioselectivity and broad substrate compatibility (Scheme 1D).
+
+We evaluated various substrates with diferent leaving groups and identified propargyl phenyl carbonate 1a as the optimal template substrate for the reaction (see SI for details). Next, we investigated the reaction conditions for the nickel-catalyzed reductive coupling reaction between propargyl phenyl carbonate 1a and aryl halide 2a, with detailed results outlined in Table 1. Our primary focus was on exploring the modulating efects of various ligands on the regioselectivity of the reaction (Table 1, entries 1−8). Screening of a series of parameters has revealed that the choice of ligand has a significant impact on the regioselectivity of the reaction, particularly in terms of the steric hindrance efect around the nickel center. Specifically, in scenarios where the nickel center is surrounded by a more crowded environment, it exhibits a propensity to promote the formation of allene products, which is largely consistent with our initial conception. Further analysis revealed that bipyridine ligands L2 and L3, difering in the position of their methyl groups, displayed vastly diferent regioselectivity in facilitating the reaction (Table 1, entries 2−3). Despite achieving an excellent regioselectivity ratio of 9:1 with the use of ligand L3, the overall reaction yield remained around 20%. Based on these insights, we conducted a more rigorous screening of ligands. Ultimately, dimethyl-1,10-phenanthroline L6 was chosen as the optimal ligand as it efectively balances a certain level ofregioselectivity with a notable improvement in the overall reaction eficiency (Table 1, entry 6). It is worth noting that despite the potential for even better regioselectivity ofered by L8 as a ligand due to its larger steric hindrance, its lower overall reaction eficiency made it a less favorable choice (Table 1, entry 8). Subsequently, we further examined diferent types of nickel sources, solvents, and bases. Ultimately, with the positively cooperative efects of $\mathrm { N i I } _ { 2 }$ and ${ \mathrm { N a H C O } } _ { 3 } ,$ we confirmed the optimal reaction conditions, yielding aryl-substituted allene products with a yield of 95%, while the production of propargylic products was almost completely suppressed (Table 1, entry 12). Under the optimized reaction conditions, substitution of aryl iodides with aryl bromides led to significantly diminished yields, while no desired product was observed when employing aryl chlorides (Table 1, entries 13 and 14).
+
+With the optimized reaction conditions in hand, we further investigated the scope of aryl halides. As shown in Scheme 2, a series of aryl iodides bearing either electron-withdrawing groups or electron-donating groups underwent smooth with secondary propargylic carbonate 1a or 1b, afording aryl-substituted allenes 3a−3o in moderate to good yields and remarkable regioselectivity. Notably, a diverse array of functional groups, including esters (3a, 3l), thioethers (3b), acetyl (3c), cyano (3d), fluorine (3e), amides (3f, 3g), carbonyls (3i), chlorine (3j), and trifluoromethyl (3o), were all found compatible in the standard method (Scheme 2). However, aryl halides with orthosubstituents exhibited a pronounced decrease in yield, particularly in the case of 3k. To further explore the scope, we subjected a diverse range of heteroaryl halides to the established method (Scheme 2). Encouragingly, both electron-rich heterocycles, such as 9H-carbazole, indole, thiophene, and benzofuran, and electron-deficient counterparts like quinoline and pyridine, eficiently participated in the reaction, afording aryl-substituted allene products $3 \mathbf { p } - 3 \mathbf { y }$ in moderate to good yields. This highlights the robustness and broad applicability of the present method for synthesizing aryl-substituted allenes. Furthermore, to demonstrate the practical applicability of this method, we applied it to the late-stage diversification of complex molecules. Remarkably, the coupling reaction between secondary propargylic phenyl carbonate 1b and Estrone, Flurbiprofen, Isoxepac, Indometacin, and Gemfibrozil derivatives proceeded smoothly, aford- ing the corresponding aryl-substituted allene products with high regioselectivity and moderate yields (Scheme 2, 3z− 3ad). These results demonstrate the potential ofthis method for incorporating allene moieties into complex molecules. It should be noted that certain products exhibited nearly identical polarity to the hydrogenated byproducts, significantly compromising their isolation yields (3o, 3q, 3ab, 3ac).
+
+Table 1. Screening of Reaction Conditions<sup>a</sup>  
+![](images/38da5593177e3fe11aa2107c902c392511a704848396ebeaecfea04fdc54fc29.jpg)
+
+<table><tr><td>Entry</td><td>[Ni]</td><td>L</td><td>Base</td><td>solvent</td><td>X yieldb(%) of 3a/3a&#x27;</td></tr><tr><td>1</td><td> $N i ( { \mathsf { O A c } } ) _ { 2 } { \cdot } 4 H _ { 2 } O$ </td><td>L1</td><td>1</td><td>DMA</td><td>1 30/48</td></tr><tr><td>2</td><td> $N i ( \mathsf { O A c } ) _ { 2 } { \cdot } 4 { \mathsf { H } } _ { 2 } \mathsf { O }$ </td><td>L2</td><td>1</td><td>DMA 1</td><td>27/34</td></tr><tr><td>3</td><td> $N i ( { \mathsf { O A c } } ) _ { 2 } { \cdot } 4 H _ { 2 } O$ </td><td>L3</td><td>1</td><td>DMA</td><td>1 18/2</td></tr><tr><td>4</td><td>Ni(OAc)₂·4H2O</td><td>L4</td><td>1</td><td>DMA</td><td>1 6/10</td></tr><tr><td>5</td><td>Ni(OAc)₂·4H2O</td><td>L5</td><td>1</td><td>DMA</td><td>1 14/30</td></tr><tr><td>6</td><td> $N i ( { \mathsf { O A c } } ) _ { 2 } { \cdot } 4 H _ { 2 } O$ </td><td>L6</td><td>1</td><td>DMA</td><td>1 80/8</td></tr><tr><td>7</td><td> $N i ( { \mathsf { O A c } } ) _ { 2 } { \cdot } 4 H _ { 2 } O$ </td><td>L7</td><td>1</td><td>DMA</td><td>1 49/17</td></tr><tr><td>8</td><td> $N i ( { \mathsf { O A c } } ) _ { 2 } { \cdot } 4 H _ { 2 } O$ </td><td>L8</td><td>1</td><td>DMA</td><td>1 64/3</td></tr><tr><td>9</td><td>Nil2</td><td>L6</td><td>1</td><td>DMA</td><td>1 85/4</td></tr><tr><td>10</td><td> $N i B r _ { 2 } D M E$ </td><td>L6</td><td>1</td><td>DMA 1</td><td>62/4</td></tr><tr><td>11</td><td>Nil2</td><td>L6</td><td> $N a H C O _ { 3 }$ </td><td>DMA 1</td><td>92/2</td></tr><tr><td>12</td><td>Nil2</td><td>L6</td><td> $N a H C O _ { 3 }$ </td><td>NMP 1</td><td>95 (81)%/0</td></tr><tr><td>13</td><td>Nil2</td><td>L6</td><td> $N a H C O _ { 3 }$ </td><td>NMP Br</td><td>45/0</td></tr><tr><td>14</td><td>Nil2</td><td>L6</td><td> $N a H C O _ { 3 }$ </td><td>NMP</td><td>Cl 0/0</td></tr></table>
+
+![](images/b5627201d35227b0f3201cce1c6052d29d39a3e86ed4ac6bea52578bcb0e654e.jpg)  
+<sup>a</sup>Reaction conditions: 1a (0.1 mmol, 1equiv) and 2a (0.15 mmol, 1.5 equiv). <sup>b</sup>Yield determined by <sup>1</sup>HNMR using 1,3,5-trimethoxybenzene as the internal standard. <sup>c</sup>Isolated yield in parentheses.
+
+Next, we investigated the compatibility of secondary propargylic carbonates (Scheme 3). The present method is compatible with a wide range of functional groups, including alkenes (3ag), thioethers (3ai), amides (3aj), chlorine (3ak), furans (3al), siloxanes (3am), and esters (3an). Notably, both aryl- and alkyl-substituted propargyl substrates were efective, yielding the corresponding allenes (3ao, 3ap) with good eficiency. Furthermore, our method is not only applicable to secondary propargylic carbonates but also compatible with primary propargyl carbonates, afording the corresponding allene product (3aq) in good yield. However, the synthesis of tertiary propargyl carbonates remain challenging, and their outcomes are uncertain under the current protocol. It is noteworthy that virtually no propargyl products were observed for nearly all substrates, highlighting the exceptional robustness of this method in regioselective control.
+
+Scheme 2. Reaction Scope<sup>a</sup>  
+![](images/25e14cac89a0b5b6d742398efc273976378632d180efaa7407dc727a755b1b4c.jpg)  
+<sup>a</sup>Propargyl substrate (0.2 mmol), aryl or heterocyclic halide (0.3 mmol), NiI (10 mol %), L6(10 mol %), MgBr (2.0 equiv), Zn (3.0 equiv), NaHCO (1.0 equiv), rt, 12 h. Yields refer to isolated ones.
+
+Scheme 3. Reaction Scope<sup>a</sup>  
+![](images/0384574447446f252f12aba8dcc5a9bf847eddfc74b5ee2d960ceb170e2e1e53.jpg)  
+<sup>a</sup>Propargyl substrate (0.2 mmol), aryl halide (0.3 mmol), NiI (10 mol %), L6(10 mol %), MgBr (2.0 equiv), Zn (3.0 equiv), NaHCO (1.0 equiv), rt, 12 h. Yields refer to isolated ones.
+
+Scheme 4. (A) Scale-Up Reactions; (B) Nickel-Catalyzed Reductive Coupling of Propargyl Phenyl Carbonate with Alkenyl Bromide; (C) Nickel-Catalyzed Asymmetric Reductive Coupling Reactions in the Stereoselective Control ofAxial Chirality; (D) Product Derivatization<sup>11</sup>
+
+A.Scale-up reactions:
+
+![](images/b38d52a23bdca03beb836ccc556bf5dd01fda6dea0b0a6efd1c21a580f9b4e56.jpg)
+
+B. Nicke-catalyzed reductive coupling of propargyl phenyl carbonate with alkenyl bromide
+
+![](images/bf17995d407c29ee4fc978e2155fc70ebbc58d61c2f1960d89b492aee0950fe4.jpg)
+
+C.Nickel-catalyzed asymmetric reductive coupling reactions in the stereoselective control of axial chirality
+
+![](images/23913c1b37b906a38c59490e1693a44b5d38c26c6e35b94e66837c1c676f9aee.jpg)
+
+D. Product Derivatization
+
+![](images/b0491a096419238cdb7a8ce9535f477329e7777745da49df92b31653c401324d.jpg)
+
+![](images/1caad7713aee10b6a4fb7ee72de93d362fa2dd0e9cf45e91c67d2c455ade82fa.jpg)
+
+The robustness of this allene-forming reaction was further demonstrated by a gram-scale synthesis of 4 in high yield and regioselectivity (Scheme 4A). Interestingly, the reaction is also applicable to alkenyl electrophiles, which furnished alkenylsubstituted allene 5 in moderate yield, without encountering appreciable amount of the alkynylation byproduct (Scheme 4B). Following this achievement, we assessed the stereoselectivity of the reaction. When utilizing the commercial Pybox ligand L9, product 3h demonstrated a notable level of stereoselectivity, hinting at the potential feasibility of nickel-catalyzed reductive coupling for the preparation of chiral allenes (Scheme 4C). Finally, the synthetic versatility of the aryl-substituted allenes was demonstrated through a series of postsynthetic transformations. Upon treatment of 4 with tetrabutylammonium fluoride $\left( \mathrm { B u _ { 4 } N F } \right)$ in the presence of 2-bromobenzaldehyde, the transient allenyl alcohol was formed, which was immediately oxidized to the ketone 6 (Scheme 4D). Furthermore, 3h underwent eficient desil- ylation to aford a disubstituted allene compound 7. By employing the C−H bond activation method developed by the Liu research $\mathbf { g r o u p } , ^ { 1 1 }$ a tetrasubstituted allene compound 8 can be obtained (Scheme 4D).
+
+To gain insight into the reaction details, we first investigated whether a radical pathway is involved in the reaction. Although no radical-trapped products were detected, the presence of two equivalents of the radical scavenger TEMPO inhibited the reaction to a certain extent (Scheme 5A). Furthermore, the addition of 1,1-diphenylethylene had a negligible impact on the reaction eficiency (Scheme 5A). Additionally, when a substrate bearing the cyclopropane radical clock was tested, the allene product 9 was formed without ring opening (Scheme 5B). The collective results suggest that the reaction likely does not proceed via a radical pathway, in contrast to previous nickelcatalyzed coupling reactions of propargyl eletrophiles.<sup>[8][9][10b]</sup>
+
+Subsequently, we conducted a series of control experiments to gain a deeper understanding of the reaction mechanism (Scheme $\mathrm { 5 \dot { C } ) }$ . When 1a was individually treated with zinc powder, one equivalent of nickel(II) catalyst, and one equivalent of nickel(0), no reaction took place with 1a. However, when both zinc powder and $\operatorname { N i I } _ { 2 }$ were added simultaneously,
+
+Scheme 5. (A) Radical Trapping Experiments; (B) Radical Ring-Opening Reaction; (C) Control Experiments; (D) Proposed Reaction Mechanism
+
+![](images/70c8c3f10166d8db9e5616349e1365298cfe8568a48be6bbf212304370f8e626.jpg)
+
+significant formation of propargyl self-coupling product 10 was observed. This discovery suggests that the oxidative addition reaction of propargyl carbonate may be initiated by a nickel(I) intermediate. Furthermore, it is noteworthy that no allenyl selfcoupling products were detected throughout the reaction process, further suggesting that the formation of aryl−nickel intermediates is likely required for isomerization to allenes. It should be noted that no self-coupling products 10 were detected during the condition optimization process. Based on the aforementioned experimental results and previous research,<sup>8,10b[8][10b]</sup> we propose the following possible mechanism-(Scheme 5D): the Ni(II) precursor is in situ reduced by zinc powder to generate a Ni(0) intermediate (I), which undergoes oxidative addition with aryl halides to form aryl-substituted Ni(II) species (II). This species is then further reduced by zinc powder to produce an Ni(I) intermediate (III). This nickel intermediate undergoes a two-electron oxidative addition with propargylic carbonates to form an Ni(III) intermediate (IV) . Due to the influence of the steric hindrance surrounding the nickel center, the Ni(III) intermediate isomerizes to form an allenyl nickel complex (V). Subsequent reductive elimination of the allenyl nickel complex (V) yields the final product and regenerates the Ni(I) intermediate (VI), which is then reduced back to Ni(0) by zinc powder, thereby completing the entire catalytic cycle. In addition to the aforementioned catalytic cycle involving double oxidative addition, this reaction may also proceed via a migratory insertion mechanism<sup>12</sup> (For details on the catalytic cycle, please refer to the Supporting Information).
+
+In summary, we have developed a nickel-catalyzed ligandcontrolled reductive coupling reaction between secondary propargyl carbonates and aryl halides for the highly regioselective synthesis of aryl-substituted allenes. This method not only eliminates the need for arylmetal reagents in traditional coupling processes but also overcomes the inherent structural limitations of existing reductive coupling reactions with propargyl electrophiles. This method exhibits excellent functional group compatibility and is suitable for late-stage modifications of complex structural products. The mechanism reveals that this reaction does not proceed through the radical pathway but instead follows a two-electron process. Currently, our laboratory is focusing on nickel-catalyzed asymmetric reductive coupling reactions for the synthesis of axially chiral allenes.
+
+## ■ ASSOCIATED CONTENT
+
+## Data Availability Statement
+
+The data underlying this study are available in the published article and its Supporting Information.
+
+## \*sı Supporting Information
+
+The Supporting Information is available free of charge at https://pubs.acs.org/doi/10.1021/acs.orglett.5c01235.
+
+Experimental details and spectral data (PDF)
+
+## ■ AUTHOR INFORMATION
+
+## Corresponding Authors
+
+Hegui Gong − Department of Chemistry, College of Sciences, Shanghai University, Shanghai 200444, China; Institute of Nanoscience and Engineering, Henan University, Kaifeng 475004, China; orcid.org/0000-0001-6534-5569; Email: hegui\_gong@shu.edu.cn
+
+Weichen Huang − Department of Chemistry, College of Sciences, Shanghai University, Shanghai 200444, China; orcid.org/0009-0000-1859-8432; Email: huangwc@ shu.edu.cn
+
+## Authors
+
+Ruotong Li − Department of Chemistry, College of Sciences, Shanghai University, Shanghai 200444, China
+
+Jie Hu − Department of Chemistry, College of Sciences, Shanghai University, Shanghai 200444, China
+
+Yonghao Xi − Department of Chemistry, College of Sciences, Shanghai University, Shanghai 200444, China
+
+Complete contact information is available at: https://pubs.acs.org/10.1021/acs.orglett.5c01235
+
+## Author Contributions
+
+W.H. and H.G. designed the project and drafted the manuscript. R.L., Y.X., and J.H. carried out the experiments under the guidance of W.H. All authors have given approval to the final version of the manuscript.
+
+## Notes
+
+The authors declare no competing financial interest.
+
+## ■ ACKNOWLEDGMENTS
+
+This work is financially supported by High-Level Overseas Talents Introduction Program of Shanghai, Shanghai Natural Science Foundation (24ZR1422100) and National Natural Science Foundation of China (22271182).
+
+## ■ REFERENCES
+
+(1) Modern Allene Chemistry; Krause, N., Hashmi, A. S. K., Eds.; Wiley-VCH: Weinheim, Germany, 2004. DOI: 10.1002/9783527619573.
+
+(2) Hoffmann-Roder, A.; Krause, N. Synthesis and Properties of Allenic Natural Products and Pharmaceuticals. Angew. Chem., Int. Ed. 2004, 43, 1196−1216.
+
+(3) (a) Ma, S. Some Typical Advances in the Synthetic Applications of Allenes. Chem. Rev. 2005, 105, 2829−2872. (b) Ma, S. Electrophilic Addition and Cyclization Reactions of Allenes. Acc. Chem. Res. 2009, 42, 1679. (c) Ye, J.; Ma, S. Palladium-Catalyzed Cyclization Reactions ofAllenes in the Presence of Unsaturated Carbon−Carbon Bonds. Acc. Chem. Res. 2014, 47, 989−1000. (d) López, F.; Mascareñas,J. L. [4 + 2] and [4 + 3] Catalytic Cycloadditions of Allenes. Chem. Soc. Rev. 2014,
+
+43, 2904. (e) Adams, C. S.; Weatherly, C. D.; Burke, E. G.; Schomaker, J. M. The Conversion of Allenes to Strained Three-Membered Heterocycles. Chem. Soc. Rev. 2014, 43, 3136−3163.
+
+(4) (a) Yu, S.; Ma, S. How Easy are the Syntheses of Allenes? Chem. Commun. 2011, 47, 5384−5418. (b) Huang, X.; Ma, S. Allenation of Terminal Alkynes with Aldehydes and Ketones. Acc. Chem. Res. 2019, 52, 1301−1312. (c) Neff, R. K.; Frantz, D. E. Recent Advances in the Catalytic Syntheses ofAllenes: A Critical Assessment. ACS Catal. 2014, 4, 519−528.
+
+(5) (a) Guisán-Ceinos, M.; Martín-Heras, V.; Tortosa, M. Regio- and Stereospecific Copper Catalyzed Substitution Reaction of Propargylic Ammonium Salts with Aryl Grignard Reagents. J. Am. Chem. Soc. 2017, 139, 8448−8451. (b) Posevins, D.; Bermejo-López, A.; Bäckvall, J.-E. Iron-Catalyzed Cross-Coupling of Propargyl Ethers with Grignard Reagents for the Synthesis of Functionalized Allenes and Allenols. Angew. Chem., Int. Ed. 2021, 60, 22178−22183. (c) Elsevier, C. J.; Stehouwer, P. M.; Westmijze, H.; Vermeer, P. Anti-Stereoselectivity in the Palladium(0)-Catalyzed Conversion of Propargylic Esters into Allenes by Phenylzinc Chloride. J. Org. Chem. 1983, 48, 1103−1105. (d) Wang, H.; Luo, H.; Zhang, Z.-M.; Zheng, W.- F.; Yin, Y.; Qian, H.; Zhang, J.; Ma, S. Pd-Catalyzed Enantioselective Syntheses of Trisubstituted Allenes via Coupling of Propargylic Benzoates with Organoboronic Acids. J. Am. Chem. Soc. 2020, 142, 9763−9771. (e) Li, Q.-H.; Liao, J.-W.; Huang, Y.-L.; Chiang, R.-T.; Gau, H.-M. Nickel-Catalyzed Substitution Reactions of Propargyl Halides with Organotitanium Reagents. Org. Biomol. Chem. 2014, 12, 7634−7642. (f) Li, Q.- H.; Gau, H.-M. Synthesis of Allenes via Nickel-Catalyzed Cross-Coupling Reaction of Propargylic Bromides with Grignard Reagents. Synlett 2012, 23, 747−750. (g) Soler-Yanes, R.; Arribas-Alvarez, I.; Guisan-Ceinos, M.; Bunuel, E.; Cardenas, D. J. Ni<sup>I</sup> Catalyzes the Regioselective Cross-Coupling of Alkylzinc Halides and Propargyl Bromides to Allenes. Chem. - Eur. J. 2017, 23, 1584−1590. (h) Yang, Y.; Szabó, K. J. Synthesis of Allenes by Catalytic Coupling of Propargyl Carbonates with Aryl Iodides in the Presence of Diboron Species. J. Org. Chem. 2016, 81, 250−255.
+
+(6) (a) Knappke, C. E. I.; Grupe, S.; Gartner, D.; Corpet, M.; Gosmini, C.; Jacobi von Wangelin, A. Reductive Cross-Coupling Reactions between Two Electrophiles. Chem.−Eur. J. 2014, 20, 6828−6842.
+
+(b) Moragas, T.; Correa, A.; Martin, R. Metal-Catalyzed Reductive Coupling Reactions of Organic Halides with Carbonyl-Type Compounds. Chem.−Eur. J. 2014, 20, 8242−8258. (c) Weix, D. J. Methods and Mechanisms for Cross-Electrophile Coupling of Csp<sup>2</sup> Halides with Alkyl Electrophiles. Acc. Chem. Res. 2015, 48, 1767−1775.
+
+(d) Liu, J.; Ye, Y.; Sessler, J. L.; Gong, H. Cross-Electrophile Couplings of Activated and Sterically Hindered Halides and Alcohol Derivatives. Acc. Chem. Res. 2020, 53, 1833−1845. (e) Pang, X.; Su, P.-F.; Shu, X.-Z. Reductive Cross-Coupling of Unreactive Electrophiles. Acc. Chem. Res. 2022, 55, 2491−2509. (f) Gong, Y.; Hu, J.; Qiu, C.; Gong, H. Insights into Recent Nickel-Catalyzed Reductive and Redox C−C Coupling of Electrophiles, C(sp<sup>3</sup>)−H Bonds and Alkenes. Acc. Chem. Res. 2024, 57, 1149−1162. (g) Ehehalt, L. E.; Beleh, O. M.; Priest, I. C.; Mouat, J. M.; Olszewski, A. K.; Ahern, B. M.; Cruz, A. R.; Chi, B. K.; Castro, A. J.; Kang, K.; Wang, J.; Weix, D. J. Cross-Electrophile Coupling: Principles, Methods, and Applications in Synthesis. Chem. Rev. 2024, 124, 13397− 13569.
+
+(7) (a) Jin, Y.; Wen, H.; Yang, F.; Ding, D.; Wang, C. Synthesis of Multisubstituted Allenes via Nickel-Catalyzed Cross-Electrophile Coupling. ACS Catal. 2021, 11, 13355−13362. (b) Hu, T.; Beluze, C.; Fague, V.; Kambire, O. E.; Bouyssi, D.; Monteiro, N.; Amgoune, A. Nickel-Catalyzed Photoredox Allenylation of Alkyl Halides. Org. Lett. 2024, 26, 9519−9524. (c) Zhou, Z.-Z.; Zhai, X.-F.; Zhang, S.-L.; Xia, K.-J.; Ding, H.; Song, X.-R.; Tian, W.-F.; Liang, Y.-M.; Xiao, Q. Photo-Induced Nickel-Mediated Cross-Electrophile Coupling for Alkylated Allenes via Electron Donor−Acceptor Complexes. Org. Chem. Front. 2023, 10, 298−303. (d) Zhou, Z.-Z.; Zhai, X.-F.; Xia, K.-J.; Song, X.-R.; Ding, H.; Tian, W.-F.; Zhang, S.-L.; Liang, Y.-M.; Xiao, Q. Photoredox/ Nickel Dual-Catalyzed Deaminative Cro- ss-Electrophile for Allenylic Alkylation with Non-activated Alkyl Katritzky salts. Org. Chem. Front. 2024, 11, 5685−5694. (e) Yan, X.; Deng, H. Ni-Catalyzed Synthesis of
+
+Multisubstituted Allenes via Reductive Cross-Coupling of Propargylic Acetates with Chlorohydrosilanes. Eur. J. Org. Chem. 2025, 28, No. e202401234. (f) Zhou, Z.-Z.; Song, X.-R.; Du, S.; Xia, K.-J.; Tian, W.-F.; Xiao, Q.; Liang, Y.-M. Photoredox/Nickel Dual-Catalyzed Regioselective Alkylation of Propargylic Carbonates for Trisubstituted Allenes. Chem. Commun. 2021, 57, 9390−9393. (g) Xu, C.-H.; Xiong, Z.-Q.; Qin,J.-H.; Xu, X.-H.; Li,J.-H. Nickel-Catalyzed Reductive Cross-Coupling of Propargylic Acetates with Chloro(vinyl)silanes: Access to Silylallenes. J. Org. Chem. 2024, 89, 2885−2894.
+
+(8) Ding, L.; Zhao, Y.; Lu, H.; Shi, Z.; Wang, M. Nickel-Catalyzed Asymmetric Propargyl−Aryl Cross-Electrophile Coupling. Angew. Chem., Int. Ed. 2024, 63, No. e202313655.
+
+(9) (a) Smith, S. W.; Fu, G. C. Nickel-Catalyzed Asymmetric Cross-Couplings of Racemic Propargylic Halides with Arylzinc Reagents. J. Am. Chem. Soc. 2008, 130, 12645−12647. (b) Oelke, A. J.; Sun, J.-W.; Fu, G. C. Nickel-Catalyzed Enantioselective Cross-Couplings of Racemic Secondary Electrophiles That Bear an Oxygen Leaving Group. J. Am. Chem. Soc. 2012, 134, 2966−2969.
+
+(10) (a) Elsevier, C. J.; Kleijn, H.; Boersma, J.; Vermeer, P. Synthesis, Structure, and Reactivity of some (σ-allenyl)- and (σ-prop-2-ynyl) palladium(II) complexes. Organometallics 1986, 5, 716−720. (b) Han, G.; Su, P.; Pan, Q.; Liu, X.; Shu, X. Enantioconvergent and Regioselective Reductive Coupling of Propargylic esters with Chlorogermanes by Nickel Catalysis. Nat. Catal. 2024, 7, 12−20. (c) Ma, S.; Zhang, A. Tuning of Regioselectivity in the Coupling Reaction Involving Allenic/Propargylic Palladium Species. J. Org. Chem. 2002, 67, 2287−2294. (d) Ohmiya, H.; Yang, M.; Yamauchi, Y.; Ohtsuka, Y.; Sawamura, M. Selective Synthesis of Allenes and Alkynes through Ligand-Controlled, Palladium-Catalyzed Decarboxylative Hydrogenolysis of Propargylic Formates. Org. Lett. 2010, 12, 1796− 1799.
+
+(11) Cheng, Z.; Zhang, J.; Li, C.; Li, X.; Chen, P.; Liu, G. Copper-Catalyzed sp<sup>2</sup> C−H Arylation and Alkynylation of All- enes via Hydrogen Atom Abstraction. J. Am. Chem. Soc. 2024, 146, 24689− 24698.
+
+(12) Kim, S.; Lee, D. S.; Iqbal, N.; Bae, J.; Hwang, H. S.; Baek, D.; Hong, S.; Cho, E. J. Understanding non-covalent Interactions in Ni-Catalyzed Reactions: Mechanistic Insights into Stereoselective Tetrasubstituted Allene Synthesis. Chem. Catal. 2024, 4, 101082.

@@ -1,0 +1,2579 @@
+{
+  "table_type": "reaction_table",
+  "description": "Comprehensive table of all detected reactions with their properties",
+  "columns": [
+    "reaction_id",
+    "reaction_figure",
+    "reaction_conditions",
+    "reaction_smiles",
+    "reactants",
+    "products",
+    "reactants_smiles",
+    "products_smiles",
+    "source_figure",
+    "confidence",
+    "page_idx",
+    "block_index",
+    "scale_factor"
+  ],
+  "data": [
+    {
+      "reaction_id": "rxn_0001",
+      "reaction_figure": "reaction_extraction/visualize/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_0_block9_image_rxn1_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "text",
+          "condition": "i-PrMgBr",
+          "bbox": [
+            272,
+            82,
+            353,
+            125
+          ],
+          "page_bbox": [
+            495,
+            792,
+            576,
+            835
+          ],
+          "scale_factor": 2.779327135900841
+        },
+        {
+          "type": "text",
+          "condition": "(1.1 equiv)",
+          "bbox": [
+            272,
+            82,
+            353,
+            125
+          ],
+          "page_bbox": [
+            495,
+            792,
+            576,
+            835
+          ],
+          "scale_factor": 2.779327135900841
+        },
+        {
+          "type": "text",
+          "condition": "THF",
+          "bbox": [
+            267,
+            152,
+            362,
+            192
+          ],
+          "page_bbox": [
+            490,
+            862,
+            585,
+            902
+          ],
+          "scale_factor": 2.779327135900841
+        },
+        {
+          "type": "text",
+          "condition": "0 \"C 10 min",
+          "bbox": [
+            267,
+            152,
+            362,
+            192
+          ],
+          "page_bbox": [
+            490,
+            862,
+            585,
+            902
+          ],
+          "scale_factor": 2.779327135900841
+        },
+        {
+          "type": "molecule",
+          "condition": "catalyst/reagent",
+          "bbox": [
+            410,
+            22,
+            521,
+            123
+          ],
+          "page_bbox": [
+            633,
+            732,
+            744,
+            833
+          ],
+          "scale_factor": 2.779327135900841,
+          "mol_id": "mol_0002"
+        },
+        {
+          "type": "text",
+          "condition": "THF",
+          "bbox": [
+            405,
+            152,
+            544,
+            192
+          ],
+          "page_bbox": [
+            628,
+            862,
+            767,
+            902
+          ],
+          "scale_factor": 2.779327135900841
+        },
+        {
+          "type": "text",
+          "condition": "0 \"C 10 or 20 min",
+          "bbox": [
+            405,
+            152,
+            544,
+            192
+          ],
+          "page_bbox": [
+            628,
+            862,
+            767,
+            902
+          ],
+          "scale_factor": 2.779327135900841
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            61,
+            100,
+            211,
+            162
+          ],
+          "page_bbox": [
+            284,
+            810,
+            434,
+            872
+          ],
+          "scale_factor": 2.779327135900841,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            581,
+            104,
+            729,
+            171
+          ],
+          "page_bbox": [
+            804,
+            814,
+            952,
+            881
+          ],
+          "scale_factor": 2.779327135900841,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "O=[P]([BnS])([BnS])[CH2][CO2R1]",
+            "molfile": "\n     RDKit          2D\n\n  6  5  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -0.6276    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0650   -1.2553    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -1.8778    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.1349   -1.8778    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0650   -0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.1998   -1.2553    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  2  1  0     0  0\n  5  2  2  0     0  0\n  6  4  1  0     0  0\nA  1\n[BnS]\nA  3\n[BnS]\nA  6\n[CO2R1]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_0_block9_image_mol_2.jpg",
+            "mol_id": "mol_0003"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "[H][C]([CO2R1])=C=[C]([R2])C1=CC=CC=C1",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4651   -0.8883    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.4000   -0.8883    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -1.7720    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3350   -0.8883    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8001   -0.0000    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8001   -1.7720    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  2  0     0  0\n  4  2  1  0     0  0\n  5  3  2  0     0  0\n  6  5  1  0     0  0\n  7  5  1  0     0  0\nA  1\n[Ph]\nA  4\n[R2]\nA  7\n[CO2R1]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_0_block9_image_mol_0.jpg",
+            "mol_id": "mol_0001"
+          }
+        }
+      ],
+      "source_figure": "57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_0_block9_image",
+      "confidence": 1.0,
+      "page_idx": 0,
+      "block_index": 9,
+      "scale_factor": 2.779327135900841
+    },
+    {
+      "reaction_id": "rxn_0002",
+      "reaction_figure": "reaction_extraction/visualize/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_1_block4_image_rxn1_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "text",
+          "condition": "99%_",
+          "bbox": [
+            383,
+            385,
+            510,
+            400
+          ],
+          "page_bbox": [
+            466,
+            524,
+            593,
+            539
+          ],
+          "scale_factor": 2.782247693597987
+        },
+        {
+          "type": "text",
+          "condition": "ElZ = 100.0",
+          "bbox": [
+            383,
+            385,
+            510,
+            400
+          ],
+          "page_bbox": [
+            466,
+            524,
+            593,
+            539
+          ],
+          "scale_factor": 2.782247693597987
+        },
+        {
+          "type": "text",
+          "condition": "NaHMDS (1.3 mol eq)",
+          "bbox": [
+            313,
+            316,
+            496,
+            333
+          ],
+          "page_bbox": [
+            396,
+            455,
+            579,
+            472
+          ],
+          "scale_factor": 2.782247693597987
+        },
+        {
+          "type": "text",
+          "condition": "2) PhCHO, 0 'C",
+          "bbox": [
+            311,
+            339,
+            431,
+            356
+          ],
+          "page_bbox": [
+            394,
+            478,
+            514,
+            495
+          ],
+          "scale_factor": 2.782247693597987
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            106,
+            380,
+            256,
+            441
+          ],
+          "page_bbox": [
+            189,
+            519,
+            339,
+            580
+          ],
+          "scale_factor": 2.782247693597987,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            554,
+            329,
+            674,
+            405
+          ],
+          "page_bbox": [
+            637,
+            468,
+            757,
+            544
+          ],
+          "scale_factor": 2.782247693597987,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "COC(=O)C[P](=O)([BnS])[BnS]",
+            "molfile": "\n     RDKit          2D\n\n  6  5  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -1.8247    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0805   -1.2201    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n    2.1667   -1.8247    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0805   -0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -0.6100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.2528   -1.2201    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  2  2  0     0  0\n  5  2  1  0     0  0\n  6  3  1  0     0  0\nA  1\n[BnS]\nA  5\n[BnS]\nA  6\n[CO2Me]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_1_block4_image_mol_9.jpg",
+            "mol_id": "mol_0013"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "[H]/C(C(=O)OC)=C(/[H])C1=CC=CC=C1",
+            "molfile": "\n     RDKit          2D\n\n  6  5  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.6272   -0.9308    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.8865   -0.9308    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -1.8568    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5138   -1.8568    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5138   -0.0000    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  2  0     0  0\n  4  2  1  0     0  0\n  5  3  1  0     0  0\n  6  3  1  0     0  0\nA  1\n[Ph]\nA  5\n[CO2Me]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_1_block4_image_mol_2.jpg",
+            "mol_id": "mol_0006"
+          }
+        }
+      ],
+      "source_figure": "57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_1_block4_image",
+      "confidence": 1.0,
+      "page_idx": 1,
+      "block_index": 4,
+      "scale_factor": 2.782247693597987
+    },
+    {
+      "reaction_id": "rxn_0003",
+      "reaction_figure": "reaction_extraction/visualize/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_1_block4_image_rxn2_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "text",
+          "condition": "NaHMDS (1.1 mol eq)",
+          "bbox": [
+            317,
+            475,
+            499,
+            492
+          ],
+          "page_bbox": [
+            400,
+            614,
+            582,
+            631
+          ],
+          "scale_factor": 2.782247693597987
+        },
+        {
+          "type": "text",
+          "condition": "2) PhCHO, -78 \"C",
+          "bbox": [
+            317,
+            496,
+            452,
+            514
+          ],
+          "page_bbox": [
+            400,
+            635,
+            535,
+            653
+          ],
+          "scale_factor": 2.782247693597987
+        },
+        {
+          "type": "text",
+          "condition": "94%",
+          "bbox": [
+            383,
+            433,
+            503,
+            447
+          ],
+          "page_bbox": [
+            466,
+            572,
+            586,
+            586
+          ],
+          "scale_factor": 2.782247693597987
+        },
+        {
+          "type": "text",
+          "condition": "Eiz = 2.98",
+          "bbox": [
+            383,
+            433,
+            503,
+            447
+          ],
+          "page_bbox": [
+            466,
+            572,
+            586,
+            586
+          ],
+          "scale_factor": 2.782247693597987
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            106,
+            380,
+            256,
+            441
+          ],
+          "page_bbox": [
+            189,
+            519,
+            339,
+            580
+          ],
+          "scale_factor": 2.782247693597987,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            557,
+            423,
+            676,
+            494
+          ],
+          "page_bbox": [
+            640,
+            562,
+            759,
+            633
+          ],
+          "scale_factor": 2.782247693597987,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "COC(=O)C[P](=O)([BnS])[BnS]",
+            "molfile": "\n     RDKit          2D\n\n  6  5  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -1.8247    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0805   -1.2201    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n    2.1667   -1.8247    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0805   -0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -0.6100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.2528   -1.2201    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  2  2  0     0  0\n  5  2  1  0     0  0\n  6  3  1  0     0  0\nA  1\n[BnS]\nA  5\n[BnS]\nA  6\n[CO2Me]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_1_block4_image_mol_9.jpg",
+            "mol_id": "mol_0013"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "[H]/C(C(=O)OC)=C(\\[H])C1=CC=CC=C1",
+            "molfile": "\n     RDKit          2D\n\n  6  5  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.6389   -0.8962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.9270   -0.8962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -1.7924    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5711   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5711   -1.7924    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  2  0     0  0\n  4  2  1  0     0  0\n  5  3  1  0     0  0\n  6  3  1  0     0  0\nA  1\n[Ph]\nA  5\n[CO2Me]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_1_block4_image_mol_3.jpg",
+            "mol_id": "mol_0007"
+          }
+        }
+      ],
+      "source_figure": "57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_1_block4_image",
+      "confidence": 1.0,
+      "page_idx": 1,
+      "block_index": 4,
+      "scale_factor": 2.782247693597987
+    },
+    {
+      "reaction_id": "rxn_0004",
+      "reaction_figure": "reaction_extraction/visualize/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_1_block4_image_rxn3_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "text",
+          "condition": "i-PrMgBr",
+          "bbox": [
+            328,
+            136,
+            405,
+            174
+          ],
+          "page_bbox": [
+            411,
+            275,
+            488,
+            313
+          ],
+          "scale_factor": 2.782247693597987
+        },
+        {
+          "type": "text",
+          "condition": "(1.1 equiv)",
+          "bbox": [
+            328,
+            136,
+            405,
+            174
+          ],
+          "page_bbox": [
+            411,
+            275,
+            488,
+            313
+          ],
+          "scale_factor": 2.782247693597987
+        },
+        {
+          "type": "text",
+          "condition": "THF",
+          "bbox": [
+            448,
+            201,
+            512,
+            236
+          ],
+          "page_bbox": [
+            531,
+            340,
+            595,
+            375
+          ],
+          "scale_factor": 2.782247693597987
+        },
+        {
+          "type": "text",
+          "condition": "0 \"C 1",
+          "bbox": [
+            448,
+            201,
+            512,
+            236
+          ],
+          "page_bbox": [
+            531,
+            340,
+            595,
+            375
+          ],
+          "scale_factor": 2.782247693597987
+        },
+        {
+          "type": "text",
+          "condition": "EtaN",
+          "bbox": [
+            446,
+            137,
+            510,
+            174
+          ],
+          "page_bbox": [
+            529,
+            276,
+            593,
+            313
+          ],
+          "scale_factor": 2.782247693597987
+        },
+        {
+          "type": "text",
+          "condition": "(2 equiv)",
+          "bbox": [
+            446,
+            137,
+            510,
+            174
+          ],
+          "page_bbox": [
+            529,
+            276,
+            593,
+            313
+          ],
+          "scale_factor": 2.782247693597987
+        },
+        {
+          "type": "text",
+          "condition": "THF",
+          "bbox": [
+            335,
+            201,
+            399,
+            235
+          ],
+          "page_bbox": [
+            418,
+            340,
+            482,
+            374
+          ],
+          "scale_factor": 2.782247693597987
+        },
+        {
+          "type": "text",
+          "condition": "0 'C.",
+          "bbox": [
+            335,
+            201,
+            399,
+            235
+          ],
+          "page_bbox": [
+            418,
+            340,
+            482,
+            374
+          ],
+          "scale_factor": 2.782247693597987
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            110,
+            150,
+            301,
+            214
+          ],
+          "page_bbox": [
+            193,
+            289,
+            384,
+            353
+          ],
+          "scale_factor": 2.782247693597987,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            543,
+            155,
+            694,
+            221
+          ],
+          "page_bbox": [
+            626,
+            294,
+            777,
+            360
+          ],
+          "scale_factor": 2.782247693597987,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "COC(=O)C[P](=O)([CF3CH2O])[CF3CH2O]",
+            "molfile": "\n     RDKit          2D\n\n  6  5  0  0  0  0  0  0  0  0999 V2000\n    3.3537   -1.0894    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2390   -1.6293    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1195   -1.0894    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -1.6293    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1195   -0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -0.5447    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  3  1  0     0  0\n  5  3  2  0     0  0\n  6  3  1  0     0  0\nA  1\n[CO2Me]\nA  4\n[CF3CH2O]\nA  6\n[CF3CH2O]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_1_block4_image_mol_12.jpg",
+            "mol_id": "mol_0016"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "[H]C(=C=C(C)C1=CC=CC=C1)C(=O)OC",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4695   -0.8571    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.4178   -0.8571    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -1.7096    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3660   -0.8571    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8402   -0.0000    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8402   -1.7096    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  2  0     0  0\n  4  2  1  0     0  0\n  5  3  2  0     0  0\n  6  5  1  0     0  0\n  7  5  1  0     0  0\nA  1\n[Ph]\nA  4\n[Me]\nA  7\n[CO2Me]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_1_block4_image_mol_4.jpg",
+            "mol_id": "mol_0008"
+          }
+        }
+      ],
+      "source_figure": "57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_1_block4_image",
+      "confidence": 1.0,
+      "page_idx": 1,
+      "block_index": 4,
+      "scale_factor": 2.782247693597987
+    },
+    {
+      "reaction_id": "rxn_0005",
+      "reaction_figure": "reaction_extraction/visualize/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_2_block13_image_rxn1_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "text",
+          "condition": "n-OctMgBr",
+          "bbox": [
+            237,
+            355,
+            320,
+            393
+          ],
+          "page_bbox": [
+            1073,
+            482,
+            1156,
+            520
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "text",
+          "condition": "(1.1 equiv)",
+          "bbox": [
+            237,
+            355,
+            320,
+            393
+          ],
+          "page_bbox": [
+            1073,
+            482,
+            1156,
+            520
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "text",
+          "condition": "THF",
+          "bbox": [
+            372,
+            419,
+            438,
+            456
+          ],
+          "page_bbox": [
+            1208,
+            546,
+            1274,
+            583
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "text",
+          "condition": "0 'C",
+          "bbox": [
+            372,
+            419,
+            438,
+            456
+          ],
+          "page_bbox": [
+            1208,
+            546,
+            1274,
+            583
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "text",
+          "condition": "THF",
+          "bbox": [
+            237,
+            419,
+            306,
+            456
+          ],
+          "page_bbox": [
+            1073,
+            546,
+            1142,
+            583
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "text",
+          "condition": "0 \"C",
+          "bbox": [
+            237,
+            419,
+            306,
+            456
+          ],
+          "page_bbox": [
+            1073,
+            546,
+            1142,
+            583
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "molecule",
+          "condition": "catalyst/reagent",
+          "bbox": [
+            357,
+            260,
+            462,
+            323
+          ],
+          "page_bbox": [
+            1193,
+            387,
+            1298,
+            450
+          ],
+          "scale_factor": 2.7729468599033815,
+          "mol_id": "mol_0020"
+        },
+        {
+          "type": "text",
+          "condition": "Et3N",
+          "bbox": [
+            367,
+            356,
+            433,
+            394
+          ],
+          "page_bbox": [
+            1203,
+            483,
+            1269,
+            521
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "text",
+          "condition": "(4 equiv)",
+          "bbox": [
+            367,
+            356,
+            433,
+            394
+          ],
+          "page_bbox": [
+            1203,
+            483,
+            1269,
+            521
+          ],
+          "scale_factor": 2.7729468599033815
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            41,
+            370,
+            188,
+            456
+          ],
+          "page_bbox": [
+            877,
+            497,
+            1024,
+            583
+          ],
+          "scale_factor": 2.7729468599033815,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            491,
+            375,
+            639,
+            441
+          ],
+          "page_bbox": [
+            1327,
+            502,
+            1475,
+            568
+          ],
+          "scale_factor": 2.7729468599033815,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "CCOC(=O)C(C)P(=O)(OCC1=CC=CC=C1)OCC1=CC=CC=C1",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -1.5568    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.2267   -1.0379    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n    2.4592   -1.5568    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.2267   -0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -0.5189    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6917   -1.0379    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.4592   -2.5946    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  2  2  0     0  0\n  5  2  1  0     0  0\n  6  3  1  0     0  0\n  7  3  1  0     0  0\nA  1\n[BnO]\nA  5\n[BnO]\nA  6\n[CO2Et]\nA  7\n[Me]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_2_block13_image_mol_0.jpg",
+            "mol_id": "mol_0017"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "CCOC(=O)C(C)=C=C(C)C1=CC=CC=C1",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -1.8168    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4615   -0.9105    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.3933   -0.9105    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3251   -0.9105    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7910   -1.8168    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7910   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  2  0     0  0\n  4  2  1  0     0  0\n  5  3  2  0     0  0\n  6  5  1  0     0  0\n  7  5  1  0     0  0\nA  1\n[Me]\nA  4\n[Ph]\nA  6\n[CO2Et]\nA  7\n[Me]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_2_block13_image_mol_2.jpg",
+            "mol_id": "mol_0019"
+          }
+        }
+      ],
+      "source_figure": "57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_2_block13_image",
+      "confidence": 1.0,
+      "page_idx": 2,
+      "block_index": 13,
+      "scale_factor": 2.7729468599033815
+    },
+    {
+      "reaction_id": "rxn_0006",
+      "reaction_figure": "reaction_extraction/visualize/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_2_block13_image_rxn2_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "molecule",
+          "condition": "catalyst/reagent",
+          "bbox": [
+            357,
+            31,
+            463,
+            168
+          ],
+          "page_bbox": [
+            1193,
+            158,
+            1299,
+            295
+          ],
+          "scale_factor": 2.7729468599033815,
+          "mol_id": null
+        },
+        {
+          "type": "text",
+          "condition": "THF",
+          "bbox": [
+            225,
+            193,
+            319,
+            229
+          ],
+          "page_bbox": [
+            1061,
+            320,
+            1155,
+            356
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "text",
+          "condition": "0 \"C.10 min",
+          "bbox": [
+            225,
+            193,
+            319,
+            229
+          ],
+          "page_bbox": [
+            1061,
+            320,
+            1155,
+            356
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "text",
+          "condition": "i-PrMgBr",
+          "bbox": [
+            232,
+            128,
+            312,
+            165
+          ],
+          "page_bbox": [
+            1068,
+            255,
+            1148,
+            292
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "text",
+          "condition": "equiv",
+          "bbox": [
+            232,
+            128,
+            312,
+            165
+          ],
+          "page_bbox": [
+            1068,
+            255,
+            1148,
+            292
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "text",
+          "condition": "THF",
+          "bbox": [
+            360,
+            193,
+            454,
+            229
+          ],
+          "page_bbox": [
+            1196,
+            320,
+            1290,
+            356
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "text",
+          "condition": "0 \"C 10 min",
+          "bbox": [
+            360,
+            193,
+            454,
+            229
+          ],
+          "page_bbox": [
+            1196,
+            320,
+            1290,
+            356
+          ],
+          "scale_factor": 2.7729468599033815
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            40,
+            142,
+            194,
+            204
+          ],
+          "page_bbox": [
+            876,
+            269,
+            1030,
+            331
+          ],
+          "scale_factor": 2.7729468599033815,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            491,
+            147,
+            646,
+            214
+          ],
+          "page_bbox": [
+            1327,
+            274,
+            1482,
+            341
+          ],
+          "scale_factor": 2.7729468599033815,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "COC(=O)CP(=O)(OCC1=CC=CC=C1)OCC1=CC=CC=C1",
+            "molfile": "\n     RDKit          2D\n\n  6  5  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -1.8770    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0709   -1.2547    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n    2.1468   -1.8770    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0709   -0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -0.6273    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.2177   -1.2547    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  2  2  0     0  0\n  5  2  1  0     0  0\n  6  3  1  0     0  0\nA  1\n[BnO]\nA  5\n[BnO]\nA  6\n[CO2Me]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_2_block13_image_mol_5.jpg",
+            "mol_id": "mol_0022"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "[H]C(=C=C(C)C1=CC=CC=C1)C(=O)OC",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4643   -0.8882    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.4019   -0.8882    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -1.7764    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3395   -0.8882    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8083   -0.0000    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8083   -1.7764    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  2  0     0  0\n  4  2  1  0     0  0\n  5  3  2  0     0  0\n  6  5  1  0     0  0\n  7  5  1  0     0  0\nA  1\n[Ph]\nA  4\n[Me]\nA  7\n[CO2Me]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_2_block13_image_mol_1.jpg",
+            "mol_id": "mol_0018"
+          }
+        }
+      ],
+      "source_figure": "57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_2_block13_image",
+      "confidence": 1.0,
+      "page_idx": 2,
+      "block_index": 13,
+      "scale_factor": 2.7729468599033815
+    },
+    {
+      "reaction_id": "rxn_0007",
+      "reaction_figure": "reaction_extraction/visualize/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_2_block16_image_rxn1_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "text",
+          "condition": "TMSBr",
+          "bbox": [
+            215,
+            29,
+            294,
+            67
+          ],
+          "page_bbox": [
+            1038,
+            821,
+            1117,
+            859
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "text",
+          "condition": "(2.5 equiv _",
+          "bbox": [
+            215,
+            29,
+            294,
+            67
+          ],
+          "page_bbox": [
+            1038,
+            821,
+            1117,
+            859
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "text",
+          "condition": "CHzClz",
+          "bbox": [
+            228,
+            88,
+            282,
+            124
+          ],
+          "page_bbox": [
+            1051,
+            880,
+            1105,
+            916
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "text",
+          "condition": "rt_",
+          "bbox": [
+            228,
+            88,
+            282,
+            124
+          ],
+          "page_bbox": [
+            1051,
+            880,
+            1105,
+            916
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "text",
+          "condition": "CHCIa",
+          "bbox": [
+            338,
+            232,
+            392,
+            268
+          ],
+          "page_bbox": [
+            1161,
+            1024,
+            1215,
+            1060
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "text",
+          "condition": "rt.5",
+          "bbox": [
+            338,
+            232,
+            392,
+            268
+          ],
+          "page_bbox": [
+            1161,
+            1024,
+            1215,
+            1060
+          ],
+          "scale_factor": 2.7729468599033815
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            42,
+            41,
+            182,
+            128
+          ],
+          "page_bbox": [
+            865,
+            833,
+            1005,
+            920
+          ],
+          "scale_factor": 2.7729468599033815,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            335,
+            41,
+            500,
+            129
+          ],
+          "page_bbox": [
+            1158,
+            833,
+            1323,
+            921
+          ],
+          "scale_factor": 2.7729468599033815,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "O=[P]([XO])([XO])[CH]([Y])[CO2R1]",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -1.5836    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.2141   -1.0537    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n    2.4343   -1.5836    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.2141   -0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -0.5239    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6546   -1.0537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.4343   -2.6434    0.0000 Y   0  0  0  0  0  1  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  2  2  0     0  0\n  5  2  1  0     0  0\n  6  3  1  0     0  0\n  7  3  1  0     0  0\nA  1\n[XO]\nA  5\n[XO]\nA  6\n[CO2R1]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_2_block16_image_mol_2.jpg",
+            "mol_id": "mol_0025"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "C[Si](C)(C)OP(=O)(O[Si](C)(C)C)[CH]([Y])[CO2R1]",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -1.5104    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.2442   -1.0069    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n    2.4883   -1.5104    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.2442   -0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -0.5035    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7270   -1.0069    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.4883   -2.5117    0.0000 Y   0  0  0  0  0  1  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  2  2  0     0  0\n  5  2  1  0     0  0\n  6  3  1  0     0  0\n  7  3  1  0     0  0\nA  1\n[TMSO]\nA  5\n[TMSO]\nA  6\n[CO2R1]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_2_block16_image_mol_0.jpg",
+            "mol_id": "mol_0023"
+          }
+        }
+      ],
+      "source_figure": "57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_2_block16_image",
+      "confidence": 1.0,
+      "page_idx": 2,
+      "block_index": 16,
+      "scale_factor": 2.7729468599033815
+    },
+    {
+      "reaction_id": "rxn_0008",
+      "reaction_figure": "reaction_extraction/visualize/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_3_block3_image_rxn1_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "molecule",
+          "condition": "catalyst/reagent",
+          "bbox": [
+            336,
+            23,
+            440,
+            160
+          ],
+          "page_bbox": [
+            464,
+            159,
+            568,
+            296
+          ],
+          "scale_factor": 2.781172189235779,
+          "mol_id": null
+        },
+        {
+          "type": "text",
+          "condition": "THF",
+          "bbox": [
+            222,
+            186,
+            288,
+            222
+          ],
+          "page_bbox": [
+            350,
+            322,
+            416,
+            358
+          ],
+          "scale_factor": 2.781172189235779
+        },
+        {
+          "type": "text",
+          "condition": "0 \"C",
+          "bbox": [
+            222,
+            186,
+            288,
+            222
+          ],
+          "page_bbox": [
+            350,
+            322,
+            416,
+            358
+          ],
+          "scale_factor": 2.781172189235779
+        },
+        {
+          "type": "text",
+          "condition": "n-OctMgBr",
+          "bbox": [
+            214,
+            121,
+            297,
+            159
+          ],
+          "page_bbox": [
+            342,
+            257,
+            425,
+            295
+          ],
+          "scale_factor": 2.781172189235779
+        },
+        {
+          "type": "text",
+          "condition": "(1.1 equiv)",
+          "bbox": [
+            214,
+            121,
+            297,
+            159
+          ],
+          "page_bbox": [
+            342,
+            257,
+            425,
+            295
+          ],
+          "scale_factor": 2.781172189235779
+        },
+        {
+          "type": "text",
+          "condition": "THF",
+          "bbox": [
+            350,
+            186,
+            393,
+            222
+          ],
+          "page_bbox": [
+            478,
+            322,
+            521,
+            358
+          ],
+          "scale_factor": 2.781172189235779
+        },
+        {
+          "type": "text",
+          "condition": "rt 6",
+          "bbox": [
+            350,
+            186,
+            393,
+            222
+          ],
+          "page_bbox": [
+            478,
+            322,
+            521,
+            358
+          ],
+          "scale_factor": 2.781172189235779
+        },
+        {
+          "type": "molecule",
+          "condition": "catalyst/reagent",
+          "bbox": [
+            336,
+            22,
+            432,
+            85
+          ],
+          "page_bbox": [
+            464,
+            158,
+            560,
+            221
+          ],
+          "scale_factor": 2.781172189235779,
+          "mol_id": "mol_0028"
+        },
+        {
+          "type": "text",
+          "condition": "EtaN",
+          "bbox": [
+            345,
+            122,
+            411,
+            160
+          ],
+          "page_bbox": [
+            473,
+            258,
+            539,
+            296
+          ],
+          "scale_factor": 2.781172189235779
+        },
+        {
+          "type": "text",
+          "condition": "(4 equiv)",
+          "bbox": [
+            345,
+            122,
+            411,
+            160
+          ],
+          "page_bbox": [
+            473,
+            258,
+            539,
+            296
+          ],
+          "scale_factor": 2.781172189235779
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            38,
+            136,
+            181,
+            222
+          ],
+          "page_bbox": [
+            166,
+            272,
+            309,
+            358
+          ],
+          "scale_factor": 2.781172189235779,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            477,
+            141,
+            622,
+            204
+          ],
+          "page_bbox": [
+            605,
+            277,
+            750,
+            340
+          ],
+          "scale_factor": 2.781172189235779,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "CC(C(=O)C1=CC=CC=C1)[P](=O)([BnX])[BnX]",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -1.5607    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.2252   -1.0405    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n    2.4566   -1.5607    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.2252   -0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -0.5202    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.4566   -2.6012    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6880   -1.0405    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  2  2  0     0  0\n  5  2  1  0     0  0\n  6  3  1  0     0  0\n  7  3  1  0     0  0\nA  1\n[BnX]\nA  5\n[BnX]\nA  6\n[Me]\nA  7\n[COPh]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_3_block3_image_mol_0.jpg",
+            "mol_id": "mol_0026"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "CC(=C=C(C)C1=CC=CC=C1)C(=O)C1=CC=CC=C1",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -1.8262    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4591   -0.9154    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.3910   -0.9154    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3230   -0.9154    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7866   -1.8262    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7866   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  2  0     0  0\n  4  2  1  0     0  0\n  5  3  2  0     0  0\n  6  5  1  0     0  0\n  7  5  1  0     0  0\nA  1\n[Me]\nA  4\n[Ph]\nA  6\n[COPh]\nA  7\n[Me]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_3_block3_image_mol_1.jpg",
+            "mol_id": "mol_0027"
+          }
+        }
+      ],
+      "source_figure": "57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_3_block3_image",
+      "confidence": 1.0,
+      "page_idx": 3,
+      "block_index": 3,
+      "scale_factor": 2.781172189235779
+    },
+    {
+      "reaction_id": "rxn_0009",
+      "reaction_figure": "reaction_extraction/visualize/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_3_block5_image_rxn1_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "molecule",
+          "condition": "catalyst/reagent",
+          "bbox": [
+            408,
+            45,
+            512,
+            177
+          ],
+          "page_bbox": [
+            531,
+            457,
+            635,
+            589
+          ],
+          "scale_factor": 2.781172189235779,
+          "mol_id": null
+        },
+        {
+          "type": "text",
+          "condition": "THF",
+          "bbox": [
+            303,
+            203,
+            369,
+            239
+          ],
+          "page_bbox": [
+            426,
+            615,
+            492,
+            651
+          ],
+          "scale_factor": 2.781172189235779
+        },
+        {
+          "type": "text",
+          "condition": "0 \"C",
+          "bbox": [
+            303,
+            203,
+            369,
+            239
+          ],
+          "page_bbox": [
+            426,
+            615,
+            492,
+            651
+          ],
+          "scale_factor": 2.781172189235779
+        },
+        {
+          "type": "text",
+          "condition": "i-PrMgBr",
+          "bbox": [
+            296,
+            138,
+            376,
+            176
+          ],
+          "page_bbox": [
+            419,
+            550,
+            499,
+            588
+          ],
+          "scale_factor": 2.781172189235779
+        },
+        {
+          "type": "text",
+          "condition": "(1.1 equivE",
+          "bbox": [
+            296,
+            138,
+            376,
+            176
+          ],
+          "page_bbox": [
+            419,
+            550,
+            499,
+            588
+          ],
+          "scale_factor": 2.781172189235779
+        },
+        {
+          "type": "text",
+          "condition": "THF",
+          "bbox": [
+            412,
+            203,
+            506,
+            239
+          ],
+          "page_bbox": [
+            535,
+            615,
+            629,
+            651
+          ],
+          "scale_factor": 2.781172189235779
+        },
+        {
+          "type": "text",
+          "condition": "0 \"C. 20 min",
+          "bbox": [
+            412,
+            203,
+            506,
+            239
+          ],
+          "page_bbox": [
+            535,
+            615,
+            629,
+            651
+          ],
+          "scale_factor": 2.781172189235779
+        },
+        {
+          "type": "text",
+          "condition": "(2 equiv)",
+          "bbox": [
+            419,
+            114,
+            512,
+            177
+          ],
+          "page_bbox": [
+            542,
+            526,
+            635,
+            589
+          ],
+          "scale_factor": 2.781172189235779
+        },
+        {
+          "type": "text",
+          "condition": "Et3N",
+          "bbox": [
+            419,
+            114,
+            512,
+            177
+          ],
+          "page_bbox": [
+            542,
+            526,
+            635,
+            589
+          ],
+          "scale_factor": 2.781172189235779
+        },
+        {
+          "type": "text",
+          "condition": "(4 equiv)",
+          "bbox": [
+            419,
+            114,
+            512,
+            177
+          ],
+          "page_bbox": [
+            542,
+            526,
+            635,
+            589
+          ],
+          "scale_factor": 2.781172189235779
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            45,
+            153,
+            252,
+            213
+          ],
+          "page_bbox": [
+            168,
+            565,
+            375,
+            625
+          ],
+          "scale_factor": 2.781172189235779,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            451,
+            260,
+            658,
+            327
+          ],
+          "page_bbox": [
+            574,
+            672,
+            781,
+            739
+          ],
+          "scale_factor": 2.781172189235779,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "O=[P]([BnX])([BnX])[CH2][CON(OMe)Me]",
+            "molfile": "\n     RDKit          2D\n\n  6  5  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -1.5517    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1284   -1.0373    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2568   -1.5517    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1284   -0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -0.5187    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.3810   -1.0373    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  2  2  0     0  0\n  5  2  1  0     0  0\n  6  3  1  0     0  0\nA  1\n[BnX]\nA  5\n[BnX]\nA  6\n[CON(OMe)Me]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_3_block5_image_mol_3.jpg",
+            "mol_id": "mol_0032"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "[H][C]([CON(OMe)Me])=C=C(C)C1=CC=CC=C1",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4953   -0.7208    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.4931   -0.7208    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -1.4378    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.4910   -0.7208    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.9862   -1.4378    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.9862   -0.0000    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  2  0     0  0\n  4  2  1  0     0  0\n  5  3  2  0     0  0\n  6  5  1  0     0  0\n  7  5  1  0     0  0\nA  1\n[Ph]\nA  4\n[Me]\nA  6\n[CON(OMe)Me]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_3_block5_image_mol_5.jpg",
+            "mol_id": "mol_0034"
+          }
+        }
+      ],
+      "source_figure": "57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_3_block5_image",
+      "confidence": 1.0,
+      "page_idx": 3,
+      "block_index": 5,
+      "scale_factor": 2.781172189235779
+    },
+    {
+      "reaction_id": "rxn_0010",
+      "reaction_figure": "reaction_extraction/visualize/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_3_block5_image_rxn2_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "molecule",
+          "condition": "catalyst/reagent",
+          "bbox": [
+            341,
+            401,
+            445,
+            533
+          ],
+          "page_bbox": [
+            464,
+            813,
+            568,
+            945
+          ],
+          "scale_factor": 2.781172189235779,
+          "mol_id": null
+        },
+        {
+          "type": "text",
+          "condition": "i-PrMgBr",
+          "bbox": [
+            230,
+            495,
+            310,
+            533
+          ],
+          "page_bbox": [
+            353,
+            907,
+            433,
+            945
+          ],
+          "scale_factor": 2.781172189235779
+        },
+        {
+          "type": "text",
+          "condition": "(1.1 equiv",
+          "bbox": [
+            230,
+            495,
+            310,
+            533
+          ],
+          "page_bbox": [
+            353,
+            907,
+            433,
+            945
+          ],
+          "scale_factor": 2.781172189235779
+        },
+        {
+          "type": "text",
+          "condition": "THF",
+          "bbox": [
+            353,
+            560,
+            420,
+            596
+          ],
+          "page_bbox": [
+            476,
+            972,
+            543,
+            1008
+          ],
+          "scale_factor": 2.781172189235779
+        },
+        {
+          "type": "text",
+          "condition": "0 \"C_",
+          "bbox": [
+            353,
+            560,
+            420,
+            596
+          ],
+          "page_bbox": [
+            476,
+            972,
+            543,
+            1008
+          ],
+          "scale_factor": 2.781172189235779
+        },
+        {
+          "type": "text",
+          "condition": "THF",
+          "bbox": [
+            237,
+            560,
+            303,
+            596
+          ],
+          "page_bbox": [
+            360,
+            972,
+            426,
+            1008
+          ],
+          "scale_factor": 2.781172189235779
+        },
+        {
+          "type": "text",
+          "condition": "0 \"C",
+          "bbox": [
+            237,
+            560,
+            303,
+            596
+          ],
+          "page_bbox": [
+            360,
+            972,
+            426,
+            1008
+          ],
+          "scale_factor": 2.781172189235779
+        },
+        {
+          "type": "text",
+          "condition": "Et3N",
+          "bbox": [
+            350,
+            495,
+            416,
+            534
+          ],
+          "page_bbox": [
+            473,
+            907,
+            539,
+            946
+          ],
+          "scale_factor": 2.781172189235779
+        },
+        {
+          "type": "text",
+          "condition": "(4 equiv)",
+          "bbox": [
+            350,
+            495,
+            416,
+            534
+          ],
+          "page_bbox": [
+            473,
+            907,
+            539,
+            946
+          ],
+          "scale_factor": 2.781172189235779
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            44,
+            508,
+            198,
+            571
+          ],
+          "page_bbox": [
+            167,
+            920,
+            321,
+            983
+          ],
+          "scale_factor": 2.781172189235779,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            482,
+            514,
+            627,
+            602
+          ],
+          "page_bbox": [
+            605,
+            926,
+            750,
+            1014
+          ],
+          "scale_factor": 2.781172189235779,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "O=[P]([BnX])([BnX])C[P](=O)([XBn])[XBn]",
+            "molfile": "\n     RDKit          2D\n\n  9  8  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -2.1272    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.9073   -1.4219    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n    1.8204   -2.1272    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.9073   -0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -0.7109    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7335   -1.4219    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6466   -2.1272    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7335   -0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6466   -0.7109    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  2  2  0     0  0\n  5  2  1  0     0  0\n  6  3  1  0     0  0\n  7  6  1  0     0  0\n  8  6  2  0     0  0\n  9  6  1  0     0  0\nA  1\n[BnX]\nA  5\n[BnX]\nA  7\n[XBn]\nA  9\n[XBn]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_3_block5_image_mol_4.jpg",
+            "mol_id": "mol_0033"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "[H]C(=C=C(C)C1=CC=CC=C1)[P](=O)([XBn])[BnX]",
+            "molfile": "\n     RDKit          2D\n\n 10  9  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4917   -0.9746    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.4818   -0.9746    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -1.9492    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.4718   -0.9746    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.9635   -1.9492    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n    2.9635   -0.0000    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    3.9470   -1.9492    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    2.4718   -2.9174    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4553   -2.9174    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  2  0     0  0\n  4  2  1  0     0  0\n  5  3  2  0     0  0\n  6  5  1  0     0  0\n  7  5  1  0     0  0\n  8  6  2  0     0  0\n  9  6  1  0     0  0\n 10  6  1  0     0  0\nA  1\n[Ph]\nA  4\n[Me]\nA  9\n[BnX]\nA  10\n[XBn]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_3_block5_image_mol_0.jpg",
+            "mol_id": "mol_0029"
+          }
+        }
+      ],
+      "source_figure": "57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_3_block5_image",
+      "confidence": 1.0,
+      "page_idx": 3,
+      "block_index": 5,
+      "scale_factor": 2.781172189235779
+    },
+    {
+      "reaction_id": "rxn_0011",
+      "reaction_figure": "reaction_extraction/visualize/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_1_block10_table_rxn1_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "text",
+          "condition": "i-PrMgBr",
+          "bbox": [
+            270,
+            145,
+            351,
+            183
+          ],
+          "page_bbox": [
+            1068,
+            1031,
+            1149,
+            1069
+          ],
+          "scale_factor": 2.782247693597987
+        },
+        {
+          "type": "text",
+          "condition": "(1.1 equiv)",
+          "bbox": [
+            270,
+            145,
+            351,
+            183
+          ],
+          "page_bbox": [
+            1068,
+            1031,
+            1149,
+            1069
+          ],
+          "scale_factor": 2.782247693597987
+        },
+        {
+          "type": "text",
+          "condition": "THF",
+          "bbox": [
+            279,
+            214,
+            340,
+            251
+          ],
+          "page_bbox": [
+            1077,
+            1100,
+            1138,
+            1137
+          ],
+          "scale_factor": 2.782247693597987
+        },
+        {
+          "type": "text",
+          "condition": "0 \"C",
+          "bbox": [
+            279,
+            214,
+            340,
+            251
+          ],
+          "page_bbox": [
+            1077,
+            1100,
+            1138,
+            1137
+          ],
+          "scale_factor": 2.782247693597987
+        },
+        {
+          "type": "molecule",
+          "condition": "catalyst/reagent",
+          "bbox": [
+            382,
+            49,
+            491,
+            187
+          ],
+          "page_bbox": [
+            1180,
+            935,
+            1289,
+            1073
+          ],
+          "scale_factor": 2.782247693597987,
+          "mol_id": null
+        },
+        {
+          "type": "text",
+          "condition": "THF",
+          "bbox": [
+            397,
+            214,
+            460,
+            250
+          ],
+          "page_bbox": [
+            1195,
+            1100,
+            1258,
+            1136
+          ],
+          "scale_factor": 2.782247693597987
+        },
+        {
+          "type": "text",
+          "condition": "0 \"C T2",
+          "bbox": [
+            397,
+            214,
+            460,
+            250
+          ],
+          "page_bbox": [
+            1195,
+            1100,
+            1258,
+            1136
+          ],
+          "scale_factor": 2.782247693597987
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            83,
+            160,
+            240,
+            224
+          ],
+          "page_bbox": [
+            881,
+            1046,
+            1038,
+            1110
+          ],
+          "scale_factor": 2.782247693597987,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            520,
+            166,
+            679,
+            235
+          ],
+          "page_bbox": [
+            1318,
+            1052,
+            1477,
+            1121
+          ],
+          "scale_factor": 2.782247693597987,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "(no SMILES)",
+            "molfile": "",
+            "crop_path": "reaction_extraction/reaction_mol/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_1_block10_table_rxn1_rea1.jpg",
+            "mol_id": null
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "(no SMILES)",
+            "molfile": "",
+            "crop_path": "reaction_extraction/reaction_mol/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_1_block10_table_rxn1_pro1.jpg",
+            "mol_id": null
+          }
+        }
+      ],
+      "source_figure": "57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_1_block10_table",
+      "confidence": 1.0,
+      "page_idx": 1,
+      "block_index": 10,
+      "scale_factor": 2.782247693597987
+    },
+    {
+      "reaction_id": "rxn_0012",
+      "reaction_figure": "reaction_extraction/visualize/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_2_block4_table_rxn1_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "molecule",
+          "condition": "catalyst/reagent",
+          "bbox": [
+            387,
+            47,
+            490,
+            131
+          ],
+          "page_bbox": [
+            486,
+            242,
+            589,
+            326
+          ],
+          "scale_factor": 2.7729468599033815,
+          "mol_id": null
+        },
+        {
+          "type": "text",
+          "condition": "THF",
+          "bbox": [
+            265,
+            206,
+            358,
+            242
+          ],
+          "page_bbox": [
+            364,
+            401,
+            457,
+            437
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "text",
+          "condition": "0 \"C 10 min",
+          "bbox": [
+            265,
+            206,
+            358,
+            242
+          ],
+          "page_bbox": [
+            364,
+            401,
+            457,
+            437
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "text",
+          "condition": "i-PrMgBr",
+          "bbox": [
+            271,
+            141,
+            351,
+            178
+          ],
+          "page_bbox": [
+            370,
+            336,
+            450,
+            373
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "text",
+          "condition": "(1.1 equiv_",
+          "bbox": [
+            271,
+            141,
+            351,
+            178
+          ],
+          "page_bbox": [
+            370,
+            336,
+            450,
+            373
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "text",
+          "condition": "THF",
+          "bbox": [
+            403,
+            206,
+            466,
+            242
+          ],
+          "page_bbox": [
+            502,
+            401,
+            565,
+            437
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "text",
+          "condition": "0 'C T2",
+          "bbox": [
+            403,
+            206,
+            466,
+            242
+          ],
+          "page_bbox": [
+            502,
+            401,
+            565,
+            437
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "text",
+          "condition": "Et3N",
+          "bbox": [
+            399,
+            142,
+            465,
+            180
+          ],
+          "page_bbox": [
+            498,
+            337,
+            564,
+            375
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "text",
+          "condition": "(4 equiv)",
+          "bbox": [
+            399,
+            142,
+            465,
+            180
+          ],
+          "page_bbox": [
+            498,
+            337,
+            564,
+            375
+          ],
+          "scale_factor": 2.7729468599033815
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            82,
+            156,
+            230,
+            217
+          ],
+          "page_bbox": [
+            181,
+            351,
+            329,
+            412
+          ],
+          "scale_factor": 2.7729468599033815,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            520,
+            160,
+            667,
+            227
+          ],
+          "page_bbox": [
+            619,
+            355,
+            766,
+            422
+          ],
+          "scale_factor": 2.7729468599033815,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "(no SMILES)",
+            "molfile": "",
+            "crop_path": "reaction_extraction/reaction_mol/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_2_block4_table_rxn1_rea1.jpg",
+            "mol_id": null
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "(no SMILES)",
+            "molfile": "",
+            "crop_path": "reaction_extraction/reaction_mol/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_2_block4_table_rxn1_pro1.jpg",
+            "mol_id": null
+          }
+        }
+      ],
+      "source_figure": "57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_2_block4_table",
+      "confidence": 1.0,
+      "page_idx": 2,
+      "block_index": 4,
+      "scale_factor": 2.7729468599033815
+    },
+    {
+      "reaction_id": "rxn_0013",
+      "reaction_figure": "reaction_extraction/visualize/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_2_block8_table_rxn1_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "molecule",
+          "condition": "catalyst/reagent",
+          "bbox": [
+            385,
+            31,
+            489,
+            162
+          ],
+          "page_bbox": [
+            487,
+            989,
+            591,
+            1120
+          ],
+          "scale_factor": 2.7729468599033815,
+          "mol_id": null
+        },
+        {
+          "type": "text",
+          "condition": "THF",
+          "bbox": [
+            279,
+            189,
+            344,
+            225
+          ],
+          "page_bbox": [
+            381,
+            1147,
+            446,
+            1183
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "text",
+          "condition": "0 \"C",
+          "bbox": [
+            279,
+            189,
+            344,
+            225
+          ],
+          "page_bbox": [
+            381,
+            1147,
+            446,
+            1183
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "text",
+          "condition": "n-OctMgBr",
+          "bbox": [
+            270,
+            123,
+            353,
+            161
+          ],
+          "page_bbox": [
+            372,
+            1081,
+            455,
+            1119
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "text",
+          "condition": "(1.1 equiv)",
+          "bbox": [
+            270,
+            123,
+            353,
+            161
+          ],
+          "page_bbox": [
+            372,
+            1081,
+            455,
+            1119
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "text",
+          "condition": "THF",
+          "bbox": [
+            398,
+            189,
+            460,
+            225
+          ],
+          "page_bbox": [
+            500,
+            1147,
+            562,
+            1183
+          ],
+          "scale_factor": 2.7729468599033815
+        },
+        {
+          "type": "text",
+          "condition": "0 'C TZ",
+          "bbox": [
+            398,
+            189,
+            460,
+            225
+          ],
+          "page_bbox": [
+            500,
+            1147,
+            562,
+            1183
+          ],
+          "scale_factor": 2.7729468599033815
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            87,
+            137,
+            233,
+            225
+          ],
+          "page_bbox": [
+            189,
+            1095,
+            335,
+            1183
+          ],
+          "scale_factor": 2.7729468599033815,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            513,
+            143,
+            658,
+            210
+          ],
+          "page_bbox": [
+            615,
+            1101,
+            760,
+            1168
+          ],
+          "scale_factor": 2.7729468599033815,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "(no SMILES)",
+            "molfile": "",
+            "crop_path": "reaction_extraction/reaction_mol/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_2_block8_table_rxn1_rea1.jpg",
+            "mol_id": null
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "(no SMILES)",
+            "molfile": "",
+            "crop_path": "reaction_extraction/reaction_mol/57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_2_block8_table_rxn1_pro1.jpg",
+            "mol_id": null
+          }
+        }
+      ],
+      "source_figure": "57c645f9-3f75-42bc-9b0a-b49dbfecfc60_origin_2_block8_table",
+      "confidence": 1.0,
+      "page_idx": 2,
+      "block_index": 8,
+      "scale_factor": 2.7729468599033815
+    }
+  ],
+  "total_reactions": 13,
+  "review_note": "仅修改纠错记录中4处已确认条件OCR错误。其余结构、反应角色及条件未经全面人工验证；原始反应.json保持不变。"
+}

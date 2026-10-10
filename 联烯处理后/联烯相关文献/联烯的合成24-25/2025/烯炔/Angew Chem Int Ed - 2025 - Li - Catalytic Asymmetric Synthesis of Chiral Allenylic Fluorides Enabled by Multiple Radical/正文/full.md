@@ -1,0 +1,232 @@
+How to cite: Angew. Chem. Int. Ed. 2025, 64, e202518286
+
+Asymmetric Synthesis
+
+doi.org/10.1002/anie.202518286
+
+# Catalytic Asymmetric Synthesis of Chiral Allenylic Fluorides Enabled by Multiple Radical Sorting
+
+Yingying Li, Xian Gong, Ye Yuan, Yuyang Bai, Huan Li, and Lingling Chu\*
+
+Abstract: Here, we disclose a nickel-catalyzed, threecomponent asymmetric radical sorting strategy that enables the enantioselective synthesis of axially chiral allenylic fluorides from readily available 1,3-enynes, fluoroiodomethane, and alkyl bromides. This radical protocol proceeds under mild, reductive conditions, accommodates a broad range of functional groups, including those found in complex bioactive molecules, and demonstrates high chemo-, regio-, and enantioselectivity. A previously unrecognized fluorine effect proved essential in dictating both reactivity and stereocontrol in this multicomponent radical coupling. This discovery establishes an efficient protocol for enantioselective multiple radical sorting and provides a modular platform for the catalytic synthesis of fluorine-containing axial chirality.
+
+The design of efficient synthetic methods to access structurally diverse allenes continues to be a topic of great significance in modern organic chemistry, owing to their broad utility in pharmaceuticals and advanced materials.<sup>[1–3]</sup> As unique π-systems featuring orthogonal reactivity, allenes also serve as versatile synthetic intermediates amenable to a wide range of transformations.<sup>[4–8]</sup> Among them, axially chiral allenes have attracted particular interest due to their prevalence in natural products and their potential as chiral ligands or bioactive compounds.<sup>[9–11]</sup> However, the selective construction of such motifs—especially those bearing functional handles for further elaboration—remains a formidable synthetic challenge.<sup>[12–20]</sup> Within this context, axially chiral fluorine-containing allenes,<sup>[21,22]</sup> such as allenylic fluorides, represent an especially intriguing yet underexplored subclass. Despite the rich chemistry of chiral allylic and propargylic fluorides<sup>[23–26]</sup> and the rising importance of fluorinated motifs in medicinal and materials chemistry,<sup>[27,28]</sup> general, and enantioselective methods for synthesizing allenylic fluorides are conspicuously lacking (Figure 1i). To date, only a racemic example of allenylic fluorides has been reported via radical fluorination,<sup>[29]</sup> highlighting the pressing need for new strategies to access these valuable scaffolds.
+
+In recent years, radical-based strategies for the asymmetric construction of chiral allenes have garnered increasing attention due to their ability to access reactivity modes complementary to traditional closed-shell processes.<sup>[12–20]</sup> Central to these methods are allenyl radicals—key intermediates that can be readily generated through diverse pathways and harnessed for C–C bond formation.<sup>[30–32]</sup> Among these approaches, radical addition to 1,3-enynes has emerged as particularly attractive, owing to the high reactivity of the enyne motifs, their broad structural tunability, and the accessibility of various radical precursors.<sup>[33]</sup> Despite these advances, the asymmetric radical difunctionalization of enynes remains largely underdeveloped (Figure 1ii).<sup>[19]</sup> Existing examples have primarily relied on radical coupling with cyanides, terminal alkynes, or aryl halides.<sup>[34–40]</sup> To date, attempts involving alkyl halides have only afforded racemic products with limited generality.<sup>[41]</sup> Expanding the pool of viable radical coupling partners—especially those that enable both structural diversity and enantiocontrol— is essential for broadening access to axially chiral allene frameworks, including those bearing medicinally relevant functional groups.
+
+The monofluoromethyl (CH F) group has emerged as a valuable bioisostere for hydroxymethyl and methyl groups, offering unique physicochemical properties with minimal steric impact.<sup>[42]</sup> Despite their growing importance, efficient catalytic strategies for the direct incorporation of CH<sub>2</sub>F moieties into complex molecular scaffolds remain underdeveloped.<sup>[43–46]</sup> This challenge stems largely from the intrinsic instability of CH F anions and the high reactivity of metal–CH F species, which often undergo decomposition or non-productive side reactions.<sup>[47–49]</sup> In contrast to the more established protocols for asymmetric difluoromethylation and trifluoromethylation,<sup>[50,51]</sup> enantioselective methods for CH<sub>2</sub>F incorporation are still in their infancy.<sup>[52]</sup>
+
+Inspired by our ongoing efforts in asymmetric radical cross-couplings,<sup>[53–60]</sup> we envisioned a nickel-catalyzed asymmetric multiple-radical sorting strategy<sup>[61–65]</sup> for enabling an unprecedented enantioselective synthesis of axially chiral allenylic fluorides from 1,3-enynes (Figure 1iii). We hypothesized that fluoroiodomethane (ICH F), a stable and readily available reagent, could serve as a source of CH F radicals through halogen atom transfer (XAT) or singleelectron transfer (SET) pathways.<sup>[66–69]</sup> When paired with a chiral nickel catalyst and a second carbon-based radical precursor, this design could forge the target products in a single operation through an orchestrated radical sorting sequence. Implementing this design requires overcoming several significant challenges. First, the concurrent generation and selective engagement of multiple carbon-centered radicals—including CH<sub>2</sub>F, alkyl, propargyl, and allenyl radical species—demands stringent control to avoid competing pathways such as hydrogen atom transfer, homocoupling, or two-component cross-couplings.<sup>[70]</sup> Second, achieving stereocontrol in reactions involving highly reactive allenyl radicals and fluoromethyl radicals remains particularly difficult, especially in the context of axial chirality.<sup>[71]</sup> Third, the risk of forming unstable α-fluoro carbenoids from CH<sub>2</sub>F precursors necessitates careful tuning of the reaction conditions to prevent decomposition.<sup>[47–49]</sup> Herein, we report the successful realization of this strategy: a nickel-catalyzed, enantioselective three-component radical dialkylation of enynes with ICH F and alkyl bromides under mild reductive conditions (Figure 1iii). This transformation enables the direct and modular synthesis of axially chiral allenylic fluorides with excellent chemo-, regio-, and enantioselectivity. Notably, a distinct fluorine effect was uncovered, which proved critical in governing both the reactivity and stereocontrol of this multicomponent process.
+
+![](images/d311c36dd6956295d2e0b42d3ab9140494a76e1f39b4ccdb2b7fbe78bb889aba.jpg)  
+Figure 1. Catalytic asymmetric radical sorting of 1,3-enynes to forge allenylic fluorides.
+
+We initiated our investigation by selecting 1,3-enyne 1 and fluoroiodomethane 3 as model substrates to explore the feasibility of an enantioselective three-component radical coupling reaction (Table 1). To differentiate between radical species, we employed α-bromoester 2 as the second coupling partner. Upon single-electron reduction, 2 generates an electrophilic α-carbonyl radical that is sterically and electronically distinct from the CH<sub>2</sub>F radical and thus expected to engage with the enyne more selectively. Extensive optimization of reaction parameters led to the identification of an effective catalytic system comprising $\mathrm { N i B r } _ { 2 } { \cdot } ( \mathrm { P P h } _ { 3 } ) _ { 2 } .$ a chiral pyridine–oxazoline (Py–Ox) ligand, and stoichiometric zinc powder as the reductant in DMAc. Under these conditions, the desired allenylic fluoride 4 was obtained in 37% yield and 64% enantiomeric excess (entries 1–4), confirming the viability of chemo-, regio-, and enantio-selective dialkylation. Screening of alternative ligand scaffolds revealed the unique importance of the Py–Ox framework: phosphine–oxazoline (L1), bi-imidazole (L2), and bi-oxazoline (L3) ligands were largely ineffective for enabling multicomponent cross-couplings (entries 1–3). Modifying the Py–Ox structure further improved selectivity. Ligand L5, featuring a bulkier indane-derived oxazoline, yielded a similar result but slightly enhanced enantioselectivity (entry 5). Substitution of the pyridine moiety with a pyrimidine ring (L6) significantly improved both yield (58%) and ee (72%) (entry 6), suggesting electronic effects on the heteroaryl unit strongly influence catalytic performance. Systematic tuning of the pyridine ring reinforced this trend. A CF - substituted $\operatorname { P y - O x }$ ligand (L7) enhanced enantioselectivity to 82%, whereas an OMe-substituted analogue (L8) led to diminished yield and stereocontrol (entries 7–8). Notably, introducing a CF<sub>3</sub> group at the C6-position (L9) completely suppressed reactivity, likely due to steric hindrance (entry 9), while the C5-substituted CF analogue (L10) was moderately effective (entry 10). With the optimal ligand identified, we next turned to solvent effects. A mixed DMAc–toluene system $( \mathrm { v } / \mathrm { v } = 3 { : } 1 7 )$ provided significant improvements in both yield and enantioselectivity relative to DMAc alone (entries 11–13). Further lowering the reaction temperature to $- 1 0 ~ ^ { \circ } \mathrm { C }$ boosted the enantiomeric excess to 91%, albeit with a considerably decreased yield (entry 14). Considering the instability of enynes, we modified the reagent stoichiometry by employing tertiary alkyl bromide 2 as the limiting reagent. This adjustment delivered product 4 in 87% yield and 91% ee (entry 15), representing the optimal conditions. Control experiments confirmed that the nickel catalyst, chiral ligand, and zinc were all essential for this dialkyl cross-coupling, as omission of any one component resulted in complete loss of reactivity (entry 16).
+
+Table 1: Optimization of the reaction conditions.<sup>a)</sup>
+<table><tr><td>Ph PhO+3 1 iPr ipr L</td><td colspan="2">NiBr2(PPh₃)₂ (10 mol%) F 3 chiral ligand (16 mol%) + Br COOMe Zn, DMAc, rt, 24h Ph Me Me 2 4</td></tr><tr><td>N Me PP_{2 Et iPr L1 Me、 N N Me N Me</td><td>O1,(R) R A N N&quot;(S) N -N N &#x27;ipr N L2 L5 A = C; L6 A = N L7 CF3; L8 OMe</td></tr><tr><td>L3 Entry Condition</td><td>Et F3C L4 L9 L10 ee of 4 (%)</td></tr><tr><td></td><td></td></tr><tr><td>L1</td><td>yield of 4 (%)</td></tr><tr><td>1 2 L2</td><td>n.d.</td></tr><tr><td>3 L3</td><td>trace</td></tr><tr><td>L4</td><td>trace 一</td></tr><tr><td>4 5 L5</td><td>37%</td></tr><tr><td>6 L6</td><td>32%</td></tr><tr><td>L7</td><td>58% 72% 57% 82%</td></tr><tr><td>7 8 L8 9</td><td>18% 23%</td></tr><tr><td>L9</td><td>n.d.</td></tr><tr><td>L10</td><td>64% 76%</td></tr><tr><td>17b) DMAc-toluene (v/v 3:1) DMAc-toluene (v/v 1:1) 13b)</td><td>72% 83% 86%</td></tr><tr><td>12b)</td><td>50%</td></tr><tr><td>DMAc-toluene (v/v 3:17)</td><td>78% 87%</td></tr><tr><td>14b) —10 °C instead of r.t</td><td>62% 91% 91%</td></tr><tr><td> ${ \sf 1 5 ^ { b } } , { \sf c } )$  With 0.1 mmol 2 and 1.5 equiv. of1  $1 6 ^ { \circ ) } , ^ { \mathsf { c } ) }$  no [Ni], ligand, or Zn</td><td>83% 0%</td></tr></table>
+
+<sup>a)</sup> Reaction condition: 1 (0.1 mmol), 2 (1.5 equiv.), 3 (2.0 equiv.), $\mathsf { N i B r } _ { 2 } \bullet ( \mathsf { P P h } _ { 3 } ) _ { 2 }$ (10 mol%), chiral ligand (16 mol%), Zn (3.0 equiv.), DMAc [0.05 M], 25 °C, 24 h. GC yields were determined using n-dodecane as an internal standard, and the ee values were determined using high-performance liquid chromatography on a chiral stationary phase. <sup>b)</sup> with L7. <sup>c)</sup> with 1 (1.5 equiv.) and 2 (0.1 mmol).
+
+With optimized conditions in hand, we next examined the scope of this asymmetric radical sorting process. As outlined in Scheme 1, a wide array of substituted 1,3-enynes participated smoothly in the three-component coupling with two different alkyl halides, alkyl bromide 2 and ICH F 3, affording axially chiral allenylic fluorides with high levels of chemo-, regio-, and enantioselectivity (4–21, up to 92% ee). The reaction exhibited broad functional group tolerance under mild conditions, accommodating ethers (4), esters (5–8), amides (9), alkyl chlorides (11), silyl ethers (12), internal olefins (16), thioethers (17), and lactams (19). A variety of heteroaromatic motifs, including thiophenes (13), indoles (14), thiazoles (15), and carbazoles (20), were also well-tolerated. Beyond alkylsubstituted enynes, aryl-substituted analogs, including those bearing electron-rich or deficient substituents, proved equally effective and furnished the desired products in good yields and high ee (22–28, up to 95% ee). Notably, aryl bromides remained intact under the reaction conditions, offering a valuable orthogonal handle for downstream derivatization (25). Moreover, a ferrocenyl-substituted enyne delivered the corresponding allenylic fluoride in 67% yield and 89% ee, further demonstrating the method’s versatility (28).
+
+To highlight the synthetic potential of this protocol, particularly in the context of late-stage functionalization, we explored a series of enyne derivatives derived from bioactive molecules and pharmaceuticals under the standard conditions. As shown in Scheme 1, substrates derived from ciprofibrate (29), oxaprozin (30), pterostilbene (31), isoxepac (32), febuxostat (33), indomethacin (34), and vitamin E (35) all underwent efficient coupling with alkyl bromide 2 and ICH F 3, affording the corresponding axially chiral allenylic fluorides in high yields and excellent ee (up to 93% ee). Finally, the scalability of this protocol was demonstrated by performing the model reaction on a 3.0 mmol scale, which furnished product 4 in a yield and enantiomeric excess comparable to those of small-scale transformation (Scheme 1).
+
+We next sought to evaluate the generality of the alkyl radical precursors (Scheme 2). As anticipated, a range of tertiary α-halo carbonyl compounds, including both α- bromo esters and α-bromo amides, proved to be competent radical precursors, affording the desired axially chiral allene products in good yields and with high ee (36–45, up to 92% ee). In addition to linear α-bromo carbonyl compounds, sterically encumbered esters bearing cyclobutyl (38) or cyclohexyl (39) substituents were also well-tolerated, delivering the corresponding chiral allenes efficiently. Moreover, gem-difluoromethyl substituted alkyl halides, including 2- bromo-2,2-difluoromethyl esters, amides, and phosphonates, underwent the multicomponent coupling reaction with high efficiency (40–45). The absolute configuration of product (S)- 45, ee of which is 99% after recrystallization, was unambiguously confirmed by single-crystal X-ray crystallography,<sup>[72]</sup> and the stereochemistry of the remaining products was assigned by analogy. Encouragingly, secondary α-bromo esters were also suitable coupling partners, delivering the corresponding allenylic fluorides in moderate yield and high ee (46, 78% yield, 91% ee, 82% ee). In these cases, the diastereomeric ratio was approximately 1:1, consistent with a radical mechanism involving non-stereospecific formation of α-carbonyl radicals (46). Notably, even primary α-bromo carbonyl compounds participated effectively in the transformation, furnishing 1,4-dialkylated products with excellent enantioselectivities, albeit with slightly reduced yields (47– 48). These results are particularly striking given the subtle steric differences between the CH F radical and 1-alkyl radicals, highlighting the chemoselectivity of this radical sorting protocol.
+
+To gain insight into the mechanism of this asymmetric transformation, we conducted a series of preliminary mechanistic experiments (Scheme 3). The addition of 3 equivalents of TEMPO to the model reaction completely suppressed the formation of the desired allenylic fluoride 4, instead yielding a 5% of $\mathrm { C H _ { 2 } F { \cdot } T E M P O }$ adduct 49,<sup>[73]</sup> and a 12% of α-carbonyl– TEMPO adduct 50 (Scheme 3a). These findings suggest the generation of two distinct alkyl radicals in one system. Control experiments further clarified their origins: formation of the CH F radical required the presence of nickel, ligand, and zinc, while the α-carbonyl radical could be generated by zinc alone (Scheme 3a). These observations imply that a lowvalent nickel species is required to promote the generation of the $\mathrm { C H } _ { 2 } \mathrm { F }$ radical from $\mathrm { I C H } _ { 2 } \mathrm { F } .$ To probe whether α-fluoro carbenoid intermediates might be involved, we carried out the model reaction in the presence of 5 equivalents of $\mathrm { D } _ { 2 } \mathrm { O } ,$ which gave the desired product 4 in comparable yield and $\mathrm { e e , }$ with no detectable formation of any α–CHDF or –CD F products (see Supporting Information for details). This result suggests that a carbenoid mechanism is less likely involved.<sup>[74]</sup>
+
+To further examine the importance of fluorine in reactivity and selectivity, we substituted ICH F with other α-haloalkanes (Scheme 3b). Use of $\mathrm { I C H } _ { 2 } \mathrm { C l }$ or $\mathrm { I C H } _ { 2 } \mathrm { B r }$ under standard conditions resulted in complex mixtures with no observable dialkylation products (entries 1–3), likely due to the propensity of these substrates to generate free carbenes in the presence of zinc. While replacing ICH F with ICH led to no observable methylation product, and most of the starting material remained untouched (entry 4), underscoring the unique role of the fluorine atom in facilitating the requisite multiple radical sorting. Beyond the slightly higher reactivity of ICH<sub>2</sub>F relative to ICH<sub>3</sub>, we propose that polarity matching between radical intermediates is central to both the reactivity and selectivity observed in this transformation (Scheme 3b). Mechanistically, four radical species are implicated: the α- carbonyl radical $( \omega = 1 . 3 8 \ \mathrm { e V } )$ , which adds to the enyne to form an alkynyl radical $( \omega = 1 . 1 5 \mathrm { e V } )$ that rapidly equilibrates with its allenyl radical isomer $( \omega \approx 1 . 0 8 ~ \mathrm { e V } ) . \bar { \cdot } \bar { \cdot } \bar { \mathrm { 1 } } .$ In the final step, nickel-mediated radical–radical coupling proceeds more efficiently with the moderately nucleophilic $\mathrm { C H } _ { 2 } \mathrm { F }$ radical $\left( \omega = 1 . 0 8 \mathrm { ~ e V } \right)$ than with the electronically neutral methyl radical $\left( \omega \mathrm { ~ = ~ } 1 . 2 1 \mathrm { ~ \ e V } \right)$ , thereby enabling the exceptional chemo- and enantioselectivity of this radical sorting protocol. To probe the nature of stereoinduction, we synthesized the precatalyst $( \mathbf { L 7 } ) \mathrm { N i B r } _ { 2 }$ Ni-A and subjected it to the standard reaction conditions. The resulting transformation afforded product 4 in comparable yield and ee (Scheme 3c). A nonlinear effect study using ligand L7 revealed a linear correlation between the ee of the ligand and that of product 4 (see Figure S3), implying a mechanism in which a single chiral nickel center is involved in the enantio-determining step. Moreover, modulation of the radical concentration by addition of a catalytic amount of TEMPO had no influence on the ee of product 4 (Table S19), suggesting that radical capture by the nickel species is rapid and not enantio-determining. Together with our other results, these observations—namely, i) the insensitivity of product ee to the electronic nature of the enynes (Scheme 1) and ii) the strong dependence of ee on the electronic properties of the Py–Ox ligands (Tables 1 and S18)—support a mechanism in which the enantiodetermining event occurs during the reductive elimination rather than during radical capture.
+
+![](images/e7a8c0b3fee64dc62e6a80c6acc5024e7c98d2d91464223db27a1cbf03b535a0.jpg)  
+Scheme 1. Substrates scope of enynes. Reaction conditions: alkyl bromide (0.1 mmol), 1,3-enyne (1.5 equiv.), ICH F (2.0 equiv.), NiBr ·(PPh ) (10 mol%), L7 (16 mol%), Zn (3.0 equiv.), DMAc/toluene $( \mathsf { v } / \mathsf { v } = 3 ; \mathsf { l } 7 , 0 . 0 5 \mathsf { M } ) , - 7 0 \ \mathsf { ^ { \circ } C }$ , 24 h. Isolated yields. The ee values were determined using high-performance liquid chromatography on a chiral stationary phase.
+
+![](images/3a708eb9f162b8b64dba6476009b253c0658a6aedf522659a7535c1d44c1aa08.jpg)  
+Scheme 2. Substrates scope of alkyl bromides. Reaction conditions: alkyl bromide (0.1 mmol), 1,3-enyne (1.5 equiv.), ICH<sub>2</sub>F (2.0 equiv.), $\mathsf { N i B r } _ { 2 } { \cdot } ( \mathsf { P P h } _ { 3 } ) _ { 2 }$ (10 mol%), L7 (16 mol%), Zn (3.0 equiv.), DMAc/toluene $( \mathsf { v } / \mathsf { v } = 3 ; \mathsf { l } 7 , 0 . 0 5 \mathsf { M } ) , - \mathsf { l } 0 ^ { \circ } \mathsf { C } ,$ 24 h. Isolated yields. The ee values were determined using high-performance liquid chromatography on a chiral stationary phase. <sup>a)</sup>Performed at room temperature.
+
+Based on our mechanistic studies, we propose a plausible catalytic cycle for this asymmetric radical sorting reaction (Figure 2). Reduction of the Ni(II) precatalyst with zinc generates Ni(I) complex I, which then undergoes a singleelectron transfer or a halogen atom abstraction with ICH F, producing an α-fluoroalkyl radical II and a Ni(II) intermediate III. A radical recombination between II and III furnishes a (CH F)Ni(III) complex IV, which is then reduced by zinc to generate the key $( \mathrm { C H } _ { 2 } \mathrm { F } ) \mathrm { N i } ( \mathrm { I I } )$ species V. In parallel, the α-bromo carbonyl compound VI undergoes a singleelectron reduction—either by zinc or by a low-valent nickel species—to yield the electrophilic α-carbonyl radical VII. This radical then undergoes regioselective addition to enyne VIII, generating the alkynyl radical IX, which rapidly equilibrates a)Radical trap for two sp³ radicals
+
+![](images/18d6dfb54aec3a486ca3633c9d1b5939196b6b9e74a5ef3277662ce4d084ad79.jpg)
+
+<table><tr><td>10 mol% [Ni], 16 mol% L8, Zn</td><td>5%</td><td>12%</td></tr><tr><td>without [Ni]</td><td>n.d.</td><td>12%</td></tr><tr><td>without L8</td><td>n.d.</td><td>12%</td></tr><tr><td>without Zn</td><td>n.d.</td><td>7%</td></tr></table>
+
+c) precatalyst synthesis
+
+b)α-halogen effect  
+![](images/1c3f5133d8488c776023aa665f4a36f11af2fb6f60fb023aff7261391fbf0de3.jpg)
+
+![](images/729da3c1995dcff2023f647e87459a9c1980063a7f8bec083d9c5d5859ad0d33.jpg)
+
+Scheme 3. Mechanistic studies.  
+![](images/47d9e1c8e471310d8465eac9163b5ce875dc6759b5aa121a2ae7f7e1484c245a.jpg)
+
+![](images/23cbb922b0b408ec83e9d5457b9482b85270321f2d000bed261cf742cda5a769.jpg)  
+Figure 2. Proposed catalytic cycle.
+
+with its allenyl radical isomer X. The resulting allenyl radical is selectively captured by the (CH<sub>2</sub>F)Ni(II) species V to form Ni(III) species XI. Reductive elimination from XI then delivers the axially chiral allenylic fluoride product XII and regenerates the Ni(I) catalyst I, thereby closing the catalytic cycle. Based on our preliminary studies, we propose that the enantiodetermining step is the reductive elimination from the Ni(III) intermediate XI.
+
+In summary, we have developed an asymmetric multipleradical sorting strategy that enables the enantioselective synthesis of axially chiral allenylic fluorides from 1,3-enynes, ICH F, and alkyl bromides via nickel catalysis. This mild, reductive protocol operates without organometallic reagents and accommodates a wide range of enynes and aliphatic electrophiles, delivering $\alpha { \mathrm { - C H } } _ { 2 } { \mathrm { F - s u b s t i t u t e d } }$ chiral allenes with excellent chemo-, regio-, and enantioselectivity. Mechanistic studies reveal a pathway involving two $\mathrm { C } ( \mathrm { s p } ^ { 3 } )$ radicals and an allenyl radical, selectively orchestrated by a chiral nickel complex, and highlight the unique role of fluorine in modulating both reactivity and stereocontrol. This work establishes a versatile platform for constructing fluorinecontaining axial chirality with high efficiency and broad synthetic utility.
+
+## Acknowledgements
+
+The authors thank the Fundamental Research Funds for the Central Universities (2232024A-03; 2232024Y-01) and the National Science Fund for Excellent Young Scholars (22122101) for the financial support.
+
+## Conflict of Interests
+
+The authors declare no conflict of interest.
+
+## Data Availability Statement
+
+The data that support the findings of this study are available in the Supporting Information of this article.
+
+Keywords: Chiral allene • Fluoromethylation • Multicomponent reaction • Radical sorting • Reductive coupling
+
+[1] Anja Hoffmann-Röder, Norbert Krause, Angew. Chem. Int. Ed. 2004, 43, 1196–1216, https://doi.org/10.1002/anie.200300628.
+
+[2] S. Yu, S. Ma, Angew. Chem. Int. Ed. 2012, 51, 3074–3112, https:// doi.org/10.1002/anie.201101460.
+
+[3] Pablo Rivera-Fuentes, François Diederich, Angew. Chem. Int. Ed. 2012, 51, 2818–2828, https://doi.org/10.1002/anie.201108001.
+
+[4] S. Ma, Acc. Chem. Res. 2009, 42, 1679–1688, https://doi.org/10. 1021/ar900153r.
+
+[5] J. Ye, S. Ma, Acc. Chem. Res. 2014, 47, 989–1000, https://doi.org/ 10.1021/ar4002069.
+
+[6] L. Liu, R. M. Ward, J. M. Schomaker, Chem. Rev. 2019, 119, 12422–12490, https://doi.org/10.1021/acs.chemrev.9b00312.
+
+[7] R. Zimmer, C. U. Dinesh, E. Nandanan, F. A. Khan, Chem. Rev. 2000, 100, 3067–3126, https://doi.org/10.1021/cr9902796.
+
+[8] C.-C. Gu, X.-E. Long, X. Chen, J. Liu, C.-C. Li, Chin. J. Chem. 2025, 43, 1059–1077, https://doi.org/10.1002/cjoc.202401143.
+
+[9] X. Pu, X. Qi, J. M. Ready, J. Am. Chem. Soc. 2009, 131, 10364– 10365, https://doi.org/10.1021/ja9041127.
+
+[10] W.-D. Chu, Y. Zhang, J. Wang, Catal. Sci. Technol. 2017, 7, 4570– 4579, https://doi.org/10.1039/C7CY01319A.
+
+[11] F. Cai, X. Pu, X. Qi, V. Lynch, A. Radha, J. M. Ready, J. Am. Chem. Soc. 2011, 133, 18066–18069, https://doi.org/10.1021/ ja207748r.
+
+[12] Anja Hoffmann-RÃ¶Der, Norbert Krause, Angew. Chem. Int. Ed. 2002, 41, 2933, https://doi.org/10.1002/1521-3773(20020816) 41:16 2933::AID-ANIE2933 3.0.CO;2-6.
+
+[13] J. Ye, S. Ma, Org. Chem. Front. 2014, 1, 1210–1224, https://doi. org/10.1039/C4QO00208C.
+
+[14] R. K. Neff, D. E. Frantz, ACS Catal. 2014, 4, 519–528, https://doi. org/10.1021/cs401007m.
+
+[15] S. Shirakawa, S. Liu, S. Kaneko, Chem. Asian J. 2016, 11, 330– 341, https://doi.org/10.1002/asia.201500951.
+
+[16] X. Huang, S. Ma, Acc. Chem. Res. 2019, 52, 1301–1312, https:// doi.org/10.1021/acs.accounts.9b00023.
+
+[17] X. Wang, X. Chen, W. Lin, P. Li, W. Li, Adv. Synth. Catal. 2022, 364, 1212–1222, https://doi.org/10.1002/adsc.202200085.
+
+[18] W. Xiao, J. Wu, Org. Chem. Front. 2022, 9, 5053–5073, https:// doi.org/10.1039/D2QO00994C.
+
+[19] S. Li, K. Yuan, G. Zhang, R. Guo, Eur. J. Org. Chem. 2024, 27, e202301316, https://doi.org/10.1002/ejoc.202301316.
+
+[20] L. Gan, X. Wan, Y. Pang, Y. Zou, Y.-H. Deng, Z. Shao, Org. Chem. Front. 2025, 12, 1001–1064, https://doi.org/10.1039/ D4QO02004A.
+
+[21] J. S. Ng, T. Hayashi, Angew. Chem. Int. Ed. 2021, 60, 20771– 20775, https://doi.org/10.1002/anie.202109290.
+
+[22] T. J. O’Connor, B. K. Mai, J. Nafie, P. Liu, F. D. Toste, J. Am. Chem. Soc. 2021, 143, 13759–13768.
+
+[23] M. C. Pacheco, S. Purser, V. Gouverneur, Chem. Rev. 2008, 108, 1943–1981, https://doi.org/10.1021/cr068410e.
+
+[24] A. M. Sorlin, F. O. Usman, C. K. English, H. M. Nguyen, ACS Catal. 2020, 10, 11980–12010, https://doi.org/10.1021/acscatal. 0c03493.
+
+[25] S. Arimitsu, Chem. Rec. 2023, 23, e202300021, https://doi.org/10. 1002/tcr.202300021.
+
+[26] D. Tomon, S. Arimitsu, Eur. J. Org. Chem. 2025, 28, e202401162, https://doi.org/10.1002/ejoc.202401162.
+
+[27] S. Purser, P. R. Moore, S. Swallow, V. Gouverneur, Chem. Soc. Rev. 2008, 37, 320–330, https://doi.org/10.1039/B610213C.
+
+[28] N. A. Meanwell, J. Med. Chem. 2018, 61, 5822–5880, https://doi. org/10.1021/acs.jmedchem.7b01788.
+
+[29] Q. Zhang, M. T. Muhammad, M.-F. Chiou, Y. Jiao, H. Bao, Y. Li, Org. Lett. 2020, 22, 5261–5265, https://doi.org/10.1021/acs. orglett.0c01953.
+
+[30] Y. Yu, J. Zhang, Eur. J. Org. Chem. 2022, 2022, e202201017, https://doi.org/10.1002/ejoc.202201017.
+
+[31] Y. Li, H. Bao, Chem. Sci. 2022, 13, 8491-8506, https://doi.org/10. 1039/D2SC02573F.
+
+[32] T. Huang, X. He, Z. Xiao, J. Liu, F. Li, Eur. J. Org. Chem. 2025, 2025, 2500448.
+
+[33] L. Fu, S. Greßies, P. Chen, G. Liu, Chin. J. Chem. 2020, 38, 91– 100, https://doi.org/10.1002/cjoc.201900277.
+
+[34] Y. Zeng, M.-F. Chiou, X. Zhu, J. Cao, D. Lv, W. Jian, Y. Li, X. Zhang, H. Bao, J. Am. Chem. Soc. 2020, 142, 18014–18021, https://doi.org/10.1021/jacs.0c06177.
+
+[35] X.-Y. Dong, T.-Y. Zhan, S.-P. Jiang, X.-D. Liu, L. Ye, Z.-L. Li, Q.-S. Gu, X.-Y. Liu, Angew. Chem. Int. Ed. 2021, 60, 2160-2164, https://doi.org/10.1002/anie.202013022.
+
+[36] F.-H. Zhang, X. Guo, X. Zeng, Z. Wang, Nat. Commun. 2022, 13, 5036, https://doi.org/10.1038/s41467-022-32614-4.
+
+[37] H. Huang, H. Zhang, Q. Wang, Y. Sun, L. Su, W. Xu, Y. Ma, S. Kong, G. Zhang, R. Guo, ChemCatChem 2023, 15, e202300697, https://doi.org/10.1002/cctc.202300697.
+
+[38] J. Du, A. Liu, W. Zhang, S. Luo, H. Yao, Y. He, ACS Catal.. 2024, 14, 13940–13946, https://doi.org/10.1021/acscatal. 4c04371.
+
+[39] K. Peng, Y.-S. Cao, Q. Wang, Z. Xia, Y. Chen, Y. Lu, G.- J. Deng, ACS Catal.. 2024, 14, 14048–14057, https://doi.org/10. 1021/acscatal.4c04330.
+
+[40] D. Lv, X. Zhu, H. Bao, ACS Catal. 2025, 15, 7741–7748, https:// doi.org/10.1021/acscatal.5c01796.
+
+[41] C. Zhu, H. Chen, H. Yue, M. Rueping, Nat. Synth. 2023, 2, 1068– 1081, https://doi.org/10.1038/s44160-023-00349-9.
+
+[42] W. F. Goure, K. L. Leschinsky, S. J. Wratten, J. P. Chupp, J. Agric. Food Chem. 1991, 39, 981–986, https://doi.org/10.1021 jf00005a036.
+
+[43] G. K. S. Prakash, J. Hu, Acc. Chem. Res. 2007, 40, 921–930, https://doi.org/10.1021/ar700149s.
+
+[44] J. Hu, W. Zhang, F. Wang, Chem. Commun. 2009, 7465, https:// doi.org/10.1039/b916463d.
+
+[45] S. Barata-Vallejo, M. V. Cooke, A. Postigo, ACS Catal.. 2018, 8, 7287–7307, https://doi.org/10.1021/acscatal.8b02066.
+
+[46] T. Koike, M. Akita, Chem 2018, 4, 409–437, https://doi.org/10. 1016/j.chempr.2017.11.004.
+
+[47] G. Parisi, M. Colella, S. Monticelli, G. Romanazzi, W. Holzer, T. Langer, L. Degennaro, V. Pace, R. Luisi, J. Am. Chem. Soc. 2017, 139, 13648–13651, https://doi.org/10.1021/jacs. 7b07891.
+
+[48] D. J. Burton, L. Lu, in Organofluorine Chemistry: Techniques and Synthons (Ed.: R. D. Chambers), Springer Berlin Heidelberg, Berlin, Heidelberg, 1997, pp. 45–89.
+
+[49] M. Reichel, K. Karaghiosoff, Angew. Chem. Int. Ed. 2020, 59, 12268–12281, https://doi.org/10.1002/anie.201913175.
+
+[50] J.-A. Ma, D. Cahard, Chem. Rev. 2008, 108, PR1-PR43, https:// doi.org/10.1021/cr800221v.
+
+[51] R. Britton, V. Gouverneur, J.-H. Lin, M. Meanwell, C. Ni, G. Pupo, J.-C. Xiao, J. Hu, Nat. Rev. Methods Primers 2021, 1, 47, https://doi.org/10.1038/s43586-021-00042-1.
+
+[52] B.-J. Li, Y.-L. Ruan, L. Zhu, J. Zhou, J.-S. Yu, Chem. Commun. 2024, 60, 12302–12314, https://doi.org/10.1039/D4CC03788J.
+
+[53] H.-Y. Tu, F. Wang, L. Huo, Y. Li, S. Zhu, X. Zhao, H. Li, F.-L. Qing, L. Chu, J. Am. Chem. Soc. 2020, 142, 9604–9611, https:/ doi.org/10.1021/jacs.0c03708.
+
+[54] L. Guo, M. Yuan, Y. Zhang, F. Wang, S. Zhu, O. Gutierrez, L. Chu, J. Am. Chem. Soc. 2020, 142, 20390–20399, https://doi.org/ 10.1021/jacs.0c08823.
+
+[55] S. Zhu, X. Zhao, H. Li, L. Chu, Chem. Soc. Rev. 2021, 50, 10836– 10856, https://doi.org/10.1039/D1CS00399B.
+
+[56] F. Wang, S. Pan, S. Zhu, L. Chu, ACS Catal.. 2022, 12, 9779–9789, https://doi.org/10.1021/acscatal.2c02163.
+
+[57] X. Li, M. Yuan, F. Chen, Z. Huang, F.-L. Qing, O. Gutierrez, L. Chu, Chem 2023, 9, 154–169, https://doi.org/10.1016/j.chempr. 2022.09.020.
+
+[58] F. Chen, Q. Zhang, Y. Li, Z.-X. Yu, L. Chu, J. Am. Chem. Soc. 2024, 146, 11418–11431.
+
+[59] Y. Zhao, L. Huo, X. Zhao, L. Chu, ACS Catal.. 2025, 15, 63–71, https://doi.org/10.1021/acscatal.4c06100.
+
+[60] L. Li, Z. Hu, S. Ren, B. A. Arndtsen, L. Chu, J. Am. Chem. Soc. 2025, 147, 28206–28214, https://doi.org/10.1021/jacs.5c08527.
+
+[61] J. Z. Wang, W. L. Lyon, D. W. C. MacMillan, Nature 2024, 628, 104–109, https://doi.org/10.1038/s41586-024-07165-x.
+
+[62] J. Z. Wang, E. Mao, J. A. Nguyen, W. L. Lyon, D. W. C. MacMillan, J. Am. Chem. Soc. 2024, 146, 15693–15700, https:/ doi.org/10.1021/jacs.4c05744.
+
+[63] W. L. Lyon, J. Z. Wang, J. Alcázar, D. W. C. MacMillan, J. Am. Chem. Soc. 2025, 147, 2296–2302, https://doi.org/10.1021/ jacs.4c14965.
+
+[64] I. M. McWhinnie, R. T. Martin, J. Xie, R. Chen, C. N. Prieto Kullmer, D. W. C. MacMillan, J. Am. Chem. Soc. 2025, 147, 23351–23366, https://doi.org/10.1021/jacs.5c07367.
+
+[65] Z. Xing, F. Liu, J. Feng, L. Yu, Z. Wu, B. Zhao, B. Chen, H. Ping, Y. Xu, A. Liu, Y. Zhao, C. Wang, B. Wang, X. Huang, Nature 2025, 637, 1118–1123, https://doi.org/10.1038/s41586-024-08399- 5.
+
+[66] M. Colella, P. Musci, M. Andresini, M. Spennacchio, L. Degennaro, R. Luisi, Org. Biomol. Chem. 2022, 20, 4669–4680, https://doi.org/10.1039/D2OB00670G.
+
+[67] R. Senatore, M. Malik, V. Pace, Adv. Synth. Catal. 2022, 364, 2890–2910, https://doi.org/10.1002/adsc.202200493.
+
+[68] M. Colella, A. Tota, A. Großjohann, C. Carlucci, A. Aramini, N. S. Sheikh, L. Degennaro, R. Luisi, Chem. Commun. 2019, 55, 8430–8433, https://doi.org/10.1039/C9CC03394G.
+
+[69] P. J. Deneny, R. Kumar, M. J. Gaunt, Chem. Sci. 2021, 12, 12812– 12818, https://doi.org/10.1039/D1SC04554G.
+
+[70] E. Godineau, Y. Landais, Chem.-Eur. J. 2009, 15, 3044–3055, https://doi.org/10.1002/chem.200802415.
+
+[71] M. P. Sibi, S. Manyem, J. Zimmerman, Chem. Rev. 2003, 103, 3263–3296, https://doi.org/10.1021/cr020044l.
+
+[72] Deposition number CCDC 2401168 (45) contains the supplementary crystallographic data for this paper. These data are provided free of charge by the joint Cambridge Crystallographic Data Centre and Fachinformationszentrum Karlsruhe Access Structures service.
+
+[73] N. Ramkumar, L. Baumane, D. Zacs, J. Veliks, Angew. Chem. Int. Ed. 2023, 62, e202219027, https://doi.org/10.1002 anie.202219027.
+
+[74] X. Shen, M. Zhou, C. Ni, W. Zhang, J. Hu, Chem. Sci. 2014, 5, 117–122, https://doi.org/10.1039/C3SC51831K.
+
+[75] J. J. A. Garwood, A. D. Chen, D. A. Nagib, J. Am. Chem. Soc. 2024, 146, 28034–28059.

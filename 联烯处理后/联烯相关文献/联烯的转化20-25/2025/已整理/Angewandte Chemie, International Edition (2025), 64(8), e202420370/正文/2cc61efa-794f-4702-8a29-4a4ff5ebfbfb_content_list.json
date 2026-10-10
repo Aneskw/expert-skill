@@ -1,0 +1,1287 @@
+[
+  {
+    "type": "image",
+    "img_path": "images/63c559836673292fcf3cb29bfa6e5ae79b74ac4b0d3ea2883df49fb8a4887f92.jpg",
+    "image_caption": [],
+    "image_footnote": [],
+    "bbox": [
+      43,
+      67,
+      78,
+      92
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Hydroboration Hot Paper",
+    "bbox": [
+      89,
+      72,
+      324,
+      91
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "How to cite: Angew. Chem. Int. Ed. 2025, 64, e202420370   \ndoi.org/10.1002/anie.202420370",
+    "bbox": [
+      542,
+      57,
+      915,
+      86
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Ruthenium-Catalyzed α-Regioselective Hydroboration of Allenes",
+    "text_level": 1,
+    "bbox": [
+      84,
+      103,
+      862,
+      126
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Yun-Xuan Tan<sup>+</sup>, Shijia Li<sup>+</sup>, Liang Chen, Jing Huang, Chaoshen Zhang, Lijuan Song,\\* Xinhao Zhang, Yun-Dong Wu,\\* and Jianwei Sun\\*",
+    "bbox": [
+      82,
+      134,
+      847,
+      172
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Abstract: Hydroboration of allenes is powerful and atom-economic approach to the synthesis of organoboranes, such as the highly versatile allylboranes. However, regarding regiocontrol, existing methods uniformly deliver the boron functionality to the less hindered β- or γ-position, but not the α-position. The latter is particularly challenging for allenes with substantial steric difference between the two terminals and lacking electronic bias (e.g., 1,1-disubstituted allenes). Herein we report the first highly efficient rutheniumcatalyzed hydroboration of allenes featuring exclusive α- regioselectivity, providing access to sterically hindered allyl boranes that are limitedly accessible by conventional methods. DFT studies suggested that the unusual α-regioselectivity is attributed to the disfavored reductive elimination at the γ-position due to the high energy cost required to overcome the agostic interaction and rotation of the key π-allyl intermediates. This protocol is also applicable to the previously unprecedented α- hydroalkynylation and underdeveloped α-hydrosilylation of allenes, thus complementing known catalytic systems and providing convenient access to highly congested yet densely-functionalized allyl silanes and skipped enynes bearing a fully-substituted allylic carbon center. It is expected that this ruthenium-catalyzed system can serve as a new platform for the development of other hydrofunctionalization processes with unorthodox selectivity.",
+    "bbox": [
+      94,
+      211,
+      478,
+      598
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Introduction",
+    "text_level": 2,
+    "bbox": [
+      507,
+      202,
+      610,
+      217
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Organoboranes are important building blocks in organic synthesis and materials science owing to their decent stability, ease of handling, low toxicity, and versatile reactivity with broad functional group compatibility.<sup>[1]</sup> Among all the approaches, the direct addition of hydroboranes to unsaturated carbon-carbon bonds represents one of the most efficient and atom-economic methods to access organoboranes.<sup>[1–3]</sup> Indeed, in the past few decades, various catalytic methods have been developed for the selective hydroboration of alkenes and alkynes, providing efficient access to diverse useful organoboranes, such as vinyl and alkyl boranes.<sup>[2,3]</sup> In contrast, methods for the hydroboration of allenes, another family of versatile building blocks,<sup>[4]</sup> have been much less developed, probably due to the substantial challenges in controlling the regioselectivity and stereoselectivity.<sup>[5–11]</sup> Indeed, up to six stereo- and regioisomers can be formed even for the hydroboration of a simple mono-substituted allene. For example, uncatalyzed allene hydroborations typically produce a mixture of these isomers, many of which also require the use of reactive but unstable dialkylborane.<sup>[5]</sup>",
+    "bbox": [
+      504,
+      230,
+      917,
+      518
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Nevertheless, to overcome these challenges, various efficient and selective catalytic approaches have been developed in the past few years, permitting the use of more stable and versatile diakoxylboranes (e.g., HBpin).<sup>[12]</sup> While the major success was still formal hydroboration by employing diboron reagents (e.g., B<sub>2</sub>pin<sub>2</sub>) through Cu\u0000 B addition followed by protonation,<sup>[6]</sup> truly atom-economic catalytic approaches directly using hydroboranes have become sporadically available.<sup>[7–10]</sup> For example, $\\mathrm { P t } , ^ { [ 7 ] } \\mathrm { C u } , ^ { [ 8 ] } \\mathrm { C o } , ^ { [ 9 ] }$ and Ni<sup>[10]</sup> complexes have been demonstrated as capable catalysts in a number of these reactions, permitting regio- and stereoselective access to vinyl and allyl boranes (Scheme 1a). However, it is worth noting that, in all these examples, the boron atom was uniformly delivered to the less hindered β- or γ-position, but never α-position. Obviously, α-boration is strongly disfavored by steric effect, particularly for 1,1- disubstituted allenes that have substantial steric difference between the two terminals. Notwithstanding these challenges, herein we report the first general catalytic system for the exclusive α-boration of 1,1-disubstituted allenes, thus providing efficient access to sterically hindered allyl boranes.",
+    "bbox": [
+      504,
+      518,
+      917,
+      819
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "In the past few decades, ruthenium complexes have been extensively demonstrated as powerful catalysts for selective hydrofunctionalization of unsaturated bonds, including hydroboration.<sup>[2a,13–15]</sup> Notably, on many occasions, including those developed by our laboratory,<sup>[15]</sup> unusual regio-/stereoselectivity could often be observed with ruthenium catalysts, as compared to catalytic systems based on other transition metals. In this context, we were curious of whether ruthenium can provide complementary selectivity in allene hydroboration. Indeed, herein we not only achieved the first efficient example of ruthenium-catalyzed allene hydroboration, but also realized the unprecedented α-selectivity. It is also noteworthy that this unusual selectivity is not only limited to α-boration, but also applicable to the unprecedented α-hydroalkynylation and the rarely explored α- hydrosilylation of allenes, thus complementary to the conventional synthetic methods (Scheme 1b).",
+    "bbox": [
+      504,
+      819,
+      917,
+      875
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "© 2024 Wiley-VCH GmbH",
+    "bbox": [
+      776,
+      885,
+      914,
+      898
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "GDCh",
+    "bbox": [
+      84,
+      17,
+      156,
+      47
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "Check for updates",
+    "bbox": [
+      870,
+      0,
+      1000,
+      15
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "Research Article",
+    "bbox": [
+      406,
+      24,
+      591,
+      43
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "An<sub>g</sub>ewan<sup>d</sup>te International Edition Ch<sub>em</sub>i<sub>e</sub> www.angewandte.org",
+    "bbox": [
+      731,
+      17,
+      915,
+      53
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "[\\*] Dr. Y.-X. Tan,<sup>+</sup> Dr. S. Li,<sup>+</sup> Dr. L. Chen, J. Huang, Dr. C. Zhang, Prof. Dr. J. Sun Department of Chemistry and the Hong Kong Branch of Chinese National Engineering Research Centre for Tissue Restoration & Reconstruction, The Hong Kong University of Science and Technology, Clear Water Bay, Kowloon 999077, Hong Kong SAR (China) E-mail: sunjw@ust.hk",
+    "bbox": [
+      82,
+      632,
+      487,
+      718
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "Dr. S. Li,<sup>+</sup> J. Huang, Prof. Dr. X. Zhang, Prof. Dr. Y.-D. Wu Shenzhen Bay Laboratory, Shenzhen 518055 (China) E-mail: wuyd@pkusz.edu.cn",
+    "bbox": [
+      102,
+      719,
+      438,
+      757
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "Prof. Dr. L. Song School of Science, Harbin Institute of Technology (Shenzhen), Shenzhen",
+    "bbox": [
+      102,
+      758,
+      458,
+      795
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "E-mail: songlijuan@hit.edu.cn",
+    "bbox": [
+      104,
+      794,
+      284,
+      809
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "Prof. Dr. X. Zhang, Prof. Dr. Y.-D. Wu Lab of Computational Chemistry and Drug Design, State Key Laboratory of Chemical Oncogenomics, Peking University Shenzhen Graduate School, Shenzhen 518055 (China)",
+    "bbox": [
+      100,
+      809,
+      475,
+      859
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "[<sup>+</sup>] Y.-X. T. and S. L. contributed equally to this work.",
+    "bbox": [
+      82,
+      859,
+      393,
+      876
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "Angew. Chem. Int. Ed. 2025, 64, e202420370 (1 of 9)",
+    "bbox": [
+      82,
+      884,
+      344,
+      898
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "image",
+    "img_path": "images/31cf3dd1abff33695c1703e338000505df44ce99392be663e8f639e69f230d4b.jpg",
+    "image_caption": [
+      "Scheme 1. Transition-metal-catalyzed regioselective hydroboration of allenes."
+    ],
+    "image_footnote": [],
+    "bbox": [
+      84,
+      67,
+      490,
+      309
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      80,
+      367,
+      490,
+      548
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "Results and Discussion",
+    "text_level": 2,
+    "bbox": [
+      82,
+      571,
+      262,
+      587
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "We began our study with 1,1-disubstituted allene 1 a as the model substrate and HBpin as the borane partner (Table 1). Initially, the cationic complex $[ \\mathrm { C p R u ( C H _ { 3 } C N ) _ { 3 } } ] \\mathrm { P F _ { 6 } }$ was tested as catalyst. To our delight, the desired hydroboration proceeded smoothly in DCE at room temperature. Notably, the desired α-boration product 2a was formed as a single isomer, albeit in moderate yield (Table 1, entry 1). This observation corroborated our initial hypothesis on the unusual catalytic performance of the ruthenium-based system. Next, aiming to further improve the efficiency, we examined a variety of other ruthenium catalysts (entries 2– 7). $[ \\mathrm { C p } ^ { \\mathrm { * } } \\mathrm { R u } ( \\mathrm { C H } _ { 3 } \\mathrm { C N } ) _ { 3 } ] \\mathrm { P F } _ { 6 }$ provided a mixture of products, though with 2a as the major product (entry 2). Ruthenium complexes with a phosphine ligand or without the Cp ligand, such as CpRu(PPh ) Cl, Cp\\*Ru(PPh ) Cl or [Ru(pcymene)Cl ] , showed low catalytic activity and did not lead to the desired product (entry 3 \u0000 5). Fortunately, $[ \\mathrm { C p } ^ { \\ast } \\mathrm { R u } -$ (cod)Cl] and [Cp\\*RuCl] significantly improved the efficiency, with the latter being slightly better (85 % yield, entry 7). Next, a range of solvents were screened (entries 8–",
+    "bbox": [
+      80,
+      600,
+      492,
+      875
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/e1b14a7ee258aa911117a67f51a9b4fa1f60c93bba86265a23f61036e61f29de.jpg",
+    "table_caption": [
+      "Table 1: Reaction development.<sup>[a]</sup>"
+    ],
+    "table_footnote": [
+      "[a] Reaction scale: 1 a (0.05 mmol), HBpin (0.075 mmol), catalyst (10 mol % based on metal), solvent (0.5 mL). [b] Determined by <sup>1</sup>H NMR analysis of unpurified mixtures with CH Br as an internal standard. [c] HBpin (0.06 mmol)."
+    ],
+    "table_body": "<table><tr><td>Entry</td><td>Catalyst</td><td><img src=\"images/6d8c6f3f3514b5b41ef0f3a8b15ab925d1c0e59dbdf1c376e9a81efab4a7f6dc.jpg\"/> Solvent</td><td></td><td>Yield (%)[b]</td></tr><tr><td>1</td><td> $[ \\mathsf { C p R u } ( \\mathsf { C H } _ { 3 } \\mathsf { C N } ) _ { 3 } ] \\mathsf { P F } _ { 6 }$ </td><td>DCE</td><td>Conv. (%)[b] 57</td><td>40</td></tr><tr><td>2</td><td> $[ \\mathsf { C p } ^ { \\ast } \\mathsf { R u } ( \\mathsf { C H } _ { 3 } \\mathsf { C N } ) _ { 3 } ] \\mathsf { P F } _ { 6 }$ </td><td>DCE</td><td>100</td><td>51</td></tr><tr><td>3</td><td> $\\mathsf { C p } { \\mathrm { * R u } } ( \\mathsf { P P h } _ { 3 } ) _ { 2 } \\mathsf { C l }$ </td><td>DCE</td><td>12</td><td>0</td></tr><tr><td>4</td><td> $\\mathsf { C p R u } ( \\mathsf { P P h } _ { 3 } ) _ { 2 } \\mathsf { C l }$ </td><td>DCE</td><td>&lt;5</td><td>0</td></tr><tr><td>5</td><td> $[ \\mathsf { R u C l } _ { 2 } ( p \\mathsf { - c y m e n e } ) ] _ { 2 }$ </td><td>DCE DCE</td><td>25</td><td>0</td></tr><tr><td>6</td><td> ${ \\mathsf { C p } } { \\mathrm { * R u } } ( { \\mathsf { c o d } } ) { \\mathsf { C l } }$ </td><td>DCE</td><td>100</td><td>82</td></tr><tr><td>7</td><td> $[ C p ^ { * } \\mathsf { R u C l } ] _ { 4 }$ </td><td></td><td>100</td><td>85</td></tr><tr><td>8</td><td> $[ C p ^ { * } \\mathsf { R u C l } _ { 2 } ] _ { n }$ </td><td>toluene</td><td>53</td><td>50</td></tr><tr><td>9</td><td> $[ C p ^ { * } \\mathsf { R u C l } ] _ { 4 }$ </td><td> $\\mathsf { C H } _ { 3 } \\mathsf { C N }$ </td><td>79</td><td>34</td></tr><tr><td>10[c]</td><td> $[ C p ^ { * } \\mathsf { R u C l } ] _ { 4 }$ </td><td>dioxane</td><td>100</td><td>98</td></tr></table>",
+    "bbox": [
+      505,
+      84,
+      912,
+      280
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "10 and more details in the SI). Toluene and $\\mathrm { C H } _ { 3 } \\mathrm { C N }$ retarded the reaction, probably due to their competing coordination with the ruthenium center (Table 1, entries 8–9).<sup>[13a]</sup> To our delight, nearly quantitative yield could be obtained using dioxane as solvent, even with a reduced loading of HBpin (entry 10). It is worth noting that, 2a was formed as a single isomer of mono-hydroboration. No other regio- isomers and/or dimerization/hydroboration products<sup>[11,16]</sup> were observed in this transformation, illustrating extraordinary regioselectivity and chemoselectivity.<sup>[6–10]</sup>",
+    "bbox": [
+      504,
+      353,
+      915,
+      491
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "Having established the optimal conditions, we next investigated the reaction scope (Scheme 2a). With different bulky silyl substituents on the α-position, the reactions all proceeded smoothly to give the corresponding α-boration products with high efficiency and excellent regioselectivities (2 a–2 d). Moreover, a range of 1,1-disubstituted allenes with various alkyl and aryl substituents were examined, the corresponding allylic boronate products could be successfully obtained in moderate to high yields (2 e–2 r), even with the sterically demanding secondary alkyl groups at the α- position (2 e–2 g). Interestingly, no ring-opening product was detected for the cyclopropyl-substituted case (1 e), suggesting that this might not be a radical process. Although aryl rings are good π-ligands for ruthenium catalysts and known to suppress their catalytic reactivity,<sup>[13]</sup> the phenyl-substituted allene still reacted favorably to afford the desired product (2 h) in moderate yield, albeit with a slightly increased catalyst loading and higher temperature. A diverse set of functional groups, including halide, imide, silyl ether, and ester, were well tolerated under the mild conditions. It is worth noting that the enoate (2 t) and tosylate (2 u) functionalities are typically susceptible to reduction by hydroborane, but they remained intact under the present conditions. Moreover, the incorporation of a heterocycle, such as furan and thiophene, as well as a naphthalene ring had no influence on the high efficiency (2 p–2 r). Of special note, the catalyst loading could be decreased to 0.5 mol% for 2 a, 2 f, and 2 i. It is worth noting that such sterically hindered allylboranes bearing an α-silyl group proved useful in organic synthesis, but they remain limitedly accessible today.<sup>[17]</sup> Moreover, this protocol was not limited to silylsubstituted allenes, 1,1-dialkyl- and 1-alkyl-1-aryl-substituted allenes were also suitable substrates for α-boration (2 s–2v). These results suggested that the silyl group was not essential for controlling the excellent regioselectivity.<sup>[6f]</sup> However, these non-silyl substrates required the use of excess HBpin to ensure high yield, which was presumably essential to outcompete substrate decomposition. In addition, monoand trisubstituted allenes were also tested. Although no desired products were observed for monosubstituted allenes presumably due to facile substrate dimerization/oligomerization, this protocol proved suitable for trisubstituted allenes. For example, the reactions of 1w and 1x afforded the corresponding sterically hindered allylboranes 2w and 2x, respectively, with high efficiency and exclusive α-regioselectivity. More importantly, these two examples also required stereocontrol over the double bond configuration. Nevertheless, the two products were obtained with exclusive E configuration.",
+    "bbox": [
+      504,
+      489,
+      917,
+      876
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "aside_text",
+    "text": "",
+    "bbox": [
+      966,
+      16,
+      983,
+      983
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "GDCh",
+    "bbox": [
+      84,
+      17,
+      156,
+      46
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "Research Article",
+    "bbox": [
+      408,
+      24,
+      591,
+      43
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "An<sub>g</sub>ewan<sup>d</sup>te International Edit Ch<sub>em</sub>i<sub>e</sub>",
+    "bbox": [
+      783,
+      17,
+      914,
+      48
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "Angew. Chem. Int. Ed. 2025, 64, e202420370 (2 of 9)",
+    "bbox": [
+      82,
+      885,
+      342,
+      898
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "© 2024 Wiley-VCH GmbH",
+    "bbox": [
+      776,
+      884,
+      914,
+      898
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "image",
+    "img_path": "images/b48be9878596b27224258df939ea8cb5c5e77f9e1ea1d976e6095be2f88ce120.jpg",
+    "image_caption": [
+      "Scheme 2. Scope of Ru-catalyzed hydroboration of allenes, synthetic applications, and mechanistic experiments. [a] Reaction scale: 1 (0.3 mmol), HBpin (0.36–0.45 mmol), [Cp\\*RuCl] (2.5 mol%), 1,4-dioxane or DCE (3.0 mL), isolated yield. [b] Run with 0.5 mol % of [Cp\\*RuCl] . [c] Run with $[ \\mathsf { C p R u } ( \\mathsf { C H } _ { 3 } \\mathsf { C N } ) _ { 3 } ] \\mathsf { P F } _ { 6 }$ (20 mol %) in place of $[ C p ^ { * } \\mathsf { R u C l } ] _ { 4 }$ at 100 °C. [d] 60 °C. [e] HBpin (0.9 mmol)."
+    ],
+    "image_footnote": [],
+    "bbox": [
+      114,
+      71,
+      882,
+      809
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "aside_text",
+    "text": "",
+    "bbox": [
+      966,
+      16,
+      984,
+      982
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "GDCh",
+    "bbox": [
+      84,
+      17,
+      156,
+      46
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "Research Article",
+    "bbox": [
+      408,
+      24,
+      591,
+      43
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "An<sub>g</sub>ewan<sup>d</sup>te International Edit Ch<sub>em</sub>i<sub>e</sub>",
+    "bbox": [
+      783,
+      17,
+      914,
+      48
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "Angew. Chem. Int. Ed. 2025, 64, e202420370 (3 of 9)",
+    "bbox": [
+      84,
+      885,
+      342,
+      898
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "© 2024 Wiley-VCH GmbH",
+    "bbox": [
+      776,
+      885,
+      914,
+      898
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      80,
+      66,
+      492,
+      354
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "A gram-scale experiment of 1 a was carried out at 40 °C (Scheme 2b). No obvious loss of chemical efficiency was observed even when the catalyst loading was reduced to 0.125 mol%. To further illustrate the synthetic application of this process, some transformations of the α-silyl allyl boronate product 2a were conducted. The selective oxidation of 2 a with aqueous H O and NaOH led to the efficient formation of α-silyl allyl alcohol 2aa. Moreover, chemo- and stereoselective allylboration of p-bromobenzaldehyde with",
+    "bbox": [
+      80,
+      354,
+      492,
+      479
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "2a could be easily achieved to furnish the homoallylic alcohol 2 ab as a single Z-isomer.<sup>[18]</sup> Finally, treatment of 2ab with tetrabutylammonium fluoride (TBAF) afforded homoallylic alcohol 2 ac as a single E-isomer in 74% yield.",
+    "bbox": [
+      504,
+      66,
+      915,
+      121
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "To gain insight into the reaction mechanism, deuterium labeling and kinetic isotope effect (KIE) experiments were carried out (Scheme 2c). The reaction of 1a and DBpin resulted in the formation of deuterated product $\\mathbf { 2 a } { \\mathbf { - } } d _ { 1 }$ with excellent D-incorporation at the middle carbon of the allene unit, indicating that the hydrogen atom comes directly from the hydroborane without scrambling. Additionally, the competitive KIE experiment between HBpin and DBpin gave a $\\bf { k } _ { \\mathrm { { H } } } / \\bf { k } _ { \\mathrm { { D } } }$ value of 1.0, consistent with the DFT studies (see below) which suggested that the H\u0000 B bond cleavage was not involved in the rate-determining step.",
+    "bbox": [
+      504,
+      121,
+      915,
+      272
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "DFT calculations. To help understand the reaction mechanism of this Ru-catalyzed hydroboration process, density functional theory (DFT) calculations with M06/6- 31G(d) +SDD(Ru)/SMD(1,4-dioxane) level of theory were performed. All energies discussed are relative Gibbs free energies and electronic energies (in parentheses) at room temperature in kcal/mol. Allene 1a, HBpin, and [Cp\\*RuCl] were chosen as the energy reference (see more details in the SI).",
+    "bbox": [
+      504,
+      271,
+      915,
+      394
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "As illustrated in Figure 1, the catalyst [Cp\\*RuCl] first dissociates to form the monomeric form, Cp\\*RuCl, at the cost of 9.4 kcal/mol in free energy. Subsequent coordination of this 14-electron complex with two molecules of the allene substrate is thermodynamically favorable.<sup>[19]</sup> Instead of allene dimerization which requires a higher energy barrier, ligand exchange proceeds next to form the key intermediate B-int2a (For more details, see Figure S4 in the SI). Next, the oxidative migratory insertion is expected to take place. However, there are multiple possibilities regarding which atom (H or boron) to be delivered to which position $( \\mathrm { C } _ { \\mathrm { a } } , \\mathrm { C } _ { \\beta }$ or $\\mathbf { C } _ { \\boldsymbol { \\gamma } } )$ as well as different conformations. All the possible transition states were studied and compared (see Scheme S1 for details), among which B-TS1a, with the hydrogen atom being delivered to $\\mathrm { { C _ { \\mathrm { { \\beta } } } } , }$ represents the most favorable transition state (with an energy of 6.8 kcal/mol). The resulting intermediate B-int3a gains additional stabilization by an agostic interaction with the vinylic hydrogen (Figure 1, Ru $\\therefore \\mathrm { H } = 1 . 8 8 \\mathrm { ~ \\AA ~ }$ . However, this agostic interaction blocks the way to adopt a viable transition state for direct reductive elimination, which would otherwise be expected as a facile step leading to direct γ-boration. To proceed, it is necessary to release the agostic attraction by rotation along the $\\mathrm { C } _ { \\gamma } { - } \\mathrm { C } _ { \\beta }$ bond. Depending on the rotation directions, two π-allyl intermediates B-int4a and B’-int4a can be formed via B-TS2a and B’-TS2a, respectively. Since these two π-allyl complexes can be regarded as pseudo diastereomers to each other, they have different stabilities, but eventually lead to the same type of product by facile reductive elimination at the $\\mathrm { C } _ { \\mathrm { a } }$ position with a strong exothermic driving force. The final allyl borane product is then generated upon decomplexation. Notably, the oxygen atom in the Bpin unit in Bint5a is coordinated to the ruthenium center (Figure S3, O<sup>…</sup> $\\mathrm { { R u } } { = } 2 . 3 4 \\ \\mathrm { { \\AA } }$ , and thus contributes to its extraordinary stability by achieving an 18-electron configuration. Since the reductive elimination is a fast step, the rate-determining step is the rotation to overcome the favorable agostic interaction. The overall barrier is 14.7 kcal/mol, in agreement with the mild reaction conditions.",
+    "bbox": [
+      504,
+      394,
+      915,
+      479
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "image",
+    "img_path": "images/7bcf20669393cb276c265c952fab2051ff4e8dd0fd51803bd491696e1d7b4f84.jpg",
+    "image_caption": [
+      "Figure 1. Energies profile for hydroboration of allenes at the M06/6-31G(d) + SDD(Ru)/SMD(1,4-dioxane) level."
+    ],
+    "image_footnote": [
+      "Angew. Chem. Int. Ed. 2025, 64, e202420370 (4 of 9)"
+    ],
+    "bbox": [
+      89,
+      511,
+      910,
+      848
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "GDCh",
+    "bbox": [
+      84,
+      17,
+      156,
+      46
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "Research Article",
+    "bbox": [
+      408,
+      24,
+      591,
+      43
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "An<sub>g</sub>ewan<sup>d</sup>te International Edition Ch<sub>em</sub>i<sub>e</sub>",
+    "bbox": [
+      783,
+      17,
+      914,
+      46
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "aside_text",
+    "text": "",
+    "bbox": [
+      966,
+      17,
+      983,
+      982
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "© 2024 Wiley-VCH GmbH",
+    "bbox": [
+      776,
+      884,
+      914,
+      898
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      80,
+      66,
+      492,
+      518
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "While the above pathway is consistent with the observed reactivity, a key question remains unanswered, i.e., why does the π-allyl complex B-int4a undergo reductive elimination counter-intuitively at the more hindered α-position, but not the open γ-position?",
+    "bbox": [
+      80,
+      517,
+      492,
+      588
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "Based on natural population analysis, the electron density is almost equally distributed at the $\\mathrm { C } _ { \\mathrm { a } }$ and $\\mathbf { C } _ { \\boldsymbol { \\gamma } }$ positions in both 1 a and B-int4a (Figure S1), which does not explain the dramatic preference for α-selectivity from the electronic perspective. Next, we further analyzed the two reductive elimination pathways from B-int4a leading to α- and γ-selectivities (Figure 2). In fact, the Bpin unit in Bint4a is already well-positioned toward the α-position, with some favorable weak hydrogen bond interactions between the oxygen (in Bpin) and the vinylic hydrogen. Thus, direct reductive elimination easily takes place to form the $\\mathrm { C } _ { \\bf q } { \\mathrm { - } } \\mathrm { B }$ bond. In contrast, in order for the reductive elimination to take place at the γ position, an additional rotation of the Cp\\*RuCl(Bpin) unit (relative to the π-allyl ligand) is required so that the Bpin unit can be positioned toward the γ position. Indeed, once this rotation is achieved, as shown in B-int3r, the following reductive elimination to form the $\\mathrm { C } _ { \\eta } { \\ - } - \\mathrm { B }$ bond is almost barrierless and thermodynamically favorable, consistent with the common intuition that the γ- borylation should be facile from the steric effect standpoint. However, the key issue lies in the surprisingly high rotation barrier, with a transition state energy at high as 23.5 kcal/ mol (B-TS2r). A close examination of B-TS2r indicated that there is substantial steric clash between the bulky $\\mathrm { C p ^ { * } }$ ligand and the large substituents at the $\\mathbf { C } _ { \\alpha }$ position (Figure 2 and path A in Scheme S3).",
+    "bbox": [
+      504,
+      66,
+      917,
+      423
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "While the above results could explain the exclusive α- regioselectivity, we also explored other potential pathways that can possibly lead to B-int3r. For example, dissociation of the chloride ligand from B-int4a followed by re-association from the other side may provide an alternative favorable path to B-int3r, but this effort proved fruitless. Moreover, since this rotation barrier (B-TS2r) is much higher than those prior to the formation of B-int4a, we also considered other possibilities of initial placing the Bpin unit toward the $\\mathrm { C } _ { \\gamma }$ position, even with a slightly less favored starting coordination mode (e.g., paths B and C in Scheme S3). However, as long as the Bpin unit is oriented toward the $\\mathrm { C } _ { \\gamma }$ position, substantially high barriers are inevitably encountered regardless of hydrogen migration (path B in Scheme S3 and Figure S2) or boryl migration (path C in Scheme S3 and Scheme S2). Therefore, the seemingly favorable γ-borylation is indeed kinetically unfeasible.",
+    "bbox": [
+      504,
+      422,
+      915,
+      589
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "image",
+    "img_path": "images/91eb0965a6990e97cca266baf6da3a150bab6934565709d733d41cb7c4d8eace.jpg",
+    "image_caption": [
+      "Figure 2. Energetic profile for the regioselectivity control in reductive elimination from B-int4a."
+    ],
+    "image_footnote": [],
+    "bbox": [
+      102,
+      609,
+      892,
+      846
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "aside_text",
+    "text": "",
+    "bbox": [
+      966,
+      20,
+      983,
+      980
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "GDCh",
+    "bbox": [
+      84,
+      17,
+      156,
+      46
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "Research Article",
+    "bbox": [
+      408,
+      24,
+      591,
+      43
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "An<sub>g</sub>ewan<sup>d</sup>te International Editior Ch<sub>em</sub>i<sub>e</sub>",
+    "bbox": [
+      783,
+      17,
+      914,
+      46
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "footer",
+    "text": "Angew. Chem. Int. Ed. 2025, 64, e202420370 (5 of 9)",
+    "bbox": [
+      82,
+      884,
+      344,
+      898
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "footer",
+    "text": "© 2024 Wiley-VCH GmbH",
+    "bbox": [
+      776,
+      884,
+      914,
+      898
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      80,
+      66,
+      490,
+      148
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "Inspired by the high α-regioselectivity observed in hydroboration, we were curious whether this protocol can be applied to other allene hydrofunctionalizations to achieve the same unusual selectivity. To gain more information about the feasibility, we first studied the kinetic and thermodynamic features of the α-selective reductive elimination step for those potential functionalizations, including hydroalkynylation, hydrosilylation, hydroamination, and hydroalkylation (Table 2). Our DFT results indicated that the reductive elimination steps are all thermodynamically favorable, leading to relatively more stable products. Moreover, the π-allyl complexes B-int4a(X) and the corresponding transition states B-TS3a(X) for alkynylation and silylation (entries 2–3) exhibit reasonable stability when compared with the hydroboration counterparts (entry 1), suggesting high feasibility of these two processes. In contrast, the related intermediates and transition states for hydroalkylation and hydroamination (entries 4–5) are much higher in energy, alluding that the formation of the key complexes is already difficult, let alone the subsequent reductive elimination.",
+    "bbox": [
+      80,
+      148,
+      492,
+      436
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "Encouraged by the above preliminary theoretical data, we chose to investigate the more feasible hydroalkynylation first (Scheme 3). It is worth noting that, although hydroalkynylation of allenes has been studied for over three decades, efficient protocols remain limitedly available.<sup>[20]</sup> More importantly, all the known processes exhibit β- addition regioselectivity leading to conjugated enyne products. However, to our delight, with our ruthenium-catalyzed protocol developed above, exclusive α-regioselectivity was observed even without modification of the standard conditions, in sharp contrast to the uniform β-selectivity observed in previously established protocols. This reaction provided convenient access to a range of non-conjugated enynes bearing a fully-substituted allylic/propargylic carbon center with high efficiency (3–12, 71–94 % yields). Notably, the allyl silane motif present in the products is poised for further utilization as allylation reagents. In addition, the silyl group on the triple bond also permits subsequent functionalization on the alkyne unit and thus more structural diversifications.<sup>[21]</sup> It should be noted that this represents the first example of α-regioselective hydroalkynylation of allenes directly using terminal alkynes.<sup>[20]</sup>",
+    "bbox": [
+      80,
+      435,
+      492,
+      670
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      504,
+      66,
+      915,
+      135
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "The success in α-selective hydroalkynylation prompted us to further examine the capability of this protocol for hydrosilylation (Scheme 3).<sup>[22,23]</sup> While catalytic α-selective hydrosilylations of allenes have been sporadically reported before, it is worth noting that high efficiency and excellent α-regioselectivity have only been limited to those using less hindered reactants, for example, either monosubstituted allenes or small reactive di-/trihydrosilanes (RSiH or R SiH ).<sup>[22]</sup> There has been no success when using both bulky allenes (e.g., 1,1-disubstituted allenes) and bulky monohydrosilanes (R SiH). To test the competence of our new protocol in such a challenging scenario, we employed 1,1-disubstituted allenes, bearing a highly hindered α- position, to react with the bulky monohydrosilane (EtO) MeSiH. Gratifyingly, the desired hydrosilylation proceeded even at $0 { } ^ { \\circ } \\dot { \\mathbf { C } }$ with high efficiency and exclusive α- regioselectivity. A number of representative 1,1-disubstituted allenes bearing different functional groups were used to demonstrate the generality of this process. To our delight, all of them furnished the desired products with high efficiency and exceptional regioselectivity (13–20). Unfortunately, other silanes, such as (EtO) SiH and Et SiH, did not provide the corresponding hydrosilylation products. Nevertheless, the identity of the silyl group in the products may not limit their utility as general allylation reagents.<sup>[24b]</sup> Notably, such highly congested allyl bis(silyl) molecules bearing a tetrasubstituted carbon were rarely accessible before.<sup>[24]</sup> Finally, various functional groups, including cyclopropyl, aryl halide, imide, ester, silyl ether, and aromatic rings, were well tolerated in the above hydroalkynylation and hydrosilylation reactions. Unfortunately, the present protocol could not be applied to the hydroalkynylation and hydrosilylation of non-silyl-substituted allenes.",
+    "bbox": [
+      504,
+      134,
+      917,
+      589
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "Conclusion",
+    "text_level": 2,
+    "bbox": [
+      505,
+      612,
+      598,
+      629
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "α-Regioselective hydrofunctionalization of allenes that delivers a functionality to the sterically hindered position represents a general challenge in organic synthesis, which is particularly true for allenes with substantially unfavorable steric difference and lacking electronic bias. Here we have developed a highly efficient and general protocol of this type enabled by a uniquely effective ruthenium catalyst, [Cp\\*RuCl] , with exclusive α-regioselectivity. This protocol is not only applicable to the previously unprecedented α- hydroboration and α-hydroalkynylation of allenes, but also complementary to the limitedly available α-hydrosilylation approaches that require less bulky substrates. Thus, a range of sterically hindered allyl boranes, skipped enynes, and allyl silanes bearing a fully-substituted allylic carbon center were generated with high efficiency and selectivity under mild conditions. It is worth noting that these highly congested yet densely-functionalized synthetic blocks were limitedly accessible before by conventional methods (often requiring multiple steps and/or special reagents), but they can be made with ease and atom-economy from simple substrates by our protocol. The mild conditions are compatible with a range of functional groups. DFT studies provided important insights into the reaction mechanism. The high α-regioselectivity is attributed to the blocked direct reductive elimination at the more accessible γ-position, which is disfavored by the high energy cost resulting from either agostic interaction or rotation of the key π-allyl intermediates. Further detailed investigations on the reaction mechanism as well as the extension of this protocol to other hydrofunctionalization processes with unorthodox selectivity are ongoing in our laboratory.",
+    "bbox": [
+      504,
+      640,
+      915,
+      670
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "table",
+    "img_path": "images/9a986d72374497c48d0f06938f83809ca11e773416d3264d5ef62877d130cc4b.jpg",
+    "table_caption": [
+      "Table 2: Computed kinetic and thermodynamic features of the reductive migration of X to ${ \\mathsf { C } } _ { \\boldsymbol { \\gamma } }$ in the π-allyl Ru-complexes (kcal/mol)."
+    ],
+    "table_footnote": [
+      "Angew. Chem. Int. Ed. 2025, 64, e202420370 (6 of 9)"
+    ],
+    "table_body": "<table><tr><td>B-int4a(X)</td><td></td><td><img src=\"images/cb4cb9d949eb39c37c6aa87393511e8be244abfe593ec6b09bafd6f0c1a6535b.jpg\"/></td><td></td><td></td></tr><tr><td>Entry 1</td><td>X</td><td>B-int4a(X)</td><td>B-TS3a(X)</td><td>B-int5a(X) -21.9</td></tr><tr><td>2</td><td>Bpin C=CSiMe3</td><td>0.3 -5.8</td><td>6.8 5.5</td><td>-24.1</td></tr><tr><td>3</td><td>SiMe(OMe)₂</td><td>5.0</td><td>12.6</td><td>-15.8</td></tr><tr><td>4</td><td>NMe2</td><td>21.1</td><td>27.8</td><td>-2.0</td></tr><tr><td>5</td><td>CH3</td><td>15.2</td><td>39.1</td><td>-10.3</td></tr></table>",
+    "bbox": [
+      80,
+      718,
+      912,
+      873
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "aside_text",
+    "text": "",
+    "bbox": [
+      966,
+      15,
+      983,
+      984
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "GDCh",
+    "bbox": [
+      84,
+      17,
+      156,
+      46
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "Research Article",
+    "bbox": [
+      408,
+      24,
+      591,
+      43
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "An<sub>g</sub>ewan<sup>d</sup>te International Edition Ch<sub>em</sub>i<sub>e</sub>",
+    "bbox": [
+      783,
+      17,
+      914,
+      47
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "footer",
+    "text": "© 2024 Wiley-VCH GmbH",
+    "bbox": [
+      776,
+      884,
+      914,
+      898
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "image",
+    "img_path": "images/55cddec881001d21552ac7aac1d6262bedf578cad0d211dc2486e90b43791681.jpg",
+    "image_caption": [
+      "Scheme 3. Extension to α-hydroalkynylation and α-hydrosilylation of allenes. Reaction scale: 1 (0.3 mmol), silylacetylene or (EtO) MeSiH (0.45 mmol), [Cp\\*RuCl] (2.5 mol %), DCE (3.0 mL), isolated yield."
+    ],
+    "image_footnote": [],
+    "bbox": [
+      102,
+      70,
+      894,
+      514
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      80,
+      587,
+      492,
+      876
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      504,
+      586,
+      915,
+      696
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "Acknowledgements",
+    "text_level": 2,
+    "bbox": [
+      505,
+      728,
+      660,
+      745
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "We gratefully acknowledge the financial support from National Natural Science Foundation of China (22071210, 22203023, 22271242, 21933004), Innovation and Technology Commission (ITC-CNERC14SC01), Research Grants Council of Hong Kong (16309722, 16304322, 16309023), Natural Science Foundation of Guangdong Province (2022 A1515011859), and the Key-Area Research and Development Program of Guangdong Province (2020B010188001). L.S. also thanks the Shenzhen Government for a Talent Development Starting Fund. This work was also supported by the Shenzhen Bay Laboratory Supercomputing Center.",
+    "bbox": [
+      504,
+      750,
+      915,
+      875
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "aside_text",
+    "text": "",
+    "bbox": [
+      966,
+      16,
+      984,
+      984
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "CDCh",
+    "bbox": [
+      84,
+      17,
+      156,
+      46
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "Research Article",
+    "bbox": [
+      408,
+      23,
+      591,
+      43
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "An<sub>g</sub>ewan<sup>d</sup>te International Editio Ch<sub>em</sub>i<sub>e</sub>",
+    "bbox": [
+      783,
+      17,
+      914,
+      48
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "footer",
+    "text": "Angew. Chem. Int. Ed. 2025, 64, e202420370 (7 of 9)",
+    "bbox": [
+      82,
+      885,
+      342,
+      898
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "footer",
+    "text": "© 2024 Wiley-VCH GmbH",
+    "bbox": [
+      776,
+      884,
+      914,
+      898
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      82,
+      66,
+      490,
+      108
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "Conflict of Interest",
+    "text_level": 2,
+    "bbox": [
+      84,
+      134,
+      230,
+      149
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "The authors declare no conflict of interest.",
+    "bbox": [
+      82,
+      162,
+      369,
+      177
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "Data Availability Statement",
+    "text_level": 2,
+    "bbox": [
+      84,
+      203,
+      305,
+      217
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "The data that support the findings of this study are available in the supplementary material of this article.",
+    "bbox": [
+      82,
+      230,
+      489,
+      259
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "Keywords: hydroboration · allenes · regioselectivity · allylic compounds · ruthenium",
+    "bbox": [
+      82,
+      277,
+      458,
+      305
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "[1] Selected reviews on organoboranes: a) A. Suzuki, Angew. Chem. Int. Ed. 2011, 50, 6722–6737; b) D. G. Hall, J. C. H. Lee, J. Ding, Pure Appl. Chem. 2012, 84, 2263–2277; c) D. Li, H. Zhang, Y. Wang, Chem. Soc. Rev. 2013, 42, 8416–8433; d) A. J. J. Lennox, G. C. Lloyd-Jones, Chem. Soc. Rev. 2014, 43, 412–443; e) L. Xu, S. Zhang, P. Li, Chem. Soc. Rev. 2015, 44, 8848–8858; f) C. Sandford, V. K. Aggarwal, Chem. Commun. 2017, 53, 5481–5494; g) C. Diner, K. J. Szabo, J. Am. Chem. Soc. 2017, 139, 2–14.",
+      "[2] Reviews on hydroboration of alkynes: a) B. M. Trost, Z. T. Ball, Synthesis 2005, 2005, 853–887; b) R. Barbeyron, E. Benedetti, J. Cossy, J.-J. Vasseur, S. Arseniyadis, M. Smietana, Tetrahedron 2014, 70, 8431–8452; c) H. Yoshida, ACS Catal. 2016, 6, 1799–1811; d) J. Carreras, A. Caballero, P. J. Pérez, Chem. Asian J. 2019, 14, 329–343; e) S. Rej, A. Das, T. K. Panda, Adv. Synth. Catal. 2021, 363, 4818–4840.",
+      "[3] Reviews on hydroboration of alkenes: a) J. V. Obligacion, P. J. Chirik, Nat. Chem. Rev. 2018, 2, 15–34; b) J. Chen, J. Guo, Z. Lu, Chin. J. Chem. 2018, 36, 1075–1109; c) J. Guo, Z. Cheng, J. Chen, X. Chen, Z. Lu, Acc. Chem. Res. 2021, 54, 2701–2716; d) S. J. Geier, C. M. Vogels, J. A. Melanson, S. A. Westcott, Chem. Soc. Rev. 2022, 51, 8877–8922.",
+      "[4] Selected reviews on allenes: a) Modern Allene Chemistry (Ed.: N. Krause, A. S. K. Hashmi), Wiley-VCH, Weinheim, 2004; b) S. Ma, Chem. Rev. 2005, 105, 2829–2871; c) S. Ma, Acc. Chem. Res. 2009, 42, 1679–1688; d) S. Yu, S. Ma, Angew. Chem. Int. Ed. 2012, 51, 3074–3112; e) J. Ye, S. Ma, Acc. Chem. Res. 2014, 47, 989–1000; f) X. Huang, S. Ma, Acc. Chem. Res. 2019, 52, 1301–1312; g) G. Li, X. Huo, X. Jiang, W. Zhang, Chem. Soc. Rev. 2020, 49, 2060–2118.",
+      "[5] Uncatalyzed hydroboration of allenes: a) D. Devaprabhakara, P. D. Gardner, J. Am. Chem. Soc. 1963, 85, 1458–1460; b) R. H. Fish, J. Am. Chem. Soc. 1968, 90, 4435–4439; c) D. S. Sethi, G. C. Joshi, Can. J. Chem. 1969, 47, 1083–1086; d) H. C. Brown, R. Liotta, G. W. Kramer, J. Am. Chem. Soc. 1979, 101, 2966– 2970; e) J. Kister, A. C. DeBaillie, R. Lira, W. R. Roush, J. Am. Chem. Soc. 2009, 131, 14174–14175.",
+      "[6] For a review: a) T. Fujihara, Y. Tsuji, Synthesis 2018, 50, 1737– 1749. For selected examples: b) S. B. Thorpe, X. Guo, W. L. Santos, Chem. Commun. 2011, 47, 424–426; c) W. Yuan, S. Ma, Adv. Synth. Catal. 2012, 354, 1867–1872; d) H. Jang, B, Jung, A. Hoveyda, Org. Lett. 2013, 15, 1414–1417; e) C. Zhu, B. Yang, Y.-A. Qiu, J.-E. Bäckvall, Chem. Eur. J. 2016, 22, 2939– 2943; f) W. Yuan, L. Song, S. Ma, Angew. Chem. Int. Ed. 2016, 55, 3140–3143; g) C.-Q. Wang, Y. Li, C. Feng, Cell Rep. Phys.",
+      "Sci. 2021, 2, 100461; h) C.-C. Shan, K.-Y. Dai, M. Zhao, Y.-H. Xu, Eur. J. Org. Chem. 2021, 4054–4058.",
+      "[7] Y. Yamamoto, R. Fujikawa, A. Yamada, N. Miyaura, Chem. Lett. 1999, 28, 1069–1070.",
+      "[8] K. Semba, M. Shinomiya, T. Fujihara, J. Terao, Y. Tsuji, Chem. Eur. J. 2013, 19, 7125–7132.",
+      "[9] a) C. Li, Z. Yang, L. Wang, Y. Guo, Z. Huang, S. Ma, Angew. Chem. Int. Ed. 2020, 59, 6278–6283; b) C. Wu, S. Ge, Chem. Sci. 2020, 11, 2783–2789; c) D. Lewandowski, G. Hreczycho, Adv. Synth. Catal. 2024, 366, 2775–2783; d) Y. Lei, Y. Kong, Z.-Q. Rong, W. Zhao, Nat. Commun. 2024, 15, 8186.",
+      "[10] a) Y. Yang, J. Zeng, Z.-P. Zhan, Org. Chem. Front. 2021, 8, 2537–2542; b) X. Yang, C. Yuan, S. Ge, Chem 2023, 9, 198–215.",
+      "[11] Selected examples on dimerization/hydroboration of allenes with pinacolborane: a) Y. Zhao, S. Ge, Angew. Chem. Int. Ed. 2021, 60, 2149–2154; b) R. S. Phatake, A. Averdunk, C. Würtele, U. Gellrich, ACS Catal. 2022, 12, 13961–13968.",
+      "[12] C. E. Tucker, J. Davidson, P. Knochel, J. Org. Chem. 1992, 57, 3482–3485.",
+      "[13] a) B. M. Trost, Z. T. Ball, J. Am. Chem. Soc. 2005, 127, 17644– 17655; b) D.-A. Roşca, K. Radkowski, L. M. Wolf, M. Wagh, R. Goddard, W. Thiel, A. Fürstner, J. Am. Chem. Soc. 2017, 139, 2443–2455; c) T. Matsuda, S. Kadowaki, Y. Yamaguchi, M. Murakami, Org. Lett. 2010, 12, 1056–1058; d) A. Fürstner, J. Am. Chem. Soc. 2019, 141, 11–24.",
+      "[14] Selected representative examples of Ru-catalyzed alkyne hydroboration: a) C. Gunanathan, M. Hölscher, F. Pan, W. Leitner, J. Am. Chem. Soc. 2012, 134, 14349–14352; b) B. Sundararaju, A. Fürstner, Angew. Chem. Int. Ed.. 2013, 52, 14050–14054; c) K. Yamamoto, Y. Mohara, Y. Mutoh, S. Saito, J. Am. Chem. Soc. 2019, 141, 17042–17047.",
+      "[15] Our efforts in Ru-catalyzed hydrofunctionalization: a) S. Ding, L.-J. Song, L. W. Chung, X. Zhang, J. Sun, Y.-D. Wu, J. Am. Chem. Soc. 2013, 135, 13835–13842; b) S. Ding, L.-J. Song, Y. Wang, X. Zhang, L. W. Chung, Y.-D. Wu, J. Sun, Angew. Chem. Int. Ed. 2015, 54, 5632–5635; c) L. Song, Q. Feng, Y. Wang, S. Ding, Y.-D. Wu, X. Zhang, L. W. Chung, J. Sun, J. Am. Chem. Soc. 2019, 141, 17441–17451; d) Q. Feng, H. Wu, X. Li, L. Song, L. W. Chung, Y.-D. Wu, J. Sun, J. Am. Chem. Soc. 2020, 142, 13867–13877; e) Y.-X. Tan, S. Li, L. Song, X. Zhang, Y.-D. Wu, J. Sun, Angew. Chem. Int. Ed. 2022, 61, e202204319; f) Q. Feng, S. Li, Z. Li, Q. Yan, X. Lin, L. Song, X. Zhang, Y.- D. Wu, J. Sun, J. Am. Chem. Soc. 2022, 144, 14846–14855.",
+      "[16] S. Li, Q. Feng, L. Song, X. Zhang, Y.-D. Wu, J. Sun, J. Am. Chem. Soc. 2024, 146, 1532–1542.",
+      "[17] We are not aware of a general catalytic method. For a noncatalytic example requiring multiple steps, see: R. Tong, S. Liu, C. Zhao, D. Jiang, L. Gao, W. Wang, B. Ye, Z. Song, Org. Lett. 2022, 24, 7822–7827.",
+      "[18] J. Park, Y. Jung, J. Kim, E. Lee, S. Y. Lee, S. H. Cho, Adv. Synth. Catal. 2021, 363, 2371–2376.",
+      "[19] This intermediate may potentially lead to allene dimerization, but this process turned out to have a higher overall barrier (ΔG<sup>¼6</sup> =18.0 kcal/mol) than the hydroboration process. For more details, see Figure S4 in the Supporting Information and Ref. 16.",
+      "[20] For leading examples of transition-metal-catalyzed hydroalkynylation of allenes with terminal alkynes (all β-selective), see: a) B. M. Trost, G. Kottirsch, J. Am. Chem. Soc. 1990, 112, 2816–2818; b) M. Yamaguchi, Y. Kido, K. Omata, M. Hirama, Synlett 1995, 1995, 1181–1182; c) M. Rubin, J. Markov, S. Chuprakov, D. J. Wink, V. Gevorgyan, J. Org. Chem. 2003, 68, 6251–6256; d) T. Nishimura, X.-X. Guo, T. Hayashi, Chem. Asian J. 2008, 3, 1505–1510; e) T. Sawano, K. Ou, T. Nishimura, T. Hayashi, J. Org. Chem. 2013, 78, 8986–8993. For a decarboxylative α-alkynylation of mono-substituted allenes"
+    ],
+    "bbox": [
+      90,
+      337,
+      489,
+      444
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "aside_text",
+    "text": "",
+    "bbox": [
+      966,
+      19,
+      983,
+      980
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "header",
+    "text": "GDCh",
+    "bbox": [
+      84,
+      17,
+      154,
+      46
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "header",
+    "text": "Research Article",
+    "bbox": [
+      408,
+      24,
+      591,
+      43
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "header",
+    "text": "An<sub>g</sub>ewan<sup>d</sup>te International Edition Ch<sub>em</sub>i<sub>e</sub>",
+    "bbox": [
+      784,
+      19,
+      914,
+      46
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "footer",
+    "text": "Angew. Chem. Int. Ed. 2025, 64, e202420370 (8 of 9)",
+    "bbox": [
+      84,
+      885,
+      342,
+      898
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "footer",
+    "text": "© 2024 Wiley-VCH GmbH",
+    "bbox": [
+      776,
+      885,
+      914,
+      897
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "using alkynyl acids, see: f) C. P. Grugel, B. Breit, Org. Lett. 2018, 20, 1066–1069.",
+      "[21] Unfortunately, alkyl- and aryl-substituted terminal alkynes were incompatible in this transformation because of their rapid oligomerization/polymerization in the presence of the ruthenium catalyst.",
+      "[22] For examples of α-selective hydrosilylation of allenes (all with small di-/tri-hydrosilanes, R SiH or RSiH , except for monosubstituted allenes), see: a) Z. D. Miller, W. Li, T. R. Belderrain, J. Montgomery, J. Am. Chem. Soc. 2013, 135, 15282– 15285; b) H. Tafazolian, J. A. R. Schmidt, Chem. Commun. 2015, 51, 5943–5946; c) Y.-N. Jiang, J.-H. Zeng, Y. Yang, Z.-K. Liu, J.-J. Chen, D.-C. Li, L. Chen, Z.-P. Zhan, Chem. Commun. 2020, 56, 1597–1600; d) K. Li, M. Nie, W. Tang, Green Synth. Catal. 2020, 1, 171–174; e) J.-L. Xu, Z.-Y. Xu, Z.- L. Wang, W.-W. Ma, X.-Y. Sun, Y. Fu, Y.-H. Xu, J. Am. Chem. Soc. 2022, 144, 5535–5542; f) T. Liu, X.-R. Mao, S. Song, Z.-Y. Chen, Y. Wu, L.-P. Xu, P. Wang, Angew. Chem. Int. Ed. 2023, 62, e202216878.",
+      "[23] For selected hydrosilylation examples with β- or γ-selectivity, see: a) T. Sudo, N. Asao, V. Gevorgyan, Y. Yamamoto, J. Org. Chem. 1999, 64, 2494–2499; b) Z. Yang, D. Peng, X. Du, Z. Huang, S. Ma, Org. Chem. Front. 2017, 4, 1829–1832; c) C. Wang, W. J. Teo, S. Ge, Nat. Commun. 2017, 8, 2258; d) S. Chen, X. He, Y. Jin, Y. Lan, X. Shen, Nat. Commun. 2022, 13, 3691.",
+      "[24] a) Such hindered allyl bis(silyl) molecules were rarely accessible before. For a report that has only a single example of this type, but with low yield, see Ref. 22(f). For another report demonstrating the utility of such compounds, which were made by multiple steps involving pyrophoric reagents, see: b) Z. Chu, K. Wang, L. Gao, Z. Song, Chem. Commun. 2017, 53, 3078– 3081."
+    ],
+    "bbox": [
+      112,
+      67,
+      487,
+      91
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "text",
+    "text": "Manuscript received: October 21, 2024   \nAccepted manuscript online: December 5, 2024   \nVersion of record online: December 30, 2024",
+    "bbox": [
+      507,
+      256,
+      791,
+      293
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "aside_text",
+    "text": "",
+    "bbox": [
+      968,
+      17,
+      983,
+      982
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "header",
+    "text": "GDCh",
+    "bbox": [
+      85,
+      17,
+      154,
+      46
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "header",
+    "text": "Research Article",
+    "bbox": [
+      408,
+      24,
+      591,
+      42
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "header",
+    "text": "An<sub>g</sub>ewan<sup>d</sup>te International Edition Ch<sub>em</sub>i<sub>e</sub>",
+    "bbox": [
+      784,
+      19,
+      912,
+      46
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "footer",
+    "text": "Angew. Chem. Int. Ed. 2025, 64, e202420370 (9 of 9)",
+    "bbox": [
+      84,
+      885,
+      342,
+      897
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "footer",
+    "text": "© 2024 Wiley-VCH GmbH",
+    "bbox": [
+      778,
+      885,
+      912,
+      897
+    ],
+    "page_idx": 8
+  }
+]

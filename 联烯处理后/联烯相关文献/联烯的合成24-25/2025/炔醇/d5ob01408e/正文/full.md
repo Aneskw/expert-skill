@@ -1,0 +1,170 @@
+COMMUNICATION
+
+View Article Online
+
+View Journal | View Issue
+
+Check for updates
+
+Cite this: Org Biomol Chem , 2025, 23, 10479
+
+Received 1st September 2025, Accepted 24th October 2025
+
+DOI: 10.1039/d5ob01408e
+
+# Palladium-catalyzed asymmetric propargylic sulfonylation of propargyl esters with sulfonyl hydrazides
+
+Zhi-Xiong Ou, Bu-Hong Zhang, Jia-Xin Song, Li-Bo Li and Xing-Wang Wang \*
+
+rsc.li/obc
+
+Palladium-catalyzed enantioselective propargylic sulfonylation between racemic propargyl esters and readily available sulfonyl hydrazides with an N-benzylamino-bridged bidentate phosphoramidite (N-Bn-Me-BIPAM) ligand was reported. The corresponding reactions provided a series of enantiomerically rich propargylic sulfones in good yields with high enantioselectivity under mild reaction conditions.
+
+## 1. Introduction
+
+Sulfonyl $\left( \mathbf { R } { - } \mathbf { S } \mathbf { O } _ { 2 } { - } \mathbf { R } \right)$ backbones endowed with distinct electronic and structural features are versatile synthetic intermediates in organic chemistry.<sup>1</sup> As a result, sulfone compounds were widely found in many target molecules of importance in synthetic chemistry, medicinal chemistry, agricultural chemistry, and materials science.<sup>2</sup> The sulfone moiety enhances the eficacy and potency of a drug molecule by forming strong hydrogen bonds with a biological target.<sup>3</sup> Therefore, sulfones not only serve as important building blocks in numerous medicines and drug candidates and natural products, but also play important roles in the discovery of new anticancer agents, antibacterial agents, insecticides and herbicides.<sup>4</sup> In the past few decades, great progress has been made in the synthesis of sulfonyl compounds, and a variety of novel organo- and metalcatalyzed methods have been established.<sup>5</sup> Among these methods, the development of eficient and practical synthetic methods for chiral sulfones has attracted significant interest from synthetic chemists.<sup>6</sup>
+
+Alkynyl sulfones are sulfone derivatives that show very important synthetic utility and are crucial structural moieties that are present in some pharmaceutically and biologically active molecules, such as the inhibitors of cathepsins, cancer Osaka thyroid kinase modulators, DNA cleaving agents, etc. (Fig. 1).<sup>7</sup>
+
+The synthesis of propargyl sulfone backbones has attracted increased attention due to the increase in use,<sup>8</sup> and correspondingly some eficient methods were reported to synthesize the target molecules.<sup>9,10</sup> From 2018, several groups constructed propargyl sulfones under metal-free conditions in good to high yields using methods which utilized propargyl alcohols with sulfinic acids, sodium sulfites or sulfinamides as sulfone sources (Scheme 1a, i–iii).<sup>11–13</sup> Meanwhile, the Lian group reported a palladium-catalyzed multicomponent cross-electrophilic coupling reaction from propargyl acetates, aryl iodides and DABSO to furnish propargyl sulfones in moderate to high yields (Scheme 1b, i).<sup>14</sup> Kleij and Wu reported enantioselective sulfonylation through a copper-catalyzed two-component reaction of propargylic cyclic carbonates with sodium sulfinates or through a three-component reaction of propargylic cyclic carbonates, cyclopropan-1-ols and $\mathrm { { D A B C O } } { \cdot } ( \mathrm { { S O } } _ { 2 } ) _ { 2 } ,$ allowing the preparation of tertiary terminal propargylic sulfones with quaternary stereocenters in excellent ee values (Scheme 1b, ii).<sup>15</sup> According to previous literature reports,<sup>16</sup> the transition metal-catalyzed decarboxylation of propargylic carbonates delivers either a metalpropargyl intermediate or a metal-allenyl species. Then, the a) Selected organo-catalyzed approaches to propargyl sulfones
+
+![](images/f77e49bf876e479da6012a6fe18b2eea7b9c509d3258b600c76e6d82c77b49d0.jpg)  
+Fig. 1 Bioactive propargyl sulfones derivatives.
+
+![](images/acfc1697e0fd3fae9fd51562789c4ecbee785c3943c824b2e1fa828215e072c1.jpg)  
+Scheme 1 The synthesis of internal propargyl sulfone compounds.
+
+addition of a nucleophile onto a ligand-bound metal-propargyl or metal-allenyl intermediate provides a stereoselective route to access chiral propargyl-functionalized or allenylated products (Scheme 1c).
+
+Herein, we reported a bidentate phosphoramidite-Pd complex-catalyzed asymmetric transformation for the synthesis of chiral propargylic sulfones using propargyl esters with commercially available sulfonyl hydrazides. A series of enantioenriched propargylic sulfones were aforded under mild reaction conditions in moderate yields with good enantioselectivity, highlighting the potential utility of this synthetic method (Scheme 1d).
+
+## 2. Results and discussion
+
+We commenced the study with the palladium-catalyzed asymmetric propargylic sulfonylation of racemic tert-butoxypropargyl ester 1a with commercially available p-toluenesulfonyl hydrazide 2a. A series of BINOL-derived monodentate and bidentate phosphoramidite ligands L1–L9 were initially tested with 5 mol% of $\mathrm { P d } _ { 2 } ( \mathrm { d b } \mathbf { a } ) _ { 3 }$ and 5 mol% of $\mathbf { M n O } _ { 2 }$ as the oxidant. The catalytic results are presented in Table 1 (see SI for full ligand screening results). For monodentate phosphoramidite ligands L1–L5, all reactions gave product 3 with less than 58% ee (Table 1, entries 1–5). However, when the bidentate phosphoramidite (Me-Bipam) ligand L6 was used, the corresponding chiral propargyl sulfone 3 was aforded in 82% ee, albeit in a 17% yield (Table 1, entry 6). Therefore, inspired by this promising result and guided by previous work by Miyaura’s group on Me-Bipam ligands,<sup>17</sup> some new chiral bidentate phosphoramidite ligands $\mathbf { L 7 - L 9 }$ bearing bridged benzylamino groups were synthesized. When the ligands L7–L9 were employed for the reaction, it was found that the product 3 was obtained in 24–55% yield with 54–79% ee values (Table 1, entries 7–9). Of the bidentate phosphoramidite ligands tested, the N-Bn-Me-BIPAM ligand L7 with a bridged benzylamino group turned out to be optimal for this transformation, giving the desired product 3 in 55% yield with a 79% ee value (Table 1, entry 7).
+
+Table 1 Optimization of the reaction conditions<sup>a</sup>  
+![](images/b820eacd1afed68e405041d3da467d2eee2b4bc6db4cc06bb6be502043c7c635.jpg)
+
+<table><tr><td>Entry</td><td>Ligand</td><td> $\mathrm { Y i e l d } ^ { b } \left( \% \right)$ </td><td> $\mathsf { e e } ^ { c } \left( \% \right)$ </td></tr><tr><td>1</td><td>L1</td><td>58</td><td>50</td></tr><tr><td>2</td><td>L2</td><td>49</td><td>47</td></tr><tr><td>3</td><td>L3</td><td>55</td><td>49</td></tr><tr><td>4</td><td>L4</td><td>58</td><td>27</td></tr><tr><td>5</td><td>L5</td><td>53</td><td>58</td></tr><tr><td>6</td><td>L6</td><td>17</td><td>82</td></tr><tr><td>7</td><td>L7</td><td>55</td><td>79</td></tr><tr><td>8</td><td>L8</td><td>24</td><td>54</td></tr><tr><td>9</td><td>L9</td><td>53</td><td>78</td></tr></table>
+
+<sup>a</sup> Unless otherwise noted, reactions were carried out with 1a (0.06 mmol), 2a (0.05 mmol), Pd (dba) (5 mol%), and MnO (5 mol%) in toluene (1.0 mL) in an oil bath at 80 °C for 12 hours. The ligands L1–L5 (12 mol%) and the ligands L6–L9 (6 mol%) were used for the reactions. <sup>b</sup> Isolated yield. <sup>c</sup> Determined using chiral HPLC.
+
+With the optimized chiral ligand L7 in hand, several other parameters, such as the metal precursor, reaction media, reaction temperature and oxidants, were further explored for the reaction, and the experimental results are summarized in Table 2. Initially, some Pd(0) precursors, including $\mathrm { P d } _ { 2 } ( \mathrm { d b a } ) _ { 3 } ,$ $\mathrm { P d } _ { 2 } ( \mathrm { d b a } ) _ { 3 } { \cdot } \mathrm { C H C l } _ { 3 }$ and $\mathrm { P d } ( \mathrm { P P h } _ { 3 } ) _ { 4 } ,$ were examined, and the corresponding reactions aforded the target compound 3 in 29–55% yield with 53–79% ee values (Table 2, entries 1–3). In contrast, other metal precursors and $\mathbf { P d } ( \mathbf { O A c } ) _ { 2 }$ showed no reactivity under these reaction conditions (Table 2, entry $^ { 4 , }$ also see SI for details). Then, several other types of common organic solvents were evaluated for the reaction (Table 2, entries 5–7, see SI for details). THF was the optimal reaction medium for this reaction. Subsequently, the influence of reaction temperature was examined. The reactivity showed a significant temperature dependence, while the enantioselectivity varied modestly (Table 2, entries 5, 8–10). It was found that 80 °C was optimal for the reaction. Diferent oxidants significantly afected both the reactivity and enantioselectivity (Table 2, entries 11–14). Notably, the use of air as the oxidant aforded the target product 3 in 65% yield with 89% ee value (Table 2, entry 13). Based on its afordability, eco-friendly nature and excellent performance, air was selected as the oxidant for further reactions (see SI for details). When $^ { 2 , 4 , 6 - }$ triisopropylbenzenesulfonyl hydrazide 2b was employed as a sulfonyl source, the desired product 4 was obtained in 65% yield with a 93% ee value (Table 2, entry 15, see SI for more details). Finally, the optimized reaction conditions were established in the presence of 5.0 mol% of $\mathrm { P d } _ { 2 } ( \mathrm { d b } \mathbf { a } ) _ { 3 }$ and 6.0 mol% of ligand L7 with air as the oxidant and a substrate ratio of 1a : 2b of 1.2 : 1 in THF at $8 0 ~ ^ { \circ } \mathrm { C } .$
+
+With the optimized reaction conditions established, the substrate scope of various aryl-substituted propargyl esters 1a–1n in the reaction with 2b was investigated. The corresponding chiral propargyl sulfones 4–17 were obtained in 47–65% yields with 55–93% ee values. The results are shown in Scheme 2. For the reaction of phenyl-substituted propargyl ester 1a with $^ { 2 \mathbf { b } , }$ the product 4 was obtained in 65% yield with a 93% ee value. When the substrates 1b–1d with $\mathbf { \Gamma } - \mathbf { F } , \mathbf { - C l }$ and –Br groups at the para-positions of the phenyl rings were investigated for the reaction, the desired products 5–7 were isolated in 47–60% yields, all with 92% ee values. Then, substrates 1e and 1f with –Cl and ${ \bf - O C F } _ { 3 }$ groups at the meta-positions of the phenyl rings were utilized for the reaction, and the corresponding products 8 and 9 were delivered in 55% and 47% yields with 78% and 60% ee values, respectively. For substrate 1g with a paratrifluoromethoxy group, the corresponding reaction furnished the desired product 10 in 50% yield with an 80% ee value. On the other hand, substrates 1h–1k with electron-donating substituents of $- \mathrm { O M e } , - \mathrm { O E t } , - \mathrm { M e } , - ^ { t } \mathrm { B u }$ at the para-positions of the phenyl rings were employed for the reaction and provided the corresponding products 11–14 in 47–54% yields with 55–89% ee values, respectively. For the ortho-Me-substituted phenyl propargyl ester 1l, the reaction produced the desire product 15 in 58% yield with 89% ee. Moreover, substrates 1m and 1n disubstituted with methyl groups were also suitable for this reaction, and the corresponding products 16 and 17 were respectively aforded in 61% and 50% yields with 68% and 74% ee
+
+Table 2 Further optimization of the reaction conditions <sup>a</sup>  
+![](images/da6433b41028bb86f545a53db34b5cd185b8a26c7f3f89ba79aba398633c49ba.jpg)
+
+<table><tr><td>Entry</td><td>Pd</td><td>Solvent</td><td>Temp. (°C)</td><td>Oxidant</td><td> $\mathrm { Y i e l d } ^ { b } \left( \% \right)$ </td><td> $\mathsf { e e } ^ { c } \left( \% \right)$ </td></tr><tr><td>1</td><td> $\mathrm { P d } _ { 2 } ( \mathrm { d b } \mathbf { a } ) _ { 3 }$ </td><td>Toluene</td><td>80</td><td> $\mathbf { M n O } _ { 2 }$ </td><td>55</td><td>79</td></tr><tr><td>2</td><td> $\mathrm { P d } ( \mathrm { \tilde { P P h } } _ { 3 } ) _ { 4 }$ </td><td>Toluene</td><td>80</td><td> $\mathbf { M n O } _ { 2 }$ </td><td>46</td><td>75</td></tr><tr><td>3</td><td> $\mathrm { P d } _ { 2 } ( \mathrm { d b a } ) _ { 3 } { \cdot } \mathrm { C H C l } _ { 3 }$ </td><td>Toluene</td><td>80</td><td> $\mathbf { M n O } _ { 2 }$ </td><td>29</td><td>53</td></tr><tr><td>4</td><td> $\operatorname { P d } ( \operatorname { O A c } ) _ { 2 }$ </td><td>Toluene</td><td>80</td><td> $\mathbf { M n O } _ { 2 }$ </td><td>nr</td><td></td></tr><tr><td>5</td><td> $\mathrm { P d } _ { 2 } ^ { \cdot } ( \mathrm { d b } \mathrm { \dot { a } } ) _ { 3 }$ </td><td>THF</td><td>80</td><td> $\mathbf { M n O } _ { 2 }$ </td><td>60</td><td>88</td></tr><tr><td>6</td><td> $\mathrm { P d } _ { 2 } ( \mathrm { d b a } ) _ { 3 }$ </td><td>1,4-Dioxane</td><td>80</td><td> $\mathbf { M n O } _ { 2 }$ </td><td>17</td><td>84</td></tr><tr><td>7</td><td> $\mathrm { P d } _ { 2 } ( \mathrm { d b } \mathbf { a } ) _ { 3 }$ </td><td>DCE</td><td>80</td><td> $\mathbf { M n O } _ { 2 }$ </td><td>44</td><td>72</td></tr><tr><td>8</td><td> $\mathrm { P d } _ { 2 } ( \mathrm { d b a } ) _ { 3 }$ </td><td>THF</td><td>70</td><td> $\mathbf { M n O } _ { 2 }$ </td><td>36</td><td>78</td></tr><tr><td>9</td><td> $\mathrm { P d } _ { 2 } ( \mathrm { d b a } ) _ { 3 }$ </td><td>THF</td><td>90</td><td> $\mathbf { M n O } _ { 2 }$ </td><td>54</td><td>80</td></tr><tr><td>10</td><td> $\mathrm { P d } _ { 2 } ( \mathrm { d b } \mathbf { a } ) _ { 3 }$ </td><td>THF</td><td>100</td><td> $\mathbf { M n O } _ { 2 }$ </td><td>49</td><td>75</td></tr><tr><td>11</td><td> $\mathrm { P d } _ { 2 } ( \mathrm { d b a } ) _ { 3 }$ </td><td>THF</td><td>80</td><td> $\mathbf { A g } _ { 2 } \mathbf { O }$ </td><td>45</td><td>88</td></tr><tr><td>12</td><td> $\mathrm { P d } _ { 2 } ( \mathrm { d b a } ) _ { 3 }$ </td><td>THF</td><td>80</td><td> $\mathrm { C u S O _ { 4 } }$ </td><td>20</td><td>80</td></tr><tr><td>13</td><td> $\mathrm { P d } _ { 2 } ( \mathrm { d b a } ) _ { 3 }$ </td><td>THF</td><td>80</td><td> $\operatorname { A i r }$ </td><td>65</td><td>89</td></tr><tr><td>14</td><td> $\mathrm { P d } _ { 2 } ( \mathrm { d b a } ) _ { 3 }$ </td><td>THF</td><td>80</td><td> $\mathbf { O } _ { 2 }$ </td><td>58</td><td>89</td></tr><tr><td> $1 5 ^ { d }$ </td><td> $\mathrm { P d } _ { 2 } ( \mathrm { d b a } ) _ { 3 }$ </td><td>THF</td><td>80</td><td> $\operatorname { A i r }$ </td><td>65</td><td>93</td></tr></table>
+
+<sup>a</sup> Unless otherwise noted, reactions were carried out with 1a (0.06 mmol), 2a (0.05 mmol), Pd (dba) (5 mol%), L7 (6 mol%), and oxidant (5 mol%) in solvent (1.0 mL) in an oil bath at $8 0 ~ ^ { \circ } \mathrm { C } ^ { \cdot }$ for 12 hours. <sup>b</sup> Isolated yield. <sup>c</sup> Determined using chiral HPLC. $^ { d } 2 , 4 , 6 -$ Triisopropylbenzenesulfonyl hydrazide.
+
+Organic & Biomolecular Chemistry
+
+![](images/241e2ff6073ab11d9250a2755d56c9ae352d133e05345b7f2562f7762bc1f96b.jpg)  
+Scheme 2 Substrate scope of the propargyl esters 1. Reaction conditions: unless otherwise noted, the reactions were carried out with 1a–1n (0.12 mmol), 2b (0.10 mmol), $\mathsf { P d } _ { 2 } ( \mathsf { d b } \mathsf { a } ) _ { 3 }$ (5 mol%) and L7 (6 mol%) in an oil bath under an air atmosphere in THF (2.0 mL) at 80 °C for 12 hours.
+
+values. Finally, the absolute configuration of $4 ^ { 8 }$ was unambiguously established via X-ray crystallographic analysis, while those of the other products were assigned by analogy.
+
+As shown in Scheme 3, the scope of the aryl and heteroaryl sulfonyl hydrazides 2a, 2c–2m was examined. The corresponding compounds 3, 18–28 were synthesized in 51–65% yield with 38–95% ee values. Sulfonyl hydrazides 2a, 2c and 2d with p-tolyl, phenyl and benzyl groups were tested first, and the desired products 3, 18 and 19 were respectively isolated in 55%−65% yields with 69%−89% ee values. Then, sulfonyl hydrazide substrates 2e and 2f bearing <sup>t</sup>Bu and –OMe groups at the para-positions of the phenyl rings were applied for the reaction, and the desired products 20 and 21 were aforded in 51% and 55% yields with 38% and 84% ee values, respectively. When sulfonyl hydrazides 2g–2k with –F, – $\mathbf { \tilde { \Sigma } } \mathbf { C l } , \mathbf { \Sigma } \mathbf { - C F } _ { 3 } ,$ –OCF<sub>3</sub> groups at the para- and meta-positions of the phenyl rings were used, all the reactions proceeded smoothly to provide the desired products 22–26 in 51–65% yields with 62–86% ee values, respectively. Sulfonyl hydrazides 2l and 2m with pyridyl and quinolinyl groups were also employed in the reaction, and the corresponding products 27 and 28 were respectively isolated in 54% and 52% yields with 80% and 95% ee values.
+
+![](images/e993cf6663ba15f7a01d770ab306a50cdfca2feeb32c3f3411f555ef5aa7a662.jpg)  
+Scheme 3 Substrate scope of the sulfonyl hydrazides 2. Reaction conditions: unless otherwise noted, the reactions were carried out with 1a (0.12 mmol), 2a, 2c–2m (0.10 mmol), Pd (dba) (5 mol%) and L7 (6 mol%) in an oil bath under an air atmosphere in THF (2.0 mL) at 80 °C for 12 hours.
+
+Under the optimized reaction conditions, when propargylic acetate 1o was reacted with p-toluenesulfonyl hydrazide 2a, the corresponding product 3 was only obtained in trace amounts (Scheme 4a). The corresponding results indicate that the <sup>t</sup>BuO<sup>−</sup> species generated from the Boc-protected propargylic esters after elimination of carbon dioxide (CO ) likely plays an important role as a base in the subsequent generation of the nucleophilic sulfinate anions $\left( \mathrm { R S O } _ { 2 } ^ { - } \right)$ . Moreover, when propargylic acetate 1o was treated with sodium p-toluenesulfinate 2n, both propargyl sulfone 3 and allenyl sulfone 29 were obtained in 43% and 24% yields with 89% ee and 23% ee values (Scheme 4b). These results further proved that sulfinate anions are generated from the sulfonyl hydrazides and act as nucleophiles in the reaction.
+
+![](images/e736dc5f720bd5953dbd7d6be7973c53d2d2ff3aa033e895653e3cf783358777.jpg)  
+Scheme 4 (a and b) Control experiments.
+
+To gain insight into the possible coordination mode by which the chiral N-Bn-Me-BIPAM ligand L7 and Pd (dba) form the catalytically active species in the reaction, a nonlinear efects $\mathrm { s t u d y } ^ { 1 8 }$ was carried out on the Pd-catalyzed sulfonylation of propargyl carbonate 1c with sulfonyl hydrazide 2b under the optimized reaction conditions. As shown in Scheme 5, the enantiopurity of product 6 displays a linear relationship with the blend of L7 and ent-L7 that is used, which indicates that a palladium center likely coordinates with a single ligand unit.
+
+On the basis of the control experiments and previous literature reports, we proposed a mechanism<sup>19</sup> for this propargylic sulfonylation, as shown in Scheme 6. Initially, complex A of $\mathrm { P d } ^ { 0 } \mathrm { L } ^ { \star }$ is coordinated with the triple bond of propargylic carbonate 1 to form complex B, which undergoes oxidative addition with propargylic carbonate 1 to form zwitterionic propargyl $\mathrm { P d } ^ { \mathrm { I I } }$ intermediate C via the elimination of carbon dioxide. The sulfonyl hydrazide 2 is then deprotonated by a tert-butoxide ion and is subsequently oxidized to produce the sulfinate anion $\left( \mathbf { A r S O } _ { 2 } ^ { - } \right)$ with the release of ${ \bf N } _ { 2 }$ and ${ \bf H } _ { 2 } { \bf O }$ . The
+
+![](images/a27cae8ad4cffbff1b27f3c7ae72c445b7981ccaec4e0324779e8f2589ce07a9.jpg)  
+Scheme 5 Study of the nonlinear efects.
+
+Organic & Biomolecular Chemistry
+
+![](images/0f73aba01950d8250123395314f65b500fee1372110f423c539fbb7b96c246da.jpg)  
+Scheme 6 The proposed catalytic cycle.
+
+resulting Pd<sup>II</sup>L\*-propargylic sulfinate $\left( \mathbf { A r S O } _ { 2 } ^ { - } \right)$ D undergoes a reductive elimination to form the corresponding propargyl sulfone products. Simultaneously, the catalyst is regenerated for the next catalytic cycle.
+
+## 3. Conclusions
+
+In summary, palladium-catalyzed enantioselective sulfonylation of propargyl carbonates with sulfonyl hydrazides that utilizes a chiral N-Bn-Me-BIPAM ligand under mild reaction conditions was developed. This reaction delivered the corresponding propargyl sulfones in good yields with high enantioselectivity. Meanwhile, this transformation has good functional group tolerance, a wide substrate scope, as well as good atom and step economy. It is noteworthy that the employment of air as a promoter ensures the reactivity and delivers optimal catalytic results. Further eforts in our laboratory are focused on expanding the stereoselective transformation of propargyl carbonates into a practical catalytic system.
+
+## 4. Experimental section
+
+General procedure for the synthesis of the chiral propargyl sulfones.
+
+In a tube, Pd $\mathbf { \Pi } _ { 2 } ( \mathbf { d b a } ) _ { 3 }$ (4.5 mg, 0.005 mmol) and L7 (5.1 mg, 0.006 mmol) were added to anhydrous THF (2.0 ml) under a nitrogen atmosphere. The mixture was stirred for 0.5 hours at room temperature to produce a bright yellow solution. Under an air atmosphere, various substituted propargyl esters (0.12 mmol) and substituted sulfonyl hydrazides (0.10 mmol) were added at ${ 2 5 ~ ^ { \circ } \mathrm { C } } .$ . Then, the resulting mixture was stirred in an oil bath at $8 0 ~ ^ { \circ } \mathrm { C }$ for 12 hours. After the reaction was complete (monitored by TLC), it was subjected to silica gel column chromatography to aford the desired products.
+
+## Conflicts of interest
+
+There are no conflicts to declare.
+
+## Data availability
+
+The data that support the findings of this study are available from the corresponding author upon reasonable request. Experimental details for optimization of reaction conditions, general procedures for the synthesis of the products, characterization of the products, X-ray crystallographic data for the product 4, and NMR spectra, HPLC analysis of the products can be found in the Supporting Information. See DOI: https:// doi.org/10.1039/d5ob01408e.
+
+CCDC 2417131 (4) contains the supplementary crystallographic data for this paper.<sup>20</sup>
+
+## Acknowledgements
+
+We gratefully acknowledge the financial support of the National Natural Science Foundation of China (22171199), the Program for New Century Excellent Talents in University (NCET-12-0743), and a project funded by the Priority Academic Program Development of Jiangsu Higher Education Institutions (PAPD).
+
+## References
+
+1 (a) A. El-Awa, M. N. Noshi, X. M. du Jourdin and P. L. Fuchs, Chem. Rev., 2009, 109, 2315–2349; (b) P. Devendar and G.-F. Yang, Top. Curr. Chem., 2017, 375, 82; (c) K. A. Scott and J. T. Njardarson, Top. Curr. Chem., 2018, 376, 5; (d) M. Ibrahim, A. Latif, A. A. Ali, A. I. Ribeiro, U. Farooq, F. Ullah, A. Khan, A. A. Harrasi, M. Ahmad and M. Ali, Drug Dev. Res., 2020, 82, 562–574; (e) P. Li, L. J. Wang and X. J. Wang, J. Heterocycl. Chem., 2021, 58, 28–45; (f) P. Johe, S. Jung, E. Endres, C. Kersten, C. Zimmer, W. Ye, C. Sönnichsen, U. A. Hellmich, C. Sotrifer, T. Schirmeister and H. Neuweiler, ACS Chem. Biol., 2021, 16, 661–670; (g) S. Corpas, S. H. Kim-Lee, P. Mauleón, R. G. Arrayás and J. C. Carretero, Chem. Soc. Rev., 2022, 51, 6774–6823; (h) M. Khalilzadeh, M. Shayan, S. Jourian, M. Rahimi, M. Sheibani and A. R. Dehpour, Naunyn-Schmiedeberg’s Arch. Pharmacol., 2022, 395, 1509– 1523; (i) J.-Q. Zhang, C. Shen, S. Shuai, L. Fang, D. Hu, J. Wang, Y. Zhou, B. Ni and H. Ren, Org. Lett., 2022, 24, 9419–9424.
+
+2 (a) C. Dizman, M. A. Tasdelen and Y. Yagci, Polym. Int., 2013, 62, 991–1007; (b) N. A. Alenazi, M. A. Hussein, K. A. Alamry and A. M. Asiri, Des. Monomers Polym., 2017, 20, 532–546; (c) K. A. Scott and J. T. Njardarson, Top. Curr. Chem., 2018, 376, 5; (d) H. Luo, J. Aboki, Y. Ji, R. Guo and G. M. Geise, ACS Appl. Mater. Interfaces, 2018, 10, 4102– 4112; (e) K. Raza, M. U. Siddiqui, A. F. M. Arif, S. S. Akhtar
+
+and A. S. Hakeem, Polym. Compos., 2019, 40, 1419; (f) C. W. Weyhrich and T. E. Long, Polym. Int., 2022, 71, 532–536.
+
+3 (a) T. M. Williams, T. M. Ciccarone, S. C. Mac Tough, C. S. Rooney, S. K. Balani, J. H. Condra, E. A. Emini, M. E. Goldman, W. J. Greenlee and L. R. Kaufman, J. Med. Chem., 1993, 36, 1291–1294; (b) D. H. Boschelli, J. B. Kramer, S. S. Khatana, R. J. Sorenson, D. T. Connor, M. A. Ferin, C. D. Wright, M. E. Lesch, K. Imre, G. C. Okonkwo, D. J. Schrier, M. C. Conroy, E. Ferguson, J. Woelle and U. Saxena, J. Med. Chem., 1995, 38, 4597– 4614; (c) M. Artico, R. Silvestri, S. Massa, A. G. Loi, S. Corrias, G. Piras and P. L. Colla, J. Med. Chem., 1996, 39, 522.
+
+4 (a) D. E. Goggin, G. R. Cawthray, G. R. Flematti, S. D. Bringans, H. Lim, H. J. Beckie and R. Busi, J. Agric. Food Chem., 2021, 69, 6414–6422; (b) H. Z. Wang, L. P. Wang, X. L. Zhang, S. Bai, T. Jin, W. T. Liu and J. X. Wang, J. Agric. Food Chem., 2021, 69, 7168–7177; (c) X.-Y. Leng, L.-X. Zhao, S. Gao, F. Ye and Y. Fu, J. Agric. Food Chem., 2023, 71(30), 11320–11331; (d) S. Wang, Y. Yang, D. Li, L. Xie, Y. Wu and G. Li, J. Agric. Food Chem., 2024, 72, 21959–21972.
+
+5 (a) I. Fernández and N. Khiar, Chem. Rev., 2003, 103, 3651– 3706; (b) A.-N. R. Alba, X. Companyó and R. Rios, Chem. Soc. Rev., 2010, 39, 2018–2033; (c) M. Nielsen, C. B. Jacobsen, N. Holub, M. W. Paixão and K. A. Jørgensen, Angew. Chem., Int. Ed., 2010, 49, 2668– 2679; (d) M. Jegelka and B. Plietker, Chem. – Eur. J., 2011, 17, 10417–10430; (e) M. Feng, B. Tang, S. H. Liang and X. Jiang, Curr. Top. Med. Chem., 2016, 16, 1200–1216; (f) Y. Fang, Z. Luo and X. Xu, RSC Adv., 2016, 6, 59661– 59676; (g) N.-W. Liu, S. Liang and G. Manolikakes, Synthesis, 2016, 1939–1973; (h) C. Dai, J. Wang, S. Deng, C. Zhou, W. Zhang, Q Zhu and X Tang, RSC Adv., 2017, 7, 36112–36116; (i) Q. Yan, G. Xiao, Y. Wang, G. Zi, Z. Zhang and G. Hou, J. Am. Chem. Soc., 2019, 141, 1749–1756; ( j) M. A. Guerrero-Robles, M. A. Vilchis-Reyes, E. M. Ramos-Rivera and C. Alvarado, ChemistrySelect, 2019, 4, 13698–13708; (k) S. Liang, K. Hofman, M. Friedrich, J. Keller and G. Manolikakes, ChemSusChem, 2021, 14, 4878; (l) D. Yadav and R. S. Menon, Org. Biomol. Chem., 2020, 18, 365–378; (m) D. Joseph, M. A. Idris, J. Chen and S. Lee, ACS Catal., 2021, 11, 4169–4204; (n) C. Zhu, Y. Cai and H. Jiang, Org. Chem. Front., 2021, 8, 5574–5589; (o) Y. Huang, J. Li, H. Chen, Z. He and Q. Zeng, Chem. Rec., 2021, 21, 1216–1239; (p) W. Xiao, J.-Q. Chen and J. Wu, Chem. Soc. Rev., 2025, 54, 6832–6926.
+
+6 (a) Q. Zhang, D. Dong and W. Zi, J. Am. Chem. Soc., 2020, 142, 15860–15869; (b) M. Li, L. Cheng, L. Xiao, J. Xie and Q. Zhou, Angew. Chem., Int. Ed., 2021, 60, 2948–2951; (c) Y. Huang, J. Li, H. Chen, Z. He and Q. Zeng, Chem. Rec., 2021, 21, 1216–1239; (d) S. Cao, W. Hong, Z. Ye and L. Gong, Nat. Commun., 2021, 12, 2377; (e) J. Uang, F. Liu, L.-H. Zeng, S. Li, Z. Hen and J. Wu, Nat. Commun., 2022, 13, 7081; (f) F.-S. He, C. Zhang, M. Jiang, L. Lou, J. Wu and
+
+S. Ye, Chem. Sci., 2022, 13, 8834; (g) R. Deng, S. Wu, C. Mou, J. Liu, P. Zheng, X. Zhang and Y. R. Chi, J. Am. Chem. Soc., 2022, 144, 5441; (h) X. Du, I. Cheng-Sánchez and C. Nevado, J. Am. Chem. Soc., 2023, 145, 12532–12540; (i) C.-Y. Chang and A. Aponick, J. Am. Chem. Soc., 2024, 146, 16996–17002.
+
+7 (a) K. C. Nicolaou, G. Skokotas, P. Maligres, G. Zuccarello, E. J. Schweiger, K. Toshima and S. Wendeborn, Angew. Chem., Int. Ed. Engl., 1989, 28, 1272–1275;
+
+(d) K. Haruna, H. Kanezaki, K. Tanabe, W.-M. Dai and S.-i. Nishimoto, Bioorg. Med. Chem., 2006, 14, 4427;
+
+F. Safioti, E. C. Parkes, W. Edwards, H. Direskeneli,
+
+8 (a) K. D. Barnes and R. Ward,J. Heterocycl. Chem., 1995, 32, 871–874; (b) P. R. Blakemore, J. Chem. Soc., Perkin Trans., 2002, 1, 2563–2580; (c) N. Riddell and W. Tam, J. Org. Chem., 2006, 71, 1934–1937; (d) A. Schafner, V. Darmency and P. Renaud, Angew. Chem., Int. Ed., 2006, 45, 5847–5849; (e) T. Takeda, M. Ando, T. Sugita and A. Tsubouchi, Org. Lett., 2007, 9, 2875–2878; (f) J. L. García Ruano, J. Alemán, L. Marzo, C. Alvarado, M. Tortosa, S. Díaz-Tendero and A. Fraile, Angew. Chem., Int. Ed., 2012, 51, 2712–2716; (g) J. L. García Ruano, L. Marzo, V. Marcos, C. Alvarado and J. Alemán, Chem. – Eur. J., 2012, 18, 9775–9779; (h) H. Kawai, Z. Yuan, E. Tokunaga and N. Shibata, Org. Lett., 2012, 14, 5330–5333; (i) H. Todoroki, M. Iwatsu, D. Urabe and M. Inoue, J. Org. Chem., 2014, 79, 8835–8849; (j) L. Marzo, I. Pérez, F. Yuste, J. Alemán and J. L. García Ruano, Chem. Commun., 2015, 51, 346–349; (k) J. Li, H. Tian, M. Jiang, H. Yang, Y. Zhao and H. Fu, Chem. Commun., 2016, 52, 8862–8864.
+
+9 (a) J. Liu, Z. Liu, P. Liao and X. Bi, Org. Lett., 2014, 16, 6204; (b) C. C. Chen and J. Waser, Org. Lett., 2015, 17, 736– 739; (c) J. Meesin, P. Katrun, C. Pareseecharoen, M. Pohmakotr, V. Reutrakul, D. Soorukram and C. Kuhakarn, J. Org. Chem., 2016, 81, 2744–2752; (d) M. A. Guerrero-Robles, M. A. Vilchis-Reyes,
+
+E. M. Ramos-Rivera and C. Alvarado, ChemistrySelect, 2019, 4, 13698; (e) D. Y. Qi, W. R. Dong, Z. H. Peng, Y. J. Zhang and D. L. An, Tetrahedron, 2019, 75, 130427; (f) D. S. Raghuvanshi and N. Verma, Org. Biomol. Chem., 2021, 19, 4760–4767.
+
+10 (a) T. Martzel, J.-F. Lohier, A.-C. Gaumont, J.-F. Brière and S. Perrio, Adv. Synth. Catal., 2017, 359, 96; (b) Q. H. Zhong, Y. L. Zhao, S. R. Sheng and J. M. Chen, Synth. Commun., 2020, 50, 161–167; (c) X. Meng, H. Xu, X. Cao, X. M. Cai, J. Luo, F. Wang and S. Huang, Org. Lett., 2020, 22, 6827– 6831; (d) X. Sun, M.-Y. Jin, Y.-L. He, M. Gao, S.-S. Yu, D.-R. Hu, J. Zhang, S.-Y. Zhu, X.-F. Zhang, M. Yu and B. Wu, ChemistrySelect, 2025, 10, e02284.
+
+11 Y. Liu, P. Xie, Z. Sun, X. Wo, C. Gao, W. Fu and T.-P. Loh, Org. Lett., 2018, 20, 5353–5356.
+
+12 C.-Q. Liu, H. Li, B. Wang, Z.-Y. Guo, Y. Wang, J.-T. Zhang and M.-H. Xie, Org. Chem. Front., 2022, 9, 1855–1860.
+
+13 (a) Z. Yang, W.-J. Hao, S.-L. Wang, J.-P. Zhang, B. Jiang, G. Li and S.-J. Tu, J. Org. Chem., 2015, 80, 9224–9230; (b) D. Zhu, H.-Y. Luo and Z.-M. Chen, Org. Lett., 2021, 23, 1044–1048; (c) F.-F. Zou, Z. Luo, Y.-T. Yang, X. Zhuang, C.-M. Hong, Z.-Q. Liu, W.-F. Li, Q.-H. Li and T.-L. Liu, J. Org. Chem., 2022, 87, 15061–15070.
+
+14 B. Xiong, J. Zhang, T. Wang, X. Zhang, G. Cheng and Z. Lian, Org. Chem. Front., 2023, 10, 3567–3576.
+
+15 (a) J. E. Gomez, A. Cristofol and A. W. Kleij, Angew. Chem., Int. Ed., 2019, 58, 3903–3907; (b) A. A. Garcia-Roca, R. Pérez-Soto, G. Stoica, J. Benet-Buchholz, F. Maseras and A. W. Kleij, J. Am. Chem. Soc., 2023, 145, 6442–6452; (c) C. Guo, J. Huang, S. Ye, M. Yang and J. Wu, Org. Chem. Front., 2025, 12, 3239–3245.
+
+16 (a) Y. Wang, W. Zhang and S. Ma, J. Am. Chem. Soc., 2013, 135, 11517–11520; (b) R.-Z. Li, D.-Q. Liu and D. Niu, Nat. Catal., 2020, 3, 672–680; (c) F.-D. Lu, D. Liu, L. Zhu, L.-Q. Lu, Q. Yang, Q.-Q. Zhou, Y. Wei, Y. Lan and W.-J. Xiao, J. Am. Chem. Soc., 2019, 141, 6167–6172; (d) Y. Miyazaki, B. Zhou, H. Tsuji and M. Kawatsura, Org. Lett., 2020, 22, 2049–2053; (e) Z. He, L. Peng and C. Guo, Nat. Synth., 2022, 1, 393–400; (f) J. Zhang, X. Chang, X. Xu, H. Wang, L. Peng and C. Guo, Nat. Commun., 2022, 13, 7049; (g) G.-Y. Han, P.-F. Su, Q.-Q. Pan, et al., Nat. Catal., 2024, 7, 12–20; (h) Z. Zhao, L. Zhu, Z.-L. Song, K. Qubi, Q. Ouyang, W. Du and Y.-C. Chen, J. Am. Chem. Soc., 2024, 146, 30678–30685; (i) F. Tong, D. Hu, C. Zhang, J.-Q. Zhang and H. Ren, Org. Chem. Front., 2024, 11, 1843– 1857.
+
+17 (a) K. Majima, R. Takita, A. Okada, T. Ohshima and M. Shibasaki, J. Am. Chem. Soc., 2003, 125, 15837–15841; (b) K. Kurihara, Y. Yamamoto and N. Miyaura, Adv. Synth. Catal., 2009, 351, 260–270; (c) X.-Q. Yu, Y. Yamamoto and N. Miyaura, Synlett, 2009, 994–998; (d) Y. Yamamoto, K. Kurihara, Y. Takahashi and N. Miyaura, Molecules, 2013, 18, 14–26; (e) T. Shirai, H. Ito and Y. Yamamoto, Angew. Chem., Int. Ed., 2014, 53, 2658–2661; (f) T. Shirai and Y. Yamamoto, Angew. Chem., Int. Ed., 2015, 54, 9894– 9897.
+
+18 (a) C. Puchot, O. Samuel, E. Dufiach, S. Zhao, C. Agami and H. B. Kagan, J. Am. Chem. Soc., 1986, 108, 2353–2357; (b) Y. Yuan, J. Long, J. Sun and K. Ding, Chem. – Eur. J., 2002, 8(21), 5033–5042; (c) Asymmetric Catalysis: New Concepts and Methods, ed. K. Ding and Q.-H. Fan, China Chemical Industry Press, 2008; (d) T. Satyanarayana, S. Abraham and H. B. Kagan, Angew. Chem., Int. Ed., 2009, 48, 456–494.
+
+19 (a) J. A. Marshal and M. Wolf, J. Org. Chem., 1996, 61, 3238–3239; (b) J. Tsuji and T. Mandai, Angew. Chem., Int. Ed. Engl., 1996, 34, 2589–2612; (c) S. Ma and G. Wang, Angew. Chem., Int. Ed., 2003, 42, 4215–4217; (d) T. Ishikawa,
+
+T. Aikawa, Y. Mori and S. Saito, Org. Lett., 2003, 5, 51–54; (e) S. Ogoshi, T. Nishida, T. Shinagawa and H. Kurosawa, J. Am. Chem. Soc., 2001, 123, 7164–7165; (f) L.-N. Guo, X.-H. Duan and Y.-M. Liang, Acc. Chem. Res., 2011, 44, 111; (g) M. J. Ardolino and J. P. Morken,J. Am. Chem. Soc., 2012, 134, 8770; (h) I. Ambrogio, S. Cacchi, G. Fabrizi, A. Goggiamani and A. Iazzetti, Eur. J. Org. Chem., 2015, 3147–3151; (i) X. Huang, S. Wu and W. Wu, Nat. Commun., 2016, 7, 12382.
+
+20 Z.-X. Ou, B.-H. Zhang, J.-X. Song, L.-B. Li and X.-W. Wang, CCDC 2417131: Experimental Crystal Structure Determination, 2025, DOI: 10.5517/ccdc.csd.cc2m46zz.

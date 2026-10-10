@@ -1,0 +1,596 @@
+{
+  "scope": "自动检查数据引用、标准SMILES可解析性和资源；不代表结构与原图完全一致。含R基团/缩写的图表示不可按普通SMILES直接使用，不能据此判为识别错误。",
+  "molecules": [
+    {
+      "mol_id": "mol_0001",
+      "page": 1,
+      "smiles": "O=C1NC2CCCCC2N1C1CCN(C2CCC3(CCCO3)CC2)CC1",
+      "rdkit_parseable": true
+    },
+    {
+      "mol_id": "mol_0002",
+      "page": 1,
+      "smiles": "C[C@H]1CC[C@@H]2[C@@](C)(CO)[C@H](O)CC[C@@]2(C)[C@]12CC[C@](CO)(CCO)O2",
+      "rdkit_parseable": true
+    },
+    {
+      "mol_id": "mol_0003",
+      "page": 1,
+      "smiles": "CC(C)CC([C@@H](O)[C@H](CC1=CC=CC=C1)NC(=O)C1CC2(CCCO2)CCO1)[S](=O)(=O)[Ar]",
+      "rdkit_parseable": false,
+      "unexpanded_or_nonstandard_labels": [],
+      "review_required": true
+    },
+    {
+      "mol_id": "mol_0004",
+      "page": 1,
+      "smiles": "COC(=O)C1=CC2=C(C=C1)O[C@]1(C2)[C@@H](C)CC[C@@H](O)C1(C)C",
+      "rdkit_parseable": true
+    },
+    {
+      "mol_id": "mol_0005",
+      "page": 1,
+      "smiles": "O=C1[CH2][Rα][CH2]C1/[C]([X])=[C](/[R1])[R2]",
+      "rdkit_parseable": false,
+      "unexpanded_or_nonstandard_labels": [
+        "[R1]",
+        "[R2]",
+        "[Rα]",
+        "[X]"
+      ],
+      "review_required": true
+    },
+    {
+      "mol_id": "mol_0006",
+      "page": 1,
+      "smiles": "[R1]/[C]([R2])=[C](/[X])C1OC12[CH2][Y][CH2]2",
+      "rdkit_parseable": false,
+      "unexpanded_or_nonstandard_labels": [
+        "[R1]",
+        "[R2]",
+        "[X]"
+      ],
+      "review_required": true
+    },
+    {
+      "mol_id": "mol_0007",
+      "page": 1,
+      "smiles": "OC1([CH]2[X]/[Rα]2=[C](\\[R1])[R2])[CH2][Rβ][Rγ][CH2]1",
+      "rdkit_parseable": false,
+      "unexpanded_or_nonstandard_labels": [
+        "[R1]",
+        "[R2]",
+        "[Rα]",
+        "[Rβ]",
+        "[Rγ]",
+        "[X]"
+      ],
+      "review_required": true
+    },
+    {
+      "mol_id": "mol_0008",
+      "page": 1,
+      "smiles": "[R1][C]1([R2])OC2(C=[C]1[X])[CH2][Rα][CH2]2",
+      "rdkit_parseable": false,
+      "unexpanded_or_nonstandard_labels": [
+        "[R1]",
+        "[R2]",
+        "[Rα]",
+        "[X]"
+      ],
+      "review_required": true
+    },
+    {
+      "mol_id": "mol_0009",
+      "page": 1,
+      "smiles": "OC1(/[CH]=[Rα]2/[X][C+]->2([R1])[R2])[CH2][Rβ][CH2]1",
+      "rdkit_parseable": false,
+      "unexpanded_or_nonstandard_labels": [
+        "[R1]",
+        "[R2]",
+        "[Rα]",
+        "[Rβ]",
+        "[X]"
+      ],
+      "review_required": true
+    },
+    {
+      "mol_id": "mol_0010",
+      "page": 1,
+      "smiles": "OC1(C=C=[C]([R1])[R2])[CH2][Rβ][Rα][CH2]1",
+      "rdkit_parseable": false,
+      "unexpanded_or_nonstandard_labels": [
+        "[R1]",
+        "[R2]",
+        "[Rα]",
+        "[Rβ]"
+      ],
+      "review_required": true
+    },
+    {
+      "mol_id": "mol_0011",
+      "page": 1,
+      "smiles": "OC1(C=C=[C]([R1])[R2])[CH2][Rβ][Rα][CH2]1",
+      "rdkit_parseable": false,
+      "unexpanded_or_nonstandard_labels": [
+        "[R1]",
+        "[R2]",
+        "[Rα]",
+        "[Rβ]"
+      ],
+      "review_required": true
+    },
+    {
+      "mol_id": "mol_0012",
+      "page": 1,
+      "smiles": "BrC1=[C]([Rα])C2([CH2][Y][CH2]2)O[C@]1([R1])[R2]",
+      "rdkit_parseable": false,
+      "unexpanded_or_nonstandard_labels": [
+        "[R1]",
+        "[R2]",
+        "[Rα]"
+      ],
+      "review_required": true
+    },
+    {
+      "mol_id": "mol_0013",
+      "page": 1,
+      "smiles": "OC1(C=C=[C]([R1])[R2])[CH2][Rβ][Y][Rα][CH2]1",
+      "rdkit_parseable": false,
+      "unexpanded_or_nonstandard_labels": [
+        "[R1]",
+        "[R2]",
+        "[Rα]",
+        "[Rβ]"
+      ],
+      "review_required": true
+    },
+    {
+      "mol_id": "mol_0014",
+      "page": 1,
+      "smiles": "BrC1=CC2([CH2][Rα][CH2]2)O[C@]1([R1])[R2]",
+      "rdkit_parseable": false,
+      "unexpanded_or_nonstandard_labels": [
+        "[R1]",
+        "[R2]",
+        "[Rα]"
+      ],
+      "review_required": true
+    },
+    {
+      "mol_id": "mol_0015",
+      "page": 2,
+      "smiles": "CCCCCCCC1OC2(C=[C]1[X])CCCCC2",
+      "rdkit_parseable": false,
+      "unexpanded_or_nonstandard_labels": [
+        "[X]"
+      ],
+      "review_required": true
+    },
+    {
+      "mol_id": "mol_0016",
+      "page": 2,
+      "smiles": "C=CCC1(CC=C)OC(CCCCCC)C(Br)=C1CCC",
+      "rdkit_parseable": true
+    },
+    {
+      "mol_id": "mol_0017",
+      "page": 2,
+      "smiles": "CCCCCCCC1OC2(C=C1Br)CCCCCCCCCCC2",
+      "rdkit_parseable": true
+    },
+    {
+      "mol_id": "mol_0018",
+      "page": 2,
+      "smiles": "O[C]([R1])([R2])C=C=[C]([R4])[R3]",
+      "rdkit_parseable": false,
+      "unexpanded_or_nonstandard_labels": [
+        "[R1]",
+        "[R2]",
+        "[R3]",
+        "[R4]"
+      ],
+      "review_required": true
+    },
+    {
+      "mol_id": "mol_0019",
+      "page": 2,
+      "smiles": "CCCCCCCC1OC2(C=C1Br)CCCC2",
+      "rdkit_parseable": true
+    },
+    {
+      "mol_id": "mol_0020",
+      "page": 2,
+      "smiles": "CCCCCCCC1OC2(C=C1Br)CCC2",
+      "rdkit_parseable": true
+    },
+    {
+      "mol_id": "mol_0021",
+      "page": 2,
+      "smiles": "CCCCCC1C=C(Br)C2(CCCCC2)O1",
+      "rdkit_parseable": true
+    },
+    {
+      "mol_id": "mol_0022",
+      "page": 2,
+      "smiles": "CCCCCCCC1OC2(C=C1Br)CCCC(C1CCCCCC1)CC2",
+      "rdkit_parseable": true
+    },
+    {
+      "mol_id": "mol_0023",
+      "page": 2,
+      "smiles": "C=CCC1OC2(C=C1Br)CCCCC2",
+      "rdkit_parseable": true
+    },
+    {
+      "mol_id": "mol_0024",
+      "page": 2,
+      "smiles": "BrC1=C[C]([R1])([R2])O[C]1([R4])[R3]",
+      "rdkit_parseable": false,
+      "unexpanded_or_nonstandard_labels": [
+        "[R1]",
+        "[R2]",
+        "[R3]",
+        "[R4]"
+      ],
+      "review_required": true
+    },
+    {
+      "mol_id": "mol_0025",
+      "page": 2,
+      "smiles": "CCCCCCCC1OC2(C=C1Br)CCN(C(=O)OC(C)(C)C)CC2",
+      "rdkit_parseable": true
+    },
+    {
+      "mol_id": "mol_0026",
+      "page": 2,
+      "smiles": "BrC1=CC2(CCCCC2)OC1C1CC1",
+      "rdkit_parseable": true
+    },
+    {
+      "mol_id": "mol_0027",
+      "page": 2,
+      "smiles": "CCCCCCCC1OC2(C=C1Br)CCC1(CC2)OCCO1",
+      "rdkit_parseable": true
+    },
+    {
+      "mol_id": "mol_0028",
+      "page": 2,
+      "smiles": "BrC1=CC2(CCCCC2)OC12CCCCC2",
+      "rdkit_parseable": true
+    },
+    {
+      "mol_id": "mol_0029",
+      "page": 2,
+      "smiles": "BrC1=CC2(CCCCC2)OC1CCC1=CC=CC=C1",
+      "rdkit_parseable": true
+    },
+    {
+      "mol_id": "mol_0030",
+      "page": 2,
+      "smiles": "BrC1=CC2(CCCCC2)O[CH]1[C8H16Br]",
+      "rdkit_parseable": false,
+      "unexpanded_or_nonstandard_labels": [
+        "[C8H16Br]"
+      ],
+      "review_required": true
+    },
+    {
+      "mol_id": "mol_0031",
+      "page": 2,
+      "smiles": "CCCCCCCC1OC(CC2=CC=CC=C2)(CC2=CC=CC=C2)C=C1Br",
+      "rdkit_parseable": true
+    },
+    {
+      "mol_id": "mol_0032",
+      "page": 2,
+      "smiles": "CCCCCCCC1OC2(C=C1Br)CCOCC2",
+      "rdkit_parseable": true
+    },
+    {
+      "mol_id": "mol_0033",
+      "page": 2,
+      "smiles": "CCCC1(CCC)OCC=C1Br",
+      "rdkit_parseable": true
+    },
+    {
+      "mol_id": "mol_0034",
+      "page": 2,
+      "smiles": "CCCCCCCC1OC(C)(C)C=C1Br",
+      "rdkit_parseable": true
+    },
+    {
+      "mol_id": "mol_0035",
+      "page": 3,
+      "smiles": "[H]C(=C=CC1(O)C[CH2][BocN][CH2]C1)CCCCCCC",
+      "rdkit_parseable": false,
+      "unexpanded_or_nonstandard_labels": [
+        "[BocN]"
+      ],
+      "review_required": true
+    },
+    {
+      "mol_id": "mol_0036",
+      "page": 3,
+      "smiles": "CCCCCCC[C@H]1OC2(C=C1Br)C[CH2][BocN][CH2]C2",
+      "rdkit_parseable": false,
+      "unexpanded_or_nonstandard_labels": [
+        "[BocN]"
+      ],
+      "review_required": true
+    },
+    {
+      "mol_id": "mol_0037",
+      "page": 3,
+      "smiles": "CCCCCCC[C@@H]1OC2(C=C1Br)C[CH2][BocN][CH2]C2",
+      "rdkit_parseable": false,
+      "unexpanded_or_nonstandard_labels": [
+        "[BocN]"
+      ],
+      "review_required": true
+    },
+    {
+      "mol_id": "mol_0038",
+      "page": 3,
+      "smiles": "[H]C(=C=CC1(O)C[CH2][BocN][CH2]C1)CCCCCCC",
+      "rdkit_parseable": false,
+      "unexpanded_or_nonstandard_labels": [
+        "[BocN]"
+      ],
+      "review_required": true
+    },
+    {
+      "mol_id": "mol_0039",
+      "page": 3,
+      "smiles": "CCCCCCCC1OC2(C=C1C=C(C)C)CCOCC2",
+      "rdkit_parseable": true
+    },
+    {
+      "mol_id": "mol_0040",
+      "page": 3,
+      "smiles": "[H]C1(Br)CC2(CCOCC2)OC1([H])CCCCCCC",
+      "rdkit_parseable": true
+    },
+    {
+      "mol_id": "mol_0041",
+      "page": 3,
+      "smiles": "CCCCCCCC=C=CC1(O)CCOCC1",
+      "rdkit_parseable": true
+    },
+    {
+      "mol_id": "mol_0042",
+      "page": 3,
+      "smiles": "CCCCCCCC1OC2(C=C1C1=CC=CC=C1)CCOCC2",
+      "rdkit_parseable": true
+    },
+    {
+      "mol_id": "mol_0043",
+      "page": 3,
+      "smiles": "CCCCCCCC1OC2(C=C1Br)CCOCC2",
+      "rdkit_parseable": true
+    },
+    {
+      "mol_id": "mol_0044",
+      "page": 3,
+      "smiles": "CCCCCCCC1OC2(C=C1Br)CCOCC2",
+      "rdkit_parseable": true
+    },
+    {
+      "mol_id": "mol_0045",
+      "page": 3,
+      "smiles": "CC(C)=CB1OC(C)(C)C(C)(C)O1",
+      "rdkit_parseable": true
+    },
+    {
+      "mol_id": "mol_0046",
+      "page": 3,
+      "smiles": "CCCCCCCC1CCC2(CCOCC2)O1",
+      "rdkit_parseable": true
+    },
+    {
+      "mol_id": "mol_0047",
+      "page": 3,
+      "smiles": "[H][C@]1(CCCCCCC)BrC1=CC1(O)C[CH2][BocN][CH2]C1",
+      "rdkit_parseable": false,
+      "unexpanded_or_nonstandard_labels": [
+        "[BocN]"
+      ],
+      "review_required": true
+    },
+    {
+      "mol_id": "mol_0048",
+      "page": 3,
+      "smiles": "CCCCCCC[C@H]1OC2(C=C1Br)C[CH2][BocN][CH2]C2",
+      "rdkit_parseable": false,
+      "unexpanded_or_nonstandard_labels": [
+        "[BocN]"
+      ],
+      "review_required": true
+    },
+    {
+      "mol_id": "mol_0049",
+      "page": 2,
+      "smiles": "CCCCCCCC=C=CC1(O)CCCCC1",
+      "rdkit_parseable": true
+    },
+    {
+      "mol_id": "mol_0050",
+      "page": 2,
+      "smiles": "CCCCCCCC1OC2(C=C1Br)CCCCC2",
+      "rdkit_parseable": true
+    }
+  ],
+  "reactions": [
+    {
+      "reaction_id": "rxn_0001",
+      "page": 1,
+      "unknown_mol_ids": [],
+      "reaction_smiles_empty": true,
+      "reactants_smiles_empty": false,
+      "products_smiles_empty": false,
+      "source_figure_copy": "原文核对图/page1_block21.jpg",
+      "source_figure_note": "依据正文版面page_idx/block_index匹配的整张原文图或表；不是官方单反应预览图，不验证反应配对准确性。"
+    },
+    {
+      "reaction_id": "rxn_0002",
+      "page": 1,
+      "unknown_mol_ids": [],
+      "reaction_smiles_empty": true,
+      "reactants_smiles_empty": false,
+      "products_smiles_empty": false,
+      "source_figure_copy": "原文核对图/page1_block21.jpg",
+      "source_figure_note": "依据正文版面page_idx/block_index匹配的整张原文图或表；不是官方单反应预览图，不验证反应配对准确性。"
+    },
+    {
+      "reaction_id": "rxn_0003",
+      "page": 1,
+      "unknown_mol_ids": [],
+      "reaction_smiles_empty": true,
+      "reactants_smiles_empty": false,
+      "products_smiles_empty": false,
+      "source_figure_copy": "原文核对图/page1_block21.jpg",
+      "source_figure_note": "依据正文版面page_idx/block_index匹配的整张原文图或表；不是官方单反应预览图，不验证反应配对准确性。"
+    },
+    {
+      "reaction_id": "rxn_0004",
+      "page": 1,
+      "unknown_mol_ids": [],
+      "reaction_smiles_empty": true,
+      "reactants_smiles_empty": false,
+      "products_smiles_empty": false,
+      "source_figure_copy": "原文核对图/page1_block21.jpg",
+      "source_figure_note": "依据正文版面page_idx/block_index匹配的整张原文图或表；不是官方单反应预览图，不验证反应配对准确性。"
+    },
+    {
+      "reaction_id": "rxn_0005",
+      "page": 1,
+      "unknown_mol_ids": [],
+      "reaction_smiles_empty": true,
+      "reactants_smiles_empty": false,
+      "products_smiles_empty": false,
+      "source_figure_copy": "原文核对图/page1_block24.jpg",
+      "source_figure_note": "依据正文版面page_idx/block_index匹配的整张原文图或表；不是官方单反应预览图，不验证反应配对准确性。"
+    },
+    {
+      "reaction_id": "rxn_0006",
+      "page": 1,
+      "unknown_mol_ids": [],
+      "reaction_smiles_empty": true,
+      "reactants_smiles_empty": false,
+      "products_smiles_empty": false,
+      "source_figure_copy": "原文核对图/page1_block25.jpg",
+      "source_figure_note": "依据正文版面page_idx/block_index匹配的整张原文图或表；不是官方单反应预览图，不验证反应配对准确性。"
+    },
+    {
+      "reaction_id": "rxn_0007",
+      "page": 2,
+      "unknown_mol_ids": [],
+      "reaction_smiles_empty": true,
+      "reactants_smiles_empty": false,
+      "products_smiles_empty": false,
+      "source_figure_copy": "原文核对图/page2_block10.jpg",
+      "source_figure_note": "依据正文版面page_idx/block_index匹配的整张原文图或表；不是官方单反应预览图，不验证反应配对准确性。"
+    },
+    {
+      "reaction_id": "rxn_0008",
+      "page": 3,
+      "unknown_mol_ids": [],
+      "reaction_smiles_empty": true,
+      "reactants_smiles_empty": false,
+      "products_smiles_empty": false,
+      "source_figure_copy": "原文核对图/page3_block5.jpg",
+      "source_figure_note": "依据正文版面page_idx/block_index匹配的整张原文图或表；不是官方单反应预览图，不验证反应配对准确性。"
+    },
+    {
+      "reaction_id": "rxn_0009",
+      "page": 3,
+      "unknown_mol_ids": [],
+      "reaction_smiles_empty": true,
+      "reactants_smiles_empty": false,
+      "products_smiles_empty": false,
+      "source_figure_copy": "原文核对图/page3_block5.jpg",
+      "source_figure_note": "依据正文版面page_idx/block_index匹配的整张原文图或表；不是官方单反应预览图，不验证反应配对准确性。"
+    },
+    {
+      "reaction_id": "rxn_0010",
+      "page": 3,
+      "unknown_mol_ids": [],
+      "reaction_smiles_empty": true,
+      "reactants_smiles_empty": false,
+      "products_smiles_empty": false,
+      "source_figure_copy": "原文核对图/page3_block7.jpg",
+      "source_figure_note": "依据正文版面page_idx/block_index匹配的整张原文图或表；不是官方单反应预览图，不验证反应配对准确性。"
+    },
+    {
+      "reaction_id": "rxn_0011",
+      "page": 3,
+      "unknown_mol_ids": [],
+      "reaction_smiles_empty": true,
+      "reactants_smiles_empty": false,
+      "products_smiles_empty": false,
+      "source_figure_copy": "原文核对图/page3_block7.jpg",
+      "source_figure_note": "依据正文版面page_idx/block_index匹配的整张原文图或表；不是官方单反应预览图，不验证反应配对准确性。"
+    },
+    {
+      "reaction_id": "rxn_0012",
+      "page": 3,
+      "unknown_mol_ids": [],
+      "reaction_smiles_empty": true,
+      "reactants_smiles_empty": false,
+      "products_smiles_empty": false,
+      "source_figure_copy": "原文核对图/page3_block7.jpg",
+      "source_figure_note": "依据正文版面page_idx/block_index匹配的整张原文图或表；不是官方单反应预览图，不验证反应配对准确性。"
+    },
+    {
+      "reaction_id": "rxn_0013",
+      "page": 3,
+      "unknown_mol_ids": [],
+      "reaction_smiles_empty": true,
+      "reactants_smiles_empty": false,
+      "products_smiles_empty": false,
+      "source_figure_copy": "原文核对图/page3_block7.jpg",
+      "source_figure_note": "依据正文版面page_idx/block_index匹配的整张原文图或表；不是官方单反应预览图，不验证反应配对准确性。"
+    },
+    {
+      "reaction_id": "rxn_0014",
+      "page": 3,
+      "unknown_mol_ids": [],
+      "reaction_smiles_empty": true,
+      "reactants_smiles_empty": false,
+      "products_smiles_empty": false,
+      "source_figure_copy": "原文核对图/page3_block20.jpg",
+      "source_figure_note": "依据正文版面page_idx/block_index匹配的整张原文图或表；不是官方单反应预览图，不验证反应配对准确性。"
+    },
+    {
+      "reaction_id": "rxn_0015",
+      "page": 3,
+      "unknown_mol_ids": [],
+      "reaction_smiles_empty": true,
+      "reactants_smiles_empty": false,
+      "products_smiles_empty": false,
+      "source_figure_copy": "原文核对图/page3_block20.jpg",
+      "source_figure_note": "依据正文版面page_idx/block_index匹配的整张原文图或表；不是官方单反应预览图，不验证反应配对准确性。"
+    },
+    {
+      "reaction_id": "rxn_0016",
+      "page": 3,
+      "unknown_mol_ids": [],
+      "reaction_smiles_empty": true,
+      "reactants_smiles_empty": false,
+      "products_smiles_empty": false,
+      "source_figure_copy": "原文核对图/page3_block20.jpg",
+      "source_figure_note": "依据正文版面page_idx/block_index匹配的整张原文图或表；不是官方单反应预览图，不验证反应配对准确性。"
+    },
+    {
+      "reaction_id": "rxn_0017",
+      "page": 2,
+      "unknown_mol_ids": [],
+      "reaction_smiles_empty": true,
+      "reactants_smiles_empty": false,
+      "products_smiles_empty": false,
+      "source_figure_copy": "原文核对图/page2_block5.jpg",
+      "source_figure_note": "依据正文版面page_idx/block_index匹配的整张原文图或表；不是官方单反应预览图，不验证反应配对准确性。"
+    }
+  ],
+  "source_figures": []
+}

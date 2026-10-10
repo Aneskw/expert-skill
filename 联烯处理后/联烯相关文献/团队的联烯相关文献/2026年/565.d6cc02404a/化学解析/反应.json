@@ -1,0 +1,2219 @@
+{
+  "table_type": "reaction_table",
+  "description": "Comprehensive table of all detected reactions with their properties",
+  "columns": [
+    "reaction_id",
+    "reaction_figure",
+    "reaction_conditions",
+    "reaction_smiles",
+    "reactants",
+    "products",
+    "reactants_smiles",
+    "products_smiles",
+    "source_figure",
+    "confidence",
+    "page_idx",
+    "block_index",
+    "scale_factor"
+  ],
+  "data": [
+    {
+      "reaction_id": "rxn_0001",
+      "reaction_figure": "reaction_extraction/visualize/36938290-2944-443e-b5e6-1e41305b280e_origin_0_block21_image_rxn1_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "other",
+          "condition": "[Txt]",
+          "bbox": [
+            300,
+            170,
+            356,
+            182
+          ],
+          "page_bbox": [
+            1131,
+            1702,
+            1187,
+            1714
+          ],
+          "scale_factor": 2.7765505522514866
+        },
+        {
+          "type": "text",
+          "condition": "bond Iormation",
+          "bbox": [
+            282,
+            131,
+            377,
+            159
+          ],
+          "page_bbox": [
+            1113,
+            1663,
+            1208,
+            1691
+          ],
+          "scale_factor": 2.7765505522514866
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            50,
+            76,
+            147,
+            142
+          ],
+          "page_bbox": [
+            881,
+            1608,
+            978,
+            1674
+          ],
+          "scale_factor": 2.7765505522514866,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            399,
+            117,
+            510,
+            188
+          ],
+          "page_bbox": [
+            1230,
+            1649,
+            1341,
+            1720
+          ],
+          "scale_factor": 2.7765505522514866,
+          "category_id": 1,
+          "category": "[Mol]"
+        },
+        {
+          "bbox": [
+            574,
+            103,
+            670,
+            187
+          ],
+          "page_bbox": [
+            1405,
+            1635,
+            1501,
+            1719
+          ],
+          "scale_factor": 2.7765505522514866,
+          "category_id": 1,
+          "category": "[Mol]"
+        },
+        {
+          "bbox": [
+            522,
+            156,
+            563,
+            168
+          ],
+          "page_bbox": [
+            1353,
+            1688,
+            1394,
+            1700
+          ],
+          "scale_factor": 2.7765505522514866,
+          "category_id": 2,
+          "category": "[Txt]"
+        },
+        {
+          "bbox": [
+            574,
+            23,
+            671,
+            89
+          ],
+          "page_bbox": [
+            1405,
+            1555,
+            1502,
+            1621
+          ],
+          "scale_factor": 2.7765505522514866,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "[R2][C]([R3])([OPG])C#[C][R1]",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    2.4729   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.4729   -1.1116    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.6512   -1.6673    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.9490   -2.0729    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.3791   -1.2092    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8217   -2.2231    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -2.7789    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  2  1  0     0  0\n  5  2  1  0     0  0\n  6  3  3  0     0  0\n  7  6  1  0     0  0\nA  1\n[OPG]\nA  4\n[R2]\nA  5\n[R3]\nA  7\n[R1]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_0_block21_image_mol_3.jpg",
+            "mol_id": "mol_0004"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "O=[S](=O)([R])[C]([R1])=C=[C]([R2])[R3]",
+            "molfile": "\n     RDKit          2D\n\n 10  9  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -1.6512    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.4091   -1.6512    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n    2.1195   -3.0974    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.4091   -0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    2.6405   -0.8196    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.5404   -3.0974    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.4091   -4.5437    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.9613   -3.0974    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.1691   -2.2779    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.1691   -3.9290    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  2  2  0     0  0\n  5  2  2  0     0  0\n  6  3  2  0     0  0\n  7  3  1  0     0  0\n  8  6  2  0     0  0\n  9  8  1  0     0  0\n 10  8  1  0     0  0\nA  1\n[R]\nA  7\n[R1]\nA  9\n[R3]\nA  10\n[R2]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_0_block21_image_mol_0.jpg",
+            "mol_id": "mol_0001"
+          }
+        },
+        {
+          "product_2": {
+            "smiles": "O=[S](=O)([R])[C]([R2])([R3])C#[C][R1]",
+            "molfile": "\n     RDKit          2D\n\n 10  9  0  0  0  0  0  0  0  0999 V2000\n    4.3982   -0.4560    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.2961   -1.0882    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n    3.2961   -2.3423    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.6693   -0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    2.0323   -1.0882    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    2.1940   -2.9745    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.9331   -3.4305    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.8431   -2.5081    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0920   -3.5963    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -4.2182    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  2  2  0     0  0\n  5  2  2  0     0  0\n  6  3  1  0     0  0\n  7  3  1  0     0  0\n  8  3  1  0     0  0\n  9  6  3  0     0  0\n 10  9  1  0     0  0\nA  1\n[R]\nA  7\n[R2]\nA  8\n[R3]\nA  10\n[R1]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_0_block21_image_mol_2.jpg",
+            "mol_id": "mol_0003"
+          }
+        },
+        {
+          "product_3": {
+            "smiles": "(no SMILES)",
+            "molfile": "",
+            "crop_path": "reaction_extraction/reaction_mol/36938290-2944-443e-b5e6-1e41305b280e_origin_0_block21_image_rxn1_pro3.jpg",
+            "mol_id": null
+          }
+        },
+        {
+          "product_4": {
+            "smiles": "[R2][C]([R])([R3])C#[C][R1]",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    2.5046   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5046   -1.0657    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.6698   -1.5948    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.9910   -1.9823    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4557   -1.1402    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8349   -2.1239    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -2.6531    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  2  1  0     0  0\n  5  2  1  0     0  0\n  6  3  3  0     0  0\n  7  6  1  0     0  0\nA  1\n[R]\nA  4\n[R2]\nA  5\n[R3]\nA  7\n[R1]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_0_block21_image_mol_1.jpg",
+            "mol_id": "mol_0002"
+          }
+        }
+      ],
+      "source_figure": "36938290-2944-443e-b5e6-1e41305b280e_origin_0_block21_image",
+      "confidence": 1.0,
+      "page_idx": 0,
+      "block_index": 21,
+      "scale_factor": 2.7765505522514866
+    },
+    {
+      "reaction_id": "rxn_0002",
+      "reaction_figure": "reaction_extraction/visualize/36938290-2944-443e-b5e6-1e41305b280e_origin_0_block21_image_rxn2_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "text",
+          "condition": "catPdll",
+          "bbox": [
+            301,
+            67,
+            358,
+            79
+          ],
+          "page_bbox": [
+            1132,
+            1599,
+            1189,
+            1611
+          ],
+          "scale_factor": 2.7765505522514866
+        },
+        {
+          "type": "text",
+          "condition": "C-C",
+          "bbox": [
+            282,
+            23,
+            378,
+            52
+          ],
+          "page_bbox": [
+            1113,
+            1555,
+            1209,
+            1584
+          ],
+          "scale_factor": 2.7765505522514866
+        },
+        {
+          "type": "text",
+          "condition": "bond formation",
+          "bbox": [
+            282,
+            23,
+            378,
+            52
+          ],
+          "page_bbox": [
+            1113,
+            1555,
+            1209,
+            1584
+          ],
+          "scale_factor": 2.7765505522514866
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            50,
+            76,
+            147,
+            142
+          ],
+          "page_bbox": [
+            881,
+            1608,
+            978,
+            1674
+          ],
+          "scale_factor": 2.7765505522514866,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            406,
+            31,
+            503,
+            81
+          ],
+          "page_bbox": [
+            1237,
+            1563,
+            1334,
+            1613
+          ],
+          "scale_factor": 2.7765505522514866,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "[R2][C]([R3])([OPG])C#[C][R1]",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    2.4729   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.4729   -1.1116    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.6512   -1.6673    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.9490   -2.0729    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.3791   -1.2092    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8217   -2.2231    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -2.7789    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  2  1  0     0  0\n  5  2  1  0     0  0\n  6  3  3  0     0  0\n  7  6  1  0     0  0\nA  1\n[OPG]\nA  4\n[R2]\nA  5\n[R3]\nA  7\n[R1]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_0_block21_image_mol_3.jpg",
+            "mol_id": "mol_0004"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "[R][C]([R1])=C=[C]([R2])[R3]",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -1.9101    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4001   -0.9550    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.2060   -0.9550    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.0175   -0.9550    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7670   -1.6167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7670   -0.2934    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  2  0     0  0\n  4  2  1  0     0  0\n  5  3  2  0     0  0\n  6  5  1  0     0  0\n  7  5  1  0     0  0\nA  1\n[R1]\nA  4\n[R]\nA  6\n[R2]\nA  7\n[R3]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_0_block21_image_mol_4.jpg",
+            "mol_id": "mol_0005"
+          }
+        }
+      ],
+      "source_figure": "36938290-2944-443e-b5e6-1e41305b280e_origin_0_block21_image",
+      "confidence": 1.0,
+      "page_idx": 0,
+      "block_index": 21,
+      "scale_factor": 2.7765505522514866
+    },
+    {
+      "reaction_id": "rxn_0003",
+      "reaction_figure": "reaction_extraction/visualize/36938290-2944-443e-b5e6-1e41305b280e_origin_0_block23_image_rxn1_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "text",
+          "condition": "Pd(dmdba)z (5 mol%",
+          "bbox": [
+            324,
+            11,
+            460,
+            45
+          ],
+          "page_bbox": [
+            1186,
+            1808,
+            1322,
+            1842
+          ],
+          "scale_factor": 2.7765505522514866
+        },
+        {
+          "type": "text",
+          "condition": "DPEphos (6 mol%)",
+          "bbox": [
+            324,
+            11,
+            460,
+            45
+          ],
+          "page_bbox": [
+            1186,
+            1808,
+            1322,
+            1842
+          ],
+          "scale_factor": 2.7765505522514866
+        },
+        {
+          "type": "text",
+          "condition": "DMSOIH,O, Ar; 100 %C",
+          "bbox": [
+            318,
+            59,
+            466,
+            75
+          ],
+          "page_bbox": [
+            1180,
+            1856,
+            1328,
+            1872
+          ],
+          "scale_factor": 2.7765505522514866
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            42,
+            18,
+            145,
+            85
+          ],
+          "page_bbox": [
+            904,
+            1815,
+            1007,
+            1882
+          ],
+          "scale_factor": 2.7765505522514866,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            510,
+            27,
+            614,
+            78
+          ],
+          "page_bbox": [
+            1372,
+            1824,
+            1476,
+            1875
+          ],
+          "scale_factor": 2.7765505522514866,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "CC(=O)O[C]([R2])([Ar])C#[C][R1]",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -3.1287    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0176   -2.4034    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.0352   -1.6782    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.0529   -0.9529    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0622   -1.6782    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.4572   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6403   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  3  0     0  0\n  4  3  1  0     0  0\n  5  4  1  0     0  0\n  6  4  1  0     0  0\n  7  4  1  0     0  0\nA  1\n[R1]\nA  5\n[OAc]\nA  6\n[R2]\nA  7\n[Ar]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_0_block23_image_mol_0.jpg",
+            "mol_id": "mol_0007"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "[RO2S][C]([R1])=C=[C]([R2])[Ar]",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -1.8831    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4552   -0.9444    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.3713   -0.9444    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2931   -0.9444    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7483   -1.8831    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7483   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  2  0     0  0\n  4  2  1  0     0  0\n  5  3  2  0     0  0\n  6  5  1  0     0  0\n  7  5  1  0     0  0\nA  1\n[R1]\nA  4\n[RO2S]\nA  6\n[Ar]\nA  7\n[R2]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_0_block23_image_mol_1.jpg",
+            "mol_id": "mol_0008"
+          }
+        }
+      ],
+      "source_figure": "36938290-2944-443e-b5e6-1e41305b280e_origin_0_block23_image",
+      "confidence": 1.0,
+      "page_idx": 0,
+      "block_index": 23,
+      "scale_factor": 2.7765505522514866
+    },
+    {
+      "reaction_id": "rxn_0004",
+      "reaction_figure": "reaction_extraction/visualize/36938290-2944-443e-b5e6-1e41305b280e_origin_1_block5_image_rxn1_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "text",
+          "condition": "[Pd] (5 mol%)",
+          "bbox": [
+            311,
+            26,
+            441,
+            59
+          ],
+          "page_bbox": [
+            389,
+            188,
+            519,
+            221
+          ],
+          "scale_factor": 2.7786526684164476
+        },
+        {
+          "type": "text",
+          "condition": "DPEphos (6 mol%",
+          "bbox": [
+            311,
+            26,
+            441,
+            59
+          ],
+          "page_bbox": [
+            389,
+            188,
+            519,
+            221
+          ],
+          "scale_factor": 2.7786526684164476
+        },
+        {
+          "type": "text",
+          "condition": "Solvent, 100 \"C Ar",
+          "bbox": [
+            311,
+            70,
+            442,
+            85
+          ],
+          "page_bbox": [
+            389,
+            232,
+            520,
+            247
+          ],
+          "scale_factor": 2.7786526684164476
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            63,
+            30,
+            184,
+            97
+          ],
+          "page_bbox": [
+            141,
+            192,
+            262,
+            259
+          ],
+          "scale_factor": 2.7786526684164476,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            463,
+            36,
+            565,
+            89
+          ],
+          "page_bbox": [
+            541,
+            198,
+            643,
+            251
+          ],
+          "scale_factor": 2.7786526684164476,
+          "category_id": 1,
+          "category": "[Mol]"
+        },
+        {
+          "bbox": [
+            601,
+            30,
+            709,
+            97
+          ],
+          "page_bbox": [
+            679,
+            192,
+            787,
+            259
+          ],
+          "scale_factor": 2.7786526684164476,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "CCCCC#CC(C)(OC(C)=O)C1=CC=CC=C1",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    4.3370   -1.8120    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.2589   -1.1462    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.1726   -1.8120    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.6335   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.8844   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0781   -2.4693    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -3.1267    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  2  1  0     0  0\n  5  2  1  0     0  0\n  6  3  3  0     0  0\n  7  6  1  0     0  0\nA  1\n[OAc]\nA  4\n[Me]\nA  5\n[Ph]\nA  7\n[nBu]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_1_block5_image_mol_0.jpg",
+            "mol_id": "mol_0010"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "CCCCC(=C=C(C)C1=CC=CC=C1)S(=O)(=O)C1=CC=C(C)C=C1",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -1.9575    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4447   -0.9818    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.3461   -0.9818    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2474   -0.9818    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.6981   -1.9575    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.6981   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  2  0     0  0\n  4  2  1  0     0  0\n  5  3  2  0     0  0\n  6  5  1  0     0  0\n  7  5  1  0     0  0\nA  1\n[Ts]\nA  4\n[nBu]\nA  6\n[Ph]\nA  7\n[Me]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_1_block5_image_mol_2.jpg",
+            "mol_id": "mol_0012"
+          }
+        },
+        {
+          "product_2": {
+            "smiles": "CCCCC#CC(C)(C1=CC=CC=C1)S(=O)(=O)C1=CC=C(C)C=C1",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    3.1582   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.6826   -1.0066    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.7835   -1.5945    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.5743   -1.5945    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.1624   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8917   -2.1823    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -2.7701    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  2  1  0     0  0\n  5  2  1  0     0  0\n  6  3  3  0     0  0\n  7  6  1  0     0  0\nA  1\n[Ph]\nA  4\n[Ts]\nA  5\n[Me]\nA  7\n[nBu]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_1_block5_image_mol_1.jpg",
+            "mol_id": "mol_0011"
+          }
+        }
+      ],
+      "source_figure": "36938290-2944-443e-b5e6-1e41305b280e_origin_1_block5_image",
+      "confidence": 1.0,
+      "page_idx": 1,
+      "block_index": 5,
+      "scale_factor": 2.7786526684164476
+    },
+    {
+      "reaction_id": "rxn_0005",
+      "reaction_figure": "reaction_extraction/visualize/36938290-2944-443e-b5e6-1e41305b280e_origin_1_block10_image_rxn1_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "text",
+          "condition": "Pd(dmdba)z (5 mol%",
+          "bbox": [
+            378,
+            59,
+            505,
+            90
+          ],
+          "page_bbox": [
+            1203,
+            138,
+            1330,
+            169
+          ],
+          "scale_factor": 2.7786526684164476
+        },
+        {
+          "type": "text",
+          "condition": "DPEphos (6 mol%)",
+          "bbox": [
+            378,
+            59,
+            505,
+            90
+          ],
+          "page_bbox": [
+            1203,
+            138,
+            1330,
+            169
+          ],
+          "scale_factor": 2.7786526684164476
+        },
+        {
+          "type": "text",
+          "condition": "DMSOIHzO = 2.510.25 mL",
+          "bbox": [
+            365,
+            98,
+            518,
+            128
+          ],
+          "page_bbox": [
+            1190,
+            177,
+            1343,
+            207
+          ],
+          "scale_factor": 2.7786526684164476
+        },
+        {
+          "type": "text",
+          "condition": "100 \"C",
+          "bbox": [
+            365,
+            98,
+            518,
+            128
+          ],
+          "page_bbox": [
+            1190,
+            177,
+            1343,
+            207
+          ],
+          "scale_factor": 2.7786526684164476
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            81,
+            67,
+            177,
+            127
+          ],
+          "page_bbox": [
+            906,
+            146,
+            1002,
+            206
+          ],
+          "scale_factor": 2.7786526684164476,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            567,
+            71,
+            646,
+            117
+          ],
+          "page_bbox": [
+            1392,
+            150,
+            1471,
+            196
+          ],
+          "scale_factor": 2.7786526684164476,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "CC(=O)O[C]([R1])([Ar])C#[C][R2]",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -3.1356    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0475   -2.4398    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.1041   -1.7348    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.1608   -1.0297    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.2083   -1.7348    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7619   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5505   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  3  0     0  0\n  4  3  1  0     0  0\n  5  4  1  0     0  0\n  6  4  1  0     0  0\n  7  4  1  0     0  0\nA  1\n[R2]\nA  5\n[OAc]\nA  6\n[Ar]\nA  7\n[R1]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_1_block10_image_mol_21.jpg",
+            "mol_id": "mol_0035"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "CC1=CC=C(S(=O)(=O)[C]([R2])=C=[C]([R1])[Ar])C=C1",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    2.6325   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.1927   -1.0068    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.3131   -1.0068    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.6325   -2.0075    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4336   -1.0068    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -2.0075    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  2  0     0  0\n  4  2  1  0     0  0\n  5  3  2  0     0  0\n  6  5  1  0     0  0\n  7  5  1  0     0  0\nA  1\n[R1]\nA  4\n[Ar]\nA  6\n[R2]\nA  7\n[Ts]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_1_block10_image_mol_24.jpg",
+            "mol_id": "mol_0038"
+          }
+        }
+      ],
+      "source_figure": "36938290-2944-443e-b5e6-1e41305b280e_origin_1_block10_image",
+      "confidence": 1.0,
+      "page_idx": 1,
+      "block_index": 10,
+      "scale_factor": 2.7786526684164476
+    },
+    {
+      "reaction_id": "rxn_0006",
+      "reaction_figure": "reaction_extraction/visualize/36938290-2944-443e-b5e6-1e41305b280e_origin_1_block10_image_rxn2_vis.jpg",
+      "reaction_conditions": [],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            193,
+            724,
+            323,
+            786
+          ],
+          "page_bbox": [
+            1018,
+            803,
+            1148,
+            865
+          ],
+          "scale_factor": 2.7786526684164476,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            356,
+            704,
+            494,
+            780
+          ],
+          "page_bbox": [
+            1181,
+            783,
+            1319,
+            859
+          ],
+          "scale_factor": 2.7786526684164476,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "CC(=O)OC(C)(C#CCCCl)C1=CC=CC=C1",
+            "molfile": "\n     RDKit          2D\n\n 10  9  0  0  0  0  0  0  0  0999 V2000\n    2.7977   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.1892   -0.9384    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5485   -1.4798    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.8228   -1.4798    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.5594   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.9078   -2.0212    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.2743   -2.5625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.6336   -2.0212    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -2.5625    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n    1.2743   -2.5625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  2  1  0     0  0\n  5  2  1  0     0  0\n  6  3  3  0     0  0\n  7  6  1  0     0  0\n  8 10  1  0     0  0\n  9  8  1  0     0  0\n  7 10  1  0     0  0\nM  STY  1   1 MUL\nM  SLB  1   1   1\nM  SAL   1  2   7  10\nM  SPA   1  1   7\nM  SBL   1  2   6   7\nM  SMT   1 3\nM  SDI   1  4   11.0919  -10.9196   11.5919  -10.0535\nM  SDI   1  4   11.9579  -10.0535   12.4579  -10.9196\nM  SDS EXP  1   1\nA  1\n[Me]\nA  4\n[OAc]\nA  5\n[Ph]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_1_block10_image_mol_19.jpg",
+            "mol_id": "mol_0033"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "CC(=C=C(CCCCS(=O)(=O)C1=CC=C(C)C=C1)S(=O)(=O)C1=CC=C(C)C=C1)C1=CC=CC=C1",
+            "molfile": "\n     RDKit          2D\n\n 11 10  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4463   -0.9463    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.3579   -0.9463    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.8137   -1.8925    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7252   -1.8925    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.1810   -2.8388    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0926   -2.8388    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7252   -3.7755    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.0042   -2.8388    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.4600   -3.7755    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.4600   -1.8925    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  3  1  0     0  0\n  5  4  1  0     0  0\n  6  5  1  0     0  0\n  7  6  2  0     0  0\n  8  6  1  0     0  0\n  9  7  2  0     0  0\n 10  9  1  0     0  0\n 11  9  1  0     0  0\nA  1\n[Ts]\nA  8\n[Ts]\nA  10\n[Ph]\nA  11\n[Me]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_1_block10_image_mol_14.jpg",
+            "mol_id": "mol_0028"
+          }
+        }
+      ],
+      "source_figure": "36938290-2944-443e-b5e6-1e41305b280e_origin_1_block10_image",
+      "confidence": 1.0,
+      "page_idx": 1,
+      "block_index": 10,
+      "scale_factor": 2.7786526684164476
+    },
+    {
+      "reaction_id": "rxn_0007",
+      "reaction_figure": "reaction_extraction/visualize/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block3_image_rxn1_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "text",
+          "condition": "Pd(dmdba)z (5 mol%)",
+          "bbox": [
+            368,
+            33,
+            489,
+            63
+          ],
+          "page_bbox": [
+            465,
+            136,
+            586,
+            166
+          ],
+          "scale_factor": 2.7800925925925926
+        },
+        {
+          "type": "text",
+          "condition": "DPEphos (6 mol%",
+          "bbox": [
+            368,
+            33,
+            489,
+            63
+          ],
+          "page_bbox": [
+            465,
+            136,
+            586,
+            166
+          ],
+          "scale_factor": 2.7800925925925926
+        },
+        {
+          "type": "text",
+          "condition": "DMSOIHzO = 2.5/0.25 mL",
+          "bbox": [
+            356,
+            70,
+            501,
+            99
+          ],
+          "page_bbox": [
+            453,
+            173,
+            598,
+            202
+          ],
+          "scale_factor": 2.7800925925925926
+        },
+        {
+          "type": "text",
+          "condition": "100 \"C",
+          "bbox": [
+            356,
+            70,
+            501,
+            99
+          ],
+          "page_bbox": [
+            453,
+            173,
+            598,
+            202
+          ],
+          "scale_factor": 2.7800925925925926
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            98,
+            40,
+            189,
+            99
+          ],
+          "page_bbox": [
+            195,
+            143,
+            286,
+            202
+          ],
+          "scale_factor": 2.7800925925925926,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            545,
+            44,
+            637,
+            91
+          ],
+          "page_bbox": [
+            642,
+            147,
+            734,
+            194
+          ],
+          "scale_factor": 2.7800925925925926,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "CC(=O)O[C]([R1])([Ar])C#[C][R2]",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    2.1457   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.6622   -0.9836    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.7722   -1.5622    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.5443   -1.5622    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.1788   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8821   -2.1326    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -2.6947    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  2  1  0     0  0\n  5  2  1  0     0  0\n  6  3  3  0     0  0\n  7  6  1  0     0  0\nA  1\n[R1]\nA  4\n[OAc]\nA  5\n[Ar]\nA  7\n[R2]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block3_image_mol_10.jpg",
+            "mol_id": "mol_0053"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "[RO2S][C]([R2])=C=[C]([R1])[Ar]",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    2.6140   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.1833   -0.9397    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.3159   -0.9397    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.6140   -1.7783    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4544   -0.9397    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -1.7783    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  2  0     0  0\n  4  2  1  0     0  0\n  5  3  2  0     0  0\n  6  5  1  0     0  0\n  7  5  1  0     0  0\nA  1\n[R1]\nA  4\n[Ar]\nA  6\n[RO2S]\nA  7\n[R2]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block3_image_mol_12.jpg",
+            "mol_id": "mol_0055"
+          }
+        }
+      ],
+      "source_figure": "36938290-2944-443e-b5e6-1e41305b280e_origin_2_block3_image",
+      "confidence": 1.0,
+      "page_idx": 2,
+      "block_index": 3,
+      "scale_factor": 2.7800925925925926
+    },
+    {
+      "reaction_id": "rxn_0008",
+      "reaction_figure": "reaction_extraction/visualize/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block7_image_rxn1_vis.jpg",
+      "reaction_conditions": [],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            502,
+            307,
+            622,
+            365
+          ],
+          "page_bbox": [
+            592,
+            1500,
+            712,
+            1558
+          ],
+          "scale_factor": 2.7800925925925926,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            554,
+            466,
+            698,
+            524
+          ],
+          "page_bbox": [
+            644,
+            1659,
+            788,
+            1717
+          ],
+          "scale_factor": 2.7800925925925926,
+          "category_id": 1,
+          "category": "[Mol]"
+        },
+        {
+          "bbox": [
+            414,
+            466,
+            546,
+            524
+          ],
+          "page_bbox": [
+            504,
+            1659,
+            636,
+            1717
+          ],
+          "scale_factor": 2.7800925925925926,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "CC(=C=C(CO)S(=O)(=O)C1=CC=C(C)C=C1)C1=CC=CC=C1",
+            "molfile": "\n     RDKit          2D\n\n  9  8  0  0  0  0  0  0  0  0999 V2000\n    0.7146   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0746   -0.9073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.7945   -0.9073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7146   -1.8145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5145   -0.9073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -1.8145    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8691   -1.8145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8691   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7146   -1.8145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  2  0     0  0\n  4  2  1  0     0  0\n  5  3  2  0     0  0\n  6  9  1  0     0  0\n  7  5  1  0     0  0\n  8  5  1  0     0  0\n  4  9  1  0     0  0\nM  STY  1   1 MUL\nM  SLB  1   1   1\nM  SAL   1  2   4   9\nM  SPA   1  1   4\nM  SBL   1  2   3   5\nM  SMT   1 4\nM  SDI   1  4    5.7080   -8.1747    6.5741   -8.6747\nM  SDI   1  4    5.3910   -9.3652    5.3910   -8.3652\nM  SDS EXP  1   1\nA  1\n[Ts]\nA  7\n[Ph]\nA  8\n[Me]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block7_image_mol_6.jpg",
+            "mol_id": "mol_0062"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "CC(=C=C(CC(=O)O)S(=O)(=O)C1=CC=C(C)C=C1)C1=CC=CC=C1",
+            "molfile": "\n     RDKit          2D\n\n  9  8  0  0  0  0  0  0  0  0999 V2000\n    2.9175   -1.7390    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5546   -0.8695    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.8240   -0.8695    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.9175   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0982   -0.8695    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7306   -1.7390    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7306   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -1.7390    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7306   -1.7390    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  2  0     0  0\n  4  2  1  0     0  0\n  5  3  2  0     0  0\n  6  5  1  0     0  0\n  7  5  1  0     0  0\n  8  9  1  0     0  0\n  6  9  1  0     0  0\nM  STY  1   1 MUL\nM  SLB  1   1   1\nM  SAL   1  2   6   9\nM  SPA   1  1   6\nM  SBL   1  2   5   7\nM  SMT   1 3\nM  SDI   1  4    3.9505   -5.4951    3.9505   -4.4951\nM  SDI   1  4    4.2675   -4.3121    5.1335   -4.8121\nM  SDS EXP  1   1\nA  1\n[Ph]\nA  4\n[Me]\nA  7\n[Ts]\nA  8\n[HOOC]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block7_image_mol_4.jpg",
+            "mol_id": "mol_0060"
+          }
+        },
+        {
+          "product_2": {
+            "smiles": "CC(=C=C(CC=O)S(=O)(=O)C1=CC=C(C)C=C1)C1=CC=CC=C1",
+            "molfile": "\n     RDKit          2D\n\n  9  8  0  0  0  0  0  0  0  0999 V2000\n    0.7094   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0667   -0.9237    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7094   -1.8474    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.7814   -0.9237    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -1.8474    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.4960   -0.9237    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8481   -1.8474    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8481   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7094   -1.8474    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  2  2  0     0  0\n  5  9  1  0     0  0\n  6  4  2  0     0  0\n  7  6  1  0     0  0\n  8  6  1  0     0  0\n  3  9  1  0     0  0\nM  STY  1   1 MUL\nM  SLB  1   1   1\nM  SAL   1  2   3   9\nM  SPA   1  1   3\nM  SBL   1  2   2   4\nM  SMT   1 3\nM  SDI   1  4    3.9505   -5.7171    3.9505   -4.7171\nM  SDI   1  4    4.2675   -4.5341    5.1335   -5.0341\nM  SDS EXP  1   1\nA  1\n[Ts]\nA  5\n[OHC]\nA  7\n[Ph]\nA  8\n[Me]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block7_image_mol_3.jpg",
+            "mol_id": "mol_0059"
+          }
+        }
+      ],
+      "source_figure": "36938290-2944-443e-b5e6-1e41305b280e_origin_2_block7_image",
+      "confidence": 1.0,
+      "page_idx": 2,
+      "block_index": 7,
+      "scale_factor": 2.7800925925925926
+    },
+    {
+      "reaction_id": "rxn_0009",
+      "reaction_figure": "reaction_extraction/visualize/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block7_image_rxn2_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "text",
+          "condition": "Standard condition",
+          "bbox": [
+            339,
+            98,
+            466,
+            111
+          ],
+          "page_bbox": [
+            429,
+            1291,
+            556,
+            1304
+          ],
+          "scale_factor": 2.7800925925925926
+        },
+        {
+          "type": "other",
+          "condition": "[Txt]",
+          "bbox": [
+            389,
+            128,
+            410,
+            142
+          ],
+          "page_bbox": [
+            479,
+            1321,
+            500,
+            1335
+          ],
+          "scale_factor": 2.7800925925925926
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            50,
+            83,
+            207,
+            158
+          ],
+          "page_bbox": [
+            140,
+            1276,
+            297,
+            1351
+          ],
+          "scale_factor": 2.7800925925925926,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            480,
+            97,
+            622,
+            154
+          ],
+          "page_bbox": [
+            570,
+            1290,
+            712,
+            1347
+          ],
+          "scale_factor": 2.7800925925925926,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "CC(=O)OC(C)(C#CCO[Si](C)(C)C(C)(C)C)C1=CC=CC=C1",
+            "molfile": "\n     RDKit          2D\n\n  9  8  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -2.4866    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0150   -3.1610    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.0382   -2.4866    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.0532   -1.8040    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0764   -1.1214    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.0914   -1.8040    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4836   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.6692   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0150   -3.1610    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  9  1  0     0  0\n  4  3  3  0     0  0\n  5  4  1  0     0  0\n  6  5  1  0     0  0\n  7  5  1  0     0  0\n  8  5  1  0     0  0\n  2  9  1  0     0  0\nM  STY  1   1 MUL\nM  SLB  1   1   1\nM  SAL   1  2   2   9\nM  SPA   1  1   2\nM  SBL   1  2   1   2\nM  SMT   1 4\nM  SDI   1  4    9.9184  -10.7583   10.4184   -9.8923\nM  SDI   1  4   10.7844   -9.8923   11.2844  -10.7583\nM  SDS EXP  1   1\nA  1\n[TBSO]\nA  6\n[OAc]\nA  7\n[Me]\nA  8\n[Ph]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block7_image_mol_0.jpg",
+            "mol_id": "mol_0056"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "CC(=C=C(CO[Si](C)(C)C(C)(C)C)S(=O)(=O)C1=CC=C(C)C=C1)C1=CC=CC=C1",
+            "molfile": "\n     RDKit          2D\n\n  9  8  0  0  0  0  0  0  0  0999 V2000\n    2.8979   -1.7702    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5363   -0.8851    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.8130   -0.8851    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8979   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0897   -0.8851    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7233   -1.7702    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7233   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -1.7702    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7233   -1.7702    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  2  0     0  0\n  4  2  1  0     0  0\n  5  3  2  0     0  0\n  6  5  1  0     0  0\n  7  5  1  0     0  0\n  8  9  1  0     0  0\n  6  9  1  0     0  0\nM  STY  1   1 MUL\nM  SLB  1   1   1\nM  SAL   1  2   6   9\nM  SPA   1  1   6\nM  SBL   1  2   5   7\nM  SMT   1 4\nM  SDI   1  4    3.9505   -5.4087    3.9505   -4.4087\nM  SDI   1  4    4.2675   -4.2257    5.1335   -4.7257\nM  SDS EXP  1   1\nA  1\n[Ph]\nA  4\n[Me]\nA  7\n[Ts]\nA  8\n[TBSO]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block7_image_mol_5.jpg",
+            "mol_id": "mol_0061"
+          }
+        }
+      ],
+      "source_figure": "36938290-2944-443e-b5e6-1e41305b280e_origin_2_block7_image",
+      "confidence": 1.0,
+      "page_idx": 2,
+      "block_index": 7,
+      "scale_factor": 2.7800925925925926
+    },
+    {
+      "reaction_id": "rxn_0010",
+      "reaction_figure": "reaction_extraction/visualize/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block7_image_rxn3_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "text",
+          "condition": "(D)",
+          "bbox": [
+            307,
+            376,
+            326,
+            392
+          ],
+          "page_bbox": [
+            397,
+            1569,
+            416,
+            1585
+          ],
+          "scale_factor": 2.7800925925925926
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            219,
+            205,
+            383,
+            296
+          ],
+          "page_bbox": [
+            309,
+            1398,
+            473,
+            1489
+          ],
+          "scale_factor": 2.7800925925925926,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            219,
+            435,
+            382,
+            525
+          ],
+          "page_bbox": [
+            309,
+            1628,
+            472,
+            1718
+          ],
+          "scale_factor": 2.7800925925925926,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "COC1=CC=CC(C(=C=C(C)C2=CC=CC=C2)CO[Si](C)(C)C(C)(C)C)=C1",
+            "molfile": "\n     RDKit          2D\n\n 15 15  0  0  0  0  0  0  0  0999 V2000\n    5.5320   -3.5683    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.0321   -2.6762    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0240   -2.6762    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.5320   -1.7841    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.0160   -2.6762    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5160   -1.7841    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5160   -3.5683    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.5080   -1.7841    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.0160   -0.8921    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.5080   -3.5683    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0000   -0.8921    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5160   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.5080   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -0.8921    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5160   -3.5683    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  2  0     0  0\n  4  2  1  0     0  0\n  5  3  2  0     0  0\n  6  5  1  0     0  0\n  7  5  1  0     0  0\n  8  6  1  0     0  0\n  9  6  2  0     0  0\n 10 15  1  0     0  0\n 11  8  2  0     0  0\n 12  9  1  0     0  0\n 13 11  1  0     0  0\n 13 12  2  0     0  0\n 14 11  1  0     0  0\n  7 15  1  0     0  0\nM  STY  1   1 MUL\nM  SLB  1   1   1\nM  SAL   1  2   7  15\nM  SPA   1  1   7\nM  SBL   1  2   6   9\nM  SMT   1 4\nM  SDI   1  4    6.0242   -6.4331    6.8902   -6.9331\nM  SDI   1  4    5.6902   -7.6171    5.6902   -6.6171\nM  SDS EXP  1   1\nA  1\n[Ph]\nA  4\n[Me]\nA  10\n[TBSO]\nA  14\n[MeO]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block7_image_mol_1.jpg",
+            "mol_id": "mol_0057"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "COC1=CC=CC(C(=C=C(C)C2=CC=CC=C2)CO)=C1",
+            "molfile": "\n     RDKit          2D\n\n 15 15  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -1.3448    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.4541   -1.3448    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.1812   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.1812   -2.6896    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6353   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6353   -2.6896    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3623   -1.3448    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3623   -4.0344    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6353   -5.3552    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8165   -4.0344    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.1812   -5.3552    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    7.2587   -4.0344    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.9976   -5.3552    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.9976   -2.6896    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6353   -5.3552    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  2  2  0     0  0\n  5  3  2  0     0  0\n  6  4  1  0     0  0\n  7  5  1  0     0  0\n  7  6  2  0     0  0\n  8  6  1  0     0  0\n  9  8  1  0     0  0\n 10  8  2  0     0  0\n 11 15  1  0     0  0\n 12 10  2  0     0  0\n 13 12  1  0     0  0\n 14 12  1  0     0  0\n  9 15  1  0     0  0\nM  STY  1   1 MUL\nM  SLB  1   1   1\nM  SAL   1  2   9  15\nM  SPA   1  1   9\nM  SBL   1  2   9  11\nM  SMT   1 4\nM  SDI   1  4    6.6833  -10.9496    7.5492  -11.4496\nM  SDI   1  4    6.3665  -12.1328    6.3665  -11.1328\nM  SDS EXP  1   1\nA  1\n[MeO]\nA  13\n[Ph]\nA  14\n[Me]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block7_image_mol_2.jpg",
+            "mol_id": "mol_0058"
+          }
+        }
+      ],
+      "source_figure": "36938290-2944-443e-b5e6-1e41305b280e_origin_2_block7_image",
+      "confidence": 1.0,
+      "page_idx": 2,
+      "block_index": 7,
+      "scale_factor": 2.7800925925925926
+    },
+    {
+      "reaction_id": "rxn_0011",
+      "reaction_figure": "reaction_extraction/visualize/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block7_image_rxn4_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "other",
+          "condition": "[Txt]",
+          "bbox": [
+            488,
+            235,
+            507,
+            251
+          ],
+          "page_bbox": [
+            578,
+            1428,
+            597,
+            1444
+          ],
+          "scale_factor": 2.7800925925925926
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            480,
+            97,
+            622,
+            154
+          ],
+          "page_bbox": [
+            570,
+            1290,
+            712,
+            1347
+          ],
+          "scale_factor": 2.7800925925925926,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            219,
+            205,
+            383,
+            296
+          ],
+          "page_bbox": [
+            309,
+            1398,
+            473,
+            1489
+          ],
+          "scale_factor": 2.7800925925925926,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "CC(=C=C(CO[Si](C)(C)C(C)(C)C)S(=O)(=O)C1=CC=C(C)C=C1)C1=CC=CC=C1",
+            "molfile": "\n     RDKit          2D\n\n  9  8  0  0  0  0  0  0  0  0999 V2000\n    2.8979   -1.7702    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5363   -0.8851    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.8130   -0.8851    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8979   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0897   -0.8851    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7233   -1.7702    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7233   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -1.7702    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7233   -1.7702    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  2  0     0  0\n  4  2  1  0     0  0\n  5  3  2  0     0  0\n  6  5  1  0     0  0\n  7  5  1  0     0  0\n  8  9  1  0     0  0\n  6  9  1  0     0  0\nM  STY  1   1 MUL\nM  SLB  1   1   1\nM  SAL   1  2   6   9\nM  SPA   1  1   6\nM  SBL   1  2   5   7\nM  SMT   1 4\nM  SDI   1  4    3.9505   -5.4087    3.9505   -4.4087\nM  SDI   1  4    4.2675   -4.2257    5.1335   -4.7257\nM  SDS EXP  1   1\nA  1\n[Ph]\nA  4\n[Me]\nA  7\n[Ts]\nA  8\n[TBSO]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block7_image_mol_5.jpg",
+            "mol_id": "mol_0061"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "COC1=CC=CC(C(=C=C(C)C2=CC=CC=C2)CO[Si](C)(C)C(C)(C)C)=C1",
+            "molfile": "\n     RDKit          2D\n\n 15 15  0  0  0  0  0  0  0  0999 V2000\n    5.5320   -3.5683    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.0321   -2.6762    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0240   -2.6762    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.5320   -1.7841    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.0160   -2.6762    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5160   -1.7841    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5160   -3.5683    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.5080   -1.7841    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.0160   -0.8921    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.5080   -3.5683    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0000   -0.8921    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5160   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.5080   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -0.8921    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5160   -3.5683    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  2  0     0  0\n  4  2  1  0     0  0\n  5  3  2  0     0  0\n  6  5  1  0     0  0\n  7  5  1  0     0  0\n  8  6  1  0     0  0\n  9  6  2  0     0  0\n 10 15  1  0     0  0\n 11  8  2  0     0  0\n 12  9  1  0     0  0\n 13 11  1  0     0  0\n 13 12  2  0     0  0\n 14 11  1  0     0  0\n  7 15  1  0     0  0\nM  STY  1   1 MUL\nM  SLB  1   1   1\nM  SAL   1  2   7  15\nM  SPA   1  1   7\nM  SBL   1  2   6   9\nM  SMT   1 4\nM  SDI   1  4    6.0242   -6.4331    6.8902   -6.9331\nM  SDI   1  4    5.6902   -7.6171    5.6902   -6.6171\nM  SDS EXP  1   1\nA  1\n[Ph]\nA  4\n[Me]\nA  10\n[TBSO]\nA  14\n[MeO]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block7_image_mol_1.jpg",
+            "mol_id": "mol_0057"
+          }
+        }
+      ],
+      "source_figure": "36938290-2944-443e-b5e6-1e41305b280e_origin_2_block7_image",
+      "confidence": 1.0,
+      "page_idx": 2,
+      "block_index": 7,
+      "scale_factor": 2.7800925925925926
+    },
+    {
+      "reaction_id": "rxn_0012",
+      "reaction_figure": "reaction_extraction/visualize/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block7_image_rxn5_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "text",
+          "condition": "(d)",
+          "bbox": [
+            662,
+            431,
+            680,
+            447
+          ],
+          "page_bbox": [
+            752,
+            1624,
+            770,
+            1640
+          ],
+          "scale_factor": 2.7800925925925926
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            502,
+            307,
+            622,
+            365
+          ],
+          "page_bbox": [
+            592,
+            1500,
+            712,
+            1558
+          ],
+          "scale_factor": 2.7800925925925926,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            554,
+            466,
+            698,
+            524
+          ],
+          "page_bbox": [
+            644,
+            1659,
+            788,
+            1717
+          ],
+          "scale_factor": 2.7800925925925926,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "CC(=C=C(CO)S(=O)(=O)C1=CC=C(C)C=C1)C1=CC=CC=C1",
+            "molfile": "\n     RDKit          2D\n\n  9  8  0  0  0  0  0  0  0  0999 V2000\n    0.7146   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0746   -0.9073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.7945   -0.9073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7146   -1.8145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5145   -0.9073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -1.8145    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8691   -1.8145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8691   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7146   -1.8145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  2  0     0  0\n  4  2  1  0     0  0\n  5  3  2  0     0  0\n  6  9  1  0     0  0\n  7  5  1  0     0  0\n  8  5  1  0     0  0\n  4  9  1  0     0  0\nM  STY  1   1 MUL\nM  SLB  1   1   1\nM  SAL   1  2   4   9\nM  SPA   1  1   4\nM  SBL   1  2   3   5\nM  SMT   1 4\nM  SDI   1  4    5.7080   -8.1747    6.5741   -8.6747\nM  SDI   1  4    5.3910   -9.3652    5.3910   -8.3652\nM  SDS EXP  1   1\nA  1\n[Ts]\nA  7\n[Ph]\nA  8\n[Me]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block7_image_mol_6.jpg",
+            "mol_id": "mol_0062"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "CC(=C=C(CC(=O)O)S(=O)(=O)C1=CC=C(C)C=C1)C1=CC=CC=C1",
+            "molfile": "\n     RDKit          2D\n\n  9  8  0  0  0  0  0  0  0  0999 V2000\n    2.9175   -1.7390    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5546   -0.8695    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.8240   -0.8695    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.9175   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0982   -0.8695    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7306   -1.7390    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7306   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -1.7390    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7306   -1.7390    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  2  0     0  0\n  4  2  1  0     0  0\n  5  3  2  0     0  0\n  6  5  1  0     0  0\n  7  5  1  0     0  0\n  8  9  1  0     0  0\n  6  9  1  0     0  0\nM  STY  1   1 MUL\nM  SLB  1   1   1\nM  SAL   1  2   6   9\nM  SPA   1  1   6\nM  SBL   1  2   5   7\nM  SMT   1 3\nM  SDI   1  4    3.9505   -5.4951    3.9505   -4.4951\nM  SDI   1  4    4.2675   -4.3121    5.1335   -4.8121\nM  SDS EXP  1   1\nA  1\n[Ph]\nA  4\n[Me]\nA  7\n[Ts]\nA  8\n[HOOC]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block7_image_mol_4.jpg",
+            "mol_id": "mol_0060"
+          }
+        }
+      ],
+      "source_figure": "36938290-2944-443e-b5e6-1e41305b280e_origin_2_block7_image",
+      "confidence": 1.0,
+      "page_idx": 2,
+      "block_index": 7,
+      "scale_factor": 2.7800925925925926
+    },
+    {
+      "reaction_id": "rxn_0013",
+      "reaction_figure": "reaction_extraction/visualize/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block7_image_rxn6_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "other",
+          "condition": "[Txt]",
+          "bbox": [
+            466,
+            431,
+            483,
+            447
+          ],
+          "page_bbox": [
+            556,
+            1624,
+            573,
+            1640
+          ],
+          "scale_factor": 2.7800925925925926
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            219,
+            205,
+            383,
+            296
+          ],
+          "page_bbox": [
+            309,
+            1398,
+            473,
+            1489
+          ],
+          "scale_factor": 2.7800925925925926,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            414,
+            466,
+            546,
+            524
+          ],
+          "page_bbox": [
+            504,
+            1659,
+            636,
+            1717
+          ],
+          "scale_factor": 2.7800925925925926,
+          "category_id": 1,
+          "category": "[Mol]"
+        },
+        {
+          "bbox": [
+            554,
+            466,
+            698,
+            524
+          ],
+          "page_bbox": [
+            644,
+            1659,
+            788,
+            1717
+          ],
+          "scale_factor": 2.7800925925925926,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "COC1=CC=CC(C(=C=C(C)C2=CC=CC=C2)CO[Si](C)(C)C(C)(C)C)=C1",
+            "molfile": "\n     RDKit          2D\n\n 15 15  0  0  0  0  0  0  0  0999 V2000\n    5.5320   -3.5683    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.0321   -2.6762    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0240   -2.6762    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.5320   -1.7841    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.0160   -2.6762    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5160   -1.7841    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5160   -3.5683    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.5080   -1.7841    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.0160   -0.8921    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.5080   -3.5683    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0000   -0.8921    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5160   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.5080   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -0.8921    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5160   -3.5683    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  2  0     0  0\n  4  2  1  0     0  0\n  5  3  2  0     0  0\n  6  5  1  0     0  0\n  7  5  1  0     0  0\n  8  6  1  0     0  0\n  9  6  2  0     0  0\n 10 15  1  0     0  0\n 11  8  2  0     0  0\n 12  9  1  0     0  0\n 13 11  1  0     0  0\n 13 12  2  0     0  0\n 14 11  1  0     0  0\n  7 15  1  0     0  0\nM  STY  1   1 MUL\nM  SLB  1   1   1\nM  SAL   1  2   7  15\nM  SPA   1  1   7\nM  SBL   1  2   6   9\nM  SMT   1 4\nM  SDI   1  4    6.0242   -6.4331    6.8902   -6.9331\nM  SDI   1  4    5.6902   -7.6171    5.6902   -6.6171\nM  SDS EXP  1   1\nA  1\n[Ph]\nA  4\n[Me]\nA  10\n[TBSO]\nA  14\n[MeO]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block7_image_mol_1.jpg",
+            "mol_id": "mol_0057"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "CC(=C=C(CC=O)S(=O)(=O)C1=CC=C(C)C=C1)C1=CC=CC=C1",
+            "molfile": "\n     RDKit          2D\n\n  9  8  0  0  0  0  0  0  0  0999 V2000\n    0.7094   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0667   -0.9237    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7094   -1.8474    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.7814   -0.9237    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -1.8474    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.4960   -0.9237    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8481   -1.8474    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8481   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7094   -1.8474    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  2  2  0     0  0\n  5  9  1  0     0  0\n  6  4  2  0     0  0\n  7  6  1  0     0  0\n  8  6  1  0     0  0\n  3  9  1  0     0  0\nM  STY  1   1 MUL\nM  SLB  1   1   1\nM  SAL   1  2   3   9\nM  SPA   1  1   3\nM  SBL   1  2   2   4\nM  SMT   1 3\nM  SDI   1  4    3.9505   -5.7171    3.9505   -4.7171\nM  SDI   1  4    4.2675   -4.5341    5.1335   -5.0341\nM  SDS EXP  1   1\nA  1\n[Ts]\nA  5\n[OHC]\nA  7\n[Ph]\nA  8\n[Me]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block7_image_mol_3.jpg",
+            "mol_id": "mol_0059"
+          }
+        },
+        {
+          "product_2": {
+            "smiles": "CC(=C=C(CC(=O)O)S(=O)(=O)C1=CC=C(C)C=C1)C1=CC=CC=C1",
+            "molfile": "\n     RDKit          2D\n\n  9  8  0  0  0  0  0  0  0  0999 V2000\n    2.9175   -1.7390    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5546   -0.8695    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.8240   -0.8695    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.9175   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0982   -0.8695    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7306   -1.7390    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7306   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -1.7390    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7306   -1.7390    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  2  0     0  0\n  4  2  1  0     0  0\n  5  3  2  0     0  0\n  6  5  1  0     0  0\n  7  5  1  0     0  0\n  8  9  1  0     0  0\n  6  9  1  0     0  0\nM  STY  1   1 MUL\nM  SLB  1   1   1\nM  SAL   1  2   6   9\nM  SPA   1  1   6\nM  SBL   1  2   5   7\nM  SMT   1 3\nM  SDI   1  4    3.9505   -5.4951    3.9505   -4.4951\nM  SDI   1  4    4.2675   -4.3121    5.1335   -4.8121\nM  SDS EXP  1   1\nA  1\n[Ph]\nA  4\n[Me]\nA  7\n[Ts]\nA  8\n[HOOC]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block7_image_mol_4.jpg",
+            "mol_id": "mol_0060"
+          }
+        }
+      ],
+      "source_figure": "36938290-2944-443e-b5e6-1e41305b280e_origin_2_block7_image",
+      "confidence": 1.0,
+      "page_idx": 2,
+      "block_index": 7,
+      "scale_factor": 2.7800925925925926
+    },
+    {
+      "reaction_id": "rxn_0014",
+      "reaction_figure": "reaction_extraction/visualize/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block13_image_rxn1_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "other",
+          "condition": "[Txt]",
+          "bbox": [
+            291,
+            296,
+            312,
+            309
+          ],
+          "page_bbox": [
+            1135,
+            1908,
+            1156,
+            1921
+          ],
+          "scale_factor": 2.7800925925925926
+        },
+        {
+          "type": "text",
+          "condition": "standard condition",
+          "bbox": [
+            242,
+            248,
+            368,
+            282
+          ],
+          "page_bbox": [
+            1086,
+            1860,
+            1212,
+            1894
+          ],
+          "scale_factor": 2.7800925925925926
+        },
+        {
+          "type": "text",
+          "condition": "with 2a (10 mol%",
+          "bbox": [
+            242,
+            248,
+            368,
+            282
+          ],
+          "page_bbox": [
+            1086,
+            1860,
+            1212,
+            1894
+          ],
+          "scale_factor": 2.7800925925925926
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            79,
+            252,
+            187,
+            319
+          ],
+          "page_bbox": [
+            923,
+            1864,
+            1031,
+            1931
+          ],
+          "scale_factor": 2.7800925925925926,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            437,
+            260,
+            540,
+            311
+          ],
+          "page_bbox": [
+            1281,
+            1872,
+            1384,
+            1923
+          ],
+          "scale_factor": 2.7800925925925926,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "CCCCC#CC(C)(C1=CC=CC=C1)S(=O)(=O)C1=CC=C(C)C=C1",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    3.2321   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7104   -0.9594    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.8045   -1.5166    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.1886   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6017   -1.5166    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8986   -2.0739    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -2.6312    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  2  1  0     0  0\n  5  2  1  0     0  0\n  6  3  3  0     0  0\n  7  6  1  0     0  0\nA  1\n[Ph]\nA  4\n[Me]\nA  5\n[Ts]\nA  7\n[nBu]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block13_image_mol_2.jpg",
+            "mol_id": "mol_0066"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "CCCCC(=C=C(C)C1=CC=CC=C1)S(=O)(=O)C1=CC=C(C)C=C1",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    2.7573   -1.8729    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3026   -0.9393    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.3757   -0.9393    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7573   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4547   -0.9393    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -1.8729    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  2  0     0  0\n  4  2  1  0     0  0\n  5  3  2  0     0  0\n  6  5  1  0     0  0\n  7  5  1  0     0  0\nA  1\n[Ph]\nA  4\n[Me]\nA  6\n[nBu]\nA  7\n[Ts]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block13_image_mol_4.jpg",
+            "mol_id": "mol_0068"
+          }
+        }
+      ],
+      "source_figure": "36938290-2944-443e-b5e6-1e41305b280e_origin_2_block13_image",
+      "confidence": 1.0,
+      "page_idx": 2,
+      "block_index": 13,
+      "scale_factor": 2.7800925925925926
+    },
+    {
+      "reaction_id": "rxn_0015",
+      "reaction_figure": "reaction_extraction/visualize/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block13_image_rxn2_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "other",
+          "condition": "[Txt]",
+          "bbox": [
+            291,
+            177,
+            312,
+            190
+          ],
+          "page_bbox": [
+            1135,
+            1789,
+            1156,
+            1802
+          ],
+          "scale_factor": 2.7800925925925926
+        },
+        {
+          "type": "text",
+          "condition": "standard condition",
+          "bbox": [
+            241,
+            132,
+            367,
+            163
+          ],
+          "page_bbox": [
+            1085,
+            1744,
+            1211,
+            1775
+          ],
+          "scale_factor": 2.7800925925925926
+        },
+        {
+          "type": "text",
+          "condition": "without 2a",
+          "bbox": [
+            241,
+            132,
+            367,
+            163
+          ],
+          "page_bbox": [
+            1085,
+            1744,
+            1211,
+            1775
+          ],
+          "scale_factor": 2.7800925925925926
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            79,
+            137,
+            187,
+            204
+          ],
+          "page_bbox": [
+            923,
+            1749,
+            1031,
+            1816
+          ],
+          "scale_factor": 2.7800925925925926,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            437,
+            144,
+            540,
+            196
+          ],
+          "page_bbox": [
+            1281,
+            1756,
+            1384,
+            1808
+          ],
+          "scale_factor": 2.7800925925925926,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "CCCCC#CC(C)(C1=CC=CC=C1)S(=O)(=O)C1=CC=C(C)C=C1",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    3.2268   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7059   -0.9536    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.8015   -1.5045    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.1850   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.5958   -1.5045    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8971   -2.0555    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -2.5994    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  2  1  0     0  0\n  5  2  1  0     0  0\n  6  3  3  0     0  0\n  7  6  1  0     0  0\nA  1\n[Ph]\nA  4\n[Me]\nA  5\n[Ts]\nA  7\n[nBu]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block13_image_mol_1.jpg",
+            "mol_id": "mol_0065"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "CCCCC(=C=C(C)C1=CC=CC=C1)S(=O)(=O)C1=CC=C(C)C=C1",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    2.7384   -1.8998    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2868   -0.9527    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.3663   -0.9527    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7384   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4516   -0.9527    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -1.8998    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  2  0     0  0\n  4  2  1  0     0  0\n  5  3  2  0     0  0\n  6  5  1  0     0  0\n  7  5  1  0     0  0\nA  1\n[Ph]\nA  4\n[Me]\nA  6\n[nBu]\nA  7\n[Ts]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_2_block13_image_mol_3.jpg",
+            "mol_id": "mol_0067"
+          }
+        }
+      ],
+      "source_figure": "36938290-2944-443e-b5e6-1e41305b280e_origin_2_block13_image",
+      "confidence": 1.0,
+      "page_idx": 2,
+      "block_index": 13,
+      "scale_factor": 2.7800925925925926
+    },
+    {
+      "reaction_id": "rxn_0016",
+      "reaction_figure": "reaction_extraction/visualize/36938290-2944-443e-b5e6-1e41305b280e_origin_3_block3_image_rxn1_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "text",
+          "condition": "RSO-Na",
+          "bbox": [
+            496,
+            381,
+            555,
+            397
+          ],
+          "page_bbox": [
+            589,
+            483,
+            648,
+            499
+          ],
+          "scale_factor": 2.78212248003043
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            531,
+            277,
+            660,
+            350
+          ],
+          "page_bbox": [
+            624,
+            379,
+            753,
+            452
+          ],
+          "scale_factor": 2.78212248003043,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            359,
+            418,
+            489,
+            491
+          ],
+          "page_bbox": [
+            452,
+            520,
+            582,
+            593
+          ],
+          "scale_factor": 2.78212248003043,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "CC(=O)[O][Pd(III)L][C]([R1])([Ar])C#[C][R2]",
+            "molfile": "\n     RDKit          2D\n\n  8  7  0  0  0  0  0  0  0  0999 V2000\n    2.2458   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7738   -0.9124    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.8450   -1.4406    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6963   -1.4406    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.3019   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.9225   -1.9688    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6963   -2.4970    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -2.4970    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  2  1  0     0  0\n  5  2  1  0     0  0\n  6  3  3  0     0  0\n  7  4  1  0     0  0\n  8  6  1  0     0  0\nA  1\n[R1]\nA  4\n[Pd(III)L]\nA  5\n[Ar]\nA  7\n[OAc]\nA  8\n[R2]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_3_block3_image_mol_7.jpg",
+            "mol_id": "mol_0076"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "[SO2R][Pd(II)L][C]([R1])([Ar])C#[C][R2]",
+            "molfile": "\n     RDKit          2D\n\n  8  7  0  0  0  0  0  0  0  0999 V2000\n    2.4569   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.9942   -0.9132    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.9913   -1.4422    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.9899   -1.4422    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.5314   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.9957   -1.9713    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.9899   -2.7105    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -2.5003    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  2  1  0     0  0\n  5  2  1  0     0  0\n  6  3  3  0     0  0\n  7  4  1  0     0  0\n  8  6  1  0     0  0\nA  1\n[R1]\nA  4\n[Pd(II)L]\nA  5\n[Ar]\nA  7\n[SO2R]\nA  8\n[R2]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_3_block3_image_mol_0.jpg",
+            "mol_id": "mol_0069"
+          }
+        }
+      ],
+      "source_figure": "36938290-2944-443e-b5e6-1e41305b280e_origin_3_block3_image",
+      "confidence": 1.0,
+      "page_idx": 3,
+      "block_index": 3,
+      "scale_factor": 2.78212248003043
+    },
+    {
+      "reaction_id": "rxn_0017",
+      "reaction_figure": "reaction_extraction/visualize/36938290-2944-443e-b5e6-1e41305b280e_origin_3_block3_image_rxn2_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "text",
+          "condition": "RSO-Na",
+          "bbox": [
+            322,
+            381,
+            381,
+            397
+          ],
+          "page_bbox": [
+            415,
+            483,
+            474,
+            499
+          ],
+          "scale_factor": 2.78212248003043
+        },
+        {
+          "type": "text",
+          "condition": "path",
+          "bbox": [
+            265,
+            399,
+            307,
+            415
+          ],
+          "page_bbox": [
+            358,
+            501,
+            400,
+            517
+          ],
+          "scale_factor": 2.78212248003043
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            359,
+            418,
+            489,
+            491
+          ],
+          "page_bbox": [
+            452,
+            520,
+            582,
+            593
+          ],
+          "scale_factor": 2.78212248003043,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            209,
+            247,
+            344,
+            335
+          ],
+          "page_bbox": [
+            302,
+            349,
+            437,
+            437
+          ],
+          "scale_factor": 2.78212248003043,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "[SO2R][Pd(II)L][C]([R1])([Ar])C#[C][R2]",
+            "molfile": "\n     RDKit          2D\n\n  8  7  0  0  0  0  0  0  0  0999 V2000\n    2.4569   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.9942   -0.9132    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.9913   -1.4422    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.9899   -1.4422    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.5314   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.9957   -1.9713    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.9899   -2.7105    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -2.5003    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  2  1  0     0  0\n  5  2  1  0     0  0\n  6  3  3  0     0  0\n  7  4  1  0     0  0\n  8  6  1  0     0  0\nA  1\n[R1]\nA  4\n[Pd(II)L]\nA  5\n[Ar]\nA  7\n[SO2R]\nA  8\n[R2]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_3_block3_image_mol_0.jpg",
+            "mol_id": "mol_0069"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "O=[S]([O-])[R].[SO2R][Pd(II)L][C]([R1])([Ar])C#[C][R2]",
+            "molfile": "\n     RDKit          2D\n\n 12 10  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -3.4847    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1695   -2.9064    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3468   -2.3282    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.5241   -1.7423    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.6936   -2.3282    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8380   -0.8095    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.2024   -0.8018    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.6936   -3.4847    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -1.3491    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1695   -0.7709    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1695   -0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3468   -1.3491    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  3  0     0  0\n  4  3  1  0     0  0\n  5  4  1  0     0  0\n  6  4  1  0     0  0\n  7  4  1  0     0  0\n  8  5  1  0     0  0\n 10  9  1  0     0  0\n 11 10  2  0     0  0\n 12 10  1  0     0  0\nM  CHG  1   9  -1\nA  1\n[R2]\nA  5\n[Pd(II)L]\nA  6\n[R1]\nA  7\n[Ar]\nA  8\n[SO2R]\nA  12\n[R]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_3_block3_image_mol_4.jpg",
+            "mol_id": "mol_0073"
+          }
+        }
+      ],
+      "source_figure": "36938290-2944-443e-b5e6-1e41305b280e_origin_3_block3_image",
+      "confidence": 1.0,
+      "page_idx": 3,
+      "block_index": 3,
+      "scale_factor": 2.78212248003043
+    },
+    {
+      "reaction_id": "rxn_0018",
+      "reaction_figure": "reaction_extraction/visualize/36938290-2944-443e-b5e6-1e41305b280e_origin_3_block3_image_rxn3_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "text",
+          "condition": "SN2",
+          "bbox": [
+            285,
+            168,
+            314,
+            184
+          ],
+          "page_bbox": [
+            378,
+            270,
+            407,
+            286
+          ],
+          "scale_factor": 2.78212248003043
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            209,
+            247,
+            344,
+            335
+          ],
+          "page_bbox": [
+            302,
+            349,
+            437,
+            437
+          ],
+          "scale_factor": 2.78212248003043,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            258,
+            48,
+            370,
+            106
+          ],
+          "page_bbox": [
+            351,
+            150,
+            463,
+            208
+          ],
+          "scale_factor": 2.78212248003043,
+          "category_id": 1,
+          "category": "[Mol]"
+        },
+        {
+          "bbox": [
+            414,
+            127,
+            459,
+            143
+          ],
+          "page_bbox": [
+            507,
+            229,
+            552,
+            245
+          ],
+          "scale_factor": 2.78212248003043,
+          "category_id": 2,
+          "category": "[Txt]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "O=[S]([O-])[R].[SO2R][Pd(II)L][C]([R1])([Ar])C#[C][R2]",
+            "molfile": "\n     RDKit          2D\n\n 12 10  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -3.4847    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1695   -2.9064    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3468   -2.3282    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.5241   -1.7423    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.6936   -2.3282    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8380   -0.8095    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.2024   -0.8018    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.6936   -3.4847    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -1.3491    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1695   -0.7709    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1695   -0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3468   -1.3491    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  3  0     0  0\n  4  3  1  0     0  0\n  5  4  1  0     0  0\n  6  4  1  0     0  0\n  7  4  1  0     0  0\n  8  5  1  0     0  0\n 10  9  1  0     0  0\n 11 10  2  0     0  0\n 12 10  1  0     0  0\nM  CHG  1   9  -1\nA  1\n[R2]\nA  5\n[Pd(II)L]\nA  6\n[R1]\nA  7\n[Ar]\nA  8\n[SO2R]\nA  12\n[R]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_3_block3_image_mol_4.jpg",
+            "mol_id": "mol_0073"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "[RO2S][C]([R2])=C=[C]([R1])[Ar]",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    2.7300   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2741   -0.9444    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.3623   -0.9444    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7300   -1.8888    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4505   -0.9444    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -1.8888    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  2  0     0  0\n  4  2  1  0     0  0\n  5  3  2  0     0  0\n  6  5  1  0     0  0\n  7  5  1  0     0  0\nA  1\n[R1]\nA  4\n[Ar]\nA  6\n[RO2S]\nA  7\n[R2]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_3_block3_image_mol_6.jpg",
+            "mol_id": "mol_0075"
+          }
+        },
+        {
+          "product_2": {
+            "smiles": "(no SMILES)",
+            "molfile": "",
+            "crop_path": "reaction_extraction/reaction_mol/36938290-2944-443e-b5e6-1e41305b280e_origin_3_block3_image_rxn5_pro1.jpg",
+            "mol_id": null
+          }
+        }
+      ],
+      "source_figure": "36938290-2944-443e-b5e6-1e41305b280e_origin_3_block3_image",
+      "confidence": 1.0,
+      "page_idx": 3,
+      "block_index": 3,
+      "scale_factor": 2.78212248003043
+    },
+    {
+      "reaction_id": "rxn_0019",
+      "reaction_figure": "reaction_extraction/visualize/36938290-2944-443e-b5e6-1e41305b280e_origin_3_block3_image_rxn4_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "text",
+          "condition": "oxidative",
+          "bbox": [
+            497,
+            189,
+            558,
+            220
+          ],
+          "page_bbox": [
+            590,
+            291,
+            651,
+            322
+          ],
+          "scale_factor": 2.78212248003043
+        },
+        {
+          "type": "text",
+          "condition": "addirio",
+          "bbox": [
+            497,
+            189,
+            558,
+            220
+          ],
+          "page_bbox": [
+            590,
+            291,
+            651,
+            322
+          ],
+          "scale_factor": 2.78212248003043
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [
+        {
+          "bbox": [
+            470,
+            43,
+            583,
+            114
+          ],
+          "page_bbox": [
+            563,
+            145,
+            676,
+            216
+          ],
+          "scale_factor": 2.78212248003043,
+          "category_id": 1
+        },
+        {
+          "bbox": [
+            574,
+            142,
+            695,
+            218
+          ],
+          "page_bbox": [
+            667,
+            244,
+            788,
+            320
+          ],
+          "scale_factor": 2.78212248003043,
+          "category_id": 1
+        }
+      ],
+      "products": [
+        {
+          "bbox": [
+            531,
+            277,
+            660,
+            350
+          ],
+          "page_bbox": [
+            624,
+            379,
+            753,
+            452
+          ],
+          "scale_factor": 2.78212248003043,
+          "category_id": 1,
+          "category": "[Mol]"
+        }
+      ],
+      "reactants_smiles": [
+        {
+          "reactant_1": {
+            "smiles": "CC(=O)O[C]([R1])([Ar])C#[C][R2]",
+            "molfile": "\n     RDKit          2D\n\n  7  6  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -3.2000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0378   -2.4924    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.0835   -1.7849    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.1293   -1.0774    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.1750   -1.7849    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5272   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7393   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  3  0     0  0\n  4  3  1  0     0  0\n  5  4  1  0     0  0\n  6  4  1  0     0  0\n  7  4  1  0     0  0\nA  1\n[R2]\nA  5\n[OAc]\nA  6\n[R1]\nA  7\n[Ar]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_3_block3_image_mol_1.jpg",
+            "mol_id": "mol_0070"
+          }
+        },
+        {
+          "reactant_2": {
+            "smiles": "CC(=O)[O][LPd(II)][C]([R2])=C=[C]([R1])[Ar]",
+            "molfile": "\n     RDKit          2D\n\n  8  7  0  0  0  0  0  0  0  0999 V2000\n    0.0000   -2.7802    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.6330   -1.8582    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.9061   -1.8582    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -0.9220    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.1793   -1.8582    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.8123   -2.7802    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.8123   -0.9220    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  2  0     0  0\n  4  2  1  0     0  0\n  5  3  2  0     0  0\n  6  4  1  0     0  0\n  7  5  1  0     0  0\n  8  5  1  0     0  0\nA  1\n[R2]\nA  4\n[LPd(II)]\nA  6\n[OAc]\nA  7\n[Ar]\nA  8\n[R1]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_3_block3_image_mol_2.jpg",
+            "mol_id": "mol_0071"
+          }
+        }
+      ],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "CC(=O)[O][Pd(III)L][C]([R1])([Ar])C#[C][R2]",
+            "molfile": "\n     RDKit          2D\n\n  8  7  0  0  0  0  0  0  0  0999 V2000\n    2.2458   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7738   -0.9124    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.8450   -1.4406    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6963   -1.4406    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.3019   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.9225   -1.9688    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6963   -2.4970    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -2.4970    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  3  2  1  0     0  0\n  4  2  1  0     0  0\n  5  2  1  0     0  0\n  6  3  3  0     0  0\n  7  4  1  0     0  0\n  8  6  1  0     0  0\nA  1\n[R1]\nA  4\n[Pd(III)L]\nA  5\n[Ar]\nA  7\n[OAc]\nA  8\n[R2]\nM  END",
+            "crop_path": "moldet_yolo/molecule_crops/figure/36938290-2944-443e-b5e6-1e41305b280e_origin_3_block3_image_mol_7.jpg",
+            "mol_id": "mol_0076"
+          }
+        }
+      ],
+      "source_figure": "36938290-2944-443e-b5e6-1e41305b280e_origin_3_block3_image",
+      "confidence": 1.0,
+      "page_idx": 3,
+      "block_index": 3,
+      "scale_factor": 2.78212248003043
+    },
+    {
+      "reaction_id": "rxn_0020",
+      "reaction_figure": "reaction_extraction/visualize/36938290-2944-443e-b5e6-1e41305b280e_origin_3_block3_image_rxn5_vis.jpg",
+      "reaction_conditions": [
+        {
+          "type": "other",
+          "condition": "[Txt]",
+          "bbox": [
+            445,
+            88,
+            454,
+            101
+          ],
+          "page_bbox": [
+            538,
+            190,
+            547,
+            203
+          ],
+          "scale_factor": 2.78212248003043
+        }
+      ],
+      "reaction_smiles": "",
+      "reactants": [],
+      "products": [
+        {
+          "bbox": [
+            414,
+            127,
+            459,
+            143
+          ],
+          "page_bbox": [
+            507,
+            229,
+            552,
+            245
+          ],
+          "scale_factor": 2.78212248003043,
+          "category_id": 2,
+          "category": "[Txt]"
+        }
+      ],
+      "reactants_smiles": [],
+      "products_smiles": [
+        {
+          "product_1": {
+            "smiles": "(no SMILES)",
+            "molfile": "",
+            "crop_path": "reaction_extraction/reaction_mol/36938290-2944-443e-b5e6-1e41305b280e_origin_3_block3_image_rxn5_pro1.jpg",
+            "mol_id": null
+          }
+        }
+      ],
+      "source_figure": "36938290-2944-443e-b5e6-1e41305b280e_origin_3_block3_image",
+      "confidence": 1.0,
+      "page_idx": 3,
+      "block_index": 3,
+      "scale_factor": 2.78212248003043
+    }
+  ],
+  "total_reactions": 20
+}

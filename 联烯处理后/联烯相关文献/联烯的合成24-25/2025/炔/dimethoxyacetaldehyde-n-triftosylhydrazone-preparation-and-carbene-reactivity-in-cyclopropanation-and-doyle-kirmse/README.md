@@ -1,0 +1,13 @@
+# 文献解析结果
+
+原文：dimethoxyacetaldehyde-n-triftosylhydrazone-preparation-and-carbene-reactivity-in-cyclopropanation-and-doyle-kirmse.pdf
+
+状态：全文已完成；化学解析待额度恢复
+
+- 全文.md：正文阅读入口，图片链接指向本地正文/images。
+- 正文/：MinerU 原始全文、版面 JSON、内容 JSON 和图片。
+- 化学解析/：化学完整结果及拆分的分子.json、反应.json（仅在化学任务完成后存在）。
+- 原始结果包/：网站原始 ZIP。
+- 处理记录.json：来源、任务编号与处理状态。
+
+化学输出保留模型原始结果，未经人工结构与条件校验。分子重复记录不等于独立化合物。

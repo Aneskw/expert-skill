@@ -1,0 +1,1146 @@
+[
+  {
+    "type": "text",
+    "text": "Article",
+    "bbox": [
+      62,
+      116,
+      122,
+      132
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "https://doi.org/10.1038/s44160-024-00658-7",
+    "bbox": [
+      650,
+      117,
+      946,
+      132
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Kinetically controlled Z-alkene synthesis using iron-catalysed allene dialkylation",
+    "text_level": 1,
+    "bbox": [
+      62,
+      139,
+      858,
+      213
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Received: 15 April 2024",
+    "bbox": [
+      62,
+      262,
+      225,
+      277
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Accepted: 5 September 2024",
+    "bbox": [
+      62,
+      287,
+      265,
+      303
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Published online: 26 September 2024",
+    "bbox": [
+      62,
+      311,
+      275,
+      327
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Check for updates",
+    "bbox": [
+      63,
+      336,
+      211,
+      353
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Tong-De Tan<sup>1,2,5</sup>, Kai Ze Tee  <sup>2,5</sup>, Xiaohua Luo<sup>2</sup>, Peng-Cheng Qian  <sup>1</sup>, Xinglong Zhang  <sup>3,4,6</sup> & Ming Joo Koh  <sup>2,6</sup>",
+    "bbox": [
+      359,
+      260,
+      853,
+      294
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Stereodefined trisubstituted alkenes are key constituents of biologically active molecules and also serve as indispensable substrates for a wide range of stereospecific reactions afording sp<sup>3</sup>-hybridized skeletons. However, there is a persisting lack of methods that generate the thermodynamically less stable Z-isomers. Here we report an iron-catalysed multicomponent strategy that merges allenes, dialkylzinc compounds and haloalkanes to construct trisubstituted alkenes with excellent control of regioselectivity and Z-selectivity. Selective installation of diverse C(sp<sup>3</sup>) groups enables access to a broad library of functionalized unsaturated products. The synthetic utility of the method is highlighted through the synthesis of a glucosylceramide synthase inhibitor. Contrary to conventional mechanisms for metal-catalysed allene functionalization, our studies suggest a kinetically controlled pathway involving sequential radical-mediated alkylferration of the less hindered C=C bond and inner-sphere alkylation via reductive elimination. Mechanistic and computational investigations reveal the origins of the stereochemical outcome.",
+    "bbox": [
+      357,
+      321,
+      942,
+      607
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Controlling the stereochemistry of the double bond is a prevailing goal in any chemical transformation that aims to synthesize unsymmetric alkenes<sup>1–6</sup>, particularly the thermodynamically less favoured Z-isomeric forms<sup>7,8</sup>. This challenge is even greater in the context of acyclic allcarbon trisubstituted alkenes due to greater steric hindrance and the small energy gap between the Z- and E-isomers<sup>9</sup> (Fig. 1a). Unsurprisingly, limited progress has been made in this area in the past decade. Advances toward the development of kinetically controlled reactions that deliver trisubstituted Z-alkenes have been confined to a handful of methods, such as base-mediated carbonyl olefination<sup>10–14</sup>, alkyne carbofunctionalization<sup>15–19</sup>, stereoretentive cross-metathesis<sup>1,20–22</sup> and cross-coupling of allylic alcohols<sup>23</sup> or Z-alkenyl iodides<sup>24</sup> (Fig. 1b). Many of these protocols require multistep sequences, harsh reaction conditions and/or preinstalled activating or directing groups—all of which limit their overall utility. However, carbofunctionalization of allenes<sup>25–28</sup> represents a unique but less explored approach to preparing acyclic trisubstituted C=C bonds; reported examples furnish heteroatomsubstituted alkenes<sup>25</sup> or Z-alkenes bearing protected carbinols<sup>26</sup>, carboxylic acids<sup>27</sup> or heteroaryl directing auxiliaries<sup>28</sup>. A general catalytic platform that provides straightforward access to all-carbon trisubstituted Z-alkenes without directing functionalities would not only bridge an important gap in the existing literature, but also enable meaningful investigation of these prized but difficult-to-obtain hydrocarbon compounds in routine experimental studies for various applications such as drug discovery.",
+    "bbox": [
+      60,
+      629,
+      499,
+      850
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      507,
+      629,
+      946,
+      753
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "To address the aforementioned challenges, we contemplated the possibility of designing a different disconnection strategy that involves catalytic 1,2-dialkylation of substituted allenes (Fig. 1c). To date, allene dicarbofunctionalization reactions are rare and restricted to palladiumor nickel-mediated carbometallation pathways<sup>29–31</sup> that deliver π-systems as stereoisomeric mixtures or predominantly E-isomers (via π-allyl intermediates). Deviating from this approach and in the presence of an appropriate ligated iron complex i and an alkylmetal nucleophile 2, we envisioned a mechanistically distinct pathway involving in situ generation of an alkyl iron species ii that could preferentially react with the less substituted π-bond of allene 1 through site-selective radical-based alkylferration<sup>32</sup>. The resulting alkenyl iron intermediate iii, which could exist either in the Z- or E-isomeric form, then undergoes C–C coupling with a haloalkane electrophile 3 to give the trisubstituted alkene product 4. To facilitate formation of the desired but energetically disfavoured Z-4, we reasoned that Z-iii must be selectively formed under kinetic control. Furthermore, stereoretentive alkylation of Z-iii with 3 must be faster than any adventitious isomerization of Z-iii to E-iii. Added to these uncertainties is the susceptibility of allene 1 towards radical additions at the C1, C2 or C3 positions, and attack at the sp-hybridized central carbon (C2) to form resonance-stabilized allylic radicals is usually more favoured<sup>33</sup>. This implies that the radical-mediated alkylferration step has to overcome the intrinsic substrate reactivity to achieve high regioselectivity for alkyl radical addition at C1. Here we disclose the successful realization of an iron-catalysed allene dialkylation strategy to generate all-carbon trisubstituted Z-alkenes with exquisite control of site and stereoselectivities (Fig. 1d).",
+    "bbox": [
+      507,
+      753,
+      947,
+      850
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "nature synthesis",
+    "bbox": [
+      60,
+      49,
+      273,
+      75
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "<sup>1</sup>College of Chemistry & Materials Engineering, Wenzhou University, Wenzhou, China. <sup>2</sup>Department of Chemistry, National University of Singapore, Singapore, Republic of Singapore. <sup>3</sup>Department of Chemistry, The Chinese University of Hong Kong, Hong Kong, China. <sup>4</sup>Institute of High-Performance Computing, Agency for Science, Technology and Research (A∗STAR), Singapore, Republic of Singapore. <sup>5</sup>These authors contributed equally: Tong-De Tan, Kai Ze Tee. <sup>6</sup>These authors jointly supervised this work: Xinglong Zhang, Ming Joo Koh.  e-mail: zhang\\_xinglong@ihpc.a-star.edu.sg; chmkmj@nus.edu.sg",
+    "bbox": [
+      60,
+      874,
+      926,
+      944
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "Nature Synthesis | Volume 4 | January 2025 | 116–123",
+    "bbox": [
+      62,
+      962,
+      389,
+      977
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "116",
+    "bbox": [
+      919,
+      963,
+      946,
+      977
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "image",
+    "img_path": "images/3b6434936833097574420517831f982083f1bc7739b0b95f19e5c678c6cee031.jpg",
+    "image_caption": [
+      "Fig. 1 | Challenges and strategies for the synthesis of trisubstituted Z-alkenes. a, The Z-isomeric form of trisubstituted alkenes is thermodynamically less favoured, making its synthesis a challenge<sup>9</sup>. b, Reported approaches for generating trisubstituted Z-alkenes and their limitations<sup>1,10–24</sup>. c, Our mechanistic proposal and the associated problems to overcome for achieving Z-selectivity in",
+      "allene carbofunctionalization through iron catalysis. d, Development of an ironcatalysed system for 1,2-dialkylation of allenes using dialkylzinc and alkyl halide reagents. X, halide or pseudohalide; M, metal; dppf, 1,1′-bis(diphenylphosphino) ferrocene; (S,S)-bdpp, (2S,4S)-2,4-bis(diphenylphosphino)pentane."
+    ],
+    "image_footnote": [],
+    "bbox": [
+      151,
+      65,
+      848,
+      578
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      60,
+      670,
+      499,
+      945
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "Results and discussion Reaction optimization",
+    "text_level": 2,
+    "bbox": [
+      509,
+      668,
+      712,
+      698
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "The three-component union of allene 5, diethyl zinc 6 and prenyl bromide 7 was investigated to identify optimal reaction conditions (Supplementary Table 1). Specifically, various Fe(II) and Fe(III) complexes, and a range of ligands, were surveyed for 1,2-dialkylation in the presence of tetrahydrofuran (THF) as solvent at 60 °C (Table 1). In the absence of ligand, the best results were obtained using 10 mol% of FeBr (entry 2), which afforded the desired trisubstituted alkene 8 in 67% yield and 90:10 Z:E ratio as the sole regioisomer. The configuration of the major Z-isomer was confirmed by nuclear Overhauser effect spectroscopy. Although there was minimal formation of 9 or 10 (from dialkylation of the more substituted C=C bond of 5), small amounts of 11 (from non-selective hydroalkylation of 5 with 7) and 12 (from non-selective dialkylation of 5 with 7) were detected as by-products. These results highlight the complexity and difficulty of orchestrating selective additions of two different aliphatic groups to allenyl substrates featuring cumulated diene structures (versus alkenes which only possess a single C=C bond). Replacing FeBr with FeBr gave similar results (entry 1), whereas other iron halides led to lower yields of 8 (entries 3 and 4). On the other hand, iron pseudohalide complexes generated inseparable mixtures of 8, 9 and 10 along with trace amounts of 11 and 12 (entries 5−8).",
+    "bbox": [
+      507,
+      698,
+      947,
+      945
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "Article",
+    "bbox": [
+      62,
+      26,
+      122,
+      43
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "https://doi.org/10.1038/s44160-024-00658-7",
+    "bbox": [
+      650,
+      29,
+      946,
+      43
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "Nature Synthesis | Volume 4 | January 2025 | 116–123",
+    "bbox": [
+      62,
+      962,
+      389,
+      977
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "117",
+    "bbox": [
+      922,
+      963,
+      947,
+      975
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "image",
+    "img_path": "images/46de8adea2963e2913a7156411ae442a3a883188a78859d06ec18b7b482301da.jpg",
+    "image_caption": [
+      "Table 1 | Reaction optimization for iron-catalysed 1,2-dialkylation of allenes"
+    ],
+    "image_footnote": [],
+    "bbox": [
+      159,
+      92,
+      855,
+      243
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "table",
+    "img_path": "images/32d5d3df2911a21db88e44a5febb57d5e2a41df71de0eda7fb51b66ec36e6ba8.jpg",
+    "table_caption": [],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>Entry</td><td>Fe complex</td><td>Ligand</td><td>Conversion (%)</td><td>Yield of (8+9+10)(%)</td><td>8:(9+10) ratio</td><td>Z:E ratio of 8</td><td>Yield of 11 (%)</td><td>Yield of 12 (%)</td></tr><tr><td>1</td><td> $\\mathsf { F e B r } _ { 2 }$ </td><td>-</td><td>90</td><td>66</td><td>&gt;98:2</td><td>90:10</td><td>7</td><td>14</td></tr><tr><td>2</td><td>FeBr3</td><td>–</td><td>92</td><td>67</td><td>&gt;98:2</td><td>90:10</td><td>7</td><td>15</td></tr><tr><td>3</td><td>FeCl{2</td><td>1</td><td>85</td><td>58</td><td>&gt;98:2</td><td>90:10</td><td>10</td><td>14</td></tr><tr><td>4</td><td> $\\mathsf { F e C l } _ { 3 }$ </td><td>-</td><td>81</td><td>55</td><td>&gt;98:2</td><td>90:10</td><td>9</td><td>13</td></tr><tr><td>5</td><td>Fe(OAc){2</td><td>-</td><td>53</td><td>47</td><td>40:60</td><td>ND</td><td>2</td><td>2</td></tr><tr><td>6</td><td>Fe(acac)2</td><td>–</td><td>50</td><td>46</td><td>40:60</td><td>ND</td><td>2</td><td>2</td></tr><tr><td>7</td><td>Fe(acac)3</td><td>-</td><td>56</td><td>48</td><td>40:60</td><td>ND</td><td>2</td><td>2</td></tr><tr><td>8</td><td> $\\mathsf { F e } ( \\mathsf { O T f } ) _ { 2 }$ </td><td>-</td><td>71</td><td>62</td><td>40:60</td><td>ND</td><td>2</td><td>2</td></tr><tr><td>9</td><td> $\\mathsf { F e B r } _ { 3 }$ </td><td>L1</td><td>54</td><td>50</td><td>40:60</td><td>ND</td><td>2</td><td>2</td></tr><tr><td>10</td><td> $\\mathsf { F e B r } _ { 3 }$ </td><td>L2</td><td>54</td><td>49</td><td>40:60</td><td>ND</td><td>2</td><td>2</td></tr><tr><td>11</td><td> $\\mathsf { F e B r } _ { 3 }$ </td><td>L3</td><td>50</td><td>45</td><td>40:60</td><td>ND</td><td>2</td><td>2</td></tr><tr><td>12</td><td> $\\mathsf { F e B r } _ { 3 }$ </td><td>L4</td><td>78</td><td>42</td><td>&gt;98:2</td><td>91:9</td><td>2</td><td>22</td></tr><tr><td>13</td><td> $\\mathsf { F e B r } _ { 3 }$ </td><td>L5</td><td>95</td><td>65</td><td>&gt;98:2</td><td>92:8</td><td>5</td><td>11</td></tr><tr><td>14</td><td> $\\mathsf { F e B r } _ { 3 }$ </td><td>L6</td><td>95</td><td>68</td><td>&gt;98:2</td><td>92:8</td><td>15</td><td>9</td></tr><tr><td>15</td><td> $\\mathsf { F e B r } _ { 3 }$ </td><td>L7</td><td>95</td><td>69</td><td>&gt;98:2</td><td>92:8</td><td>7</td><td>15</td></tr><tr><td>16</td><td> $\\mathsf { F e B r } _ { 3 }$ </td><td>L8</td><td>96</td><td>71</td><td>&gt;98:2</td><td>94:6</td><td>12</td><td>8</td></tr><tr><td>17</td><td> $\\mathsf { F e B r } _ { 3 }$ </td><td>L9</td><td>95</td><td>70</td><td>&gt;98:2</td><td>94:6</td><td>5</td><td>16</td></tr></table>",
+    "bbox": [
+      62,
+      251,
+      944,
+      562
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "image",
+    "img_path": "images/a730b4a98a7feb8b35e2d0b6f9a606a32a58442028b1923dee4594c18d1828c1.jpg",
+    "image_caption": [
+      "L5 L6 L7 L8 L9 Conversions (based on the disappearance of 5), yields and product ratios were determined by gas chromatography analysis. Z:E ratios were determined by <sup>1</sup>H NMR spectroscopic analysis. ND, not determined; L, ligand; acac, acetylacetonate; Ac, acetyl; Tf, trifluoromethanesulfonyl."
+    ],
+    "image_footnote": [],
+    "bbox": [
+      157,
+      581,
+      840,
+      744
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      60,
+      793,
+      497,
+      821
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "We next tested different ligands in combination with FeBr to probe their performance. Tridentate and bidentate nitrogen-based ligands L1–L3 inhibited the reaction and gave rise to substantial amounts of undesired regioisomers 9 and 10 (entries 9–11). In contrast, the use of bidentate phosphorus-based ligands restored site-selectivity control, furnishing 8 as the major product with varying quantities of 11 and 12 (entries 12–17). 1,1′-Bis(diphenylphosphino)ferrocene L8 was identified as the optimal ligand, generating 8 in 71% yield, >98% site selectivity and 94% Z-selectivity (entry 16). Repeating the reaction in more polar solvents such as dimethylacetamide or acetonitrile was detrimental to reaction efficiency (Supplementary Table 1). The yield of 8 was slightly diminished when the temperature was decreased to 40 °C, but raising the temperature to 80 °C did not improve results. Lowering the catalyst loading to 5 mol% led to a corresponding drop in conversion and yield (56% conversion, 31% yield).",
+    "bbox": [
+      60,
+      821,
+      499,
+      945
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      507,
+      793,
+      946,
+      877
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "Reaction scope and synthetic application",
+    "text_level": 2,
+    "bbox": [
+      509,
+      888,
+      801,
+      902
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "The generality of the iron-catalysed reaction conditions was first assessed by examining various functionalized allenes (Fig. 2). Aryl- and heteroaryl-substituted allenes with electron-rich or electron-deficient substituents were successfully transformed to the corresponding skipped dienes (8, 14–25), prevalent motifs in natural products<sup>34,35</sup>, in 52–70% yield with complete regioselectivity and good to excellent Z-selectivity across the board. These include products that contain an amine (16), a halogen (17), a carboxylic ester (18), a thiophene and benzothiophene (23, 24), and a ferrocene (25). Slightly diminished stereoselectivities were obtained for allenes that bear sterically demanding groups (20, 24, 25). 1,2-Dialkylation of N-substituted allenes delivered trisubstituted enamines 26 and 27. Of particular note, 1,1-disubstituted allenes could also undergo reaction to furnish tetrasubstituted alkenes (28–30), which are typically challenging to prepare due to steric hindrance. However, poor conversions were observed with trisubstituted allene 31 and less-activated alkyl-substituted allene substrates 32 and 33. Access to 8 and 14–28 underscores the ease of introducing prenyl groups through our catalytic approach, which is relevant in protein and biomolecule settings<sup>36,37</sup>.",
+    "bbox": [
+      507,
+      902,
+      946,
+      945
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "118",
+    "bbox": [
+      921,
+      963,
+      946,
+      975
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "Article",
+    "bbox": [
+      62,
+      26,
+      122,
+      41
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "https://doi.org/10.1038/s44160-024-00658-7",
+    "bbox": [
+      650,
+      29,
+      946,
+      43
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "Nature Synthesis | Volume 4 | January 2025 | 116–123",
+    "bbox": [
+      62,
+      962,
+      389,
+      975
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "image",
+    "img_path": "images/1a76e6be54807ba5e308b7a4a6cfe3e1d9cfb52c542b851bb0031e50447e08b5.jpg",
+    "image_caption": [
+      "Fig. 2 | The scope of allenes in iron-catalysed 1,2-dialkylation. Dialkylation of various functionalized allenes to access tri- and tetrasubstituted alkenes. Unless otherwise stated, all products were obtained in >98:2 regioselectivity. <sup>a</sup>Reaction was conducted with BnCl (2 equiv.) as electrophile and dcpe (12 mol%) as ligand. Bn, benzyl; dcpe, 1,2-bis(dicyclohexylphosphino)ethane"
+    ],
+    "image_footnote": [],
+    "bbox": [
+      97,
+      62,
+      889,
+      584
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      60,
+      656,
+      499,
+      875
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "We next investigated the scope of aliphatic electrophiles and nucleophiles in the multicomponent system (Fig. 3). In general, allylic and benzylic halides served as effective substrates to afford the expected trisubstituted alkenes 34–41 with good control of site and Z-selectivities (Fig. 3a). Importantly, the C=C bond geometry was retained in the dialkylation product when 1,2-disubstituted allylic halides were used (34, 35). Generation of 37 shows that chemoselective coupling of C(sp<sup>3</sup>)– halide could be effected in the presence of C(sp<sup>2</sup>)–halide, enabling orthogonal functionalization to create versatile building blocks for further synthetic manipulation. Although simple primary alkyl halides were incompatible under the standard conditions (Supplementary Fig. 1), sterically congested electrophiles such as tertiary alkyl and perfluoroalkyl halides were found to participate in dialkylation to secure trisubstituted alkenes, albeit as the thermodynamically favoured E-isomeric forms (42, 43). This switch in stereochemical outcome could be attributed to the more sluggish reaction between the initially formed alkenyl iron species Z-iii and the bulky haloalkane, allowing competitive isomerization of Z-iii to E-iii to occur (Fig. 1c) via reversible C–Fe bond cleavage before the second C–C bond-forming event (the corresponding energy barrier for alkylation is probably lower). On the other hand, a range of dialkylzinc reagents could be used for dialkylation, facilitating the regioselective installation of primary (44–51), secondary (52–54) and tertiary (55) aliphatic motifs (cyclic and acyclic) on the terminal position to construct trisubstituted Z-alkenes (Fig. 3b).",
+    "bbox": [
+      60,
+      874,
+      497,
+      945
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      507,
+      656,
+      946,
+      916
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "To further highlight utility, we used the iron-catalysed dialkylation protocol as a key step in the concise synthesis of glucosylceramide synthase (GCS) inhibitor (Fig. 3c). Iron-catalysed dialkylation of allene 56 conveniently afforded the trisubstituted alkene 57 in 40% yield, >98:2 r.r. and 91:9 Z:E, which was then subjected to deprotection and alkylation to deliver 58 in 81% overall yield. The desired GCS inhibitor could be readily accessed through a final amination step with Et NH (ref. 38). It is worth mentioning that switching the Z-alkene configuration in 59 to the E-isomer led to reduced bioactivity, underscoring the value of our Z-selective dialkylation reaction.",
+    "bbox": [
+      507,
+      916,
+      946,
+      945
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "Article",
+    "bbox": [
+      62,
+      27,
+      122,
+      41
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "https://doi.org/10.1038/s44160-024-00658-7",
+    "bbox": [
+      650,
+      29,
+      946,
+      43
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "Nature Synthesis | Volume 4 | January 2025 | 116–123",
+    "bbox": [
+      62,
+      962,
+      389,
+      975
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "119",
+    "bbox": [
+      921,
+      964,
+      947,
+      975
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "image",
+    "img_path": "images/919a9f3f3045d8fffce2694ceeebc36a92fe48872cd796e55f9937fb41d5c2d8.jpg",
+    "image_caption": [
+      "Fig. 3 | The scope of electrophiles and nucleophiles in iron-catalysed 1,2-dialkylation and its synthetic utility. a, Reactions with various haloalkane electrophiles. b, Reactions with various dialkylzinc nucleophiles. c, Application",
+      "to the synthesis of GCS inhibitor 59. Unless otherwise stated, all products were obtained in >98:2 regioselectivity. <sup>a</sup>Reaction was conducted with dppf (12 mol%) as ligand. TBS, tert-butyldimethylsilyl; TBAF, tetra-n-butylammonium fluoride."
+    ],
+    "image_footnote": [],
+    "bbox": [
+      107,
+      62,
+      902,
+      622
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      60,
+      697,
+      499,
+      808
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "Mechanistic studies",
+    "text_level": 2,
+    "bbox": [
+      60,
+      820,
+      206,
+      834
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "To investigate the viability of our proposed radical-based reaction design (Fig. 1c), we conducted studies to examine the possible intermediacy of carbogenic radicals during the course of the dialkylation (Fig. 4). The three-component coupling of 5, 13 and 1-hexene-derived dialkylzinc 60 led to a mixture of 61 and 62 (Fig. 4a). The formation of 62 could be explained by the in situ generation of a 5-hexenyl radical species from 60, which is presumably prone to cyclization to give cyclopentylmethyl radical prior to reaction with the allene. In the model iron-catalysed transformation to form 8, radical homocoupling<sup>39,40</sup> by-products of prenyl bromide 7 (via prenyl radicals) were also detected in the reaction system (Fig. 4b). Furthermore, addition of a radical inhibitor such as 2,2,6,6-tetramethylpiperidine-1-oxyl (TEMPO) completely shuts down the reaction. These results are consistent with a previous study<sup>32</sup> and lend credence to the proposed involvement of C(sp<sup>3</sup>)-radical intermediates derived from the alkylation reagents. Notably, the small amounts of ethyl bromide detected during the formation of 43 (Fig. 3a) mainly arose from the background reaction between diethylzinc 6 and the perfluorooctyl bromide used (Supplementary Fig. 2). This observation suggests that the electrophilic perfluorooctyl radical is probably generated from perfluorooctyl bromide via bromine-atom abstraction by an organoiron species<sup>32</sup>, rather than through a bromine-atom transfer process involving an ethyl radical.",
+    "bbox": [
+      60,
+      834,
+      499,
+      945
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      507,
+      697,
+      946,
+      889
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "To gain greater insight into the nature of C–C bond formation in the multicomponent process, density functional theory (DFT) studies were performed; the computed Gibbs energy profile is shown in Fig. 4c. Based on previous studies<sup>41</sup>, we proposed that an active bisphosphine–Fe<sup>II</sup>BrEt species I, presumably produced from initial reduction of ligated $\\mathsf { F e } ^ { \\mathrm { I I I } } \\mathsf { B r } _ { 3 }$ followed by transmetallation with diethylzinc 6 or from comproportionation between an Fe(I) species at the end of a catalytic cycle and the Fe(III) species, is involved in the catalytic cycle. I is most stable in the quintet state, whereas its triplet and singlet states are both higher in energy, by 11.2 and 26.0 kcal mol<sup>−1</sup>, respectively (Fig. 4c). The allene substrate coordinates to the iron centre, triggering concomitant release of ethyl radical which then adds to the least-hindered C1 position of allene via an outer-sphere mechanism (TS1) to deliver Z-alkenyliron intermediate IV. This C–C bond-forming step has an energy barrier of 27.4 kcal mol<sup>−1</sup> and is exergonic, furnishing IV at −20.9 kcal mol<sup>−1</sup> (Fig. 4c). The competing pathway leading to E-alkenyliron intermediate IV′ via TS1′ has a higher activation barrier of 30.8 kcal mol<sup>−1</sup>. It is worth noting that we have considered several different conformers of the competing transition state structures and took the lowest-energy transition state from each pathway (Supplementary Fig. 5). We also considered this step for species in triplet and open-shell singlet state which were found to have higher barriers than the ones in the quintet state (TS1 and TS1′) (Supplementary Information, section 5.3.1). The alternative transition states which arise from a concerted inner-sphere migratory insertion mechanism in which I coordinates to the allene to induce ethyl insertion have much higher barriers (TS1a at 41.3 kcal mol<sup>−1</sup> and TS1a′ at 40.0 kcal mol<sup>−1</sup>; Supplementary Fig. 7) than the ones that arise from an outer-sphere mechanism (Supplementary Information, section 5.3.2). This is consistent with an earlier report involving iron-catalysed radical-mediated alkylferration of an alkene<sup>32</sup> which also favours an outer-sphere pathway.",
+    "bbox": [
+      507,
+      888,
+      946,
+      945
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "Article",
+    "bbox": [
+      62,
+      27,
+      122,
+      41
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "https://doi.org/10.1038/s44160-024-00658-7",
+    "bbox": [
+      650,
+      29,
+      946,
+      43
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "footer",
+    "text": "Nature Synthesis | Volume 4 | January 2025 | 116–123",
+    "bbox": [
+      62,
+      962,
+      389,
+      975
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "page_number",
+    "text": "120",
+    "bbox": [
+      917,
+      963,
+      946,
+      975
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "image",
+    "img_path": "images/6c4e67ddf1b79e2ad0e6d697ba0f2297ee1a4b73319645409a72088aa58983ad.jpg",
+    "image_caption": [
+      "Fig. 4 | Mechanistic and computational studies. a, Radical clock study supports the generation of a radical intermediate from the dialkylzinc nucleophile. b, Radical homocoupling side products derived from the haloalkane electrophile were detected under the established conditions. Addition of a radical inhibitor is detrimental to the reaction. These observations suggest the intermediacy",
+      "of radical species in the system. c, Computed Gibbs energy profile for iron(II)- catalysed allene dialkylation. Final SMD (THF)-B3LYP-D3BJ/def2-TZVP//B3LYP D3BJ/def2-SVP Gibbs energies are given. Superscripts in front of energy values denote the spin states of the species. GC–MS, gas chromatography–mass spectrometry; TS, transition state."
+    ],
+    "image_footnote": [],
+    "bbox": [
+      105,
+      67,
+      902,
+      750
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      60,
+      846,
+      497,
+      945
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      507,
+      846,
+      946,
+      945
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "Article",
+    "bbox": [
+      62,
+      26,
+      122,
+      43
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "https://doi.org/10.1038/s44160-024-00658-7",
+    "bbox": [
+      650,
+      27,
+      946,
+      43
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "footer",
+    "text": "Nature Synthesis | Volume 4 | January 2025 | 116–123",
+    "bbox": [
+      62,
+      962,
+      389,
+      977
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "page_number",
+    "text": "121",
+    "bbox": [
+      922,
+      963,
+      947,
+      975
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      60,
+      58,
+      497,
+      235
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "Following the formation of IV, the prenyl radical (generated in situ by bromine-atom abstraction from prenyl bromide 7 by an organoiron species<sup>32</sup>) coordinates to it to give complex V which is comparable in energy in both the quartet (−13.4 kcal mol<sup>−1</sup>) and sextet state (−13.9 kcal mol<sup>−1</sup>) (Fig. 4c). In the quartet state, this prenyl radical associates with the iron centre to promote an inner-sphere reductive C(sp<sup>2</sup>)–C(sp<sup>3</sup>) bond formation, via TS2, to furnish the desired product VII downhill at −41.4 kcal mol<sup>−1</sup>. Interestingly, in the sextet state, the prenyl radical does not coordinate to the iron centre and undergoes an outer-sphere C–C coupling (Supplementary Fig. 7 and Supplementary Information, section 5.4) instead. Thus, reductive C–C coupling is likely to occur in the quartet state because this inner-sphere transition state has a barrier of 6.2 kcal mol<sup>−1</sup> lower than that in the sextet state (Fig. 4c). This finding is in stark contrast to iron-catalysed alkene dialkylation, which favours an outer-sphere pathway for generating both C(sp<sup>3</sup>)– C(sp<sup>3</sup>) linkages. Overall, from the Gibbs energy profile, the alkylferration step is irreversible because the reverse reaction from IV to I has a barrier of 48.3 kcal mol<sup>−1</sup> which is much higher than the forward reaction from IV to VII via TS2 (which has a barrier of 14.0 kcal mol<sup>−1</sup>). This step is also both rate- and stereo-determining. Therefore, considering the activation barrier difference between the formation of IV via TS1 and the formation of IV′ via TS1′ (ΔΔG<sup>‡</sup> = 3.4 kcal mol<sup>−1</sup>), we estimate a kinetic preference for the formation of the Z-isomer (versus the E-isomer) by a factor of 170:1, in good agreement with the observed Z-alkene selectivity.",
+    "bbox": [
+      60,
+      235,
+      499,
+      575
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "Molecular analysis of the competing stereo- and rate-determining transition states, TS1 and TS1′, indicates that non-covalent interactions are rather similar in both transition states (Supplementary Fig. 6). Based on the singly occupied molecular orbitals and the spin density plots (Supplementary Fig. 6), we found that the C1=C2 double bond of allene is coordinated to the iron centre in TS1, allowing for π-electron donation to the d-orbital of iron as the ethyl radical adds to the terminal C1 carbon. On the contrary, it is the C2=C3 double bond that coordinates to the iron centre in TS1′. The more favourable orbital interactions in TS1 probably give rise to the observed lower activation barrier. Additional DFT studies using nitrogen-based ligands such as L1 (Supplementary Information, section 5.6) suggest that reactions with planar ligands are non-stereoselective due to the unhindered nature of the terminal carbon on the iron-bound allene for ethyl radical attack, which could happen on either side with similar ease (Supplementary Fig. 10).",
+    "bbox": [
+      60,
+      575,
+      499,
+      782
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "Conclusions",
+    "text_level": 2,
+    "bbox": [
+      62,
+      792,
+      176,
+      806
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "Three-component 1,2-dialkylation of allenes was attained using a bisphosphine–iron catalyst to assemble stereodefined trisubstituted alkenes. Various aliphatic groups could be installed with simultaneous control of site and Z-selectivities. Mechanistic and computational findings suggest a unique mechanism involving radical-mediated alkylferration followed by inner-sphere C–C bond formation, offering critical insights for designing kinetically controlled transformations of allenes and other π-systems. We anticipate the widespread adoption of this chemistry as a practical tool for constructing value-added unsaturated motifs to facilitate applications in complex molecule synthesis.",
+    "bbox": [
+      60,
+      807,
+      499,
+      945
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "Methods",
+    "text_level": 2,
+    "bbox": [
+      509,
+      56,
+      593,
+      70
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "General procedure for iron-catalysed 1,2-dialkylation of allenes In a nitrogen-filled glovebox, an oven-dried 4.0 ml vial equipped with a magnetic stir bar was charged with FeBr (10 mol%), ligand (12 mol%), alkyl bromide (2.0 equiv.) and allene (0.1 mmol, 1.0 equiv.) in THF (0.4 ml). Dialkylzinc (2.0 equiv.) was then slowly added into the system. The vial was sealed and removed from the glovebox, and the reaction mixture was allowed to stir at 60 °C for 8 h. After cooling to ambient temperature, the crude mixture was purified by silica gel chromatography to give the desired product.",
+    "bbox": [
+      507,
+      72,
+      946,
+      196
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "Data availability",
+    "text_level": 2,
+    "bbox": [
+      509,
+      206,
+      658,
+      222
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "All data supporting the findings of this study are available within the article and its Supplementary Information. The DFT-optimized structures are available via Zenodo at https://doi.org/10.5281/ zenodo.11363682 (ref. 42).",
+    "bbox": [
+      507,
+      222,
+      946,
+      277
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "References",
+    "text_level": 2,
+    "bbox": [
+      510,
+      288,
+      613,
+      303
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "1. Hoveyda, A. H. et al. Taking olefin metathesis to the limit: stereocontrolled synthesis of trisubstituted alkenes. Acc. Chem. Res. 56, 2426–2446 (2023).",
+      "2. Itami, K. & Yoshida, J. Multisubstituted olefins: platform synthesis and applications to materials science and pharmaceutical chemistry. Bull. Chem. Soc. Jpn. 79, 811–824 (2006).",
+      "3. McDonald, R. I., Liu, G. & Stahl, S. S. Palladium(II)-catalyzed alkene functionalization via nucleopalladation: stereochemical pathways and enantioselective catalytic applications. Chem. Rev. 111, 2981–3019 (2011).",
+      "4. Wickham, L. & Giri, R. Transition metal (Ni, Cu, Pd)-catalysed alkene dicarbofunctionalization reactions. Acc. Chem. Res. 54, 3415–3437 (2021).",
+      "5. Negishi, E. et al. Recent advances in eficient and selective synthesis of di-, tri-, and tetrasubstituted alkenes via Pd-catalyzed alkenylation-carbonyl olefination synergy. Acc. Chem. Res. 41, 1474–1485 (2008).",
+      "6. Flynn, A. B. & Ogilvie, W. W. Stereocontrolled synthesis of tetrasubstituted olefins. Chem. Rev. 107, 4698–4745 (2007).",
+      "7. Siau, W. Y., Zhang, Y. & Zhao, Y. in Stereoselective Synthesis of Z-Alkenes (ed. Wang, J.) 33–58 (Springer, 2012).",
+      "8. Vedejs, E. & Peterson, M. J. in Topics in Stereochemistry (ed. Mathey, F.) 1–157 (Wiley, 2007).",
+      "9. Liu, C.-F. et al. Olefin functionalization/isomerization enables stereoselective alkene synthesis. Nat. Catal. 4, 674–683 (2021).",
+      "10. Guo, F.-K. et al. Wittig/B–H insertion reaction: a unique access to trisubstituted Z-alkenes. Sci. Adv. 9, eadj2486 (2023).",
+      "11. Jasem, Y. A., El-Esawi, R. & Thiemann, T. Wittig- and Horner– Wadsworth–Emmons-olefination reactions with stabilised and semi-stabilised phosphoranes and phosphonates under nonclassical conditions. J. Chem. Res. 38, 453–463 (2014).",
+      "12. Hodgson, D. M. & Arif, T. Convergent synthesis of trisubstituted Z-allylic esters by Wittig–Schlosser reaction. Org. Lett. 12, 4204–4207 (2010).",
+      "13. Ando, K. Z-Selective Horner–Wadsworth–Emmons reaction of α-substituted ethyl (diarylphosphono)acetates with aldehydes. J. Org. Chem. 63, 8411–8416 (1998).",
+      "14. Vedejs, E., Cabaj, J. & Peterson, M. J. Wittig ethylidenation of ketones: reagent control of Z/E selectivity. J. Org. Chem. 58, 6509–6512 (1993).",
+      "15. Kutateladze, D. A. et al. Stereoselective synthesis of trisubstituted alkenes via copper hydride-catalyzed alkyne hydroalkylation. J. Am. Chem. Soc. 145, 17557–17563 (2023).",
+      "16. Long, T. et al. Ligand-controlled stereodivergent alkenylation of alkynes to access functionalized trans- and cis-1,3-dienes. Nat. Commun. 14, 55 (2023)."
+    ],
+    "bbox": [
+      510,
+      305,
+      931,
+      344
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "Article",
+    "bbox": [
+      62,
+      27,
+      122,
+      41
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "https://doi.org/10.1038/s44160-024-00658-7",
+    "bbox": [
+      650,
+      29,
+      946,
+      41
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "footer",
+    "text": "Nature Synthesis | Volume 4 | January 2025 | 116–123",
+    "bbox": [
+      62,
+      963,
+      389,
+      975
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "page_number",
+    "text": "122",
+    "bbox": [
+      919,
+      964,
+      946,
+      975
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "17. Qin, J., Zhang, Z., Lu, Y., Zhu, S. & Chu, L. Divergent 1,2-carboallylation of terminal alkynes enabled by metallaphotoredox catalysis with switchable triplet energy transfer. Chem. Sci. 14, 12143–12151 (2023).",
+      "18. Yu, L. et al. Palladium-catalyzed formal hydroalkylation of aryl-substituted alkynes with hydrazones. Angew. Chem. Int. Ed. 59, 14009–14013 (2020).",
+      "19. Huang, Q., Wang, W.-N. & Zhu, S.-F. Iron-catalyzed alkylzincation of terminal alkynes. ACS Catal. 12, 2581–2588 (2022).",
+      "20. Nguyen, T. T., Koh, M. J., Mann, T. J., Schrock, R. R. & Hoveyda, A. H. Synthesis of E- and Z-trisubstituted alkenes by catalytic cross-metathesis. Nature 552, 347–354 (2017).",
+      "21. Mu, Y., Nguyen, T. T., Koh, M. J., Schrock, R. R. & Hoveyda, A. H. E- and Z-, di- and tri-substituted alkenyl nitriles through catalytic cross-metathesis. Nat. Chem. 11, 478–487 (2019).",
+      "22. Qin, C. et al. Z-Trisubstituted α,β-unsaturated esters and acid fluorides through stereocontrolled catalytic cross-metathesis. J. Am. Chem. Soc. 145, 3748–3762 (2023).",
+      "23. Belardi, J. K. & Micalizio, G. C. Conversion of allylic alcohols to stereodefined trisubstituted alkenes: a complementary process to the Claisen rearrangement. J. Am. Chem. Soc. 130, 16870–16872 (2008).",
+      "24. Huang, Z. & Negishi, E. Highly stereo- and regioselective synthesis of (Z)-trisubstituted alkenes via 1-bromo-1-alkyne hydroboration-migratory insertion-Zn-promoted iodinolysis and Pd-catalyzed organozinc cross-coupling. J. Am. Chem. Soc. 129, 14788–14792 (2007).",
+      "25. Zhou, Y., You, W., Smith, K. B. & Brown, M. K. Copper-catalyzed cross-coupling of boronic esters with aryl iodides and application to the carboboration of alkynes and allenes. Angew. Chem. Int. Ed. 53, 3475–3479 (2014).",
+      "26. Ng, S.-S. & Jamison, T. F. Highly enantioselective and regioselective nickel-catalyzed coupling of allenes, aldehydes, and silanes. J. Am. Chem. Soc. 127, 7320–7321 (2005).",
+      "27. Ju, T. et al. Dicarboxylation of alkenes, allenes and (hetero) arenes with CO<sub>2</sub> via visible-light photoredox catalysis. Nat. Catal. 4, 304–311 (2021).",
+      "28. Zhai, Y., Zhang, X. & Ma, S. Stereoselective rhodium-catalyzed 2-C–H 1,3-dienylation of indoles: dual functions of the directing group. Chem. Sci. 12, 11330–11337 (2021).",
+      "29. Nakao, Y., Hirata, Y. & Hiyama, T. Cyanoesterification of 1,2-dienes: synthesis and transformations of highly functionalized α-cyanomethylacrylate esters. J. Am. Chem. Soc. 128, 7420–7421 (2006).",
+      "30. Wu, M.-S., Rayabarapu, D. K. & Cheng, C.-H. Nickel-catalyzed highly regio- and stereoselective three-component assembly of allenes, aryl iodides, and alkenylzirconium reagents. J. Am. Chem. Soc. 125, 12426–12427 (2003).",
+      "31. Ma, S. in Handbook of Organopalladium Chemistry for Organic Synthesis (ed. Negishi, E.-I.) 1491–1521 (Wiley, 2003).",
+      "32. Tan, T.-D. et al. Congested C(sp<sup>3</sup>)-rich architectures enabled by iron-catalysed conjunctive alkylation. Nat. Catal. 7, 321–329 (2024).",
+      "33. Liu, L., Ward, R. M. & Schomaker, J. M. Mechanistic aspects and synthetic applications of radical additions to allenes. Chem. Rev. 119, 12422–12490 (2019).",
+      "34. Petruncio, G., Shellnutt, Z., Elahi-Mohassel, S., Alishetty, S. & Paige, M. Skipped dienes in natural product synthesis. Nat. Prod. Rep. 38, 2187–2213 (2021).",
+      "35. Sato, T., Suto, T., Nagashima, Y., Mukai, S. & Chida, N. Total synthesis of skipped diene natural products. Asian J. Org. Chem. 10, 2486–2502 (2021).",
+      "36. Wang, M. & Casey, P. J. Protein prenylation: unique fats make their mark on biology. Nat. Rev. Mol. Cell Biol. 17, 110–122 (2016).",
+      "37. Du, Y., Korchi, I., Rubtsov, A. E., Andrei, V. & Malkov, A. V. Catalytic prenylation of natural polyphenols. New J. Chem. 47, 20358–20362 (2023).",
+      "38. Childers, W. et al. Novel compounds that reverse the disease phenotype in type 2 Gaucher disease patient-derived cells. Bioorg. Med. Chem. Lett. 30, 126806 (2020).",
+      "39. Kim, D., Rahaman, S. W., Mercado, B. Q., Poli, R. & Holland, P. L. Roles of iron complexes in catalytic radical alkene cross-coupling: a computational and mechanistic study. J. Am. Chem. Soc. 141, 7473–7485 (2019).",
+      "40. Li, B. et al. Interception of transient allyl radicals with low-valent allylpalladium chemistry: tandem Pd(0/II/I)–Pd(0/II/I/II) cycles in photoredox/Pd dual-catalytic enantioselective C(sp<sup>3</sup>)–C(sp<sup>3</sup>) homocoupling. J. Am. Chem. Soc. 146, 6377–6387 (2024).",
+      "41. Liu, L. et al. General method for iron-catalysed multicomponent radical cascades–cross-couplings. Science 374, 432–439 (2021).",
+      "42. Zhang, X. Kinetically-controlled Z-alkene synthesis using iron-catalysed allene dialkylation. Zenodo https://doi.org/10.5281/ zenodo.11363682 (2024)."
+    ],
+    "bbox": [
+      63,
+      59,
+      453,
+      113
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "Acknowledgements",
+    "text_level": 2,
+    "bbox": [
+      510,
+      329,
+      689,
+      344
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "This research was supported by the Ministry of Education of Singapore Academic Research Fund Tier 2 (A-8000034-00-00, M.J.K.) and the Foundation of Wenzhou Science & Technology Bureau (ZY2020027, T.-D.T. and P.-C.Q.).",
+    "bbox": [
+      509,
+      344,
+      942,
+      400
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "Author contributions",
+    "text_level": 2,
+    "bbox": [
+      510,
+      411,
+      704,
+      425
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "M.J.K. and T.-D.T. conceived the project. T.-D.T., K.Z.T., X.L. and P.-C.Q. developed the catalytic method. X.Z. designed and performed the DFT studies. M.J.K. wrote the paper with revisions provided by the other authors.",
+    "bbox": [
+      509,
+      426,
+      926,
+      481
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "Competing interests",
+    "text_level": 2,
+    "bbox": [
+      510,
+      492,
+      695,
+      508
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "The authors declare no competing interests.",
+    "bbox": [
+      509,
+      508,
+      784,
+      522
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "Additional information",
+    "text_level": 2,
+    "bbox": [
+      510,
+      532,
+      719,
+      548
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "Supplementary information The online version contains supplementary material available at https://doi.org/10.1038/s44160-024-00658-7.",
+    "bbox": [
+      509,
+      549,
+      803,
+      591
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "Correspondence and requests for materials should be addressed to Xinglong Zhang or Ming Joo Koh.",
+    "bbox": [
+      509,
+      603,
+      932,
+      631
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "Peer review information Nature Synthesis thanks the anonymous reviewers for their contribution to the peer review of this work. Primary Handling Editor: Thomas West, in collaboration with the Nature Synthesis team.",
+    "bbox": [
+      509,
+      644,
+      909,
+      700
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "Reprints and permissions information is available at www.nature.com/reprints.",
+    "bbox": [
+      509,
+      712,
+      833,
+      740
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional afiliations.",
+    "bbox": [
+      509,
+      753,
+      885,
+      794
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.",
+    "bbox": [
+      509,
+      807,
+      929,
+      877
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "© The Author(s), under exclusive licence to Springer Nature Limited 2024",
+    "bbox": [
+      509,
+      888,
+      926,
+      915
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "header",
+    "text": "Article",
+    "bbox": [
+      62,
+      27,
+      122,
+      41
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "header",
+    "text": "https://doi.org/10.1038/s44160-024-00658-7",
+    "bbox": [
+      650,
+      29,
+      946,
+      41
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "page_number",
+    "text": "123",
+    "bbox": [
+      919,
+      964,
+      947,
+      975
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "footer",
+    "text": "Nature Synthesis | Volume 4 | January 2025 | 116–123",
+    "bbox": [
+      62,
+      963,
+      389,
+      975
+    ],
+    "page_idx": 7
+  }
+]

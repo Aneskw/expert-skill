@@ -1,0 +1,180 @@
+pubs.acs.org/OrgLett
+
+Letter
+
+# Pd/Brønsted Acid Co-catalyzed Dehydrative Coupling of Propargylic Alcohols with Diarylphosphine Oxides
+
+Zhaoqiang Chen and Hui Qian\*
+
+![](images/90078e25037d5e8b4a260276811de37913f31b039562ec7164cebbce59b441c5.jpg)
+
+Cite This: Org. Lett. 2025, 27, 522−527
+
+## ACCESS
+
+Metrics & More
+
+ABSTRACT: An eficient dehydrative coupling of propargylic alcohols with diarylphosphine oxides to construct tetrasubstituted allenylphosphoryl compounds in the presence of a Pd/Brønsted acid co-catalyst has been developed. As a benefit from the use of a Brønsted acid, this reaction could perform under mild conditions with excellent yields, accommodating a wide range of functional groups. The potential utility of this method has also been demonstrated.
+
+remains a topic of enduring significance due to the diverse applications in pharmaceutical science,<sup>1</sup> materials chemistry,<sup>2</sup> and organic chemistry.<sup>3</sup> Introducing phosphorus atoms into organic molecules could result in substantial modifications to their chemical and physical properties, rendering phosphination a commonly employed eficient method for generating innovative compounds. Allenyl phosphine oxides, specific types of P-functionalized unsaturated compounds, have garnered considerable interest in recent years due to their distinctive allenic structure and phosphorus functionality, which embedded them with unique reactive and biological activities.<sup>4−7</sup> Therefore, increasing attention has been focusing on the advancement of novel methodologies to acquire phosphorus-substituted allenes. The traditional approach for their preparation mainly relies on the Horner−Mark rearrangement reaction, which underwent an intermediate of propargyl phosphate (Scheme 1a).<sup>8</sup> Although delivering the desired allenylphosphoryl compounds, it sufered from toxic and unstable reagents as well as a limited substrate scope. To overcome these issues, transition-metal (TM)-catalyzed coupling of propargylic derivatives with readily available and stable secondary phosphine oxides has been called in for the synthesis of such compounds (Scheme 1b).<sup>9</sup> The direct dehydrate C−P coupling of propargylic alcohols is the most straightforward and eficient strategy; however, the C−O bond is much more inert and less reactive. Therefore, Lewis acid catalysts had been applied in such transformations with a high temperature (Scheme 1c).<sup>10</sup> Inspired by previous work,<sup>11</sup> a catalytic amount of Brønsted acid could facilitate the hydroxy group to form a transient leaving group and could be further converted to construct the C−C bond in the presence of a palladium catalyst. Here, we reported the dehydrative C−P coupling of propargylic alcohols with $\mathrm { P d } / \mathrm { H } ^ { + }$ co-catalysis, afording the tetrasubstituted
+
+![](images/026030f8fe6f72a60ac48c63836ff9ea9133bf1b11c1d18a4cd16186366f3b34.jpg)
+
+Read Online
+
+Article Recommendations
+
+\*sı Supporting Information
+
+![](images/4c9492ac5bbd85a169c27d30b8addfbbb0f94ea174b5316fbeef3346d4d2d82a.jpg)
+
+## Scheme 1. TM-Catalyzed C−P Coupling to Synthesize Allenylphosphoryl Compounds
+
+(a) Horner-Mark [2,3]-sigmatropic rearrangement
+
+![](images/9a61f6a4a9fc31182b4ec815de5d4194d9e3fbb5737a150c2e7cb8b96c9bb058.jpg)
+
+(b) TM-catalyzed coupling of propargylic derivatives affording allenylphosphoryl compounds
+
+![](images/83f43351a2edcda030d877fa13e13ec018612e48b2cf67349d4176f8a07cfb66.jpg)
+
+![](images/f062fdd5a71f64e4765db2ff70b579b8f337d76f2f36f7d4004e8853629f52e2.jpg)
+
+![](images/5eba8f03af26d9b58d12e6a7cc24a918e33992adc1e98a41dd1269caf4813250.jpg)  
+LG = OC(O)R, OC(O)OR, halides, epoxyl
+
+(c) Lewis acid catalyzed coupling of propargylic alcohols affording allenylphosphoryl compounds
+
+![](images/091e7bca3359fba8843d14cab0ba906c54770c2bc92a5028b7fca556827d7028.jpg)
+
+$( \mathrm { i } ) ^ { 1 0 \mathsf { a } }$ 30 mol% Cu(O $\mathsf { T f } ) _ { 2 } ,$ 100 $^ { \circ } \mathsf { C }$ $( \mathrm { i i } ) ^ { 1 0 6 }$ 10 mol% AgOTf, 60 °C
+
+(iii)10c5-10 mol% CdC, 100 C
+
+$( \mathsf { i v } ) ^ { 1 0 0 }$ 15 mol% Cu(OTf)2/50 mol% Ag2CO3, 90 °C
+
+(v)10e 10 mol% Zn(OTf)2, 100 ℃
+
+(d) Pd/H\* co-catalyzed coupling of propargylic alcohols with diarylphosphine oxides (This work)
+
+![](images/87b4e8cae003d7197984490da9ffac92a093502f07bf8c7a56d6289406f58b84.jpg)
+
+allenylphosphoryl compounds under mild conditions with broad functional group compatibility.
+
+Received: December 7, 2024   
+Revised: December 20, 2024   
+Accepted: December 23, 2024   
+Published: December 25, 2024
+
+![](images/63f3a4d841dfa4f65429fc652bc8f3acb4bb123ffedbd99902017e9c39b6cc38.jpg)
+
+Table 1. Optimization of the Reaction Conditions<sup>a</sup>  
+![](images/51d964e4ff8e6d5cab1f6ffdcbbd35e5e1a064743ac9fd026e456024c401c1ba.jpg)
+
+<table><tr><td>entry</td><td>[Pd]</td><td>temperature (°C)</td><td>solvent</td><td>NMR yield of product 3aa (%)</td><td>recovery of compound 1a (%)</td></tr><tr><td>1</td><td> $\mathrm { P d } ( \mathrm { P P h } _ { 3 } ) _ { 4 }$ </td><td>80</td><td>toluene</td><td>50</td><td>30</td></tr><tr><td> $2 ^ { b }$ </td><td> $\mathrm { P d } _ { 2 } ( \mathrm { d b a } ) _ { 3 } { \cdot } \mathrm { C H C l } _ { 3 }$ </td><td>80</td><td>toluene</td><td>45</td><td>39</td></tr><tr><td> $3 ^ { b }$ </td><td> $\mathrm { P d } _ { 2 } ( \mathrm { d b } \mathrm { a } ) _ { 3 }$ </td><td>80</td><td>toluene</td><td>38</td><td>47</td></tr><tr><td>4</td><td> $\mathrm { P d } \left( \mathrm { P } ^ { t } \mathrm { B } \mathbf { u } _ { 2 } \mathrm { P h } \right) _ { 2 }$ </td><td>80</td><td>toluene</td><td>36</td><td>46</td></tr><tr><td> $5 ^ { b }$ </td><td> $[ ( \mathrm { a l l y l } ) \mathrm { P d C l } ] _ { 2 }$ </td><td>80</td><td>toluene</td><td>0</td><td>94</td></tr><tr><td>6</td><td> $\mathrm { P d C l } _ { 2 }$ </td><td>80</td><td>toluene</td><td>0</td><td>93</td></tr><tr><td>7</td><td> $\mathrm { P d } ( \mathrm { P P h } _ { 3 } ) _ { 4 }$ </td><td>50</td><td>toluene</td><td>54</td><td>31</td></tr><tr><td>8</td><td> $\mathrm { P d } ( \mathrm { P P h } _ { 3 } ) _ { 4 }$ </td><td>rt</td><td>toluene</td><td>52</td><td>41</td></tr><tr><td>9</td><td> $\mathrm { P d } ( \mathrm { P P h } _ { 3 } ) _ { 4 }$ </td><td>rt</td><td>MeCN</td><td>80</td><td>20</td></tr><tr><td>10</td><td> $\mathrm { P d } ( \mathrm { P P h } _ { 3 } ) _ { 4 }$ </td><td>rt</td><td>MTBE</td><td>24</td><td>76</td></tr><tr><td>11</td><td> $\mathrm { P d } ( \mathrm { P P h } _ { 3 } ) _ { 4 }$ </td><td>rt</td><td>dioxane</td><td>38</td><td>60</td></tr><tr><td>12</td><td>Pd(PPh3)₄</td><td>rt</td><td>THF</td><td>40</td><td>57</td></tr><tr><td>13</td><td>Pd(PPh3)4</td><td>rt</td><td>DCM</td><td>92</td><td>0</td></tr><tr><td> $1 4 ^ { c }$ </td><td> $\mathrm { P d } ( \mathrm { P P h } _ { 3 } ) _ { 4 }$ </td><td>rt</td><td>DCM</td><td>8</td><td>91</td></tr><tr><td> $1 5 ^ { d }$ </td><td></td><td>rt</td><td>DCM</td><td>0</td><td>&gt;99</td></tr><tr><td> $1 6 ^ { d }$ </td><td> $\mathrm { P d } ( \mathrm { P P h } _ { 3 } ) _ { 4 }$ </td><td>rt</td><td>DCM</td><td>40</td><td>60</td></tr></table>
+
+<sup>a</sup>Reaction conditions: The reaction was conducted with compound 1a (0.2 mmol), compound 2a (0.3 mmol), [Pd] (4 mol %), DPEphos (6 mol %), and (PhO) POOH (5 mol %) in solvent (2.0 mL) under $\mathbf { \Omega } _ { 1 } \mathbf { N } _ { 2 }$ atmosphere for 16 h. The yield was determined by <sup>1</sup>H NMR analysis of the crude product. $\mathit { \bar { \Delta } } _ { b _ { \mathrm { T h e } } }$ reaction was conducted with 2 mol % [Pd]. <sup>c</sup>The reaction was conducted without $( \mathrm { P h O } ) _ { 2 } \mathrm { P O O H } .$ <sup>d</sup>The reaction was conducted without DPEphos.
+
+Our research commenced with propargylic alcohol 1a and diphenyl phosphine oxide 2a as model substrates to identify the suitable palladium source. When $\mathrm { P d } ( \mathrm { P P h } _ { 3 } ) _ { 4 }$ was employed in conjunction with DPEphos and $( \mathrm { P h O } ) _ { 2 } \mathrm { P O O H }$ in toluene, the desired tetrasubstituted allenylphosphoryl product 3aa was formed in 50% yield with 30% recovery of compound 1a (entry 1 in Table 1). Other Pd(0) catalysts, such as $\mathrm { P d } _ { 2 } ( \mathrm { d b } \mathsf { a } ) _ { 3 }$ $\mathrm { C H C l } _ { 3 } , \ \mathrm { P d } _ { 2 } ( \mathrm { d } \mathbf { b } \mathbf { a } ) _ { 3 } ,$ and $\mathrm { P d } \big ( \mathrm { P } ^ { t } \mathrm { B u } _ { 2 } \mathrm { P h } \big ) _ { 2 } ,$ could also aford the desired product with lower yields (entries 2−4 in Table 1); however, all of the tested Pd(II) catalysts failed to catalyze the coupling reaction (entries 5 and 6 in Table 1). Further screening indicated that room temperature gave a better result (entries 7 and 8 in Table 1). Next, we set out to investigate the solvent efect. The yield increased to 80% when MeCN was applied (entry 9 in Table 1). Ethers, such as methyl tert-butyl ether (MTBE), tetrahydrofuran (THF), and dioxane, were not efective (entries 10−12 in Table 1). Dichloromethane (DCM) was found to be optimal and provided a 92% nuclear magnetic resonance (NMR) yield of product 3aa (entry 13 in Table 1). Controlling experiments showed that phosphoric acid and palladium are necessary for the reaction (entries 14 and 15 in Table 1). The reaction aforded a 40% yield only in the absence of DPEphos (entry 16 in Table 1). Thus, the optimized reaction conditions entailed the use of 4 mol % $\mathrm { P d } ( \mathrm { P P h } _ { 3 } ) _ { 4 } ,$ 6 mol % DPEphos, and 5 mol % (PhO) POOH in DCM at room temperature for 16 h.
+
+With the optimized conditions in hand, we next explored the reaction scope (Scheme 2). Propargylic alcohols bearing a wide range of aryl groups with electron-donating (1b−1e) and electron-withdrawing (1f−1i) substituents all reacted smoothly with diphenylphosphine oxide 2a, forming the corresponding tetrasubstituted allenylphosphoryl products (3ba−3ia) in decent to excellent yields. It is worth mentioning that the steric efect seems to have no impact because substrates containing a methyl group at the ortho, meta, and para positions of the phenyl group all produced the intended products (3ba−3da) in significant yields. The reaction of 2- (naphthalen-2-yl)oct-3-yn-2-ol also performed well under the standard conditions, giving an 88% yield of allene product 3ja. Heteroaryl groups, such as furyl and thienyl, also furnished target products 3ka and 3la in decent yields. The $\mathbb { R } ^ { 2 }$ group may also be alkyl groups (3ma−3oa). However, when a sterically hindered tert-butyl group was employed, the allene product 3pa could be aforded in only a 11% yield with a 79% recovery of raw materials. Then, we set out to investigate the $\mathbb { R } ^ { 1 }$ group with diverse alkyl and aryl substituents: an array of propargylic alcohols bearing diferent lengths of alkyl chains or containing useful handles were all examined, afording the allene products 3qa−3va in excellent yields. Besides, the $\mathbb { R } ^ { 1 }$ group may also be an aryl group (1w−1A), providing the related allene products (3wa−3Aa) and showing a better conversion eficiency with more electron-deficient substrates. The structure of product 3Aa was confirmed by single-crystal X-ray difraction analysis. In addition, there was no efect on the reaction when we replaced $\mathbb { R } ^ { 3 }$ with an ethyl group (1B and 1C) or propyl group (1D). Meanwhile, reactions of other diarylphosphine oxides, including halides (F and Br) and trifluoromethyl substituents, had also been studied, providing allene possessing diferent kinds of phosphoryl groups with good yields (3ab−3ad). Finally, we also performed the C−P coupling reaction with H-phosphonates. Diethyl phosphite 2e exhibited a low reactivity, and only 10% yield of product 3ae could be supplied. When compound 2e was replaced with cyclic H-phosphonate 2f, the corresponding products 3af and 3wf could be obtained with satisfactory results.
+
+To demonstrate the synthetic potential of the reaction, a gram-scale reaction was conducted to aford 1.4515 g (94% yield) of product 3aa (eq 1 in Scheme 3). When compound
+
+## Scheme 2. Substrate Scope Study<sup>a</sup>
+
+![](images/58d014476cafc3610c54271865907db012c75c16efd5fb0cbf0801e112a9ce49.jpg)  
+<sup>a</sup>Reaction conditions: The reaction was conducted with compound 1 (1.0 mmol), compound 2 (1.5 mmol), $\mathrm { P d } ( \mathrm { P P h } _ { 3 } ) _ { 4 }$ (4 mol %), DPEphos (6 mol %), and (PhO) POOH (5 mol %) in DCM (2.5 mL) under an Ar atmosphere. <sup>b</sup>The reaction was conducted with $\mathrm { P d } ( \mathrm { P P h } _ { 3 } ) _ { 4 }$ (6 mol %), DPEphos (9 mol %), and (PhO) POOH (10 mol %). <sup>c</sup>The reaction was conducted with 1.2 mmol of compound 2. $d _ { \mathrm { T h e } }$ reaction was conducted with 10 mol % $( \mathrm { P h O } ) _ { 2 } \mathrm { P O O H }$
+
+Scheme 3. Gram-Scale Reaction and Transformations of the Products  
+![](images/21b4abee101451785a9510511236535105a8e03ab42dfd4661466f53c0010b5b.jpg)
+
+![](images/27fdd3514c3c529caeecb659f51763631336ab2a7888133f0b7b82cb6126662d.jpg)
+
+![](images/6de2de44f0121b59a90e26be6fabfe9c2033272b78bddcb4276f3bc812e3fbcb.jpg)
+
+3aa was treated with an electrophilic reagent, such as phenylselenenyl chloride 4, the desired addition product (E)- 5 could be obtained in 85% yield (eq 2 in Scheme 3).<sup>4b</sup> This allenyl phosphine oxide could also undergo a bromohydroxylation process furnished difunctional compound (E)-6 with 81% yield in the presence of CuBr<sub>2</sub> (eq 3 in Scheme 3).<sup>4e</sup>
+
+To gain insight into the mechanism, kinetic studies were conducted and showed that the reaction was first-order in the catalyst and Brønsted acid (Scheme 4). These data indicated
+
+Scheme 4. Kinetic Studies  
+![](images/8ba84831d6f1d7a61adc7ea7ab4e76ab7e6481be18d050bba24cc2ad1bb96b8d.jpg)
+
+![](images/f067e3ee4b80dfda44aac66efe33f8ae5914268915bcc9bb3d541b75a94d0943.jpg)  
+that both palladium catalyst and phosphoric acid were essential for facilitating the conversion of propargylic alcohol to allene. These findings were also consistent with the results of the controlling experiments (entries 14 and 15 of Table 1). On the basis of the above experimental results and previous reports,<sup>11,12</sup> a possible catalytic cycle was proposed in Scheme $5 , ^ { 1 3 }$ in which propargylic alcohol 1 would be activated by Brønsted acid to yield oxonium intermediate I, which would easily undergo an anti-oxidative addition with palladium(0) to deliver allenyl palladium intermediate II. Then, a ligandexchange process would happen between intermediate II and in situ-generated tautomeric P(III). Subsequent reductive elimination formed the desired product and regenerated the palladium(0) species.
+
+Scheme 5. Proposed Mechanism  
+![](images/ca77a51788b56c2b64fb2acd8a97820c412b65c2475e193fba4bf8b84271a49f.jpg)
+
+In summary, we have developed an eficient strategy for the dehydrative coupling to produce the corresponding tetrasubstituted allenylphosphoryl products. The key to our protocol mainly relies on the introduction of Brønsted acid to enhance the leaving ability of the hydroxyl group, which makes the reaction work well under mild conditions with better substrate compatibility. Further studies are currently ongoing in our laboratory.
+
+## ■ ASSOCIATED CONTENT
+
+## Data Availability Statement
+
+The data underlying this study are available in the published article and its Supporting Information.
+
+## \*sı Supporting Information
+
+The Supporting Information is available free of charge at https://pubs.acs.org/doi/10.1021/acs.orglett.4c04586.
+
+Experimental procedures, characterization for obtained compounds, crystal data for compound 3Aa, and NMR spectra (PDF)
+
+## Accession Codes
+
+Deposition number 2366046 contains the supplementary crystallographic data for this paper. These data can be obtained free of charge via the joint Cambridge Crystallographic Data Centre (CCDC) and Fachinformationszentrum Karlsruhe Access Structures service.
+
+## ■ AUTHOR INFORMATION
+
+## Corresponding Author
+
+Hui Qian − Research Center for Molecular Recognition and Synthesis, Department of Chemistry, Fudan University, Shanghai 200433, People’s Republic of China; orcid.org/ 0000-0002-5606-9213; Email: qian\_hui@fudan.edu.cn
+
+## Author
+
+Zhaoqiang Chen − Research Centerfor Molecular Recognition and Synthesis, Department of Chemistry, Fudan University, Shanghai 200433, People’s Republic of China
+
+Complete contact information is available at: https://pubs.acs.org/10.1021/acs.orglett.4c04586
+
+## Notes
+
+The authors declare no competing financial interest.
+
+## ■ ACKNOWLEDGMENTS
+
+Financial support from the Shanghai Rising-Star Program (23QA1400400 for Hui Qian) is greatly appreciated. The authors thank En Zhen (State Key Laboratory of Organometallic Chemistry, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences) in this group for reproducing the results of compounds 3oa, 3wa, and 3ac in Scheme 2.
+
+## ■ REFERENCES
+
+(1) (a) Pradere, U.; Garnier-Amblard, E.; Coats, S.; Amblard, F.; Schinazi, R. Synthesis of Nucleoside Phosphate and Phosphonate Prodrugs. Chem. Rev. 2014, 114, 9154−9218. (b) Rodriguez, J.; Gallo-Rodriguez, C. The Role of the Phosphorus Atom in Drug Design. ChemMedChem. 2019, 14, 190−216. (c) Mehellou, Y.; Rattan, H.; Balzarini, J. The ProTide Prodrug Technology: From the Concept to the Clinic. J. Med. Chem. 2018, 61, 2211−2226.
+
+(2) (a) Baumgartner, T.; Réau, R. Organophosphorus π-Conjugated Materials. Chem. Rev. 2006, 106, 4681−4727. (b) Ren, Y.; Baumgartner, T. Combining Form with Function−the Dawn of Phosphole-Based Functional Materials. Dalton Trans. 2012, 41, 7792−7800. (c) Matano, Y.; Ohkubo, H.; Miyata, T.; Watanabe, Y.; Hayashi, Y.; Umeyama, T.; Imahori, H. Phosphole- and Benzodithiophene-Based Copolymers: Synthesis and Application in Organic Photovoltaics. Eur. J. Inorg. Chem. 2014, 2014, 1620−1624. (d) Cao, Y.; Nagle, J.; Wolf, M.; Patrick, B. Tunable Luminescence of Bithiophene-Based Flexible Lewis Pairs. J. Am. Chem. Soc. 2015, 137, 4888−4891. (e) Wu, Z.; Liang, X.; Zhou, J.; Yu, L.; Wang, Y.; Zheng, Y.; Li, Y.; Zuo, J.; Pan, Y. Photocatalyzed Cascade Oxidative Annulation of Propargylamines and Phosphine Oxides. Chem. Commun. 2017, 53, 6637−6640. (f) Ma, P.; Chen, Y.; Man, Y.; Qi, Q.; Guo, Y.; Wang, H.; Li, Z.; Chang, P.; Qu, C.; Han, C.; Xu, H. High-Efficiency Ultraviolet Electroluminescence from Multi-Resonance Phosphine Oxide Polycyclic Aromatics. Angew. Chem., Int. Ed. 2024, 63, No. e202316479.
+
+(3) (a) Fernández-Pérez, H.; Etayo, P.; Panossian, A.; Vidal-Ferran, A. Phosphine-Phosphinite and Phosphine-Phosphite Ligands: Preparation and Applications in Asymmetric Catalysis. Chem. Rev. 2011, 111, 2119−2176. (b) Guo, H.; Fan, Y.; Sun, Z.; Wu, Y.; Kwon, O. Phosphine Organocatalysis. Chem. Rev. 2018, 118, 10049−10293.
+
+(4) For selected reports on selective ionic addition of allenyl phosphine oxides, see (a) Guo, H.; Qian, R.; Guo, Y.; Ma, S. Neighboring Group Participation of Phosphine Oxide Functionality in the Highly Regio- and Stereoselective Iodohydroxylation of 1,2- Allenylic Diphenyl Phosphine Oxides. J. Org. Chem. 2008, 73, 7934− 7938. (b) He, G.; Guo, H.; Qian, R.; Guo, Y.; Fu, C.; Ma, S. Studies on Highly Regio- and Stereoselective Selenohydroxylation Reaction of 1,2-Allenyl Phosphine Oxides with PhSeCl. Tetrahedron 2009, 65, 4877−4889. (c) He, G.; Fu, C.; Ma, S. Studies on Highly Regio- and Stereoselective Fluorohydroxylation Reaction of 3-Aryl-1,2-Allenyl Phosphine Oxides with Selectfluor. Tetrahedron 2009, 65, 8035− 8042. (d) Matveeva, E. V.; Kovaleva, E. Y.; Brel, V. K. Reaction of Vinyl- and Allenylphosphorylated Compounds with Cytisine in Aqueous Medium. Russ. J. Gen. Chem. 2015, 85, 2592−2595. (e) Liu, T.; Sun, J.; Wang, Q.; Li, L.; Zhou, M. CuBr /TBHP-Promoted Selective Dibromination and Bromohydroxylation of (Diphenylphosphoryl)allenes. Eur. J. Org. Chem. 2017, 2017, 1915− 1921.
+
+(5) For selected examples on the cyclization reaction of allenyl phosphine oxides, see (a) Mukai, C.; Ohta, M.; Yamashita, H.; Kitagaki, S. Base-Catalyzed Endo-Mode Cyclization of Allenes: Easy Preparation of Five- to Nine-Membered Oxacycles. J. Org. Chem. 2004, 69, 6867−6873. (b) Onodera, G.; Matsumoto, H.; Milton, M.; Nishibayashi, Y.; Uemura, S. Ruthenium-Catalyzed Formation of Aryl(diphenyl)phosphine Oxides by Reactions of Propargylic
+
+Alcohols with Diphenylphosphine Oxide. Org. Lett. 2005, 7, 4029− 4032. (c) Ivanov, K.; Christov, V. Synthesis and Electrophilic Cyclization Reactions of Diphenyl 3-Methylhexa-1,3,4-trien-3-yl Phosphine Oxide. Heteroat. Chem. 2012, 23, 345−351. (d) Baumann, M.; Baxendale, I. Batch and Flow Synthesis of Pyrrolo[1,2-a]- quinolines via an Allene Based Reaction Cascade. J. Org. Chem. 2015, 80, 10806−10816. (e) Yu, L.; Deng, Y.; Cao, J. Regioselective Synthesis of Highly Substituted Imidazoles via the Sequential Reaction of Allenyl Sulfonamides and Amines. J. Org. Chem. 2015, 80, 4729−4735. (f) Essid, I.; Laborde, C.; Legros, F.; Sevrain, N.; Touil, S.; Rolland, M.; Ayad, T.; Volle, J. N.; Pirat, J. L.; Virieux, D. Phosphorus-Containing Bis-allenes: Synthesis and Heterocyclization Reactions Mediated by Iodine or Copper Dibromide. Org. Lett. 2017, 19, 1882−1885. (g) Swamy, K. C. K.; Anitha, M.; Gangadhararao, G.; Rama Suresh, R. Exploring Allene Chemistry using Phosphorus-based Allenes as Scaffolds. Pure Appl. Chem. 2017, 89, 367−377.
+
+(6) For selected examples on the transition-metal-catalyzed reaction of allenyl phosphine oxides, see (a) Nishimura, T.; Hirabayashi, S.; Yasuhara, Y.; Hayashi, T. Rhodium-Catalyzed Asymmetric Hydroarylation of Diphenylphosphinylallenes with Arylboronic Acids. J. Am. Chem. Soc. 2006, 128, 2556−2557. (b) Kawamoto, T.; Hirabayashi, S.; Guo, X.; Nishimura, T.; Hayashi, T. Rhodium-Catalyzed Asymmetric Hydroalkoxylation and Hydrosulfenylation of Diphenylphosphinylallenes. Chem. Commun. 2009, 3528−3530. (c) Chen, Y.; Zhang, L.; Lu, A. M.; Yang, F.; Wu, L. α-Allenyl Ethers as Starting Materials for Palladium Catalyzed Suzuki−Miyaura Couplings of Allenylphosphine Oxides with Arylboronic Acids. J. Org. Chem. 2015, 80, 673−680. (d) Mao, M.; Zhang, L.; Chen, Y.; Zhu, J.; Wu, L. Palladium-Catalyzed Coupling of Allenylphosphine Oxides with N-Tosylhydrazones toward Phosphinyl [3]Dendralenes. ACS Catal. 2017, 7, 181−185. (e) Shen, R.; Yang, J.; Zhang, M.; Han, L. Silver-Catalyzed Atom-Economic Hydrophosphorylation of Propargyl Epoxides: An Access to 4-Phosphoryl 2,3-Allenols and Stereodefined 1-Phosphoryl 1,3-Dienes. Adv. Synth. Catal. 2017, 359, 3626−3637. (f) Zhu, J.; Mao, M.; Ji, H.; Xu, J.; Wu, L. Palladium-Catalyzed Cleavage of α-Allenylic Aryl Ether toward Pyrazolemethylene-Substituted Phosphinyl Allenes and Their Transformations via Alkenyl C−P(O) Cleavage. Org. Lett. 2017, 19, 1946−1949. (g) Meyer, T. H.; Oliveira, J. C. A.; Sau, S. C.; Ang, N. W. J.; Ackermann, L. Electrooxidative Allene Annulations by Mild Cobalt-Catalyzed C−H Activation. ACS Catal. 2018, 8, 9140−9147. (h) Mei, R.; Fang, X.; He, L.; Sun, J.; Zou, L.; Ma, W.; Ackermann, L. Cobaltaelectro-Catalyzed Oxidative Allene Annulation by Electro-Removable Hydrazides. Chem. Commun. 2020, 56, 1393−1396. (i) Lin, Y.; von Münchow, T.; Ackermann, L. Cobaltaelectro-Catalyzed C−H Annulation with Allenes for Atropochiral and P-Stereogenic Compounds: Late-Stage Diversification and Continuous Flow Scale-Up. ACS Catal. 2023, 13, 9713−9723.
+
+(7) (a) Nicolaou, K. C.; Maligres, P.; Shin, J.; De Leon, E.; Rideout, D. DNA Cleavage and Antitumor Activity of Designed Molecules with Conjugated Phosphine Oxide-Allene-Ene-Yne Functionalities. J. Am. Chem. Soc. 1990, 112, 7825−7826. (b) Beach, D. H.; Chen, F.; Cushion, M. T.; Macomber, R. S.; Krudy, G. A.; Wyder, M. A.; Kaneshiro, E. S. Effects of Steroidal Allenic Phosphonic Acid Derivatives on the Parasitic Protists Leishmania donovani, Leishmania mexicana mexicana, and Pneumocystis carinii carinii. Antimicrob. Agents Chemother. 1997, 41, 162−168.
+
+(8) (a) Mark, V. A Facile S i’ Rearrangement: The Formation of 1,2-Alkadienylphosphonates from 2-Alkynyl Phosphites. Tetrahedron Lett. 1962, 3, 281. (b) Boisselle, A.; Meinhardt, N. Acetylene-Allene Rearrangements. Reactions of Trivalent Phosphorus Chlorides with α-Acetylenic Alcohols and Glycols. J. Org. Chem. 1962, 27, 1828− 1833.
+
+(9) For transition-metal-catalyzed synthesis of allenyl phosphine oxides from propargylic derivatives, see (a) Kalek, M.; Johansson, T.; Jezowska, M.; Stawinski, J. Palladium-Catalyzed Propargylic Substitution with Phosphorus Nucleophiles: Efficient, Stereoselective Synthesis of Allenylphosphonates and Related Compounds. Org. Lett. 2010, 12, 4702−4704. (b) Kalek, M.; Stawinski, J. Novel, Stereo-
+
+selective and Stereospecific Synthesis of Allenylphosphonates and Related Compounds via Palladium-Catalyzed Propargylic Substitution. Adv. Synth. Catal. 2011, 353, 1741−1755. (c) Shen, R.; Luo, B.; Yang, J.; Zhang, L.; Han, L. Convenient Synthesis of Allenylphosphoryl Compounds via Cu-Catalysed Couplings of P(O)H Compounds with Propargyl Acetates. Chem. Commun. 2016, 52, 6451− 6454. (d) Shen, R.; Yang, J.; Zhao, H.; Feng, Y.; Zhang, L.; Han, L. Cu-Catalyzed Hydrophosphorylative Ring Opening of Propargyl Epoxides: Highly Selective Access to 4-Phosphoryl 2,3-Allenols. Chem. Commun. 2016, 52, 11959−11962. (e) Shen, R.; Yang, J.; Zhang, M.; Han, L. Silver-Catalyzed Atom-Economic Hydrophosphorylation of Propargyl Epoxides: An Access to 4-Phosphoryl 2,3-Allenols and Stereodefined 1-Phosphoryl 1,3-Dienes. Adv. Synth. Catal. 2017, 359, 3626−3637. (f) Gu, X.; Ngai, K.; Wang, W.; Li, B.; Wang, J. Ni-Catalyzed Propargylic Substitution reaction: A General and Versatile Tool to Assemble Axially Chiral Phosphorus-Containing Allenes. Chem. Catalysis 2024, 4, 100903. For metal-free coupling to synthesize the allenyl phosphine oxides from propargylic derivatives, see (g) Yang, C.; Fan, H.; Li, H.; Hou, S.; Sun, X.; Luo, D.; Zhang, Y.; Yang, Z.; Chang, J. Direct Access to Allenylphosphine Oxides via a Metal Free Coupling of Propargylic Substrates with P(O)H Compounds. Org. Lett. 2019, 21, 9438−9441.
+
+(10) (a) Hu, G.; Shan, C.; Chen, W.; Xu, P.; Gao, Y.; Zhao, Y. Copper-Catalyzed Direct Coupling of Unprotected Propargylic Alcohols with P(O)H Compounds: Access to Allenylphosphoryl Compounds under Ligand- and Base-Free Conditions. Org. Lett. 2016, 18, 6066−6069. (b) Li, X.; Han, Y.; Zhu, X.; Li, M.; Wei, W.; Liang, Y. Synthesis of Organophosphorus Compounds through Copper-Catalyzed Annulation Involving C−O and C−P Bond Formations. J. Org. Chem. 2017, 82, 11636−11643. (c) Mao, L.-L.; Li, Y.-H.; Yang, S.-D. Silver-Catalyzed Phosphonylation of Unprotected Propargylic Alcohols for the Synthesis of Allenylphosphoryl Compounds. Org. Chem. Front. 2017, 4, 608−611. (d) Yang, J.; Zhang, M.; Qiu, K.; Wang, L.; Yu, J.; Xia, Z.; Shen, R.; Han, L. Cadmium(II) Chloride-Catalyzed Dehydrative C−P Coupling of Propargyl Alcohols with Diarylphosphine Oxides to Afford Allenylphosphine Oxides. Adv. Synth. Catal. 2017, 359, 4417−4426. (e) Yang, J.; Zhang, M.; Dong, C.; Han, L.; Shen, R. Solvent-Free Zn(OTf) -Catalyzed Dehydrative Cross Coupling of Propargyl Alcohols with Diarylphosphine Oxides to Afford Allenylphosphine Oxides. Phosphorus, Sulfur Silicon Relat. Elem. 2018, 193, 691−696.
+
+(11) (a) Zhang, W.; Huang, C.; Yuan, Y.; Ma, S. Catalytic Transient Leaving Group for Atom-Economic Synthesis of Allenes from 2- Alkynols. Chem. Commun. 2017, 53, 12430−12433. (b) Zheng, W.-F.; Zhang, W.; Huang, J.; Yu, Y.; Qian, H.; Ma, S. 2,3-Allenoic Acids via Palladium-Catalyzed Carboxylation of Propargylic Alcohols. Org. Chem. Front. 2018, 5, 1900−1904. (c) Zheng, W.; Zhang, W.; Huang, C.; Wu, P.; Qian, H.; Wang, L.; Guo, Y.; Ma, S. Tetrasubstituted Allenes via the Palladium-Catalysed Kinetic Resolution of Propargylic Alcohols Using a Supporting Ligand. Nat. Catal. 2019, 2, 997−1005. (d) Qin, A.; Qian, H.; Chen, Q.; Ma, S. Palladium-Catalyzed Coupling of Propargylic Alcohols with Boronic Acids under Ambient Conditions. Chin. J. Chem. 2020, 38, 372−382. (e) Wang, J.; Zheng, W.-F.; Li, Y.; Guo, Y.-L.; Qian, H.; Ma, S. Pd((R)-DTBM-SEGphos)Cl -Catalyzed Kinetic Resolution of Tertiary Propargylic Alcohols. Org. Chem. Front. 2024, 11, 2477−2484.
+
+(12) For selected reports on Pd-catalyzed C−P cross-coupling reactions from secondary phosphine oxides, see (a) Zakirova, G.; Mladentsev, D.; Borisova, N. Palladium-Catalyzed C−P Cross-Coupling between (Het)aryl Halides and Secondary Phosphine Oxides. Synthesis 2019, 51, 2379−2386. (b) Dai, Q.; Li, W.; Li, Z.; Zhang, J. P-Chiral Phosphines Enabled by Palladium/Xiao-Phos-Catalyzed Asymmetric P−C Cross-Coupling of Secondary Phosphine Oxides and Aryl Bromides. J. Am. Chem. Soc. 2019, 141, 20556. (c) McErlain, H.; Riley, L.; Sutherland, A. Palladium-Catalyzed C−P Bond-Forming Reactions of Aryl Nonaflates Accelerated by Iodide. J. Org. Chem. 2021, 86, 17036−17049. (d) Chen, C.; Ding, J.; Liu, L.; Huang, Y.; Zhu, B. Palladium-Catalyzed Domino Cyclization/ Phosphorylation of gem-Dibromoolefins with P(O)H Compounds:
+
+Synthesis of Phosphorylated Heteroaromatics. Adv. Synth. Catal.   
+2022, 364, 200−205.
+
+(13) For selected reviews on propargylic substitution reactions of propargylic compounds with internal alkyne moieties via allenyl compounds, see (a) Roy, R.; Saha, S. Scope and Advances in the Catalytic Propargylic Substitution Reaction. RSC Adv. 2018, 8, 31129−31193. (b) Tong, F.; Hu, D.; Zhang, C.; Zhang, J.; Ren, H. Recent Advances in Nickel-Catalyzed Propargylic Substitution. Org. Chem. Front. 2024, 11, 1843−1857. For a selected review on the direct transformation of propargylic alcohols to allenes, see (c) Du, S.; Zhou, A.; Yang, R.; Song, X.; Xiao, Q. Recent Advances in the Direct Transformation of Propargylic Alcohols to Allenes. Org. Chem. Front. 2021, 8, 6760−6782.

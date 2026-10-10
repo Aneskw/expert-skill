@@ -1,0 +1,269 @@
+# Highly regioselective hydrogermylation of unsaturated C-C bonds over ligand-control single atom palladium catalysts
+
+![](images/1dd2768487a773305e81087b0a09269c0e06c7916e6543ca08e1dc8668207749.jpg)
+
+Junyou Ding, Xiaotong Li, Hongmin Lin, Bochao Ye, Xing Zhou, Feihu Cui, Yingming Pan∗, Haitao Tang∗
+
+Key Laboratory for Chemistry and Molecular Engineering of Medicinal Resources (Ministry of Education of China), Guangxi Key Laboratory of Chemistry and Molecular Engineering of Medicinal Resources, School of Chemistry and Pharmaceutical Sciences, Guangxi Normal University, Guilin 541004, China
+
+## a r t i c l e i n f o
+
+Article history:   
+Received 2 January 2025   
+Revised 6 May 2025   
+Accepted 7 May 2025   
+Available online 8 May 2025
+
+Keywords:   
+Hydrogermylation   
+Unsaturated C-C bonds   
+Single atom catalyst   
+Catalyst design   
+Regio- and stereo-selectivity
+
+## a b s t r a c t
+
+The selective addition reaction of unsaturated C–C bonds has always been a classic and constant research topic. Different from well-developed hydroboration, hydrosilylation, and hydrostannylation reaction, hydrogermylation reaction remains challenging which hasn’t been much reported. Herein, we developed a new metal-porous ligand polymers Pd @POL-PPh<sub>n</sub>Cy<sub>m</sub> (n m 3) with monoatomic dispersion characteristics for highly selective and eficient hydrogermylation of unsaturated C–C bonds, including alkynes, alkenes, and allenes. X-ray photoelectron spectroscopy and theoretical calculations further proved the introduction of cyclohexyl could gently adjust the charge on monoatomic Pd center which effectively facilitate the recognition and transformation of various substrates. With the electrically fine-tuned single atom palladium catalysts, we realized the α-germanium addition for the first time, obtaining corresponding allyl germanium and alkyl germanium compounds.
+
+© 2025 Published by Elsevier B.V. on behalf of Chinese Chemical Society and Institute of Materia Medica, Chinese Academy of Medical Sciences.
+
+The development of eficient catalytic systems to achieve high selectivity has always been a classic and constant research hotspot, among which the representative is the selective addition reaction of unsaturated C–C bonds [1]. Elemental reagents (organoborons, organosilicons, organotins, etc.) obtained through the addition reaction can be used as a kind of fundamental synthetic blocks for the preparation of natural products, drugs, and material molecules [2–17]. Organogermanium compounds as prospective coupling partners have the advantages of high activity, low toxicity, and good stability [18]. Thus, catalytic methods for producing organogermanium compounds with high regio- and stereoselectivities are desirable, and the most atom-economical approach would be the hydrogermylation of unsaturated C–C bonds [19–26]. Metal-catalyzed hydrogermylation of alkynes could generate configurationally varied products, including β-E and β-Z isomers with good yields and selectivities [19–21,23–25]. However, for allene and alkene substrates, most of the reported hydrogermylation reactions are limited to $\beta \mathrm { \cdot }$ -addition products (Scheme 1) [20,22]. Therefore, developing a general strategy for the highly selective synthesis of various organogermanium reagents such as vinygermanes, allylgermanes and alkylgermanes compounds remains challenging and has not been reported due to the electron cloud density and electron binding force vary with different hybridization modes of unsaturated C–C bonds.
+
+Highly active and catalytically eficient single atom catalysts (SACs) have been used for organic reaction [27–34]. A large number of results have shown that single atom catalysts do have superior regulatory effects in many selective syntheses due to their well-defined and uniform catalytic sites [35–49]. Interestingly, the mechanism of single atom catalysis could be completely different from homogeneous catalysis in the past, which is more clear and diverse. For instance, Li and co-authors designed a Cu single atom catalyst, $\mathtt { C u } _ { 1 }$ -TiC, with strong electronic metal-support interaction (EMSI). Cu -TiC enhanced the π cloud back-donation to the alkyne on the metal catalytic intermediate during the reaction by using transient electron-rich characteristics and realized highly linear-E-type regioselective conversion of electrically unbiased alkynes without the formation of branched isomers (ln:br >100:1) [49].
+
+Similarly, in metal-catalyzed selective reactions, ligands play a crucial role in regulating the electrical properties of metal centers and controlling the spatial effects of catalysts, thereby identifying substrates, and regulating product configurations [50–56]. As the more π orbitals overlap, the density of the electron cloud increases, while correspondingly, the electron binding force increases and the ability to give electrons decreases. Therefore, adjusting the electrical properties of the catalyst is crucial for enhancing its afinity to the substrates. Based on this, development of new metal-ligand catalytic system through reasonable regulation of the electrical properties of ligand skeletons may achieve high selectivity conversion in hydrogermylation of various substrates with unsaturated C–C bonds.
+
+![](images/9565cef2c6326658c19ec0d12be5b318cbfeec431bb87d350193174e7085141b.jpg)  
+Scheme 1. Study on hydrogermylation of unsaturated C–C bonds.
+
+Phosphine ligands, which forms stable P-M complexes with low valent transition metals and exhibits excellent performance in reactions involving oxidative addition and reduction elimination, can serve as an important means of regulating the electronic properties of metal active centers [57–63]. Compared with introducing additional groups to phenyl ring of the triphenylphosphine skeleton, we assume that changing the groups connected to phosphine can more directly and precisely regulate the electrical properties of ligands, thereby enhancing or weakening the positive electricity of metal centers, enabling them to afinity substrates and identify specific reaction sites, so as to achieve the selective addition reaction of various unsaturated C–C bonds. Alkyl is usually considered to be an electron-rich group, in which the naphthenic group has one more degree of unsaturation than the chain alkyl, making its hybridization easy to shift to $\mathsf { s p } ^ { 2 }$ hybridization. In the heterocyclic alkyl, the five-membered ring and the six-membered ring are relatively stable, so we introduce the cyclohexyl with the same carbon number as the phenyl group into the phosphine ligand skeleton. We used commercially available cyclohexylphosphine dichlorides as the raw material for synthesis of ligand skeleton.
+
+By introducing the vinylphenyl group through Grignard reaction to form the cyclohexyl substituted vinyl phenylphosphine ligand skeleton and copolymerizing with equivalent divinylbenzene (DVB), we obtained the heterogeneous ligand $\mathsf { P O L - P P h } _ { \mathrm { n } } \mathsf { C y } _ { \mathrm { m } }$ $( n + m = 3 )$ (Scheme 1). Through the ligand exchange strategy, we loaded zero-valent palladium on the obtained heterogeneous porous phosphine ligand polymers to construct single atom catalysts, noted as $\mathsf { P d } _ { 1 } @ \mathsf { P O L } \mathsf { - P P h } _ { \mathrm { n } } \mathsf { C y } _ { \mathrm { m } } \left( n + m = 3 \right)$
+
+In order to better reveal the intrinsic reason of the reaction, we calculated the charge of Pd in the catalyst center (Fig. 1). The results showed that the direct introduction of cyclohexyl group has little effect on the charge change of palladium in the catalyst compared with the charge change generated by changing the aryl substituents [8], and the charge on the catalyst is 0.1302, 0.1165 and 0.1181, respectively. We believed that similar to the benzene ring, cyclohexyl is also a six-membered ring structure, and unlike the straight alkyl, the ring structure can provide it with a certain degree of unsaturation. When cyclohexane was introduced, the change of electron density would be milder than that of directly adding substituents to the aryl group, which lessened the electrical regulation of prepared ligand to the metal center of the catalyst. At the same time, the bulky alkyl substituents will increase the cone angle of the ligand and promote the hybridization conversion of P to sp<sup>2</sup>, thereby reducing the electron-donating ability of the ligand to a certain extent.
+
+![](images/de9b546436bde07ef12f9bdd6aa5b4114015a538cbd42a0d200ddf82c04ee1af.jpg)  
+Fig. 1. Charge of Pd on each Pd-SACs.
+
+Therefore, when the number of cyclohexyl groups in phosphine ligand skeletons increased, the positive charge of palladium in the catalyst decreased. Furthermore, according to Hard-Soft-Acid-Base (HSAB) theory, hard acids preferentially react with hard bases, and soft acids react preferentially with soft bases. Typically, alkenes were considered as a soft base which Pd as a soft acid could boost its catalytic eficiency in the addition reaction. By contrast, Pd with lower positive charge makes a softer acid which enables its afinity to alkynes.
+
+We also found similar results detected by X-ray photoelectron spectroscopy (XPS) of three new single-atom catalysts. Through the analysis of P 2p orbitals (Figs. 2a-c), a smaller signal peak appeared at 130.31, 130.20 and 130.13 eV, respectively, corresponding to the signal peak of P coordinated with palladium. Meanwhile, these new peaks apart from the main high peaks reveals again the successful coordination of Pd single atoms, and each phosphine atom were slightly reduced, indicating oxidation states of Pd atoms which was consist with the XANES results. The binding energies of Pd $3 \mathrm { d } _ { 5 / 2 }$ orbitals (Figs. 2d-f) are 337.19, 336.78 and 337.08 eV, respectively, which generally showed a decreasing trend due to the enhanced electron-donating ability of the ligand and increases slightly when the ligand contains two cyclohexyl groups. This trend is consistent with our calculated Pd charge change results, which again verifies the relationship between ligand and metal center and substrate interaction.
+
+After obtaining the above results, $\mathrm { P d } _ { 1 } @ \mathrm { P O L } – \mathrm { P P h } _ { 3 }$ and Pd @POL-PPh Cy were further systematically characterized to obtain their basic structure and environment, and to better understand the relationship between the catalyst and the substrate. Thermogravimetric test (TG, Figs. S1 and S2 in Supporting information) results showed that the catalyst had only obvious mass change at $4 5 0 ^ { \circ } \mathrm { C } ,$ which reflected that the catalyst had good thermal tolerance. From the characterization results of scanning electron microscopy (SEM, Figs. S3 and S4 in Supporting information), it can be found that $\mathrm { P d } _ { 1 } @ \mathrm { P O L } – \mathrm { P P h } _ { 3 }$ and $\mathrm { P d } _ { 1 } @ \mathrm { P O L } \mathrm { - P P h } _ { 2 } \mathrm { C y }$ catalysts have rich pore structures. The X-ray diffraction (XRD) characterization results (Figs. 3a and d) revealed that the synthesized catalysts were amorphous structures with hierarchical pores, and no obvious palladium nanoparticle peak was found in the structure. The $\Nu _ { 2 }$ adsorption-desorption curves of these two catalysts were typically type IV isothermal curve, which indicated the catalyst has mesoporous structures (Figs. 3b and e). The specific surface area of $\mathrm { P d } _ { 1 } @ \mathrm { P O L } – \mathrm { P P h } _ { 3 }$ and $\mathrm { P d } _ { 1 } @ \mathrm { P O L } \mathrm { - P P h } _ { 2 } \mathrm { C y }$ catalysts were 1063.62 $\mathsf { c m } ^ { 2 } \mathsf { \Lambda }$ /g and $3 2 7 . 2 5 \ \mathrm { c m } ^ { 2 } / \mathrm { g } ,$ respectively, and the average pore volume was 2.20 and $0 . 2 2 ~ { \mathrm { c m } } ^ { 3 } / { \mathrm { g } } ,$ respectively. Meanwhile, a wider gap in Fig. 3b than the gap in Fig. 3f revealed the existence of adsorption hysteresis, which further proved pores of $\mathrm { P d } _ { 1 } @ \mathrm { P O L } \mathrm { - P P h } _ { 2 } \mathrm { C y } .$
+
+![](images/876e0cfa145b002637e07bb396c7681b5bb0e454f73f27ff2b7fcb232eb60fe9.jpg)
+
+![](images/7d429acd6fee05e5bdce55ed5706a913837d021a48e2f998c953c49f43530b5b.jpg)
+
+![](images/e200393a0d87e940db48d335c85898dce94835c16ada0b332148e7fcc18bc085.jpg)
+
+![](images/8b928a8ab6b6c288935072bf49158052a47b8d160ed433d3b1a9dc4109a0a35d.jpg)
+
+![](images/1505a85b0fc5fee7ca9a637ff7e2e705c721779f5d50367cb3678274c3687aef.jpg)
+
+![](images/d71bb550b203b3bae274f05d806798ce0973d49be9029734d54bfeabeda28865.jpg)  
+Fig. 2. P 2p XPS spectra of (a) Pd<sub>1</sub>@POL-PPh<sub>3</sub>, (b) Pd<sub>1</sub>@POL-PPh<sub>2</sub>Cy, and (c) Pd<sub>1</sub>@POL-PPhCy<sub>2</sub>. Pd 3d XPS spectra of (d) Pd<sub>1</sub>@POL-PPh<sub>3</sub>, (e) $\mathrm { P d } _ { 1 } @ \mathrm { P O L } \mathrm { - P P h } _ { 2 } \mathrm { C y }$ and (f) Pd @POL-PPhCy<sub>2</sub>.
+
+![](images/876c0a83c89ac386b1348a7df1668be40374e8b3b391c012d9d587d3ef43d405.jpg)
+
+![](images/9318ce5501c879618a0a605fecca31516243d364c0f8f3f2d9df5621745d8205.jpg)
+
+![](images/630ddf957e2e3f1d0f36946ac5706cfb9cb9434be9377f602be9e5de6c3d2919.jpg)
+
+![](images/f11238e345c20e72a5ba30541d977277b12debc02a1d93bdf0434ca041e9494a.jpg)
+
+![](images/712d855b9bcd15446a146769f16d563a3d980b529bef9469ac22f11f23697b11.jpg)
+
+![](images/56f70ef3537a324a95abd5ec3ba57d169553151a296105f33e12ebbc92acdc72.jpg)  
+Fig. 3. (a) XRD of $\mathrm { P d } _ { 1 } @ \mathrm { P O L } \mathrm { - P P h } _ { 2 } \mathrm { C y } .$ (b) Nitrogen adsorption-desorption curve of Pd @POL-PPh Cy. (c) Pore size distribution of $\mathrm { P d } _ { 1 } @ \mathrm { P O L } \mathrm { - P P h } _ { 2 } \mathrm { C y } .$ (d) XRD of Pd<sub>1</sub>@POL-PPh<sub>3</sub>. (e) N<sub>2</sub> adsorption-desorption curve of $\mathrm { P d } _ { 1 } @ \mathrm { P O L } \mathrm { - P P h } _ { 3 } . \mathrm { ( f ) }$ Pore size distribution of Pd @POL-PPh .
+
+From the catalyst pore size distribution curve (Figs. 3c and $\mathrm { f } ) ,$ we found that the catalyst $\mathrm { P d } _ { 1 } @ \mathrm { P O L } \mathrm { - P P h } _ { 2 } \mathrm { C y }$ showed a microporous or mesoporous structure, while $\mathrm { P d } _ { 1 } @ \mathrm { P O L } – \mathrm { P P h } _ { 3 }$ showed a larger pore structure, which can improve the mass transfer process. For this result, we believe that it is related to the number of vinyl functional groups of the catalyst itself, that is, more vinyl functional groups can expand the pores of the polymerized catalyst.
+
+High-resolution transmission electron microscopy (HR-TEM, Figs. 4a and d), elemental energy-dispersive spectrometer mapping (EDS-Mapping, Figs. 4b and e) and aberration-corrected highangle annular dark-field scanning transmission electron microscopy (AC–HAADF-STEM, Figs. 4c and f) together proved that palladium species were uniformly dispersed on the phosphine-doped porous organic ligand polymers in the form of single atoms. X-ray absorption near edge structure (XANES, Fig. S9 in Supporting information) results showed that the valence state of palladium in both $\mathrm { P d } _ { 1 } @ \mathrm { P O L } \mathrm { - P P h } _ { 2 } \mathrm { C y }$ and $\mathrm { P d } _ { 1 } @ \mathrm { P O L } \ – \mathrm { P P h } _ { 3 }$ were between 0 and 2, which were consistent with the XPS characterization results. In the Fourier transform-extended X-ray absorption fine structure spectrum (FT-EXAFS, Figs. S10 and S11 in Supporting information), the main peak was located $\mathsf { a t } \sim 1 . 7 \mathring { \mathsf { A } }$ in R space, corresponding to the scattering of Pd-P.This result excludes the possibility of Pd-Pd bonds (Pd foil displays one intensity maximum at ${ \sim } 2 . 7 \mathring { \mathrm { A } } ,$ Fig. S12 in Supporting information) in the catalyst. The fitting results showed that Pd coordinated with four phosphines, forming a Pd-P4 structure. Inductively coupled plasma-optical emission spectrometer (ICP-OES) showed that the palladium content in $\mathrm { P d } _ { 1 } @ \mathrm { P O L } – \mathrm { P P h } _ { 3 }$ catalyst was 0.42 wt%, and the palladium content in $\mathrm { P d } _ { 1 } @ \mathrm { P O L }$ $\mathrm { P P h } _ { 2 } \mathrm { C y }$ catalyst was 0.39 wt%.
+
+![](images/173703112a895334406b054d981edfae3f290052981d0ce7947d0f2b0cde24b0.jpg)  
+Fig. 4. (a) HR-TEM image, (b) EDS-Mapping, (c) AC–HAADF-STEM of Pd<sub>1</sub>@POL-PPh<sub>2</sub>Cy. (d) HR-TEM image, (e) EDS-Mapping, (f) AC–HAADF-STEM of Pd<sub>1</sub>@POL-PPh<sub>3</sub>.
+
+![](images/eb8faf41716573e6c2ce27d321d30000727651db9f1acf46b1bc0479f62f91ab.jpg)  
+Fig. 5. The comparison results of different substrates using different catalysts.
+
+Under the corresponding reaction conditions, we explored the reactivity of the three palladium single atom catalysts for alkenes, allenes and alkynes (Fig. 5). Add the substrate (0.1 mmol), triphenylhydrogermanium (0.11 mmol), [Pd ] (10 mg), use 2 mL of anhydrous THF as the solvent, 1aa at 60 °C, 6 h; 1ba at 80 °C, 8 h; and 1cp at 60 °C, 8 h. Yields were detected by <sup>1</sup>H NMR with 1,3,5- trimethoxylbenzene as internal standard. The results showed that the mono-cyclohexyl substituted $\mathrm { P d } _ { 1 } @ \mathrm { P O L } \mathrm { - P P h } _ { 2 } \mathrm { C y }$ catalyst had the best promotion effect on the reaction with diphenylacetylene (1aa) as the substrate, and the product yield could reach 92%. When 4-methoxystyrene (1ba) and $4 \mathrm { - } ( \mathrm { p r o p a - } 1 , 2 \mathrm { - d i e n - } 1 \mathrm { - y } \mathrm { l } ) \mathrm { - } 1 , 1 ^ { \prime } \mathrm { - }$ -biphenyl (1cp) were used as substrates, we obtained corresponding α- germanium addition products with $\mathrm { P d } _ { 1 } @ \mathrm { P O L } – \mathrm { P P h } _ { 3 }$ catalyst in 97% and 86% yields, respectively. For the three substrates, although the use of dicyclohexyl substituted $\mathrm { P d } _ { 1 } @ \mathrm { P O L } \mathrm { - P P h C y } _ { 2 }$ catalysts can obtain corresponding addition products, the reaction yield is extremely low, indicating the poor reactivity, this is consistent with the result we predicted through calculation.
+
+The results motivated us to further optimize the related reaction conditions (Tables S1-S4 in Supporting information). The optimal conditions are to use THF as the solvent at 60–80 degrees Celsius. For alkynes substrates, the reaction is carried out with Pd @POL-PPhCy catalyst, and for alkenes and allenes substrates, the reaction is conducted with $\mathrm { P d } _ { 1 } @ \mathrm { P O L } – \mathrm { P P h } _ { 3 }$ catalyst. With the optimized conditions in hand, we evaluated the substrate scope of this reaction. The experimental results show that alkyne substrates can achieve eficient hydrogermylation addition reaction under the application of corresponding catalysts through ligand regulation strategy (Scheme 2). When an electron-withdrawing group is attached to the para-position of the benzene ring at both ends of the alkyne, the reaction can often obtain the corresponding Evinylgermane products (3af, 3ah) in high yields. When the paraposition of the benzene ring at both ends is an electron-donating group, the product yield is significantly different, resulting in the stronger the electron-donating ability, the lower the yield (3ae, 3ag, 3ai). In the study of substrates containing substituents at different positions in the benzene ring, we found that the product yield was the highest after the reaction of the para-substituted substrate, while the product yield was lower (3ad) due to the steric hindrance effect of the ortho-substituted substrate. In addition, the strategy also has good compatibility with heterocyclic compounds and fused ring compounds, and the corresponding products can be obtained in good yields (3aj, 3ak). At the same time, alkyl internal alkynes can also be well applied in this reaction strategy, but as the alkyl chains at both ends grow, the yield of the reaction decreases (3an-3ap). On the contrary, when the ester bond is inserted in the middle of the alkyl group, the yield of the reaction product increases with the increase of the alkyl chain on the ester bond (3al, 3am), which is similar to the effect of different substituents on the front aryl group.
+
+It is exciting that the above internal alkyne with two same substituents can only obtain a single E-configuration addition product, and no other isomers are detected in the reaction. After that, in order to better judge the structure of the compound, we changed the groups at both sides of alkynes to make it no longer the symmetric structure, and tributylgermanium hydride was replaced with triphenylgermanium hydride as the germanium source for the hydrogermylation addition reaction. The results showed that when one side of the alkyne is a benzene ring and the other side is an alkyl chain, increasing the length of the alkyl chain can significantly increase the selectivity and yield of the reaction product (3aq-3as), making the reaction more inclined to produce Evinylgermane. In addition, using 4-phenyl-3-butyn-2-one as the substrate, the reaction can produce a single configuration addition product in 75% yield (3av). Moreover, internal alkynes with trimethylsilyl group (3at), trifluoromethyl group (3au), and ester group (3aw) owned good compatibility in this catalytic system, with excellent regioselectivity $( \alpha { : } \beta > 1 0 0 { : } 1 )$
+
+Terminal alkynes also can be transformed to corresponding vinylgermanes with good yields. 4-Methylphenylacetylene resulted in single branched addition product (3ax), while acetylcyclohexane converted to cyclohexyl vinylgermane (3ay) with selectivity about ln/br > 100:3, which might be the reason of steric hinderance and increasing electron donation of cyclohexyl group. However, completely opposite to the previous products, 4-pentyne-1-ol obtained single linear product (3az) by terminal site germylation addition for the reason that alkanol group can be considered as an electron donator which enriched the electro-density of C C bond and resulted in the configuration inversion.
+
+We have compared three representative alkyne substrates. The results show that use the catalysts $\mathrm { P d } _ { 1 } @ \mathrm { P O L } \mathrm { - P P h } _ { 2 } \mathrm { C y }$ are better than the catalysts $\mathrm { P d } _ { 1 } @ \mathrm { P O L } – \mathrm { P P h } _ { 3 }$ and $\mathrm { P d } _ { 1 } @ \mathrm { P O L } \mathrm { - P P h C y } _ { 2 }$ for both electron-donating and electron-withdrawing alkynes or alkyl alkyne (Tables S5 in Supporting information). These results further confirm the correctness of the conclusion that catalysts with different ligands can eficiently catalyze reactions of different unsaturated compounds.
+
+Similarly, alkenes can eficiently undergo hydrogermylation reaction with a less electron-rich catalyst Pd @POL-PPh . Unexpectedly, different from previous hydrogermylation reaction, we realized the construction of branched alkylgermane products for the first time. In aryl substrates, the product yield of the electronwithdrawing group (3bd-3bg) on the benzene ring is lower than that of the electron-donating group (3ba-3bc) on the benzene ring. The fused ring compound 2-naphthylstyrene can also give the corresponding germane product (3bh) in 79% yield. At the same time, in the addition of 1,3-diene substrates, the germanium reagent only selectively added to the terminal C C bond (3bi), and the addition products at other positions were not detected. Acrylonitrile can be transformed to corresponding product (3bp) with a yield as high as 90%. In addition, acrylate structural units are often used to modify and construct organic germanium compounds with physiological and pharmacological activities, but the reaction usually requires harsh reaction conditions and undergoes a cumbersome reaction process. Therefore, we also tried the hydrogermylation addition reaction of this type of substrate. The results showed that the aryl and alkyl were successfully linked to the oxygen end of the acrylate to obtain the corresponding branched germylation products (3bj, 3bk), and the product (3bl) corresponding to cyclohexyl acrylate was obtained in 96% yield. However, the yield of aryl esters is higher than that of alkyl esters. The addition product (3bm-3bn) can also be obtained by introducing heteroatoms into the alkyl chain. The successful transformation (3bo) of the terpenoid compound isobornyl acrylate also indicates the possibility of this method in the modification of natural products.
+
+![](images/dc148626b3542e49143591c14c33aa3d8e71c1c95f289bac1d364b7ecb57aa7c.jpg)  
+Scheme 2. Condition A: 1 (0.20 mmol), 2 (0.22 mmol), Pd @POL-PPh Cy (20 mg), anhydrous THF (2 mL) as solvent under argon, 60 °C, 6 h. Condition B: 1 (0.20 mmol), 2 (0.22 mmol), Pd<sub>1</sub>@POL-PPh<sub>3</sub> (20 mg), anhydrous THF (2 mL) as solvent under argon, 80 °C, 8 h. Condition C: 1 (0.20 mmol), 2 (0.22 mmol), Pd<sub>1</sub>@POL-PPh<sub>3</sub> (20 mg), anhydrous THF (2 mL) as solvent under argon, 60 °C, 8 h.
+
+The reason for the low yield of electron-donating alkynes and the high yield of alkenes is that the catalyst uses different ligands, which affects the electron density of the metal catalytic center and thus affects the adsorption coordination with the substrate.
+
+As allene compounds with similar properties to alkenes, we also successfully used this method to realize the hydrogermylation addition reaction of such substrates.
+
+The reaction of terminal allenes containing TBSO, ether and ester with triphenylgermanium hydrides afforded the corresponding allylgermanes (3ca, 3cc, 3cd) in moderate to good yields. The terminal allenes containing amino (3ce-3cg), unprotectedhydroxyl (3cb), halogen (3ch) and cyano (3ci) have good compatibility in the reaction, showing good reactivity. Long-chain alkyl (3cj) and cyclic alkyl (3ck-3cl) can be successfully obtained in the reaction, and germane moiety is selectively added to allenes when alkenyl and allenyl groups exist simultaneously. Aryl allenes can also obtain the corresponding addition product allyl germane (3cm-3cp) in good yield, and the yield of aryl allenes with para-connected electronwithdrawing groups is significantly higher than that of aryl allenes with para-connected electron-donating groups. In addition to terminal allenes, internal allenes are also important in organic synthesis. We found that undeca-5,6-diene can obtain the corresponding allylgermane (3cq) in a high yield of 98%, while for the asymmetric disubstituted and trisubstituted internal allenes, the steric hindrance of the substrate reduces the reaction yield (3cr-3cs).
+
+We further tested the recovery performance of the catalysts in the hydrogermylation addition reaction with 4-methoxystyrene (1ba) as the substrate. As shown in the figure, the catalyst still has good reactivity after five cycles. The SEM (Fig. S18 in Supporting information), HR-TEM (Fig. 6b) and EDS-Mapping (Fig. 6c) of the used $\mathrm { P d } _ { 1 } @ \mathrm { P O L } – \mathrm { P P h } _ { 3 }$ catalyst did not display the formation of obvious nanoparticles or clusters, indicating that the palladium species in the catalyst still maintained atomically dispersed after recycling studies. This result showed that the palladium single atom in our prepared catalysts had good stability. Moreover, the used $\mathrm { P d } _ { 1 } @ \mathrm { P O L } \mathrm { - P P h } _ { 2 } \mathrm { C y }$ was further tested under SEM (Fig. S19 in Supporting information), HR-TEM and EDS-Mapping (Figs. S20 and S21 in Supporting information) as well and similar results were presented indicating the durability of as-fabricated $\mathrm { P d _ { 1 } @ P O L \mathrm { \cdot P P h _ { n } C y _ { m } } }$ $( n + m = 3 )$
+
+![](images/1a62a924a30ee4324fea2a6076dd9f07d8528268ee192b4f0061acfcac5779f0.jpg)  
+Fig. 6. (a) Recycling test on Pd @POL-PPh in hydrogermylation of 3ba. (b, c) The HR-TEM and EDS-Mapping of the used $\mathrm { P d } _ { 1 } @ \mathrm { P O L } \mathrm { - P P h } _ { 3 } .$
+
+With the indication of experimental results and characterization of catalysts, we proposed the corresponding reaction mechanism (Scheme 3). In the hydrogermylation addition reaction of alkynes, we found that the selectivity of the product is the addition of α or $\beta$ sites, rather than the traditional E/Z configuration. Therefore, we believe that H-Pd-Ge is first inserted into the H-Ge bond, and then coordinated with the alkyne to form a quaternary-ring transition state. At this time, the selective insertion of Pd-H and Pd-Ge becomes the main reason for α- and β-isomerization. Subsequently, reduction elimination reenters the next cycle and releases the vinylgermane products. Obviously, a Chalk-Harrod analogous mechanism was abided within the hydrogermylation of alkynes. As a result of electron donation by ligand, Pd single atoms become less positive charged, which may stabilize Pd-Ge bond and consequently lead to break of Pd-H bond more easily. Unlike the hydrogermylation addition reaction of internal alkynes, alkene substrates undergo a modified Chalk-Harrod mechanism. We speculated that in these two types of substrates, the electrical properties of the carbon atoms on the unsaturated bonds at the end of the substrate will be significantly different, so that the formed H-Pd-Ge can selectively match the corresponding electrical C sites, and then complete the insertion of the C C bond. Correspondingly, the electron absorption by ligand results in the more positive charged of Pd single atoms, which enhanced the bonding of Pd-H and subsequently addition of Ge counterparts. Subsequent reduction elimination produced α-alkyl germanium compounds, releasing Pd-POL-$\mathsf { P P h } _ { 3 }$ for next catalytic cycle.
+
+By directly introducing the cyclohexyl group into the phosphine ligand skeleton, we prepared an electrically tunable porous organic ligand polymer, and subsequently loaded the metal to obtain the corresponding palladium single atom catalysts Pd @POL-$\mathrm { P P h } _ { \mathrm { n } } \mathrm { C y } _ { \mathrm { m } } \ ( n + m = 3 ) .$ Based on the soft-hard acid-base theory, the obtained palladium single-atom catalyst processed oxidative addition to form H-Ge-Pd species, and eficiently bonded to substrates with unsaturated C–C bonds of corresponding electrical properties, and further forms a quaternary ring transition state to complete the addition reaction of substrates such as alkynes, alkenes and allenes. The charge calculation and XPS characterization of the catalyst palladium center demonstrated the electrical regulation of the ligand skeleton on the catalytic center metal palladium and supplemented by density functional theory to explain the mechanism of the selectivity of hydrogermylation addition process of unsaturated C–C bonds.
+
+In this study, the electrically fine-tuned palladium singleatom catalysts can eficiently identify C C bonds and C C bonds, thereby accelerating the hydrogermylation reaction of various alkynes, alkenes and allenes. Different from the previous $\beta -$ germanium addition, in the reaction of alkenes and allenes, α-germylation addition was realized for the first time by using the designed ligands, and the corresponding alkyl germanium products and allyl germanium products were obtained respectively.
+
+The catalyst still has high catalytic activity after 5 cycles and has good catalytic performance. The catalytic system has high reactivity (single α-germylation addition with yields up to 98%) and good substrate universality (61 examples). At the same time, it provides a certain reference for the universality study of hydrogermylation reaction, and the electrical regulation of single-atom catalysts supported by subsequent ligands.
+
+![](images/13730b7702b475a90f4f8832fbb9cca755022539cb9cfe789cb651cd4dd5b968.jpg)  
+Scheme 3. Proposed mechanism for hydrogermylation of (A) alkynes and (B) alkenes.
+
+## Declaration of competing interest
+
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+## CRediT authorship contribution statement
+
+Junyou Ding: Writing – original draft, Methodology, Formal analysis, Data curation. Xiaotong Li: Formal analysis. Hongmin Lin: Writing – review & editing, Data curation. Bochao Ye: Investigation. Xing Zhou: Software. Feihu Cui: Supervision. Yingming Pan: Writing – review & editing, Supervision, Funding acquisition. Haitao Tang: Writing – review & editing, Supervision, Funding acquisition.
+
+## Acknowledgments
+
+The authors thank the BL11B station in the Shanghai Synchrotron Radiation Facility (SSRF), 4W9B and 1W1B station in the Beijing Synchrotron Radiation Facility (BSRF) for help with characterizations. This work was supported by the National Natural Science Foundation of China (Nos. 22201049, 22471046), the Ba-Gui Youth Top-notch Talents Project of Guangxi, and the National High-Level Personnel of Special Support Program for Young Top-notch Talents (9<sup>th</sup> batch).
+
+## Supplementary materials
+
+Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.cclet.2025.111286.
+
+## References
+
+[1] X. Zeng, Chem. Rev. 113 (2013) 6864–6900.
+
+[2] W. Ai, R. Zhong, X. Liu, Q. Liu, Chem. Rev. 119 (2018) 2876–2953.
+
+[3] C. Cheng, J.F. Hartwig, Chem. Rev. 115 (2015) 8946–8975.
+
+[4] C. Li, Z. Yang, L. Wang, et al., Angew. Chem. Int. Ed. 59 (2020) 6278–6283.
+
+[5] C. Li, S. Song, Y. Li, et al., Nat. Commun. 12 (2021) 3813.
+
+[6] J.S. Jia, Y. Cao, T.X. Wu, et al., ACS Catal. 11 (2021) 6944–6950.
+
+[7] M. Zhong, Y. Gagné, T.O. Hope, et al., Angew. Chem. Int. Ed. 60 (2021) 14498–14503.
+
+[8] H. Wen, X. Wan, Z. Huang, Angew. Chem. Int. Ed. 57 (2018) 6319–6323.
+
+[9] L.P. Pang, X.Y. Li, S.C. Ren, et al., Nano Res. 15 (2022) 7091–7098.
+
+[10] D. Yang, Q. Yan, E. Zhu, J. Lv, W.M. He, Chin. Chem. Lett. 33 (2022) 1798–1816.
+
+[11] Z. Cheng, M. Li, X. Zhang, Y. Sun, et al., Angew. Chem. Int. Ed. 62 (2022) e202215029.
+
+[12] X.M. Chen, L. Song, J. Pan, et al., Chin. Chem. Lett. 35 (2024) 110112.
+
+[13] S. Ren, B. Ye, S. Li, et al., Nano Res. 15 (2021) 1500–1508.
+
+[14] S.H. Yang, J.C. Song, H. Yang, Chin. Chem. Lett. 34 (2023) 108131.
+
+[15] W.Y. Huang, G.Q. Wang, W.H. Li, et al., Chem. 6 (2020) 2300–2313.
+
+[16] H.C. Li, M. Zhang, Q. Lv, et al., Chin. Chem. Lett. 36 (2025) 110579.
+
+[17] J. Jiang, K.L. Wang, X. Li, et al., Chin. Chem. Lett. 34 (2023) 108699.
+
+[18] C. Fricke, F. Schoenebeck, Acc. Chem. Res. 53 (2020) 2715–2725.
+
+[19] M.R. Radzhabov, N.P. Mankad, Org. Lett. 23 (2021) 3221–3226.
+
+[20] A. Louka, M. Stratakis, Org. Lett. 23 (2021) 3599–3603.
+
+[21] V. Debrauwer, A. Turlik, L. Rummler, et al., J. Am. Chem. Soc. 142 (2020) 11153–11164.
+
+[22] W. Lin, L. You, W. Yuan, C. He, ACS Catal. 12 (2022) 14592–14600.
+
+[23] M. Itazaki, M. Kamitani, H. Nakazawa, Chem. Commun. 47 (2011) 7854.
+
+[24] K. de la Vega-Hernández, E. Romain, A. Cofinet, et al., J. Am. Chem. Soc. 140 (2018) 17632–17642.
+
+[25] H. Liang, Y.X. Ji, R.H. Wang, Z.H. Zhang, B. Zhang, Org. Lett. 21 (2019) 2750–2754.
+
+[26] Z. Li, Q. Sun, P. Qian, et al., Chin. Chem. Lett. 31 (2020) 1855–1858.
+
+[27] R. Lang, X. Du, Y. Huang, et al., Chem. Rev. 120 (2020) 11986–12043.
+
+[28] B. Geng, X. Chu, L. Liu, et al., Chin. Chem. Lett. 35 (2024) 108924.
+
+[29] H. Hu, J. Xi, Chin. Chem. Lett. 34 (2023) 107959.
+
+[30] V.B. Saptal, V. Ruta, M.A. Bajada, G. Vilé, Angew. Chem. Int. Ed. 62 (2023) e202219306.
+
+[31] H.T. Ji, Y.H. Lu, Y.T. Liu, et al., Chin. Chem. Lett. 36 (2025) 110568.
+
+[32] H. Tang, H. Zhou, Y. Pan, et al., Angew. Chem. Int. Ed. 63 (2023) 202315032.
+
+[33] W.Y. Huang, G.Q. Wang, W.H. Li, et al., Chem. 6 (2020) 2300–2313.
+
+[34] B. Ye, W. Li, X. Zhang, et al., Adv. Mater. 36 (2024) 2402747.
+
+[35] Z. Liu, F. Huang, M. Peng, et al., Nat. Commun. 12 (2021) 6194.
+
+[36] P. Gao, G. Liang, T. Ru, et al., Nat. Commun. 12 (2021) 4698.
+
+[37] W. Li, C. Li, H. Xiong, et al., Angew. Chem. Int. Ed. 58 (2019) 2448–2453.
+
+[38] X. He, Q. He, Y. Deng, et al., Nat. Commun. 10 (2019) 3663.
+
+[39] X. Liu, C. Wang, J. Meng, et al., Chin. Chem. Lett. 34 (2023) 108745.
+
+[40] X. Li, J. Wang, Q. Yuan, et al., Angew. Chem. Int. Ed. 62 (2023) e202307570.
+
+[41] Q. Xu, C. Guo, B. Li, et al., J. Am. Chem. Soc. 144 (2022) 4321–4326.
+
+[42] W. Xue, Z. Zhu, S. Chen, B. You, C. Tang, J. Am. Chem. Soc. 145 (2023) 4142–4149.
+
+[43] K. Liu, B. Badamdorj, F. Yang, M.J. Janik, M. Antonietti, Angew. Chem. Int. Ed. 60 (2021) 24220–24226.
+
+[44] W. Li, B. Ye, J. Yang, et al., Angew. Chem. Int. Ed. 134 (2022) e202209749.
+
+[45] J.L. Sun, H. Jiang, P.H. Dixneuf, M. Zhang, J. Am. Chem. Soc. 145 (2023) 17329–17336.
+
+[46] X. Wang, Y. Wang, L. Cui, et al., Chin. Chem. Lett. 35 (2024) 110031.
+
+[47] D. Wen, J. Chen, Q. Zheng, S. Yang, T. Tu, CCS Chem. 5 (2023) 1602–1611.
+
+[48] H. Wang, D. Xu, E. Guan, et al., ACS Catal. 10 (2020) 6299–6308.
+
+[49] W.H. Li, J. Yang, H. Jing, et al., J. Am. Chem. Soc. 143 (2021) 15453–15461.
+
+[50] D.J. Durand, N. Fey, Chem. Rev. 119 (2019) 6561–6594.
+
+[51] R. Wei, S. Ju, L.L. Liu, Angew. Chem. Int. Ed. 61 (2022) e202205618.
+
+[52] L. Cheng, M.M. Li, M.L. Li, et al., CCS Chem. 4 (2022) 2612–2619.
+
+[53] P. Wang, P. Verma, G. Xia, et al., Nature 551 (2017) 489–493.
+
+[54] X. Wang, S. Wu, Y. Zhong, et al., Chin. Chem. Lett. 34 (2023) 107537.
+
+[55] G. Wang, Z. Ge, K. Ding, X. Wang, Angew. Chem. Int. Ed. 62 (2023) e202307973.
+
+[56] Q. Li, K. Yan, Y. Zhu, et al., Chin. Chem. Lett. 34 (2023) 108014.
+
+[57] Y.N. Ma, S.X. Li, S.D. Yang, Acc. Chem. Res. 50 (2017) 1480–1492.
+
+[58] S. Zhao, T. Gensch, B. Murray, et al., Science 362 (2018) 670–674.
+
+[59] S. Seo, J. Jung, H. Kim, Angew. Chem. Int. Ed. 62 (2023) e202303853.
+
+[60] P. Hu, L. Kong, F. Wang, X. Zhu, X. Li, Angew. Chem. Int. Ed. 60 (2021) 20424–20429.
+
+[61] B. Zhan, L. Wang, J. Luo, X. Lin, B. Shi, Angew. Chem. Int. Ed. 59 (2020) 3568–3572.
+
+[62] D. Wang, B. Dong, Y. Wang, et al., Nat. Commun. 10 (2019) 3539.
+
+[63] L.Q. Chen, C.F. Zhu, S. Zhang, et al., Chin. Chem. Lett. 34 (2023) 108398.

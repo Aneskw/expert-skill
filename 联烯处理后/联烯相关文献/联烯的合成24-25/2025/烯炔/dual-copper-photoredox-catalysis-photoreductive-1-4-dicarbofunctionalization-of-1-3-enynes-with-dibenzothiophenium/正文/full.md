@@ -1,0 +1,158 @@
+pubs.acs.org/OrgLett
+
+# Dual Copper/Photoredox Catalysis: Photoreductive 1,4- Dicarbofunctionalization of 1,3-Enynes with Dibenzothiophenium Salts and Trimethylsilyl Cyanide
+
+Xin-Yu Peng, Wangqin Ji,\* and Tao-Yan Lin\*
+
+![](images/569e8a96841ac282fcf5cc980c200e99fef10ffd1265e794f6ca3976c01f1778.jpg)
+
+Cite This: Org. Lett. 2025, 27, 9167−9172
+
+![](images/a6d7e04dcafd43117e24599acc36bbdbcc51b7eb60998444249b92dc9f1d9f78.jpg)
+
+Read Online
+
+ACCESS
+
+Metrics & More
+
+Article Recommendations
+
+ABSTRACT: A photoredox and copper dual-catalyzed 1,4- arylcyanation of 1,3-enynes has been established using aryldibenzothiophenium salts (Ar-DBT<sup>+</sup>) as aryl radical precursors, afording a wide array of tetra-substituted allenes with high chemo- and regioselectivity. This strategy exhibits a broad substrate scope with remarkable functional group tolerance, all under mild conditions. Notably, this process generates tetra-substituted allenes in a onestep reaction through the use of various electron-rich and electrondeficient aryldibenzothiophenium salts.
+
+A<sup>llenes</sup> <sup>serve</sup> <sup>as</sup> <sup>valuable</sup> <sup>structural</sup> <sup>motifs</sup> <sup>in</sup> <sup>natural</sup>products and biologically active molecules, attracting considerable attention for the development of eficient synthetic methods to construct diverse functionalized allene structures (Figure 1).<sup>1</sup> In particular, 1,4-functionalizations of
+
+![](images/ef49294dfecd15a90a86d1e901a37b32e89088dcc71fa4b82ff91620422658c8.jpg)  
+Figure 1. Natural products and drugs containing allenes.
+
+1,3-enynes provide a concise and eficient synthetic strategy, enabling the simultaneous introduction of two functional groups with high regio-, chemo-, and stereocontrol.<sup>2,3</sup> While most methods focus on allenyl anions or allenyl cations via transition-metal catalysis,<sup>4</sup> radical-based 1,4-difunctionalization of 1,3-enynes has emerged as a novel and increasingly popular approach for the synthesizing tetra-substituted allenes.<sup>3</sup> For instance, the groups of Bao<sup>3c</sup> and Liu<sup>3d</sup> independently described a Cu-catalyzed enantioselective process for synthe-
+
+\*sı Supporting Information
+
+![](images/73c4fc3ac338c3bcde277be26cc5e2ca4948c79c28a15d6c43fc5e1cd28c7cd1.jpg)
+
+sizing chiral allenes via the radical 1,4-dicarbylation of 1,3- enynes (Scheme 1a). Subsequently, Chen and co-workers reported an organocatalytic 1,4-alkylacylation of 1,3-enynes in the presence of an aldehyde, CF radical precursor, and an Nheterocyclic carbene catalyst, enabling the synthesis of various tetrasubstituted allenes under mild conditions (Scheme 1b).<sup>3e</sup> Recently, Yao’s group developed a nickel-catalyzed method for synthesizing 1,4-difunctionalized allenes utilizing a novel chiral bulk bis-oxazoline ligand in a radical tandem process (Scheme 1c).<sup>3f</sup> Notably, numerous strategies combining photo- and electrochemistry with transition metal catalysis or organocatalysis have emerged for the radical 1,4-difunctionalization of 1,3-enynes, ofering eficient synthesis of structurally diverse allene products (Scheme 1d).<sup>3i−p</sup> While numerous studies have been conducted on the 1,4-difunctionalization of 1,3-enynes via radical pathways, several persistent challenges remain unresolved. These include: (i) the short-lived nature of allenyl radical intermediates, (ii) dificulties with regiocontrol, and (iii) competition between 1,2- and 1,4-addition pathways in the transformation of 1,3-enynes. To date, all reported methods have focused exclusively on alkyl radical-involved 1,4-difunctionalization for constructing tetrasubstituted allenes, with transformations employing aryl radicals remaining essentially unexplored.<sup>5</sup> Therefore, expanding the synthetic utility of these reactions requires exploring diferent radical precursors, particularly aryl radicals.
+
+![](images/613fd642945200528aa1df94414902f0f584caf392d0ed15b6f97e70971589ad.jpg)
+
+![](images/a29647cab98aba911b5d59f61adb767d67a86af179f0bfec0ffad0d3ab24db93.jpg)  
+Scheme 1. Research Backgrounds and Our Design A) 1,4-difunctionalization of 1,3-enynes via radical pathways for the synthesis of tetra-substituted allenes
+
+Arylsulfonium salts have been investigated as aryl radical precursors in photocatalyzed reactions. Pioneering works by the groups of Ritter,<sup>6</sup> Procter,<sup>7</sup> Wang,<sup>8</sup> Rueping<sup>9</sup> and others<sup>10</sup> have made significant contributions in this area. Among these, aryldibenzothiophenium salts have garnered attention as versatile coupling partners derived from simple arenes, capable of generating aryl radical intermediates through photoredoxcatalyzed transformations for arene functionalization. Very recently, a metal-free photoredox-catalyzed three-component synthesis of aryl sulfonamides was developed employing dibenzothiophenium (DBT) as the radical precursor.
+
+Inspired by these elegant studies, we envisioned utilizing an Ar-DBT<sup>+</sup> ion derived from an arene to generate an aryl radical under photoredox conditions. The aryl radical would then be trapped by 1,3-enynes, leading to the formation of highly reactive allenyl radicals, which could be captured by a suitable copper catalyst complex. Reductive elimination of the complex would yield multisubstituted allenes (Scheme 1B). During this process, a single-electron transfer (SET) from the excited-state photocatalyst to $\mathrm { \mathbf { A } \mathbf { r } \mathrm { - } D B T ^ { + } }$ would generate dibenzothiophene and the aryl radical species. To the best of our knowledge, this is the first report documenting the use of dibenzothiophenium salts as aryl group precursors to enable the $^ { 1 , 4 }$ -difunctionalization of $^ { 1 , 3 \cdot }$ -enynes, and our strategy provides a general avenue to polysubstituted allenes. This reaction represents a new strategy for the synthesis of polysubstituted allenes scafolds using simple and readily available starting materials (Scheme 1B).
+
+Herein, we initiated optimization studies by investigating the three-component reaction of $^ { 1 , 3 \cdot }$ -enyne 1a with 4-MeO-aryl DBT salt 2a and trimethylsilyl cyanide (TMSCN) 3a by visible light photoredox catalysis (Table 1). Detailed screening
+
+Table 1. Optimization of Reaction Conditions
+<table><tr><td></td><td><img src="images/3f25c461b3f5dae0354a915e0588af9802ea6ecba4c7c9f01fd6a018e5c0bcaa.jpg"/></td><td></td></tr><tr><td>Entry 1 none</td><td>Deviation from standard conditions</td><td>Yieldb [%]</td></tr><tr><td>2</td><td>without light</td><td>50 0</td></tr><tr><td>3</td><td>without  $\mathrm { [ C u ( C H _ { 3 } C N ) _ { 4 } ] P F _ { 6 } }$  without fac-Ir(ppy)₃</td><td>0 trace</td></tr><tr><td>4 5</td><td> $6 0 ~ ^ { \circ } \mathrm { C }$  instead of light</td><td>0</td></tr><tr><td>6</td><td>without L4</td><td>13</td></tr><tr><td>7</td><td>without 4 ÅMS</td><td>45</td></tr><tr><td>8</td><td> $\mathbf { l a } { : } 2 \mathbf { a } { : } 3 \mathbf { a } = 1 { : } 1 . 5 { : } 1 . 5$ </td><td>38</td></tr><tr><td>9</td><td>3 mol %  $f a c \mathrm { - I r ( p p y ) _ { 3 } }$ </td><td>45</td></tr><tr><td>10</td><td>5 mol  $\%  [ \mathrm { C u } \big ( \mathrm { C H } _ { 3 } \mathrm { C N } \big ) _ { 4 } ] \mathrm { P F } _ { 6 } , \mathrm { ~ } \mathrm { { \bf ~ L } } 4 \mathrm { ~ ( 7 ~ m o l ~ \% ) }$ </td><td>40</td></tr><tr><td>11</td><td>10 mol % [Cu(CH3CN)₄]PF6, L4 (20 mol %)</td><td>46</td></tr><tr><td>12</td><td> $[ \mathrm { C u ( C H _ { 3 } C N ) _ { 4 } } ] \mathrm { B F _ { 4 } \ i n s t e a d \ o f \ [ C u ( C H _ { 3 } C N ) _ { 4 } ] \mathrm { P F _ { 6 } } }$ </td><td>45</td></tr><tr><td>13</td><td> $\mathrm { C u C l _ { 2 } \ i n s t e a d \ o f \ [ C u ( C H _ { 3 } C N ) _ { 4 } ] P F _ { 6 } }$ </td><td>19</td></tr><tr><td>14</td><td>CuBr instead of  $\mathrm { [ C u ( C H _ { 3 } C N ) _ { 4 } ] P F _ { 6 } }$ </td><td>trace</td></tr><tr><td>15</td><td>CuOTf instead of  $\mathrm { [ C u ( C H _ { 3 } C N ) _ { 4 } ] P F _ { 6 } }$ </td><td>9</td></tr><tr><td>16</td><td>DMF instead of DMSO</td><td>trace</td></tr><tr><td>17</td><td>Toluene instead of DMSO</td><td>0</td></tr><tr><td>18</td><td>MeCN instead of DMSO</td><td>9</td></tr><tr><td></td><td>ªReaction conditions: 1a (0.3 mmol), 2a (0.3 mmol), 3a (0.2 mmol),</td><td></td></tr><tr><td colspan="3">[Cu] catalyst (10 mol %), L4 (14 mol %), fac-Ir(ppy)₃ (1 mol %), and DMSO (2.0 mL) under Ar atmosphere and 450 nm blue LED irradiation for 48 h. bIsolated yields.</td></tr></table>
+
+experiments are provided in the Supporting Information. Intriguingly, using fac-Ir(ppy) (1 mol %) as the photocatalyst under 36 W blue light-emitting diodes (LEDs), along with $\mathrm { [ C u ( M e C N ) _ { 4 } ] P F _ { 6 } }$ (10 mol %), ligand L4 (14 mol %) and DMSO as the solvent, the desired product 4a was obtained in 50% yield after 48 h under an argon atmosphere (entry 1). Systematic screening of the reaction conditions revealed that the combination of blue light, $\mathrm { [ C u ( M e C N ) _ { 4 } ] P F _ { 6 } , }$ and the photocatalyst were critical for the reaction’s success, as omitting any of these components led to no detectable 4a as the product (entries 2−4). It is noteworthy that when the reaction was carried out in $6 0 ~ ^ { \circ } \mathrm { C }$ in the absence of visible light, no desired product was obtained (entry 5). The product was still obtained without $^ { 4 , 4 ^ { \prime } }$ -dibromo-2,2′-bipyridine (L4) or 4 Å MS, but in lower yields (entries 6−7). Varying the molar ratio of 1a, 2a and 3a to 1:1.5:1.5, resulted in a decrease in yield of product 4a to 38% (entry 8). Increasing the photocatalyst to 3 mol % decreased the yield of the product 4a in 45% yield (entry 9), while decreasing the amount of $\mathrm { [ C u ( M e C N ) _ { 4 } ] P F _ { 6 } }$ or increasing ligand loading did not enhance reaction yields (entries 10−11). Various copper catalysts were screened (entries 12−15), including $[ \bar { \mathrm { C u } } ( \mathrm { M e C N } ) _ { 4 } ] \mathrm { B F } _ { 4 } , \ \mathrm { C u C l } _ { 2 } ,$ CuBr and CuOTf, but these gave unfavorable results. Replacing DMSO with other solvents, such as DMF, toluene or MeCN, resulted in negligible product formation (entries 16−18).
+
+With the optimal reaction conditions in hand, we proceeded to explore the substrate scope of this photoreductive 1,3-enyne $^ { 1 , 4 \cdot }$ -difunctionalization protocol (Scheme 2). Gratifyingly, a
+
+Scheme 2. Substrate Scope of 1,3-Enynes<sup>b</sup>
+
+![](images/7054eec5752eff9715e63a9de69607c2dde697aaf41d88c76f70e78b85f1e6b4.jpg)  
+<sup>a</sup>For 1.0 mmol scale, 1a (1.5 mmol), 2a (1.5 mmol), 3a (1.0 mmol). <sup>b</sup>Reaction conditions: 1a (0.3 mmol), 2a (0.3 mmol), 3a (0.2 mmol), [Cu] catalyst (10 mol %), L4 (14 mol %), fac-Ir(ppy) (1 mol %), and DMSO (2.0 mL) under Ar atmosphere and 450 nm bue LED irradiation for 48 h. Isolated yields were indicated.
+
+wide range of $^ { 1 , 3 \cdot }$ -enynes were compatible with 4-MeO-aryl DBT salt 2a and trimethylsilyl cyanide (TMSCN) 3a under the optimal conditions, yielding products 4a−4t in 21−60% yields. As illustrated in Scheme $^ { 2 , ~ 1 , 3 }$ -enynes bearing para-, meta- and ortho-substitution on the phenyl group all reacted smoothly, including $p \mathrm { - } \mathrm { M e C } _ { 6 } \mathrm { H } _ { 4 } , \ p \mathrm { - } \bar { \mathrm { O M e C } } _ { 6 } \bar { \mathrm { H } _ { 4 } } , \ \bar { p \mathrm { - } } \mathrm { P h } \mathrm { C } _ { 6 } \mathrm { H } _ { 4 } , \ p \mathrm { - } \bar { \mathrm { H } _ { 2 } } \ \mathrm { H } _ { 4 } ,$ $\mathrm { F C _ { 6 } H _ { 4 } } , ~ p \mathrm { - C l C _ { 6 } H _ { 4 } } , ~ p \mathrm { - B r C _ { 6 } H _ { 4 } } , ~ p \mathrm { - C F _ { 3 } C _ { 6 } H _ { 4 } } ,$ 1 $n { \mathrm { - O M e C } } _ { 6 } { \mathrm { H } } _ { 4 } ,$ m-$\mathrm { C l C _ { 6 } H _ { 4 } } , \ o \mathrm { - M e C _ { 6 } H _ { 4 } } , \ o \mathrm { - C l C _ { 6 } H _ { 4 } } ,$ and o $\mathrm { \hbar { \cdot } B r C _ { 6 } H _ { 4 } }$ at position 2 of the alkene, giving the corresponding products 4b−4m in 21− 60% yields. These results suggest that steric hindrance from the substituents had minimal impact. Additionally, a disubstituted aryl moiety on the enyne also proved efective, yielding product 4n in 34% yield. Moreover, enynes containing a heterocycle, such as $^ { 1 , 3 }$ -benzodioxole, worked equally well for the reaction, with the desired allene obtained in 29% yield (4o). When naphthyl-containing $^ { 1 , 3 \cdot }$ -enynes were employed, the corresponding target products were obtained in 36−42% yields $\left( 4 \mathbf { p } \mathbf { - } 4 \mathbf { q } \right)$ . A variety of alkynyl moieties on the $^ { 1 , 3 - }$ enynes, including linear alkyl, cyclopropyl and phenyl groups, were all well-tolerated, afording products 4r−4t in 39−48% yields. It is noteworthy that, 1,3-enynes bearing a tert-butyl group at the C-2 position of the alkene moiety, the reaction proceeds smoothly to aford the corresponding products 4u− 4v in 39−54% yields.
+
+Next, we explored the scope of 1,3-enyne 1 and aryl-DBT salts 2 using 3a as the reaction partner. As shown in Scheme $^ { 3 , }$ a range of substituted anisole-derived aryl-DBT salts were tested to assess the compatibility of various functional groups. Reactions of 1,2-dimethoxybenzene nd 1,4-benzodioxane derivatives proceeded smoothly to provide 5a and 5b in 29% and 38% yields, respectively. Aryl-DBT salts bearing Cl, Br, and COOMe functionalities in the ortho-position to OMe were also compatible, delivering the desired allenes $\mathtt { 5 c - 5 e }$ in $^ { 2 7 - }$ 37% yields, ofering potential for further derivatization of the products. We then applied this strategy using 3-(methoxycarbonyl)-4-methoxyphenyl DBT salt with several $^ { 1 , 3 }$ -enynes, such as $p { \mathrm { - } } \mathrm { M e C } _ { 6 } \mathrm { H } _ { 4 } , p { \mathrm { - } } \mathrm { C } _ { 4 } \mathrm { H } _ { 9 } \mathrm { C } _ { 6 } \mathrm { H } _ { 4 } ,$ and m- $\mathrm { M e C _ { 6 } H _ { 4 } }$ at position 2 of the alkene moiety. These reactions proceeded smoothly, giving products 5f−5h in 42−60% yields. Expanding this, we tested reactions of 3-chloro-4-methoxyphenyl and 3-bromo-4- methoxyphenyl DBT salts with various $^ { 1 , 3 \cdot }$ -enynes. Pleasingly, all reactions proceeded smoothly under the standard conditions, afording the corresponding products 5i−5n in 35−40% yields. The diphenyl Aryl-DBT salt was also found suitable as a substrate in this method to give the desired product 5q in 40% yield. Modification of the alkynyl moieties on the 1,3-enynes through the introduction of a longer-chain pentyl $\mathbf { \Gamma } ( \mathbf { C } _ { 5 } \mathbf { H } _ { 1 1 } )$ group also proved to be compatible with this strategy, afording the products 5r−5u in 35−43% yields.
+
+To demonstrate the synthetic utility of this protocol, we performed further transformations of 4a (Scheme 4). For example, reduction with DIBAL-H selectively converts the cyano group into an aldehyde, yielding product 6 in 68% yield. Subsequent reduction of the product 6 aforded the corresponding alcohol 7 in 64% yield. Treatment of product 7 with NBS led to the cyclized brominated product 8 in 67% yield.<sup>3k</sup> When we conducted the nitrile hydrolysis under basic conditions,<sup>12</sup> the desired allenic amide product could not be obtained. Instead, a Michael addition side reaction occurred at the central carbon of the allene system, resulting in the formation of a tetra-substituted alkene 9.
+
+To further gain mechanistic insights into the reaction, a few control experiments were conducted. When the radical scavenger TEMPO (2,2,6,6-tetramethylpiperidinooxy) was added, the 1,4-arylcyanation of 1,3-enynes was almost fully inhibited (Scheme 5a). In addition, the radical-trapped product 11 was isolated in 80% yield, when 4.0 equiv of $^ { 1 , 1 \cdot }$ diphenylethylene was added to the reaction. These results indicated that an aryl radical is involved in this process
+
+Scheme 6. Light On/Of Experiments
+
+Scheme 3. Substrate Scope of 1,3-Enynes and Aryl-DBT Salts<sup>a</sup>  
+![](images/226a01c3982064647522cd22af7f62758de7a4ac4811f2b2c98d36c649221044.jpg)  
+<sup>a</sup>Reaction conditions: 1a (0.3 mmol), 2a (0.3 mmol), 3a (0.2 mmol), [Cu] catalyst (10 mol %), L4 (14 mol %), fac-Ir(ppy) (1 mol %), and DMSO (2.0 mL) under Ar atmosphere and 450 nm blue LED irradiation for 48 h. Isolated yields were indicated.
+
+consistent with the previous literature studies<sup>11</sup> (Scheme 5b). The light on/of experiments showed that continuous irradiation was essential for this reaction, suggesting that the present transformation was not a radical-chain process (Scheme 6).
+
+In summary, we have developed a copper/photoredox dual catalyzed 1,4-arylcyanation of $^ { 1 , 3 }$ -enynes using aryldibenzothiophenium salts $\left( \mathrm { A r \mathrm { - } D B T ^ { + } } \right)$ as aryl radical precursors, for the synthesis of tetra-substituted allenes. The reaction operates under mild conditions, ofering excellent chemo- and regioselectivity while maintaining broad functional group
+
+Scheme 4. Synthetic Transformations of the Products 4a and $4 \mathbf { f } ^ { \alpha }$
+
+![](images/e812f072b4bc950a74d8871d160c1181733b36b4c896848ee05ba7de612650d4.jpg)  
+<sup>a</sup>Isolated yields were indicated.
+
+![](images/6dfeaa9b09cb798ea01f074f008b053e5756f19b21791fab1cad57af0f6d0a7b.jpg)
+
+![](images/943bac41009dea631fe878213f3e2909692601de31042812d5db5f347a892104.jpg)
+
+![](images/5cf0d0174b0a7dd50b7c8a6ff071d3d821fb92f76163bcda8fecc2e3317f6e3b.jpg)
+
+compatibility. The scope of the reaction is extensive, and we believe this methodology provides a novel and versatile synthetic approach to the multifunctionalization of 1,3-enynes and related compounds, with significant conceptual implications for synthetic chemistry.
+
+## ■ ASSOCIATED CONTENT
+
+## Data Availability Statement
+
+The data underlying this study are available in the published article and its online Supporting Information.
+
+## \*sı Supporting Information
+
+The Supporting Information is available free of charge at https://pubs.acs.org/doi/10.1021/acs.orglett.5c02588.
+
+Experimental procedures, compound characterization data, NMR spectra, and crystal data (PDF)
+
+## Accession Codes
+
+Deposition Number 2464619 contains the supplementary crystallographic data for this paper. These data can be obtained free of charge via the joint Cambridge Crystallographic Data Centre (CCDC) and Fachinformationszentrum Karlsruhe Access Structures service.
+
+## ■ AUTHOR INFORMATION
+
+## Corresponding Authors
+
+Tao-Yan Lin − Key Laboratory of Green and Precise Synthetic Chemistry and Applications, Ministry of Education, Anhui Provincial Key Laboratory of Synthetic Chemistry and Applications, School of Chemistry and Materials Science, Huaibei Normal University, Huaibei, Anhui 235000, P. R. China; State Key Laboratory of Green Pesticide, Guizhou University, Guiyang 550025, P. R. China; orcid.org/ 0000-0002-7211-4600; Email: linty@chnu.edu.cn
+
+Wangqin Ji − Key Laboratory of Green and Precise Synthetic Chemistry and Applications, Ministry of Education, Anhui Provincial Key Laboratory of Synthetic Chemistry and Applications, School of Chemistry and Materials Science, Huaibei Normal University, Huaibei, Anhui 235000, P. R. China; Email: jiwangqin@chnu.edu.cn
+
+## Author
+
+Xin-Yu Peng − Key Laboratory of Green and Precise Synthetic Chemistry and Applications, Ministry of Education, Anhui Provincial Key Laboratory of Synthetic Chemistry and Applications, School of Chemistry and Materials Science, Huaibei Normal University, Huaibei, Anhui 235000, P. R. China
+
+Complete contact information is available at: https://pubs.acs.org/10.1021/acs.orglett.5c02588
+
+## Notes
+
+The authors declare no competing financial interest.
+
+## ■ ACKNOWLEDGMENTS
+
+We thank the National Natural Science Foundation of China (22301095) and the Natural Science Foundation of Anhui Education Department (2024AH051668) for financial support.
+
+## ■ REFERENCES
+
+(1) (a) Zimmer, R.; Dinesh, C. U.; Nandanan, E.; Khan, F. A. Palladium-Catalyzed Reactions of Allenes. Chem. Rev. 2000, 100, 3067−3126. (b) Hoffmann-Roder, A.; Krause, N. Synthesis and Properties of Allenic Natural Products and Pharmaceuticals. Angew. Chem., Int. Ed. 2004, 43, 1196−1216. (c) Ma, S. Some Typical Advances in the Synthetic Applications of Allenes. Chem. Rev. 2005, 105, 2829−2872. (d) Yu, S.; Ma, S. Allenes in Catalytic Asymmetric Synthesis and Natural Product Syntheses. Angew. Chem., Int. Ed. 2012,
+
+51, 3074−3112. (e) Terao, J.; Bando, F.; Kambe, N. Ni-Catalyzed Regioselective Three-Component Coupling of Alkyl Halides, Arylalkynes, or Enynes with R−M (M = MgX’, ZnX’). Chem. Commun. 2009, 7336−7338. (f) Ye, J.; Ma, S. Palladium-Catalyzed Cyclization Reactions of Allenes in the Presence of Unsaturated Carbon-Carbon Bonds. Acc. Chem. Res. 2014, 47, 989−1000. (g) Alonso, J. M.; Almendros, P. Deciphering the Chameleonic Chemistry of Allenols: Breaking the Taboo of a Onetime Esoteric Functionality. Chem. Rev. 2021, 121, 4193−4252. (h) Lan, X.-W.; Wang, N.-X.; Xing, Y. Recent Advances in Radical Difunctionalization of Simple Alkenes. Eur. J. Org. Chem. 2017, 2017, 5821−5851. (i) Tu, H. Y.; Zhu, S.; Qing, F. L.; Chu, L. Recent Advances in Nickel-Catalyzed Three Component Difunction-alization of Unactivated Alkenes. Synthesis 2020, 52, 1346−1356. (j) Fu, L.; Greßies, S.; Chen, P.; Liu, G. Recent Advances and Perspectives in Transition Metal-Catalyzed 1,4-Functionaliza-tions of Unactivated 1,3-Enynes for the Synthesis of Allenes. Chin. J. Chem. 2020, 38, 91−100.
+
+(2) Zhang, K.-F.; Bian, K.-J.; Li, C.; Sheng, J.; Li, Y.; Wang, X.-S.; For selected examples of 1,3-enyne difunctionalization reactions: (a. Nickel-Catalyzed Carbofluoroalkylation of 1,3-Enynes to Access Structurally Diverse Fluoroalkylated Allenes. Angew. Chem., Int. Ed. 2019, 58, 5069−5074. (b) Song, Y.; Fu, C.; Ma, S. Copper-Catalyzed Syntheses of Multiple Functionalizatized Allenes via Three Component Reaction of Enynes. ACS Catal. 2021, 11, 10007− 10013. (c) Xu, T.; Wu, S.; Zhang, Q.-N.; Wu, Y.; Hu, M.; Li, J.-H. Dual Photoredox/Nickel-Catalyzed 1,4-Sulfonylar ylation of 1,3- Enynes with Sulfinate Salts and Aryl Halides: Entry into Tetrasubstituted Allenes. Org. Lett. 2021, 23, 8455−8459. (d) Zhang, F.-H.; Guo, X.; Zeng, X.; Wang, Z. Asymmetric 1,4- Functionalization of 1,3-Enynes via Dual Photoredox and Chromium Catalysis. Nat. Commun. 2022, 13, 5036. (e) Cheng, C.; Lv, G.-F.; Wu, S.; Li, Y.; Li, J.-H. Nickel Photocatalyzed Reductive 1,4- Dicarbofunction-alization of 1,3-Enynes with N-Methylamines and Organohalides Enabled by Site-Selective C(sp<sup>3</sup>)-H Functionalization. Org. Lett. 2023, 25, 4236−4240. (f) Zhu, C.; Chen, H.; Yue, H.; Rueping, M. Electrochemical Chemo- and Regioselective Arylalkyla tion, Dialkylation and Hydro(deutero)alkylation of 1,3-Enynes. Nat. Synth. 2023, 2, 1068−1081. (g) Wang, Q.; Chen, Y.; Peng, K.; Li, Y.; Cheng, L.; Deng, G.-J. Three-Component Cross-Electrophile 1,4- Alkylarylation of 1,3-Enynes by Merging Nickel and Photoredox Catalysis. Org. Lett. 2023, 25, 8889−8894. (h) Shan, Q.-C.; Zhao, Y.; Wang, S.-T.; Liu, H.-F.; Duan, X.-H.; Guo, L.-N. Nickel-Catalyzed Modular Four-Component 1,4-Alkylcarbonylation of 1,3-Enynes to Tetra-Substituted CF -Allenyl Ketones. ACS Catal. 2024, 14, 2144− 2150. (i) Jeon, J. H.; Kim, G. H.; Lee, H. S.; Kim, D. H.; Lee, S.; Choe, W.; Jung, B.; Rohde, J.-U.; Hong, S. Y. Chemo- and Regioselective Nickel-Catalyzed Reductive 1,4-Alkylarylation of 1,3- Enynes through an L2NiAr Intermediate. ACS Catal. 2024, 14, 8996− 9007. (j) Pu, Y.; Ding, S.; Zhao, H.; Xue, Q.; Zhang, H.; Xie, X.; Shang, Y.; Wang, J. Three-Component Synthesis of Multiple Functionalized Allenes via Copper/Photoredox Dual Catalyzed 1,4- Alkylcyanation of 1,3-Enynes. Org. Lett. 2024, 26, 1834−1839. (k) Yang, L.; Zeng, L.; Zhu, Y.; Wang, Q.; Li, J. Copper-Catalyzed Photoredox 1,4-Amidocyanation of 1,3-Enynes with N-Amidopyridin 1-ium Salts and TMSCN: Facile Access to α-Amido Allenyl Nitriles. Chin. Chem. Lett. 2024, 35, 109685. (l) Li, Q.; Wang, Z.-L.; Xu, Y.-H. Copper-Catalyzed 1,4-Silylcyanation of 1,3-Enynes: A Silyl Radical Initiated Approach for Synthesis of Difunctionalized Allenes. Chin. Chem. Lett. 2025, 36, 109991.
+
+(3) (a) Wang, F.; Wang, D.; Zhou, Y.; Liang, L.; Lu, R.; Chen, P.; Lin, Z.; Liu, G. Divergent Synthesis of CF3-Substituted Allenyl Nitriles by Ligand-Controlled Radical 1,2- and 1,4-Addition to 1,3- Enynes. Angew. Chem., Int. Ed. 2018, 57, 7140−7145. (b) Zhu, X.; Deng, W.; Chiou, M.-F.; Ye, C.; Jian, W.; Zeng, Y.; Jiao, Y.; Ge, L.; Li, Y.; Zhang, X.; Bao, H. Copper-Catalyzed Radical 1,4-Difunctionalization of 1,3-Enynes with Alkyl Diacyl Peroxides and N-Fluorobenzenesulfonimide. J. Am. Chem. Soc. 2019, 141, 548−559. (c) Zeng, Y.; Chiou, M.-F.; Zhu, X.; Cao, J.; Lv, D.; Jian, W.; Li, Y.; Zhang, X.; Bao, H. Copper-Catalyzed Enantioselective Radical 1,4-Difunctionalization
+
+of 1,3-Enynes. J. Am. Chem. Soc. 2020, 142, 18014−18021. (d) Dong, X.-Y.; Zhan, T.-Y.; Jiang, S.-P.; Liu, X.-D.; Ye, L.; Li, Z.-L.; Gu, Q.-S.; Liu, X.-Y. Copper-Catalyzed Asymmetric Coupling of Allenyl Radicals with Terminal Alkynes to Access Tetrasubstituted Allenes. Angew. Chem., Int. Ed. 2021, 60, 2160−2164. (e) Cai, Y.; Chen, J.; Huang, Y. N-Heterocyclic Carbene Catalyzed 1,4-Alkylacylation of 1,3-Enynes. Org. Lett. 2021, 23, 9251−9255. (f) Du, J.; Liu, A.; Zhang, W.; Luo, S.; Yao, H.; He, Y. Enantio- and Regioselective Ni-Catalyzed Radical Relay 1,4-Arylalkylation of 1,3-Enynes to Access ChiralTetrasubstituted Allenes. ACS Catal. 2024, 14, 13940−13946. (g) Li, Y.; Bao, H. Radical Transformations for Allene Synthesis. Chem. Sci. 2022, 13, 8491−8506. (h) Chen, L.; Lin, C.; Zhang, S.; Zhang, X.; Zhang, J.; Xing, L.; Guo, Y.; Feng, J.; Gao, J.; Du, D. 1,4-Alkylcarbonylation of 1,3-Enynes to Access Tetra-Substituted Allenyl Ketones via an NHC-Catalyzed Radical Relay. ACS Catal. 2021, 11, 13363−13373.
+
+(4) (a) Qian, D.; Wu, L.; Lin, Z.; Sun, J. Organocatalytic synthesis of chiral tetrasubstituted allenes from racemic propargylic alcohols. Nat. Commun. 2017, 8, 567. (b) Han, J. W.; Tokunaga, N.; Hayashi, T. Palladium-Catalyzed Asymmetric Hydrosilylation of 4-Substituted 1- Buten-3-ynes. Catalytic Asymmetric Synthesis of Axially Chiral Allenylsilanes. J. Am. Chem. Soc. 2001, 123, 12915−12916. (c) Tap, A.; Blond, A.; Wakchaure, V. N.; List, B. Chiral Allenes via Alkynylogous Mukaiyama Aldol Reaction. Angew. Chem., Int. Ed. 2016, 55, 8962−8965. (d) Huang, Y.; Del Pozo, J.; Torker, S.; Hoveyda, A. H. Enantioselective Synthesis of Trisubstituted Allenyl-B(pin) Compounds by Phosphine-Cu-Catalyzed 1,3-Enyne Hydroboration. Insights Regarding Stereochemical Integrity of Cu-Allenyl Intermediates. J. Am. Chem. Soc. 2018, 140, 2643−2655. (e) Gao, D.- W.; Xiao, Y.; Liu, M.; Liu, Z.; Karunananda, M. K.; Chen, J. S.; Engle,
+
+K. M. Catalytic, Enantioselective Synthesis of Allenyl Boronates. ACS Catal. 2018, 8, 3650−3654.
+
+(5) Yang, L.-F.; Zeng, L.; Liu, Y.-L.; Hu, M.; Li, J.-H. Photoreductive 1,4-Dicarbofunctionalization of 1,3-Enynes with Organoiodides and Cyanoarenes via Halogen-Atom Transfer. Org. Lett. 2024, 26 (36), 7661−7666.
+
+(6) (a) Berger, F.; Plutschack, M. B.; Riegger, J.; Yu, W.; Speicher, S.; Ho, M.; Frank, N.; Ritter, T. Site-selective and versatile aromatic C-H functionalization by thianthrenation. Nature 2019, 567, 223− 228. (b) Engl, P. S.; Haring, A. P.; Berger, F.; Berger, G.; Perez Bitrian, A.; Ritter, T. C-N. Cross-Couplings for Site-Selective Late-Stage Diversification via Aryl Sulfonium Salts. J. Am. Chem. Soc. 2019, 141, 13346−13351. (c) Xu, P.; Zhao, D.; Berger, F.; Hamad, A.; Rickmeier, J.; Petzold, R.; Kondratiuk, M.; Bohdan, K.; Ritter, T. Sitesselective late-stage aromatic [<sup>18</sup>F] fluorination via aryl sulfonium salts. Angew. Chem., Int. Ed. 2020, 59, 1956−1960. (d) Péter, A.; Perry, G. J. P.; Procter, D. J. Radical C−C Bond Formationusing Sulfonium Salts and Light. Adv. Synth. Catal. 2020, 362, 2135−2142. (e) Alvarez, e. m.; Karl, T.; Berger, F.; Torkowski, L.; Ritter, T. Latestage hetero arylation of hetero(aryl)sulfonium salts activated by aamino alkyl radicals. Angew. Chem., Int. Ed. 2021, 60, 13609−13613. (f) Ni, S.; Halder, R.; Ahmadli, D.; Reijerse, E. J.; Cornella, J.; Ritter, T. C-Heteroatom Coupling with Electron-Rich Aryls enabled by Nickel Catalysis and Light. Nat. Catal. 2024, 7, 733−741.
+
+(7) (a) Aukland, M. H.; Siauciulis, M.; West, A.; Perry, G. J. P.; Procter, D. J. Metal-free photoredox-catalysed formal C−H/C−H coupling of arenes enabled by interrupted Pummerer activation. Nat. Catal. 2020, 3, 163−169. (b) Péter, A.; Perry, G. J. P.; Procter, D. J. Radical C−C Bond Formation using Sulfonium Salts and Light. Adv. Synth. Catal. 2020, 362, 2135−2142. (c) Dewanji, A.; van Dalsen, L.; Rossi-Ashton, J. A.; Gasson, E.; Crisenza, G. E. M.; Procter, D. J. A general arene C−H functionalization strategy via electron donor− acceptor complex photoactivation. Nat. Chem. 2023, 15, 43−52.
+
+(8) (a) Wang, X.; Xun, X.; Song, H.; Liu, Y.; Wang, Q. Palladium Metallaphotoredox-Catalyzed 2-Arylation of Indole Derivatives. Org. Lett. 2022, 24, 4580−4585. (b) Zhang, M.; Wang, B.; Cao, Y.; Liu, Y.; Wang, Z.; Wang, Q. Visible-Light-Driven Synthesis of Aryl Xanthates and Aryl Dithiocarbamates via an Electron Donor−Acceptor Complex. Org. Lett. 2022, 24, 8895−8900. (c) Zhang, M.; Liu, L.; Wang, B.; Yang, Y.; Liu, Y.; Wang, Z.; Wang, Q. Direct Synthesis of Sulfonamides via Synergetic Photoredox and Copper Catalysis. ACS Catal. 2023, 13, 11580−11588. (d) Cao, Z.-W.; Zhang, J.-X.; Wang, J.-T.; Li, L.; Chen, X.-Y.; Jin, S.; Cao, Z.-Y.; Wang, P. Palladium-Catalyzed Hiyama-Type Coupling of Thianthrenium and Phenoxathiinium Salts. Org. Lett. 2024, 26, 6681−6686.
+
+(9) Li, B.; Wang, K.; Yue, H.; Drichel, A.; Lin, J.; Su, Z.; Rueping, M. Catalyst-Free C(sp<sup>2</sup>)-H Borylation through Aryl Radical Generation from ThiopheniumSalts via Electron Donor−Acceptor Complex Formation. Org. Lett. 2022, 24, 7434−7439.
+
+(10) Guo, G.; Ma, J.; Dong, Y.; Wu, Q.; Lv, J.; Shi, Y.; Yang, D. Visible Light/Copper Catalysis-Enabled Arylation and Alkenylation of Phosphorothioates via Site-Selective C−H Thianthrenation. Org. Lett. 2024, 26, 8382−8388.
+
+(11) Yan, F.; Li, Q.; Fu, S.; Yang, Y.; Yang, D.; Yao, S.; Song, M.; Deng, H.; Sui, X. Single-Electron-Transfer-Generated Aryl Sulfonyl Ammonium Salt: Metal-Free Photoredox-Catalyzed ModularConstruction of Sulfonamides. ACS Catal. 2024, 14, 5227−5235.
+
+(12) Greaves, P. M.; Landor, P. D.; Landor, S. R.; Odyek, O. Synthesis and reactions of allenic amides. Tetrahedron. 1974, 30, 1427−1430.

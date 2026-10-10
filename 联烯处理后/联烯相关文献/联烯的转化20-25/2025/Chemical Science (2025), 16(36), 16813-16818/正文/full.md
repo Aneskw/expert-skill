@@ -1,0 +1,216 @@
+EDGE ARTICLE
+
+View Article Online View Journal | View Issue
+
+![](images/402225e71a1041f1da99e94b9d1f1325c6f2e25283841ec32891ea171f4b9973.jpg)
+
+Check for updates
+
+Cite this: Chem. Sci., 2025, 16, 16813
+
+All publication charges for this article have been paid for by the Royal Society of Chemistry
+
+Received 8th July 2025
+
+Accepted 6th August 2025
+
+DOI: 10.1039/d5sc05057j
+
+rsc.li/chemical-science
+
+# Photoredox-catalyzed cyclopropanation of allenes towards vinyl-cyclopropanes
+
+Hui Xie, Yan Zhang and Bernhard Breit \*
+
+While the vinyl cyclopropane (VCP) scafold exhibits unique reactivity in chemical transformations, its synthesis presents certain challenges. Herein, we report the visible-light photoredox-catalyzed radicalpolar crossover cyclization (RPCC) of terminal and internal allenes with carboxylic acids, realizing the construction of functionalized vinyl cyclopropanes (VCPs) with highly chemo-, and regioselectivities under mild conditions. Moreover, this photoredox protocol exhibits good functional group tolerance, a broad substrate scope, facile scalability and easy rearrangement to give various cyclopentene units.
+
+## Introduction
+
+Vinyl cyclopropanes (VCPs) serve as versatile synthetic precursors for cycloadditions or rearrangements<sup>1–5</sup> and are also key structural motifs in natural products, bioactive compounds and pharmaceuticals,<sup>6–8</sup> such as Danoprevir (against COVID-19),<sup>9,10</sup> AGN 194204.<sup>11,12</sup> Moreover, the inherent ring strain of cyclopropane yields strong core C–C and peripheral C–H bonds that preclude oxidative metabolism of a drug molecule and allow their use as bioisosteres for various alkyl, aryl, and vinyl substitution patterns<sup>7,13</sup> (Scheme 1a). While the VCPs scafold exhibits unique reactivity in organic synthesis,<sup>1,2</sup> its synthesis presents certain challenges. The inherent reactivity of the VCP structure, particularly the ring strain and the vinyl double bond, require careful control of reaction conditions to prevent premature ring-opening or undesirable side reactions. Recent advancements in synthetic organic chemistry,<sup>14–16</sup> including ylides,<sup>17–19</sup> Zn-mediated carbenoid,<sup>20–23</sup> metal-mediated cycloaddition reactions (vinyl diazo precursors),<sup>24,25</sup> and allylic cyclization methodologies as well as selective functionalization strategies,<sup>26–29</sup> have facilitated the eficient construction of VCPcontaining compounds (Scheme 1b). Despite signi<sup></sup>cant advance, more eficient and economical synthesis straight from feedstock materials (alkenes, allenes, dienes) still remains underrepresented, and the more challenging cyclization of allenes has not been realized up to date.
+
+Recently, catalytic transformations involving photoinduced radical-polar crossover cyclization (RPCC) have become highly valuable and powerful processes for transforming simple and readily available alkene precursors into structurally complex cyclic molecular scafolds.<sup>30–33</sup> Molander pioneered an annulation process enabling the rapid and eficient formation of 1,1- disubstituted cyclopropanes though RPCC process.<sup>34,35</sup> Meanwhile, Aggarwal described an interesting photoredox-catalyzed decarboxylative RPCC approach to functionalized cyclopropanes under mild conditions.<sup>36</sup> Furthermore, Li, Yu, Fang, and others successfully accomplished the RPCC of alkenes for the synthesis of various functionalized cyclopropanes.<sup>37–42</sup> Despite these advances, these methods are limited to electrophilic alkenes, and their development for the construction of synthetically important vinyl cyclopropanes (VCPs) is lagged behind. With our continuous eforts on the hydrofunctionalization of allenes,<sup>43–46</sup> we reasoned that addition of aamino/hydroxy radicals derived from carboxylic acids followed by addition to allenes through a regioselective RPCC (rRPCC) process could construct various functionalized vinyl cyclopropanes (VCPs) (Scheme 1c).
+
+To the best of our knowledge, regioselective photocatalytic RPCC (rRPCC) with allenes had not been reported to date. Nevertheless, such a reaction faces several challenges (Scheme 1d).<sup>47–49</sup> The versatile reactivities of allenes could results in diferent regioselectivities for the initial radical attack, which in addition could lead to a number of vinyl products. However, we hypothesized that the initial radical might preferentially occur at to the internal allene carbon atom to generate a stabilized allyl radical intermediate.<sup>48</sup> From that electron transfer followed by either a 5-exo-tet or a 3-exo-tet anionic cyclization reaction could deliver either cyclopentenes or VCPs, respectively. We are delighted that despite these challenges we can report herein the successful implementation of a visible-light photoredoxcatalyzed highly chemo- and regioselective cyclopropanation of internal and terminal allenes, enabling the construction of multi-substituted vinyl cyclopropanes (Scheme 1c).
+
+## Results and discussion
+
+We began our studies by investigating the decarboxylative rRPCC of allene 1a with commercial N-phenyl glycine 2a (Table 1). In the presence of 2 mol% 4-CzIPN, and 2.0 equiv. of $\mathrm { K _ { 2 } H P O _ { 4 } } ,$ cyclopropanation of 1a in acetonitrile delivered 3 in 18% yield under blue light irradiation (entry 1). Subsequent screening of bases did not lead to an improvement (entries 2–3, Table S1). Recognizing the critical role of leaving groups in controlling cyclopropanation and catalytic eficiency, we conducted a thorough screening of various substituted allenes (entries 4–7, Table S2). Although allenyl chloride 1c and iodide 1d showed higher conversion, allenyl bromide 1e signi<sup></sup>cantly improved the yield to 46% with a >20 : 1 regioselectivity. Next, further screening of various metalbased and organic photocatalysts with diferent redox properties was conducted (entries 8–9, Table S3). Pleasingly, the use of [Ir(ppy)<sub>2</sub>dtbbpy]PF<sub>6</sub> (PC2) as photocatalyst eficiently promoted the targeted transformation to provide product 3 in good isolated yield (70%) with exclusive selectivity (entry 8). To further enhance reactivity, we explored varied solvents (Table S4) and found MeCN/DMSO (9 : 1) as the ideal choice, which improved the yield to 80% when 2.0 equiv. of 2a was used (entry 13). As anticipated, control experiments revealed that light, base, and photocatalyst were all essential components for this transformation (see Table S5 in the SI for details).
+
+![](images/9e0d0db4ae5b4288fa4d1a7eecf1bd798cef4388d8616aff68278ec42c7f90ef.jpg)  
+Scheme 1 Strategies to construct vinyl cyclopropanes, a privileged motif in medicine.
+
+Table 1 Reaction condition optimizations<sup>a</sup>  
+![](images/46910e0b9ff72869c9225d366ba543d057a52cca52e7c4096a419f97c720fb37.jpg)
+
+<table><tr><td>Entry</td><td>Variation from conditionsª</td><td>Allene</td><td>Conversionb</td><td>Yieldb</td></tr><tr><td>1</td><td>None</td><td>1a</td><td>20</td><td>18(16)</td></tr><tr><td>2</td><td> $\mathrm { C s } _ { 2 } \mathrm { C O } _ { 3 }$  as base</td><td>1a</td><td>12</td><td>11</td></tr><tr><td>3</td><td>K2HPO₄ (1.0 equiv.)</td><td>1a</td><td>18</td><td>10</td></tr><tr><td>4</td><td>None</td><td>1b</td><td>45</td><td>16</td></tr><tr><td>5</td><td>None</td><td>1c</td><td>55</td><td>18</td></tr><tr><td>6</td><td>None</td><td>1d</td><td>75</td><td>23</td></tr><tr><td>7</td><td>None</td><td>1e</td><td>50</td><td>45(46)</td></tr><tr><td>8</td><td>PC2 used</td><td>1e</td><td>91</td><td>70(70)</td></tr><tr><td>9</td><td>PC3 used</td><td>1e</td><td>81</td><td></td></tr><tr><td> ${ 1 0 } ^ { c }$ </td><td>DMSO</td><td>1e</td><td>100</td><td>68(66) 56</td></tr><tr><td> $1 1 ^ { c }$ </td><td>MeCN/DMSO (9:1)</td><td>1e</td><td>100</td><td>68</td></tr><tr><td> $1 2 ^ { c }$ </td><td>2.0 equiv. 2a was used</td><td>1e</td><td>98</td><td></td></tr><tr><td> $1 3 ^ { c , d }$ </td><td>MeCÑ/DMSO (9:1)</td><td>1e</td><td>100</td><td>75 81(80)</td></tr></table>
+
+<sup>a</sup> Reaction condition (unless otherwise speci<sup></sup>ed): 1 (0.1 mmol, 1.0 equiv.), 2a (0.12 mmol, 1.2 equiv.), 4-CzIPN (2 mol%), $\mathrm { K _ { 2 } H P O _ { 4 } } ^ { \mathrm { - } } \left( 2 . 0 \right.$ equiv.), MeCN (2 mL), blue LED strips (452 nm), r.t. under Ar atmosphere for 16 h. <sup>b</sup> NMR yields are reported by using dibromomethane as internal standard, isolated yield is presented in parenthesis. <sup>c</sup> PC2 (2 mol%) was used. <sup>d</sup> 2.0 equiv. of 2a was used. All regioselectivity >20 : 1, no cyclopentene product was detected. See the SI for full experimental details.
+
+With the optimized reaction conditions, we then explored the substrate scope with respect to carboxylic acids (Table 2, top). Aniline derivatives bearing various substituents at the para-position, including halogens, electron-withdrawing groups, and electron-donating groups, also underwent the reaction with high to moderate yield (4–8). Substrates with substituents at the meta- and ortho-positions similarly exhibited successful reactivity (9–10). Structurally diverse a-amino acids reacted eficiently with 1e to yield corresponding VCPs, including those possessing various methyl (11), as well as allyl substituted (12) amino acids. Gladly, a naphthyl-functionalized amino acid was also well-tolerated (68% yield). a-Alkylsubstituted a-amino acid gave a a-substituted allylic amine derivative 14. Methionine (15), glutamic acid (16), proline (18), and a-phenyl Boc-glycine (20), also gave desired products in reasonable yields, demonstrating the ability of this methodology for late-stage functionalization of amino acids. Notably, alkyl amines, such as tetrahydroquinoline, was suitable substrate (17). Moreover, O-p-methoxyphenyl a-hydroxycarboxylic acids were also suitable radical precursors, and the corresponding products were obtained smoothly in the present of 4-CzIPN as catalyst (21–22).
+
+Table 2 Photoredox-catalyzed cyclopropanation of allenes<sup>a</sup>  
+![](images/70f6845136a204099c6da1f88ba724363660bd7abfbf7030d3fe9389adda7f05.jpg)  
+<sup>a</sup> Reaction conditions: see entry 13 of Table 1. 0.1 mmol scale. Yields reported are of the isolated, column-puri<sup></sup>ed products. <sup>b</sup> 4-CzIPN (2 mol%) was used. All regioselectivity >20 : 1.
+
+Then, we turned our attention to determining the generality of the reaction with respect to allene substrates (Table 2, middle). It was found that diversely substituted allenes could be successfully converted to VCPs (23–30) in good to excellent yields, regardless of substitution patterns or electronic properties of substituents. Particularly, allenyl bromide bearing a naphthalene-substituent (32) and aromatic heterocycle, thiophene (33) proved to be compatible with this transformation. Moreover, a-hydroxycarboxylic acids performed well with substituted allenes under the reaction conditions, furnishing corresponding VCPs products in high yields (34–35). Interestingly, a propylbromide-substituted allene also participated in this transformation, delivering functionalized vinyl cyclobutane (VCB, 36), albeit with decreased eficiency. However, alkyl substituted allenes only gave trace amounts of products; even no reaction occurred with sulfoxide allene (37, 39). For more details, see SI, Table S7. Delightedly, the allenyl bromide equipped with an ester function delivered the VCP 38 with 28% isolated yield.
+
+Of note, the preparation of multi-substituted ole<sup></sup>ns is one of the most challenging tasks in modern organic synthesis,<sup>50,51</sup> with our strategy, the trisubstituted alkenes could be built up conveniently (Table 2, bottom). Thus, internal allene substrates were subjected to this transformation, delivering desired substituted VCPs smoothly, without the eventual formation of cyclopentene products. Various substituents on the aryl ring of aniline (40–44), as well as naphthylallene (45) were all compatible. Moreover, glycine derivative and a-hydroxycarboxylic acid also underwent the above reaction conditions to furnish desired VCPs 46–47 with good results. Gratifyingly, the substrate containing an ester function also demonstrated good reactivity, albeit giving the protonated Giese addition products 480 and 490.
+
+To demonstrate the practical utility of these transformations, a 5 mmol scale reaction was performed, furnishing the corresponding cyclization product 3 in 62% yields (Scheme 2A). In order to showcase the practical value of this strategy, a series of transformations of VCPs were conducted. For example, a simple ring-closing metathesis (RCM) of 12 produced 2-pyrroline 50 (Scheme 2B), a privileged heterocycle found in many pharmacologically active natural products.<sup>52,53</sup> The rearrangement of vinylcyclopropanes to cyclopentenes (the vinylcyclopropane rearrangement, VCPR) is becoming an important transformation in the synthesis of a variety of complex natural products.<sup>4,54,55</sup> Ni-catalyzed VCPR reaction was performed with VCP (3) under mild conditions furnishing cyclopentene 52 in excellent yields (91% yield) (Scheme 2C). In addition, cyclopentenes 53 and 54 were smoothly obtained in 81% and 73% yields, respectively.
+
+![](images/89c53c655b0577cab5d0704f9dfcda659da4a38a5f16c043a451964a7fdb3b2d.jpg)  
+Scheme 2 Large scale reaction and preparation of cyclopentenes.
+
+To gain insights into the mechanism of this method, a series of experiments was performed (Scheme 3). Both radical trapping reaction with TEMPO and Giese-type addition suggested the involvement of an a-amino carbon radical intermediate in this transformation (Scheme 3A). The formation of carbanion intermediates was con<sup></sup>rmed by submitting allyl acetate 57 to the standard reaction conditions, during which elimination of the acetate group occurred to give alkene 58 in moderate yield (Scheme 3B). The light on/of experiment of the reaction was conducted, and its result suggested that a radical-chain propagation mechanism could be excluded (Scheme 3C), further supported by the quantum yield ${ \bf \Psi } ( \phi { \bf \Psi } = { \bf \Psi } 0 . 1 1 ) { \bf \Psi } $ 56,57 Furthermore, Stern–Volmer luminescence quenching studies revealed that the N-phenyl glycine salt 2s quenches the excitedstate photocatalyst, while allene 1e shows no signi<sup></sup>cant quenching efect. The result indicates that the oxidation of the conjugated base of a-amino acids by the excited-state photocatalyst is likely to be the initial step of the photoredox catalytic cycle (Scheme 3D). In addition, we have performed Hammett analysis for a series of allenyl bromide by competition experiments (Scheme 3E). A positive $\rho$ value (1.08) was observed, indicating the accumulation of negative charge during the ratedetermining step.<sup>58</sup> It is obvious that electron-withdrawing groups (EWGs) can modestly improve the reactivity, which is in agreement with an intermediate carbanion formed in the course of the reaction (Scheme 3B). Hence, the cyclization occurs through an anionic 3-exo-tet pathway $( \mathbf { S } _ { \mathbf { N } } 2 ) _ { : }$ , and seems more favourable than an alternative radical-based homolytic substitution $\left( \mathsf { S } _ { \mathrm { H } } 2 \right)$ mechanism.<sup>59</sup>
+
+![](images/03e37afd3d6d6f10eab84344d7e132346ca9a01c7f1437fd4674e8c7b5cdf1e5.jpg)  
+Scheme 3 Mechanistic studies.
+
+On the basis of the above observations, a plausible reaction mechanism was proposed (Scheme 3F). Initially, irradiation of photocatalyst $\mathrm { I r } ^ { \mathrm { I I I } }$ afords the excited state catalyst $\mathrm { I r } ^ { \mathrm { I I I } * }$ , which is reductively quenched by the carboxylate generated from in situ deprotonation of carboxylic acid 2, leading to $\mathrm { I r } ^ { \mathrm { I I } }$ species<sup>60</sup> and the corresponding a-amino radical $\mathbf { L } ^ { 6 1 }$ Then, regioselective addition of a-amino radical I to allene 1e gives a radical delocalized intermediate II. A subsequent single-electron transfer (SET) between II and the reduced photocatalyst $\mathrm { I r } ^ { \mathrm { I I } }$ gives the delocalized carbanion III and the ground state photocatalyst in order to complete the photoredox catalytic cycle.<sup>62</sup> Finally, a favourable intermediate $\mathbf { I I } ^ { \prime \prime }$ will undergo a polar 3-exo-tet cyclization to aford the cyclopropane product 3.
+
+## Conclusions
+
+In conclusion, we have described a general, modular cyclopropanation of allenes with a-amino/hydroxy radicals derived from carboxylic acid via a photoredox-catalyzed radical-polar crossover annulation process. Various functionalized vinyl cyclopropanes could be synthesized from terminal and internal allenes through this uni<sup></sup>ed photoredox system. Moreover, this synthetic method exhibits mild reaction conditions, high chemo- and regioselectivities, a broad substrate scope, and facile scalability and derivatization, including mild isomerization to cyclopentenes, and so provides great potential for applications in organic synthesis, pharmaceutical chemistry and materials science. Further applications of this strategy in other functionalizations of alkynes, allenes, and unsaturated substrates are underway in our laboratory.
+
+## Author contributions
+
+H. X. and B. B. conceived and designed the experiment. H. X. performed all the experiments and analyzed all the data. Y. Z. performed the mechanistic study. H. X., B. B. wrote the manuscript.
+
+## Conflicts of interest
+
+The authors declare no competing <sup></sup>nancial interest.
+
+## Data availability
+
+The data supporting this article have been included in the SI.   
+See DOI: https://doi.org/10.1039/d5sc05057j.
+
+## Acknowledgements
+
+The authors would like to thank the entire analytics department of organic chemistry (University of Freiburg), Dr M. Keller and Dr S. Braukmüller for NMR experiments, and C. Warth for MS measurements.
+
+## Notes and references
+
+1 T. Hudlicky and J. W. Reed, Angew. Chem., Int. Ed., 2010, 49, 4864–4876.
+
+2 S. Chandrasekaran and V. Ganesh, Synthesis, 2016, 48, 4347– 4380.
+
+3 G. Fumagalli, S. Stanton and J. F. Bower, Chem. Rev., 2017, 117, 9404–9432.
+
+4 M. Meazza, H. Guo and R. Rios, Org. Biomol. Chem., 2017, 15, 2479–2490.
+
+5 K. Nachimuthu and J. L. Nallasivam, Org. Biomol. Chem., 2024, 22, 4212–4242.
+
+6 Y.-Y. Fan, X.-H. Gao and J.-M. Yue, Sci. China: Chem., 2016, 59, 1126–1141.
+
+7 T. T. Talele, J. Med. Chem., 2016, 59, 8712–8756.
+
+8 C. Ebner and E. M. Carreira, Chem. Rev., 2017, 117, 11651– 11679.
+
+9 H. Chen, Z. Zhang, L. Wang, Z. Huang, F. Gong, X. Li, Y. Chen and J. J. Wu, Medicine, 2020, 99, e23357.
+
+10 Z. Zhang, S. Wang, X. Tu, X. Peng, Y. Huang, L. Wang, W. Ju, J. Rao, X. Li, D. Zhu, H. Sun and H. Chen,J. Med. Virol., 2020, 92, 2631–2636.
+
+11 R. Faust, Angew. Chem., Int. Ed., 2001, 40, 2251–2253.
+
+12 V. Vuligonda, S. M. Thacher and R. A. S. Chandraratna, J. Med. Chem., 2001, 44, 2298–2303.
+
+13 F. Lovering, J. Bikker and C. Humblet, J. Med. Chem., 2009, 52, 6752–6756.
+
+14 W. Q. Wu, Z. M. Lin and H. F. Jiang, Org. Biomol. Chem., 2018, 16, 7315–7329.
+
+15 P. Li, X. Zhang and M. Shi, Chem. Commun., 2020, 56, 5457– 5471.
+
+16 Z. L. Chen, Y. Xie and J. Xuan, Eur. J. Org Chem., 2022, e202201066.
+
+17 D. M. Hodgson, F. Y. T. M. Pierard and P. A. Stupple, Chem. Soc. Rev., 2001, 30, 50–61.
+
+18 A. H. Li, L. X. Dai and V. K. Aggarwal, Chem. Rev., 1997, 97, 2341–2372.
+
+19 X. Xie, Z. Zhao, J. Wang and S. W. Li, Org. Lett., 2024, 26, 8144–8148.
+
+20 Y. Cohen and I. Marek, Acc. Chem. Res., 2022, 55, 2848–2868.
+
+21 M. Liu and C. Uyeda, Angew. Chem., Int. Ed., 2024, 63, e202406218.
+
+22 R. Munir, A. F. Zahoor, S. Javed, B. Parveen, A. Mansha, A. Irfan, S. G. Khan, A. Irfan, K. Kotwica-Mojzych and M. Mojzych, Molecules, 2023, 28, 5651.
+
+23 D. Qian and J. Zhang, Chem. Soc. Rev., 2015, 44, 677–698.
+
+24 G. Maas, Chem. Soc. Rev., 2004, 33, 183–190.
+
+25 M. Rubin, M. Rubina and V. Gevorgyan, Chem. Rev., 2007, 107, 3117–3179.
+
+26 L. Dian and I. Marek, Chem. Rev., 2018, 118, 8415–8434.
+
+27 M. Mendel, L. Gnagi, U. Dabranskaya and F. Schoenebeck, Angew. Chem., Int. Ed., 2023, 62, e202211167.
+
+28 E. Sansinenea and A. Ortiz, Eur. J. Org Chem., 2022, 2022, e202200210.
+
+29 K. M. Allegre, N. Brennan and J. A. Tunge, Org. Lett., 2018, 20, 4191–4194.
+
+30 L. Pitzer, J. L. Schwarz and F. Glorius, Chem. Sci., 2019, 10, 8285–8291.
+
+31 C. B. Kelly, L. Thai-Savard, J. Hu, T. B. Marder, G. A. Molander and A. B. Charette, ChemCatChem, 2024, 16, e202400110.
+
+32 M. Liu, X. Ouyang, C. Xuan and C. Shu, Org. Chem. Front., 2024, 11, 895–915.
+
+33 Z. Zhu, Y. Zhang, Z. Li and C. Shu, Chem Catal., 2024, 4, 100945.
+
+34 J. A. Milligan, J. P. Phelan, V. C. Polites, C. B. Kelly and G. A. Molander, Org. Lett., 2018, 20, 6840–6844.
+
+35 J. P. Phelan, S. B. Lang, J. S. Compton, C. B. Kelly, R. Dykstra, O. Gutierrez and G. A. Molander, J. Am. Chem. Soc., 2018, 140, 8037–8047.
+
+36 C. Shu, R. S. Mega, B. J. Andreassen, A. Noble and V. K. Aggarwal, Angew. Chem., Int. Ed., 2018, 57, 15430– 15434.
+
+37 W. Luo, Y. Yang, Y. Fang, X. Zhang, X. Jin, G. Zhao, L. Zhang, Y. Li, W. Zhou, T. Xia and B. Chen, Adv. Synth. Catal., 2019, 361, 4215–4221.
+
+38 N. Yang, Y. Fang, F. Xu, R. Zhou, X. Jin, L. Zhang, J. Shi, J. Fang, H. Wu and Z. Zhang, Org. Chem. Front., 2021, 8, 5303–5309.
+
+39 D.-G. Yu, Y.-M. Yu, Q. Fu, J. Liu and Y.-M. Jiang, Synlett, 2021, 32, 378–382.
+
+40 L. G. Huai, L. Zhang, Z. T. Wang, H. Wu and Y. W. Fang, Org. Chem. Front., 2023, 10, 1245–1251.
+
+41 B. B. Zhang, J. F. Luo and Y. W. Fang, Org. Biomol. Chem., 2023, 21, 732–737.
+
+42 Y. Zhang, J. Wang, X. He, S. Peng, L. Yuan, G. Huang, Y. Guo and X. Lu, Adv. Sci., 2025, 12, e2411788.
+
+43 P. Koschker and B. Breit, Acc. Chem. Res., 2016, 49, 1524– 1536.
+
+44 A. M. Haydl, B. Breit, T. Liang and M. J. Krische, Angew. Chem., Int. Ed., 2017, 56, 11312–11325.
+
+45 F. Panahi, F. Bauer and B. Breit, Acc. Chem. Res., 2023, 56, 3676–3693.
+
+46 H. Xie, H. Chen, U. Dutta, Y. Lan and B. Breit, ACS Catal., 2024, 14, 13352–13361.
+
+47 G. Qiu, J. Zhang, K. Zhou and J. Wu, Tetrahedron, 2018, 74, 7290–7301.
+
+48 L. Liu, R. M. Ward and J. M. Schomaker, Chem. Rev., 2019, 119, 12422–12490.
+
+49 J. Singh, A. Sharma and A. Sharma, Org. Chem. Front., 2021, 8, 5651–5667.
+
+50 A. B. Flynn and W. W. Ogilvie, Chem. Rev., 2007, 107, 4698– 4745.
+
+51 E. Negishi, Z. H. Huang, G. W. Wang, S. Mohan, C. Wang and H. Hattori, Acc. Chem. Res., 2008, 41, 1474–1485.
+
+52 B. Gerratana, Med. Res. Rev., 2012, 32, 254–293.
+
+53 D. Wang, Y. Fan, P. Yu and L. Desaubry, Chem. Commun., 2020, 56, 5584–5592.
+
+54 J. E. Baldwin, Chem. Rev., 2003, 103, 1197–1212.
+
+55 A. S. Adhikari and N. Majumdar, Eur.J. Org Chem., 2024, 27, e202301225.
+
+56 M. A. Cismesia and T. P. Yoon, Chem. Sci., 2015, 6, 5426– 5434.
+
+57 L. Buzzetti, G. E. M. Crisenza and P. Melchiorre, Angew. Chem., Int. Ed., 2019, 58, 3730–3747.
+
+58 C. Hansch, A. Leo and R. W. Ta, Chem. Rev., 1991, 91, 165– 195.
+
+59 A. M. Del Hoyo, A. G. Herraiz and M. G. Suero, Angew. Chem., Int. Ed., 2017, 56, 1610–1613.
+
+60 H. Uoyama, K. Goushi, K. Shizu, H. Nomura and C. Adachi, Nature, 2012, 492, 234–238.
+
+61 T. Koike and M. Akita, Inorg. Chem. Front., 2014, 1, 562–576.
+
+62 H. Hahm, D. Baek, D. Kim, S. Park, J. Y. Ryoo and S. Hong, Org. Lett., 2021, 23, 3879–3884.
