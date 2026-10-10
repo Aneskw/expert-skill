@@ -13,7 +13,6 @@
 
 - [文献目录与处理进度](联烯处理后/README.md)
 - [复核结果与本地部署方案](reports/联烯复核与本地解析方案.md)
-- [从文献到知识的Pipeline方案](reports/文献知识提取Pipeline方案.md)
 - [复核详情](reports/联烯复核详情.json)
 - [处理清单](联烯处理后/处理清单.json)
 
