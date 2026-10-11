@@ -1,0 +1,4047 @@
+[
+  {
+    "record_id": "doc_486ee2ff11ca63ca:graphical_abstract_general",
+    "document_id": "doc_486ee2ff11ca63ca",
+    "source_reaction_id": "graphical_abstract_general",
+    "record_kind": "general_scheme",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_486ee2ff11ca63ca:page1:image",
+      "doc_486ee2ff11ca63ca:page1:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_generic_1",
+        "role": "reactant",
+        "label": {
+          "value": "generic_1",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page1:image",
+            "doc_486ee2ff11ca63ca:page1:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "generic 2,3-allenamide with R1-R4 substituents",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page1:image",
+            "doc_486ee2ff11ca63ca:page1:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "reagent_cux2",
+        "role": "reagent",
+        "label": {
+          "value": "CuX2",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page1:image",
+            "doc_486ee2ff11ca63ca:page1:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "copper(II) chloride or copper(II) bromide",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page1:image",
+            "doc_486ee2ff11ca63ca:page1:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_generic_2_or_3",
+        "role": "product",
+        "label": {
+          "value": "generic_2_or_3",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page1:image",
+            "doc_486ee2ff11ca63ca:page1:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "4-halo pyrrol-2(5H)-one family; hydroxylated when R2=H",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page1:image",
+            "doc_486ee2ff11ca63ca:page1:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate_generic_1",
+          "reagent_cux2",
+          "product_generic_2_or_3"
+        ],
+        "conditions": []
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "scope_rule",
+        "fact": {
+          "value": "R2 = H gives R5 = OH; R2 != H gives R5 = R2",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page1:image",
+            "doc_486ee2ff11ca63ca:page1:text"
+          ],
+          "verification": "source_checked"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "The graphical abstract summarizes the current transformation and is not a row-level experiment.",
+        "evidence_ids": [
+          "doc_486ee2ff11ca63ca:page1:image",
+          "doc_486ee2ff11ca63ca:page1:text"
+        ],
+        "verification": "source_checked"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Generic R groups do not define complete structures.",
+        "No row-specific quantities, time, temperature, workup, or yield is stated in this generic scheme."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_486ee2ff11ca63ca:scheme2_conceptual_sequence",
+    "document_id": "doc_486ee2ff11ca63ca",
+    "source_reaction_id": "scheme2_conceptual_sequence",
+    "record_kind": "general_scheme",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_486ee2ff11ca63ca:page2:image",
+      "doc_486ee2ff11ca63ca:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_scheme2_allenamide",
+        "role": "reactant",
+        "label": {
+          "value": "scheme2_allenamide",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "generic 2,3-dienamide",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "scheme2_pyrrolone",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "generic pyrrol-2(5H)-one",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "conceptual cyclization intermediate",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_scheme2_hydroxypyrrolone",
+        "role": "product",
+        "label": {
+          "value": "scheme2_hydroxypyrrolone",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "generic 5-hydroxypyrrol-2(5H)-one",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate_scheme2_allenamide",
+          "scheme2_pyrrolone",
+          "product_scheme2_hydroxypyrrolone"
+        ],
+        "conditions": []
+      }
+    ],
+    "outcomes": [],
+    "notes": [
+      {
+        "value": "Scheme 2 uses question-mark arrows to present the envisioned lactamization-hydroxylation sequence.",
+        "evidence_ids": [
+          "doc_486ee2ff11ca63ca:page2:image",
+          "doc_486ee2ff11ca63ca:page2:text"
+        ],
+        "verification": "source_checked"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The scheme is conceptual and supplies no reagent, yield, or observed intermediate.",
+        "Generic R groups do not define complete structures."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_486ee2ff11ca63ca:table1_entry1",
+    "document_id": "doc_486ee2ff11ca63ca",
+    "source_reaction_id": "table1_entry1",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_486ee2ff11ca63ca:page2:image",
+      "doc_486ee2ff11ca63ca:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "N-benzyl 2-methyl-2,3-decadienamide",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2a",
+        "role": "product",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "bromolactamization-hydroxylation product 2a",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate_1a",
+          "cubr2",
+          "product_2a"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "H2O",
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 22,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "CuBr2_equivalents",
+            "fact": {
+              "value": {
+                "number": 1.1,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield_of_2a",
+        "fact": {
+          "value": {
+            "number": 10,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        }
+      },
+      {
+        "name": "recovered_1a",
+        "fact": {
+          "value": {
+            "number": 68,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis is not stated in the supplied main text.",
+        "Reaction scale, atmosphere, concentration, workup, purification, and isolated mass are unavailable without the unsupplied SI.",
+        "Temperature is not stated for this Table 1 row."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_486ee2ff11ca63ca:table1_entry2",
+    "document_id": "doc_486ee2ff11ca63ca",
+    "source_reaction_id": "table1_entry2",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_486ee2ff11ca63ca:page2:image",
+      "doc_486ee2ff11ca63ca:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "N-benzyl 2-methyl-2,3-decadienamide",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2a",
+        "role": "product",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "bromolactamization-hydroxylation product 2a",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "base_entry2",
+        "role": "reagent",
+        "label": {
+          "value": "Et3N",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "Et3N (1 equiv)",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate_1a",
+          "cubr2",
+          "product_2a",
+          "base_entry2"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "THF-H2O (1:1)",
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 22,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "CuBr2_equivalents",
+            "fact": {
+              "value": {
+                "number": 1.1,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield_of_2a",
+        "fact": {
+          "value": {
+            "number": 38,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        }
+      },
+      {
+        "name": "recovered_1a",
+        "fact": {
+          "value": {
+            "number": 43,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis is not stated in the supplied main text.",
+        "Reaction scale, atmosphere, concentration, workup, purification, and isolated mass are unavailable without the unsupplied SI.",
+        "Temperature is not stated for this Table 1 row."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_486ee2ff11ca63ca:table1_entry3",
+    "document_id": "doc_486ee2ff11ca63ca",
+    "source_reaction_id": "table1_entry3",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_486ee2ff11ca63ca:page2:image",
+      "doc_486ee2ff11ca63ca:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "N-benzyl 2-methyl-2,3-decadienamide",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "base_entry3",
+        "role": "reagent",
+        "label": {
+          "value": "K2CO3",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "K2CO3 (1 equiv)",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate_1a",
+          "cubr2",
+          "base_entry3"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "THF-H2O (1:1)",
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 17.5,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "CuBr2_equivalents",
+            "fact": {
+              "value": {
+                "number": 1.1,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reaction_result",
+        "fact": {
+          "value": "No reaction",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        }
+      },
+      {
+        "name": "recovered_1a",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis is not stated in the supplied main text.",
+        "Reaction scale, atmosphere, concentration, workup, purification, and isolated mass are unavailable without the unsupplied SI.",
+        "Temperature is not stated for this Table 1 row."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_486ee2ff11ca63ca:table1_entry4",
+    "document_id": "doc_486ee2ff11ca63ca",
+    "source_reaction_id": "table1_entry4",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_486ee2ff11ca63ca:page2:image",
+      "doc_486ee2ff11ca63ca:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "N-benzyl 2-methyl-2,3-decadienamide",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2a",
+        "role": "product",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "bromolactamization-hydroxylation product 2a",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate_1a",
+          "cubr2",
+          "product_2a"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "DMF",
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 19,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "CuBr2_equivalents",
+            "fact": {
+              "value": {
+                "number": 1.1,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield_of_2a",
+        "fact": {
+          "value": {
+            "number": 60,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        }
+      },
+      {
+        "name": "recovered_1a",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis is not stated in the supplied main text.",
+        "Reaction scale, atmosphere, concentration, workup, purification, and isolated mass are unavailable without the unsupplied SI.",
+        "Temperature is not stated for this Table 1 row."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_486ee2ff11ca63ca:table1_entry5",
+    "document_id": "doc_486ee2ff11ca63ca",
+    "source_reaction_id": "table1_entry5",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_486ee2ff11ca63ca:page2:image",
+      "doc_486ee2ff11ca63ca:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "N-benzyl 2-methyl-2,3-decadienamide",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2a",
+        "role": "product",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "bromolactamization-hydroxylation product 2a",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate_1a",
+          "cubr2",
+          "product_2a"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "acetone-H2O (3:2)",
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 19,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "CuBr2_equivalents",
+            "fact": {
+              "value": {
+                "number": 1.1,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield_of_2a",
+        "fact": {
+          "value": {
+            "number": 70,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        }
+      },
+      {
+        "name": "recovered_1a",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis is not stated in the supplied main text.",
+        "Reaction scale, atmosphere, concentration, workup, purification, and isolated mass are unavailable without the unsupplied SI.",
+        "Temperature is not stated for this Table 1 row."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_486ee2ff11ca63ca:table1_entry6",
+    "document_id": "doc_486ee2ff11ca63ca",
+    "source_reaction_id": "table1_entry6",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_486ee2ff11ca63ca:page2:image",
+      "doc_486ee2ff11ca63ca:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "N-benzyl 2-methyl-2,3-decadienamide",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2a",
+        "role": "product",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "bromolactamization-hydroxylation product 2a",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate_1a",
+          "cubr2",
+          "product_2a"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "THF-H2O (1:1)",
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 16,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "CuBr2_equivalents",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield_of_2a",
+        "fact": {
+          "value": {
+            "number": 65,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        }
+      },
+      {
+        "name": "recovered_1a",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis is not stated in the supplied main text.",
+        "Reaction scale, atmosphere, concentration, workup, purification, and isolated mass are unavailable without the unsupplied SI.",
+        "Temperature is not stated for this Table 1 row."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_486ee2ff11ca63ca:table1_entry7",
+    "document_id": "doc_486ee2ff11ca63ca",
+    "source_reaction_id": "table1_entry7",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_486ee2ff11ca63ca:page2:image",
+      "doc_486ee2ff11ca63ca:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "N-benzyl 2-methyl-2,3-decadienamide",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2a",
+        "role": "product",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "bromolactamization-hydroxylation product 2a",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate_1a",
+          "cubr2",
+          "product_2a"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "THF-H2O (1:1)",
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 18.5,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "CuBr2_equivalents",
+            "fact": {
+              "value": {
+                "number": 1.1,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 50,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield_of_2a",
+        "fact": {
+          "value": {
+            "number": 72,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        }
+      },
+      {
+        "name": "recovered_1a",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "This is the same 1a-to-2a experiment shown in Equation (1) and Table 2 entry 1; the evidence is merged rather than duplicated.",
+        "evidence_ids": [
+          "doc_486ee2ff11ca63ca:page2:image",
+          "doc_486ee2ff11ca63ca:page2:text"
+        ],
+        "verification": "source_checked"
+      },
+      {
+        "value": "The normal bromolactamization product 3a was expected but the one-shot hydroxylated product 2a was obtained.",
+        "evidence_ids": [
+          "doc_486ee2ff11ca63ca:page2:image",
+          "doc_486ee2ff11ca63ca:page2:text"
+        ],
+        "verification": "source_checked"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis is not stated in the supplied main text.",
+        "Reaction scale, atmosphere, concentration, workup, purification, and isolated mass are unavailable without the unsupplied SI."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_486ee2ff11ca63ca:table2_entry2",
+    "document_id": "doc_486ee2ff11ca63ca",
+    "source_reaction_id": "table2_entry2",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_486ee2ff11ca63ca:page2:image",
+      "doc_486ee2ff11ca63ca:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "N-benzyl 2-methyl-2,3-decadienamide",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cux2",
+        "role": "reagent",
+        "label": {
+          "value": "CuCl2",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "copper(II) chloride",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2b",
+        "role": "product",
+        "label": {
+          "value": "2b",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "cl-halolactamization-hydroxylation product 2b",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate_1a",
+          "cux2",
+          "product_2b"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "THF-H2O (1:1)",
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "CuX2_equivalents",
+            "fact": {
+              "value": {
+                "number": 1.1,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "reflux",
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 21,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "number": 57,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis is not stated in the supplied main text.",
+        "Reaction scale, atmosphere, concentration, workup, purification, and isolated mass are unavailable without the unsupplied SI."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_486ee2ff11ca63ca:table2_entry3",
+    "document_id": "doc_486ee2ff11ca63ca",
+    "source_reaction_id": "table2_entry3",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_486ee2ff11ca63ca:page2:image",
+      "doc_486ee2ff11ca63ca:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1b",
+        "role": "reactant",
+        "label": {
+          "value": "1b",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "2,3-allenamide 1b (R1=H, R2=Me, R3=Bn)",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cux2",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2c",
+        "role": "product",
+        "label": {
+          "value": "2c",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "br-halolactamization-hydroxylation product 2c",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate_1b",
+          "cux2",
+          "product_2c"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "EtOH-H2O (3:2)",
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "CuX2_equivalents",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 50,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 19,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "number": 78,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis is not stated in the supplied main text.",
+        "Reaction scale, atmosphere, concentration, workup, purification, and isolated mass are unavailable without the unsupplied SI."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_486ee2ff11ca63ca:table2_entry4",
+    "document_id": "doc_486ee2ff11ca63ca",
+    "source_reaction_id": "table2_entry4",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_486ee2ff11ca63ca:page2:image",
+      "doc_486ee2ff11ca63ca:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1b",
+        "role": "reactant",
+        "label": {
+          "value": "1b",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "2,3-allenamide 1b (R1=H, R2=Me, R3=Bn)",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cux2",
+        "role": "reagent",
+        "label": {
+          "value": "CuCl2",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "copper(II) chloride",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2d",
+        "role": "product",
+        "label": {
+          "value": "2d",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "cl-halolactamization-hydroxylation product 2d",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate_1b",
+          "cux2",
+          "product_2d"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "EtOH-H2O (3:2)",
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "CuX2_equivalents",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 50,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 22,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "number": 60,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis is not stated in the supplied main text.",
+        "Reaction scale, atmosphere, concentration, workup, purification, and isolated mass are unavailable without the unsupplied SI."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_486ee2ff11ca63ca:table2_entry5",
+    "document_id": "doc_486ee2ff11ca63ca",
+    "source_reaction_id": "table2_entry5",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_486ee2ff11ca63ca:page2:image",
+      "doc_486ee2ff11ca63ca:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1c",
+        "role": "reactant",
+        "label": {
+          "value": "1c",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "2,3-allenamide 1c (R1=Ph, R2=Me, R3=n-C4H9)",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cux2",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2e",
+        "role": "product",
+        "label": {
+          "value": "2e",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "br-halolactamization-hydroxylation product 2e",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate_1c",
+          "cux2",
+          "product_2e"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "THF-H2O (1:1)",
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "CuX2_equivalents",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "reflux",
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 24,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "number": 94,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis is not stated in the supplied main text.",
+        "Reaction scale, atmosphere, concentration, workup, purification, and isolated mass are unavailable without the unsupplied SI."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_486ee2ff11ca63ca:table2_entry6",
+    "document_id": "doc_486ee2ff11ca63ca",
+    "source_reaction_id": "table2_entry6",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_486ee2ff11ca63ca:page2:image",
+      "doc_486ee2ff11ca63ca:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1c",
+        "role": "reactant",
+        "label": {
+          "value": "1c",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "2,3-allenamide 1c (R1=Ph, R2=Me, R3=n-C4H9)",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cux2",
+        "role": "reagent",
+        "label": {
+          "value": "CuCl2",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "copper(II) chloride",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2f",
+        "role": "product",
+        "label": {
+          "value": "2f",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "cl-halolactamization-hydroxylation product 2f",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate_1c",
+          "cux2",
+          "product_2f"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "THF-H2O (1:1)",
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "CuX2_equivalents",
+            "fact": {
+              "value": {
+                "number": 4.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "reflux",
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "d"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "number": 71,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis is not stated in the supplied main text.",
+        "Reaction scale, atmosphere, concentration, workup, purification, and isolated mass are unavailable without the unsupplied SI."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_486ee2ff11ca63ca:table2_entry7",
+    "document_id": "doc_486ee2ff11ca63ca",
+    "source_reaction_id": "table2_entry7",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_486ee2ff11ca63ca:page2:image",
+      "doc_486ee2ff11ca63ca:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1d",
+        "role": "reactant",
+        "label": {
+          "value": "1d",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "2,3-allenamide 1d (R1=n-C7H15, R2=H, R3=H)",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cux2",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2g",
+        "role": "product",
+        "label": {
+          "value": "2g",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "br-halolactamization-hydroxylation product 2g",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate_1d",
+          "cux2",
+          "product_2g"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "THF-H2O (1:1)",
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "CuX2_equivalents",
+            "fact": {
+              "value": {
+                "number": 1.1,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 50,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 22,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "number": 69,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis is not stated in the supplied main text.",
+        "Reaction scale, atmosphere, concentration, workup, purification, and isolated mass are unavailable without the unsupplied SI."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_486ee2ff11ca63ca:table2_entry8",
+    "document_id": "doc_486ee2ff11ca63ca",
+    "source_reaction_id": "table2_entry8",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_486ee2ff11ca63ca:page2:image",
+      "doc_486ee2ff11ca63ca:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1e",
+        "role": "reactant",
+        "label": {
+          "value": "1e",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "2,3-allenamide 1e (R1=n-C7H15, R2=H, R3=Bn)",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cux2",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2h",
+        "role": "product",
+        "label": {
+          "value": "2h",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "br-halolactamization-hydroxylation product 2h",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate_1e",
+          "cux2",
+          "product_2h"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "THF-H2O (1:1)",
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "CuX2_equivalents",
+            "fact": {
+              "value": {
+                "number": 1.1,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 50,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 32,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "number": 78,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis is not stated in the supplied main text.",
+        "Reaction scale, atmosphere, concentration, workup, purification, and isolated mass are unavailable without the unsupplied SI."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_486ee2ff11ca63ca:table2_entry9",
+    "document_id": "doc_486ee2ff11ca63ca",
+    "source_reaction_id": "table2_entry9",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_486ee2ff11ca63ca:page2:image",
+      "doc_486ee2ff11ca63ca:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1e",
+        "role": "reactant",
+        "label": {
+          "value": "1e",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "2,3-allenamide 1e (R1=n-C7H15, R2=H, R3=Bn)",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cux2",
+        "role": "reagent",
+        "label": {
+          "value": "CuCl2",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "copper(II) chloride",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2i",
+        "role": "product",
+        "label": {
+          "value": "2i",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "cl-halolactamization-hydroxylation product 2i",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate_1e",
+          "cux2",
+          "product_2i"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "THF-H2O (1:1)",
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "CuX2_equivalents",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 50,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 3,
+                "unit": "d"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "number": 78,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis is not stated in the supplied main text.",
+        "Reaction scale, atmosphere, concentration, workup, purification, and isolated mass are unavailable without the unsupplied SI."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_486ee2ff11ca63ca:table2_footnote_1b_cubr2_thf",
+    "document_id": "doc_486ee2ff11ca63ca",
+    "source_reaction_id": "table2_footnote_1b_cubr2_thf",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_486ee2ff11ca63ca:page2:image",
+      "doc_486ee2ff11ca63ca:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1b",
+        "role": "reactant",
+        "label": {
+          "value": "1b",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "2,3-allenamide 1b (R1=H, R2=Me, R3=Bn)",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2c",
+        "role": "product",
+        "label": {
+          "value": "2c",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "bromolactamization-hydroxylation product 2c",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate_1b",
+          "cubr2",
+          "product_2c"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "THF-H2O (1:1)",
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "CuBr2_equivalents",
+            "fact": {
+              "value": {
+                "number": 1.1,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page2:image",
+                "doc_486ee2ff11ca63ca:page2:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield_of_2c",
+        "fact": {
+          "value": {
+            "number": 48,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text"
+          ],
+          "verification": "source_checked"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "This is the alternative condition reported in Table 2 footnote a, not Table 2 entry 3 itself.",
+        "evidence_ids": [
+          "doc_486ee2ff11ca63ca:page2:image",
+          "doc_486ee2ff11ca63ca:page2:text"
+        ],
+        "verification": "source_checked"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Temperature, reaction time, yield basis, scale, atmosphere, concentration, workup, purification, and isolated mass are not stated for this footnote experiment."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_486ee2ff11ca63ca:proposed_cu2_oxidation_pathway",
+    "document_id": "doc_486ee2ff11ca63ca",
+    "source_reaction_id": "proposed_cu2_oxidation_pathway",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_486ee2ff11ca63ca:page2:image",
+      "doc_486ee2ff11ca63ca:page2:text",
+      "doc_486ee2ff11ca63ca:page3:image",
+      "doc_486ee2ff11ca63ca:page3:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "intermediate_3",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "3",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text",
+            "doc_486ee2ff11ca63ca:page3:image",
+            "doc_486ee2ff11ca63ca:page3:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "4-halopyrrol-2(5H)-one proposed intermediate",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text",
+            "doc_486ee2ff11ca63ca:page3:image",
+            "doc_486ee2ff11ca63ca:page3:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2",
+        "role": "product",
+        "label": {
+          "value": "2",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text",
+            "doc_486ee2ff11ca63ca:page3:image",
+            "doc_486ee2ff11ca63ca:page3:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "4-halo-5-hydroxypyrrol-2(5H)-one product family",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page2:image",
+            "doc_486ee2ff11ca63ca:page2:text",
+            "doc_486ee2ff11ca63ca:page3:image",
+            "doc_486ee2ff11ca63ca:page3:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cu2plus",
+        "role": "reagent",
+        "label": {
+          "value": "Cu2+",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page3:image",
+            "doc_486ee2ff11ca63ca:page3:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "copper(II) oxidant",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page3:image",
+            "doc_486ee2ff11ca63ca:page3:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "intermediate_3",
+          "product_2",
+          "cu2plus"
+        ],
+        "conditions": []
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "mechanistic_status",
+        "fact": {
+          "value": "Proposed Cu2+-mediated oxidation of 3 to 2; intermediate 3 was not reported as observed for the monosubstituted series.",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page3:image",
+            "doc_486ee2ff11ca63ca:page3:text"
+          ],
+          "verification": "source_checked"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "The source uses 'may be formed'; this is a mechanistic proposal rather than an experimental record.",
+        "evidence_ids": [
+          "doc_486ee2ff11ca63ca:page3:image",
+          "doc_486ee2ff11ca63ca:page3:text"
+        ],
+        "verification": "source_checked"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The intermediate and oxidation sequence are not directly observed in the supplied main text.",
+        "No mechanistic operating conditions are supplied."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_486ee2ff11ca63ca:eq2_cucl2_3b",
+    "document_id": "doc_486ee2ff11ca63ca",
+    "source_reaction_id": "eq2_cucl2_3b",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_486ee2ff11ca63ca:page3:image",
+      "doc_486ee2ff11ca63ca:page3:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1f",
+        "role": "reactant",
+        "label": {
+          "value": "1f",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page3:image",
+            "doc_486ee2ff11ca63ca:page3:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "fully substituted 2,3-allenamide 1f",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page3:image",
+            "doc_486ee2ff11ca63ca:page3:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cux2",
+        "role": "reagent",
+        "label": {
+          "value": "CuCl2",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page3:image",
+            "doc_486ee2ff11ca63ca:page3:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "copper(II) chloride",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page3:image",
+            "doc_486ee2ff11ca63ca:page3:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3b",
+        "role": "product",
+        "label": {
+          "value": "3b",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page3:image",
+            "doc_486ee2ff11ca63ca:page3:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "4-cl-pyrrol-2(5H)-one 3b",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page3:image",
+            "doc_486ee2ff11ca63ca:page3:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate_1f",
+          "cux2",
+          "product_3b"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "THF-H2O (1:1)",
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page3:image",
+                "doc_486ee2ff11ca63ca:page3:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "CuX2_equivalents",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page3:image",
+                "doc_486ee2ff11ca63ca:page3:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "room temperature",
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page3:image",
+                "doc_486ee2ff11ca63ca:page3:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 3.5,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page3:image",
+                "doc_486ee2ff11ca63ca:page3:text"
+              ],
+              "verification": "source_checked"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "number": 80,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page3:image",
+            "doc_486ee2ff11ca63ca:page3:text"
+          ],
+          "verification": "source_checked"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "The fully substituted substrate gives the normal halolactamization product without the 5-hydroxyl group.",
+        "evidence_ids": [
+          "doc_486ee2ff11ca63ca:page3:image",
+          "doc_486ee2ff11ca63ca:page3:text"
+        ],
+        "verification": "source_checked"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis, scale, atmosphere, concentration, workup, purification, and isolated mass are unavailable without the unsupplied SI."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_486ee2ff11ca63ca:eq2_cubr2_3c",
+    "document_id": "doc_486ee2ff11ca63ca",
+    "source_reaction_id": "eq2_cubr2_3c",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_486ee2ff11ca63ca:page3:image",
+      "doc_486ee2ff11ca63ca:page3:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1f",
+        "role": "reactant",
+        "label": {
+          "value": "1f",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page3:image",
+            "doc_486ee2ff11ca63ca:page3:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "fully substituted 2,3-allenamide 1f",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page3:image",
+            "doc_486ee2ff11ca63ca:page3:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cux2",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page3:image",
+            "doc_486ee2ff11ca63ca:page3:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page3:image",
+            "doc_486ee2ff11ca63ca:page3:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3c",
+        "role": "product",
+        "label": {
+          "value": "3c",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page3:image",
+            "doc_486ee2ff11ca63ca:page3:text"
+          ],
+          "verification": "source_checked"
+        },
+        "name": {
+          "value": "4-br-pyrrol-2(5H)-one 3c",
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page3:image",
+            "doc_486ee2ff11ca63ca:page3:text"
+          ],
+          "verification": "source_checked"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate_1f",
+          "cux2",
+          "product_3c"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "THF-H2O (1:1)",
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page3:image",
+                "doc_486ee2ff11ca63ca:page3:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "CuX2_equivalents",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page3:image",
+                "doc_486ee2ff11ca63ca:page3:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "room temperature",
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page3:image",
+                "doc_486ee2ff11ca63ca:page3:text"
+              ],
+              "verification": "source_checked"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_486ee2ff11ca63ca:page3:image",
+                "doc_486ee2ff11ca63ca:page3:text"
+              ],
+              "verification": "source_checked"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "number": 89,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_486ee2ff11ca63ca:page3:image",
+            "doc_486ee2ff11ca63ca:page3:text"
+          ],
+          "verification": "source_checked"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "The fully substituted substrate gives the normal halolactamization product without the 5-hydroxyl group.",
+        "evidence_ids": [
+          "doc_486ee2ff11ca63ca:page3:image",
+          "doc_486ee2ff11ca63ca:page3:text"
+        ],
+        "verification": "source_checked"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis, scale, atmosphere, concentration, workup, purification, and isolated mass are unavailable without the unsupplied SI."
+      ]
+    }
+  }
+]

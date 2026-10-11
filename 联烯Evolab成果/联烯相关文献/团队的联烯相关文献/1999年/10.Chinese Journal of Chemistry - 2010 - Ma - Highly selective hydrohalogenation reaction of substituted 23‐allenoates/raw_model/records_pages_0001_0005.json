@@ -1,0 +1,6118 @@
+[
+  {
+    "record_id": "doc_73c3cd21e49c7838:table1_entry_01",
+    "document_id": "doc_73c3cd21e49c7838",
+    "source_reaction_id": "Table 1 entry 1",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_73c3cd21e49c7838:page2:image",
+      "doc_73c3cd21e49c7838:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1",
+        "role": "reactant",
+        "label": {
+          "value": "1",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-methyl-2,3-butadienoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "mx",
+        "role": "reagent",
+        "label": {
+          "value": "NaI",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "NaI",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "HOAc",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "HOAc",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2",
+        "role": "product",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-iodo-2-methyl-3-butenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3",
+        "role": "product",
+        "label": {
+          "value": "3a",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-iodo-2-methyl-2-butenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "substrate_1",
+          "mx",
+          "solvent"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 80,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 24,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield_product_2",
+        "fact": {
+          "value": {
+            "number": 41,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis_product_2",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_product_3",
+        "fact": {
+          "value": {
+            "number": 10,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis_product_3",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 row 1; R = Me.",
+        "evidence_ids": [
+          "doc_73c3cd21e49c7838:page2:image",
+          "doc_73c3cd21e49c7838:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Participant structures and alkene geometry are not independently verified; SMILES are intentionally null.",
+        "Reaction concentration and atmosphere are not reported.",
+        "Row-specific charge, workup, purification, and isolated mass are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_73c3cd21e49c7838:table1_entry_02",
+    "document_id": "doc_73c3cd21e49c7838",
+    "source_reaction_id": "Table 1 entry 2",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_73c3cd21e49c7838:page2:image",
+      "doc_73c3cd21e49c7838:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1",
+        "role": "reactant",
+        "label": {
+          "value": "1",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-methyl-2,3-butadienoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "mx",
+        "role": "reagent",
+        "label": {
+          "value": "NaI",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "NaI",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "HOAc",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "HOAc",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2",
+        "role": "product",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-iodo-2-methyl-3-butenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3",
+        "role": "product",
+        "label": {
+          "value": "3a",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-iodo-2-methyl-2-butenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "substrate_1",
+          "mx",
+          "solvent"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 80,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 72,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield_product_2",
+        "fact": {
+          "value": {
+            "number": 53,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis_product_2",
+        "fact": {
+          "value": "NMR yield",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_product_3",
+        "fact": {
+          "value": {
+            "number": 14,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis_product_3",
+        "fact": {
+          "value": "NMR yield",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 row 2; R = Me.",
+        "evidence_ids": [
+          "doc_73c3cd21e49c7838:page2:image",
+          "doc_73c3cd21e49c7838:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Participant structures and alkene geometry are not independently verified; SMILES are intentionally null.",
+        "Reaction concentration and atmosphere are not reported.",
+        "Row-specific charge, workup, purification, and isolated mass are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_73c3cd21e49c7838:table1_entry_03",
+    "document_id": "doc_73c3cd21e49c7838",
+    "source_reaction_id": "Table 1 entry 3",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_73c3cd21e49c7838:page2:image",
+      "doc_73c3cd21e49c7838:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1",
+        "role": "reactant",
+        "label": {
+          "value": "1",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-methyl-2,3-butadienoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "mx",
+        "role": "reagent",
+        "label": {
+          "value": "LiBr-H2O",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "LiBr-H2O",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.3,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "HOAc",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "HOAc",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2",
+        "role": "product",
+        "label": {
+          "value": "2b",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-bromo-2-methyl-3-butenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3",
+        "role": "product",
+        "label": {
+          "value": "3b",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-bromo-2-methyl-2-butenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "substrate_1",
+          "mx",
+          "solvent"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 80,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 72,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield_product_2",
+        "fact": {
+          "value": "<5%",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis_product_2",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_product_3",
+        "fact": {
+          "value": "<5%",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis_product_3",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 row 3; R = Me.",
+        "evidence_ids": [
+          "doc_73c3cd21e49c7838:page2:image",
+          "doc_73c3cd21e49c7838:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Participant structures and alkene geometry are not independently verified; SMILES are intentionally null.",
+        "Reaction concentration and atmosphere are not reported.",
+        "Row-specific charge, workup, purification, and isolated mass are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_73c3cd21e49c7838:table1_entry_04",
+    "document_id": "doc_73c3cd21e49c7838",
+    "source_reaction_id": "Table 1 entry 4",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_73c3cd21e49c7838:page2:image",
+      "doc_73c3cd21e49c7838:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1",
+        "role": "reactant",
+        "label": {
+          "value": "1",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-methyl-2,3-butadienoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "mx",
+        "role": "reagent",
+        "label": {
+          "value": "LiBr-H2O",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "LiBr-H2O",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "HOAc",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "HOAc",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2",
+        "role": "product",
+        "label": {
+          "value": "2b",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-bromo-2-methyl-3-butenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3",
+        "role": "product",
+        "label": {
+          "value": "3b",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-bromo-2-methyl-2-butenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "substrate_1",
+          "mx",
+          "solvent"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 40,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 120,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield_product_2",
+        "fact": {
+          "value": "<5%",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis_product_2",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_product_3",
+        "fact": {
+          "value": "<5%",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis_product_3",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 row 4; R = Me.",
+        "evidence_ids": [
+          "doc_73c3cd21e49c7838:page2:image",
+          "doc_73c3cd21e49c7838:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Participant structures and alkene geometry are not independently verified; SMILES are intentionally null.",
+        "Reaction concentration and atmosphere are not reported.",
+        "Row-specific charge, workup, purification, and isolated mass are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_73c3cd21e49c7838:table1_entry_05",
+    "document_id": "doc_73c3cd21e49c7838",
+    "source_reaction_id": "Table 1 entry 5",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_73c3cd21e49c7838:page2:image",
+      "doc_73c3cd21e49c7838:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1",
+        "role": "reactant",
+        "label": {
+          "value": "1",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-methyl-2,3-butadienoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "mx",
+        "role": "reagent",
+        "label": {
+          "value": "LiCl-H2O",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "LiCl-H2O",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.8,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "HOAc",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "HOAc",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2",
+        "role": "product",
+        "label": {
+          "value": "2c",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-chloro-2-methyl-3-butenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3",
+        "role": "product",
+        "label": {
+          "value": "3c",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-chloro-2-methyl-2-butenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "substrate_1",
+          "mx",
+          "solvent"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 80,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 74,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield_product_2",
+        "fact": {
+          "value": "~10%",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis_product_2",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_product_3",
+        "fact": {
+          "value": "~5%",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis_product_3",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 row 5; R = Me.",
+        "evidence_ids": [
+          "doc_73c3cd21e49c7838:page2:image",
+          "doc_73c3cd21e49c7838:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Participant structures and alkene geometry are not independently verified; SMILES are intentionally null.",
+        "Reaction concentration and atmosphere are not reported.",
+        "Row-specific charge, workup, purification, and isolated mass are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_73c3cd21e49c7838:table1_entry_06",
+    "document_id": "doc_73c3cd21e49c7838",
+    "source_reaction_id": "Table 1 entry 6",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_73c3cd21e49c7838:page2:image",
+      "doc_73c3cd21e49c7838:page2:text",
+      "doc_73c3cd21e49c7838:page4:image",
+      "doc_73c3cd21e49c7838:page4:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1",
+        "role": "reactant",
+        "label": {
+          "value": "1",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-methyl-2,3-butadienoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 90.8,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page4:image",
+                "doc_73c3cd21e49c7838:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.72,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page4:image",
+                "doc_73c3cd21e49c7838:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "mx",
+        "role": "reagent",
+        "label": {
+          "value": "NaI",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "NaI",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 3,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 325,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page4:image",
+                "doc_73c3cd21e49c7838:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 2.17,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page4:image",
+                "doc_73c3cd21e49c7838:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "HOAc-CF3CO2H (1:1)",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "HOAc-CF3CO2H (1:1)",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page4:image",
+                "doc_73c3cd21e49c7838:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_2",
+        "role": "product",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-iodo-2-methyl-3-butenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3",
+        "role": "product",
+        "label": {
+          "value": "3a",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-iodo-2-methyl-2-butenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "substrate_1",
+          "mx",
+          "solvent"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 80,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "agitation",
+            "fact": {
+              "value": "stirring",
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page4:image",
+                "doc_73c3cd21e49c7838:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "monitoring",
+            "fact": {
+              "value": "TLC",
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page4:image",
+                "doc_73c3cd21e49c7838:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "workup",
+        "participant_ids": [],
+        "conditions": [
+          {
+            "name": "water_added",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page4:image",
+                "doc_73c3cd21e49c7838:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "neutralization",
+            "fact": {
+              "value": "saturated NaHCO3 solution",
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page4:image",
+                "doc_73c3cd21e49c7838:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "extraction",
+            "fact": {
+              "value": "ether, 4 x 5 mL",
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page4:image",
+                "doc_73c3cd21e49c7838:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "wash",
+            "fact": {
+              "value": "5% Na2S2O3, then brine",
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page4:image",
+                "doc_73c3cd21e49c7838:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "drying",
+            "fact": {
+              "value": "MgSO4",
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page4:image",
+                "doc_73c3cd21e49c7838:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "isolation",
+            "fact": {
+              "value": "filtration and evaporation",
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page4:image",
+                "doc_73c3cd21e49c7838:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield_product_2",
+        "fact": {
+          "value": {
+            "number": 95,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text",
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis_product_2",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "product_3_observed",
+        "fact": {
+          "value": false,
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_product_3",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      },
+      {
+        "name": "isolated_mass_product_2",
+        "fact": {
+          "value": {
+            "number": 173.2,
+            "unit": "mg"
+          },
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "reported_purity_description",
+        "fact": {
+          "value": "pure 2a",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 row 6; R = Me.",
+        "evidence_ids": [
+          "doc_73c3cd21e49c7838:page2:image",
+          "doc_73c3cd21e49c7838:page2:text",
+          "doc_73c3cd21e49c7838:page4:image",
+          "doc_73c3cd21e49c7838:page4:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Participant structures and alkene geometry are not independently verified; SMILES are intentionally null.",
+        "Reaction concentration and atmosphere are not reported.",
+        "No chromatographic purification is stated for this 2a isolation; concentration and atmosphere remain missing."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_73c3cd21e49c7838:table1_entry_07",
+    "document_id": "doc_73c3cd21e49c7838",
+    "source_reaction_id": "Table 1 entry 7",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_73c3cd21e49c7838:page2:image",
+      "doc_73c3cd21e49c7838:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1",
+        "role": "reactant",
+        "label": {
+          "value": "1",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-methyl-2,3-butadienoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "mx",
+        "role": "reagent",
+        "label": {
+          "value": "LiBr-H2O",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "LiBr-H2O",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 3,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "HOAc-CF3CO2H (1:1)",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "HOAc-CF3CO2H (1:1)",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2",
+        "role": "product",
+        "label": {
+          "value": "2b",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-bromo-2-methyl-3-butenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3",
+        "role": "product",
+        "label": {
+          "value": "3b",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-bromo-2-methyl-2-butenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "substrate_1",
+          "mx",
+          "solvent"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 80,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 12,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield_product_2",
+        "fact": {
+          "value": {
+            "number": 80,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis_product_2",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "product_3_observed",
+        "fact": {
+          "value": false,
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_product_3",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 row 7; R = Me.",
+        "evidence_ids": [
+          "doc_73c3cd21e49c7838:page2:image",
+          "doc_73c3cd21e49c7838:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Participant structures and alkene geometry are not independently verified; SMILES are intentionally null.",
+        "Reaction concentration and atmosphere are not reported.",
+        "Row-specific charge, workup, purification, and isolated mass are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_73c3cd21e49c7838:table1_entry_08",
+    "document_id": "doc_73c3cd21e49c7838",
+    "source_reaction_id": "Table 1 entry 8",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_73c3cd21e49c7838:page2:image",
+      "doc_73c3cd21e49c7838:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1",
+        "role": "reactant",
+        "label": {
+          "value": "1",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-methyl-2,3-butadienoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "mx",
+        "role": "reagent",
+        "label": {
+          "value": "NaI",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "NaI",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "CF3CO2H",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "CF3CO2H",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2",
+        "role": "product",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-iodo-2-methyl-3-butenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3",
+        "role": "product",
+        "label": {
+          "value": "3a",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-iodo-2-methyl-2-butenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "substrate_1",
+          "mx",
+          "solvent"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 80,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "min"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield_product_2",
+        "fact": {
+          "value": {
+            "number": 90,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis_product_2",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "product_3_observed",
+        "fact": {
+          "value": false,
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_product_3",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 row 8; R = Me.",
+        "evidence_ids": [
+          "doc_73c3cd21e49c7838:page2:image",
+          "doc_73c3cd21e49c7838:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Participant structures and alkene geometry are not independently verified; SMILES are intentionally null.",
+        "Reaction concentration and atmosphere are not reported.",
+        "Row-specific charge, workup, purification, and isolated mass are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_73c3cd21e49c7838:table1_entry_09",
+    "document_id": "doc_73c3cd21e49c7838",
+    "source_reaction_id": "Table 1 entry 9",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_73c3cd21e49c7838:page2:image",
+      "doc_73c3cd21e49c7838:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1",
+        "role": "reactant",
+        "label": {
+          "value": "1",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-methyl-2,3-butadienoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "mx",
+        "role": "reagent",
+        "label": {
+          "value": "LiBr-H2O",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "LiBr-H2O",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "CF3CO2H",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "CF3CO2H",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2",
+        "role": "product",
+        "label": {
+          "value": "2b",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-bromo-2-methyl-3-butenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3",
+        "role": "product",
+        "label": {
+          "value": "3b",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-bromo-2-methyl-2-butenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "substrate_1",
+          "mx",
+          "solvent"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 80,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 40,
+                "unit": "min"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield_product_2",
+        "fact": {
+          "value": {
+            "number": 88,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis_product_2",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "product_3_observed",
+        "fact": {
+          "value": false,
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_product_3",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 row 9; R = Me.",
+        "evidence_ids": [
+          "doc_73c3cd21e49c7838:page2:image",
+          "doc_73c3cd21e49c7838:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Participant structures and alkene geometry are not independently verified; SMILES are intentionally null.",
+        "Reaction concentration and atmosphere are not reported.",
+        "Row-specific charge, workup, purification, and isolated mass are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_73c3cd21e49c7838:table1_entry_10",
+    "document_id": "doc_73c3cd21e49c7838",
+    "source_reaction_id": "Table 1 entry 10",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_73c3cd21e49c7838:page2:image",
+      "doc_73c3cd21e49c7838:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1",
+        "role": "reactant",
+        "label": {
+          "value": "1",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-propyl-2,3-butadienoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "mx",
+        "role": "reagent",
+        "label": {
+          "value": "NaI",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "NaI",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "CF3CO2H",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "CF3CO2H",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2",
+        "role": "product",
+        "label": {
+          "value": "2d",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-iodo-2-propyl-3-butenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3",
+        "role": "product",
+        "label": {
+          "value": "3",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "corresponding alpha,beta-unsaturated 3-iodo-2-alkenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "substrate_1",
+          "mx",
+          "solvent"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 80,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 20,
+                "unit": "min"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield_product_2",
+        "fact": {
+          "value": {
+            "number": 98,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis_product_2",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "product_3_observed",
+        "fact": {
+          "value": false,
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_product_3",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 row 10; R = n-C3H7.",
+        "evidence_ids": [
+          "doc_73c3cd21e49c7838:page2:image",
+          "doc_73c3cd21e49c7838:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Participant structures and alkene geometry are not independently verified; SMILES are intentionally null.",
+        "Reaction concentration and atmosphere are not reported.",
+        "Row-specific charge, workup, purification, and isolated mass are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_73c3cd21e49c7838:table1_entry_11",
+    "document_id": "doc_73c3cd21e49c7838",
+    "source_reaction_id": "Table 1 entry 11",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_73c3cd21e49c7838:page2:image",
+      "doc_73c3cd21e49c7838:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1",
+        "role": "reactant",
+        "label": {
+          "value": "1",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-propyl-2,3-butadienoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "mx",
+        "role": "reagent",
+        "label": {
+          "value": "LiBr-H2O",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "LiBr-H2O",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "CF3CO2H",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "CF3CO2H",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2",
+        "role": "product",
+        "label": {
+          "value": "2e",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-bromo-2-propyl-3-butenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3",
+        "role": "product",
+        "label": {
+          "value": "3",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "corresponding alpha,beta-unsaturated 3-bromo-2-alkenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "substrate_1",
+          "mx",
+          "solvent"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 80,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 50,
+                "unit": "min"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield_product_2",
+        "fact": {
+          "value": {
+            "number": 76,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis_product_2",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "product_3_observed",
+        "fact": {
+          "value": false,
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_product_3",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 row 11; R = n-C3H7.",
+        "evidence_ids": [
+          "doc_73c3cd21e49c7838:page2:image",
+          "doc_73c3cd21e49c7838:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Participant structures and alkene geometry are not independently verified; SMILES are intentionally null.",
+        "Reaction concentration and atmosphere are not reported.",
+        "Row-specific charge, workup, purification, and isolated mass are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_73c3cd21e49c7838:table1_entry_12",
+    "document_id": "doc_73c3cd21e49c7838",
+    "source_reaction_id": "Table 1 entry 12",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_73c3cd21e49c7838:page2:image",
+      "doc_73c3cd21e49c7838:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1",
+        "role": "reactant",
+        "label": {
+          "value": "1",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-propyl-2,3-butadienoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "mx",
+        "role": "reagent",
+        "label": {
+          "value": "LiCl-H2O",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "LiCl-H2O",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 3,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "CF3CO2H",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "CF3CO2H",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2",
+        "role": "product",
+        "label": {
+          "value": "2f",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-chloro-2-propyl-3-butenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3",
+        "role": "product",
+        "label": {
+          "value": "3",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "corresponding alpha,beta-unsaturated 3-chloro-2-alkenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "substrate_1",
+          "mx",
+          "solvent"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 80,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page2:image",
+                "doc_73c3cd21e49c7838:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield_product_2",
+        "fact": {
+          "value": {
+            "number": 63,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis_product_2",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "product_3_observed",
+        "fact": {
+          "value": false,
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page2:image",
+            "doc_73c3cd21e49c7838:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_product_3",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 row 12; R = n-C3H7.",
+        "evidence_ids": [
+          "doc_73c3cd21e49c7838:page2:image",
+          "doc_73c3cd21e49c7838:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Participant structures and alkene geometry are not independently verified; SMILES are intentionally null.",
+        "Reaction concentration and atmosphere are not reported.",
+        "Row-specific charge, workup, purification, and isolated mass are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_73c3cd21e49c7838:scheme1_4a",
+    "document_id": "doc_73c3cd21e49c7838",
+    "source_reaction_id": "Scheme 1 4a",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_73c3cd21e49c7838:page3:image",
+      "doc_73c3cd21e49c7838:page3:text",
+      "doc_73c3cd21e49c7838:page5:image",
+      "doc_73c3cd21e49c7838:page5:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_2a",
+        "role": "reactant",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-iodo-2-methyl-3-butenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "coupling_partner",
+        "role": "reagent",
+        "label": {
+          "value": "n-BuZnBr",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "n-BuZnBr",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd(PPh3)4",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "Pd(PPh3)4",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "THF",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "THF",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "4a",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "n-butyl-coupled beta,gamma-unsaturated alkenoate 4a",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "coupling",
+        "participant_ids": [
+          "substrate_2a",
+          "coupling_partner",
+          "catalyst",
+          "solvent"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "room temperature",
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page3:image",
+                "doc_73c3cd21e49c7838:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 90,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 1 reports retention of the beta,gamma-unsaturated alkene placement; the corresponding alpha,beta-unsaturated alkenoate was not observed.",
+        "evidence_ids": [
+          "doc_73c3cd21e49c7838:page3:image",
+          "doc_73c3cd21e49c7838:page3:text",
+          "doc_73c3cd21e49c7838:page5:image",
+          "doc_73c3cd21e49c7838:page5:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reagent quantities, catalyst loading, reaction time, atmosphere, concentration, workup, purification, and yield basis are not reported.",
+        "Product structure is transcribed from the scheme but not independently structure-verified; SMILES is intentionally null."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_73c3cd21e49c7838:scheme1_4b",
+    "document_id": "doc_73c3cd21e49c7838",
+    "source_reaction_id": "Scheme 1 4b",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_73c3cd21e49c7838:page3:image",
+      "doc_73c3cd21e49c7838:page3:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_2a",
+        "role": "reactant",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-iodo-2-methyl-3-butenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "coupling_partner",
+        "role": "reagent",
+        "label": {
+          "value": "PhZnBr",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "PhZnBr",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd(PPh3)4",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "Pd(PPh3)4",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "THF",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "THF",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "4b",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "phenyl-coupled beta,gamma-unsaturated alkenoate 4b",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "coupling",
+        "participant_ids": [
+          "substrate_2a",
+          "coupling_partner",
+          "catalyst",
+          "solvent"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "room temperature",
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page3:image",
+                "doc_73c3cd21e49c7838:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 70,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 1 reports retention of the beta,gamma-unsaturated alkene placement; the corresponding alpha,beta-unsaturated alkenoate was not observed.",
+        "evidence_ids": [
+          "doc_73c3cd21e49c7838:page3:image",
+          "doc_73c3cd21e49c7838:page3:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reagent quantities, catalyst loading, reaction time, atmosphere, concentration, workup, purification, and yield basis are not reported.",
+        "Product structure is transcribed from the scheme but not independently structure-verified; SMILES is intentionally null."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_73c3cd21e49c7838:scheme1_4c",
+    "document_id": "doc_73c3cd21e49c7838",
+    "source_reaction_id": "Scheme 1 4c",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_73c3cd21e49c7838:page3:image",
+      "doc_73c3cd21e49c7838:page3:text",
+      "doc_73c3cd21e49c7838:page5:image",
+      "doc_73c3cd21e49c7838:page5:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_2a",
+        "role": "reactant",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-iodo-2-methyl-3-butenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "coupling_partner",
+        "role": "reactant",
+        "label": {
+          "value": "phenylacetylene",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "phenylacetylene",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "PdCl2(PPh3)2",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "PdCl2(PPh3)2",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "CH3CN",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "CH3CN",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "4c",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "phenylethynyl-coupled beta,gamma-unsaturated alkenoate 4c",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "extra_1",
+        "role": "catalyst",
+        "label": {
+          "value": "CuI",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "CuI",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "extra_2",
+        "role": "reagent",
+        "label": {
+          "value": "Et3N",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "Et3N",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "coupling",
+        "participant_ids": [
+          "substrate_2a",
+          "coupling_partner",
+          "catalyst",
+          "solvent",
+          "extra_1",
+          "extra_2"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "room temperature",
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page3:image",
+                "doc_73c3cd21e49c7838:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 85,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 1 reports retention of the beta,gamma-unsaturated alkene placement; the corresponding alpha,beta-unsaturated alkenoate was not observed.",
+        "evidence_ids": [
+          "doc_73c3cd21e49c7838:page3:image",
+          "doc_73c3cd21e49c7838:page3:text",
+          "doc_73c3cd21e49c7838:page5:image",
+          "doc_73c3cd21e49c7838:page5:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reagent quantities, catalyst loading, reaction time, atmosphere, concentration, workup, purification, and yield basis are not reported.",
+        "Product structure is transcribed from the scheme but not independently structure-verified; SMILES is intentionally null."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_73c3cd21e49c7838:scheme2_6a",
+    "document_id": "doc_73c3cd21e49c7838",
+    "source_reaction_id": "Scheme 2 6a",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_73c3cd21e49c7838:page3:image",
+      "doc_73c3cd21e49c7838:page3:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_5",
+        "role": "reactant",
+        "label": {
+          "value": "5",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2,3-pentadienoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "mx",
+        "role": "reagent",
+        "label": {
+          "value": "NaI",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "NaI",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "HOAc",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "acetic acid",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_6",
+        "role": "product",
+        "label": {
+          "value": "6a",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-iodo-3-pentenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "hydrohalogenation",
+        "participant_ids": [
+          "substrate_5",
+          "mx",
+          "solvent"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 90,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page3:image",
+                "doc_73c3cd21e49c7838:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page3:image",
+                "doc_73c3cd21e49c7838:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reagent_amount",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "Z/E_ratio",
+        "fact": {
+          "value": "4.7:1",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 94,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      },
+      {
+        "name": "major_isomer_configuration",
+        "fact": {
+          "value": "Z",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 2 reports a Z/E mixture for the product.",
+        "evidence_ids": [
+          "doc_73c3cd21e49c7838:page3:image",
+          "doc_73c3cd21e49c7838:page3:text"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Scheme 3 assigns Z-6a by a 2D NOESY experiment; this is structural evidence, not a separate reaction run.",
+        "evidence_ids": [
+          "doc_73c3cd21e49c7838:page3:image",
+          "doc_73c3cd21e49c7838:page3:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reagent amount, atmosphere, concentration, workup, purification, isolated mass, and yield basis are not reported.",
+        "Product structure and both alkene-isomer structures remain unverified; SMILES are intentionally null."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_73c3cd21e49c7838:scheme2_6b",
+    "document_id": "doc_73c3cd21e49c7838",
+    "source_reaction_id": "Scheme 2 6b",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_73c3cd21e49c7838:page3:image",
+      "doc_73c3cd21e49c7838:page3:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_5",
+        "role": "reactant",
+        "label": {
+          "value": "5",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2,3-pentadienoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "mx",
+        "role": "reagent",
+        "label": {
+          "value": "LiBr-H2O",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "LiBr-H2O",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "HOAc",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "acetic acid",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_6",
+        "role": "product",
+        "label": {
+          "value": "6b",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-bromo-3-pentenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "hydrohalogenation",
+        "participant_ids": [
+          "substrate_5",
+          "mx",
+          "solvent"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 90,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page3:image",
+                "doc_73c3cd21e49c7838:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 20,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page3:image",
+                "doc_73c3cd21e49c7838:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reagent_amount",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "Z/E_ratio",
+        "fact": {
+          "value": "5.5:1",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 83,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 2 reports a Z/E mixture for the product.",
+        "evidence_ids": [
+          "doc_73c3cd21e49c7838:page3:image",
+          "doc_73c3cd21e49c7838:page3:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reagent amount, atmosphere, concentration, workup, purification, isolated mass, and yield basis are not reported.",
+        "Product structure and both alkene-isomer structures remain unverified; SMILES are intentionally null."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_73c3cd21e49c7838:scheme2_6c",
+    "document_id": "doc_73c3cd21e49c7838",
+    "source_reaction_id": "Scheme 2 6c",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_73c3cd21e49c7838:page3:image",
+      "doc_73c3cd21e49c7838:page3:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_5",
+        "role": "reactant",
+        "label": {
+          "value": "5",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2,3-pentadienoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "mx",
+        "role": "reagent",
+        "label": {
+          "value": "LiCl-H2O",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "LiCl-H2O",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "HOAc",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "acetic acid",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_6",
+        "role": "product",
+        "label": {
+          "value": "6c",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-chloro-3-pentenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "hydrohalogenation",
+        "participant_ids": [
+          "substrate_5",
+          "mx",
+          "solvent"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 90,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page3:image",
+                "doc_73c3cd21e49c7838:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 38,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page3:image",
+                "doc_73c3cd21e49c7838:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reagent_amount",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "Z/E_ratio",
+        "fact": {
+          "value": "1.3:1",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 70,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page3:image",
+            "doc_73c3cd21e49c7838:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 2 reports a Z/E mixture for the product.",
+        "evidence_ids": [
+          "doc_73c3cd21e49c7838:page3:image",
+          "doc_73c3cd21e49c7838:page3:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reagent amount, atmosphere, concentration, workup, purification, isolated mass, and yield basis are not reported.",
+        "Product structure and both alkene-isomer structures remain unverified; SMILES are intentionally null."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_73c3cd21e49c7838:scheme4_x_i",
+    "document_id": "doc_73c3cd21e49c7838",
+    "source_reaction_id": "Scheme 4 X=I",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_73c3cd21e49c7838:page4:image",
+      "doc_73c3cd21e49c7838:page4:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_5",
+        "role": "reactant",
+        "label": {
+          "value": "5",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2,3-pentadienoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "hx",
+        "role": "reagent",
+        "label": {
+          "value": "HX (X=I)",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "HI",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_6",
+        "role": "product",
+        "label": {
+          "value": "6",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-iodo-3-pentenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_7",
+        "role": "product",
+        "label": {
+          "value": "7",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "3-iodo-3-pentenoic acid",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "direct_hx_reaction",
+        "participant_ids": [
+          "substrate_5",
+          "hx"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 80,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page4:image",
+                "doc_73c3cd21e49c7838:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page4:image",
+                "doc_73c3cd21e49c7838:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reagent_amount",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield_ester_6",
+        "fact": {
+          "value": {
+            "number": 40,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_acid_7",
+        "fact": {
+          "value": {
+            "number": 48,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "The paper identifies ester hydrolysis as a serious side reaction in the direct HX reaction.",
+        "evidence_ids": [
+          "doc_73c3cd21e49c7838:page4:image",
+          "doc_73c3cd21e49c7838:page4:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "HX concentration and amount, solvent, atmosphere, reaction concentration, workup, purification, isolated masses, and yield basis are not reported.",
+        "Product geometry and structures remain unverified; SMILES are intentionally null."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_73c3cd21e49c7838:scheme4_x_br",
+    "document_id": "doc_73c3cd21e49c7838",
+    "source_reaction_id": "Scheme 4 X=Br",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_73c3cd21e49c7838:page4:image",
+      "doc_73c3cd21e49c7838:page4:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_5",
+        "role": "reactant",
+        "label": {
+          "value": "5",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2,3-pentadienoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "hx",
+        "role": "reagent",
+        "label": {
+          "value": "HX (X=Br)",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "HBr",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_6",
+        "role": "product",
+        "label": {
+          "value": "6",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-bromo-3-pentenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_7",
+        "role": "product",
+        "label": {
+          "value": "7",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "3-bromo-3-pentenoic acid",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "direct_hx_reaction",
+        "participant_ids": [
+          "substrate_5",
+          "hx"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 80,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page4:image",
+                "doc_73c3cd21e49c7838:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 24,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page4:image",
+                "doc_73c3cd21e49c7838:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reagent_amount",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield_ester_6",
+        "fact": {
+          "value": "trace",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_acid_7",
+        "fact": {
+          "value": {
+            "number": 58,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "The paper identifies ester hydrolysis as a serious side reaction in the direct HX reaction.",
+        "evidence_ids": [
+          "doc_73c3cd21e49c7838:page4:image",
+          "doc_73c3cd21e49c7838:page4:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "HX concentration and amount, solvent, atmosphere, reaction concentration, workup, purification, isolated masses, and yield basis are not reported.",
+        "Product geometry and structures remain unverified; SMILES are intentionally null."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_73c3cd21e49c7838:scheme4_x_cl",
+    "document_id": "doc_73c3cd21e49c7838",
+    "source_reaction_id": "Scheme 4 X=Cl",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_73c3cd21e49c7838:page4:image",
+      "doc_73c3cd21e49c7838:page4:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_5",
+        "role": "reactant",
+        "label": {
+          "value": "5",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2,3-pentadienoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "hx",
+        "role": "reagent",
+        "label": {
+          "value": "HX (X=Cl)",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "HCl",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_6",
+        "role": "product",
+        "label": {
+          "value": "6",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-chloro-3-pentenoate",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_7",
+        "role": "product",
+        "label": {
+          "value": "7",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "3-chloro-3-pentenoic acid",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "direct_hx_reaction",
+        "participant_ids": [
+          "substrate_5",
+          "hx"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 80,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page4:image",
+                "doc_73c3cd21e49c7838:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 48,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_73c3cd21e49c7838:page4:image",
+                "doc_73c3cd21e49c7838:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reagent_amount",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield_ester_6",
+        "fact": {
+          "value": "trace",
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_acid_7",
+        "fact": {
+          "value": {
+            "number": 83,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_73c3cd21e49c7838:page4:image",
+            "doc_73c3cd21e49c7838:page4:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "The paper identifies ester hydrolysis as a serious side reaction in the direct HX reaction.",
+        "evidence_ids": [
+          "doc_73c3cd21e49c7838:page4:image",
+          "doc_73c3cd21e49c7838:page4:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "HX concentration and amount, solvent, atmosphere, reaction concentration, workup, purification, isolated masses, and yield basis are not reported.",
+        "Product geometry and structures remain unverified; SMILES are intentionally null."
+      ]
+    }
+  }
+]

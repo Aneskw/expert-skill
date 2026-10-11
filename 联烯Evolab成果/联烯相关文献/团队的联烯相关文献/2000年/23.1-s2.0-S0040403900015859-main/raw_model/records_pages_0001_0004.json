@@ -1,0 +1,6887 @@
+[
+  {
+    "record_id": "doc_f51203bb157640ef:scheme1_prior_pd0_selectivity",
+    "document_id": "doc_f51203bb157640ef",
+    "source_reaction_id": "scheme1_prior_pd0_selectivity",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f51203bb157640ef:page2:image",
+      "doc_f51203bb157640ef:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "s1_allenol",
+        "role": "reactant",
+        "label": {
+          "value": "generic 2,3-allenol",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "s1_halide",
+        "role": "reactant",
+        "label": {
+          "value": "R3X",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "organic halide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "s1_pd0",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd(0)",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium(0) catalyst",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "s1_oxirane",
+        "role": "product",
+        "label": {
+          "value": "Path A product",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "vinylic oxirane",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "s1_dhf",
+        "role": "product",
+        "label": {
+          "value": "Path B product",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,5-dihydrofuran",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [],
+    "outcomes": [
+      {
+        "name": "path_A_vinylic_oxirane_formed",
+        "fact": {
+          "value": true,
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "path_B_2_5_dihydrofuran_observed",
+        "fact": {
+          "value": false,
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 1 and adjacent prose explicitly describe previous Pd(0)-catalyzed work.",
+        "evidence_ids": [
+          "doc_f51203bb157640ef:page2:image",
+          "doc_f51203bb157640ef:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Generic R groups and the individual prior-work experiments are not specified locally.",
+        "No local yield, scale, time, solvent, workup, or purification is reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f51203bb157640ef:scheme1_proposed_paths",
+    "document_id": "doc_f51203bb157640ef",
+    "source_reaction_id": "scheme1_proposed_paths",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f51203bb157640ef:page2:image",
+      "doc_f51203bb157640ef:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "s1m_allenol",
+        "role": "reactant",
+        "label": {
+          "value": "generic 2,3-allenol",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [],
+    "outcomes": [
+      {
+        "name": "observed_path",
+        "fact": {
+          "value": "Path A",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "unobserved_path",
+        "fact": {
+          "value": "Path B",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 1 depicts alternative oxygen-attack paths A and B around a cationic palladium-associated allene.",
+        "evidence_ids": [
+          "doc_f51203bb157640ef:page2:image",
+          "doc_f51203bb157640ef:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The depicted palladium species is a mechanistic proposal, not an isolated intermediate.",
+        "Generic substituents R1-R3 and X preclude a unique structure assignment."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f51203bb157640ef:prose_screen_1a_allyl_bromide_74pct",
+    "document_id": "doc_f51203bb157640ef",
+    "source_reaction_id": "prose_screen_1a_allyl_bromide_74pct",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f51203bb157640ef:page2:image",
+      "doc_f51203bb157640ef:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "allenol_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "3-(n-butyl)-3,4-pentadien-2-ol",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "allylic_halide",
+        "role": "reactant",
+        "label": {
+          "value": "allyl bromide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "allyl bromide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "PdCl2",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium(II) chloride",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page2:image",
+                "doc_f51203bb157640ef:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_3a",
+        "role": "product",
+        "label": {
+          "value": "3a",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2-methyl-3-(n-butyl)-4-allyl-2,5-dihydrofuran",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "allenol_1a",
+          "allylic_halide",
+          "catalyst",
+          "product_3a"
+        ],
+        "conditions": [
+          {
+            "name": "allyl_bromide_amount",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page2:image",
+                "doc_f51203bb157640ef:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "DMA",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page2:image",
+                "doc_f51203bb157640ef:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "rt",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page2:image",
+                "doc_f51203bb157640ef:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 74,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "The prose describes this as an observed result after trial and error.",
+        "evidence_ids": [
+          "doc_f51203bb157640ef:page2:image",
+          "doc_f51203bb157640ef:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reaction time, scale, concentration, atmosphere, yield basis, workup, and purification are not stated in this sentence.",
+        "Relationship to Table 1 entry 1 (76% after 18.5 h under nominally matching conditions) is unresolved."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f51203bb157640ef:prose_screen_less_than_5eq_allyl_bromide",
+    "document_id": "doc_f51203bb157640ef",
+    "source_reaction_id": "prose_screen_less_than_5eq_allyl_bromide",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f51203bb157640ef:page2:image",
+      "doc_f51203bb157640ef:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "allenol_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "3-(n-butyl)-3,4-pentadien-2-ol",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "allylic_halide",
+        "role": "reactant",
+        "label": {
+          "value": "allyl bromide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "allyl bromide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "PdCl2",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium(II) chloride",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3a",
+        "role": "product",
+        "label": {
+          "value": "3a",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2-methyl-3-(n-butyl)-4-allyl-2,5-dihydrofuran",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "allenol_1a",
+          "allylic_halide",
+          "catalyst",
+          "product_3a"
+        ],
+        "conditions": [
+          {
+            "name": "allyl_bromide_amount",
+            "fact": {
+              "value": "less than 5 equiv",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page2:image",
+                "doc_f51203bb157640ef:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "DMA",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page2:image",
+                "doc_f51203bb157640ef:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "relative_yield",
+        "fact": {
+          "value": "lower yields than the 5 equiv allyl bromide reaction",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "The exact amount below 5 equivalents and numerical yield are not reported.",
+        "evidence_ids": [
+          "doc_f51203bb157640ef:page2:image",
+          "doc_f51203bb157640ef:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Exact allyl bromide amount, catalyst loading, reaction time, scale, concentration, atmosphere, workup, purification, and numerical yield are missing."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f51203bb157640ef:prose_screen_allyl_chloride_51pct",
+    "document_id": "doc_f51203bb157640ef",
+    "source_reaction_id": "prose_screen_allyl_chloride_51pct",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f51203bb157640ef:page2:image",
+      "doc_f51203bb157640ef:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "allenol_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "3-(n-butyl)-3,4-pentadien-2-ol",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "allylic_halide",
+        "role": "reactant",
+        "label": {
+          "value": "allyl chloride",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "allyl chloride",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "PdCl2",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium(II) chloride",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3a",
+        "role": "product",
+        "label": {
+          "value": "3a",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2-methyl-3-(n-butyl)-4-allyl-2,5-dihydrofuran",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "allenol_1a",
+          "allylic_halide",
+          "catalyst",
+          "product_3a"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "DMA",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page2:image",
+                "doc_f51203bb157640ef:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "rt",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page2:image",
+                "doc_f51203bb157640ef:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 51,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Allyl chloride was used instead of allyl bromide in the surrounding optimization discussion.",
+        "evidence_ids": [
+          "doc_f51203bb157640ef:page2:image",
+          "doc_f51203bb157640ef:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Exact allyl chloride amount, catalyst loading, reaction time, scale, concentration, atmosphere, yield basis, workup, and purification are not restated."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f51203bb157640ef:prose_screen_pdcl2_1molpct",
+    "document_id": "doc_f51203bb157640ef",
+    "source_reaction_id": "prose_screen_pdcl2_1molpct",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f51203bb157640ef:page2:image",
+      "doc_f51203bb157640ef:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "allenol_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "3-(n-butyl)-3,4-pentadien-2-ol",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "allylic_halide",
+        "role": "reactant",
+        "label": {
+          "value": "allyl bromide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "allyl bromide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "PdCl2",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium(II) chloride",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page2:image",
+                "doc_f51203bb157640ef:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_3a",
+        "role": "product",
+        "label": {
+          "value": "3a",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2-methyl-3-(n-butyl)-4-allyl-2,5-dihydrofuran",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "allenol_1a",
+          "allylic_halide",
+          "catalyst",
+          "product_3a"
+        ],
+        "conditions": [
+          {
+            "name": "allyl_bromide_amount",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page2:image",
+                "doc_f51203bb157640ef:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "DMA",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page2:image",
+                "doc_f51203bb157640ef:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "rt",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page2:image",
+                "doc_f51203bb157640ef:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 65,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "The prose explicitly states 5 equivalents of allyl bromide and 1 mol% PdCl2.",
+        "evidence_ids": [
+          "doc_f51203bb157640ef:page2:image",
+          "doc_f51203bb157640ef:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reaction time, scale, concentration, atmosphere, yield basis, workup, and purification are not reported for this screening result."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f51203bb157640ef:prose_screen_pdoac2_effective",
+    "document_id": "doc_f51203bb157640ef",
+    "source_reaction_id": "prose_screen_pdoac2_effective",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f51203bb157640ef:page2:image",
+      "doc_f51203bb157640ef:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "allenol_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "3-(n-butyl)-3,4-pentadien-2-ol",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "allylic_halide",
+        "role": "reactant",
+        "label": {
+          "value": "allyl bromide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "allyl bromide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd(OAc)2",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium(II) acetate",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3a",
+        "role": "product",
+        "label": {
+          "value": "3a",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2-methyl-3-(n-butyl)-4-allyl-2,5-dihydrofuran",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "allenol_1a",
+          "allylic_halide",
+          "catalyst",
+          "product_3a"
+        ],
+        "conditions": []
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "qualitative_result",
+        "fact": {
+          "value": "effective for this transformation",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "The catalyst is listed among palladium catalysts tested and found effective.",
+        "evidence_ids": [
+          "doc_f51203bb157640ef:page2:image",
+          "doc_f51203bb157640ef:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Catalyst loading, exact charges, time, numerical yield, yield basis, concentration, atmosphere, workup, and purification are not separately reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f51203bb157640ef:prose_screen_pdcl2_mecn2_effective",
+    "document_id": "doc_f51203bb157640ef",
+    "source_reaction_id": "prose_screen_pdcl2_mecn2_effective",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f51203bb157640ef:page2:image",
+      "doc_f51203bb157640ef:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "allenol_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "3-(n-butyl)-3,4-pentadien-2-ol",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "allylic_halide",
+        "role": "reactant",
+        "label": {
+          "value": "allyl bromide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "allyl bromide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "PdCl2(CH3CN)2",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "bis(acetonitrile)palladium(II) dichloride",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3a",
+        "role": "product",
+        "label": {
+          "value": "3a",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2-methyl-3-(n-butyl)-4-allyl-2,5-dihydrofuran",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "allenol_1a",
+          "allylic_halide",
+          "catalyst",
+          "product_3a"
+        ],
+        "conditions": []
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "qualitative_result",
+        "fact": {
+          "value": "effective for this transformation",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "The catalyst is listed among palladium catalysts tested and found effective.",
+        "evidence_ids": [
+          "doc_f51203bb157640ef:page2:image",
+          "doc_f51203bb157640ef:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Catalyst loading, exact charges, time, numerical yield, yield basis, concentration, atmosphere, workup, and purification are not separately reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f51203bb157640ef:prose_screen_allylpalladium_chloride_dimer_effective",
+    "document_id": "doc_f51203bb157640ef",
+    "source_reaction_id": "prose_screen_allylpalladium_chloride_dimer_effective",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f51203bb157640ef:page2:image",
+      "doc_f51203bb157640ef:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "allenol_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "3-(n-butyl)-3,4-pentadien-2-ol",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "allylic_halide",
+        "role": "reactant",
+        "label": {
+          "value": "allyl bromide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "allyl bromide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "[(pi-C3H5)PdCl]2",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "allylpalladium chloride dimer",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3a",
+        "role": "product",
+        "label": {
+          "value": "3a",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2-methyl-3-(n-butyl)-4-allyl-2,5-dihydrofuran",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "allenol_1a",
+          "allylic_halide",
+          "catalyst",
+          "product_3a"
+        ],
+        "conditions": []
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "qualitative_result",
+        "fact": {
+          "value": "effective for this transformation",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "The catalyst is listed among palladium catalysts tested and found effective.",
+        "evidence_ids": [
+          "doc_f51203bb157640ef:page2:image",
+          "doc_f51203bb157640ef:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Catalyst loading, exact charges, time, numerical yield, yield basis, concentration, atmosphere, workup, and purification are not separately reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f51203bb157640ef:prose_1i_3phenyl2propenyl_bromide_complicated",
+    "document_id": "doc_f51203bb157640ef",
+    "source_reaction_id": "prose_1i_3phenyl2propenyl_bromide_complicated",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f51203bb157640ef:page2:image",
+      "doc_f51203bb157640ef:page2:text",
+      "doc_f51203bb157640ef:page3:image",
+      "doc_f51203bb157640ef:page3:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "allenol_1i",
+        "role": "reactant",
+        "label": {
+          "value": "1i",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text",
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,3-allenol 1i (R1=CH3, R2=CH3, R3=Ph)",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text",
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "cinnamyl_bromide",
+        "role": "reactant",
+        "label": {
+          "value": "3-phenyl-2-propenyl bromide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "3-phenyl-2-propenyl bromide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "pdcl2",
+        "role": "catalyst",
+        "label": {
+          "value": "PdCl2",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text",
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium(II) chloride",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text",
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.05,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "dma",
+        "role": "solvent",
+        "label": {
+          "value": "DMA",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text",
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N,N-dimethylacetamide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text",
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "allenol_1i",
+          "cinnamyl_bromide",
+          "pdcl2",
+          "dma"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "rt",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page2:image",
+                "doc_f51203bb157640ef:page2:text",
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "result",
+        "fact": {
+          "value": "reaction was complicated",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "The paper states that this screening used the standard reaction conditions.",
+        "evidence_ids": [
+          "doc_f51203bb157640ef:page2:image",
+          "doc_f51203bb157640ef:page2:text",
+          "doc_f51203bb157640ef:page3:image",
+          "doc_f51203bb157640ef:page3:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reaction time, product identities, product distribution, numerical yields, detection limits, atmosphere, workup, and purification are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f51203bb157640ef:table1_entry01",
+    "document_id": "doc_f51203bb157640ef",
+    "source_reaction_id": "table1_entry01",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f51203bb157640ef:page3:image",
+      "doc_f51203bb157640ef:page3:text",
+      "doc_f51203bb157640ef:page4:image",
+      "doc_f51203bb157640ef:page4:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,3-allenol 1a (R1=CH3, R2=H, R3=n-C4H9)",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "allylic_bromide",
+        "role": "reactant",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "allyl bromide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "pdcl2",
+        "role": "catalyst",
+        "label": {
+          "value": "PdCl2",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium(II) chloride",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.05,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "dma",
+        "role": "solvent",
+        "label": {
+          "value": "DMA",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N,N-dimethylacetamide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "3a",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2-methyl-3-(n-butyl)-4-allyl-2,5-dihydrofuran",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "substrate",
+          "allylic_bromide",
+          "pdcl2",
+          "dma"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "rt",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text",
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 18.5,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "workup",
+        "participant_ids": [
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "operations",
+            "fact": {
+              "value": "after completion, ether was added; washed with brine; dried over anhydrous Na2SO4",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "purification",
+        "participant_ids": [
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "method",
+            "fact": {
+              "value": "flash column chromatography on silica",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "eluent",
+            "fact": {
+              "value": "petroleum ether and ether",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 76,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis",
+        "fact": {
+          "value": "based on 1",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 1; R1=CH3, R2=H, R3=n-C4H9, R4=H.",
+        "evidence_ids": [
+          "doc_f51203bb157640ef:page3:image",
+          "doc_f51203bb157640ef:page3:text",
+          "doc_f51203bb157640ef:page4:image",
+          "doc_f51203bb157640ef:page4:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, concentration, isolated mass, product purity, and complete characterization are not reported in the supplied main text.",
+        "No Supporting Information is supplied or associated in this pilot."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f51203bb157640ef:table1_entry02",
+    "document_id": "doc_f51203bb157640ef",
+    "source_reaction_id": "table1_entry02",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f51203bb157640ef:page3:image",
+      "doc_f51203bb157640ef:page3:text",
+      "doc_f51203bb157640ef:page4:image",
+      "doc_f51203bb157640ef:page4:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1b",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,3-allenol 1b (R1=n-C4H9, R2=H, R3=n-C4H9)",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "allylic_bromide",
+        "role": "reactant",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "allyl bromide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "pdcl2",
+        "role": "catalyst",
+        "label": {
+          "value": "PdCl2",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium(II) chloride",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.05,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "dma",
+        "role": "solvent",
+        "label": {
+          "value": "DMA",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N,N-dimethylacetamide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "3b",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,5-dihydrofuran 3b",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "substrate",
+          "allylic_bromide",
+          "pdcl2",
+          "dma"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "rt",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text",
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 10.5,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "workup",
+        "participant_ids": [
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "operations",
+            "fact": {
+              "value": "after completion, ether was added; washed with brine; dried over anhydrous Na2SO4",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "purification",
+        "participant_ids": [
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "method",
+            "fact": {
+              "value": "flash column chromatography on silica",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "eluent",
+            "fact": {
+              "value": "petroleum ether and ether",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 81,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis",
+        "fact": {
+          "value": "based on 1",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 2; R1=n-C4H9, R2=H, R3=n-C4H9, R4=H.",
+        "evidence_ids": [
+          "doc_f51203bb157640ef:page3:image",
+          "doc_f51203bb157640ef:page3:text",
+          "doc_f51203bb157640ef:page4:image",
+          "doc_f51203bb157640ef:page4:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, concentration, isolated mass, product purity, and complete characterization are not reported in the supplied main text.",
+        "No Supporting Information is supplied or associated in this pilot."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f51203bb157640ef:table1_entry03",
+    "document_id": "doc_f51203bb157640ef",
+    "source_reaction_id": "table1_entry03",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f51203bb157640ef:page3:image",
+      "doc_f51203bb157640ef:page3:text",
+      "doc_f51203bb157640ef:page4:image",
+      "doc_f51203bb157640ef:page4:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1c",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,3-allenol 1c (R1=Ph, R2=H, R3=n-C4H9)",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "allylic_bromide",
+        "role": "reactant",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "allyl bromide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "pdcl2",
+        "role": "catalyst",
+        "label": {
+          "value": "PdCl2",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium(II) chloride",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.05,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "dma",
+        "role": "solvent",
+        "label": {
+          "value": "DMA",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N,N-dimethylacetamide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "3c",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,5-dihydrofuran 3c",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "substrate",
+          "allylic_bromide",
+          "pdcl2",
+          "dma"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "rt",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text",
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 21,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "workup",
+        "participant_ids": [
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "operations",
+            "fact": {
+              "value": "after completion, ether was added; washed with brine; dried over anhydrous Na2SO4",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "purification",
+        "participant_ids": [
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "method",
+            "fact": {
+              "value": "flash column chromatography on silica",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "eluent",
+            "fact": {
+              "value": "petroleum ether and ether",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 81,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis",
+        "fact": {
+          "value": "based on 1",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 3; R1=Ph, R2=H, R3=n-C4H9, R4=H.",
+        "evidence_ids": [
+          "doc_f51203bb157640ef:page3:image",
+          "doc_f51203bb157640ef:page3:text",
+          "doc_f51203bb157640ef:page4:image",
+          "doc_f51203bb157640ef:page4:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, concentration, isolated mass, product purity, and complete characterization are not reported in the supplied main text.",
+        "No Supporting Information is supplied or associated in this pilot."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f51203bb157640ef:table1_entry04",
+    "document_id": "doc_f51203bb157640ef",
+    "source_reaction_id": "table1_entry04",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f51203bb157640ef:page3:image",
+      "doc_f51203bb157640ef:page3:text",
+      "doc_f51203bb157640ef:page4:image",
+      "doc_f51203bb157640ef:page4:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1d",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,3-allenol 1d (R1=CH3, R2=H, R3=CH3)",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "allylic_bromide",
+        "role": "reactant",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "allyl bromide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "pdcl2",
+        "role": "catalyst",
+        "label": {
+          "value": "PdCl2",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium(II) chloride",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.05,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "dma",
+        "role": "solvent",
+        "label": {
+          "value": "DMA",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N,N-dimethylacetamide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "3d",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,5-dihydrofuran 3d",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "substrate",
+          "allylic_bromide",
+          "pdcl2",
+          "dma"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "rt",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text",
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 3.5,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "workup",
+        "participant_ids": [
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "operations",
+            "fact": {
+              "value": "after completion, ether was added; washed with brine; dried over anhydrous Na2SO4",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "purification",
+        "participant_ids": [
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "method",
+            "fact": {
+              "value": "flash column chromatography on silica",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "eluent",
+            "fact": {
+              "value": "petroleum ether and ether",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 71,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis",
+        "fact": {
+          "value": "based on 1",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 4; R1=CH3, R2=H, R3=CH3, R4=H.",
+        "evidence_ids": [
+          "doc_f51203bb157640ef:page3:image",
+          "doc_f51203bb157640ef:page3:text",
+          "doc_f51203bb157640ef:page4:image",
+          "doc_f51203bb157640ef:page4:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, concentration, isolated mass, product purity, and complete characterization are not reported in the supplied main text.",
+        "No Supporting Information is supplied or associated in this pilot."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f51203bb157640ef:table1_entry05",
+    "document_id": "doc_f51203bb157640ef",
+    "source_reaction_id": "table1_entry05",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f51203bb157640ef:page3:image",
+      "doc_f51203bb157640ef:page3:text",
+      "doc_f51203bb157640ef:page4:image",
+      "doc_f51203bb157640ef:page4:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1e",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,3-allenol 1e (R1=n-C4H9, R2=H, R3=C3H5 (allyl))",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "allylic_bromide",
+        "role": "reactant",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "allyl bromide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "pdcl2",
+        "role": "catalyst",
+        "label": {
+          "value": "PdCl2",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium(II) chloride",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.05,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "dma",
+        "role": "solvent",
+        "label": {
+          "value": "DMA",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N,N-dimethylacetamide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "3e",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,5-dihydrofuran 3e",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "substrate",
+          "allylic_bromide",
+          "pdcl2",
+          "dma"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "rt",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text",
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "workup",
+        "participant_ids": [
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "operations",
+            "fact": {
+              "value": "after completion, ether was added; washed with brine; dried over anhydrous Na2SO4",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "purification",
+        "participant_ids": [
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "method",
+            "fact": {
+              "value": "flash column chromatography on silica",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "eluent",
+            "fact": {
+              "value": "petroleum ether and ether",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 64,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis",
+        "fact": {
+          "value": "based on 1",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 5; R1=n-C4H9, R2=H, R3=C3H5 (allyl), R4=H.",
+        "evidence_ids": [
+          "doc_f51203bb157640ef:page3:image",
+          "doc_f51203bb157640ef:page3:text",
+          "doc_f51203bb157640ef:page4:image",
+          "doc_f51203bb157640ef:page4:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, concentration, isolated mass, product purity, and complete characterization are not reported in the supplied main text.",
+        "No Supporting Information is supplied or associated in this pilot."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f51203bb157640ef:table1_entry06",
+    "document_id": "doc_f51203bb157640ef",
+    "source_reaction_id": "table1_entry06",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f51203bb157640ef:page3:image",
+      "doc_f51203bb157640ef:page3:text",
+      "doc_f51203bb157640ef:page4:image",
+      "doc_f51203bb157640ef:page4:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1f",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,3-allenol 1f (R1=CH3, R2=H, R3=PhCH2)",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "allylic_bromide",
+        "role": "reactant",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "allyl bromide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "pdcl2",
+        "role": "catalyst",
+        "label": {
+          "value": "PdCl2",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium(II) chloride",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.05,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "dma",
+        "role": "solvent",
+        "label": {
+          "value": "DMA",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N,N-dimethylacetamide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "3f",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,5-dihydrofuran 3f",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "substrate",
+          "allylic_bromide",
+          "pdcl2",
+          "dma"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "rt",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text",
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 18.5,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "workup",
+        "participant_ids": [
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "operations",
+            "fact": {
+              "value": "after completion, ether was added; washed with brine; dried over anhydrous Na2SO4",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "purification",
+        "participant_ids": [
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "method",
+            "fact": {
+              "value": "flash column chromatography on silica",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "eluent",
+            "fact": {
+              "value": "petroleum ether and ether",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 61,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis",
+        "fact": {
+          "value": "based on 1",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 6; R1=CH3, R2=H, R3=PhCH2, R4=H.",
+        "evidence_ids": [
+          "doc_f51203bb157640ef:page3:image",
+          "doc_f51203bb157640ef:page3:text",
+          "doc_f51203bb157640ef:page4:image",
+          "doc_f51203bb157640ef:page4:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, concentration, isolated mass, product purity, and complete characterization are not reported in the supplied main text.",
+        "No Supporting Information is supplied or associated in this pilot."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f51203bb157640ef:table1_entry07",
+    "document_id": "doc_f51203bb157640ef",
+    "source_reaction_id": "table1_entry07",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f51203bb157640ef:page3:image",
+      "doc_f51203bb157640ef:page3:text",
+      "doc_f51203bb157640ef:page4:image",
+      "doc_f51203bb157640ef:page4:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1g",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,3-allenol 1g (R1=n-C4H9, R2=H, R3=Ph)",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "allylic_bromide",
+        "role": "reactant",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "allyl bromide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "pdcl2",
+        "role": "catalyst",
+        "label": {
+          "value": "PdCl2",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium(II) chloride",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.05,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "dma",
+        "role": "solvent",
+        "label": {
+          "value": "DMA",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N,N-dimethylacetamide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "3g",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,5-dihydrofuran 3g",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "substrate",
+          "allylic_bromide",
+          "pdcl2",
+          "dma"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "rt",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text",
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 14.5,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "workup",
+        "participant_ids": [
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "operations",
+            "fact": {
+              "value": "after completion, ether was added; washed with brine; dried over anhydrous Na2SO4",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "purification",
+        "participant_ids": [
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "method",
+            "fact": {
+              "value": "flash column chromatography on silica",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "eluent",
+            "fact": {
+              "value": "petroleum ether and ether",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 68,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis",
+        "fact": {
+          "value": "based on 1",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 7; R1=n-C4H9, R2=H, R3=Ph, R4=H.",
+        "evidence_ids": [
+          "doc_f51203bb157640ef:page3:image",
+          "doc_f51203bb157640ef:page3:text",
+          "doc_f51203bb157640ef:page4:image",
+          "doc_f51203bb157640ef:page4:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, concentration, isolated mass, product purity, and complete characterization are not reported in the supplied main text.",
+        "No Supporting Information is supplied or associated in this pilot."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f51203bb157640ef:table1_entry08",
+    "document_id": "doc_f51203bb157640ef",
+    "source_reaction_id": "table1_entry08",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f51203bb157640ef:page3:image",
+      "doc_f51203bb157640ef:page3:text",
+      "doc_f51203bb157640ef:page4:image",
+      "doc_f51203bb157640ef:page4:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1h",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,3-allenol 1h (R1=Ph, R2=H, R3=Ph)",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "allylic_bromide",
+        "role": "reactant",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "allyl bromide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "pdcl2",
+        "role": "catalyst",
+        "label": {
+          "value": "PdCl2",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium(II) chloride",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.05,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "dma",
+        "role": "solvent",
+        "label": {
+          "value": "DMA",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N,N-dimethylacetamide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "3h",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,5-dihydrofuran 3h",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "substrate",
+          "allylic_bromide",
+          "pdcl2",
+          "dma"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "rt",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text",
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 14.5,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "workup",
+        "participant_ids": [
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "operations",
+            "fact": {
+              "value": "after completion, ether was added; washed with brine; dried over anhydrous Na2SO4",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "purification",
+        "participant_ids": [
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "method",
+            "fact": {
+              "value": "flash column chromatography on silica",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "eluent",
+            "fact": {
+              "value": "petroleum ether and ether",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 60,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis",
+        "fact": {
+          "value": "based on 1",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 8; R1=Ph, R2=H, R3=Ph, R4=H.",
+        "evidence_ids": [
+          "doc_f51203bb157640ef:page3:image",
+          "doc_f51203bb157640ef:page3:text",
+          "doc_f51203bb157640ef:page4:image",
+          "doc_f51203bb157640ef:page4:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, concentration, isolated mass, product purity, and complete characterization are not reported in the supplied main text.",
+        "No Supporting Information is supplied or associated in this pilot."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f51203bb157640ef:table1_entry09",
+    "document_id": "doc_f51203bb157640ef",
+    "source_reaction_id": "table1_entry09",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f51203bb157640ef:page3:image",
+      "doc_f51203bb157640ef:page3:text",
+      "doc_f51203bb157640ef:page4:image",
+      "doc_f51203bb157640ef:page4:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1i",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,3-allenol 1i (R1=CH3, R2=CH3, R3=Ph)",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "allylic_bromide",
+        "role": "reactant",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "allyl bromide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "pdcl2",
+        "role": "catalyst",
+        "label": {
+          "value": "PdCl2",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium(II) chloride",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.05,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "dma",
+        "role": "solvent",
+        "label": {
+          "value": "DMA",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N,N-dimethylacetamide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "3i",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,5-dihydrofuran 3i",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "substrate",
+          "allylic_bromide",
+          "pdcl2",
+          "dma"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "rt",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text",
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 9,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "workup",
+        "participant_ids": [
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "operations",
+            "fact": {
+              "value": "after completion, ether was added; washed with brine; dried over anhydrous Na2SO4",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "purification",
+        "participant_ids": [
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "method",
+            "fact": {
+              "value": "flash column chromatography on silica",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "eluent",
+            "fact": {
+              "value": "petroleum ether and ether",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 86,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis",
+        "fact": {
+          "value": "based on 1",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 9; R1=CH3, R2=CH3, R3=Ph, R4=H.",
+        "evidence_ids": [
+          "doc_f51203bb157640ef:page3:image",
+          "doc_f51203bb157640ef:page3:text",
+          "doc_f51203bb157640ef:page4:image",
+          "doc_f51203bb157640ef:page4:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, concentration, isolated mass, product purity, and complete characterization are not reported in the supplied main text.",
+        "No Supporting Information is supplied or associated in this pilot."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f51203bb157640ef:table1_entry10",
+    "document_id": "doc_f51203bb157640ef",
+    "source_reaction_id": "table1_entry10",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f51203bb157640ef:page3:image",
+      "doc_f51203bb157640ef:page3:text",
+      "doc_f51203bb157640ef:page4:image",
+      "doc_f51203bb157640ef:page4:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1j",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,3-allenol 1j (R1=CH3, R2=CH3, R3=n-C4H9)",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "allylic_bromide",
+        "role": "reactant",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "allyl bromide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "pdcl2",
+        "role": "catalyst",
+        "label": {
+          "value": "PdCl2",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium(II) chloride",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.05,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "dma",
+        "role": "solvent",
+        "label": {
+          "value": "DMA",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N,N-dimethylacetamide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "3j",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,5-dihydrofuran 3j",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "substrate",
+          "allylic_bromide",
+          "pdcl2",
+          "dma"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "rt",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text",
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 23,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "workup",
+        "participant_ids": [
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "operations",
+            "fact": {
+              "value": "after completion, ether was added; washed with brine; dried over anhydrous Na2SO4",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "purification",
+        "participant_ids": [
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "method",
+            "fact": {
+              "value": "flash column chromatography on silica",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "eluent",
+            "fact": {
+              "value": "petroleum ether and ether",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 57,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis",
+        "fact": {
+          "value": "based on 1",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 10; R1=CH3, R2=CH3, R3=n-C4H9, R4=H.",
+        "evidence_ids": [
+          "doc_f51203bb157640ef:page3:image",
+          "doc_f51203bb157640ef:page3:text",
+          "doc_f51203bb157640ef:page4:image",
+          "doc_f51203bb157640ef:page4:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, concentration, isolated mass, product purity, and complete characterization are not reported in the supplied main text.",
+        "No Supporting Information is supplied or associated in this pilot."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f51203bb157640ef:table1_entry11",
+    "document_id": "doc_f51203bb157640ef",
+    "source_reaction_id": "table1_entry11",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f51203bb157640ef:page3:image",
+      "doc_f51203bb157640ef:page3:text",
+      "doc_f51203bb157640ef:page4:image",
+      "doc_f51203bb157640ef:page4:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1i",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,3-allenol 1i (R1=CH3, R2=CH3, R3=Ph)",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "allylic_bromide",
+        "role": "reactant",
+        "label": {
+          "value": "2b",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "allylic bromide 2b (R4=Ph)",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "pdcl2",
+        "role": "catalyst",
+        "label": {
+          "value": "PdCl2",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium(II) chloride",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.05,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "dma",
+        "role": "solvent",
+        "label": {
+          "value": "DMA",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N,N-dimethylacetamide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "3k",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,5-dihydrofuran 3k",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "substrate",
+          "allylic_bromide",
+          "pdcl2",
+          "dma"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "rt",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text",
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 22.5,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "workup",
+        "participant_ids": [
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "operations",
+            "fact": {
+              "value": "after completion, ether was added; washed with brine; dried over anhydrous Na2SO4",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "purification",
+        "participant_ids": [
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "method",
+            "fact": {
+              "value": "flash column chromatography on silica",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "eluent",
+            "fact": {
+              "value": "petroleum ether and ether",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 74,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis",
+        "fact": {
+          "value": "based on 1",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 11; R1=CH3, R2=CH3, R3=Ph, R4=Ph.",
+        "evidence_ids": [
+          "doc_f51203bb157640ef:page3:image",
+          "doc_f51203bb157640ef:page3:text",
+          "doc_f51203bb157640ef:page4:image",
+          "doc_f51203bb157640ef:page4:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, concentration, isolated mass, product purity, and complete characterization are not reported in the supplied main text.",
+        "No Supporting Information is supplied or associated in this pilot."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f51203bb157640ef:table1_entry12",
+    "document_id": "doc_f51203bb157640ef",
+    "source_reaction_id": "table1_entry12",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f51203bb157640ef:page3:image",
+      "doc_f51203bb157640ef:page3:text",
+      "doc_f51203bb157640ef:page4:image",
+      "doc_f51203bb157640ef:page4:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1i",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,3-allenol 1i (R1=CH3, R2=CH3, R3=Ph)",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "allylic_bromide",
+        "role": "reactant",
+        "label": {
+          "value": "2c",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "allylic bromide 2c (R4=Br)",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "pdcl2",
+        "role": "catalyst",
+        "label": {
+          "value": "PdCl2",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium(II) chloride",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.05,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "dma",
+        "role": "solvent",
+        "label": {
+          "value": "DMA",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N,N-dimethylacetamide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "3l",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,5-dihydrofuran 3l",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "substrate",
+          "allylic_bromide",
+          "pdcl2",
+          "dma"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "rt",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text",
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 19,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "workup",
+        "participant_ids": [
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "operations",
+            "fact": {
+              "value": "after completion, ether was added; washed with brine; dried over anhydrous Na2SO4",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "purification",
+        "participant_ids": [
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "method",
+            "fact": {
+              "value": "flash column chromatography on silica",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "eluent",
+            "fact": {
+              "value": "petroleum ether and ether",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page4:image",
+                "doc_f51203bb157640ef:page4:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 71,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_basis",
+        "fact": {
+          "value": "based on 1",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 12; R1=CH3, R2=CH3, R3=Ph, R4=Br.",
+        "evidence_ids": [
+          "doc_f51203bb157640ef:page3:image",
+          "doc_f51203bb157640ef:page3:text",
+          "doc_f51203bb157640ef:page4:image",
+          "doc_f51203bb157640ef:page4:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, concentration, isolated mass, product purity, and complete characterization are not reported in the supplied main text.",
+        "No Supporting Information is supplied or associated in this pilot."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f51203bb157640ef:scheme2_1a_2d",
+    "document_id": "doc_f51203bb157640ef",
+    "source_reaction_id": "scheme2_1a_2d",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f51203bb157640ef:page3:image",
+      "doc_f51203bb157640ef:page3:text",
+      "doc_f51203bb157640ef:page4:image",
+      "doc_f51203bb157640ef:page4:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "3-(n-butyl)-3,4-pentadien-2-ol",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "halide_2d",
+        "role": "reactant",
+        "label": {
+          "value": "2d",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "3-chloro-1-butene",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text",
+            "doc_f51203bb157640ef:page4:image",
+            "doc_f51203bb157640ef:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "pdcl2",
+        "role": "catalyst",
+        "label": {
+          "value": "PdCl2",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium(II) chloride",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "dma",
+        "role": "solvent",
+        "label": {
+          "value": "DMA",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N,N-dimethylacetamide",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_4",
+        "role": "product",
+        "label": {
+          "value": "4",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "SN2'-type product 4",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_4prime",
+        "role": "product",
+        "label": {
+          "value": "4'",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "regioisomer 4'",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "substrate_1a",
+          "halide_2d",
+          "pdcl2",
+          "dma"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "rt",
+              "evidence_ids": [
+                "doc_f51203bb157640ef:page3:image",
+                "doc_f51203bb157640ef:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 63,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "product_ratio_4_to_4prime",
+        "fact": {
+          "value": "97:3",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "product_4_E_Z_ratio",
+        "fact": {
+          "value": "1:1",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "selectivity_description",
+        "fact": {
+          "value": "SN2'-type product 4 formed with high selectivity",
+          "evidence_ids": [
+            "doc_f51203bb157640ef:page2:image",
+            "doc_f51203bb157640ef:page2:text",
+            "doc_f51203bb157640ef:page3:image",
+            "doc_f51203bb157640ef:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Footnote 17 states that 2d was purchased at 98% purity.",
+        "evidence_ids": [
+          "doc_f51203bb157640ef:page3:image",
+          "doc_f51203bb157640ef:page3:text",
+          "doc_f51203bb157640ef:page4:image",
+          "doc_f51203bb157640ef:page4:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reaction scale, solvent volume, reaction time, atmosphere, concentration, yield basis, workup, purification, isolated mass, product purity, and configuration assignments are not reported.",
+        "Reference 16 explicitly affords product family 3 and therefore was not generalized to this Scheme 2 product-4 experiment.",
+        "No Supporting Information is supplied or associated in this pilot."
+      ]
+    }
+  }
+]
