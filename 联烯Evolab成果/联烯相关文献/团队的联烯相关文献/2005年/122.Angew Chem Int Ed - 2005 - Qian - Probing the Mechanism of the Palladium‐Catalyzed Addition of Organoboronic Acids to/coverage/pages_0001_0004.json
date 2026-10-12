@@ -1,0 +1,137 @@
+{
+  "document_id": "doc_1f6b8c33c844c427",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, author block, and opening paragraph",
+          "finding": "No reaction arrow, table, or individual experiment; the page introduces the mechanistic study.",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page1:image",
+            "doc_1f6b8c33c844c427:page1:text"
+          ]
+        },
+        {
+          "region": "supporting-information notice",
+          "finding": "The article states that supporting information exists, but no SI file is explicitly supplied or associated in this workspace.",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page1:image",
+            "doc_1f6b8c33c844c427:page1:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "No experiment-specific chemistry is present on this page; SI association remains unestablished."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left column, Scheme 1",
+          "finding": "Generic Pd0/acid-catalyzed addition of an organoboronic acid to an allene; classified as a general scheme, not a reported quantified experiment.",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:image",
+            "doc_1f6b8c33c844c427:page2:text"
+          ]
+        },
+        {
+          "region": "left column, Scheme 2 and adjacent procedure paragraph",
+          "finding": "Two distinct monitored reactions (2a and 2b) share explicit allenoate/boronic acid/catalyst/AcOH/THF quantities and room-temperature N2 conditions; structures 3a/4a and 3b/4b are shown without yields.",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:image",
+            "doc_1f6b8c33c844c427:page2:text"
+          ]
+        },
+        {
+          "region": "right column, Figure 1 and surrounding text",
+          "finding": "Time-resolved positive-ion ESI-FTMS for reaction 2a at 3 min and 2 h detects ions 5-9 and by-product 6; these observations are merged into the 2a experiment rather than duplicated.",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:image",
+            "doc_1f6b8c33c844c427:page2:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_1f6b8c33c844c427:scheme1_general_addition",
+        "doc_1f6b8c33c844c427:scheme2_monitoring_2a",
+        "doc_1f6b8c33c844c427:scheme2_monitoring_2b"
+      ],
+      "unresolved": [
+        "No product yields, 3:4 regioisomer ratios, workup, or purification are stated; detailed 2b spectra are deferred to unavailable/unassociated SI."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left prose continuing Figure 1 discussion",
+          "finding": "Ion 9 assignment and the statement that 2b gave similar results are reported; 2b details remain in unassociated SI.",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:image",
+            "doc_1f6b8c33c844c427:page3:text"
+          ]
+        },
+        {
+          "region": "left column, Figure 2a-c",
+          "finding": "Three distinct SORI-CAD tandem-MS experiments fragment precursor ions 7, 8, and 9 to 7A, 8A, and 9A respectively with argon and loss of one PPh3 ligand.",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:image",
+            "doc_1f6b8c33c844c427:page3:text"
+          ]
+        },
+        {
+          "region": "upper-right, Scheme 3 and explanatory prose",
+          "finding": "Proposed Pd catalytic cycle; classified as mechanism and not as a newly quantified experiment.",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:image",
+            "doc_1f6b8c33c844c427:page3:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_1f6b8c33c844c427:scheme2_monitoring_2a",
+        "doc_1f6b8c33c844c427:scheme2_monitoring_2b",
+        "doc_1f6b8c33c844c427:figure2_sori_cad_7",
+        "doc_1f6b8c33c844c427:figure2_sori_cad_8",
+        "doc_1f6b8c33c844c427:figure2_sori_cad_9",
+        "doc_1f6b8c33c844c427:scheme3_proposed_catalytic_cycle"
+      ],
+      "unresolved": [
+        "SORI-CAD collision energy/pressure and acquisition duration are absent; organopalladium structures remain label-only; the solution-versus-ESI origin of ions 8 and 9 is not resolved."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "both columns, references 2-21",
+          "finding": "Reference list only; cited prior literature is not converted into current-paper experiments.",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page4:image",
+            "doc_1f6b8c33c844c427:page4:text"
+          ]
+        },
+        {
+          "region": "reference 14",
+          "finding": "States that starting allenoate 1 was prepared by a literature procedure; classified as cited prior work, not an experiment reported here.",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page4:image",
+            "doc_1f6b8c33c844c427:page4:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "The cited preparation details for allenoate 1 are outside this paper and were not inferred."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "document_id": "doc_a746be3717c6f516",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, and two-column introduction",
+          "finding": "Article metadata and background; cited prior syntheses and biocatalytic resolutions are literature context, not experiments reported in this paper.",
+          "evidence_ids": [
+            "doc_a746be3717c6f516:page1:image",
+            "doc_a746be3717c6f516:page1:text"
+          ]
+        },
+        {
+          "region": "lower-right Results and discussion opening",
+          "finding": "Section 2.1 points to the known Scheme 1 procedure and section 2.2 begins the 1a resolution discussion; the reaction drawing and complete conditions continue on page 2.",
+          "evidence_ids": [
+            "doc_a746be3717c6f516:page1:image",
+            "doc_a746be3717c6f516:page1:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "No independent, fully specified experiment is contained entirely on page 1; prior-work citations were not converted into records."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper half, Scheme 1 arrows and 1a–1r R-group list",
+          "finding": "Four-arrow generic preparation route attributed to Ref. 17; retained as four general-scheme records, not as new reported experiments.",
+          "evidence_ids": [
+            "doc_a746be3717c6f516:page2:image",
+            "doc_a746be3717c6f516:page2:text"
+          ]
+        },
+        {
+          "region": "lower-left, Eq. 1",
+          "finding": "Initial Novozym 435 kinetic resolution of 1a with product-specific yields and ee values.",
+          "evidence_ids": [
+            "doc_a746be3717c6f516:page2:image",
+            "doc_a746be3717c6f516:page2:text"
+          ]
+        },
+        {
+          "region": "lower-left, Scheme 2",
+          "finding": "Four separately enumerated enzyme screens (PPL, CRL, Lipase AK, Lipase Ps 30), each displayed as no reaction.",
+          "evidence_ids": [
+            "doc_a746be3717c6f516:page2:image",
+            "doc_a746be3717c6f516:page2:text"
+          ]
+        },
+        {
+          "region": "lower-right, Eq. 2",
+          "finding": "60 °C kinetic-resolution condition with two product yields/ee values and E=125.",
+          "evidence_ids": [
+            "doc_a746be3717c6f516:page2:image",
+            "doc_a746be3717c6f516:page2:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a746be3717c6f516:scheme1_arrow01_orthoester_rearrangement",
+        "doc_a746be3717c6f516:scheme1_arrow02_lialh4_reduction",
+        "doc_a746be3717c6f516:scheme1_arrow03_dmp_oxidation",
+        "doc_a746be3717c6f516:scheme1_arrow04_grignard_addition",
+        "doc_a746be3717c6f516:eq1_initial_kinetic_resolution",
+        "doc_a746be3717c6f516:scheme2_ppl_no_reaction",
+        "doc_a746be3717c6f516:scheme2_crl_no_reaction",
+        "doc_a746be3717c6f516:scheme2_lipase_ak_no_reaction",
+        "doc_a746be3717c6f516:scheme2_lipase_ps30_no_reaction",
+        "doc_a746be3717c6f516:eq2_60c_kinetic_resolution"
+      ],
+      "unresolved": [
+        "Scheme 1 generic structures cannot be expanded to a single SMILES.",
+        "Eq. 1, Scheme 2, and Eq. 2 omit atmosphere/workup/purification details."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper half, Table 1 including arrow, seven rows, and footnotes",
+          "finding": "Seven independent solvent-screen entries; entry 1 is NR and entry 7 has a 98% table versus 97% prose ester-ee discrepancy.",
+          "evidence_ids": [
+            "doc_a746be3717c6f516:page3:image",
+            "doc_a746be3717c6f516:page3:text"
+          ]
+        },
+        {
+          "region": "middle, Table 2 including arrow, four rows, and footnotes",
+          "finding": "Four independent concentration/solvent-volume entries; row volumes conflict with the copied fixed 1.5 mL footnote and were not silently reconciled.",
+          "evidence_ids": [
+            "doc_a746be3717c6f516:page3:image",
+            "doc_a746be3717c6f516:page3:text"
+          ]
+        },
+        {
+          "region": "bottom-right, Scheme 3",
+          "finding": "Stereochemical assignment/comparison diagram for (+)-1r versus known (R)-(-)-1r; no reaction arrow or independent synthetic experiment.",
+          "evidence_ids": [
+            "doc_a746be3717c6f516:page3:image",
+            "doc_a746be3717c6f516:page3:text"
+          ]
+        },
+        {
+          "region": "bottom prose",
+          "finding": "Scope discussion and tentative absolute-configuration assignment; Table 3 itself continues on page 4.",
+          "evidence_ids": [
+            "doc_a746be3717c6f516:page3:image",
+            "doc_a746be3717c6f516:page3:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a746be3717c6f516:table1_entry01",
+        "doc_a746be3717c6f516:table1_entry02",
+        "doc_a746be3717c6f516:table1_entry03",
+        "doc_a746be3717c6f516:table1_entry04",
+        "doc_a746be3717c6f516:table1_entry05",
+        "doc_a746be3717c6f516:table1_entry06",
+        "doc_a746be3717c6f516:table1_entry07",
+        "doc_a746be3717c6f516:table2_entry01",
+        "doc_a746be3717c6f516:table2_entry02",
+        "doc_a746be3717c6f516:table2_entry03",
+        "doc_a746be3717c6f516:table2_entry04"
+      ],
+      "unresolved": [
+        "Table 2 does not report reaction time.",
+        "The Table 2 row-volume/footnote discrepancy remains unresolved."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper half, Table 3 arrow, entries 1–15, and footnotes",
+          "finding": "Fifteen independent substrate-scope rows with shared conditions, two product-specific yields/ee values, and E values; footnotes override enzyme mass for entries 5, 6, 10, 12 and time for entry 7.",
+          "evidence_ids": [
+            "doc_a746be3717c6f516:page4:image",
+            "doc_a746be3717c6f516:page4:text"
+          ]
+        },
+        {
+          "region": "middle-left, Eq. 3",
+          "finding": "PdCl2-catalyzed coupling/cyclization of (R)-1a with allyl bromide to (R)-3a.",
+          "evidence_ids": [
+            "doc_a746be3717c6f516:page4:image",
+            "doc_a746be3717c6f516:page4:text"
+          ]
+        },
+        {
+          "region": "lower section 3.1.1, first two preparation stages",
+          "finding": "Detailed orthoester rearrangement/allenoate formation followed by LiAlH4 reduction; stages were separated and the reported 61% two-step yield was attached to the second-stage product.",
+          "evidence_ids": [
+            "doc_a746be3717c6f516:page4:image",
+            "doc_a746be3717c6f516:page4:text"
+          ]
+        },
+        {
+          "region": "lower-right section 3.1.1, DMP stage",
+          "finding": "DMP oxidation and explicit workup to an unpurified allenal; stage-specific yield and temperature are missing.",
+          "evidence_ids": [
+            "doc_a746be3717c6f516:page4:image",
+            "doc_a746be3717c6f516:page4:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a746be3717c6f516:table3_entry01_1a",
+        "doc_a746be3717c6f516:table3_entry02_1b",
+        "doc_a746be3717c6f516:table3_entry03_1c",
+        "doc_a746be3717c6f516:table3_entry04_1d",
+        "doc_a746be3717c6f516:table3_entry05_1e",
+        "doc_a746be3717c6f516:table3_entry06_1f",
+        "doc_a746be3717c6f516:table3_entry07_1g",
+        "doc_a746be3717c6f516:table3_entry08_1h",
+        "doc_a746be3717c6f516:table3_entry09_1i",
+        "doc_a746be3717c6f516:table3_entry10_1j",
+        "doc_a746be3717c6f516:table3_entry11_1k",
+        "doc_a746be3717c6f516:table3_entry12_1l",
+        "doc_a746be3717c6f516:table3_entry13_1m",
+        "doc_a746be3717c6f516:table3_entry14_1n",
+        "doc_a746be3717c6f516:table3_entry15_1o",
+        "doc_a746be3717c6f516:eq3_pd_coupling_cyclization",
+        "doc_a746be3717c6f516:exp_3_1_1_stage1_allenoate",
+        "doc_a746be3717c6f516:exp_3_1_1_stage2_lialh4_reduction",
+        "doc_a746be3717c6f516:exp_3_1_1_stage3_dmp_oxidation"
+      ],
+      "unresolved": [
+        "Table 3 absolute configurations are tentative in the source.",
+        "Full experimental paragraphs for Table 3 entries 9–15 fall outside pages 1–6."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left continuation of section 3.1.1",
+          "finding": "EtMgBr addition to the preceding allenal at −78 °C and workup/purification to racemic 1a; isolated yield basis is not explicit.",
+          "evidence_ids": [
+            "doc_a746be3717c6f516:page5:image",
+            "doc_a746be3717c6f516:page5:text"
+          ]
+        },
+        {
+          "region": "left column section 3.2.1",
+          "finding": "Detailed typical kinetic resolution of 1a; merged with Table 3 entry 1 rather than duplicated.",
+          "evidence_ids": [
+            "doc_a746be3717c6f516:page5:image",
+            "doc_a746be3717c6f516:page5:text"
+          ]
+        },
+        {
+          "region": "lower-left/right sections 3.2.2–3.2.4",
+          "finding": "Detailed 1b, 1c, and beginning of 1d scope experiments; merged with Table 3 entries 2–4. Section 3.2.2 reports 81% alcohol ee versus 82% in Table 3.",
+          "evidence_ids": [
+            "doc_a746be3717c6f516:page5:image",
+            "doc_a746be3717c6f516:page5:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a746be3717c6f516:exp_3_1_1_stage4_etmgbr_addition",
+        "doc_a746be3717c6f516:table3_entry01_1a",
+        "doc_a746be3717c6f516:table3_entry02_1b",
+        "doc_a746be3717c6f516:table3_entry03_1c",
+        "doc_a746be3717c6f516:table3_entry04_1d"
+      ],
+      "unresolved": [
+        "The 48% yield basis in the EtMgBr stage is not explicit.",
+        "The 1b alcohol-ee discrepancy (81% experimental paragraph versus 82% table) remains unresolved."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left continuation of section 3.2.4",
+          "finding": "Continuation of 1d product characterization; no new reaction condition set.",
+          "evidence_ids": [
+            "doc_a746be3717c6f516:page6:image",
+            "doc_a746be3717c6f516:page6:text"
+          ]
+        },
+        {
+          "region": "left/right columns sections 3.2.5–3.2.8",
+          "finding": "Detailed 1e–1h kinetic-resolution experiments; merged with Table 3 entries 5–8 rather than duplicated.",
+          "evidence_ids": [
+            "doc_a746be3717c6f516:page6:image",
+            "doc_a746be3717c6f516:page6:text"
+          ]
+        },
+        {
+          "region": "bottom-right start of section 3.2.9",
+          "finding": "Heading and opening fragment for 1i; the complete individual procedure continues on page 7, so page-4 Table 3 data remain the record basis.",
+          "evidence_ids": [
+            "doc_a746be3717c6f516:page6:image",
+            "doc_a746be3717c6f516:page6:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a746be3717c6f516:table3_entry04_1d",
+        "doc_a746be3717c6f516:table3_entry05_1e",
+        "doc_a746be3717c6f516:table3_entry06_1f",
+        "doc_a746be3717c6f516:table3_entry07_1g",
+        "doc_a746be3717c6f516:table3_entry08_1h",
+        "doc_a746be3717c6f516:table3_entry09_1i"
+      ],
+      "unresolved": [
+        "The complete 1i experimental paragraph is outside the requested page range.",
+        "Spectroscopic characterization was inspected for context but not expanded into reaction-condition fields."
+      ]
+    }
+  ]
+}

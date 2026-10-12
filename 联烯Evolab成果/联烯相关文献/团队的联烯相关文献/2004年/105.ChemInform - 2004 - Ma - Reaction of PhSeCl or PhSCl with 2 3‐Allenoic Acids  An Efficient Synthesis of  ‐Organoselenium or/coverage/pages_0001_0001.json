@@ -1,0 +1,56 @@
+{
+  "document_id": "doc_9d6e249c5e399d9d",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 1 upper heading and bibliographic block (approximately x=73-759, y=51-195 pixels)",
+          "finding": "ChemInform entry R 0060 cites the Synlett 2004 article by Ma, Pan, Hao, and Huang. The supplied page is a secondary abstract/index presentation, so the six reaction rows are classified as literature examples rather than primary reported experiments.",
+          "evidence_ids": [
+            "doc_9d6e249c5e399d9d:page1:image",
+            "doc_9d6e249c5e399d9d:page1:text"
+          ]
+        },
+        {
+          "region": "page 1 upper reaction scheme I + PhSeCl (II) to III and entries a-c (approximately x=105-731, y=196-307 pixels)",
+          "finding": "Three distinct PhSeCl/allenoic-acid literature examples are shown: a (19 h, 91%), b (10 h, 98%), and c (7 h, 94%). Each row was retained separately; generic R-group structures and abbreviated substituents were not expanded to complete SMILES.",
+          "evidence_ids": [
+            "doc_9d6e249c5e399d9d:page1:image"
+          ]
+        },
+        {
+          "region": "page 1 shared condition A line (approximately x=115-296, y=308-341 pixels)",
+          "finding": "Condition A is printed as MeCN, 0°C, [N2] and was applied to both displayed schemes. No quantities, concentration, scale, workup, purification, or yield basis are stated.",
+          "evidence_ids": [
+            "doc_9d6e249c5e399d9d:page1:image"
+          ]
+        },
+        {
+          "region": "page 1 lower reaction scheme IV + PhSCl (V) to VI and entries a-c (approximately x=105-744, y=340-445 pixels)",
+          "finding": "Three distinct PhSCl/allenoic-acid literature examples are shown: a (~10 h, 71%), b (20 h, 82%), and c (~10 h, 61%). The lower product chalcogen annotation is visually inconsistent with the reagent/title in the supplied rendering, so product identity is retained only by source label and flagged unresolved without a product SMILES.",
+          "evidence_ids": [
+            "doc_9d6e249c5e399d9d:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_9d6e249c5e399d9d:phsecl_a",
+        "doc_9d6e249c5e399d9d:phsecl_b",
+        "doc_9d6e249c5e399d9d:phsecl_c",
+        "doc_9d6e249c5e399d9d:phscl_a",
+        "doc_9d6e249c5e399d9d:phscl_b",
+        "doc_9d6e249c5e399d9d:phscl_c"
+      ],
+      "unresolved": [
+        "The supplied PDF is a one-page ChemInform abstract/index entry rather than the cited Synlett primary article; detailed experimental procedures cannot be verified here.",
+        "No Supporting Information was supplied or explicitly associated.",
+        "Reagent and substrate quantities, concentration, reaction scale, workup, purification, and yield measurement basis are absent.",
+        "Generic R-group drawings and abbreviated substituent labels do not justify complete source-verified substrate or product SMILES.",
+        "The lower product chalcogen annotation is visually inconsistent with the PhSCl reagent/title and remains unresolved."
+      ]
+    }
+  ]
+}

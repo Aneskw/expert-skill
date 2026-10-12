@@ -1,0 +1,6165 @@
+[
+  {
+    "record_id": "doc_f6723fa2d1f5d0ad:scheme1_free_acid_1a_phi",
+    "document_id": "doc_f6723fa2d1f5d0ad",
+    "source_reaction_id": "Scheme 1",
+    "record_kind": "optimization_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f6723fa2d1f5d0ad:page1:image",
+      "doc_f6723fa2d1f5d0ad:page1:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "acid_1a",
+        "role": "reactant",
+        "label": {
+          "value": "Sa-(+)-1a",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "Sa-(+)-2-methyl-4-phenyl-2,3-butadienoic acid",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(=C=Cc1ccccc1)C(=O)O",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "starting_material_ee",
+            "fact": {
+              "value": {
+                "number": 96,
+                "unit": "%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page1:image",
+                "doc_f6723fa2d1f5d0ad:page1:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "phi",
+        "role": "reactant",
+        "label": {
+          "value": "PhI",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "iodobenzene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Ic1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd2(dba)3·CHCl3",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "bis(dibenzylideneacetone)palladium(0) complex, chloroform adduct",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 2.5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page1:image",
+                "doc_f6723fa2d1f5d0ad:page1:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "pph3",
+        "role": "reagent",
+        "label": {
+          "value": "PPh3",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "triphenylphosphine",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "P(c1ccccc1)(c1ccccc1)c1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "ligand_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page1:image",
+                "doc_f6723fa2d1f5d0ad:page1:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "dipea",
+        "role": "reagent",
+        "label": {
+          "value": "i-Pr2NEt",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N,N-diisopropylethylamine",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCN(C(C)C)C(C)C",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.1,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page1:image",
+                "doc_f6723fa2d1f5d0ad:page1:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3a",
+        "role": "product",
+        "label": {
+          "value": "(+)-3a",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "3a butenolide (configuration not printed in Scheme 1)",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O=C1OC(c2ccccc2)C(c2ccccc2)=C1C",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "coupling_cyclization",
+        "participant_ids": [
+          "acid_1a",
+          "phi",
+          "catalyst",
+          "pph3",
+          "dipea",
+          "toluene",
+          "product_3a"
+        ],
+        "conditions": [
+          {
+            "name": "reaction_temperature",
+            "fact": {
+              "value": {
+                "number": 50,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page1:image",
+                "doc_f6723fa2d1f5d0ad:page1:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 58,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3a"
+        ]
+      },
+      {
+        "name": "product_ee",
+        "fact": {
+          "value": {
+            "number": 60,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3a"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_3a"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The prose describes 60% ee as the highest ee observed for the free-acid route and discusses a pi-allylpalladium pathway.",
+        "evidence_ids": [
+          "doc_f6723fa2d1f5d0ad:page1:image",
+          "doc_f6723fa2d1f5d0ad:page1:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reaction time, scale, atmosphere, workup, purification, and yield measurement basis are not reported on the supplied page.",
+        "Candidate SMILES omit axial and product stereochemistry and remain unverified."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f6723fa2d1f5d0ad:eq1_dipea_salt_2a_prime",
+    "document_id": "doc_f6723fa2d1f5d0ad",
+    "source_reaction_id": "Equation 1",
+    "record_kind": "optimization_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f6723fa2d1f5d0ad:page1:image",
+      "doc_f6723fa2d1f5d0ad:page1:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "salt_2a_prime",
+        "role": "reactant",
+        "label": {
+          "value": "Sa-(+)-2a′",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1:1 salt of Sa-(+)-1a and N,N-diisopropylethylamine",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(=C=Cc1ccccc1)C(=O)[O-].CC[NH+](C(C)C)C(C)C",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "starting_material_ee",
+            "fact": {
+              "value": {
+                "number": 97,
+                "unit": "%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page1:image",
+                "doc_f6723fa2d1f5d0ad:page1:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "phi",
+        "role": "reactant",
+        "label": {
+          "value": "PhI",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "iodobenzene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Ic1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd2(dba)3·CHCl3",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium(0) catalyst chloroform adduct",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page1:image",
+                "doc_f6723fa2d1f5d0ad:page1:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "pph3",
+        "role": "reagent",
+        "label": {
+          "value": "PPh3",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "triphenylphosphine",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "P(c1ccccc1)(c1ccccc1)c1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "ligand_loading",
+            "fact": {
+              "value": {
+                "number": 20,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page1:image",
+                "doc_f6723fa2d1f5d0ad:page1:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3a",
+        "role": "product",
+        "label": {
+          "value": "S-(+)-3a",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "S-(+)-3a butenolide",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O=C1OC(c2ccccc2)C(c2ccccc2)=C1C",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "coupling_cyclization",
+        "participant_ids": [
+          "salt_2a_prime",
+          "phi",
+          "catalyst",
+          "pph3",
+          "toluene",
+          "product_3a"
+        ],
+        "conditions": [
+          {
+            "name": "reaction_temperature",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page1:image",
+                "doc_f6723fa2d1f5d0ad:page1:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 60,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page1:image",
+                "doc_f6723fa2d1f5d0ad:page1:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 62,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3a"
+        ]
+      },
+      {
+        "name": "product_ee",
+        "fact": {
+          "value": {
+            "number": 91,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3a"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_3a"
+        ]
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reaction scale, atmosphere, workup, purification, and yield measurement basis are not reported on the supplied page.",
+        "Candidate SMILES do not encode the source's axial or product stereochemistry and remain unverified."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f6723fa2d1f5d0ad:prose_direct_salt_2a_rt",
+    "document_id": "doc_f6723fa2d1f5d0ad",
+    "source_reaction_id": "page 1 direct-salt room-temperature experiment",
+    "record_kind": "optimization_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f6723fa2d1f5d0ad:page1:image",
+      "doc_f6723fa2d1f5d0ad:page1:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "salt_2a",
+        "role": "reactant",
+        "label": {
+          "value": "Sa-(+)-2a",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1:1 salt of allenoic acid 1a and L-(-)-cinchonidine",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "phi",
+        "role": "reactant",
+        "label": {
+          "value": "PhI",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "iodobenzene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Ic1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "tbab",
+        "role": "reagent",
+        "label": {
+          "value": "TBAB",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrabutylammonium bromide",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Br-].CCCC[N+](CCCC)(CCCC)CCCC",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3a",
+        "role": "product",
+        "label": {
+          "value": "S-(+)-3a",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "S-(+)-3a butenolide",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O=C1OC(c2ccccc2)C(c2ccccc2)=C1C",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "coupling_cyclization",
+        "participant_ids": [
+          "salt_2a",
+          "phi",
+          "tbab",
+          "toluene",
+          "product_3a"
+        ],
+        "conditions": [
+          {
+            "name": "reaction_temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page1:image",
+                "doc_f6723fa2d1f5d0ad:page1:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 95,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3a"
+        ]
+      },
+      {
+        "name": "product_ee",
+        "fact": {
+          "value": {
+            "number": 87,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3a"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_3a"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "TBAB is included because the immediately following control states that no reaction was observed in its absence.",
+        "evidence_ids": [
+          "doc_f6723fa2d1f5d0ad:page1:image",
+          "doc_f6723fa2d1f5d0ad:page1:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reaction time, exact catalyst/ligand identity and loadings, amounts, scale, atmosphere, workup, purification, and yield measurement basis are not specified for this prose result.",
+        "The full salt structure and stereochemical candidate SMILES are unresolved."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f6723fa2d1f5d0ad:prose_no_tbab_failure",
+    "document_id": "doc_f6723fa2d1f5d0ad",
+    "source_reaction_id": "page 1 control without TBAB",
+    "record_kind": "optimization_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f6723fa2d1f5d0ad:page1:image",
+      "doc_f6723fa2d1f5d0ad:page1:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "salt_2a",
+        "role": "reactant",
+        "label": {
+          "value": "Sa-(+)-2a",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1:1 salt of allenoic acid 1a and L-(-)-cinchonidine",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "phi",
+        "role": "reactant",
+        "label": {
+          "value": "PhI",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "iodobenzene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Ic1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "expected_product_3a",
+        "role": "product",
+        "label": {
+          "value": "S-(+)-3a",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "expected 3a butenolide",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O=C1OC(c2ccccc2)C(c2ccccc2)=C1C",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "coupling_cyclization_control",
+        "participant_ids": [
+          "salt_2a",
+          "phi",
+          "toluene",
+          "expected_product_3a"
+        ],
+        "conditions": [
+          {
+            "name": "tbab_condition",
+            "fact": {
+              "value": "absence of TBAB",
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page1:image",
+                "doc_f6723fa2d1f5d0ad:page1:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reaction_result",
+        "fact": {
+          "value": "no reaction",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "expected_product_3a"
+        ]
+      },
+      {
+        "name": "yield",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "expected_product_3a"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The authors attribute the failure probably to low solubility of Sa-(+)-2a in toluene.",
+        "evidence_ids": [
+          "doc_f6723fa2d1f5d0ad:page1:image",
+          "doc_f6723fa2d1f5d0ad:page1:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The exact temperature, time, catalyst system, amounts, and detection criterion for 'no reaction' are not reported in this sentence.",
+        "The expected product is represented only to attach the failed-formation result; it was not reported as isolated."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f6723fa2d1f5d0ad:eq2_salt_2f_phi",
+    "document_id": "doc_f6723fa2d1f5d0ad",
+    "source_reaction_id": "Equation 2",
+    "record_kind": "reported_experiment",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f6723fa2d1f5d0ad:page1:image",
+      "doc_f6723fa2d1f5d0ad:page1:text",
+      "doc_f6723fa2d1f5d0ad:page2:image",
+      "doc_f6723fa2d1f5d0ad:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "salt_2f",
+        "role": "reactant",
+        "label": {
+          "value": "Sa-(+)-2f",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "L-(-)-cinchonidine salt of 2-(n-propyl)-4-(4-bromophenyl)-2,3-butadienoic acid",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "starting_material_ee",
+            "fact": {
+              "value": {
+                "number": 99,
+                "unit": "%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page1:image",
+                "doc_f6723fa2d1f5d0ad:page1:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "phi",
+        "role": "reactant",
+        "label": {
+          "value": "PhI",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "iodobenzene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Ic1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd2(dba)3·CHCl3",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium(0) catalyst chloroform adduct",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page1:image",
+                "doc_f6723fa2d1f5d0ad:page1:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "pph3",
+        "role": "reagent",
+        "label": {
+          "value": "PPh3",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "triphenylphosphine",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "P(c1ccccc1)(c1ccccc1)c1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "ligand_loading",
+            "fact": {
+              "value": {
+                "number": 20,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page1:image",
+                "doc_f6723fa2d1f5d0ad:page1:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3g",
+        "role": "product",
+        "label": {
+          "value": "S-(+)-3g",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "S-(+)-3g bromophenyl butenolide",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O=C1OC(c2ccc(Br)cc2)C(c2ccccc2)=C1CCC",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "coupling_cyclization",
+        "participant_ids": [
+          "salt_2f",
+          "phi",
+          "catalyst",
+          "pph3",
+          "toluene",
+          "product_3g"
+        ],
+        "conditions": [
+          {
+            "name": "reaction_temperature",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page1:image",
+                "doc_f6723fa2d1f5d0ad:page1:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 72,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page1:image",
+                "doc_f6723fa2d1f5d0ad:page1:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 76,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3g"
+        ]
+      },
+      {
+        "name": "product_ee",
+        "fact": {
+          "value": {
+            "number": 94,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3g"
+        ]
+      },
+      {
+        "name": "configuration_assignment_method",
+        "fact": {
+          "value": "X-ray diffraction using bromine as reference",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3g"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_3g"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Page 2 states that the absolute configurations of the corresponding acid Sa-(+)-1f and product S-(+)-3g were determined by X-ray diffraction.",
+        "evidence_ids": [
+          "doc_f6723fa2d1f5d0ad:page2:image",
+          "doc_f6723fa2d1f5d0ad:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reaction scale, atmosphere, workup, purification, and yield measurement basis are not reported on the supplied pages.",
+        "The cinchonidine salt SMILES is unresolved; the product connectivity SMILES omits stereochemistry and remains unverified."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f6723fa2d1f5d0ad:table1_entry_01",
+    "document_id": "doc_f6723fa2d1f5d0ad",
+    "source_reaction_id": "Table 1 entry 1",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f6723fa2d1f5d0ad:page2:image",
+      "doc_f6723fa2d1f5d0ad:page2:text",
+      "doc_f6723fa2d1f5d0ad:page1:image",
+      "doc_f6723fa2d1f5d0ad:page1:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "salt_2",
+        "role": "reactant",
+        "label": {
+          "value": "(+)-2a",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1:1 acid-base salt (+)-2a; R1=Ph, R2=Me; base A=L-(-)-cinchonidine",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "starting_material_ee",
+            "fact": {
+              "value": {
+                "number": 97,
+                "unit": "%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "aryl_iodide",
+        "role": "reactant",
+        "label": {
+          "value": "PhI",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "iodobenzene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Ic1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.12,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "catalyst_pd2dba3_chcl3",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd2(dba)3·CHCl3",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "bis(dibenzylideneacetone)palladium(0) complex, chloroform adduct",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand_pph3",
+        "role": "reagent",
+        "label": {
+          "value": "PPh3",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "triphenylphosphine",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "P(c1ccccc1)(c1ccccc1)c1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "ligand_loading",
+            "fact": {
+              "value": {
+                "number": 20,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "tbab",
+        "role": "reagent",
+        "label": {
+          "value": "TBAB",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrabutylammonium bromide",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Br-].CCCC[N+](CCCC)(CCCC)CCCC",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "solvent_volume",
+            "fact": {
+              "value": {
+                "number": 3,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_3",
+        "role": "product",
+        "label": {
+          "value": "S-(+)-3a",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "butenolide 3a; R1=Ph, R2=Me, Ar2=Ph",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O=C1OC(c2ccccc2)C(c2ccccc2)=C1C",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "coupling_cyclization",
+        "participant_ids": [
+          "salt_2",
+          "aryl_iodide",
+          "catalyst_pd2dba3_chcl3",
+          "ligand_pph3",
+          "tbab",
+          "solvent",
+          "product_3"
+        ],
+        "conditions": [
+          {
+            "name": "reaction_temperature",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 48,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 90,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      },
+      {
+        "name": "product_ee",
+        "fact": {
+          "value": {
+            "number": 91,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The starting-salt ee refers to the allene moiety; the product ee was determined by HPLC on a Chiralcel OD column.",
+        "evidence_ids": [
+          "doc_f6723fa2d1f5d0ad:page2:image",
+          "doc_f6723fa2d1f5d0ad:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, concentration, workup, purification, and isolated mass are not reported in Table 1.",
+        "Salt structures and stereochemical product SMILES are not fully resolved; connectivity candidates remain unverified."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f6723fa2d1f5d0ad:table1_entry_02",
+    "document_id": "doc_f6723fa2d1f5d0ad",
+    "source_reaction_id": "Table 1 entry 2",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f6723fa2d1f5d0ad:page2:image",
+      "doc_f6723fa2d1f5d0ad:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "salt_2",
+        "role": "reactant",
+        "label": {
+          "value": "(+)-2a",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1:1 acid-base salt (+)-2a; R1=Ph, R2=Me; base A=L-(-)-cinchonidine",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "starting_material_ee",
+            "fact": {
+              "value": {
+                "number": 97,
+                "unit": "%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "aryl_iodide",
+        "role": "reactant",
+        "label": {
+          "value": "p-MeC6H4I",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1-iodo-4-methylbenzene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccc(I)cc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.12,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "catalyst_pd2dba3_chcl3",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd2(dba)3·CHCl3",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "bis(dibenzylideneacetone)palladium(0) complex, chloroform adduct",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand_pph3",
+        "role": "reagent",
+        "label": {
+          "value": "PPh3",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "triphenylphosphine",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "P(c1ccccc1)(c1ccccc1)c1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "ligand_loading",
+            "fact": {
+              "value": {
+                "number": 20,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "tbab",
+        "role": "reagent",
+        "label": {
+          "value": "TBAB",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrabutylammonium bromide",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Br-].CCCC[N+](CCCC)(CCCC)CCCC",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "solvent_volume",
+            "fact": {
+              "value": {
+                "number": 3,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_3",
+        "role": "product",
+        "label": {
+          "value": "S-(+)-3b",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "butenolide 3b; R1=Ph, R2=Me, Ar2=p-MeC6H4",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O=C1OC(c2ccccc2)C(c2ccc(C)cc2)=C1C",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "coupling_cyclization",
+        "participant_ids": [
+          "salt_2",
+          "aryl_iodide",
+          "catalyst_pd2dba3_chcl3",
+          "ligand_pph3",
+          "tbab",
+          "solvent",
+          "product_3"
+        ],
+        "conditions": [
+          {
+            "name": "reaction_temperature",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 48,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 66,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      },
+      {
+        "name": "product_ee",
+        "fact": {
+          "value": {
+            "number": 92,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The starting-salt ee refers to the allene moiety; the product ee was determined by HPLC on a Chiralcel OD column.",
+        "evidence_ids": [
+          "doc_f6723fa2d1f5d0ad:page2:image",
+          "doc_f6723fa2d1f5d0ad:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, concentration, workup, purification, and isolated mass are not reported in Table 1.",
+        "Salt structures and stereochemical product SMILES are not fully resolved; connectivity candidates remain unverified.",
+        "The yield measurement basis is not stated for this table row."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f6723fa2d1f5d0ad:table1_entry_03",
+    "document_id": "doc_f6723fa2d1f5d0ad",
+    "source_reaction_id": "Table 1 entry 3",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f6723fa2d1f5d0ad:page2:image",
+      "doc_f6723fa2d1f5d0ad:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "salt_2",
+        "role": "reactant",
+        "label": {
+          "value": "(+)-2b",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1:1 acid-base salt (+)-2b; R1=Ph, R2=n-Pr; base A=L-(-)-cinchonidine",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "starting_material_ee",
+            "fact": {
+              "value": {
+                "number": 98,
+                "unit": "%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "aryl_iodide",
+        "role": "reactant",
+        "label": {
+          "value": "PhI",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "iodobenzene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Ic1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.12,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "catalyst_pd2dba3_chcl3",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd2(dba)3·CHCl3",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "bis(dibenzylideneacetone)palladium(0) complex, chloroform adduct",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand_pph3",
+        "role": "reagent",
+        "label": {
+          "value": "PPh3",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "triphenylphosphine",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "P(c1ccccc1)(c1ccccc1)c1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "ligand_loading",
+            "fact": {
+              "value": {
+                "number": 20,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "tbab",
+        "role": "reagent",
+        "label": {
+          "value": "TBAB",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrabutylammonium bromide",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Br-].CCCC[N+](CCCC)(CCCC)CCCC",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "solvent_volume",
+            "fact": {
+              "value": {
+                "number": 3,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_3",
+        "role": "product",
+        "label": {
+          "value": "S-(+)-3c",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "butenolide 3c; R1=Ph, R2=n-Pr, Ar2=Ph",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O=C1OC(c2ccccc2)C(c2ccccc2)=C1CCC",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "coupling_cyclization",
+        "participant_ids": [
+          "salt_2",
+          "aryl_iodide",
+          "catalyst_pd2dba3_chcl3",
+          "ligand_pph3",
+          "tbab",
+          "solvent",
+          "product_3"
+        ],
+        "conditions": [
+          {
+            "name": "reaction_temperature",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 60,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 72,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      },
+      {
+        "name": "product_ee",
+        "fact": {
+          "value": {
+            "number": 91,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The starting-salt ee refers to the allene moiety; the product ee was determined by HPLC on a Chiralcel OD column.",
+        "evidence_ids": [
+          "doc_f6723fa2d1f5d0ad:page2:image",
+          "doc_f6723fa2d1f5d0ad:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, concentration, workup, purification, and isolated mass are not reported in Table 1.",
+        "Salt structures and stereochemical product SMILES are not fully resolved; connectivity candidates remain unverified.",
+        "The yield measurement basis is not stated for this table row."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f6723fa2d1f5d0ad:table1_entry_04",
+    "document_id": "doc_f6723fa2d1f5d0ad",
+    "source_reaction_id": "Table 1 entry 4",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f6723fa2d1f5d0ad:page2:image",
+      "doc_f6723fa2d1f5d0ad:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "salt_2",
+        "role": "reactant",
+        "label": {
+          "value": "(+)-2b",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1:1 acid-base salt (+)-2b; R1=Ph, R2=n-Pr; base A=L-(-)-cinchonidine",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "starting_material_ee",
+            "fact": {
+              "value": {
+                "number": 98,
+                "unit": "%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "aryl_iodide",
+        "role": "reactant",
+        "label": {
+          "value": "p-MeC6H4I",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1-iodo-4-methylbenzene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccc(I)cc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.12,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "catalyst_pd2dba3_chcl3",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd2(dba)3·CHCl3",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "bis(dibenzylideneacetone)palladium(0) complex, chloroform adduct",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand_pph3",
+        "role": "reagent",
+        "label": {
+          "value": "PPh3",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "triphenylphosphine",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "P(c1ccccc1)(c1ccccc1)c1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "ligand_loading",
+            "fact": {
+              "value": {
+                "number": 20,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "tbab",
+        "role": "reagent",
+        "label": {
+          "value": "TBAB",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrabutylammonium bromide",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Br-].CCCC[N+](CCCC)(CCCC)CCCC",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "solvent_volume",
+            "fact": {
+              "value": {
+                "number": 3,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_3",
+        "role": "product",
+        "label": {
+          "value": "S-(+)-3d",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "butenolide 3d; R1=Ph, R2=n-Pr, Ar2=p-MeC6H4",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O=C1OC(c2ccccc2)C(c2ccc(C)cc2)=C1CCC",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "coupling_cyclization",
+        "participant_ids": [
+          "salt_2",
+          "aryl_iodide",
+          "catalyst_pd2dba3_chcl3",
+          "ligand_pph3",
+          "tbab",
+          "solvent",
+          "product_3"
+        ],
+        "conditions": [
+          {
+            "name": "reaction_temperature",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 60,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 75,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      },
+      {
+        "name": "product_ee",
+        "fact": {
+          "value": {
+            "number": 91,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The starting-salt ee refers to the allene moiety; the product ee was determined by HPLC on a Chiralcel OD column.",
+        "evidence_ids": [
+          "doc_f6723fa2d1f5d0ad:page2:image",
+          "doc_f6723fa2d1f5d0ad:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, concentration, workup, purification, and isolated mass are not reported in Table 1.",
+        "Salt structures and stereochemical product SMILES are not fully resolved; connectivity candidates remain unverified.",
+        "The yield measurement basis is not stated for this table row."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f6723fa2d1f5d0ad:table1_entry_05",
+    "document_id": "doc_f6723fa2d1f5d0ad",
+    "source_reaction_id": "Table 1 entry 5",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f6723fa2d1f5d0ad:page2:image",
+      "doc_f6723fa2d1f5d0ad:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "salt_2",
+        "role": "reactant",
+        "label": {
+          "value": "(+)-2c",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1:1 acid-base salt (+)-2c; R1=Ph, R2=Me; base B=L-(-)-alpha-methylbenzylamine",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "starting_material_ee",
+            "fact": {
+              "value": {
+                "number": 97,
+                "unit": "%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "aryl_iodide",
+        "role": "reactant",
+        "label": {
+          "value": "PhI",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "iodobenzene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Ic1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.12,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "catalyst_pd2dba3_chcl3",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd2(dba)3·CHCl3",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "bis(dibenzylideneacetone)palladium(0) complex, chloroform adduct",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand_pph3",
+        "role": "reagent",
+        "label": {
+          "value": "PPh3",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "triphenylphosphine",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "P(c1ccccc1)(c1ccccc1)c1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "ligand_loading",
+            "fact": {
+              "value": {
+                "number": 20,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "tbab",
+        "role": "reagent",
+        "label": {
+          "value": "TBAB",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrabutylammonium bromide",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Br-].CCCC[N+](CCCC)(CCCC)CCCC",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "solvent_volume",
+            "fact": {
+              "value": {
+                "number": 3,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_3",
+        "role": "product",
+        "label": {
+          "value": "S-(+)-3a",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "butenolide 3a; R1=Ph, R2=Me, Ar2=Ph",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O=C1OC(c2ccccc2)C(c2ccccc2)=C1C",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "coupling_cyclization",
+        "participant_ids": [
+          "salt_2",
+          "aryl_iodide",
+          "catalyst_pd2dba3_chcl3",
+          "ligand_pph3",
+          "tbab",
+          "solvent",
+          "product_3"
+        ],
+        "conditions": [
+          {
+            "name": "reaction_temperature",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 72,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 60,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      },
+      {
+        "name": "product_ee",
+        "fact": {
+          "value": {
+            "number": 93,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The starting-salt ee refers to the allene moiety; the product ee was determined by HPLC on a Chiralcel OD column.",
+        "evidence_ids": [
+          "doc_f6723fa2d1f5d0ad:page2:image",
+          "doc_f6723fa2d1f5d0ad:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, concentration, workup, purification, and isolated mass are not reported in Table 1.",
+        "Salt structures and stereochemical product SMILES are not fully resolved; connectivity candidates remain unverified.",
+        "The yield measurement basis is not stated for this table row."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f6723fa2d1f5d0ad:table1_entry_06",
+    "document_id": "doc_f6723fa2d1f5d0ad",
+    "source_reaction_id": "Table 1 entry 6",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f6723fa2d1f5d0ad:page2:image",
+      "doc_f6723fa2d1f5d0ad:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "salt_2",
+        "role": "reactant",
+        "label": {
+          "value": "(+)-2c",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1:1 acid-base salt (+)-2c; R1=Ph, R2=Me; base B=L-(-)-alpha-methylbenzylamine",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "starting_material_ee",
+            "fact": {
+              "value": {
+                "number": 97,
+                "unit": "%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "aryl_iodide",
+        "role": "reactant",
+        "label": {
+          "value": "p-MeC6H4I",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1-iodo-4-methylbenzene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccc(I)cc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.12,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "catalyst_pd2dba3_chcl3",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd2(dba)3·CHCl3",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "bis(dibenzylideneacetone)palladium(0) complex, chloroform adduct",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand_pph3",
+        "role": "reagent",
+        "label": {
+          "value": "PPh3",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "triphenylphosphine",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "P(c1ccccc1)(c1ccccc1)c1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "ligand_loading",
+            "fact": {
+              "value": {
+                "number": 20,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "tbab",
+        "role": "reagent",
+        "label": {
+          "value": "TBAB",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrabutylammonium bromide",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Br-].CCCC[N+](CCCC)(CCCC)CCCC",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "solvent_volume",
+            "fact": {
+              "value": {
+                "number": 3,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_3",
+        "role": "product",
+        "label": {
+          "value": "S-(+)-3b",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "butenolide 3b; R1=Ph, R2=Me, Ar2=p-MeC6H4",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O=C1OC(c2ccccc2)C(c2ccc(C)cc2)=C1C",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "coupling_cyclization",
+        "participant_ids": [
+          "salt_2",
+          "aryl_iodide",
+          "catalyst_pd2dba3_chcl3",
+          "ligand_pph3",
+          "tbab",
+          "solvent",
+          "product_3"
+        ],
+        "conditions": [
+          {
+            "name": "reaction_temperature",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 72,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 65,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      },
+      {
+        "name": "product_ee",
+        "fact": {
+          "value": {
+            "number": 95,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The starting-salt ee refers to the allene moiety; the product ee was determined by HPLC on a Chiralcel OD column.",
+        "evidence_ids": [
+          "doc_f6723fa2d1f5d0ad:page2:image",
+          "doc_f6723fa2d1f5d0ad:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, concentration, workup, purification, and isolated mass are not reported in Table 1.",
+        "Salt structures and stereochemical product SMILES are not fully resolved; connectivity candidates remain unverified.",
+        "The yield measurement basis is not stated for this table row."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f6723fa2d1f5d0ad:table1_entry_07",
+    "document_id": "doc_f6723fa2d1f5d0ad",
+    "source_reaction_id": "Table 1 entry 7",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f6723fa2d1f5d0ad:page2:image",
+      "doc_f6723fa2d1f5d0ad:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "salt_2",
+        "role": "reactant",
+        "label": {
+          "value": "(-)-2c",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1:1 acid-base salt (-)-2c; R1=Ph, R2=Me; base C=D-(+)-alpha-methylbenzylamine",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "starting_material_ee",
+            "fact": {
+              "value": {
+                "number": 98,
+                "unit": "%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "aryl_iodide",
+        "role": "reactant",
+        "label": {
+          "value": "PhI",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "iodobenzene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Ic1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.12,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "catalyst_pd2dba3_chcl3",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd2(dba)3·CHCl3",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "bis(dibenzylideneacetone)palladium(0) complex, chloroform adduct",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand_pph3",
+        "role": "reagent",
+        "label": {
+          "value": "PPh3",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "triphenylphosphine",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "P(c1ccccc1)(c1ccccc1)c1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "ligand_loading",
+            "fact": {
+              "value": {
+                "number": 20,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "tbab",
+        "role": "reagent",
+        "label": {
+          "value": "TBAB",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrabutylammonium bromide",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Br-].CCCC[N+](CCCC)(CCCC)CCCC",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "solvent_volume",
+            "fact": {
+              "value": {
+                "number": 3,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_3",
+        "role": "product",
+        "label": {
+          "value": "R-(-)-3a",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "butenolide 3a; R1=Ph, R2=Me, Ar2=Ph",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O=C1OC(c2ccccc2)C(c2ccccc2)=C1C",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "coupling_cyclization",
+        "participant_ids": [
+          "salt_2",
+          "aryl_iodide",
+          "catalyst_pd2dba3_chcl3",
+          "ligand_pph3",
+          "tbab",
+          "solvent",
+          "product_3"
+        ],
+        "conditions": [
+          {
+            "name": "reaction_temperature",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 60,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 66,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      },
+      {
+        "name": "product_ee",
+        "fact": {
+          "value": {
+            "number": 96,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The starting-salt ee refers to the allene moiety; the product ee was determined by HPLC on a Chiralcel OD column.",
+        "evidence_ids": [
+          "doc_f6723fa2d1f5d0ad:page2:image",
+          "doc_f6723fa2d1f5d0ad:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, concentration, workup, purification, and isolated mass are not reported in Table 1.",
+        "Salt structures and stereochemical product SMILES are not fully resolved; connectivity candidates remain unverified.",
+        "The yield measurement basis is not stated for this table row."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f6723fa2d1f5d0ad:table1_entry_08",
+    "document_id": "doc_f6723fa2d1f5d0ad",
+    "source_reaction_id": "Table 1 entry 8",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f6723fa2d1f5d0ad:page2:image",
+      "doc_f6723fa2d1f5d0ad:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "salt_2",
+        "role": "reactant",
+        "label": {
+          "value": "(-)-2c",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1:1 acid-base salt (-)-2c; R1=Ph, R2=Me; base C=D-(+)-alpha-methylbenzylamine",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "starting_material_ee",
+            "fact": {
+              "value": {
+                "number": 98,
+                "unit": "%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "aryl_iodide",
+        "role": "reactant",
+        "label": {
+          "value": "p-MeC6H4I",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1-iodo-4-methylbenzene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccc(I)cc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.12,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "catalyst_pd2dba3_chcl3",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd2(dba)3·CHCl3",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "bis(dibenzylideneacetone)palladium(0) complex, chloroform adduct",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand_pph3",
+        "role": "reagent",
+        "label": {
+          "value": "PPh3",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "triphenylphosphine",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "P(c1ccccc1)(c1ccccc1)c1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "ligand_loading",
+            "fact": {
+              "value": {
+                "number": 20,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "tbab",
+        "role": "reagent",
+        "label": {
+          "value": "TBAB",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrabutylammonium bromide",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Br-].CCCC[N+](CCCC)(CCCC)CCCC",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "solvent_volume",
+            "fact": {
+              "value": {
+                "number": 3,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_3",
+        "role": "product",
+        "label": {
+          "value": "R-(-)-3b",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "butenolide 3b; R1=Ph, R2=Me, Ar2=p-MeC6H4",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O=C1OC(c2ccccc2)C(c2ccc(C)cc2)=C1C",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "coupling_cyclization",
+        "participant_ids": [
+          "salt_2",
+          "aryl_iodide",
+          "catalyst_pd2dba3_chcl3",
+          "ligand_pph3",
+          "tbab",
+          "solvent",
+          "product_3"
+        ],
+        "conditions": [
+          {
+            "name": "reaction_temperature",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 60,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 72,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      },
+      {
+        "name": "product_ee",
+        "fact": {
+          "value": {
+            "number": 98,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The starting-salt ee refers to the allene moiety; the product ee was determined by HPLC on a Chiralcel OD column.",
+        "evidence_ids": [
+          "doc_f6723fa2d1f5d0ad:page2:image",
+          "doc_f6723fa2d1f5d0ad:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, concentration, workup, purification, and isolated mass are not reported in Table 1.",
+        "Salt structures and stereochemical product SMILES are not fully resolved; connectivity candidates remain unverified.",
+        "The yield measurement basis is not stated for this table row."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f6723fa2d1f5d0ad:table1_entry_09",
+    "document_id": "doc_f6723fa2d1f5d0ad",
+    "source_reaction_id": "Table 1 entry 9",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f6723fa2d1f5d0ad:page2:image",
+      "doc_f6723fa2d1f5d0ad:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "salt_2",
+        "role": "reactant",
+        "label": {
+          "value": "(-)-2c",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1:1 acid-base salt (-)-2c; R1=Ph, R2=Me; base C=D-(+)-alpha-methylbenzylamine",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "starting_material_ee",
+            "fact": {
+              "value": {
+                "number": 98,
+                "unit": "%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "aryl_iodide",
+        "role": "reactant",
+        "label": {
+          "value": "p-EC6H4I",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "methyl 4-iodobenzoate (E = CO2Me)",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "COC(=O)c1ccc(I)cc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.12,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "catalyst_pd2dba3_chcl3",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd2(dba)3·CHCl3",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "bis(dibenzylideneacetone)palladium(0) complex, chloroform adduct",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand_pph3",
+        "role": "reagent",
+        "label": {
+          "value": "PPh3",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "triphenylphosphine",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "P(c1ccccc1)(c1ccccc1)c1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "ligand_loading",
+            "fact": {
+              "value": {
+                "number": 20,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "tbab",
+        "role": "reagent",
+        "label": {
+          "value": "TBAB",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrabutylammonium bromide",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Br-].CCCC[N+](CCCC)(CCCC)CCCC",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "solvent_volume",
+            "fact": {
+              "value": {
+                "number": 3,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_3",
+        "role": "product",
+        "label": {
+          "value": "R-(-)-3e",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "butenolide 3e; R1=Ph, R2=Me, Ar2=p-E C6H4",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O=C1OC(c2ccccc2)C(c2ccc(C(=O)OC)cc2)=C1C",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "coupling_cyclization",
+        "participant_ids": [
+          "salt_2",
+          "aryl_iodide",
+          "catalyst_pd2dba3_chcl3",
+          "ligand_pph3",
+          "tbab",
+          "solvent",
+          "product_3"
+        ],
+        "conditions": [
+          {
+            "name": "reaction_temperature",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 60,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 58,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      },
+      {
+        "name": "product_ee",
+        "fact": {
+          "value": {
+            "number": 94,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The starting-salt ee refers to the allene moiety; the product ee was determined by HPLC on a Chiralcel OD column.",
+        "evidence_ids": [
+          "doc_f6723fa2d1f5d0ad:page2:image",
+          "doc_f6723fa2d1f5d0ad:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, concentration, workup, purification, and isolated mass are not reported in Table 1.",
+        "Salt structures and stereochemical product SMILES are not fully resolved; connectivity candidates remain unverified.",
+        "The yield measurement basis is not stated for this table row."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f6723fa2d1f5d0ad:table1_entry_10",
+    "document_id": "doc_f6723fa2d1f5d0ad",
+    "source_reaction_id": "Table 1 entry 10",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f6723fa2d1f5d0ad:page2:image",
+      "doc_f6723fa2d1f5d0ad:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "salt_2",
+        "role": "reactant",
+        "label": {
+          "value": "(+)-2e",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1:1 acid-base salt (+)-2e; R1=n-Hep, R2=H; base A=L-(-)-cinchonidine",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "starting_material_ee",
+            "fact": {
+              "value": {
+                "number": 97,
+                "unit": "%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "aryl_iodide",
+        "role": "reactant",
+        "label": {
+          "value": "PhI",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "iodobenzene",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Ic1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.12,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "catalyst_pd2dba3_chcl3",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd2(dba)3·CHCl3",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "bis(dibenzylideneacetone)palladium(0) complex, chloroform adduct",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand_pph3",
+        "role": "reagent",
+        "label": {
+          "value": "PPh3",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "triphenylphosphine",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "P(c1ccccc1)(c1ccccc1)c1ccccc1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "ligand_loading",
+            "fact": {
+              "value": {
+                "number": 20,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "tbab",
+        "role": "reagent",
+        "label": {
+          "value": "TBAB",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrabutylammonium bromide",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Br-].CCCC[N+](CCCC)(CCCC)CCCC",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "MeCN",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "acetonitrile",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC#N",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "solvent_volume",
+            "fact": {
+              "value": {
+                "number": 3,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_3",
+        "role": "product",
+        "label": {
+          "value": "(+)-3f",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "butenolide 3f; R1=n-Hep, R2=H, Ar2=Ph",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O=C1OC(CCCCCCC)C(c2ccccc2)=C1",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "coupling_cyclization",
+        "participant_ids": [
+          "salt_2",
+          "aryl_iodide",
+          "catalyst_pd2dba3_chcl3",
+          "ligand_pph3",
+          "tbab",
+          "solvent",
+          "product_3"
+        ],
+        "conditions": [
+          {
+            "name": "reaction_temperature",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 48,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page2:image",
+                "doc_f6723fa2d1f5d0ad:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 55,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      },
+      {
+        "name": "product_ee",
+        "fact": {
+          "value": {
+            "number": 94,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page2:image",
+            "doc_f6723fa2d1f5d0ad:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The starting-salt ee refers to the allene moiety; the product ee was determined by HPLC on a Chiralcel OD column.",
+        "evidence_ids": [
+          "doc_f6723fa2d1f5d0ad:page2:image",
+          "doc_f6723fa2d1f5d0ad:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, concentration, workup, purification, and isolated mass are not reported in Table 1.",
+        "Salt structures and stereochemical product SMILES are not fully resolved; connectivity candidates remain unverified.",
+        "The yield measurement basis is not stated for this table row.",
+        "The absolute configuration of (+)-3f is explicitly not determined."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f6723fa2d1f5d0ad:scheme2_proposed_mechanism",
+    "document_id": "doc_f6723fa2d1f5d0ad",
+    "source_reaction_id": "Scheme 2",
+    "record_kind": "mechanism",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f6723fa2d1f5d0ad:page1:image",
+      "doc_f6723fa2d1f5d0ad:page1:text",
+      "doc_f6723fa2d1f5d0ad:page2:image",
+      "doc_f6723fa2d1f5d0ad:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "generic_salt_2",
+        "role": "reactant",
+        "label": {
+          "value": "2",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "generic 1:1 acid-base salt of a 2,3-allenoic acid",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "generic_aryl_halide",
+        "role": "reactant",
+        "label": {
+          "value": "R4X",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "generic organic halide",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "pd0_l",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd(0)L",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "generic palladium(0) catalyst",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "generic_product_3",
+        "role": "product",
+        "label": {
+          "value": "3",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "generic 3-aryl polysubstituted butenolide",
+          "evidence_ids": [
+            "doc_f6723fa2d1f5d0ad:page1:image",
+            "doc_f6723fa2d1f5d0ad:page1:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "proposed_catalytic_cycle",
+        "participant_ids": [
+          "generic_salt_2",
+          "generic_aryl_halide",
+          "pd0_l",
+          "generic_product_3"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "oxidative addition–coordinative cyclization–reductive elimination",
+              "evidence_ids": [
+                "doc_f6723fa2d1f5d0ad:page1:image",
+                "doc_f6723fa2d1f5d0ad:page1:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [],
+    "notes": [
+      {
+        "value": "The authors present this as a possible mechanism and state on page 2 that the stereochemical outcome is consistent with it.",
+        "evidence_ids": [
+          "doc_f6723fa2d1f5d0ad:page1:image",
+          "doc_f6723fa2d1f5d0ad:page1:text",
+          "doc_f6723fa2d1f5d0ad:page2:image",
+          "doc_f6723fa2d1f5d0ad:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Scheme 2 is a mechanistic proposal with generic R groups and intermediates, not an independently reported experiment.",
+        "Generic structures are intentionally left without SMILES."
+      ]
+    }
+  }
+]

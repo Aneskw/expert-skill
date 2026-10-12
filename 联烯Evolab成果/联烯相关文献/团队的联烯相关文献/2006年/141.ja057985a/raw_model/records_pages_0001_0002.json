@@ -1,0 +1,5484 @@
+[
+  {
+    "record_id": "doc_c60fdeb47c691cd7:scheme1_170c_9_5h",
+    "document_id": "doc_c60fdeb47c691cd7",
+    "source_reaction_id": "Scheme 1; 170 °C, 9.5 h",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c60fdeb47c691cd7:page1:text",
+      "doc_c60fdeb47c691cd7:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "reactant_1aa",
+        "role": "reactant",
+        "label": {
+          "value": "1aa",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "3-allyl-4-(3′-ethylpenta-1′,2′-dienyl)-5-phenylfuran-2(5H)-one",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2aa",
+        "role": "product",
+        "label": {
+          "value": "2aa",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_cyclization",
+        "participant_ids": [
+          "reactant_1aa",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 170,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 9.5,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "xylene",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "operation",
+            "fact": {
+              "value": "sealed",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 74,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_2aa"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_2aa"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 1 optimization result; the product is described as a formal Alder–ene-type product.",
+        "evidence_ids": [
+          "doc_c60fdeb47c691cd7:page1:text",
+          "doc_c60fdeb47c691cd7:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "No reaction scale or xylene volume is stated for this Scheme 1-only condition.",
+        "Yield measurement basis, workup, and purification are not reported in the supplied main-text pages.",
+        "The complex structures of 1aa and 2aa were not transcribed to SMILES by the machine record.",
+        "Supporting Information is mentioned but was not supplied or associated."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c60fdeb47c691cd7:scheme1_80c_6h",
+    "document_id": "doc_c60fdeb47c691cd7",
+    "source_reaction_id": "Scheme 1; 80 °C, 6 h",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c60fdeb47c691cd7:page1:text",
+      "doc_c60fdeb47c691cd7:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "reactant_1aa",
+        "role": "reactant",
+        "label": {
+          "value": "1aa",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "3-allyl-4-(3′-ethylpenta-1′,2′-dienyl)-5-phenylfuran-2(5H)-one",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2aa",
+        "role": "product",
+        "label": {
+          "value": "2aa",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_cyclization",
+        "participant_ids": [
+          "reactant_1aa",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 80,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "xylene",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 24,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_2aa"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_2aa"
+        ]
+      },
+      {
+        "name": "starting_material_recovery",
+        "fact": {
+          "value": {
+            "number": 35,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "reactant_1aa"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 1 optimization result; the product is described as a formal Alder–ene-type product.",
+        "evidence_ids": [
+          "doc_c60fdeb47c691cd7:page1:text",
+          "doc_c60fdeb47c691cd7:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "No reaction scale or xylene volume is stated for this Scheme 1-only condition.",
+        "Yield measurement basis, workup, and purification are not reported in the supplied main-text pages.",
+        "The complex structures of 1aa and 2aa were not transcribed to SMILES by the machine record.",
+        "Supporting Information is mentioned but was not supplied or associated."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c60fdeb47c691cd7:table1_entry_01",
+    "document_id": "doc_c60fdeb47c691cd7",
+    "source_reaction_id": "Table 1 entry 1",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c60fdeb47c691cd7:page1:text",
+      "doc_c60fdeb47c691cd7:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "reactant_1aa",
+        "role": "reactant",
+        "label": {
+          "value": "1aa",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "reaction_scale",
+            "fact": {
+              "value": {
+                "minimum": 0.15,
+                "maximum": 0.25,
+                "unit": "mmol",
+                "raw_text": "0.15–0.25 mmol"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_2aa",
+        "role": "product",
+        "label": {
+          "value": "2aa",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_cyclization",
+        "participant_ids": [
+          "reactant_1aa",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 100,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "xylene",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "argon",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 89,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_2aa"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_2aa"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 1; substituent identities are encoded by the displayed substrate/product labels and drawings.",
+        "evidence_ids": [
+          "doc_c60fdeb47c691cd7:page1:text",
+          "doc_c60fdeb47c691cd7:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis, workup, and purification are not reported in the supplied main-text pages.",
+        "The complex displayed structures of 1aa and 2aa were not transcribed to SMILES by the machine record.",
+        "Supporting Information is mentioned but was not supplied or associated."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c60fdeb47c691cd7:table1_entry_02",
+    "document_id": "doc_c60fdeb47c691cd7",
+    "source_reaction_id": "Table 1 entry 2",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c60fdeb47c691cd7:page1:text",
+      "doc_c60fdeb47c691cd7:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "reactant_1ab",
+        "role": "reactant",
+        "label": {
+          "value": "1ab",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "reaction_scale",
+            "fact": {
+              "value": {
+                "minimum": 0.15,
+                "maximum": 0.25,
+                "unit": "mmol",
+                "raw_text": "0.15–0.25 mmol"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_2ab",
+        "role": "product",
+        "label": {
+          "value": "2ab",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_cyclization",
+        "participant_ids": [
+          "reactant_1ab",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 100,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 7,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "xylene",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "argon",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 84,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_2ab"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_2ab"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 2; substituent identities are encoded by the displayed substrate/product labels and drawings.",
+        "evidence_ids": [
+          "doc_c60fdeb47c691cd7:page1:text",
+          "doc_c60fdeb47c691cd7:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis, workup, and purification are not reported in the supplied main-text pages.",
+        "The complex displayed structures of 1ab and 2ab were not transcribed to SMILES by the machine record.",
+        "Supporting Information is mentioned but was not supplied or associated."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c60fdeb47c691cd7:table1_entry_03",
+    "document_id": "doc_c60fdeb47c691cd7",
+    "source_reaction_id": "Table 1 entry 3",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c60fdeb47c691cd7:page1:text",
+      "doc_c60fdeb47c691cd7:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "reactant_1ac",
+        "role": "reactant",
+        "label": {
+          "value": "1ac",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "reaction_scale",
+            "fact": {
+              "value": {
+                "minimum": 0.15,
+                "maximum": 0.25,
+                "unit": "mmol",
+                "raw_text": "0.15–0.25 mmol"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_2ac",
+        "role": "product",
+        "label": {
+          "value": "2ac",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_cyclization",
+        "participant_ids": [
+          "reactant_1ac",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 100,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "xylene",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "argon",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 80,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_2ac"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_2ac"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 3; substituent identities are encoded by the displayed substrate/product labels and drawings.",
+        "evidence_ids": [
+          "doc_c60fdeb47c691cd7:page1:text",
+          "doc_c60fdeb47c691cd7:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis, workup, and purification are not reported in the supplied main-text pages.",
+        "The complex displayed structures of 1ac and 2ac were not transcribed to SMILES by the machine record.",
+        "Supporting Information is mentioned but was not supplied or associated."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c60fdeb47c691cd7:table1_entry_04",
+    "document_id": "doc_c60fdeb47c691cd7",
+    "source_reaction_id": "Table 1 entry 4",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c60fdeb47c691cd7:page1:text",
+      "doc_c60fdeb47c691cd7:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "reactant_1ad",
+        "role": "reactant",
+        "label": {
+          "value": "1ad",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "reaction_scale",
+            "fact": {
+              "value": {
+                "minimum": 0.15,
+                "maximum": 0.25,
+                "unit": "mmol",
+                "raw_text": "0.15–0.25 mmol"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_2ad",
+        "role": "product",
+        "label": {
+          "value": "2ad",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_unidentified",
+        "role": "product",
+        "label": {
+          "value": "unidentified product",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_cyclization",
+        "participant_ids": [
+          "reactant_1ad",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 100,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "xylene",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "argon",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 67,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_2ad"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_2ad"
+        ]
+      },
+      {
+        "name": "yield_by_weight",
+        "fact": {
+          "value": {
+            "number": 10,
+            "unit": "%",
+            "qualifier": "approx",
+            "raw_text": "about 10% yield by weight"
+          },
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_unidentified"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "by weight",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_unidentified"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 4; substituent identities are encoded by the displayed substrate/product labels and drawings.",
+        "evidence_ids": [
+          "doc_c60fdeb47c691cd7:page1:text",
+          "doc_c60fdeb47c691cd7:page1:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Table footnote c reports an unidentified product in about 10% yield by weight.",
+        "evidence_ids": [
+          "doc_c60fdeb47c691cd7:page1:text",
+          "doc_c60fdeb47c691cd7:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis, workup, and purification are not reported in the supplied main-text pages.",
+        "The complex displayed structures of 1ad and 2ad were not transcribed to SMILES by the machine record.",
+        "Supporting Information is mentioned but was not supplied or associated.",
+        "The footnote-c byproduct identity is not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c60fdeb47c691cd7:table1_entry_05",
+    "document_id": "doc_c60fdeb47c691cd7",
+    "source_reaction_id": "Table 1 entry 5",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c60fdeb47c691cd7:page1:text",
+      "doc_c60fdeb47c691cd7:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "reactant_1ba",
+        "role": "reactant",
+        "label": {
+          "value": "1ba",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "reaction_scale",
+            "fact": {
+              "value": {
+                "minimum": 0.15,
+                "maximum": 0.25,
+                "unit": "mmol",
+                "raw_text": "0.15–0.25 mmol"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_2ba",
+        "role": "product",
+        "label": {
+          "value": "2ba",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_cyclization",
+        "participant_ids": [
+          "reactant_1ba",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 100,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "xylene",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "argon",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 97,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_2ba"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_2ba"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 5; substituent identities are encoded by the displayed substrate/product labels and drawings.",
+        "evidence_ids": [
+          "doc_c60fdeb47c691cd7:page1:text",
+          "doc_c60fdeb47c691cd7:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis, workup, and purification are not reported in the supplied main-text pages.",
+        "The complex displayed structures of 1ba and 2ba were not transcribed to SMILES by the machine record.",
+        "Supporting Information is mentioned but was not supplied or associated."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c60fdeb47c691cd7:table1_entry_06",
+    "document_id": "doc_c60fdeb47c691cd7",
+    "source_reaction_id": "Table 1 entry 6",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c60fdeb47c691cd7:page1:text",
+      "doc_c60fdeb47c691cd7:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "reactant_1bb",
+        "role": "reactant",
+        "label": {
+          "value": "1bb",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "reaction_scale",
+            "fact": {
+              "value": {
+                "minimum": 0.15,
+                "maximum": 0.25,
+                "unit": "mmol",
+                "raw_text": "0.15–0.25 mmol"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_2bb",
+        "role": "product",
+        "label": {
+          "value": "2bb",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_cyclization",
+        "participant_ids": [
+          "reactant_1bb",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 100,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "xylene",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "argon",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 87,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_2bb"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_2bb"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 6; substituent identities are encoded by the displayed substrate/product labels and drawings.",
+        "evidence_ids": [
+          "doc_c60fdeb47c691cd7:page1:text",
+          "doc_c60fdeb47c691cd7:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis, workup, and purification are not reported in the supplied main-text pages.",
+        "The complex displayed structures of 1bb and 2bb were not transcribed to SMILES by the machine record.",
+        "Supporting Information is mentioned but was not supplied or associated."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c60fdeb47c691cd7:table1_entry_07",
+    "document_id": "doc_c60fdeb47c691cd7",
+    "source_reaction_id": "Table 1 entry 7",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c60fdeb47c691cd7:page1:text",
+      "doc_c60fdeb47c691cd7:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "reactant_1ca",
+        "role": "reactant",
+        "label": {
+          "value": "1ca",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "reaction_scale",
+            "fact": {
+              "value": {
+                "minimum": 0.15,
+                "maximum": 0.25,
+                "unit": "mmol",
+                "raw_text": "0.15–0.25 mmol"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_2ca",
+        "role": "product",
+        "label": {
+          "value": "2ca",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_cyclization",
+        "participant_ids": [
+          "reactant_1ca",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 100,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "xylene",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "argon",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 95,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_2ca"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_2ca"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 7; substituent identities are encoded by the displayed substrate/product labels and drawings.",
+        "evidence_ids": [
+          "doc_c60fdeb47c691cd7:page1:text",
+          "doc_c60fdeb47c691cd7:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis, workup, and purification are not reported in the supplied main-text pages.",
+        "The complex displayed structures of 1ca and 2ca were not transcribed to SMILES by the machine record.",
+        "Supporting Information is mentioned but was not supplied or associated."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c60fdeb47c691cd7:table1_entry_08",
+    "document_id": "doc_c60fdeb47c691cd7",
+    "source_reaction_id": "Table 1 entry 8",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c60fdeb47c691cd7:page1:text",
+      "doc_c60fdeb47c691cd7:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "reactant_1cb",
+        "role": "reactant",
+        "label": {
+          "value": "1cb",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "reaction_scale",
+            "fact": {
+              "value": {
+                "minimum": 0.15,
+                "maximum": 0.25,
+                "unit": "mmol",
+                "raw_text": "0.15–0.25 mmol"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_2cb",
+        "role": "product",
+        "label": {
+          "value": "2cb",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_cyclization",
+        "participant_ids": [
+          "reactant_1cb",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 100,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "xylene",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "argon",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 84,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_2cb"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_2cb"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 8; substituent identities are encoded by the displayed substrate/product labels and drawings.",
+        "evidence_ids": [
+          "doc_c60fdeb47c691cd7:page1:text",
+          "doc_c60fdeb47c691cd7:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis, workup, and purification are not reported in the supplied main-text pages.",
+        "The complex displayed structures of 1cb and 2cb were not transcribed to SMILES by the machine record.",
+        "Supporting Information is mentioned but was not supplied or associated."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c60fdeb47c691cd7:table1_entry_09",
+    "document_id": "doc_c60fdeb47c691cd7",
+    "source_reaction_id": "Table 1 entry 9",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c60fdeb47c691cd7:page1:text",
+      "doc_c60fdeb47c691cd7:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "reactant_1cd",
+        "role": "reactant",
+        "label": {
+          "value": "1cd",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "reaction_scale",
+            "fact": {
+              "value": {
+                "minimum": 0.15,
+                "maximum": 0.25,
+                "unit": "mmol",
+                "raw_text": "0.15–0.25 mmol"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_2cd",
+        "role": "product",
+        "label": {
+          "value": "2cd",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_unidentified",
+        "role": "product",
+        "label": {
+          "value": "unidentified product",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_cyclization",
+        "participant_ids": [
+          "reactant_1cd",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 100,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "xylene",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "argon",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 66,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_2cd"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_2cd"
+        ]
+      },
+      {
+        "name": "yield_by_weight",
+        "fact": {
+          "value": {
+            "number": 10,
+            "unit": "%",
+            "qualifier": "approx",
+            "raw_text": "about 10% yield by weight"
+          },
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_unidentified"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "by weight",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_unidentified"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 9; substituent identities are encoded by the displayed substrate/product labels and drawings.",
+        "evidence_ids": [
+          "doc_c60fdeb47c691cd7:page1:text",
+          "doc_c60fdeb47c691cd7:page1:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Table footnote c reports an unidentified product in about 10% yield by weight.",
+        "evidence_ids": [
+          "doc_c60fdeb47c691cd7:page1:text",
+          "doc_c60fdeb47c691cd7:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis, workup, and purification are not reported in the supplied main-text pages.",
+        "The complex displayed structures of 1cd and 2cd were not transcribed to SMILES by the machine record.",
+        "Supporting Information is mentioned but was not supplied or associated.",
+        "The footnote-c byproduct identity is not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c60fdeb47c691cd7:table1_entry_10",
+    "document_id": "doc_c60fdeb47c691cd7",
+    "source_reaction_id": "Table 1 entry 10",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c60fdeb47c691cd7:page1:text",
+      "doc_c60fdeb47c691cd7:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "reactant_1da",
+        "role": "reactant",
+        "label": {
+          "value": "1da",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "reaction_scale",
+            "fact": {
+              "value": {
+                "minimum": 0.15,
+                "maximum": 0.25,
+                "unit": "mmol",
+                "raw_text": "0.15–0.25 mmol"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_2da",
+        "role": "product",
+        "label": {
+          "value": "2da",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_cyclization",
+        "participant_ids": [
+          "reactant_1da",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 100,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "xylene",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "argon",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 83,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_2da"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_2da"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 10; substituent identities are encoded by the displayed substrate/product labels and drawings.",
+        "evidence_ids": [
+          "doc_c60fdeb47c691cd7:page1:text",
+          "doc_c60fdeb47c691cd7:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis, workup, and purification are not reported in the supplied main-text pages.",
+        "The complex displayed structures of 1da and 2da were not transcribed to SMILES by the machine record.",
+        "Supporting Information is mentioned but was not supplied or associated."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c60fdeb47c691cd7:table1_entry_11",
+    "document_id": "doc_c60fdeb47c691cd7",
+    "source_reaction_id": "Table 1 entry 11",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c60fdeb47c691cd7:page1:text",
+      "doc_c60fdeb47c691cd7:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "reactant_1de",
+        "role": "reactant",
+        "label": {
+          "value": "1de",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "reaction_scale",
+            "fact": {
+              "value": {
+                "minimum": 0.15,
+                "maximum": 0.25,
+                "unit": "mmol",
+                "raw_text": "0.15–0.25 mmol"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_2de",
+        "role": "product",
+        "label": {
+          "value": "2de",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_cyclization",
+        "participant_ids": [
+          "reactant_1de",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 100,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "xylene",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "argon",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 74,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_2de"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_2de"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 11; substituent identities are encoded by the displayed substrate/product labels and drawings.",
+        "evidence_ids": [
+          "doc_c60fdeb47c691cd7:page1:text",
+          "doc_c60fdeb47c691cd7:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis, workup, and purification are not reported in the supplied main-text pages.",
+        "The complex displayed structures of 1de and 2de were not transcribed to SMILES by the machine record.",
+        "Supporting Information is mentioned but was not supplied or associated."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c60fdeb47c691cd7:table1_entry_12",
+    "document_id": "doc_c60fdeb47c691cd7",
+    "source_reaction_id": "Table 1 entry 12",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c60fdeb47c691cd7:page1:text",
+      "doc_c60fdeb47c691cd7:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "reactant_1df",
+        "role": "reactant",
+        "label": {
+          "value": "1df",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "reaction_scale",
+            "fact": {
+              "value": {
+                "minimum": 0.15,
+                "maximum": 0.25,
+                "unit": "mmol",
+                "raw_text": "0.15–0.25 mmol"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_2df",
+        "role": "product",
+        "label": {
+          "value": "2df",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_cyclization",
+        "participant_ids": [
+          "reactant_1df",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 100,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "xylene",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "argon",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 48,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_2df"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_2df"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 12; substituent identities are encoded by the displayed substrate/product labels and drawings.",
+        "evidence_ids": [
+          "doc_c60fdeb47c691cd7:page1:text",
+          "doc_c60fdeb47c691cd7:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis, workup, and purification are not reported in the supplied main-text pages.",
+        "The complex displayed structures of 1df and 2df were not transcribed to SMILES by the machine record.",
+        "Supporting Information is mentioned but was not supplied or associated."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c60fdeb47c691cd7:table1_entry_13",
+    "document_id": "doc_c60fdeb47c691cd7",
+    "source_reaction_id": "Table 1 entry 13",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c60fdeb47c691cd7:page1:text",
+      "doc_c60fdeb47c691cd7:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "reactant_1ea",
+        "role": "reactant",
+        "label": {
+          "value": "1ea",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "reaction_scale",
+            "fact": {
+              "value": {
+                "minimum": 0.15,
+                "maximum": 0.25,
+                "unit": "mmol",
+                "raw_text": "0.15–0.25 mmol"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_2ea",
+        "role": "product",
+        "label": {
+          "value": "2ea",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_cyclization",
+        "participant_ids": [
+          "reactant_1ea",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 100,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "xylene",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "argon",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 84,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_2ea"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_2ea"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 13; substituent identities are encoded by the displayed substrate/product labels and drawings.",
+        "evidence_ids": [
+          "doc_c60fdeb47c691cd7:page1:text",
+          "doc_c60fdeb47c691cd7:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis, workup, and purification are not reported in the supplied main-text pages.",
+        "The complex displayed structures of 1ea and 2ea were not transcribed to SMILES by the machine record.",
+        "Supporting Information is mentioned but was not supplied or associated."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c60fdeb47c691cd7:table1_entry_14",
+    "document_id": "doc_c60fdeb47c691cd7",
+    "source_reaction_id": "Table 1 entry 14",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c60fdeb47c691cd7:page1:text",
+      "doc_c60fdeb47c691cd7:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "reactant_1ec",
+        "role": "reactant",
+        "label": {
+          "value": "1ec",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "reaction_scale",
+            "fact": {
+              "value": {
+                "minimum": 0.15,
+                "maximum": 0.25,
+                "unit": "mmol",
+                "raw_text": "0.15–0.25 mmol"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_2ec",
+        "role": "product",
+        "label": {
+          "value": "2ec",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_cyclization",
+        "participant_ids": [
+          "reactant_1ec",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 100,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "xylene",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "argon",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 89,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_2ec"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_2ec"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 14; substituent identities are encoded by the displayed substrate/product labels and drawings.",
+        "evidence_ids": [
+          "doc_c60fdeb47c691cd7:page1:text",
+          "doc_c60fdeb47c691cd7:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis, workup, and purification are not reported in the supplied main-text pages.",
+        "The complex displayed structures of 1ec and 2ec were not transcribed to SMILES by the machine record.",
+        "Supporting Information is mentioned but was not supplied or associated."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c60fdeb47c691cd7:table1_entry_15",
+    "document_id": "doc_c60fdeb47c691cd7",
+    "source_reaction_id": "Table 1 entry 15",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c60fdeb47c691cd7:page1:text",
+      "doc_c60fdeb47c691cd7:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "reactant_1f",
+        "role": "reactant",
+        "label": {
+          "value": "1f",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "reaction_scale",
+            "fact": {
+              "value": {
+                "minimum": 0.15,
+                "maximum": 0.25,
+                "unit": "mmol",
+                "raw_text": "0.15–0.25 mmol"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_2f",
+        "role": "product",
+        "label": {
+          "value": "2f",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_cyclization",
+        "participant_ids": [
+          "reactant_1f",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 90,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "xylene",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "argon",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 56,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_2f"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_2f"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 15; substituent identities are encoded by the displayed substrate/product labels and drawings.",
+        "evidence_ids": [
+          "doc_c60fdeb47c691cd7:page1:text",
+          "doc_c60fdeb47c691cd7:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Yield measurement basis, workup, and purification are not reported in the supplied main-text pages.",
+        "The complex displayed structures of 1f and 2f were not transcribed to SMILES by the machine record.",
+        "Supporting Information is mentioned but was not supplied or associated."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c60fdeb47c691cd7:scheme2_1f_plus_3",
+    "document_id": "doc_c60fdeb47c691cd7",
+    "source_reaction_id": "Scheme 2: 1f + 3",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c60fdeb47c691cd7:page1:text",
+      "doc_c60fdeb47c691cd7:page1:image",
+      "doc_c60fdeb47c691cd7:page2:text",
+      "doc_c60fdeb47c691cd7:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "reactant_1f",
+        "role": "reactant",
+        "label": {
+          "value": "1f",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image",
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "dienophile_3",
+        "role": "reagent",
+        "label": {
+          "value": "3",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image",
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N-ethylmaleimide",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image",
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCN1C(=O)C=CC1=O",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image",
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image",
+                "doc_c60fdeb47c691cd7:page2:text",
+                "doc_c60fdeb47c691cd7:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image",
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_2f",
+        "role": "product",
+        "label": {
+          "value": "2f",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image",
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_4f",
+        "role": "product",
+        "label": {
+          "value": "4f",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image",
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "mechanistic_probe",
+        "participant_ids": [
+          "reactant_1f",
+          "dienophile_3",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 55,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image",
+                "doc_c60fdeb47c691cd7:page2:text",
+                "doc_c60fdeb47c691cd7:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 24,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image",
+                "doc_c60fdeb47c691cd7:page2:text",
+                "doc_c60fdeb47c691cd7:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "xylene",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image",
+                "doc_c60fdeb47c691cd7:page2:text",
+                "doc_c60fdeb47c691cd7:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 48,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image",
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_2f"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_2f"
+        ]
+      },
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 26,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image",
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_4f"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_4f"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 2 mechanistic control experiment. The product percentages are reported on the scheme.",
+        "evidence_ids": [
+          "doc_c60fdeb47c691cd7:page1:text",
+          "doc_c60fdeb47c691cd7:page1:image",
+          "doc_c60fdeb47c691cd7:page2:text",
+          "doc_c60fdeb47c691cd7:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reaction scale, xylene volume, atmosphere, yield measurement basis, workup, and purification are not reported in the supplied main-text pages.",
+        "Only dienophile 3 received a machine-transcribed candidate SMILES; all structures remain unverified.",
+        "Supporting Information is mentioned but was not supplied or associated."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c60fdeb47c691cd7:scheme2_2f_plus_3",
+    "document_id": "doc_c60fdeb47c691cd7",
+    "source_reaction_id": "Scheme 2: 2f + 3",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c60fdeb47c691cd7:page1:text",
+      "doc_c60fdeb47c691cd7:page1:image",
+      "doc_c60fdeb47c691cd7:page2:text",
+      "doc_c60fdeb47c691cd7:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "reactant_2f",
+        "role": "reactant",
+        "label": {
+          "value": "2f",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image",
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "dienophile_3",
+        "role": "reagent",
+        "label": {
+          "value": "3",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image",
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N-ethylmaleimide",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image",
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCN1C(=O)C=CC1=O",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image",
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image",
+                "doc_c60fdeb47c691cd7:page2:text",
+                "doc_c60fdeb47c691cd7:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image",
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_4f",
+        "role": "product",
+        "label": {
+          "value": "4f",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image",
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "mechanistic_probe",
+        "participant_ids": [
+          "reactant_2f",
+          "dienophile_3",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 55,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image",
+                "doc_c60fdeb47c691cd7:page2:text",
+                "doc_c60fdeb47c691cd7:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 24,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image",
+                "doc_c60fdeb47c691cd7:page2:text",
+                "doc_c60fdeb47c691cd7:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "xylene",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image",
+                "doc_c60fdeb47c691cd7:page2:text",
+                "doc_c60fdeb47c691cd7:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 53,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image",
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_4f"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_4f"
+        ]
+      },
+      {
+        "name": "starting_material_recovery",
+        "fact": {
+          "value": {
+            "number": 28,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image",
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "reactant_2f"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 2 mechanistic control experiment. The product percentages are reported on the scheme.",
+        "evidence_ids": [
+          "doc_c60fdeb47c691cd7:page1:text",
+          "doc_c60fdeb47c691cd7:page1:image",
+          "doc_c60fdeb47c691cd7:page2:text",
+          "doc_c60fdeb47c691cd7:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reaction scale, xylene volume, atmosphere, yield measurement basis, workup, and purification are not reported in the supplied main-text pages.",
+        "Only dienophile 3 received a machine-transcribed candidate SMILES; all structures remain unverified.",
+        "Supporting Information is mentioned but was not supplied or associated."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c60fdeb47c691cd7:scheme2_1g_plus_3",
+    "document_id": "doc_c60fdeb47c691cd7",
+    "source_reaction_id": "Scheme 2: 1g + 3",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c60fdeb47c691cd7:page1:text",
+      "doc_c60fdeb47c691cd7:page1:image",
+      "doc_c60fdeb47c691cd7:page2:text",
+      "doc_c60fdeb47c691cd7:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "reactant_1g",
+        "role": "reactant",
+        "label": {
+          "value": "1g",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image",
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "dienophile_3",
+        "role": "reagent",
+        "label": {
+          "value": "3",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image",
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N-ethylmaleimide",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image",
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCN1C(=O)C=CC1=O",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image",
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image",
+                "doc_c60fdeb47c691cd7:page2:text",
+                "doc_c60fdeb47c691cd7:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image",
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_4g",
+        "role": "product",
+        "label": {
+          "value": "4g",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image",
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "mechanistic_probe",
+        "participant_ids": [
+          "reactant_1g",
+          "dienophile_3",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 55,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image",
+                "doc_c60fdeb47c691cd7:page2:text",
+                "doc_c60fdeb47c691cd7:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 21.5,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image",
+                "doc_c60fdeb47c691cd7:page2:text",
+                "doc_c60fdeb47c691cd7:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "xylene",
+              "evidence_ids": [
+                "doc_c60fdeb47c691cd7:page1:text",
+                "doc_c60fdeb47c691cd7:page1:image",
+                "doc_c60fdeb47c691cd7:page2:text",
+                "doc_c60fdeb47c691cd7:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 77,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page1:text",
+            "doc_c60fdeb47c691cd7:page1:image",
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_4g"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_4g"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 2 mechanistic control experiment. The product percentages are reported on the scheme.",
+        "evidence_ids": [
+          "doc_c60fdeb47c691cd7:page1:text",
+          "doc_c60fdeb47c691cd7:page1:image",
+          "doc_c60fdeb47c691cd7:page2:text",
+          "doc_c60fdeb47c691cd7:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reaction scale, xylene volume, atmosphere, yield measurement basis, workup, and purification are not reported in the supplied main-text pages.",
+        "Only dienophile 3 received a machine-transcribed candidate SMILES; all structures remain unverified.",
+        "Supporting Information is mentioned but was not supplied or associated."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c60fdeb47c691cd7:scheme3_plausible_mechanism",
+    "document_id": "doc_c60fdeb47c691cd7",
+    "source_reaction_id": "Scheme 3",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c60fdeb47c691cd7:page2:text",
+      "doc_c60fdeb47c691cd7:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "mechanism_1f",
+        "role": "reactant",
+        "label": {
+          "value": "1f",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "mechanism_6",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "6",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "mechanism_5",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "5",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "mechanism_7",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "7",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "mechanism_2f",
+        "role": "product",
+        "label": {
+          "value": "2f",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "mechanism_3",
+        "role": "reagent",
+        "label": {
+          "value": "3",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N-ethylmaleimide",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCN1C(=O)C=CC1=O",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "mechanism_4f",
+        "role": "product",
+        "label": {
+          "value": "4f",
+          "evidence_ids": [
+            "doc_c60fdeb47c691cd7:page2:text",
+            "doc_c60fdeb47c691cd7:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [],
+    "outcomes": [],
+    "notes": [
+      {
+        "value": "Plausible pathway A: 1f undergoes thermal [2+2] cycloaddition to 6, [1,5]-H migration to 5, and electrocyclic rearrangement to 2f.",
+        "evidence_ids": [
+          "doc_c60fdeb47c691cd7:page2:text",
+          "doc_c60fdeb47c691cd7:page2:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Plausible pathway B: 1f undergoes 1,5-H shift to tetraene 7 followed by 8π-electrocyclization to 2f.",
+        "evidence_ids": [
+          "doc_c60fdeb47c691cd7:page2:text",
+          "doc_c60fdeb47c691cd7:page2:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "In the presence of dienophile 3, proposed intermediate 5 may undergo Diels–Alder reaction to afford 4f.",
+        "evidence_ids": [
+          "doc_c60fdeb47c691cd7:page2:text",
+          "doc_c60fdeb47c691cd7:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Scheme 3 is a proposed mechanism, not an independently reported experimental procedure.",
+        "Structures of intermediates 5, 6, and 7 were not transcribed to SMILES by the machine record."
+      ]
+    }
+  }
+]

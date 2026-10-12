@@ -1,0 +1,6571 @@
+[
+  {
+    "record_id": "doc_cda73facc6ef4831:thermal_6a_to_7a",
+    "document_id": "doc_cda73facc6ef4831",
+    "source_reaction_id": "Table1-6a",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cda73facc6ef4831:page2:text",
+      "doc_cda73facc6ef4831:page2:image",
+      "doc_cda73facc6ef4831:page3:text",
+      "doc_cda73facc6ef4831:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_6a",
+        "role": "reactant",
+        "label": {
+          "value": "6a",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image",
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": "C=C=CCN(CC=C=C)S(=O)(=O)c1ccc(C)cc1",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image",
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 145,
+                "unit": "mg",
+                "raw_text": "145 mg"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.53,
+                "unit": "mmol",
+                "raw_text": "0.53 mmol"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_7a",
+        "role": "product",
+        "label": {
+          "value": "7a",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image",
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 62,
+                "unit": "mg",
+                "raw_text": "62 mg"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image",
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image",
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 12,
+                "unit": "mL",
+                "raw_text": "12 mL"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_cycloaddition",
+        "participant_ids": [
+          "substrate_6a",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "substrate_concentration",
+            "fact": {
+              "value": {
+                "number": 0.04,
+                "unit": "M",
+                "raw_text": "0.04 M"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "reflux",
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 24,
+                "unit": "h",
+                "raw_text": "24 h"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "Ar",
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "dry xylene",
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "reaction_monitoring_and_concentration",
+        "participant_ids": [],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Reaction completion checked by TLC (petroleum ether/ethyl acetate 5:1), followed by rotary evaporation.",
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "purification",
+        "participant_ids": [
+          "product_7a"
+        ],
+        "conditions": [
+          {
+            "name": "purification",
+            "fact": {
+              "value": "Flash chromatography on silica gel (petroleum ether/diethyl ether 20:1).",
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 43,
+            "unit": "%",
+            "raw_text": "43%"
+          },
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_7a"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated product",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_7a"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 reports a thermal intramolecular [2+2] cycloaddition to a bicyclo[5.2.0] product.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page2:text",
+          "doc_cda73facc6ef4831:page2:image",
+          "doc_cda73facc6ef4831:page3:text",
+          "doc_cda73facc6ef4831:page3:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "General procedure I identifies 7a as a liquid and supplies characterization data, retained in the source but not transcribed as reaction conditions.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page2:text",
+          "doc_cda73facc6ef4831:page2:image",
+          "doc_cda73facc6ef4831:page3:text",
+          "doc_cda73facc6ef4831:page3:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "No explicitly associated supporting information was supplied; additional experimental details may be absent.",
+        "The substrate/product drawing requires independent structure review; a missing SMILES is intentional where exact machine transcription was not reliable."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cda73facc6ef4831:thermal_6b_to_7b",
+    "document_id": "doc_cda73facc6ef4831",
+    "source_reaction_id": "Table1-6b",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cda73facc6ef4831:page2:text",
+      "doc_cda73facc6ef4831:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_6b",
+        "role": "reactant",
+        "label": {
+          "value": "6b",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": "C=C=CCC(CC=C=C)(S(=O)(=O)c1ccccc1)S(=O)(=O)c1ccccc1",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_7b",
+        "role": "product",
+        "label": {
+          "value": "7b",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_cycloaddition",
+        "participant_ids": [
+          "substrate_6b",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "substrate_concentration",
+            "fact": {
+              "value": {
+                "number": 0.04,
+                "unit": "M",
+                "raw_text": "0.04 M"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "reflux",
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 3,
+                "unit": "h",
+                "raw_text": "3 h"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 61,
+            "unit": "%",
+            "raw_text": "61%"
+          },
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_7b"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated product",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_7b"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 reports a thermal intramolecular [2+2] cycloaddition to a bicyclo[5.2.0] product.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page2:text",
+          "doc_cda73facc6ef4831:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "No explicitly associated supporting information was supplied; additional experimental details may be absent.",
+        "The substrate/product drawing requires independent structure review; a missing SMILES is intentional where exact machine transcription was not reliable."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cda73facc6ef4831:thermal_6c_to_7c",
+    "document_id": "doc_cda73facc6ef4831",
+    "source_reaction_id": "Table1-6c",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cda73facc6ef4831:page2:text",
+      "doc_cda73facc6ef4831:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_6c",
+        "role": "reactant",
+        "label": {
+          "value": "6c",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": "C=C=CCC(CC=C=C)(C(=O)OCC)C(=O)OCC",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_7c",
+        "role": "product",
+        "label": {
+          "value": "7c",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_cycloaddition",
+        "participant_ids": [
+          "substrate_6c",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "substrate_concentration",
+            "fact": {
+              "value": {
+                "number": 0.04,
+                "unit": "M",
+                "raw_text": "0.04 M"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "reflux",
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 46,
+                "unit": "h",
+                "raw_text": "46 h"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 38,
+            "unit": "%",
+            "raw_text": "38%"
+          },
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_7c"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated product",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_7c"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 reports a thermal intramolecular [2+2] cycloaddition to a bicyclo[5.2.0] product.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page2:text",
+          "doc_cda73facc6ef4831:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "No explicitly associated supporting information was supplied; additional experimental details may be absent.",
+        "The substrate/product drawing requires independent structure review; a missing SMILES is intentional where exact machine transcription was not reliable."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cda73facc6ef4831:thermal_6d_to_7d",
+    "document_id": "doc_cda73facc6ef4831",
+    "source_reaction_id": "Table1-6d",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cda73facc6ef4831:page2:text",
+      "doc_cda73facc6ef4831:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_6d",
+        "role": "reactant",
+        "label": {
+          "value": "6d",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": "C=C=CCC(CC=C=C)(S(=O)(=O)c1ccccc1)C(=O)OC",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_7d",
+        "role": "product",
+        "label": {
+          "value": "7d",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_cycloaddition",
+        "participant_ids": [
+          "substrate_6d",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "substrate_concentration",
+            "fact": {
+              "value": {
+                "number": 0.04,
+                "unit": "M",
+                "raw_text": "0.04 M"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "reflux",
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 8,
+                "unit": "h",
+                "raw_text": "8 h"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 61,
+            "unit": "%",
+            "raw_text": "61%"
+          },
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_7d"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated product",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_7d"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 reports a thermal intramolecular [2+2] cycloaddition to a bicyclo[5.2.0] product.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page2:text",
+          "doc_cda73facc6ef4831:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "No explicitly associated supporting information was supplied; additional experimental details may be absent.",
+        "The substrate/product drawing requires independent structure review; a missing SMILES is intentional where exact machine transcription was not reliable."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cda73facc6ef4831:thermal_6e_to_7e",
+    "document_id": "doc_cda73facc6ef4831",
+    "source_reaction_id": "Table1-6e",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cda73facc6ef4831:page2:text",
+      "doc_cda73facc6ef4831:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_6e",
+        "role": "reactant",
+        "label": {
+          "value": "6e",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_7e",
+        "role": "product",
+        "label": {
+          "value": "7e",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_cycloaddition",
+        "participant_ids": [
+          "substrate_6e",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "substrate_concentration",
+            "fact": {
+              "value": {
+                "number": 0.04,
+                "unit": "M",
+                "raw_text": "0.04 M"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "reflux",
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 1.5,
+                "unit": "h",
+                "raw_text": "1.5 h"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 69,
+            "unit": "%",
+            "raw_text": "69%"
+          },
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_7e"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated product",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_7e"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 reports a thermal intramolecular [2+2] cycloaddition to a bicyclo[5.2.0] product.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page2:text",
+          "doc_cda73facc6ef4831:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "No explicitly associated supporting information was supplied; additional experimental details may be absent.",
+        "The substrate/product drawing requires independent structure review; a missing SMILES is intentional where exact machine transcription was not reliable."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cda73facc6ef4831:thermal_6f_to_7f",
+    "document_id": "doc_cda73facc6ef4831",
+    "source_reaction_id": "Table1-6f",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cda73facc6ef4831:page2:text",
+      "doc_cda73facc6ef4831:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_6f",
+        "role": "reactant",
+        "label": {
+          "value": "6f",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_7f",
+        "role": "product",
+        "label": {
+          "value": "7f",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_cycloaddition",
+        "participant_ids": [
+          "substrate_6f",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "substrate_concentration",
+            "fact": {
+              "value": {
+                "number": 0.04,
+                "unit": "M",
+                "raw_text": "0.04 M"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "reflux",
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "h",
+                "raw_text": "1 h"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 74,
+            "unit": "%",
+            "raw_text": "74%"
+          },
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_7f"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated product",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_7f"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 reports a thermal intramolecular [2+2] cycloaddition to a bicyclo[5.2.0] product.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page2:text",
+          "doc_cda73facc6ef4831:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "No explicitly associated supporting information was supplied; additional experimental details may be absent.",
+        "The substrate/product drawing requires independent structure review; a missing SMILES is intentional where exact machine transcription was not reliable."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cda73facc6ef4831:thermal_6g_to_7g",
+    "document_id": "doc_cda73facc6ef4831",
+    "source_reaction_id": "Table1-6g",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cda73facc6ef4831:page2:text",
+      "doc_cda73facc6ef4831:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_6g",
+        "role": "reactant",
+        "label": {
+          "value": "6g",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_7g",
+        "role": "product",
+        "label": {
+          "value": "7g",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_cycloaddition",
+        "participant_ids": [
+          "substrate_6g",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "substrate_concentration",
+            "fact": {
+              "value": {
+                "number": 0.04,
+                "unit": "M",
+                "raw_text": "0.04 M"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "reflux",
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "h",
+                "raw_text": "10 h"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 56,
+            "unit": "%",
+            "raw_text": "56%"
+          },
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_7g"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated product",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_7g"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 reports a thermal intramolecular [2+2] cycloaddition to a bicyclo[5.2.0] product.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page2:text",
+          "doc_cda73facc6ef4831:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "No explicitly associated supporting information was supplied; additional experimental details may be absent.",
+        "The substrate/product drawing requires independent structure review; a missing SMILES is intentional where exact machine transcription was not reliable."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cda73facc6ef4831:thermal_6h_to_7h",
+    "document_id": "doc_cda73facc6ef4831",
+    "source_reaction_id": "Table1-6h",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cda73facc6ef4831:page2:text",
+      "doc_cda73facc6ef4831:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_6h",
+        "role": "reactant",
+        "label": {
+          "value": "6h",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_7h",
+        "role": "product",
+        "label": {
+          "value": "7h",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_cycloaddition",
+        "participant_ids": [
+          "substrate_6h",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "substrate_concentration",
+            "fact": {
+              "value": {
+                "number": 0.04,
+                "unit": "M",
+                "raw_text": "0.04 M"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "reflux",
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 24,
+                "unit": "h",
+                "raw_text": "24 h"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 70,
+            "unit": "%",
+            "raw_text": "70%"
+          },
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_7h"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated product",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_7h"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 reports a thermal intramolecular [2+2] cycloaddition to a bicyclo[5.2.0] product.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page2:text",
+          "doc_cda73facc6ef4831:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "No explicitly associated supporting information was supplied; additional experimental details may be absent.",
+        "The substrate/product drawing requires independent structure review; a missing SMILES is intentional where exact machine transcription was not reliable."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cda73facc6ef4831:thermal_6i_to_7i",
+    "document_id": "doc_cda73facc6ef4831",
+    "source_reaction_id": "Table1-6i",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cda73facc6ef4831:page2:text",
+      "doc_cda73facc6ef4831:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_6i",
+        "role": "reactant",
+        "label": {
+          "value": "6i",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_7i",
+        "role": "product",
+        "label": {
+          "value": "7i",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_cycloaddition",
+        "participant_ids": [
+          "substrate_6i",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "substrate_concentration",
+            "fact": {
+              "value": {
+                "number": 0.04,
+                "unit": "M",
+                "raw_text": "0.04 M"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "reflux",
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "h",
+                "raw_text": "6 h"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 69,
+            "unit": "%",
+            "raw_text": "69%"
+          },
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_7i"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated product",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_7i"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 reports a thermal intramolecular [2+2] cycloaddition to a bicyclo[5.2.0] product.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page2:text",
+          "doc_cda73facc6ef4831:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "No explicitly associated supporting information was supplied; additional experimental details may be absent.",
+        "The substrate/product drawing requires independent structure review; a missing SMILES is intentional where exact machine transcription was not reliable."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cda73facc6ef4831:thermal_6j_to_7j",
+    "document_id": "doc_cda73facc6ef4831",
+    "source_reaction_id": "Table1-6j",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cda73facc6ef4831:page2:text",
+      "doc_cda73facc6ef4831:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_6j",
+        "role": "reactant",
+        "label": {
+          "value": "6j",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_7j",
+        "role": "product",
+        "label": {
+          "value": "7j",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_cycloaddition",
+        "participant_ids": [
+          "substrate_6j",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "substrate_concentration",
+            "fact": {
+              "value": {
+                "number": 0.04,
+                "unit": "M",
+                "raw_text": "0.04 M"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "reflux",
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "h",
+                "raw_text": "5 h"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 70,
+            "unit": "%",
+            "raw_text": "70%"
+          },
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_7j"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated product",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_7j"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 reports a thermal intramolecular [2+2] cycloaddition to a bicyclo[5.2.0] product.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page2:text",
+          "doc_cda73facc6ef4831:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "No explicitly associated supporting information was supplied; additional experimental details may be absent.",
+        "The substrate/product drawing requires independent structure review; a missing SMILES is intentional where exact machine transcription was not reliable."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cda73facc6ef4831:thermal_6k_to_7k",
+    "document_id": "doc_cda73facc6ef4831",
+    "source_reaction_id": "Table1-6k",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cda73facc6ef4831:page2:text",
+      "doc_cda73facc6ef4831:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_6k",
+        "role": "reactant",
+        "label": {
+          "value": "6k",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_7k",
+        "role": "product",
+        "label": {
+          "value": "7k",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_cycloaddition",
+        "participant_ids": [
+          "substrate_6k",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "substrate_concentration",
+            "fact": {
+              "value": {
+                "number": 0.04,
+                "unit": "M",
+                "raw_text": "0.04 M"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "reflux",
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 0.5,
+                "unit": "h",
+                "raw_text": "0.5 h"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 78,
+            "unit": "%",
+            "raw_text": "78%"
+          },
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_7k"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated product",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_7k"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 reports a thermal intramolecular [2+2] cycloaddition to a bicyclo[5.2.0] product.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page2:text",
+          "doc_cda73facc6ef4831:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "No explicitly associated supporting information was supplied; additional experimental details may be absent.",
+        "The substrate/product drawing requires independent structure review; a missing SMILES is intentional where exact machine transcription was not reliable."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cda73facc6ef4831:pd_optimization_entry_1",
+    "document_id": "doc_cda73facc6ef4831",
+    "source_reaction_id": "Table2-entry1",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cda73facc6ef4831:page1:text",
+      "doc_cda73facc6ef4831:page1:image",
+      "doc_cda73facc6ef4831:page2:text",
+      "doc_cda73facc6ef4831:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_6a",
+        "role": "reactant",
+        "label": {
+          "value": "6a",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": "C=C=CCN(CC=C=C)S(=O)(=O)c1ccc(C)cc1",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "target_product_8a",
+        "role": "product",
+        "label": {
+          "value": "8a",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "catalyst_pdpph3_4",
+        "role": "catalyst",
+        "label": {
+          "value": "[Pd(PPh3)4]",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrakis(triphenylphosphine)palladium(0)",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%",
+                "raw_text": "10 mol%"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent_toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "pd_cycloaddition_screen",
+        "participant_ids": [
+          "substrate_6a",
+          "catalyst_pdpph3_4",
+          "solvent_toluene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "minimum": 80,
+                "maximum": 85,
+                "unit": "°C",
+                "raw_text": "80–85 °C"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 8,
+                "unit": "h",
+                "raw_text": "8 h"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": "n.r.",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "target_product_8a"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 2 explicitly reports no added base for this entry.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page1:text",
+          "doc_cda73facc6ef4831:page1:image",
+          "doc_cda73facc6ef4831:page2:text",
+          "doc_cda73facc6ef4831:page2:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Table 2 explicitly reports no added additive for this entry.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page1:text",
+          "doc_cda73facc6ef4831:page1:image",
+          "doc_cda73facc6ef4831:page2:text",
+          "doc_cda73facc6ef4831:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "No explicitly associated supporting information was supplied.",
+        "Exact substrate scale and workup are not reported for this optimization entry."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cda73facc6ef4831:pd_optimization_entry_2",
+    "document_id": "doc_cda73facc6ef4831",
+    "source_reaction_id": "Table2-entry2",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cda73facc6ef4831:page1:text",
+      "doc_cda73facc6ef4831:page1:image",
+      "doc_cda73facc6ef4831:page2:text",
+      "doc_cda73facc6ef4831:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_6a",
+        "role": "reactant",
+        "label": {
+          "value": "6a",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": "C=C=CCN(CC=C=C)S(=O)(=O)c1ccc(C)cc1",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "target_product_8a",
+        "role": "product",
+        "label": {
+          "value": "8a",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "catalyst_pdpph3_4",
+        "role": "catalyst",
+        "label": {
+          "value": "[Pd(PPh3)4]",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrakis(triphenylphosphine)palladium(0)",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%",
+                "raw_text": "10 mol%"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "base_k2co3",
+        "role": "reagent",
+        "label": {
+          "value": "K2CO3",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "potassium carbonate",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[K+].[K+].[O-]C([O-])=O",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "equiv",
+                "raw_text": "4 equiv"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "pd_cycloaddition_screen",
+        "participant_ids": [
+          "substrate_6a",
+          "catalyst_pdpph3_4",
+          "base_k2co3",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "minimum": 80,
+                "maximum": 85,
+                "unit": "°C",
+                "raw_text": "80–85 °C"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "h",
+                "raw_text": "4 h"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": "trace",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "target_product_8a"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "trace amount determined by 1H NMR analysis of the crude reaction mixture",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "target_product_8a"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 2 explicitly reports no added additive for this entry.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page1:text",
+          "doc_cda73facc6ef4831:page1:image",
+          "doc_cda73facc6ef4831:page2:text",
+          "doc_cda73facc6ef4831:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "No explicitly associated supporting information was supplied.",
+        "Exact substrate scale and workup are not reported for this optimization entry."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cda73facc6ef4831:pd_optimization_entry_3",
+    "document_id": "doc_cda73facc6ef4831",
+    "source_reaction_id": "Table2-entry3",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cda73facc6ef4831:page1:text",
+      "doc_cda73facc6ef4831:page1:image",
+      "doc_cda73facc6ef4831:page2:text",
+      "doc_cda73facc6ef4831:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_6a",
+        "role": "reactant",
+        "label": {
+          "value": "6a",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": "C=C=CCN(CC=C=C)S(=O)(=O)c1ccc(C)cc1",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "target_product_8a",
+        "role": "product",
+        "label": {
+          "value": "8a",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "catalyst_pdpph3_4",
+        "role": "catalyst",
+        "label": {
+          "value": "[Pd(PPh3)4]",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrakis(triphenylphosphine)palladium(0)",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%",
+                "raw_text": "10 mol%"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "additive_nbu4ni",
+        "role": "reagent",
+        "label": {
+          "value": "nBu4NI",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrabutylammonium iodide",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCCC[N+](CCCC)(CCCC)CCCC.[I-]",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "equiv",
+                "raw_text": "2 equiv"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent_xylene",
+        "role": "solvent",
+        "label": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "xylene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "pd_cycloaddition_screen",
+        "participant_ids": [
+          "substrate_6a",
+          "catalyst_pdpph3_4",
+          "additive_nbu4ni",
+          "solvent_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "minimum": 80,
+                "maximum": 85,
+                "unit": "°C",
+                "raw_text": "80–85 °C"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "h",
+                "raw_text": "10 h"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": "n.r.",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "target_product_8a"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 2 explicitly reports no added base for this entry.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page1:text",
+          "doc_cda73facc6ef4831:page1:image",
+          "doc_cda73facc6ef4831:page2:text",
+          "doc_cda73facc6ef4831:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "No explicitly associated supporting information was supplied.",
+        "Exact substrate scale and workup are not reported for this optimization entry."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cda73facc6ef4831:pd_optimization_entry_4",
+    "document_id": "doc_cda73facc6ef4831",
+    "source_reaction_id": "Table2-entry4",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cda73facc6ef4831:page1:text",
+      "doc_cda73facc6ef4831:page1:image",
+      "doc_cda73facc6ef4831:page2:text",
+      "doc_cda73facc6ef4831:page2:image",
+      "doc_cda73facc6ef4831:page3:text",
+      "doc_cda73facc6ef4831:page3:image",
+      "doc_cda73facc6ef4831:page4:text",
+      "doc_cda73facc6ef4831:page4:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_6a",
+        "role": "reactant",
+        "label": {
+          "value": "6a",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": "C=C=CCN(CC=C=C)S(=O)(=O)c1ccc(C)cc1",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 140,
+                "unit": "mg",
+                "raw_text": "140 mg"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page4:text",
+                "doc_cda73facc6ef4831:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.51,
+                "unit": "mmol",
+                "raw_text": "0.51 mmol"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page4:text",
+                "doc_cda73facc6ef4831:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "target_product_8a",
+        "role": "product",
+        "label": {
+          "value": "8a",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 82,
+                "unit": "mg",
+                "raw_text": "82 mg"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page4:text",
+                "doc_cda73facc6ef4831:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "catalyst_pdpph3_4",
+        "role": "catalyst",
+        "label": {
+          "value": "[Pd(PPh3)4]",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrakis(triphenylphosphine)palladium(0)",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%",
+                "raw_text": "5 mol%"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 27,
+                "unit": "mg",
+                "raw_text": "27 mg"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page4:text",
+                "doc_cda73facc6ef4831:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.023,
+                "unit": "mmol",
+                "raw_text": "0.023 mmol"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page4:text",
+                "doc_cda73facc6ef4831:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "base_k2co3",
+        "role": "reagent",
+        "label": {
+          "value": "K2CO3",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "potassium carbonate",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[K+].[K+].[O-]C([O-])=O",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "equiv",
+                "raw_text": "4 equiv"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 281,
+                "unit": "mg",
+                "raw_text": "281 mg"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page4:text",
+                "doc_cda73facc6ef4831:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 2.04,
+                "unit": "mmol",
+                "raw_text": "2.04 mmol"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page4:text",
+                "doc_cda73facc6ef4831:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "additive_nbu4ni",
+        "role": "reagent",
+        "label": {
+          "value": "nBu4NI",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrabutylammonium iodide",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCCC[N+](CCCC)(CCCC)CCCC.[I-]",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "equiv",
+                "raw_text": "2 equiv"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 369,
+                "unit": "mg",
+                "raw_text": "369 mg"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page4:text",
+                "doc_cda73facc6ef4831:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mmol",
+                "raw_text": "1 mmol"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page4:text",
+                "doc_cda73facc6ef4831:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent_toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mL",
+                "raw_text": "5 mL"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page4:text",
+                "doc_cda73facc6ef4831:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "pd_cycloaddition_screen",
+        "participant_ids": [
+          "substrate_6a",
+          "catalyst_pdpph3_4",
+          "base_k2co3",
+          "additive_nbu4ni",
+          "solvent_toluene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "minimum": 80,
+                "maximum": 85,
+                "unit": "°C",
+                "raw_text": "80–85 °C"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "h",
+                "raw_text": "4 h"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page2:text",
+                "doc_cda73facc6ef4831:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "operation",
+            "fact": {
+              "value": "K2CO3 and nBu4NI were added to a stirred solution of 6a and [Pd(PPh3)4] in dry toluene.",
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page4:text",
+                "doc_cda73facc6ef4831:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "reaction_monitoring_and_concentration",
+        "participant_ids": [],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Reaction completion checked by TLC (petroleum ether/ethyl acetate 5:1), followed by rotary evaporation.",
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page4:text",
+                "doc_cda73facc6ef4831:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "purification",
+        "participant_ids": [
+          "target_product_8a"
+        ],
+        "conditions": [
+          {
+            "name": "purification",
+            "fact": {
+              "value": "Flash chromatography on silica gel (petroleum ether/diethyl ether 20:1).",
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page4:text",
+                "doc_cda73facc6ef4831:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 59,
+            "unit": "%",
+            "raw_text": "59%"
+          },
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "target_product_8a"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated product",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image",
+            "doc_cda73facc6ef4831:page2:text",
+            "doc_cda73facc6ef4831:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "target_product_8a"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 2 entry 4, Table 3 row 6a, and General procedure II report the same 6a→8a experiment and are represented once with combined evidence.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page1:text",
+          "doc_cda73facc6ef4831:page1:image",
+          "doc_cda73facc6ef4831:page2:text",
+          "doc_cda73facc6ef4831:page2:image",
+          "doc_cda73facc6ef4831:page3:text",
+          "doc_cda73facc6ef4831:page3:image",
+          "doc_cda73facc6ef4831:page4:text",
+          "doc_cda73facc6ef4831:page4:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "No explicitly associated supporting information was supplied.",
+        "The product drawing requires independent structure review; SMILES was not assigned."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cda73facc6ef4831:pd_scope_6b_to_8b",
+    "document_id": "doc_cda73facc6ef4831",
+    "source_reaction_id": "Table3-6b",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cda73facc6ef4831:page3:text",
+      "doc_cda73facc6ef4831:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_6b",
+        "role": "reactant",
+        "label": {
+          "value": "6b",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": "C=C=CCC(CC=C=C)(S(=O)(=O)c1ccccc1)S(=O)(=O)c1ccccc1",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_8b",
+        "role": "product",
+        "label": {
+          "value": "8b",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "catalyst_pdpph3_4",
+        "role": "catalyst",
+        "label": {
+          "value": "[Pd(PPh3)4]",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrakis(triphenylphosphine)palladium(0)",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%",
+                "raw_text": "5 mol%"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "base_k2co3",
+        "role": "reagent",
+        "label": {
+          "value": "K2CO3",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "potassium carbonate",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[K+].[K+].[O-]C([O-])=O",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "equiv",
+                "raw_text": "4 equiv"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "additive_nbu4ni",
+        "role": "reagent",
+        "label": {
+          "value": "nBu4NI",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrabutylammonium iodide",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCCC[N+](CCCC)(CCCC)CCCC.[I-]",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "equiv",
+                "raw_text": "2 equiv"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent_toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "pd_cycloaddition",
+        "participant_ids": [
+          "substrate_6b",
+          "catalyst_pdpph3_4",
+          "base_k2co3",
+          "additive_nbu4ni",
+          "solvent_toluene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "minimum": 80,
+                "maximum": 85,
+                "unit": "°C",
+                "raw_text": "80–85 °C"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "h",
+                "raw_text": "4 h"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 62,
+            "unit": "%",
+            "raw_text": "62%"
+          },
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_8b"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated product",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_8b"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 3 reports an intramolecular Pd(0)-catalyzed [2+2] cycloaddition to a bicyclo[3.2.0] product.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page3:text",
+          "doc_cda73facc6ef4831:page3:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "No explicitly associated supporting information was supplied; substrate scale, workup, and purification are missing for this scope entry.",
+        "Substrate/product structures require independent review; missing product SMILES is intentional."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cda73facc6ef4831:pd_scope_6c_to_8c",
+    "document_id": "doc_cda73facc6ef4831",
+    "source_reaction_id": "Table3-6c",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cda73facc6ef4831:page3:text",
+      "doc_cda73facc6ef4831:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_6c",
+        "role": "reactant",
+        "label": {
+          "value": "6c",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": "C=C=CCC(CC=C=C)(C(=O)OCC)C(=O)OCC",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_8c",
+        "role": "product",
+        "label": {
+          "value": "8c",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "catalyst_pdpph3_4",
+        "role": "catalyst",
+        "label": {
+          "value": "[Pd(PPh3)4]",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrakis(triphenylphosphine)palladium(0)",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%",
+                "raw_text": "5 mol%"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "base_k2co3",
+        "role": "reagent",
+        "label": {
+          "value": "K2CO3",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "potassium carbonate",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[K+].[K+].[O-]C([O-])=O",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "equiv",
+                "raw_text": "4 equiv"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "additive_nbu4ni",
+        "role": "reagent",
+        "label": {
+          "value": "nBu4NI",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrabutylammonium iodide",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCCC[N+](CCCC)(CCCC)CCCC.[I-]",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "equiv",
+                "raw_text": "2 equiv"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent_toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "pd_cycloaddition",
+        "participant_ids": [
+          "substrate_6c",
+          "catalyst_pdpph3_4",
+          "base_k2co3",
+          "additive_nbu4ni",
+          "solvent_toluene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "minimum": 80,
+                "maximum": 85,
+                "unit": "°C",
+                "raw_text": "80–85 °C"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 19,
+                "unit": "h",
+                "raw_text": "19 h"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 45,
+            "unit": "%",
+            "raw_text": "45%"
+          },
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_8c"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated product",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_8c"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 3 reports an intramolecular Pd(0)-catalyzed [2+2] cycloaddition to a bicyclo[3.2.0] product.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page3:text",
+          "doc_cda73facc6ef4831:page3:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "No explicitly associated supporting information was supplied; substrate scale, workup, and purification are missing for this scope entry.",
+        "Substrate/product structures require independent review; missing product SMILES is intentional."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cda73facc6ef4831:pd_scope_6l_to_8l",
+    "document_id": "doc_cda73facc6ef4831",
+    "source_reaction_id": "Table3-6l",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cda73facc6ef4831:page3:text",
+      "doc_cda73facc6ef4831:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_6l",
+        "role": "reactant",
+        "label": {
+          "value": "6l",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_8l",
+        "role": "product",
+        "label": {
+          "value": "8l",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "catalyst_pdpph3_4",
+        "role": "catalyst",
+        "label": {
+          "value": "[Pd(PPh3)4]",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrakis(triphenylphosphine)palladium(0)",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%",
+                "raw_text": "5 mol%"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "base_k2co3",
+        "role": "reagent",
+        "label": {
+          "value": "K2CO3",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "potassium carbonate",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[K+].[K+].[O-]C([O-])=O",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "equiv",
+                "raw_text": "4 equiv"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "additive_nbu4ni",
+        "role": "reagent",
+        "label": {
+          "value": "nBu4NI",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrabutylammonium iodide",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCCC[N+](CCCC)(CCCC)CCCC.[I-]",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "equiv",
+                "raw_text": "2 equiv"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent_toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "pd_cycloaddition",
+        "participant_ids": [
+          "substrate_6l",
+          "catalyst_pdpph3_4",
+          "base_k2co3",
+          "additive_nbu4ni",
+          "solvent_toluene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "minimum": 80,
+                "maximum": 85,
+                "unit": "°C",
+                "raw_text": "80–85 °C"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 8,
+                "unit": "h",
+                "raw_text": "8 h"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 54,
+            "unit": "%",
+            "raw_text": "54%"
+          },
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_8l"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated product",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_8l"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 3 reports an intramolecular Pd(0)-catalyzed [2+2] cycloaddition to a bicyclo[3.2.0] product.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page3:text",
+          "doc_cda73facc6ef4831:page3:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "No explicitly associated supporting information was supplied; substrate scale, workup, and purification are missing for this scope entry.",
+        "Substrate/product structures require independent review; missing product SMILES is intentional."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cda73facc6ef4831:pd_scope_(S)-6m_to_8m",
+    "document_id": "doc_cda73facc6ef4831",
+    "source_reaction_id": "Table3-(S)-6m",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cda73facc6ef4831:page3:text",
+      "doc_cda73facc6ef4831:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_(S)-6m",
+        "role": "reactant",
+        "label": {
+          "value": "(S)-6m",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": "C=C=CCN(CC=C=C)[C@@H](C(=O)OCC)C(C)C",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_8m",
+        "role": "product",
+        "label": {
+          "value": "8m",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "catalyst_pdpph3_4",
+        "role": "catalyst",
+        "label": {
+          "value": "[Pd(PPh3)4]",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrakis(triphenylphosphine)palladium(0)",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%",
+                "raw_text": "10 mol%"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "base_k2co3",
+        "role": "reagent",
+        "label": {
+          "value": "K2CO3",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "potassium carbonate",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[K+].[K+].[O-]C([O-])=O",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "equiv",
+                "raw_text": "4 equiv"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "additive_nbu4ni",
+        "role": "reagent",
+        "label": {
+          "value": "nBu4NI",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrabutylammonium iodide",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCCC[N+](CCCC)(CCCC)CCCC.[I-]",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "equiv",
+                "raw_text": "2 equiv"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent_toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "pd_cycloaddition",
+        "participant_ids": [
+          "substrate_(S)-6m",
+          "catalyst_pdpph3_4",
+          "base_k2co3",
+          "additive_nbu4ni",
+          "solvent_toluene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "minimum": 80,
+                "maximum": 85,
+                "unit": "°C",
+                "raw_text": "80–85 °C"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "h",
+                "raw_text": "5 h"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 66,
+            "unit": "%",
+            "raw_text": "66%"
+          },
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_8m"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated product",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_8m"
+        ]
+      },
+      {
+        "name": "enantiomeric_excess",
+        "fact": {
+          "value": {
+            "number": 99,
+            "unit": "%",
+            "qualifier": "gt",
+            "raw_text": ">99% ee"
+          },
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_8m"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 3 reports an intramolecular Pd(0)-catalyzed [2+2] cycloaddition to a bicyclo[3.2.0] product.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page3:text",
+          "doc_cda73facc6ef4831:page3:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "No explicitly associated supporting information was supplied; substrate scale, workup, and purification are missing for this scope entry.",
+        "Substrate/product structures require independent review; missing product SMILES is intentional."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cda73facc6ef4831:pd_failed_6e",
+    "document_id": "doc_cda73facc6ef4831",
+    "source_reaction_id": "prose-failed-6e",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cda73facc6ef4831:page1:text",
+      "doc_cda73facc6ef4831:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_6e",
+        "role": "reactant",
+        "label": {
+          "value": "6e",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "expected_product_8e",
+        "role": "product",
+        "label": {
+          "value": "8e (expected)",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "pd_cycloaddition_attempt",
+        "participant_ids": [
+          "substrate_6e"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Attempted under the optimized Pd(0)-catalyzed [2+2] cycloaddition context described in the prose.",
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page1:text",
+                "doc_cda73facc6ef4831:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "expected_product_formation",
+        "fact": {
+          "value": "not obtained",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "expected_product_8e"
+        ]
+      },
+      {
+        "name": "other_regioisomers",
+        "fact": {
+          "value": "not observed",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "expected_product_8e"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The authors suggest steric effects and possible polymerization as explanations; these are interpretations, not measured outcomes.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page1:text",
+          "doc_cda73facc6ef4831:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Exact conditions, reaction time, analytical basis, conversion, and isolated material are not individually reported for this failed substrate.",
+        "The substrate and expected-product structures are cited only by labels in this record; SMILES is intentionally missing pending review."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cda73facc6ef4831:pd_failed_6f",
+    "document_id": "doc_cda73facc6ef4831",
+    "source_reaction_id": "prose-failed-6f",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cda73facc6ef4831:page1:text",
+      "doc_cda73facc6ef4831:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_6f",
+        "role": "reactant",
+        "label": {
+          "value": "6f",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "expected_product_8f",
+        "role": "product",
+        "label": {
+          "value": "8f (expected)",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "pd_cycloaddition_attempt",
+        "participant_ids": [
+          "substrate_6f"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Attempted under the optimized Pd(0)-catalyzed [2+2] cycloaddition context described in the prose.",
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page1:text",
+                "doc_cda73facc6ef4831:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "expected_product_formation",
+        "fact": {
+          "value": "not obtained",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "expected_product_8f"
+        ]
+      },
+      {
+        "name": "other_regioisomers",
+        "fact": {
+          "value": "not observed",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "expected_product_8f"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The authors suggest steric effects and possible polymerization as explanations; these are interpretations, not measured outcomes.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page1:text",
+          "doc_cda73facc6ef4831:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Exact conditions, reaction time, analytical basis, conversion, and isolated material are not individually reported for this failed substrate.",
+        "The substrate and expected-product structures are cited only by labels in this record; SMILES is intentionally missing pending review."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cda73facc6ef4831:pd_failed_6g",
+    "document_id": "doc_cda73facc6ef4831",
+    "source_reaction_id": "prose-failed-6g",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cda73facc6ef4831:page1:text",
+      "doc_cda73facc6ef4831:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_6g",
+        "role": "reactant",
+        "label": {
+          "value": "6g",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "expected_product_8g",
+        "role": "product",
+        "label": {
+          "value": "8g (expected)",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "pd_cycloaddition_attempt",
+        "participant_ids": [
+          "substrate_6g"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Attempted under the optimized Pd(0)-catalyzed [2+2] cycloaddition context described in the prose.",
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page1:text",
+                "doc_cda73facc6ef4831:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "expected_product_formation",
+        "fact": {
+          "value": "not obtained",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "expected_product_8g"
+        ]
+      },
+      {
+        "name": "other_regioisomers",
+        "fact": {
+          "value": "not observed",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "expected_product_8g"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The authors suggest steric effects and possible polymerization as explanations; these are interpretations, not measured outcomes.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page1:text",
+          "doc_cda73facc6ef4831:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Exact conditions, reaction time, analytical basis, conversion, and isolated material are not individually reported for this failed substrate.",
+        "The substrate and expected-product structures are cited only by labels in this record; SMILES is intentionally missing pending review."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cda73facc6ef4831:pd_failed_6h",
+    "document_id": "doc_cda73facc6ef4831",
+    "source_reaction_id": "prose-failed-6h",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cda73facc6ef4831:page1:text",
+      "doc_cda73facc6ef4831:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_6h",
+        "role": "reactant",
+        "label": {
+          "value": "6h",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "expected_product_8h",
+        "role": "product",
+        "label": {
+          "value": "8h (expected)",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "pd_cycloaddition_attempt",
+        "participant_ids": [
+          "substrate_6h"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Attempted under the optimized Pd(0)-catalyzed [2+2] cycloaddition context described in the prose.",
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page1:text",
+                "doc_cda73facc6ef4831:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "expected_product_formation",
+        "fact": {
+          "value": "not obtained",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "expected_product_8h"
+        ]
+      },
+      {
+        "name": "other_regioisomers",
+        "fact": {
+          "value": "not observed",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "expected_product_8h"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The authors suggest steric effects and possible polymerization as explanations; these are interpretations, not measured outcomes.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page1:text",
+          "doc_cda73facc6ef4831:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Exact conditions, reaction time, analytical basis, conversion, and isolated material are not individually reported for this failed substrate.",
+        "The substrate and expected-product structures are cited only by labels in this record; SMILES is intentionally missing pending review."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cda73facc6ef4831:pd_failed_6i",
+    "document_id": "doc_cda73facc6ef4831",
+    "source_reaction_id": "prose-failed-6i",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cda73facc6ef4831:page1:text",
+      "doc_cda73facc6ef4831:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_6i",
+        "role": "reactant",
+        "label": {
+          "value": "6i",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "expected_product_8i",
+        "role": "product",
+        "label": {
+          "value": "8i (expected)",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "pd_cycloaddition_attempt",
+        "participant_ids": [
+          "substrate_6i"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Attempted under the optimized Pd(0)-catalyzed [2+2] cycloaddition context described in the prose.",
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page1:text",
+                "doc_cda73facc6ef4831:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "expected_product_formation",
+        "fact": {
+          "value": "not obtained",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "expected_product_8i"
+        ]
+      },
+      {
+        "name": "other_regioisomers",
+        "fact": {
+          "value": "not observed",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "expected_product_8i"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The authors suggest steric effects and possible polymerization as explanations; these are interpretations, not measured outcomes.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page1:text",
+          "doc_cda73facc6ef4831:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Exact conditions, reaction time, analytical basis, conversion, and isolated material are not individually reported for this failed substrate.",
+        "The substrate and expected-product structures are cited only by labels in this record; SMILES is intentionally missing pending review."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cda73facc6ef4831:pd_failed_6j",
+    "document_id": "doc_cda73facc6ef4831",
+    "source_reaction_id": "prose-failed-6j",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cda73facc6ef4831:page1:text",
+      "doc_cda73facc6ef4831:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_6j",
+        "role": "reactant",
+        "label": {
+          "value": "6j",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "expected_product_8j",
+        "role": "product",
+        "label": {
+          "value": "8j (expected)",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "pd_cycloaddition_attempt",
+        "participant_ids": [
+          "substrate_6j"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Attempted under the optimized Pd(0)-catalyzed [2+2] cycloaddition context described in the prose.",
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page1:text",
+                "doc_cda73facc6ef4831:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "expected_product_formation",
+        "fact": {
+          "value": "not obtained",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "expected_product_8j"
+        ]
+      },
+      {
+        "name": "other_regioisomers",
+        "fact": {
+          "value": "not observed",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "expected_product_8j"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The authors suggest steric effects and possible polymerization as explanations; these are interpretations, not measured outcomes.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page1:text",
+          "doc_cda73facc6ef4831:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Exact conditions, reaction time, analytical basis, conversion, and isolated material are not individually reported for this failed substrate.",
+        "The substrate and expected-product structures are cited only by labels in this record; SMILES is intentionally missing pending review."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cda73facc6ef4831:pd_failed_6k",
+    "document_id": "doc_cda73facc6ef4831",
+    "source_reaction_id": "prose-failed-6k",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cda73facc6ef4831:page1:text",
+      "doc_cda73facc6ef4831:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_6k",
+        "role": "reactant",
+        "label": {
+          "value": "6k",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "expected_product_8k",
+        "role": "product",
+        "label": {
+          "value": "8k (expected)",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "pd_cycloaddition_attempt",
+        "participant_ids": [
+          "substrate_6k"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Attempted under the optimized Pd(0)-catalyzed [2+2] cycloaddition context described in the prose.",
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page1:text",
+                "doc_cda73facc6ef4831:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "expected_product_formation",
+        "fact": {
+          "value": "not obtained",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "expected_product_8k"
+        ]
+      },
+      {
+        "name": "other_regioisomers",
+        "fact": {
+          "value": "not observed",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page1:text",
+            "doc_cda73facc6ef4831:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "expected_product_8k"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The authors suggest steric effects and possible polymerization as explanations; these are interpretations, not measured outcomes.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page1:text",
+          "doc_cda73facc6ef4831:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Exact conditions, reaction time, analytical basis, conversion, and isolated material are not individually reported for this failed substrate.",
+        "The substrate and expected-product structures are cited only by labels in this record; SMILES is intentionally missing pending review."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cda73facc6ef4831:diels_alder_8n_npm_to_9n",
+    "document_id": "doc_cda73facc6ef4831",
+    "source_reaction_id": "Scheme2-GeneralProcedure-DA",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cda73facc6ef4831:page3:text",
+      "doc_cda73facc6ef4831:page3:image",
+      "doc_cda73facc6ef4831:page4:text",
+      "doc_cda73facc6ef4831:page4:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "reactant_8n",
+        "role": "reactant",
+        "label": {
+          "value": "8n",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image",
+            "doc_cda73facc6ef4831:page4:text",
+            "doc_cda73facc6ef4831:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 13,
+                "unit": "mg",
+                "raw_text": "13 mg"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page4:text",
+                "doc_cda73facc6ef4831:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.055,
+                "unit": "mmol",
+                "raw_text": "0.055 mmol"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page4:text",
+                "doc_cda73facc6ef4831:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "reactant_npm",
+        "role": "reactant",
+        "label": {
+          "value": "N-phenylmaleimide",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image",
+            "doc_cda73facc6ef4831:page4:text",
+            "doc_cda73facc6ef4831:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N-phenylmaleimide",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image",
+            "doc_cda73facc6ef4831:page4:text",
+            "doc_cda73facc6ef4831:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O=C1C=CC(=O)N1c1ccccc1",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image",
+            "doc_cda73facc6ef4831:page4:text",
+            "doc_cda73facc6ef4831:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 19,
+                "unit": "mg",
+                "raw_text": "19 mg"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page4:text",
+                "doc_cda73facc6ef4831:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.11,
+                "unit": "mmol",
+                "raw_text": "0.11 mmol"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page4:text",
+                "doc_cda73facc6ef4831:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "equiv",
+                "raw_text": "2 equiv"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page4:text",
+                "doc_cda73facc6ef4831:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent_toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image",
+            "doc_cda73facc6ef4831:page4:text",
+            "doc_cda73facc6ef4831:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image",
+            "doc_cda73facc6ef4831:page4:text",
+            "doc_cda73facc6ef4831:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image",
+            "doc_cda73facc6ef4831:page4:text",
+            "doc_cda73facc6ef4831:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "mL",
+                "raw_text": "2 mL"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page4:text",
+                "doc_cda73facc6ef4831:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_9na",
+        "role": "product",
+        "label": {
+          "value": "9na",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image",
+            "doc_cda73facc6ef4831:page4:text",
+            "doc_cda73facc6ef4831:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_9nb",
+        "role": "product",
+        "label": {
+          "value": "9nb",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image",
+            "doc_cda73facc6ef4831:page4:text",
+            "doc_cda73facc6ef4831:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "diels_alder",
+        "participant_ids": [
+          "reactant_8n",
+          "reactant_npm",
+          "solvent_toluene"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "dry toluene",
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page4:text",
+                "doc_cda73facc6ef4831:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "reflux",
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page3:text",
+                "doc_cda73facc6ef4831:page3:image",
+                "doc_cda73facc6ef4831:page4:text",
+                "doc_cda73facc6ef4831:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 8,
+                "unit": "h",
+                "raw_text": "8 h"
+              },
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page4:text",
+                "doc_cda73facc6ef4831:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "Ar",
+              "evidence_ids": [
+                "doc_cda73facc6ef4831:page4:text",
+                "doc_cda73facc6ef4831:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "combined_isolated_yield",
+        "fact": {
+          "value": {
+            "number": 100,
+            "unit": "%",
+            "raw_text": "100%"
+          },
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image",
+            "doc_cda73facc6ef4831:page4:text",
+            "doc_cda73facc6ef4831:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_9na",
+          "product_9nb"
+        ]
+      },
+      {
+        "name": "product_ratio_9na_to_9nb",
+        "fact": {
+          "value": "100:3",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image",
+            "doc_cda73facc6ef4831:page4:text",
+            "doc_cda73facc6ef4831:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_9na",
+          "product_9nb"
+        ]
+      },
+      {
+        "name": "selectivity_measurement_basis",
+        "fact": {
+          "value": "determined by 300 MHz 1H NMR analysis",
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page3:text",
+            "doc_cda73facc6ef4831:page3:image",
+            "doc_cda73facc6ef4831:page4:text",
+            "doc_cda73facc6ef4831:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_9na",
+          "product_9nb"
+        ]
+      },
+      {
+        "name": "product_mass",
+        "fact": {
+          "value": {
+            "number": 24,
+            "unit": "mg",
+            "raw_text": "24 mg"
+          },
+          "evidence_ids": [
+            "doc_cda73facc6ef4831:page4:text",
+            "doc_cda73facc6ef4831:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_9na",
+          "product_9nb"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The isolated material is reported collectively as product 9n, comprising major isomer 9na and minor isomer 9nb.",
+        "evidence_ids": [
+          "doc_cda73facc6ef4831:page3:text",
+          "doc_cda73facc6ef4831:page3:image",
+          "doc_cda73facc6ef4831:page4:text",
+          "doc_cda73facc6ef4831:page4:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "No explicitly associated supporting information was supplied; workup and purification operations are not reported in the provided main text.",
+        "Exact stereochemical SMILES for 8n, 9na, and 9nb were not assigned and require independent structure review."
+      ]
+    }
+  }
+]

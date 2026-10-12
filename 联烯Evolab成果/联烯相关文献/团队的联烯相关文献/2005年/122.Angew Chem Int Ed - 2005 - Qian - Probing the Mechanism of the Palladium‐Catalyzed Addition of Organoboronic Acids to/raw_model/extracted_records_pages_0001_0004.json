@@ -1,0 +1,2498 @@
+[
+  {
+    "record_id": "doc_1f6b8c33c844c427:scheme1_general_addition",
+    "document_id": "doc_1f6b8c33c844c427",
+    "source_reaction_id": "Scheme 1",
+    "record_kind": "general_scheme",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_1f6b8c33c844c427:page2:text",
+      "doc_1f6b8c33c844c427:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "scheme1_allene",
+        "role": "reactant",
+        "label": {
+          "value": "allene (R1/R2)",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "generic substituted allene",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "scheme1_boronic_acid",
+        "role": "reactant",
+        "label": {
+          "value": "R3B(OH)2",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "generic organoboronic acid",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "scheme1_pd0",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd0",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium(0)",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "scheme1_acid",
+        "role": "reagent",
+        "label": {
+          "value": "acid",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "acid (unspecified)",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "scheme1_alkene",
+        "role": "product",
+        "label": {
+          "value": "addition product",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "generic tri- or tetrasubstituted alkene",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "generic_addition",
+        "participant_ids": [
+          "scheme1_allene",
+          "scheme1_boronic_acid",
+          "scheme1_pd0",
+          "scheme1_acid",
+          "scheme1_alkene"
+        ],
+        "conditions": []
+      }
+    ],
+    "outcomes": [],
+    "notes": [
+      {
+        "value": "Scheme 1 is a generic reaction class, not an individually quantified experiment.",
+        "evidence_ids": [
+          "doc_1f6b8c33c844c427:page2:text",
+          "doc_1f6b8c33c844c427:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "R-group structures, quantities, time, temperature, yield, selectivity, workup, and purification are not specified in Scheme 1."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_1f6b8c33c844c427:scheme2_monitoring_2a",
+    "document_id": "doc_1f6b8c33c844c427",
+    "source_reaction_id": "Scheme 2 / Figure 1, organoboronic acid 2a",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_1f6b8c33c844c427:page2:text",
+      "doc_1f6b8c33c844c427:page2:image",
+      "doc_1f6b8c33c844c427:page3:text",
+      "doc_1f6b8c33c844c427:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "allenoate_1",
+        "role": "reactant",
+        "label": {
+          "value": "1",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-benzylbuta-2,3-dienoate",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=C(Cc1ccccc1)C(=O)OCC",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.05,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "boronic_acid_2",
+        "role": "reactant",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "phenylboronic acid",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "OB(O)c1ccccc1",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "pd_pph3_4",
+        "role": "catalyst",
+        "label": {
+          "value": "[Pd(PPh3)4]",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrakis(triphenylphosphine)palladium(0)",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.005,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "acoh",
+        "role": "reagent",
+        "label": {
+          "value": "AcOH",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "acetic acid",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(=O)O",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.05,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reagent_loading",
+            "fact": {
+              "value": {
+                "number": 100,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "thf",
+        "role": "solvent",
+        "label": {
+          "value": "THF",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrahydrofuran",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C1CCOC1",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "methanol",
+        "role": "solvent",
+        "label": {
+          "value": "methanol",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "methanol",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CO",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "sample_dilution_volume",
+            "fact": {
+              "value": {
+                "number": 80,
+                "unit": "uL"
+              },
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_3",
+        "role": "product",
+        "label": {
+          "value": "3a",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "internal-alkene hydroarylation product",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCOC(=O)C(Cc1ccccc1)=C(C)c1ccccc1",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_4",
+        "role": "product",
+        "label": {
+          "value": "4a",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "terminal-alkene regioisomer",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C(c1ccccc1)C(Cc1ccccc1)C(=O)OCC",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ion_5",
+        "role": "product",
+        "label": {
+          "value": "5",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image",
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "cationic acetoxypalladium bis(triphenylphosphine) species",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image",
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "byproduct_6",
+        "role": "product",
+        "label": {
+          "value": "6",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "hydrogen-bonded allenoate/acetic-acid by-product ion",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ion_7",
+        "role": "product",
+        "label": {
+          "value": "7",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image",
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "cationic alkenylpalladium intermediate",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image",
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ion_8",
+        "role": "product",
+        "label": {
+          "value": "8",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image",
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "oxidized palladium-hydride/vinyl ion",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image",
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ion_9",
+        "role": "product",
+        "label": {
+          "value": "9",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "cationic pi-allylpalladium ion",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction_mixture",
+        "participant_ids": [
+          "allenoate_1",
+          "boronic_acid_2",
+          "pd_pph3_4",
+          "acoh",
+          "thf",
+          "product_3",
+          "product_4",
+          "ion_5",
+          "byproduct_6",
+          "ion_7",
+          "ion_8",
+          "ion_9"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:text",
+                "doc_1f6b8c33c844c427:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "N2",
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:text",
+                "doc_1f6b8c33c844c427:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "THF",
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:text",
+                "doc_1f6b8c33c844c427:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "sample_after_3_min",
+        "participant_ids": [
+          "methanol",
+          "ion_5",
+          "byproduct_6",
+          "ion_7",
+          "ion_8"
+        ],
+        "conditions": [
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 3,
+                "unit": "min"
+              },
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:text",
+                "doc_1f6b8c33c844c427:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "sample_aliquot_volume",
+            "fact": {
+              "value": {
+                "number": 20,
+                "unit": "uL"
+              },
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Dilute the aliquot with 80 uL methanol and transfer to the positive-ion ESI source.",
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "esi_source_flow_rate",
+            "fact": {
+              "value": "10 uL min-1",
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "sample_after_2_h",
+        "participant_ids": [
+          "methanol",
+          "ion_5",
+          "byproduct_6",
+          "ion_8",
+          "ion_9"
+        ],
+        "conditions": [
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "sample_aliquot_volume",
+            "fact": {
+              "value": {
+                "number": 20,
+                "unit": "uL"
+              },
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Dilute the aliquot with 80 uL methanol and transfer to the positive-ion ESI source.",
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "esi_source_flow_rate",
+            "fact": {
+              "value": "10 uL min-1",
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "product_3a_yield",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      },
+      {
+        "name": "product_4a_yield",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_4"
+        ]
+      },
+      {
+        "name": "ion_5_observed_mz",
+        "fact": {
+          "value": "m/z 689.1004 (principal ion; calculated 689.1003)",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ion_5"
+        ]
+      },
+      {
+        "name": "byproduct_6_observed_mz",
+        "fact": {
+          "value": "m/z 465.2276 (principal ion; calculated 465.2277)",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "byproduct_6"
+        ]
+      },
+      {
+        "name": "ion_7_observed_mz",
+        "fact": {
+          "value": "m/z 833.1993 (principal ion; calculated 833.1945)",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image",
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ion_7"
+        ]
+      },
+      {
+        "name": "ion_7_disappearance_time",
+        "fact": {
+          "value": {
+            "number": 5,
+            "unit": "min"
+          },
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ion_7"
+        ]
+      },
+      {
+        "name": "ion_8_observed_mz",
+        "fact": {
+          "value": "m/z 834.2025 (principal ion; calculated 834.2023)",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image",
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ion_8"
+        ]
+      },
+      {
+        "name": "ion_9_observed_mz",
+        "fact": {
+          "value": "m/z 909.2265 (principal ion; calculated 909.2259)",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ion_9"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Figure 1a is the 3 min sample; Figure 1c is the 2 h sample.",
+        "evidence_ids": [
+          "doc_1f6b8c33c844c427:page2:text",
+          "doc_1f6b8c33c844c427:page2:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Ion 8 is proposed to arise by oxidation of a neutral HPd(PPh3)2-vinyl species during ESI; ion 9 may arise by sequential ESI oxidation and gas-phase H radical elimination.",
+        "evidence_ids": [
+          "doc_1f6b8c33c844c427:page2:text",
+          "doc_1f6b8c33c844c427:page2:image",
+          "doc_1f6b8c33c844c427:page3:text",
+          "doc_1f6b8c33c844c427:page3:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The palladium-containing experimental isotope distributions matched simulations made with Bruker Xmass 6.1.2.",
+        "evidence_ids": [
+          "doc_1f6b8c33c844c427:page3:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "No yield, product ratio/selectivity, isolation, workup, or purification is reported for products 3a and 4a in the supplied main-text pages.",
+        "Candidate organic-product SMILES encode connectivity only; drawn alkene geometry has not been independently structure-verified.",
+        "The source does not establish whether ion 8 or ion 9 existed in solution rather than being generated during ESI/gas-phase analysis.",
+        "Supporting information is mentioned but was not explicitly supplied or associated."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_1f6b8c33c844c427:scheme2_monitoring_2b",
+    "document_id": "doc_1f6b8c33c844c427",
+    "source_reaction_id": "Scheme 2, organoboronic acid 2b",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_1f6b8c33c844c427:page2:text",
+      "doc_1f6b8c33c844c427:page2:image",
+      "doc_1f6b8c33c844c427:page3:text",
+      "doc_1f6b8c33c844c427:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "allenoate_1",
+        "role": "reactant",
+        "label": {
+          "value": "1",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-benzylbuta-2,3-dienoate",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=C(Cc1ccccc1)C(=O)OCC",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.05,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "boronic_acid_2",
+        "role": "reactant",
+        "label": {
+          "value": "2b",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "4-methoxyphenylboronic acid",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "COc1ccc(B(O)O)cc1",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "pd_pph3_4",
+        "role": "catalyst",
+        "label": {
+          "value": "[Pd(PPh3)4]",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrakis(triphenylphosphine)palladium(0)",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.005,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "acoh",
+        "role": "reagent",
+        "label": {
+          "value": "AcOH",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "acetic acid",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(=O)O",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.05,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reagent_loading",
+            "fact": {
+              "value": {
+                "number": 100,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "thf",
+        "role": "solvent",
+        "label": {
+          "value": "THF",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrahydrofuran",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C1CCOC1",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text",
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "methanol",
+        "role": "solvent",
+        "label": {
+          "value": "methanol",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "methanol",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CO",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "sample_dilution_volume",
+            "fact": {
+              "value": {
+                "number": 80,
+                "unit": "uL"
+              },
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_3",
+        "role": "product",
+        "label": {
+          "value": "3b",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "internal-alkene hydroarylation product",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCOC(=O)C(Cc1ccccc1)=C(C)c1ccc(OC)cc1",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_4",
+        "role": "product",
+        "label": {
+          "value": "4b",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "terminal-alkene regioisomer",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C(c1ccc(OC)cc1)C(Cc1ccccc1)C(=O)OCC",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction_and_esi_monitoring",
+        "participant_ids": [
+          "allenoate_1",
+          "boronic_acid_2",
+          "pd_pph3_4",
+          "acoh",
+          "thf",
+          "methanol",
+          "product_3",
+          "product_4"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:text",
+                "doc_1f6b8c33c844c427:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "N2",
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:text",
+                "doc_1f6b8c33c844c427:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "THF",
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:text",
+                "doc_1f6b8c33c844c427:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "sample_aliquot_volume",
+            "fact": {
+              "value": {
+                "number": 20,
+                "unit": "uL"
+              },
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Dilute the aliquot with 80 uL methanol and transfer to the positive-ion ESI source.",
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "esi_source_flow_rate",
+            "fact": {
+              "value": "10 uL min-1",
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page2:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "product_3b_yield",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_3"
+        ]
+      },
+      {
+        "name": "product_4b_yield",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_4"
+        ]
+      },
+      {
+        "name": "monitoring_result",
+        "fact": {
+          "value": "Similar results were observed for organoboronic acid 2b; details are referred to the Supporting Information.",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "The main text reports similar results for 2b but places the detailed spectra/results in Supporting Information.",
+        "evidence_ids": [
+          "doc_1f6b8c33c844c427:page3:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Exact sampling times, detected-ion assignments for 2b, product yields/ratio, workup, and purification are not reported in the supplied main text.",
+        "Candidate organic-product SMILES encode connectivity only and have not been independently structure-verified.",
+        "Supporting information is mentioned but was not explicitly supplied or associated."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_1f6b8c33c844c427:figure2_sori_cad_7",
+    "document_id": "doc_1f6b8c33c844c427",
+    "source_reaction_id": "Figure 2a",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_1f6b8c33c844c427:page3:text",
+      "doc_1f6b8c33c844c427:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "ion_7",
+        "role": "reactant",
+        "label": {
+          "value": "7",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium precursor ion 7",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "argon",
+        "role": "reagent",
+        "label": {
+          "value": "Ar",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "argon",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Ar]",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ion_7A",
+        "role": "product",
+        "label": {
+          "value": "7A",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "one-PPh3-loss palladium fragment 7A",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "sori_cad",
+        "participant_ids": [
+          "ion_7",
+          "argon",
+          "ion_7A"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Positive-ion ESI tandem MS using SORI-CAD with argon; all isotopolog ions in the precursor cluster were isolated.",
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "precursor_principal_mz",
+        "fact": {
+          "value": "m/z 833.1993",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ion_7"
+        ]
+      },
+      {
+        "name": "fragment_principal_mz",
+        "fact": {
+          "value": "m/z 571.1046 (calculated 571.1029)",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ion_7A"
+        ]
+      },
+      {
+        "name": "fragmentation_assignment",
+        "fact": {
+          "value": "loss of one PPh3 ligand",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ion_7A"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The text assigns fragment 7A formula C31H30O2P-106Pd+.",
+        "evidence_ids": [
+          "doc_1f6b8c33c844c427:page3:text"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Figure 2 also displays PPh3H+ at m/z 263.1; the figure does not explicitly make it a stoichiometric reaction product.",
+        "evidence_ids": [
+          "doc_1f6b8c33c844c427:page3:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Collision energy, pressure, temperature, duration, and absolute ion abundance are not reported on the supplied pages.",
+        "Organopalladium structures are retained as labels rather than asserted SMILES."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_1f6b8c33c844c427:figure2_sori_cad_8",
+    "document_id": "doc_1f6b8c33c844c427",
+    "source_reaction_id": "Figure 2b",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_1f6b8c33c844c427:page3:text",
+      "doc_1f6b8c33c844c427:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "ion_8",
+        "role": "reactant",
+        "label": {
+          "value": "8",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium precursor ion 8",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "argon",
+        "role": "reagent",
+        "label": {
+          "value": "Ar",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "argon",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Ar]",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ion_8A",
+        "role": "product",
+        "label": {
+          "value": "8A",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "one-PPh3-loss palladium fragment 8A",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "sori_cad",
+        "participant_ids": [
+          "ion_8",
+          "argon",
+          "ion_8A"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Positive-ion ESI tandem MS using SORI-CAD with argon; all isotopolog ions in the precursor cluster were isolated.",
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "precursor_principal_mz",
+        "fact": {
+          "value": "m/z 834.2025",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ion_8"
+        ]
+      },
+      {
+        "name": "fragment_principal_mz",
+        "fact": {
+          "value": "m/z 572.1105 (calculated 572.1107)",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ion_8A"
+        ]
+      },
+      {
+        "name": "fragmentation_assignment",
+        "fact": {
+          "value": "loss of one PPh3 ligand",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ion_8A"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The text assigns fragment 8A formula C31H31O2P-106Pd radical cation as printed.",
+        "evidence_ids": [
+          "doc_1f6b8c33c844c427:page3:text"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Figure 2 also displays PPh3H+ at m/z 263.1; the figure does not explicitly make it a stoichiometric reaction product.",
+        "evidence_ids": [
+          "doc_1f6b8c33c844c427:page3:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Collision energy, pressure, temperature, duration, and absolute ion abundance are not reported on the supplied pages.",
+        "Organopalladium structures are retained as labels rather than asserted SMILES."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_1f6b8c33c844c427:figure2_sori_cad_9",
+    "document_id": "doc_1f6b8c33c844c427",
+    "source_reaction_id": "Figure 2c",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_1f6b8c33c844c427:page3:text",
+      "doc_1f6b8c33c844c427:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "ion_9",
+        "role": "reactant",
+        "label": {
+          "value": "9",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium precursor ion 9",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "argon",
+        "role": "reagent",
+        "label": {
+          "value": "Ar",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "argon",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Ar]",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ion_9A",
+        "role": "product",
+        "label": {
+          "value": "9A",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "one-PPh3-loss palladium fragment 9A",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "sori_cad",
+        "participant_ids": [
+          "ion_9",
+          "argon",
+          "ion_9A"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Positive-ion ESI tandem MS using SORI-CAD with argon; all isotopolog ions in the precursor cluster were isolated.",
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "precursor_principal_mz",
+        "fact": {
+          "value": "m/z 909.2265",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ion_9"
+        ]
+      },
+      {
+        "name": "fragment_principal_mz",
+        "fact": {
+          "value": "m/z 647.1342 (calculated 647.1344)",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ion_9A"
+        ]
+      },
+      {
+        "name": "fragmentation_assignment",
+        "fact": {
+          "value": "loss of one PPh3 ligand",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ion_9A"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The text assigns fragment 9A formula C37H34O2P-106Pd+.",
+        "evidence_ids": [
+          "doc_1f6b8c33c844c427:page3:text"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Figure 2 also displays PPh3H+ at m/z 263.1; the figure does not explicitly make it a stoichiometric reaction product.",
+        "evidence_ids": [
+          "doc_1f6b8c33c844c427:page3:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Collision energy, pressure, temperature, duration, and absolute ion abundance are not reported on the supplied pages.",
+        "Organopalladium structures are retained as labels rather than asserted SMILES."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_1f6b8c33c844c427:scheme3_proposed_catalytic_cycle",
+    "document_id": "doc_1f6b8c33c844c427",
+    "source_reaction_id": "Scheme 3",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_1f6b8c33c844c427:page3:text",
+      "doc_1f6b8c33c844c427:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "pd_pph3_4",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd(PPh3)4",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrakis(triphenylphosphine)palladium(0)",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "acoh",
+        "role": "reagent",
+        "label": {
+          "value": "HOAc",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "acetic acid",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(=O)O",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "allenoate_1",
+        "role": "reactant",
+        "label": {
+          "value": "1",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-benzylbuta-2,3-dienoate",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=C(Cc1ccccc1)C(=O)OCC",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "phenylboronic_acid",
+        "role": "reactant",
+        "label": {
+          "value": "PhB(OH)2",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "phenylboronic acid",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "OB(O)c1ccccc1",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "species_10",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "10",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium hydride acetate species",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "species_7",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "7",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "cationic alkenylpalladium intermediate",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "species_11",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "11",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "aryl-alkenylpalladium intermediate",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3a",
+        "role": "product",
+        "label": {
+          "value": "3a",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "internal-alkene hydroarylation product",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCOC(=O)C(Cc1ccccc1)=C(C)c1ccccc1",
+          "evidence_ids": [
+            "doc_1f6b8c33c844c427:page3:text",
+            "doc_1f6b8c33c844c427:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "oxidative_addition",
+        "participant_ids": [
+          "pd_pph3_4",
+          "acoh",
+          "species_10"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Proposed oxidative addition of AcOH to Pd0 to form palladium hydride 10.",
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "hydropalladation",
+        "participant_ids": [
+          "species_10",
+          "allenoate_1",
+          "species_7"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Proposed hydropalladation of the less hindered terminal allene C=C bond with acetate elimination.",
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "aryl_transfer",
+        "participant_ids": [
+          "species_7",
+          "phenylboronic_acid",
+          "species_11"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Proposed aryl transfer from phenylboronic acid to intermediate 7.",
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "reductive_elimination",
+        "participant_ids": [
+          "species_11",
+          "product_3a",
+          "pd_pph3_4"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Proposed reductive elimination to afford product 3a and regenerate Pd0.",
+              "evidence_ids": [
+                "doc_1f6b8c33c844c427:page3:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [],
+    "notes": [
+      {
+        "value": "Scheme 3 is explicitly presented as a proposed catalytic cycle based on the mass-spectrometric study.",
+        "evidence_ids": [
+          "doc_1f6b8c33c844c427:page3:text",
+          "doc_1f6b8c33c844c427:page3:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The cationic ESI ions 5 and 9 are shown beside proposed neutral/catalytic species, but ESI oxidation/gas-phase generation is discussed separately.",
+        "evidence_ids": [
+          "doc_1f6b8c33c844c427:page3:text",
+          "doc_1f6b8c33c844c427:page3:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "This is a proposed mechanism, not an independently quantified experimental reaction; no stepwise kinetic, yield, workup, or purification data are reported."
+      ]
+    }
+  }
+]

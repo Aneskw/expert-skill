@@ -1,0 +1,3431 @@
+[
+  {
+    "record_id": "doc_32ed381ace69ff22:scheme12_11a_nbutylzinc",
+    "document_id": "doc_32ed381ace69ff22",
+    "source_reaction_id": "scheme12_11a_nbutylzinc",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_32ed381ace69ff22:page7:text",
+      "doc_32ed381ace69ff22:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "p1",
+        "role": "reactant",
+        "label": {
+          "value": "ethyl 2-methyl-3-iodo-3-butenoate 11a",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p2",
+        "role": "reactant",
+        "label": {
+          "value": "n-BuZnBr",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p3",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd(PPh3)4",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "p4",
+        "role": "solvent",
+        "label": {
+          "value": "THF",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p5",
+        "role": "product",
+        "label": {
+          "value": "coupling product 26a",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 3,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_scale",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reactant_stoichiometry",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 90,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 12 Negishi coupling of ester 11a with n-BuZnBr to 26a",
+        "evidence_ids": [
+          "doc_32ed381ace69ff22:page7:text",
+          "doc_32ed381ace69ff22:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The arrow does not report temperature or the yield measurement basis.",
+        "This ACCOUNT attributes the synthetic-application results to cited earlier work; the original cited papers and SI were not supplied.",
+        "Structures are defined by compound labels and drawings; SMILES remain null and structures unverified."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_32ed381ace69ff22:scheme12_11a_phenylzinc",
+    "document_id": "doc_32ed381ace69ff22",
+    "source_reaction_id": "scheme12_11a_phenylzinc",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_32ed381ace69ff22:page7:text",
+      "doc_32ed381ace69ff22:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "p1",
+        "role": "reactant",
+        "label": {
+          "value": "ethyl 2-methyl-3-iodo-3-butenoate 11a",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p2",
+        "role": "reactant",
+        "label": {
+          "value": "PhZnBr",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p3",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd(PPh3)4",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "p4",
+        "role": "solvent",
+        "label": {
+          "value": "THF",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p5",
+        "role": "product",
+        "label": {
+          "value": "coupling product 26b",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_scale",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reactant_stoichiometry",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 70,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 12 Negishi coupling of ester 11a with PhZnBr to 26b",
+        "evidence_ids": [
+          "doc_32ed381ace69ff22:page7:text",
+          "doc_32ed381ace69ff22:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The arrow does not report temperature or the yield measurement basis.",
+        "This ACCOUNT attributes the synthetic-application results to cited earlier work; the original cited papers and SI were not supplied.",
+        "Structures are defined by compound labels and drawings; SMILES remain null and structures unverified."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_32ed381ace69ff22:scheme12_11a_phenylacetylene",
+    "document_id": "doc_32ed381ace69ff22",
+    "source_reaction_id": "scheme12_11a_phenylacetylene",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_32ed381ace69ff22:page7:text",
+      "doc_32ed381ace69ff22:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "p1",
+        "role": "reactant",
+        "label": {
+          "value": "ethyl 2-methyl-3-iodo-3-butenoate 11a",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p2",
+        "role": "reactant",
+        "label": {
+          "value": "phenylacetylene",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p3",
+        "role": "catalyst",
+        "label": {
+          "value": "PdCl2(PPh3)2",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "p4",
+        "role": "catalyst",
+        "label": {
+          "value": "CuI",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "p5",
+        "role": "reagent",
+        "label": {
+          "value": "Et3N",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p6",
+        "role": "product",
+        "label": {
+          "value": "coupling product 26c",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 6.5,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_scale",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reactant_stoichiometry",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 85,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 12 Sonogashira coupling of ester 11a with phenylacetylene to 26c",
+        "evidence_ids": [
+          "doc_32ed381ace69ff22:page7:text",
+          "doc_32ed381ace69ff22:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The arrow does not identify a separate solvent or temperature; Et3N is printed without an amount or an explicit solvent/base role.",
+        "The yield measurement basis is not stated.",
+        "This ACCOUNT attributes the synthetic-application results to cited earlier work; the original cited papers and SI were not supplied.",
+        "Structures are defined by compound labels and drawings; SMILES remain null and structures unverified."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_32ed381ace69ff22:scheme12_9a_phenylzinc",
+    "document_id": "doc_32ed381ace69ff22",
+    "source_reaction_id": "scheme12_9a_phenylzinc",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_32ed381ace69ff22:page7:text",
+      "doc_32ed381ace69ff22:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "p1",
+        "role": "reactant",
+        "label": {
+          "value": "3-iodo-3-pentenoate 9a (E/Z = 2.5:1)",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p2",
+        "role": "reactant",
+        "label": {
+          "value": "PhZnBr",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p3",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd(PPh3)4",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "p4",
+        "role": "solvent",
+        "label": {
+          "value": "THF",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p5",
+        "role": "product",
+        "label": {
+          "value": "coupling product 26d",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 8,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_scale",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reactant_stoichiometry",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 76,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "product_E_Z_ratio",
+        "fact": {
+          "value": "2.5:1",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 12 Negishi coupling of ester mixture 9a with PhZnBr to 26d",
+        "evidence_ids": [
+          "doc_32ed381ace69ff22:page7:text",
+          "doc_32ed381ace69ff22:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The arrow does not report temperature or the yield measurement basis.",
+        "This ACCOUNT attributes the synthetic-application results to cited earlier work; the original cited papers and SI were not supplied.",
+        "Structures are defined by compound labels and drawings; SMILES remain null and structures unverified."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_32ed381ace69ff22:scheme12_9a_phenylacetylene",
+    "document_id": "doc_32ed381ace69ff22",
+    "source_reaction_id": "scheme12_9a_phenylacetylene",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_32ed381ace69ff22:page7:text",
+      "doc_32ed381ace69ff22:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "p1",
+        "role": "reactant",
+        "label": {
+          "value": "3-iodo-3-pentenoate 9a (E/Z = 2.5:1)",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p2",
+        "role": "reactant",
+        "label": {
+          "value": "phenylacetylene",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p3",
+        "role": "catalyst",
+        "label": {
+          "value": "PdCl2(PPh3)2",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "p4",
+        "role": "catalyst",
+        "label": {
+          "value": "CuI",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "p5",
+        "role": "reagent",
+        "label": {
+          "value": "Et3N",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p6",
+        "role": "product",
+        "label": {
+          "value": "coupling product 26e",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_scale",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reactant_stoichiometry",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 82,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "product_E_Z_ratio",
+        "fact": {
+          "value": "2.5:1",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 12 Sonogashira coupling of ester mixture 9a with phenylacetylene to 26e",
+        "evidence_ids": [
+          "doc_32ed381ace69ff22:page7:text",
+          "doc_32ed381ace69ff22:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The arrow does not identify a separate solvent or temperature; Et3N is printed without an amount or an explicit solvent/base role.",
+        "The yield measurement basis is not stated.",
+        "This ACCOUNT attributes the synthetic-application results to cited earlier work; the original cited papers and SI were not supplied.",
+        "Structures are defined by compound labels and drawings; SMILES remain null and structures unverified."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_32ed381ace69ff22:scheme13_17c_phenylzinc",
+    "document_id": "doc_32ed381ace69ff22",
+    "source_reaction_id": "scheme13_17c_phenylzinc",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_32ed381ace69ff22:page7:text",
+      "doc_32ed381ace69ff22:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "p1",
+        "role": "reactant",
+        "label": {
+          "value": "iodoalkenamide 17c",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p2",
+        "role": "reactant",
+        "label": {
+          "value": "PhZnBr",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p3",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd(PPh3)4",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "p4",
+        "role": "solvent",
+        "label": {
+          "value": "THF",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p5",
+        "role": "product",
+        "label": {
+          "value": "3-alkenamide coupling product 27a",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "room temperature",
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 8,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_scale",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reactant_stoichiometry",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 87,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 13 Negishi coupling of iodoalkenamide 17c with PhZnBr to 27a",
+        "evidence_ids": [
+          "doc_32ed381ace69ff22:page7:text",
+          "doc_32ed381ace69ff22:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The yield measurement basis is not stated.",
+        "This ACCOUNT attributes the synthetic-application results to cited earlier work; the original cited papers and SI were not supplied.",
+        "Structures are defined by compound labels and drawings; SMILES remain null and structures unverified."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_32ed381ace69ff22:scheme13_17c_phenylacetylene",
+    "document_id": "doc_32ed381ace69ff22",
+    "source_reaction_id": "scheme13_17c_phenylacetylene",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_32ed381ace69ff22:page7:text",
+      "doc_32ed381ace69ff22:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "p1",
+        "role": "reactant",
+        "label": {
+          "value": "iodoalkenamide 17c",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p2",
+        "role": "reactant",
+        "label": {
+          "value": "phenylacetylene",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p3",
+        "role": "catalyst",
+        "label": {
+          "value": "PdCl2(PPh3)2",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "p4",
+        "role": "catalyst",
+        "label": {
+          "value": "CuI",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "p5",
+        "role": "reagent",
+        "label": {
+          "value": "Et3N",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p6",
+        "role": "product",
+        "label": {
+          "value": "3-alkenamide coupling product 27b",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "room temperature",
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 19,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_scale",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reactant_stoichiometry",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 83,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 13 Sonogashira coupling of iodoalkenamide 17c with phenylacetylene to 27b",
+        "evidence_ids": [
+          "doc_32ed381ace69ff22:page7:text",
+          "doc_32ed381ace69ff22:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The arrow does not identify a separate solvent; Et3N is printed without an amount or an explicit solvent/base role.",
+        "The yield measurement basis is not stated.",
+        "This ACCOUNT attributes the synthetic-application results to cited earlier work; the original cited papers and SI were not supplied.",
+        "Structures are defined by compound labels and drawings; SMILES remain null and structures unverified."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_32ed381ace69ff22:scheme13_19b_phenylzinc",
+    "document_id": "doc_32ed381ace69ff22",
+    "source_reaction_id": "scheme13_19b_phenylzinc",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_32ed381ace69ff22:page7:text",
+      "doc_32ed381ace69ff22:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "p1",
+        "role": "reactant",
+        "label": {
+          "value": "iodoalkenenitrile 19b",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p2",
+        "role": "reactant",
+        "label": {
+          "value": "PhZnBr",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p3",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd(PPh3)4",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "p4",
+        "role": "solvent",
+        "label": {
+          "value": "THF",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p5",
+        "role": "product",
+        "label": {
+          "value": "3-alkenenitrile coupling product 28a",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "room temperature",
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 7,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_scale",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reactant_stoichiometry",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 74,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 13 Negishi coupling of iodoalkenenitrile 19b with PhZnBr to 28a",
+        "evidence_ids": [
+          "doc_32ed381ace69ff22:page7:text",
+          "doc_32ed381ace69ff22:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The yield measurement basis is not stated.",
+        "This ACCOUNT attributes the synthetic-application results to cited earlier work; the original cited papers and SI were not supplied.",
+        "Structures are defined by compound labels and drawings; SMILES remain null and structures unverified."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_32ed381ace69ff22:scheme13_19b_phenylacetylene",
+    "document_id": "doc_32ed381ace69ff22",
+    "source_reaction_id": "scheme13_19b_phenylacetylene",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_32ed381ace69ff22:page7:text",
+      "doc_32ed381ace69ff22:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "p1",
+        "role": "reactant",
+        "label": {
+          "value": "iodoalkenenitrile 19b",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p2",
+        "role": "reactant",
+        "label": {
+          "value": "phenylacetylene",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p3",
+        "role": "catalyst",
+        "label": {
+          "value": "PdCl2(PPh3)2",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "p4",
+        "role": "catalyst",
+        "label": {
+          "value": "CuI",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "p5",
+        "role": "reagent",
+        "label": {
+          "value": "K2CO3",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p6",
+        "role": "product",
+        "label": {
+          "value": "3-alkenenitrile coupling product 28b",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "room temperature",
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 20,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_scale",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reactant_stoichiometry",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 91,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 13 Sonogashira coupling of iodoalkenenitrile 19b with phenylacetylene to 28b",
+        "evidence_ids": [
+          "doc_32ed381ace69ff22:page7:text",
+          "doc_32ed381ace69ff22:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "No solvent, K2CO3 amount, or yield measurement basis is printed for this arrow.",
+        "This ACCOUNT attributes the synthetic-application results to cited earlier work; the original cited papers and SI were not supplied.",
+        "Structures are defined by compound labels and drawings; SMILES remain null and structures unverified."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_32ed381ace69ff22:scheme13_25a_1hexyne",
+    "document_id": "doc_32ed381ace69ff22",
+    "source_reaction_id": "scheme13_25a_1hexyne",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_32ed381ace69ff22:page7:text",
+      "doc_32ed381ace69ff22:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "p1",
+        "role": "reactant",
+        "label": {
+          "value": "iodo-substituted 2-propenyl diphenylphosphine oxide 25a",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p2",
+        "role": "reactant",
+        "label": {
+          "value": "1-hexyne (n-C4H9-CCH)",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p3",
+        "role": "catalyst",
+        "label": {
+          "value": "PdCl2(PPh3)2",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "p4",
+        "role": "catalyst",
+        "label": {
+          "value": "CuI",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "p5",
+        "role": "reagent",
+        "label": {
+          "value": "Et3N",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p6",
+        "role": "product",
+        "label": {
+          "value": "2-propenyl diphenylphosphine oxide coupling product 29a",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "room temperature",
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reaction_scale",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reactant_stoichiometry",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 93,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 13 Sonogashira coupling of iodophosphine oxide 25a with 1-hexyne to 29a",
+        "evidence_ids": [
+          "doc_32ed381ace69ff22:page7:text",
+          "doc_32ed381ace69ff22:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The arrow does not report reaction time or a separate solvent; Et3N is printed without an amount or an explicit solvent/base role.",
+        "The yield measurement basis is not stated.",
+        "This ACCOUNT attributes the synthetic-application results to cited earlier work; the original cited papers and SI were not supplied.",
+        "Structures are defined by compound labels and drawings; SMILES remain null and structures unverified."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_32ed381ace69ff22:scheme13_25a_phenylacetylene",
+    "document_id": "doc_32ed381ace69ff22",
+    "source_reaction_id": "scheme13_25a_phenylacetylene",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_32ed381ace69ff22:page7:text",
+      "doc_32ed381ace69ff22:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "p1",
+        "role": "reactant",
+        "label": {
+          "value": "iodo-substituted 2-propenyl diphenylphosphine oxide 25a",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p2",
+        "role": "reactant",
+        "label": {
+          "value": "phenylacetylene",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p3",
+        "role": "catalyst",
+        "label": {
+          "value": "PdCl2(PPh3)2",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "p4",
+        "role": "catalyst",
+        "label": {
+          "value": "CuI",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "p5",
+        "role": "reagent",
+        "label": {
+          "value": "Et3N",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p6",
+        "role": "product",
+        "label": {
+          "value": "2-propenyl diphenylphosphine oxide coupling product 29b",
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "room temperature",
+              "evidence_ids": [
+                "doc_32ed381ace69ff22:page7:text",
+                "doc_32ed381ace69ff22:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reaction_scale",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reactant_stoichiometry",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 95,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_32ed381ace69ff22:page7:text",
+            "doc_32ed381ace69ff22:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 13 Sonogashira coupling of iodophosphine oxide 25a with phenylacetylene to 29b",
+        "evidence_ids": [
+          "doc_32ed381ace69ff22:page7:text",
+          "doc_32ed381ace69ff22:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The arrow does not report reaction time or a separate solvent; Et3N is printed without an amount or an explicit solvent/base role.",
+        "The yield measurement basis is not stated.",
+        "This ACCOUNT attributes the synthetic-application results to cited earlier work; the original cited papers and SI were not supplied.",
+        "Structures are defined by compound labels and drawings; SMILES remain null and structures unverified."
+      ]
+    }
+  }
+]

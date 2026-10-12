@@ -1,0 +1,209 @@
+{
+  "document_id": "doc_a4fc8c6aed2bb7b5",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title and abstract",
+          "finding": "Article metadata and mechanistic-study summary; no individual experimental record is specified here.",
+          "evidence_ids": ["doc_a4fc8c6aed2bb7b5:page1:image", "doc_a4fc8c6aed2bb7b5:page1:text"]
+        },
+        {
+          "region": "equation 1 and adjacent introduction text",
+          "finding": "Reaction of allene 1, iodobenzene 2 and imine 3 under Pd(PPh3)4/K2CO3 in THF at 85 °C to cis-pyrrolidine 4; classified as a literature example because the prose attributes the developed reaction to reference 6.",
+          "evidence_ids": ["doc_a4fc8c6aed2bb7b5:page1:image", "doc_a4fc8c6aed2bb7b5:page1:text"]
+        },
+        {
+          "region": "Apparatus and Methods column",
+          "finding": "General ESI-FTMS acquisition settings, not a separate chemical reaction experiment.",
+          "evidence_ids": ["doc_a4fc8c6aed2bb7b5:page1:image", "doc_a4fc8c6aed2bb7b5:page1:text"]
+        }
+      ],
+      "record_ids": ["doc_a4fc8c6aed2bb7b5:literature_eq1"],
+      "unresolved": [
+        "Equation 1 does not report substrate amounts, time, atmosphere, yield, workup or purification.",
+        "The stereochemically complete product SMILES was not assigned from the drawing."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Results and Discussion, initial iodobenzene/Pd(PPh3)4 probe",
+          "finding": "Room-temperature 30 min reaction and ESI sampling produced ion 5; the subsequent 85 °C observation and CapExit comparison are retained as method context.",
+          "evidence_ids": ["doc_a4fc8c6aed2bb7b5:page2:image", "doc_a4fc8c6aed2bb7b5:page2:text"]
+        },
+        {
+          "region": "numbered experiments (1) and (2)",
+          "finding": "Two distinct 85 °C nitrogen-atmosphere mixtures, respectively without and with imine but without K2CO3; ions 5 and 7 were observed. They are kept as separate records.",
+          "evidence_ids": ["doc_a4fc8c6aed2bb7b5:page2:image", "doc_a4fc8c6aed2bb7b5:page2:text"]
+        },
+        {
+          "region": "numbered experiment (3), time-course paragraphs",
+          "finding": "Full five-component reaction sampled at 5 min, 20 min, 40 min, 5 h, 15 h, 24 h and 36 h. Each sampling stage is a distinct partial record because the detected/disappearing ions differ.",
+          "evidence_ids": ["doc_a4fc8c6aed2bb7b5:page2:image", "doc_a4fc8c6aed2bb7b5:page2:text"]
+        },
+        {
+          "region": "ion 8 lifetime and dilution-solvent/volume study",
+          "finding": "Analytical sample-preparation comparison: CH3CN gave the best but still short-lived ion-8 signal; 25, 50, 200 and 400 µL dilution volumes gave no better signal than 100 µL. Logged as method context rather than synthetic reaction rows because variant-specific ion outcomes are not given.",
+          "evidence_ids": ["doc_a4fc8c6aed2bb7b5:page2:image", "doc_a4fc8c6aed2bb7b5:page2:text"]
+        },
+        {
+          "region": "individual-component ESI controls",
+          "finding": "Reactants 1–3 were separately tested under standard sample preparation and under K2CO3-saturated CH3CN; standard tests were negative, modified tests detected ions 9 from 1 and 10 from 3, while 2 remained undetected.",
+          "evidence_ids": ["doc_a4fc8c6aed2bb7b5:page2:image", "doc_a4fc8c6aed2bb7b5:page2:text"]
+        },
+        {
+          "region": "bottom-right tandem-MS narrative",
+          "finding": "SORI-CAD results for ions 5–7 and the opening of the MS/MS/MS result for 5A; linked to the four fragmentation records whose spectra appear on page 4.",
+          "evidence_ids": ["doc_a4fc8c6aed2bb7b5:page2:image", "doc_a4fc8c6aed2bb7b5:page2:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_a4fc8c6aed2bb7b5:oxidative_addition_probe_rt",
+        "doc_a4fc8c6aed2bb7b5:mixture_1_allene_iodobenzene_pd",
+        "doc_a4fc8c6aed2bb7b5:mixture_2_no_base",
+        "doc_a4fc8c6aed2bb7b5:full_mixture_5min",
+        "doc_a4fc8c6aed2bb7b5:full_mixture_20min",
+        "doc_a4fc8c6aed2bb7b5:full_mixture_40min",
+        "doc_a4fc8c6aed2bb7b5:full_mixture_5h",
+        "doc_a4fc8c6aed2bb7b5:full_mixture_15h",
+        "doc_a4fc8c6aed2bb7b5:full_mixture_24h",
+        "doc_a4fc8c6aed2bb7b5:full_mixture_36h",
+        "doc_a4fc8c6aed2bb7b5:control_1_standard_esi",
+        "doc_a4fc8c6aed2bb7b5:control_2_standard_esi",
+        "doc_a4fc8c6aed2bb7b5:control_3_standard_esi",
+        "doc_a4fc8c6aed2bb7b5:control_1_k2co3_saturated_esi",
+        "doc_a4fc8c6aed2bb7b5:control_2_k2co3_saturated_esi",
+        "doc_a4fc8c6aed2bb7b5:control_3_k2co3_saturated_esi",
+        "doc_a4fc8c6aed2bb7b5:msms_ion5_to_5a",
+        "doc_a4fc8c6aed2bb7b5:msms_ion6_to_5_5a",
+        "doc_a4fc8c6aed2bb7b5:msms_ion7_to_7a",
+        "doc_a4fc8c6aed2bb7b5:ms3_ion5a_to_5b_5c"
+      ],
+      "unresolved": [
+        "The source does not provide isolated yields, workups or purification for the mechanistic mixtures.",
+        "The exact reaction time for numbered experiment (1) is not stated.",
+        "The solvent/volume optimization prose does not give a separate quantitative ion-8 result for every variant."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 1a spectrum",
+          "finding": "Full reaction mixture at 5 min; ions 5 and 6 are labeled and mapped to the 5 min time-point record.",
+          "evidence_ids": ["doc_a4fc8c6aed2bb7b5:page3:image", "doc_a4fc8c6aed2bb7b5:page3:text"]
+        },
+        {
+          "region": "Figure 1b spectrum",
+          "finding": "Full reaction mixture at 20 min; ions 5, 6 and 7 are labeled and mapped to the 20 min time-point record.",
+          "evidence_ids": ["doc_a4fc8c6aed2bb7b5:page3:image", "doc_a4fc8c6aed2bb7b5:page3:text"]
+        },
+        {
+          "region": "Figure 1c spectrum and insets",
+          "finding": "Full reaction mixture at 40 min; ions 5–12 are labeled, including ions 11 and 12 assigned from product 4, and mapped to the 40 min record.",
+          "evidence_ids": ["doc_a4fc8c6aed2bb7b5:page3:image", "doc_a4fc8c6aed2bb7b5:page3:text"]
+        },
+        {
+          "region": "Figure 1 caption",
+          "finding": "Caption supplies the shared reagent amounts, THF volume, 85 °C temperature, nitrogen atmosphere and the three distinct sampling times; these are not merged into one time point.",
+          "evidence_ids": ["doc_a4fc8c6aed2bb7b5:page3:image", "doc_a4fc8c6aed2bb7b5:page3:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_a4fc8c6aed2bb7b5:full_mixture_5min",
+        "doc_a4fc8c6aed2bb7b5:full_mixture_20min",
+        "doc_a4fc8c6aed2bb7b5:full_mixture_40min"
+      ],
+      "unresolved": [
+        "Peak absence was not inferred from unlabeled regions of the spectra beyond explicit statements in the text.",
+        "The structures are machine transcriptions from legible drawings and remain unverified."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 2a",
+          "finding": "MS/MS fragmentation of intermediate 5 to fragment 5A.",
+          "evidence_ids": ["doc_a4fc8c6aed2bb7b5:page4:image", "doc_a4fc8c6aed2bb7b5:page4:text"]
+        },
+        {
+          "region": "Figure 2b",
+          "finding": "MS/MS fragmentation of ion 6, with loss of acetonitrile to ion 5 and formation of 5A.",
+          "evidence_ids": ["doc_a4fc8c6aed2bb7b5:page4:image", "doc_a4fc8c6aed2bb7b5:page4:text"]
+        },
+        {
+          "region": "Figure 2c",
+          "finding": "MS/MS fragmentation of intermediate 7 to 7A by loss of one PPh3 ligand.",
+          "evidence_ids": ["doc_a4fc8c6aed2bb7b5:page4:image", "doc_a4fc8c6aed2bb7b5:page4:text"]
+        },
+        {
+          "region": "Figure 3 and continuation text",
+          "finding": "MS/MS/MS of fragment 5A to 5B and 5C by loss of one or two benzene molecules.",
+          "evidence_ids": ["doc_a4fc8c6aed2bb7b5:page4:image", "doc_a4fc8c6aed2bb7b5:page4:text"]
+        },
+        {
+          "region": "bottom-right mechanism discussion",
+          "finding": "Authors exclude an azapalladation–reductive-elimination pathway and introduce proposed Scheme 1; classified as mechanism, not a new experiment.",
+          "evidence_ids": ["doc_a4fc8c6aed2bb7b5:page4:image", "doc_a4fc8c6aed2bb7b5:page4:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_a4fc8c6aed2bb7b5:msms_ion5_to_5a",
+        "doc_a4fc8c6aed2bb7b5:msms_ion6_to_5_5a",
+        "doc_a4fc8c6aed2bb7b5:msms_ion7_to_7a",
+        "doc_a4fc8c6aed2bb7b5:ms3_ion5a_to_5b_5c",
+        "doc_a4fc8c6aed2bb7b5:proposed_mechanism_scheme1"
+      ],
+      "unresolved": [
+        "Collision energies and fragment intensities are not stated in the article text.",
+        "Organopalladium structures were not encoded as verified SMILES."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1",
+          "finding": "Proposed catalytic mechanism: ligand dissociation, oxidative addition to 5, carbopalladation to 7, deprotonation/imine addition to 8, and intramolecular allylic amination to 4 with Pd(PPh3)2 regeneration. All arrows are represented as separate steps within one mechanism record.",
+          "evidence_ids": ["doc_a4fc8c6aed2bb7b5:page5:image", "doc_a4fc8c6aed2bb7b5:page5:text"]
+        },
+        {
+          "region": "Table 1",
+          "finding": "Accurate experimental/theoretical masses and relative errors for ions 5, 5A–5C, 6, 7, 7A, and 8–12. This is characterization evidence for existing time-course/fragmentation species, not twelve new reaction experiments.",
+          "evidence_ids": ["doc_a4fc8c6aed2bb7b5:page5:image", "doc_a4fc8c6aed2bb7b5:page5:text"]
+        },
+        {
+          "region": "mechanism prose and conclusion",
+          "finding": "Text narrates the same proposed sequence as Scheme 1 and concludes that four cationic palladium intermediates were characterized; no additional preparative experiment is reported.",
+          "evidence_ids": ["doc_a4fc8c6aed2bb7b5:page5:image", "doc_a4fc8c6aed2bb7b5:page5:text"]
+        },
+        {
+          "region": "Supporting Information Available statement",
+          "finding": "The article says SI exists online, but no SI file was explicitly supplied or associated in this workspace; no SI evidence was used.",
+          "evidence_ids": ["doc_a4fc8c6aed2bb7b5:page5:image", "doc_a4fc8c6aed2bb7b5:page5:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_a4fc8c6aed2bb7b5:msms_ion5_to_5a",
+        "doc_a4fc8c6aed2bb7b5:msms_ion6_to_5_5a",
+        "doc_a4fc8c6aed2bb7b5:msms_ion7_to_7a",
+        "doc_a4fc8c6aed2bb7b5:ms3_ion5a_to_5b_5c",
+        "doc_a4fc8c6aed2bb7b5:proposed_mechanism_scheme1"
+      ],
+      "unresolved": [
+        "The missing Supporting Information prevents recovery of the cited Figures S1–S6 and Tables S1–S4.",
+        "The exact organopalladium connectivity and the stereochemically complete product SMILES remain unverified machine interpretations."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "document_id": "doc_e5bb5a4a6325144a",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left column and upper-right references",
+          "finding": "Content belongs to the preceding TS-1/Raman article and is not an experiment from the target allene paper.",
+          "evidence_ids": [
+            "doc_e5bb5a4a6325144a:page1:image",
+            "doc_e5bb5a4a6325144a:page1:text"
+          ]
+        },
+        {
+          "region": "right column, target-paper title and introductory prose",
+          "finding": "Target article title, authors, conceptual motivation, and literature context; no reported target-paper experiment or reaction arrow is present on this page.",
+          "evidence_ids": [
+            "doc_e5bb5a4a6325144a:page1:image",
+            "doc_e5bb5a4a6325144a:page1:text"
+          ]
+        },
+        {
+          "region": "right-column author footnotes",
+          "finding": "The article states that Supporting Information is available online, but no SI file was supplied or explicitly associated in this workspace.",
+          "evidence_ids": [
+            "doc_e5bb5a4a6325144a:page1:image",
+            "doc_e5bb5a4a6325144a:page1:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Supporting Information is mentioned but remains unassociated because it was not explicitly supplied."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left Scheme 1",
+          "finding": "Generic three-component protocol contrasting path A (products 2/3) and relay path B (products 5/6); classified as a general scheme rather than a reported experiment.",
+          "evidence_ids": [
+            "doc_e5bb5a4a6325144a:page2:image",
+            "doc_e5bb5a4a6325144a:page2:text"
+          ]
+        },
+        {
+          "region": "lower-left Scheme 2 and footnote",
+          "finding": "Four optimization rows were inspected. The PhI row duplicates Table 1 entry 2 and was merged into that record; the p-tolyl row and the two o-tolyl/base rows are independent records. Footnote [a] changes the base to Na2CO3.",
+          "evidence_ids": [
+            "doc_e5bb5a4a6325144a:page2:image",
+            "doc_e5bb5a4a6325144a:page2:text"
+          ]
+        },
+        {
+          "region": "upper-right Figure 1",
+          "finding": "ORTEP depiction of cis-5a; it supports compound identity/configuration but is not a separate reaction experiment.",
+          "evidence_ids": [
+            "doc_e5bb5a4a6325144a:page2:image",
+            "doc_e5bb5a4a6325144a:page2:text"
+          ]
+        },
+        {
+          "region": "right-column optimization discussion",
+          "finding": "Narrative cross-references Table 1 and reports a prose value conflict for the Scheme 2/Table 1 entry 2 conditions; the conflict is retained in the merged record rather than split into a duplicate experiment.",
+          "evidence_ids": [
+            "doc_e5bb5a4a6325144a:page2:image",
+            "doc_e5bb5a4a6325144a:page2:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_e5bb5a4a6325144a:scheme1_general_protocol",
+        "doc_e5bb5a4a6325144a:table1_entry_02",
+        "doc_e5bb5a4a6325144a:scheme2_ptol_k2co3",
+        "doc_e5bb5a4a6325144a:scheme2_otol_k2co3",
+        "doc_e5bb5a4a6325144a:scheme2_otol_na2co3"
+      ],
+      "unresolved": [
+        "For the same displayed PhI/K2CO3/nBu4NBr/CH3CN conditions, prose says 89% and 9:1 while Scheme 2 and Table 1 entry 2 say 82% and 90:10.",
+        "Product structures are preserved by label and source image; no product SMILES was source-verified."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left Table 1 including reaction header and footnotes",
+          "finding": "All 17 optimization rows were transcribed independently, including additive definitions, base/NaH loadings, screw-cap footnote, dioxane definition, trace 5a, and footnoted 3a yields.",
+          "evidence_ids": [
+            "doc_e5bb5a4a6325144a:page3:image",
+            "doc_e5bb5a4a6325144a:page3:text"
+          ]
+        },
+        {
+          "region": "lower-left Table 2 including reaction header and footnotes",
+          "finding": "All 16 substrate-scope rows were transcribed independently with R1X, imine equivalents, solvent, temperature, main-product yield/selectivity, and cyclopropane-product yield.",
+          "evidence_ids": [
+            "doc_e5bb5a4a6325144a:page3:image",
+            "doc_e5bb5a4a6325144a:page3:text"
+          ]
+        },
+        {
+          "region": "upper-right scope discussion",
+          "finding": "A prose-only low-reactivity imine result (N-(4-chlorobenzylidene)aniline giving only 2a in 92% yield) was retained as a partial substrate-scope record without inferring unstated conditions.",
+          "evidence_ids": [
+            "doc_e5bb5a4a6325144a:page3:image",
+            "doc_e5bb5a4a6325144a:page3:text"
+          ]
+        },
+        {
+          "region": "right-column Scheme 3 discussion",
+          "finding": "Page-3 prose reports the 1b/PhI/4a reaction giving cis-5l in 85% yield and the NOESY assignment; it is combined with the full Scheme 3 arrow on page 4.",
+          "evidence_ids": [
+            "doc_e5bb5a4a6325144a:page3:image",
+            "doc_e5bb5a4a6325144a:page3:text"
+          ]
+        },
+        {
+          "region": "lower-right Experimental Section, typical procedure",
+          "finding": "Detailed quantities, nitrogen atmosphere, heating, TLC monitoring, evaporation, flash chromatography, product mass, yield, selectivity, and initial characterization were merged into Table 1 entry 14 rather than duplicated.",
+          "evidence_ids": [
+            "doc_e5bb5a4a6325144a:page3:image",
+            "doc_e5bb5a4a6325144a:page3:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_e5bb5a4a6325144a:table1_entry_01",
+        "doc_e5bb5a4a6325144a:table1_entry_02",
+        "doc_e5bb5a4a6325144a:table1_entry_03",
+        "doc_e5bb5a4a6325144a:table1_entry_04",
+        "doc_e5bb5a4a6325144a:table1_entry_05",
+        "doc_e5bb5a4a6325144a:table1_entry_06",
+        "doc_e5bb5a4a6325144a:table1_entry_07",
+        "doc_e5bb5a4a6325144a:table1_entry_08",
+        "doc_e5bb5a4a6325144a:table1_entry_09",
+        "doc_e5bb5a4a6325144a:table1_entry_10",
+        "doc_e5bb5a4a6325144a:table1_entry_11",
+        "doc_e5bb5a4a6325144a:table1_entry_12",
+        "doc_e5bb5a4a6325144a:table1_entry_13",
+        "doc_e5bb5a4a6325144a:table1_entry_14",
+        "doc_e5bb5a4a6325144a:table1_entry_15",
+        "doc_e5bb5a4a6325144a:table1_entry_16",
+        "doc_e5bb5a4a6325144a:table1_entry_17",
+        "doc_e5bb5a4a6325144a:table2_entry_01",
+        "doc_e5bb5a4a6325144a:table2_entry_02",
+        "doc_e5bb5a4a6325144a:table2_entry_03",
+        "doc_e5bb5a4a6325144a:table2_entry_04",
+        "doc_e5bb5a4a6325144a:table2_entry_05",
+        "doc_e5bb5a4a6325144a:table2_entry_06",
+        "doc_e5bb5a4a6325144a:table2_entry_07",
+        "doc_e5bb5a4a6325144a:table2_entry_08",
+        "doc_e5bb5a4a6325144a:table2_entry_09",
+        "doc_e5bb5a4a6325144a:table2_entry_10",
+        "doc_e5bb5a4a6325144a:table2_entry_11",
+        "doc_e5bb5a4a6325144a:table2_entry_12",
+        "doc_e5bb5a4a6325144a:table2_entry_13",
+        "doc_e5bb5a4a6325144a:table2_entry_14",
+        "doc_e5bb5a4a6325144a:table2_entry_15",
+        "doc_e5bb5a4a6325144a:table2_entry_16",
+        "doc_e5bb5a4a6325144a:prose_n_4_chlorobenzylidene_aniline",
+        "doc_e5bb5a4a6325144a:scheme3_5l"
+      ],
+      "unresolved": [
+        "The typical procedure says overnight while Table 1 entry 14 gives 10 h; both source expressions are retained and the tabulated time is structured.",
+        "The prose-only N-(4-chlorobenzylidene)aniline result does not restate its full conditions.",
+        "Generic or position-ambiguous scope structures such as thienyl-I retain labels with null SMILES."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left Table 3 including reaction header and footnotes",
+          "finding": "All six imine-scope rows were transcribed independently; footnote [c] overrides the imine amount to 3.0 equivalents for entry 4, and solvent code A is 1,4-dioxane.",
+          "evidence_ids": [
+            "doc_e5bb5a4a6325144a:page4:image",
+            "doc_e5bb5a4a6325144a:page4:text"
+          ]
+        },
+        {
+          "region": "middle-left Scheme 3",
+          "finding": "One 1b/PhI/4a experiment gives 5l in 85% yield with E/Z 79:21 and cis/trans greater than 99:1 under Pd(PPh3)4/K2CO3 in THF at 85 °C for 8 h.",
+          "evidence_ids": [
+            "doc_e5bb5a4a6325144a:page4:image",
+            "doc_e5bb5a4a6325144a:page4:text",
+            "doc_e5bb5a4a6325144a:page3:text"
+          ]
+        },
+        {
+          "region": "left-column continuation of cis-5a characterization",
+          "finding": "Continuation of the product characterization from the page-3 typical procedure; associated with Table 1 entry 14 and not treated as another reaction.",
+          "evidence_ids": [
+            "doc_e5bb5a4a6325144a:page4:image",
+            "doc_e5bb5a4a6325144a:page4:text"
+          ]
+        },
+        {
+          "region": "references and bottom-right start of next article",
+          "finding": "Target-paper references and the beginning of a different article; no additional experiment from the target allene paper was extracted from this region.",
+          "evidence_ids": [
+            "doc_e5bb5a4a6325144a:page4:image",
+            "doc_e5bb5a4a6325144a:page4:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_e5bb5a4a6325144a:table1_entry_14",
+        "doc_e5bb5a4a6325144a:table3_entry_01",
+        "doc_e5bb5a4a6325144a:table3_entry_02",
+        "doc_e5bb5a4a6325144a:table3_entry_03",
+        "doc_e5bb5a4a6325144a:table3_entry_04",
+        "doc_e5bb5a4a6325144a:table3_entry_05",
+        "doc_e5bb5a4a6325144a:table3_entry_06",
+        "doc_e5bb5a4a6325144a:scheme3_5l"
+      ],
+      "unresolved": [
+        "No explicitly associated SI was available for compound-level procedures or full characterization beyond the main article.",
+        "Product SMILES were not source-verified from the depicted structures and remain null/unverified."
+      ]
+    }
+  ]
+}

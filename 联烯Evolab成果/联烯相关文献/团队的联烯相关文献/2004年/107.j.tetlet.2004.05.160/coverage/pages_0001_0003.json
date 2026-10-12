@@ -1,0 +1,168 @@
+{
+  "document_id": "doc_ffb4f61df7cc04a4",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, and left-column introduction",
+          "finding": "Article scope and prior-work context: the paper reports iodohydroxylation of 1,2-allenyl sulfoxides with I2/BnSH; cited earlier halohydroxylations are literature context, not experiments newly reported here.",
+          "evidence_ids": [
+            "doc_ffb4f61df7cc04a4:page1:text",
+            "doc_ffb4f61df7cc04a4:page1:image"
+          ]
+        },
+        {
+          "region": "right-column first-try and optimization narrative",
+          "finding": "Narrative reports Table 1 entries 1-3: 1a/I2/BnSH gives 4a and 5a, the no-BnSH control favors 5a, and 1.5 equiv I2 plus 1 equiv BnSH gives 4a in 50% yield. These are linked to the corresponding Table 1 records rather than duplicated.",
+          "evidence_ids": [
+            "doc_ffb4f61df7cc04a4:page1:text",
+            "doc_ffb4f61df7cc04a4:page1:image"
+          ]
+        },
+        {
+          "region": "lower-column scope preview and mechanistic premise",
+          "finding": "The prose previews Table 2 and introduces hypothetical cyclic intermediate 2 for Scheme 1; no additional row-level experiment or complete procedure is printed in this region.",
+          "evidence_ids": [
+            "doc_ffb4f61df7cc04a4:page1:text",
+            "doc_ffb4f61df7cc04a4:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_ffb4f61df7cc04a4:table1_entry_01",
+        "doc_ffb4f61df7cc04a4:table1_entry_02",
+        "doc_ffb4f61df7cc04a4:table1_entry_03",
+        "doc_ffb4f61df7cc04a4:scheme_1_mechanistic_paths"
+      ],
+      "unresolved": [
+        "The page-1 narrative does not supply complete workup, purification, atmosphere, or SI procedures.",
+        "The detailed structures and full conditions for the scope preview must be read from later page regions."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1 at top of page",
+          "finding": "Conceptual mechanistic arrows show generic allenyl sulfoxide plus I2 forming cyclic intermediate 2 and proposed paths a/b; path a includes Nu- and product 3, while path b ends with a question mark. Classified as mechanism, not a reported experiment.",
+          "evidence_ids": [
+            "doc_ffb4f61df7cc04a4:page2:text",
+            "doc_ffb4f61df7cc04a4:page2:image"
+          ]
+        },
+        {
+          "region": "Table 1 reaction scheme, rows 1-10, and footnotes a-c",
+          "finding": "Ten distinct optimization experiments were extracted row by row, including zero-I2 failure entry 5, varying BnSH/I2 amounts, product yields and E/Z ratios. Footnote b sets entry 5 to 15 °C; footnote c replaces BnSH with BnSSBn and reports 21% recovery of 1a; isolated-yield wording is retained only where source assignment is explicit.",
+          "evidence_ids": [
+            "doc_ffb4f61df7cc04a4:page2:text",
+            "doc_ffb4f61df7cc04a4:page2:image"
+          ]
+        },
+        {
+          "region": "equation (1) and adjacent disulfide discussion",
+          "finding": "Equation (1) repeats the selected Table 1 entry 3 experiment and adds the 95% disulfide outcome; it is merged with Table 1 entry 3. The prose glyph appears ambiguous against the BnSSBn label in the equation and remains unresolved.",
+          "evidence_ids": [
+            "doc_ffb4f61df7cc04a4:page2:text",
+            "doc_ffb4f61df7cc04a4:page2:image"
+          ]
+        },
+        {
+          "region": "equation (2) control experiment",
+          "finding": "Separate control: E-5a, BnSH and I2 in MeCN at 5 °C for 2 h gives E-4a in 15% while 75% E-5a is recovered. Reagent equivalents and outcome measurement bases are not printed.",
+          "evidence_ids": [
+            "doc_ffb4f61df7cc04a4:page2:text",
+            "doc_ffb4f61df7cc04a4:page2:image"
+          ]
+        },
+        {
+          "region": "lower-right proposed-rationale prose",
+          "finding": "Text proposes intermediate 6, BnS+ and BnSSBn formation and previews Scheme 2; classified with the proposed mechanism rather than as an experimental procedure.",
+          "evidence_ids": [
+            "doc_ffb4f61df7cc04a4:page2:text",
+            "doc_ffb4f61df7cc04a4:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_ffb4f61df7cc04a4:table1_entry_01",
+        "doc_ffb4f61df7cc04a4:table1_entry_02",
+        "doc_ffb4f61df7cc04a4:table1_entry_03",
+        "doc_ffb4f61df7cc04a4:table1_entry_04",
+        "doc_ffb4f61df7cc04a4:table1_entry_05",
+        "doc_ffb4f61df7cc04a4:table1_entry_06",
+        "doc_ffb4f61df7cc04a4:table1_entry_07",
+        "doc_ffb4f61df7cc04a4:table1_entry_08",
+        "doc_ffb4f61df7cc04a4:table1_entry_09",
+        "doc_ffb4f61df7cc04a4:table1_entry_10",
+        "doc_ffb4f61df7cc04a4:equation_2_control",
+        "doc_ffb4f61df7cc04a4:scheme_1_mechanistic_paths",
+        "doc_ffb4f61df7cc04a4:scheme_2_proposed_mechanism"
+      ],
+      "unresolved": [
+        "The prose/equation disulfide abbreviation requires human source review.",
+        "Most Table 1 rows omit scale, reagent mass/amount, workup, purification, and atmosphere.",
+        "The Table 1 footnote explicitly marks the E-5a column as isolated yield, but does not unambiguously assign the same basis to every 4a yield."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 2 reaction scheme and rows 1-10",
+          "finding": "Ten substrate-scope rows were checked visually. Entry 1 duplicates the selected 1a/4a result in Table 1 entry 3 and is merged there; entries 2-10 are separate scope records with row-specific R groups, temperature, time, isolated yield and E/Z ratio.",
+          "evidence_ids": [
+            "doc_ffb4f61df7cc04a4:page3:text",
+            "doc_ffb4f61df7cc04a4:page3:image"
+          ]
+        },
+        {
+          "region": "Table 2 footnote a, conditions A and B",
+          "finding": "Condition A gives the two-stage 0.5 mmol procedure for entry 1. Condition B gives 0.4 mmol substrate, 0.4 mmol BnSH, 0.48 mmol I2 and two MeCN volumes. Rows 2, 3 and 10 separately print 1.5 equiv I2, inconsistent with the stated 0.48/0.4 mmol quantities; both values are preserved without reconciliation.",
+          "evidence_ids": [
+            "doc_ffb4f61df7cc04a4:page3:text",
+            "doc_ffb4f61df7cc04a4:page3:image"
+          ]
+        },
+        {
+          "region": "Scheme 2 arrows and explanatory conclusion",
+          "finding": "Proposed mechanism from cyclic intermediate 2 through cationic allylic alcohol 6 to sulfide 4 and BnSSBn. The authors state the real mechanism needs further attention; it is not treated as an experiment.",
+          "evidence_ids": [
+            "doc_ffb4f61df7cc04a4:page3:text",
+            "doc_ffb4f61df7cc04a4:page3:image"
+          ]
+        },
+        {
+          "region": "reference note 7 characterization and references 1-10",
+          "finding": "Note 7 reports characterization data for E-4a, while the remaining entries are cited prior literature. No independent new reaction experiment is created from this region.",
+          "evidence_ids": [
+            "doc_ffb4f61df7cc04a4:page3:text",
+            "doc_ffb4f61df7cc04a4:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_ffb4f61df7cc04a4:table1_entry_03",
+        "doc_ffb4f61df7cc04a4:table2_entry_02",
+        "doc_ffb4f61df7cc04a4:table2_entry_03",
+        "doc_ffb4f61df7cc04a4:table2_entry_04",
+        "doc_ffb4f61df7cc04a4:table2_entry_05",
+        "doc_ffb4f61df7cc04a4:table2_entry_06",
+        "doc_ffb4f61df7cc04a4:table2_entry_07",
+        "doc_ffb4f61df7cc04a4:table2_entry_08",
+        "doc_ffb4f61df7cc04a4:table2_entry_09",
+        "doc_ffb4f61df7cc04a4:table2_entry_10",
+        "doc_ffb4f61df7cc04a4:scheme_2_proposed_mechanism"
+      ],
+      "unresolved": [
+        "Rows 2, 3 and 10 retain the unresolved 1.5 equiv versus 0.48 mmol I2 discrepancy in condition B.",
+        "The row-specific scope structures use a generic R-group scaffold, so product/substrate SMILES remain null pending structure review.",
+        "No explicitly associated SI supplies atmosphere, workup, purification, or additional experimental detail."
+      ]
+    }
+  ]
+}

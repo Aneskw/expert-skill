@@ -1,0 +1,1495 @@
+{
+  "tool_version": "2.0",
+  "schema_version": "1.0",
+  "created_at": "2026-10-11T17:33:47.000404+00:00",
+  "documents": [
+    {
+      "document_id": "doc_9d6e249c5e399d9d",
+      "sha256": "9d6e249c5e399d9d957e685a62cf99bd1aad975591732367b52e56d369558cf6",
+      "source_name": "source.pdf",
+      "source_pdf": "assets/doc_9d6e249c5e399d9d/source.pdf",
+      "role": "main_text",
+      "parent_document_id": null,
+      "pages": 1,
+      "title": null,
+      "doi": null,
+      "supplementary_material": {
+        "status": "unknown",
+        "note": "SI availability is not established from filename."
+      },
+      "evidence": [
+        {
+          "evidence_id": "doc_9d6e249c5e399d9d:page1:text",
+          "document_id": "doc_9d6e249c5e399d9d",
+          "page": 1,
+          "kind": "page_text",
+          "text": "2004 Furan derivatives\nFuran derivatives\nR 0060 Reaction of PhSeCl or PhSCl with 2,3-Allenoic Acids: An Efficient Synthesis of \nβ-Organoselenium or β-Organosulfur Substituted Butenolides.  — (MA*, S.; \nPAN, F.; HAO, X.; HUANG, X.; Synlett 2004, 1, 85-88; Dep. Chem., Zhejiang Univ., \nHangzhou 310027, Peop. Rep. China; Eng.) — Mais\n \n \n21- 084",
+          "asset": null,
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "pypdf"
+        },
+        {
+          "evidence_id": "doc_9d6e249c5e399d9d:page1:image",
+          "document_id": "doc_9d6e249c5e399d9d",
+          "page": 1,
+          "kind": "page_image",
+          "text": null,
+          "asset": "assets/doc_9d6e249c5e399d9d/page1.jpg",
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "rendered_source_pdf"
+        }
+      ],
+      "coverage": {
+        "pages_processed": 1,
+        "semantic_extraction_complete": false,
+        "note": "Page/block enumeration is not proof of complete reaction extraction."
+      }
+    }
+  ],
+  "candidates": [],
+  "experiments": [
+    {
+      "record_id": "doc_9d6e249c5e399d9d:phsecl_a",
+      "document_id": "doc_9d6e249c5e399d9d",
+      "source_reaction_id": "R 0060 phsecl scheme entry a",
+      "record_kind": "literature_example",
+      "status": "needs_review",
+      "completeness": "partial",
+      "evidence_ids": [
+        "doc_9d6e249c5e399d9d:page1:image",
+        "doc_9d6e249c5e399d9d:page1:text"
+      ],
+      "participants": [
+        {
+          "entity_id": "phsecl_a_substrate",
+          "role": "reactant",
+          "label": {
+            "value": "allenoic acid I-a (R1 = Bu; R2 = H)",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "phsecl_a_reagent",
+          "role": "reagent",
+          "label": {
+            "value": "PhSeCl (II)",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "phsecl_a_solvent",
+          "role": "solvent",
+          "label": {
+            "value": "MeCN (condition A)",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": "CC#N",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "phsecl_a_product",
+          "role": "product",
+          "label": {
+            "value": "butenolide III-a (R1 = Bu; R2 = H; Ph-Se substituent depicted)",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        }
+      ],
+      "steps": [
+        {
+          "step_id": "reaction",
+          "participant_ids": [
+            "phsecl_a_substrate",
+            "phsecl_a_reagent",
+            "phsecl_a_solvent"
+          ],
+          "conditions": [
+            {
+              "name": "solvent",
+              "fact": {
+                "value": "MeCN",
+                "evidence_ids": [
+                  "doc_9d6e249c5e399d9d:page1:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "solvent"
+            },
+            {
+              "name": "temperature",
+              "fact": {
+                "value": {
+                  "number": 0,
+                  "unit": "°C",
+                  "raw_text": "0°C"
+                },
+                "evidence_ids": [
+                  "doc_9d6e249c5e399d9d:page1:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "temperature"
+            },
+            {
+              "name": "atmosphere",
+              "fact": {
+                "value": "[N2]",
+                "evidence_ids": [
+                  "doc_9d6e249c5e399d9d:page1:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "atmosphere"
+            },
+            {
+              "name": "time",
+              "fact": {
+                "value": {
+                  "number": 19,
+                  "unit": "h"
+                },
+                "evidence_ids": [
+                  "doc_9d6e249c5e399d9d:page1:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "name": "yield",
+          "fact": {
+            "value": {
+              "number": 91,
+              "unit": "%"
+            },
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "target_entity_ids": [
+            "phsecl_a_product"
+          ],
+          "category": "yield"
+        },
+        {
+          "name": "yield_measurement_basis",
+          "fact": {
+            "value": null,
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "missing"
+          },
+          "target_entity_ids": [
+            "phsecl_a_product"
+          ],
+          "category": "measurement_basis"
+        }
+      ],
+      "notes": [
+        {
+          "value": "ChemInform R 0060 cites S. Ma, F. Pan, X. Hao, and X. Huang, Synlett 2004, 1, 85-88.",
+          "evidence_ids": [
+            "doc_9d6e249c5e399d9d:page1:image",
+            "doc_9d6e249c5e399d9d:page1:text"
+          ],
+          "verification": "unreviewed"
+        }
+      ],
+      "review": {
+        "method": "model",
+        "reviewer": null,
+        "checked_fields": [],
+        "unresolved": [
+          "This is a ChemInform abstract entry citing Synlett 2004, 1, 85-88; the supplied PDF is not the primary article, so the row is classified as a literature example.",
+          "No reagent or substrate amounts, concentration, reaction scale, workup, purification, or detailed procedure are supplied on this page.",
+          "The yield measurement basis is not stated.",
+          "No Supporting Information was supplied or explicitly associated.",
+          "The generic R-group scheme and abbreviated substituent labels do not support a source-verified complete substrate or product SMILES."
+        ]
+      }
+    },
+    {
+      "record_id": "doc_9d6e249c5e399d9d:phsecl_b",
+      "document_id": "doc_9d6e249c5e399d9d",
+      "source_reaction_id": "R 0060 phsecl scheme entry b",
+      "record_kind": "literature_example",
+      "status": "needs_review",
+      "completeness": "partial",
+      "evidence_ids": [
+        "doc_9d6e249c5e399d9d:page1:image",
+        "doc_9d6e249c5e399d9d:page1:text"
+      ],
+      "participants": [
+        {
+          "entity_id": "phsecl_b_substrate",
+          "role": "reactant",
+          "label": {
+            "value": "allenoic acid I-b (R1 = Ph; R2 = Pr)",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "phsecl_b_reagent",
+          "role": "reagent",
+          "label": {
+            "value": "PhSeCl (II)",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "phsecl_b_solvent",
+          "role": "solvent",
+          "label": {
+            "value": "MeCN (condition A)",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": "CC#N",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "phsecl_b_product",
+          "role": "product",
+          "label": {
+            "value": "butenolide III-b (R1 = Ph; R2 = Pr; Ph-Se substituent depicted)",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        }
+      ],
+      "steps": [
+        {
+          "step_id": "reaction",
+          "participant_ids": [
+            "phsecl_b_substrate",
+            "phsecl_b_reagent",
+            "phsecl_b_solvent"
+          ],
+          "conditions": [
+            {
+              "name": "solvent",
+              "fact": {
+                "value": "MeCN",
+                "evidence_ids": [
+                  "doc_9d6e249c5e399d9d:page1:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "solvent"
+            },
+            {
+              "name": "temperature",
+              "fact": {
+                "value": {
+                  "number": 0,
+                  "unit": "°C",
+                  "raw_text": "0°C"
+                },
+                "evidence_ids": [
+                  "doc_9d6e249c5e399d9d:page1:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "temperature"
+            },
+            {
+              "name": "atmosphere",
+              "fact": {
+                "value": "[N2]",
+                "evidence_ids": [
+                  "doc_9d6e249c5e399d9d:page1:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "atmosphere"
+            },
+            {
+              "name": "time",
+              "fact": {
+                "value": {
+                  "number": 10,
+                  "unit": "h"
+                },
+                "evidence_ids": [
+                  "doc_9d6e249c5e399d9d:page1:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "name": "yield",
+          "fact": {
+            "value": {
+              "number": 98,
+              "unit": "%"
+            },
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "target_entity_ids": [
+            "phsecl_b_product"
+          ],
+          "category": "yield"
+        },
+        {
+          "name": "yield_measurement_basis",
+          "fact": {
+            "value": null,
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "missing"
+          },
+          "target_entity_ids": [
+            "phsecl_b_product"
+          ],
+          "category": "measurement_basis"
+        }
+      ],
+      "notes": [
+        {
+          "value": "ChemInform R 0060 cites S. Ma, F. Pan, X. Hao, and X. Huang, Synlett 2004, 1, 85-88.",
+          "evidence_ids": [
+            "doc_9d6e249c5e399d9d:page1:image",
+            "doc_9d6e249c5e399d9d:page1:text"
+          ],
+          "verification": "unreviewed"
+        }
+      ],
+      "review": {
+        "method": "model",
+        "reviewer": null,
+        "checked_fields": [],
+        "unresolved": [
+          "This is a ChemInform abstract entry citing Synlett 2004, 1, 85-88; the supplied PDF is not the primary article, so the row is classified as a literature example.",
+          "No reagent or substrate amounts, concentration, reaction scale, workup, purification, or detailed procedure are supplied on this page.",
+          "The yield measurement basis is not stated.",
+          "No Supporting Information was supplied or explicitly associated.",
+          "The generic R-group scheme and abbreviated substituent labels do not support a source-verified complete substrate or product SMILES."
+        ]
+      }
+    },
+    {
+      "record_id": "doc_9d6e249c5e399d9d:phsecl_c",
+      "document_id": "doc_9d6e249c5e399d9d",
+      "source_reaction_id": "R 0060 phsecl scheme entry c",
+      "record_kind": "literature_example",
+      "status": "needs_review",
+      "completeness": "partial",
+      "evidence_ids": [
+        "doc_9d6e249c5e399d9d:page1:image",
+        "doc_9d6e249c5e399d9d:page1:text"
+      ],
+      "participants": [
+        {
+          "entity_id": "phsecl_c_substrate",
+          "role": "reactant",
+          "label": {
+            "value": "allenoic acid I-c (R1 = fused bicyclic aryl group drawn; R2 = Pr)",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "phsecl_c_reagent",
+          "role": "reagent",
+          "label": {
+            "value": "PhSeCl (II)",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "phsecl_c_solvent",
+          "role": "solvent",
+          "label": {
+            "value": "MeCN (condition A)",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": "CC#N",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "phsecl_c_product",
+          "role": "product",
+          "label": {
+            "value": "butenolide III-c (R1 = fused bicyclic aryl group drawn; R2 = Pr; Ph-Se substituent depicted)",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        }
+      ],
+      "steps": [
+        {
+          "step_id": "reaction",
+          "participant_ids": [
+            "phsecl_c_substrate",
+            "phsecl_c_reagent",
+            "phsecl_c_solvent"
+          ],
+          "conditions": [
+            {
+              "name": "solvent",
+              "fact": {
+                "value": "MeCN",
+                "evidence_ids": [
+                  "doc_9d6e249c5e399d9d:page1:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "solvent"
+            },
+            {
+              "name": "temperature",
+              "fact": {
+                "value": {
+                  "number": 0,
+                  "unit": "°C",
+                  "raw_text": "0°C"
+                },
+                "evidence_ids": [
+                  "doc_9d6e249c5e399d9d:page1:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "temperature"
+            },
+            {
+              "name": "atmosphere",
+              "fact": {
+                "value": "[N2]",
+                "evidence_ids": [
+                  "doc_9d6e249c5e399d9d:page1:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "atmosphere"
+            },
+            {
+              "name": "time",
+              "fact": {
+                "value": {
+                  "number": 7,
+                  "unit": "h"
+                },
+                "evidence_ids": [
+                  "doc_9d6e249c5e399d9d:page1:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "name": "yield",
+          "fact": {
+            "value": {
+              "number": 94,
+              "unit": "%"
+            },
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "target_entity_ids": [
+            "phsecl_c_product"
+          ],
+          "category": "yield"
+        },
+        {
+          "name": "yield_measurement_basis",
+          "fact": {
+            "value": null,
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "missing"
+          },
+          "target_entity_ids": [
+            "phsecl_c_product"
+          ],
+          "category": "measurement_basis"
+        }
+      ],
+      "notes": [
+        {
+          "value": "ChemInform R 0060 cites S. Ma, F. Pan, X. Hao, and X. Huang, Synlett 2004, 1, 85-88.",
+          "evidence_ids": [
+            "doc_9d6e249c5e399d9d:page1:image",
+            "doc_9d6e249c5e399d9d:page1:text"
+          ],
+          "verification": "unreviewed"
+        }
+      ],
+      "review": {
+        "method": "model",
+        "reviewer": null,
+        "checked_fields": [],
+        "unresolved": [
+          "This is a ChemInform abstract entry citing Synlett 2004, 1, 85-88; the supplied PDF is not the primary article, so the row is classified as a literature example.",
+          "No reagent or substrate amounts, concentration, reaction scale, workup, purification, or detailed procedure are supplied on this page.",
+          "The yield measurement basis is not stated.",
+          "No Supporting Information was supplied or explicitly associated.",
+          "The generic R-group scheme and abbreviated substituent labels do not support a source-verified complete substrate or product SMILES."
+        ]
+      }
+    },
+    {
+      "record_id": "doc_9d6e249c5e399d9d:phscl_a",
+      "document_id": "doc_9d6e249c5e399d9d",
+      "source_reaction_id": "R 0060 phscl scheme entry a",
+      "record_kind": "literature_example",
+      "status": "needs_review",
+      "completeness": "partial",
+      "evidence_ids": [
+        "doc_9d6e249c5e399d9d:page1:image",
+        "doc_9d6e249c5e399d9d:page1:text"
+      ],
+      "participants": [
+        {
+          "entity_id": "phscl_a_substrate",
+          "role": "reactant",
+          "label": {
+            "value": "allenoic acid IV-a (R3 = (CH2)6-Me; R4 = H; R5 = H)",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "phscl_a_reagent",
+          "role": "reagent",
+          "label": {
+            "value": "PhSCl (V)",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "phscl_a_solvent",
+          "role": "solvent",
+          "label": {
+            "value": "MeCN (condition A)",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": "CC#N",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "phscl_a_product",
+          "role": "product",
+          "label": {
+            "value": "butenolide VI-a (R3 = (CH2)6-Me; R4 = H; R5 = H)",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        }
+      ],
+      "steps": [
+        {
+          "step_id": "reaction",
+          "participant_ids": [
+            "phscl_a_substrate",
+            "phscl_a_reagent",
+            "phscl_a_solvent"
+          ],
+          "conditions": [
+            {
+              "name": "solvent",
+              "fact": {
+                "value": "MeCN",
+                "evidence_ids": [
+                  "doc_9d6e249c5e399d9d:page1:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "solvent"
+            },
+            {
+              "name": "temperature",
+              "fact": {
+                "value": {
+                  "number": 0,
+                  "unit": "°C",
+                  "raw_text": "0°C"
+                },
+                "evidence_ids": [
+                  "doc_9d6e249c5e399d9d:page1:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "temperature"
+            },
+            {
+              "name": "atmosphere",
+              "fact": {
+                "value": "[N2]",
+                "evidence_ids": [
+                  "doc_9d6e249c5e399d9d:page1:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "atmosphere"
+            },
+            {
+              "name": "time",
+              "fact": {
+                "value": {
+                  "number": 10,
+                  "unit": "h",
+                  "qualifier": "approx",
+                  "raw_text": "~10 h"
+                },
+                "evidence_ids": [
+                  "doc_9d6e249c5e399d9d:page1:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "name": "yield",
+          "fact": {
+            "value": {
+              "number": 71,
+              "unit": "%"
+            },
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "target_entity_ids": [
+            "phscl_a_product"
+          ],
+          "category": "yield"
+        },
+        {
+          "name": "yield_measurement_basis",
+          "fact": {
+            "value": null,
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "missing"
+          },
+          "target_entity_ids": [
+            "phscl_a_product"
+          ],
+          "category": "measurement_basis"
+        }
+      ],
+      "notes": [
+        {
+          "value": "ChemInform R 0060 cites S. Ma, F. Pan, X. Hao, and X. Huang, Synlett 2004, 1, 85-88.",
+          "evidence_ids": [
+            "doc_9d6e249c5e399d9d:page1:image",
+            "doc_9d6e249c5e399d9d:page1:text"
+          ],
+          "verification": "unreviewed"
+        }
+      ],
+      "review": {
+        "method": "model",
+        "reviewer": null,
+        "checked_fields": [],
+        "unresolved": [
+          "This is a ChemInform abstract entry citing Synlett 2004, 1, 85-88; the supplied PDF is not the primary article, so the row is classified as a literature example.",
+          "No reagent or substrate amounts, concentration, reaction scale, workup, purification, or detailed procedure are supplied on this page.",
+          "The yield measurement basis is not stated.",
+          "No Supporting Information was supplied or explicitly associated.",
+          "The generic R-group scheme and abbreviated substituent labels do not support a source-verified complete substrate or product SMILES.",
+          "The lower product chalcogen annotation appears visually inconsistent with the PhSCl reagent/title in the supplied rendering; product identity is retained only by source label and no product SMILES is assigned."
+        ]
+      }
+    },
+    {
+      "record_id": "doc_9d6e249c5e399d9d:phscl_b",
+      "document_id": "doc_9d6e249c5e399d9d",
+      "source_reaction_id": "R 0060 phscl scheme entry b",
+      "record_kind": "literature_example",
+      "status": "needs_review",
+      "completeness": "partial",
+      "evidence_ids": [
+        "doc_9d6e249c5e399d9d:page1:image",
+        "doc_9d6e249c5e399d9d:page1:text"
+      ],
+      "participants": [
+        {
+          "entity_id": "phscl_b_substrate",
+          "role": "reactant",
+          "label": {
+            "value": "allenoic acid IV-b (R3 = Ph; R4 = H; R5 = CH2-Ph)",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "phscl_b_reagent",
+          "role": "reagent",
+          "label": {
+            "value": "PhSCl (V)",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "phscl_b_solvent",
+          "role": "solvent",
+          "label": {
+            "value": "MeCN (condition A)",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": "CC#N",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "phscl_b_product",
+          "role": "product",
+          "label": {
+            "value": "butenolide VI-b (R3 = Ph; R4 = H; R5 = CH2-Ph)",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        }
+      ],
+      "steps": [
+        {
+          "step_id": "reaction",
+          "participant_ids": [
+            "phscl_b_substrate",
+            "phscl_b_reagent",
+            "phscl_b_solvent"
+          ],
+          "conditions": [
+            {
+              "name": "solvent",
+              "fact": {
+                "value": "MeCN",
+                "evidence_ids": [
+                  "doc_9d6e249c5e399d9d:page1:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "solvent"
+            },
+            {
+              "name": "temperature",
+              "fact": {
+                "value": {
+                  "number": 0,
+                  "unit": "°C",
+                  "raw_text": "0°C"
+                },
+                "evidence_ids": [
+                  "doc_9d6e249c5e399d9d:page1:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "temperature"
+            },
+            {
+              "name": "atmosphere",
+              "fact": {
+                "value": "[N2]",
+                "evidence_ids": [
+                  "doc_9d6e249c5e399d9d:page1:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "atmosphere"
+            },
+            {
+              "name": "time",
+              "fact": {
+                "value": {
+                  "number": 20,
+                  "unit": "h"
+                },
+                "evidence_ids": [
+                  "doc_9d6e249c5e399d9d:page1:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "name": "yield",
+          "fact": {
+            "value": {
+              "number": 82,
+              "unit": "%"
+            },
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "target_entity_ids": [
+            "phscl_b_product"
+          ],
+          "category": "yield"
+        },
+        {
+          "name": "yield_measurement_basis",
+          "fact": {
+            "value": null,
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "missing"
+          },
+          "target_entity_ids": [
+            "phscl_b_product"
+          ],
+          "category": "measurement_basis"
+        }
+      ],
+      "notes": [
+        {
+          "value": "ChemInform R 0060 cites S. Ma, F. Pan, X. Hao, and X. Huang, Synlett 2004, 1, 85-88.",
+          "evidence_ids": [
+            "doc_9d6e249c5e399d9d:page1:image",
+            "doc_9d6e249c5e399d9d:page1:text"
+          ],
+          "verification": "unreviewed"
+        }
+      ],
+      "review": {
+        "method": "model",
+        "reviewer": null,
+        "checked_fields": [],
+        "unresolved": [
+          "This is a ChemInform abstract entry citing Synlett 2004, 1, 85-88; the supplied PDF is not the primary article, so the row is classified as a literature example.",
+          "No reagent or substrate amounts, concentration, reaction scale, workup, purification, or detailed procedure are supplied on this page.",
+          "The yield measurement basis is not stated.",
+          "No Supporting Information was supplied or explicitly associated.",
+          "The generic R-group scheme and abbreviated substituent labels do not support a source-verified complete substrate or product SMILES.",
+          "The lower product chalcogen annotation appears visually inconsistent with the PhSCl reagent/title in the supplied rendering; product identity is retained only by source label and no product SMILES is assigned."
+        ]
+      }
+    },
+    {
+      "record_id": "doc_9d6e249c5e399d9d:phscl_c",
+      "document_id": "doc_9d6e249c5e399d9d",
+      "source_reaction_id": "R 0060 phscl scheme entry c",
+      "record_kind": "literature_example",
+      "status": "needs_review",
+      "completeness": "partial",
+      "evidence_ids": [
+        "doc_9d6e249c5e399d9d:page1:image",
+        "doc_9d6e249c5e399d9d:page1:text"
+      ],
+      "participants": [
+        {
+          "entity_id": "phscl_c_substrate",
+          "role": "reactant",
+          "label": {
+            "value": "allenoic acid IV-c (R3-R4 = cyclohexane ring drawn; R5 = Me)",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "phscl_c_reagent",
+          "role": "reagent",
+          "label": {
+            "value": "PhSCl (V)",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "phscl_c_solvent",
+          "role": "solvent",
+          "label": {
+            "value": "MeCN (condition A)",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": "CC#N",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "phscl_c_product",
+          "role": "product",
+          "label": {
+            "value": "butenolide VI-c (R3-R4 = cyclohexane ring drawn; R5 = Me)",
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        }
+      ],
+      "steps": [
+        {
+          "step_id": "reaction",
+          "participant_ids": [
+            "phscl_c_substrate",
+            "phscl_c_reagent",
+            "phscl_c_solvent"
+          ],
+          "conditions": [
+            {
+              "name": "solvent",
+              "fact": {
+                "value": "MeCN",
+                "evidence_ids": [
+                  "doc_9d6e249c5e399d9d:page1:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "solvent"
+            },
+            {
+              "name": "temperature",
+              "fact": {
+                "value": {
+                  "number": 0,
+                  "unit": "°C",
+                  "raw_text": "0°C"
+                },
+                "evidence_ids": [
+                  "doc_9d6e249c5e399d9d:page1:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "temperature"
+            },
+            {
+              "name": "atmosphere",
+              "fact": {
+                "value": "[N2]",
+                "evidence_ids": [
+                  "doc_9d6e249c5e399d9d:page1:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "atmosphere"
+            },
+            {
+              "name": "time",
+              "fact": {
+                "value": {
+                  "number": 10,
+                  "unit": "h",
+                  "qualifier": "approx",
+                  "raw_text": "~10 h"
+                },
+                "evidence_ids": [
+                  "doc_9d6e249c5e399d9d:page1:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "name": "yield",
+          "fact": {
+            "value": {
+              "number": 61,
+              "unit": "%"
+            },
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "target_entity_ids": [
+            "phscl_c_product"
+          ],
+          "category": "yield"
+        },
+        {
+          "name": "yield_measurement_basis",
+          "fact": {
+            "value": null,
+            "evidence_ids": [
+              "doc_9d6e249c5e399d9d:page1:image"
+            ],
+            "verification": "missing"
+          },
+          "target_entity_ids": [
+            "phscl_c_product"
+          ],
+          "category": "measurement_basis"
+        }
+      ],
+      "notes": [
+        {
+          "value": "ChemInform R 0060 cites S. Ma, F. Pan, X. Hao, and X. Huang, Synlett 2004, 1, 85-88.",
+          "evidence_ids": [
+            "doc_9d6e249c5e399d9d:page1:image",
+            "doc_9d6e249c5e399d9d:page1:text"
+          ],
+          "verification": "unreviewed"
+        }
+      ],
+      "review": {
+        "method": "model",
+        "reviewer": null,
+        "checked_fields": [],
+        "unresolved": [
+          "This is a ChemInform abstract entry citing Synlett 2004, 1, 85-88; the supplied PDF is not the primary article, so the row is classified as a literature example.",
+          "No reagent or substrate amounts, concentration, reaction scale, workup, purification, or detailed procedure are supplied on this page.",
+          "The yield measurement basis is not stated.",
+          "No Supporting Information was supplied or explicitly associated.",
+          "The generic R-group scheme and abbreviated substituent labels do not support a source-verified complete substrate or product SMILES.",
+          "The lower product chalcogen annotation appears visually inconsistent with the PhSCl reagent/title in the supplied rendering; product identity is retained only by source label and no product SMILES is assigned."
+        ]
+      }
+    }
+  ],
+  "run_log": [
+    {
+      "event": "records_merged",
+      "count": 6,
+      "at": "2026-10-11T17:35:37.541009+00:00"
+    }
+  ],
+  "extraction_profile": {
+    "version": "2.0",
+    "resource_sha256": {
+      "SKILL.md": "82198396c99db78729c27ace69552ed817d407bcead6de2b301d049d65ae8d2b",
+      "scripts/reaction_tools.py": "38ea62a35fba3eb1b4c32cc0e8a9cd8f359e3155dc796af0f94940cefca33b69",
+      "scripts/record_quality.py": "6ed41d1113d6e000e77b56fbd9bcb392c27e322c3c52a1ade367751eb48809e7",
+      "references/quality_rules.md": "2d1fcea8e089e888285d4a44c5231b3f5701146c0f39da5d8b495ea0d8150f53",
+      "references/structured_fields.md": "669c23ac13793c23d4a41835e81aa33eaab0fc1c19be96e6f3a3f2e7f4b7d397",
+      "references/experiment.schema.json": "658369738963327a9b44d4bb69e870ab68e9dd3e9b1e7e7b498519d0de87afe8"
+    }
+  }
+}

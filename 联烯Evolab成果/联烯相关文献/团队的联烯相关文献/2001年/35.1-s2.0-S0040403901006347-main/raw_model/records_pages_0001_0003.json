@@ -1,0 +1,5417 @@
+[
+  {
+    "record_id": "doc_1132074d14c1193b:scheme1_prior_allenoic_acid_halolactonization",
+    "document_id": "doc_1132074d14c1193b",
+    "source_reaction_id": "scheme1_prior_allenoic_acid_halolactonization",
+    "record_kind": "literature_example",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_1132074d14c1193b:page1:text",
+      "doc_1132074d14c1193b:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "acid",
+        "role": "reactant",
+        "label": {
+          "value": "2,3-allenoic acid",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "generic 2,3-allenoic acid (R1/R2)",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cux2",
+        "role": "reagent",
+        "label": {
+          "value": "CuX2",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(II) halide; X = Cl or Br",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "acetone_water",
+        "role": "solvent",
+        "label": {
+          "value": "acetone-H2O",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "acetone/water",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "halolactone",
+        "role": "product",
+        "label": {
+          "value": "beta-halobutenolide",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "generic beta-halobutenolide",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "acid",
+          "cux2",
+          "acetone_water",
+          "halolactone"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "65-70 °C",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page1:text",
+                "doc_1132074d14c1193b:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "solvent_ratio",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      },
+      {
+        "name": "halogen",
+        "fact": {
+          "value": "X = Cl or Br",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 1 and the text attribute this allenoic-acid halolactonization to the authors' earlier work (reference 8).",
+        "evidence_ids": [
+          "doc_1132074d14c1193b:page1:text",
+          "doc_1132074d14c1193b:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Generic R1/R2 structures are not resolved.",
+        "Reaction time, scale, CuX2 amount, solvent ratio, workup, purification, and yield are not reported here."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_1132074d14c1193b:scheme1_generic_ester_hydrolysis_problem",
+    "document_id": "doc_1132074d14c1193b",
+    "source_reaction_id": "scheme1_generic_ester_hydrolysis_problem",
+    "record_kind": "literature_example",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_1132074d14c1193b:page1:text",
+      "doc_1132074d14c1193b:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "ester",
+        "role": "reactant",
+        "label": {
+          "value": "2,3-allenoate",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "generic 2,3-allenoate",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "hydroxide",
+        "role": "reagent",
+        "label": {
+          "value": "1. OH-; 2. H+",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "base hydrolysis followed by acidification",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "acid",
+        "role": "product",
+        "label": {
+          "value": "2,3-allenoic acid",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "generic 2,3-allenoic acid",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "alkynoic_acid",
+        "role": "product",
+        "label": {
+          "value": "3-alkynoic acid",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "generic 3-alkynoic acid byproduct",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "ester",
+          "hydroxide",
+          "acid",
+          "alkynoic_acid"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      },
+      {
+        "name": "byproduct_observed",
+        "fact": {
+          "value": true,
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "The prose states that ester hydrolysis sometimes gave low yields and often formed 3-alkynoic acids, sometimes as the sole products.",
+        "evidence_ids": [
+          "doc_1132074d14c1193b:page1:text",
+          "doc_1132074d14c1193b:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Generic R/R1/R2 structures, quantities, solvent, temperature, time, product ratio, workup, purification, and yield are missing."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_1132074d14c1193b:scheme1_direct_allenoate_halolactonization_target",
+    "document_id": "doc_1132074d14c1193b",
+    "source_reaction_id": "scheme1_direct_allenoate_halolactonization_target",
+    "record_kind": "general_scheme",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_1132074d14c1193b:page1:text",
+      "doc_1132074d14c1193b:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "ester",
+        "role": "reactant",
+        "label": {
+          "value": "2,3-allenoate",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "generic 2,3-allenoate",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "halolactone",
+        "role": "product",
+        "label": {
+          "value": "beta-halobutenolide",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "generic beta-halobutenolide",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "ester",
+          "halolactone"
+        ],
+        "conditions": [
+          {
+            "name": "conditions",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "The upward arrow in Scheme 1 carries a question mark and represents the desired direct ester-to-lactone transformation, not an observed run.",
+        "evidence_ids": [
+          "doc_1132074d14c1193b:page1:text",
+          "doc_1132074d14c1193b:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reagent, conditions, substituent identities, and outcome are intentionally unspecified in this conceptual arrow."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_1132074d14c1193b:scheme2_acetone_water",
+    "document_id": "doc_1132074d14c1193b",
+    "source_reaction_id": "scheme2_acetone_water",
+    "record_kind": "optimization_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_1132074d14c1193b:page1:text",
+      "doc_1132074d14c1193b:page1:image",
+      "doc_1132074d14c1193b:page2:text",
+      "doc_1132074d14c1193b:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-methyl-2,3-decadienoate",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "halogenating_reagent",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "acetone/H2O",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "acetone/H2O",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "2a",
+        "role": "product",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "beta-bromobutenolide 2a",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "3a",
+        "role": "product",
+        "label": {
+          "value": "3a",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-bromo-4-oxo-2-decenoate",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "1a",
+          "halogenating_reagent",
+          "solvent",
+          "2a",
+          "3a"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "65-70 °C",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page1:text",
+                "doc_1132074d14c1193b:page1:image",
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 12,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page1:text",
+                "doc_1132074d14c1193b:page1:image",
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent_ratio",
+            "fact": {
+              "value": "2:1",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page1:text",
+                "doc_1132074d14c1193b:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reagent_amount",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "recovery_of_1a",
+        "fact": {
+          "value": {
+            "number": 27,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_2a",
+        "fact": {
+          "value": {
+            "number": 62,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_3a",
+        "fact": {
+          "value": {
+            "number": 0,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_2a_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 2 condition row; 3a is the competing brominated oxo-enoate product.",
+        "evidence_ids": [
+          "doc_1132074d14c1193b:page1:text",
+          "doc_1132074d14c1193b:page1:image",
+          "doc_1132074d14c1193b:page2:text",
+          "doc_1132074d14c1193b:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reaction scale, reagent amount, atmosphere, concentration, workup, and purification are missing.",
+        "Yield basis is unreported except where the prose explicitly calls 2a isolated."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_1132074d14c1193b:scheme2_ethanol_water",
+    "document_id": "doc_1132074d14c1193b",
+    "source_reaction_id": "scheme2_ethanol_water",
+    "record_kind": "optimization_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_1132074d14c1193b:page1:text",
+      "doc_1132074d14c1193b:page1:image",
+      "doc_1132074d14c1193b:page2:text",
+      "doc_1132074d14c1193b:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-methyl-2,3-decadienoate",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "halogenating_reagent",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "ethanol/H2O",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethanol/H2O",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "2a",
+        "role": "product",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "beta-bromobutenolide 2a",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "3a",
+        "role": "product",
+        "label": {
+          "value": "3a",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-bromo-4-oxo-2-decenoate",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "1a",
+          "halogenating_reagent",
+          "solvent",
+          "2a",
+          "3a"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "80-85 °C",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page1:text",
+                "doc_1132074d14c1193b:page1:image",
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 12,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page1:text",
+                "doc_1132074d14c1193b:page1:image",
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent_ratio",
+            "fact": {
+              "value": "3:2",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page1:text",
+                "doc_1132074d14c1193b:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reagent_amount",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "recovery_of_1a",
+        "fact": {
+          "value": {
+            "number": 0,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_2a",
+        "fact": {
+          "value": {
+            "number": 86,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_3a",
+        "fact": {
+          "value": {
+            "number": 0,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_2a_measurement_basis",
+        "fact": {
+          "value": "isolated",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 2 condition row; 3a is the competing brominated oxo-enoate product.",
+        "evidence_ids": [
+          "doc_1132074d14c1193b:page1:text",
+          "doc_1132074d14c1193b:page1:image",
+          "doc_1132074d14c1193b:page2:text",
+          "doc_1132074d14c1193b:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reaction scale, reagent amount, atmosphere, concentration, workup, and purification are missing.",
+        "Yield basis is unreported except where the prose explicitly calls 2a isolated."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_1132074d14c1193b:scheme2_nbs_water",
+    "document_id": "doc_1132074d14c1193b",
+    "source_reaction_id": "scheme2_nbs_water",
+    "record_kind": "optimization_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_1132074d14c1193b:page1:text",
+      "doc_1132074d14c1193b:page1:image",
+      "doc_1132074d14c1193b:page2:text",
+      "doc_1132074d14c1193b:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-methyl-2,3-decadienoate",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "halogenating_reagent",
+        "role": "reagent",
+        "label": {
+          "value": "NBS",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "NBS",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "H2O",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "H2O",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "2a",
+        "role": "product",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "beta-bromobutenolide 2a",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "3a",
+        "role": "product",
+        "label": {
+          "value": "3a",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 3-bromo-4-oxo-2-decenoate",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "1a",
+          "halogenating_reagent",
+          "solvent",
+          "2a",
+          "3a"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "room temperature",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page1:text",
+                "doc_1132074d14c1193b:page1:image",
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 14,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page1:text",
+                "doc_1132074d14c1193b:page1:image",
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent_ratio",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reagent_amount",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "recovery_of_1a",
+        "fact": {
+          "value": {
+            "number": 0,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_2a",
+        "fact": {
+          "value": {
+            "number": 53,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_3a",
+        "fact": {
+          "value": {
+            "number": 15,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_2a_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 2 condition row; 3a is the competing brominated oxo-enoate product.",
+        "evidence_ids": [
+          "doc_1132074d14c1193b:page1:text",
+          "doc_1132074d14c1193b:page1:image",
+          "doc_1132074d14c1193b:page2:text",
+          "doc_1132074d14c1193b:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reaction scale, reagent amount, atmosphere, concentration, workup, and purification are missing.",
+        "Yield basis is unreported except where the prose explicitly calls 2a isolated."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_1132074d14c1193b:table1_entry1",
+    "document_id": "doc_1132074d14c1193b",
+    "source_reaction_id": "table1_entry1",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_1132074d14c1193b:page2:text",
+      "doc_1132074d14c1193b:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1b",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2,3-allenoate 1b (R1=n-C6H13; R2=H; R3=n-C3H7)",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.5,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "ethanol_water",
+        "role": "solvent",
+        "label": {
+          "value": "ethanol:H2O",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethanol/water",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "ratio",
+            "fact": {
+              "value": "3:2",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "2b",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "beta-bromobutenolide 2b",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate",
+          "cubr2",
+          "ethanol_water",
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "80-85 °C",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 12,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 95,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 1; the prose states that the starting allenoates reacted completely and the reactions proceeded smoothly and cleanly.",
+        "evidence_ids": [
+          "doc_1132074d14c1193b:page2:text",
+          "doc_1132074d14c1193b:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Exact structures and stereochemistry are not machine-verified.",
+        "Atmosphere, concentration, workup, purification, isolated mass, and yield measurement basis are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_1132074d14c1193b:table1_entry2",
+    "document_id": "doc_1132074d14c1193b",
+    "source_reaction_id": "table1_entry2",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_1132074d14c1193b:page2:text",
+      "doc_1132074d14c1193b:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1c",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2,3-allenoate 1c (R1=n-C6H13; R2=H; R3=C6H5CH2)",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.5,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "ethanol_water",
+        "role": "solvent",
+        "label": {
+          "value": "ethanol:H2O",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethanol/water",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "ratio",
+            "fact": {
+              "value": "3:2",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "2c",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "beta-bromobutenolide 2c",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate",
+          "cubr2",
+          "ethanol_water",
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "80-85 °C",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 12,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 97,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 2; the prose states that the starting allenoates reacted completely and the reactions proceeded smoothly and cleanly.",
+        "evidence_ids": [
+          "doc_1132074d14c1193b:page2:text",
+          "doc_1132074d14c1193b:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Exact structures and stereochemistry are not machine-verified.",
+        "Atmosphere, concentration, workup, purification, isolated mass, and yield measurement basis are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_1132074d14c1193b:table1_entry3",
+    "document_id": "doc_1132074d14c1193b",
+    "source_reaction_id": "table1_entry3",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_1132074d14c1193b:page2:text",
+      "doc_1132074d14c1193b:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1d",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2,3-allenoate 1d (R1=n-C3H7; R2=H; R3=C6H5CH2)",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.5,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "ethanol_water",
+        "role": "solvent",
+        "label": {
+          "value": "ethanol:H2O",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethanol/water",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "ratio",
+            "fact": {
+              "value": "3:2",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "2d",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "beta-bromobutenolide 2d",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate",
+          "cubr2",
+          "ethanol_water",
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "80-85 °C",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 12,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 78,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 3; the prose states that the starting allenoates reacted completely and the reactions proceeded smoothly and cleanly.",
+        "evidence_ids": [
+          "doc_1132074d14c1193b:page2:text",
+          "doc_1132074d14c1193b:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Exact structures and stereochemistry are not machine-verified.",
+        "Atmosphere, concentration, workup, purification, isolated mass, and yield measurement basis are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_1132074d14c1193b:table1_entry4",
+    "document_id": "doc_1132074d14c1193b",
+    "source_reaction_id": "table1_entry4",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_1132074d14c1193b:page2:text",
+      "doc_1132074d14c1193b:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1e",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2,3-allenoate 1e (R1=n-C3H7; R2=H; R3=n-C3H7)",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.5,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "ethanol_water",
+        "role": "solvent",
+        "label": {
+          "value": "ethanol:H2O",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethanol/water",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "ratio",
+            "fact": {
+              "value": "3:2",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "2e",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "beta-bromobutenolide 2e",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate",
+          "cubr2",
+          "ethanol_water",
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "80-85 °C",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 12,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 68,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 4; the prose states that the starting allenoates reacted completely and the reactions proceeded smoothly and cleanly.",
+        "evidence_ids": [
+          "doc_1132074d14c1193b:page2:text",
+          "doc_1132074d14c1193b:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Exact structures and stereochemistry are not machine-verified.",
+        "Atmosphere, concentration, workup, purification, isolated mass, and yield measurement basis are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_1132074d14c1193b:table1_entry5",
+    "document_id": "doc_1132074d14c1193b",
+    "source_reaction_id": "table1_entry5",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_1132074d14c1193b:page2:text",
+      "doc_1132074d14c1193b:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1f",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2,3-allenoate 1f (R1=n-C3H7; R2=H; R3=CH3)",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.5,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "ethanol_water",
+        "role": "solvent",
+        "label": {
+          "value": "ethanol:H2O",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethanol/water",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "ratio",
+            "fact": {
+              "value": "3:2",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "2f",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "beta-bromobutenolide 2f",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate",
+          "cubr2",
+          "ethanol_water",
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "80-85 °C",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 12,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 86,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 5; the prose states that the starting allenoates reacted completely and the reactions proceeded smoothly and cleanly.",
+        "evidence_ids": [
+          "doc_1132074d14c1193b:page2:text",
+          "doc_1132074d14c1193b:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Exact structures and stereochemistry are not machine-verified.",
+        "Atmosphere, concentration, workup, purification, isolated mass, and yield measurement basis are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_1132074d14c1193b:table1_entry6",
+    "document_id": "doc_1132074d14c1193b",
+    "source_reaction_id": "table1_entry6",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_1132074d14c1193b:page2:text",
+      "doc_1132074d14c1193b:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1g",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2,3-allenoate 1g (R1=CH3; R2=H; R3=CH3)",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.5,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "ethanol_water",
+        "role": "solvent",
+        "label": {
+          "value": "ethanol:H2O",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethanol/water",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "ratio",
+            "fact": {
+              "value": "3:2",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "2g",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "beta-bromobutenolide 2g",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate",
+          "cubr2",
+          "ethanol_water",
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "80-85 °C",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 12,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 72,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 6; the prose states that the starting allenoates reacted completely and the reactions proceeded smoothly and cleanly.",
+        "evidence_ids": [
+          "doc_1132074d14c1193b:page2:text",
+          "doc_1132074d14c1193b:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Exact structures and stereochemistry are not machine-verified.",
+        "Atmosphere, concentration, workup, purification, isolated mass, and yield measurement basis are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_1132074d14c1193b:table1_entry7",
+    "document_id": "doc_1132074d14c1193b",
+    "source_reaction_id": "table1_entry7",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_1132074d14c1193b:page2:text",
+      "doc_1132074d14c1193b:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1h",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2,3-allenoate 1h (R1=CH3; R2=H; R3=n-C3H7)",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.5,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "ethanol_water",
+        "role": "solvent",
+        "label": {
+          "value": "ethanol:H2O",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethanol/water",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "ratio",
+            "fact": {
+              "value": "3:2",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "2h",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "beta-bromobutenolide 2h",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate",
+          "cubr2",
+          "ethanol_water",
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "80-85 °C",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 12,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 84,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 7; the prose states that the starting allenoates reacted completely and the reactions proceeded smoothly and cleanly.",
+        "evidence_ids": [
+          "doc_1132074d14c1193b:page2:text",
+          "doc_1132074d14c1193b:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Exact structures and stereochemistry are not machine-verified.",
+        "Atmosphere, concentration, workup, purification, isolated mass, and yield measurement basis are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_1132074d14c1193b:table1_entry8",
+    "document_id": "doc_1132074d14c1193b",
+    "source_reaction_id": "table1_entry8",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_1132074d14c1193b:page2:text",
+      "doc_1132074d14c1193b:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1i",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2,3-allenoate 1i (R1=CH3; R2=CH3; R3=CH3)",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.5,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "ethanol_water",
+        "role": "solvent",
+        "label": {
+          "value": "ethanol:H2O",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethanol/water",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "ratio",
+            "fact": {
+              "value": "3:2",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "2i",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "beta-bromobutenolide 2i",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate",
+          "cubr2",
+          "ethanol_water",
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "80-85 °C",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 12,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 68,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 8; the prose states that the starting allenoates reacted completely and the reactions proceeded smoothly and cleanly.",
+        "evidence_ids": [
+          "doc_1132074d14c1193b:page2:text",
+          "doc_1132074d14c1193b:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Exact structures and stereochemistry are not machine-verified.",
+        "Atmosphere, concentration, workup, purification, isolated mass, and yield measurement basis are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_1132074d14c1193b:table1_entry9",
+    "document_id": "doc_1132074d14c1193b",
+    "source_reaction_id": "table1_entry9",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_1132074d14c1193b:page2:text",
+      "doc_1132074d14c1193b:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1j",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2,3-allenoate 1j (R1=CH3; R2=CH3; R3=n-C3H7)",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.5,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "ethanol_water",
+        "role": "solvent",
+        "label": {
+          "value": "ethanol:H2O",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethanol/water",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "ratio",
+            "fact": {
+              "value": "3:2",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "2j",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "beta-bromobutenolide 2j",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate",
+          "cubr2",
+          "ethanol_water",
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "80-85 °C",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 12,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 66,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 9; the prose states that the starting allenoates reacted completely and the reactions proceeded smoothly and cleanly.",
+        "evidence_ids": [
+          "doc_1132074d14c1193b:page2:text",
+          "doc_1132074d14c1193b:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Exact structures and stereochemistry are not machine-verified.",
+        "Atmosphere, concentration, workup, purification, isolated mass, and yield measurement basis are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_1132074d14c1193b:table1_entry10",
+    "document_id": "doc_1132074d14c1193b",
+    "source_reaction_id": "table1_entry10",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_1132074d14c1193b:page2:text",
+      "doc_1132074d14c1193b:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1k",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2,3-allenoate 1k (R1=n-C3H7; R2=H; R3=Allyl)",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.5,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "ethanol_water",
+        "role": "solvent",
+        "label": {
+          "value": "ethanol:H2O",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethanol/water",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "ratio",
+            "fact": {
+              "value": "3:2",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "2k",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "beta-bromobutenolide 2k",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate",
+          "cubr2",
+          "ethanol_water",
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "80-85 °C",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 12,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 54,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      },
+      {
+        "name": "dibromination_of_allylic_C_C_bond_observed",
+        "fact": {
+          "value": false,
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 1 entry 10; the prose states that the starting allenoates reacted completely and the reactions proceeded smoothly and cleanly.",
+        "evidence_ids": [
+          "doc_1132074d14c1193b:page2:text",
+          "doc_1132074d14c1193b:page2:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "For allyl-bearing 1k, the prose explicitly states that dibromination of the allylic C=C bond was not observed.",
+        "evidence_ids": [
+          "doc_1132074d14c1193b:page2:text",
+          "doc_1132074d14c1193b:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Exact structures and stereochemistry are not machine-verified.",
+        "Atmosphere, concentration, workup, purification, isolated mass, and yield measurement basis are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_1132074d14c1193b:prior_br2_bromolactonization_1i",
+    "document_id": "doc_1132074d14c1193b",
+    "source_reaction_id": "prior_br2_bromolactonization_1i",
+    "record_kind": "literature_example",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_1132074d14c1193b:page2:text",
+      "doc_1132074d14c1193b:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "1i",
+        "role": "reactant",
+        "label": {
+          "value": "1i",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2,4-dimethyl-2,3-pentadienoate",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "br2",
+        "role": "reagent",
+        "label": {
+          "value": "Br2",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "molecular bromine",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "2i",
+        "role": "product",
+        "label": {
+          "value": "2i",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "beta-bromobutenolide 2i",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "1i",
+          "br2",
+          "2i"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 58,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "The text explicitly attributes this 58% molecular-bromine result to prior reference 13.",
+        "evidence_ids": [
+          "doc_1132074d14c1193b:page2:text",
+          "doc_1132074d14c1193b:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Scale, Br2 amount, solvent, temperature, time, workup, purification, and yield basis are absent from this paper."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_1132074d14c1193b:scheme3_1l_ethyl_ester",
+    "document_id": "doc_1132074d14c1193b",
+    "source_reaction_id": "scheme3_1l_ethyl_ester",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_1132074d14c1193b:page2:text",
+      "doc_1132074d14c1193b:page2:image",
+      "doc_1132074d14c1193b:page3:text",
+      "doc_1132074d14c1193b:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1l",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "4-phenyl-2-methyl-2,3-allenoate 1l (R1=H; ester R=C2H5)",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ethanol_water",
+        "role": "solvent",
+        "label": {
+          "value": "ethanol-H2O",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethanol/water",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "2l",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "beta-bromobutenolide 2l",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "unidentified_product",
+        "role": "product",
+        "label": {
+          "value": "unidentified product",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "unidentified coproduct",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate",
+          "cubr2",
+          "ethanol_water",
+          "product",
+          "unidentified_product"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "80-85 °C",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image",
+                "doc_1132074d14c1193b:page3:text",
+                "doc_1132074d14c1193b:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "solvent_ratio",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "CuBr2_amount",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 40,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      },
+      {
+        "name": "unidentified_product_observed",
+        "fact": {
+          "value": true,
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 3 aryl-allenoate bromolactonization; only the first row explicitly shows an unidentified coproduct.",
+        "evidence_ids": [
+          "doc_1132074d14c1193b:page2:text",
+          "doc_1132074d14c1193b:page2:image",
+          "doc_1132074d14c1193b:page3:text",
+          "doc_1132074d14c1193b:page3:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Exact structures are not machine-verified.",
+        "Scale, CuBr2 amount, solvent ratio/volume, time, atmosphere, concentration, workup, purification, isolated mass, and yield basis are not reported in the supplied main text."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_1132074d14c1193b:scheme3_1l_benzyl_ester",
+    "document_id": "doc_1132074d14c1193b",
+    "source_reaction_id": "scheme3_1l_benzyl_ester",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_1132074d14c1193b:page2:text",
+      "doc_1132074d14c1193b:page2:image",
+      "doc_1132074d14c1193b:page3:text",
+      "doc_1132074d14c1193b:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1l'",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "4-phenyl-2-methyl-2,3-allenoate 1l' (R1=H; ester R=CH2C6H5)",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ethanol_water",
+        "role": "solvent",
+        "label": {
+          "value": "ethanol-H2O",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethanol/water",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "2l",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "beta-bromobutenolide 2l",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate",
+          "cubr2",
+          "ethanol_water",
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "80-85 °C",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image",
+                "doc_1132074d14c1193b:page3:text",
+                "doc_1132074d14c1193b:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "solvent_ratio",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "CuBr2_amount",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 67,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 3 aryl-allenoate bromolactonization; only the first row explicitly shows an unidentified coproduct.",
+        "evidence_ids": [
+          "doc_1132074d14c1193b:page2:text",
+          "doc_1132074d14c1193b:page2:image",
+          "doc_1132074d14c1193b:page3:text",
+          "doc_1132074d14c1193b:page3:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Exact structures are not machine-verified.",
+        "Scale, CuBr2 amount, solvent ratio/volume, time, atmosphere, concentration, workup, purification, isolated mass, and yield basis are not reported in the supplied main text."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_1132074d14c1193b:scheme3_1m_benzyl_ester",
+    "document_id": "doc_1132074d14c1193b",
+    "source_reaction_id": "scheme3_1m_benzyl_ester",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_1132074d14c1193b:page2:text",
+      "doc_1132074d14c1193b:page2:image",
+      "doc_1132074d14c1193b:page3:text",
+      "doc_1132074d14c1193b:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1m'",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "4-phenyl-2-methyl-2,3-allenoate 1m' (R1=C2H5; ester R=CH2C6H5)",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ethanol_water",
+        "role": "solvent",
+        "label": {
+          "value": "ethanol-H2O",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethanol/water",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "2m",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "beta-bromobutenolide 2m",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "substrate",
+          "cubr2",
+          "ethanol_water",
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "80-85 °C",
+              "evidence_ids": [
+                "doc_1132074d14c1193b:page2:text",
+                "doc_1132074d14c1193b:page2:image",
+                "doc_1132074d14c1193b:page3:text",
+                "doc_1132074d14c1193b:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "solvent_ratio",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "CuBr2_amount",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 66,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page2:text",
+            "doc_1132074d14c1193b:page2:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 3 aryl-allenoate bromolactonization; only the first row explicitly shows an unidentified coproduct.",
+        "evidence_ids": [
+          "doc_1132074d14c1193b:page2:text",
+          "doc_1132074d14c1193b:page2:image",
+          "doc_1132074d14c1193b:page3:text",
+          "doc_1132074d14c1193b:page3:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Exact structures are not machine-verified.",
+        "Scale, CuBr2 amount, solvent ratio/volume, time, atmosphere, concentration, workup, purification, isolated mass, and yield basis are not reported in the supplied main text."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_1132074d14c1193b:ref10_1a_naoh_hydrolysis",
+    "document_id": "doc_1132074d14c1193b",
+    "source_reaction_id": "ref10_1a_naoh_hydrolysis",
+    "record_kind": "literature_example",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_1132074d14c1193b:page1:text",
+      "doc_1132074d14c1193b:page1:image",
+      "doc_1132074d14c1193b:page3:text",
+      "doc_1132074d14c1193b:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-methyl-2,3-decadienoate",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page1:text",
+            "doc_1132074d14c1193b:page1:image",
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "naoh",
+        "role": "reagent",
+        "label": {
+          "value": "NaOH",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "sodium hydroxide",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "allenoic_acid",
+        "role": "product",
+        "label": {
+          "value": "2-methyl-2,3-decadienoic acid",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2-methyl-2,3-decadienoic acid",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "alkynoic_acid",
+        "role": "product",
+        "label": {
+          "value": "2-methyl-3-decynoic acid",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2-methyl-3-decynoic acid",
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "1a",
+          "naoh",
+          "allenoic_acid",
+          "alkynoic_acid"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "solvent",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "product_mixture_observed",
+        "fact": {
+          "value": true,
+          "evidence_ids": [
+            "doc_1132074d14c1193b:page3:text",
+            "doc_1132074d14c1193b:page3:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Reference note 10 states that the two acids formed a mixture that could not be thoroughly separated by silica-gel chromatography.",
+        "evidence_ids": [
+          "doc_1132074d14c1193b:page1:text",
+          "doc_1132074d14c1193b:page1:image",
+          "doc_1132074d14c1193b:page3:text",
+          "doc_1132074d14c1193b:page3:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Whether this example was newly performed for this article or belongs to prior unpublished/contextual work is not explicit.",
+        "Scale, NaOH amount, solvent, temperature, time, workup, product ratio, and yields are missing."
+      ]
+    }
+  }
+]

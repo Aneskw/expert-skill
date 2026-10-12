@@ -1,0 +1,2757 @@
+[
+  {
+    "record_id": "doc_cb96b79d136f980f:prior_synthesis_stage1_allenic_sulfoxide",
+    "document_id": "doc_cb96b79d136f980f",
+    "source_reaction_id": "prior_synthesis_stage1_allenic_sulfoxide",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cb96b79d136f980f:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "generic_propargylic_alcohol",
+        "role": "reactant",
+        "label": {
+          "value": "generic substituted propargylic alcohol",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "phscl",
+        "role": "reagent",
+        "label": {
+          "value": "PhSCl",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "benzenesulfenyl chloride",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "ClSc1ccccc1",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "et3n",
+        "role": "reagent",
+        "label": {
+          "value": "Et3N",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "triethylamine",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCN(CC)CC",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ch2cl2",
+        "role": "solvent",
+        "label": {
+          "value": "CH2Cl2",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "dichloromethane",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "ClCCl",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "generic_allenic_sulfoxide",
+        "role": "product",
+        "label": {
+          "value": "generic 1,2-allenic sulfoxide",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "allenic_sulfoxide_formation",
+        "participant_ids": [
+          "generic_propargylic_alcohol",
+          "phscl",
+          "et3n",
+          "ch2cl2",
+          "generic_allenic_sulfoxide"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": -85,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [],
+    "notes": [
+      {
+        "value": "The displayed R1/R2/R3 scheme is a generic preparation of the allenic-sulfoxide precursors used for samples A-G.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page2:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The paper cites reference 8 for synthesis/structure identification; it does not report a stage-specific yield here.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Generic R-group structures are not expanded to compound-specific structures.",
+        "Reaction scale, reagent amounts, time, atmosphere, workup, purification, and yield are not reported on this page.",
+        "The source does not provide row-specific stage-1 outcomes for samples A-G."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cb96b79d136f980f:prior_synthesis_stage2_halohydroxylation",
+    "document_id": "doc_cb96b79d136f980f",
+    "source_reaction_id": "prior_synthesis_stage2_halohydroxylation",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cb96b79d136f980f:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "generic_allenic_sulfoxide",
+        "role": "reactant",
+        "label": {
+          "value": "generic 1,2-allenic sulfoxide",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "iodine",
+        "role": "reagent",
+        "label": {
+          "value": "I2",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "iodine",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "II",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "lioac",
+        "role": "reagent",
+        "label": {
+          "value": "LiOAc",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "lithium acetate",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Li+].CC(=O)[O-]",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "mecn",
+        "role": "solvent",
+        "label": {
+          "value": "MeCN",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "acetonitrile",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC#N",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "water",
+        "role": "reagent",
+        "label": {
+          "value": "H2O",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "water",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "generic_iodo_allylic_alcohol",
+        "role": "product",
+        "label": {
+          "value": "generic 2-iodo phenylsulfinyl allylic alcohol",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "iodohydroxylation",
+        "participant_ids": [
+          "generic_allenic_sulfoxide",
+          "iodine",
+          "lioac",
+          "mecn",
+          "water",
+          "generic_iodo_allylic_alcohol"
+        ],
+        "conditions": [
+          {
+            "name": "reaction_medium",
+            "fact": {
+              "value": "MeCN-H2O (7:1), ratio basis not stated",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [],
+    "notes": [
+      {
+        "value": "The paper states that all samples were synthesized by halohydroxylation of 1,2-allenic sulfoxides with I2/H2O and cites reference 8.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page2:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The substituent table defines samples A-G, but the present paper supplies no row-specific synthesis yields.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "This is cited prior synthesis rather than a new synthetic experiment in the mass-spectrometry study.",
+        "Reaction scale, reagent amounts, temperature, time, atmosphere, workup, purification, and yield are missing.",
+        "The MeCN-H2O 7:1 ratio is preserved as printed; its measurement basis is not stated.",
+        "Generic and sample-specific structures remain unverified."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cb96b79d136f980f:sci_sample_a",
+    "document_id": "doc_cb96b79d136f980f",
+    "source_reaction_id": "sci_sample_a",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cb96b79d136f980f:page2:image",
+      "doc_cb96b79d136f980f:page3:image",
+      "doc_cb96b79d136f980f:page5:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "sample_A",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "sample A",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "(E)-2-iodo-3-(phenylsulfinyl)-2-propen-1-ol",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "sample_mass",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "ug",
+                "qualifier": "approx",
+                "raw_text": "about 1 μg"
+              },
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "sci_mass_spectrometry",
+        "participant_ids": [
+          "sample_A"
+        ],
+        "conditions": [
+          {
+            "name": "instrument",
+            "fact": {
+              "value": "HP 5989A mass spectrometer",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "ionization_mode",
+            "fact": {
+              "value": "self-chemical ionization (SCI)",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "electron_energy",
+            "fact": {
+              "value": "70 eV",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "filament_emission_current",
+            "fact": {
+              "value": "300 μA",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "source_temperature",
+            "fact": {
+              "value": {
+                "number": 300,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "scan_window",
+            "fact": {
+              "value": "m/z 40-600 amu as printed",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "pre_insertion_wait_time",
+            "fact": {
+              "value": "some minutes",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "probe_tip_temperature",
+            "fact": {
+              "value": {
+                "number": 320,
+                "unit": "°C",
+                "qualifier": "approx",
+                "raw_text": "about 320 °C"
+              },
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "probe_heating_rate",
+            "fact": {
+              "value": "rapidly",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "nominal_molecular_weight",
+        "fact": {
+          "value": 308,
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page5:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "sci_peak_list",
+        "fact": {
+          "value": [
+            {
+              "fragment_code": "a",
+              "m_z": 309,
+              "relative_abundance_percent": 100
+            },
+            {
+              "fragment_code": "b",
+              "m_z": 291,
+              "relative_abundance_percent": 40
+            },
+            {
+              "fragment_code": "e",
+              "m_z": 165,
+              "relative_abundance_percent": 6
+            },
+            {
+              "fragment_code": "f",
+              "m_z": 163,
+              "relative_abundance_percent": 7
+            },
+            {
+              "fragment_code": "g",
+              "m_z": 125,
+              "relative_abundance_percent": 21
+            },
+            {
+              "fragment_code": "h",
+              "m_z": 109,
+              "relative_abundance_percent": 18
+            }
+          ],
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page3:image",
+            "doc_cb96b79d136f980f:page5:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "spectral_normalization",
+        "fact": {
+          "value": "relative to the base peak",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image",
+            "doc_cb96b79d136f980f:page3:image"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "The analyte is represented as an analytical sample, not as a synthetic reactant or product.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page2:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Fragment codes a-h follow the generic ion structures drawn on page 4; blank Table 1 cells are not converted into zero-abundance peaks.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page4:image",
+          "doc_cb96b79d136f980f:page5:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "No reagent gas was applied in SCI.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page4:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The named sample structure and alkene/sulfoxide stereochemistry have not been independently structure-verified; SMILES remains null.",
+        "Exact ion-source pressure, pre-insertion wait duration, and scan timing are not reported.",
+        "The paper reports relative abundance values but no uncertainty or replicate count.",
+        "The ion-fragment structural assignments remain mechanistic interpretations rather than verified structures."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cb96b79d136f980f:sci_sample_b",
+    "document_id": "doc_cb96b79d136f980f",
+    "source_reaction_id": "sci_sample_b",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cb96b79d136f980f:page2:image",
+      "doc_cb96b79d136f980f:page3:image",
+      "doc_cb96b79d136f980f:page5:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "sample_B",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "sample B",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "(E)-2-iodo-3-phenyl-3-(phenylsulfinyl)-2-propen-1-ol",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "sample_mass",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "ug",
+                "qualifier": "approx",
+                "raw_text": "about 1 μg"
+              },
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "sci_mass_spectrometry",
+        "participant_ids": [
+          "sample_B"
+        ],
+        "conditions": [
+          {
+            "name": "instrument",
+            "fact": {
+              "value": "HP 5989A mass spectrometer",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "ionization_mode",
+            "fact": {
+              "value": "self-chemical ionization (SCI)",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "electron_energy",
+            "fact": {
+              "value": "70 eV",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "filament_emission_current",
+            "fact": {
+              "value": "300 μA",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "source_temperature",
+            "fact": {
+              "value": {
+                "number": 300,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "scan_window",
+            "fact": {
+              "value": "m/z 40-600 amu as printed",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "pre_insertion_wait_time",
+            "fact": {
+              "value": "some minutes",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "probe_tip_temperature",
+            "fact": {
+              "value": {
+                "number": 320,
+                "unit": "°C",
+                "qualifier": "approx",
+                "raw_text": "about 320 °C"
+              },
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "probe_heating_rate",
+            "fact": {
+              "value": "rapidly",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "nominal_molecular_weight",
+        "fact": {
+          "value": 384,
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page5:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "sci_peak_list",
+        "fact": {
+          "value": [
+            {
+              "fragment_code": "a",
+              "m_z": 385,
+              "relative_abundance_percent": 100
+            },
+            {
+              "fragment_code": "b",
+              "m_z": 367,
+              "relative_abundance_percent": 33
+            },
+            {
+              "fragment_code": "c",
+              "m_z": 241,
+              "relative_abundance_percent": 3
+            },
+            {
+              "fragment_code": "d",
+              "m_z": 240,
+              "relative_abundance_percent": 4
+            },
+            {
+              "fragment_code": "g",
+              "m_z": 125,
+              "relative_abundance_percent": 6
+            },
+            {
+              "fragment_code": "h",
+              "m_z": 109,
+              "relative_abundance_percent": 1
+            }
+          ],
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page3:image",
+            "doc_cb96b79d136f980f:page5:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "spectral_normalization",
+        "fact": {
+          "value": "relative to the base peak",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image",
+            "doc_cb96b79d136f980f:page3:image"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "The analyte is represented as an analytical sample, not as a synthetic reactant or product.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page2:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Fragment codes a-h follow the generic ion structures drawn on page 4; blank Table 1 cells are not converted into zero-abundance peaks.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page4:image",
+          "doc_cb96b79d136f980f:page5:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "No reagent gas was applied in SCI.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page4:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The named sample structure and alkene/sulfoxide stereochemistry have not been independently structure-verified; SMILES remains null.",
+        "Exact ion-source pressure, pre-insertion wait duration, and scan timing are not reported.",
+        "The paper reports relative abundance values but no uncertainty or replicate count.",
+        "The ion-fragment structural assignments remain mechanistic interpretations rather than verified structures."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cb96b79d136f980f:sci_sample_c",
+    "document_id": "doc_cb96b79d136f980f",
+    "source_reaction_id": "sci_sample_c",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cb96b79d136f980f:page2:image",
+      "doc_cb96b79d136f980f:page3:image",
+      "doc_cb96b79d136f980f:page5:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "sample_C",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "sample C",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "(E)-2-iodo-3-(phenylsulfinyl)-2-hepten-1-ol",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "sample_mass",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "ug",
+                "qualifier": "approx",
+                "raw_text": "about 1 μg"
+              },
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "sci_mass_spectrometry",
+        "participant_ids": [
+          "sample_C"
+        ],
+        "conditions": [
+          {
+            "name": "instrument",
+            "fact": {
+              "value": "HP 5989A mass spectrometer",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "ionization_mode",
+            "fact": {
+              "value": "self-chemical ionization (SCI)",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "electron_energy",
+            "fact": {
+              "value": "70 eV",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "filament_emission_current",
+            "fact": {
+              "value": "300 μA",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "source_temperature",
+            "fact": {
+              "value": {
+                "number": 300,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "scan_window",
+            "fact": {
+              "value": "m/z 40-600 amu as printed",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "pre_insertion_wait_time",
+            "fact": {
+              "value": "some minutes",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "probe_tip_temperature",
+            "fact": {
+              "value": {
+                "number": 320,
+                "unit": "°C",
+                "qualifier": "approx",
+                "raw_text": "about 320 °C"
+              },
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "probe_heating_rate",
+            "fact": {
+              "value": "rapidly",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "nominal_molecular_weight",
+        "fact": {
+          "value": 364,
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page5:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "sci_peak_list",
+        "fact": {
+          "value": [
+            {
+              "fragment_code": "a",
+              "m_z": 365,
+              "relative_abundance_percent": 100
+            },
+            {
+              "fragment_code": "b",
+              "m_z": 347,
+              "relative_abundance_percent": 48
+            },
+            {
+              "fragment_code": "g",
+              "m_z": 125,
+              "relative_abundance_percent": 2
+            },
+            {
+              "fragment_code": "h",
+              "m_z": 109,
+              "relative_abundance_percent": 1
+            }
+          ],
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page3:image",
+            "doc_cb96b79d136f980f:page5:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "spectral_normalization",
+        "fact": {
+          "value": "relative to the base peak",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image",
+            "doc_cb96b79d136f980f:page3:image"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "The analyte is represented as an analytical sample, not as a synthetic reactant or product.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page2:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Fragment codes a-h follow the generic ion structures drawn on page 4; blank Table 1 cells are not converted into zero-abundance peaks.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page4:image",
+          "doc_cb96b79d136f980f:page5:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "No reagent gas was applied in SCI.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page4:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The named sample structure and alkene/sulfoxide stereochemistry have not been independently structure-verified; SMILES remains null.",
+        "Exact ion-source pressure, pre-insertion wait duration, and scan timing are not reported.",
+        "The paper reports relative abundance values but no uncertainty or replicate count.",
+        "The ion-fragment structural assignments remain mechanistic interpretations rather than verified structures."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cb96b79d136f980f:sci_sample_d",
+    "document_id": "doc_cb96b79d136f980f",
+    "source_reaction_id": "sci_sample_d",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cb96b79d136f980f:page2:image",
+      "doc_cb96b79d136f980f:page3:image",
+      "doc_cb96b79d136f980f:page5:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "sample_D",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "sample D",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "(E)-2-iodo-1-(phenylsulfinyl)-1-hepten-3-ol",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "sample_mass",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "ug",
+                "qualifier": "approx",
+                "raw_text": "about 1 μg"
+              },
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "sci_mass_spectrometry",
+        "participant_ids": [
+          "sample_D"
+        ],
+        "conditions": [
+          {
+            "name": "instrument",
+            "fact": {
+              "value": "HP 5989A mass spectrometer",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "ionization_mode",
+            "fact": {
+              "value": "self-chemical ionization (SCI)",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "electron_energy",
+            "fact": {
+              "value": "70 eV",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "filament_emission_current",
+            "fact": {
+              "value": "300 μA",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "source_temperature",
+            "fact": {
+              "value": {
+                "number": 300,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "scan_window",
+            "fact": {
+              "value": "m/z 40-600 amu as printed",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "pre_insertion_wait_time",
+            "fact": {
+              "value": "some minutes",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "probe_tip_temperature",
+            "fact": {
+              "value": {
+                "number": 320,
+                "unit": "°C",
+                "qualifier": "approx",
+                "raw_text": "about 320 °C"
+              },
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "probe_heating_rate",
+            "fact": {
+              "value": "rapidly",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "nominal_molecular_weight",
+        "fact": {
+          "value": 364,
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page5:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "sci_peak_list",
+        "fact": {
+          "value": [
+            {
+              "fragment_code": "a",
+              "m_z": 365,
+              "relative_abundance_percent": 100
+            },
+            {
+              "fragment_code": "b",
+              "m_z": 347,
+              "relative_abundance_percent": 68
+            },
+            {
+              "fragment_code": "c",
+              "m_z": 221,
+              "relative_abundance_percent": 1
+            },
+            {
+              "fragment_code": "d",
+              "m_z": 220,
+              "relative_abundance_percent": 1
+            },
+            {
+              "fragment_code": "f",
+              "m_z": 189,
+              "relative_abundance_percent": 1
+            },
+            {
+              "fragment_code": "g",
+              "m_z": 125,
+              "relative_abundance_percent": 1
+            },
+            {
+              "fragment_code": "h",
+              "m_z": 109,
+              "relative_abundance_percent": 1
+            }
+          ],
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page3:image",
+            "doc_cb96b79d136f980f:page5:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "spectral_normalization",
+        "fact": {
+          "value": "relative to the base peak",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image",
+            "doc_cb96b79d136f980f:page3:image"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "The analyte is represented as an analytical sample, not as a synthetic reactant or product.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page2:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Fragment codes a-h follow the generic ion structures drawn on page 4; blank Table 1 cells are not converted into zero-abundance peaks.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page4:image",
+          "doc_cb96b79d136f980f:page5:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "No reagent gas was applied in SCI.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page4:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The named sample structure and alkene/sulfoxide stereochemistry have not been independently structure-verified; SMILES remains null.",
+        "Exact ion-source pressure, pre-insertion wait duration, and scan timing are not reported.",
+        "The paper reports relative abundance values but no uncertainty or replicate count.",
+        "The ion-fragment structural assignments remain mechanistic interpretations rather than verified structures."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cb96b79d136f980f:sci_sample_e",
+    "document_id": "doc_cb96b79d136f980f",
+    "source_reaction_id": "sci_sample_e",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cb96b79d136f980f:page2:image",
+      "doc_cb96b79d136f980f:page3:image",
+      "doc_cb96b79d136f980f:page5:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "sample_E",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "sample E",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "(E)-2-iodo-4,4-dimethyl-1-(phenylsulfinyl)-1-penten-3-ol",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "sample_mass",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "ug",
+                "qualifier": "approx",
+                "raw_text": "about 1 μg"
+              },
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "sci_mass_spectrometry",
+        "participant_ids": [
+          "sample_E"
+        ],
+        "conditions": [
+          {
+            "name": "instrument",
+            "fact": {
+              "value": "HP 5989A mass spectrometer",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "ionization_mode",
+            "fact": {
+              "value": "self-chemical ionization (SCI)",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "electron_energy",
+            "fact": {
+              "value": "70 eV",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "filament_emission_current",
+            "fact": {
+              "value": "300 μA",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "source_temperature",
+            "fact": {
+              "value": {
+                "number": 300,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "scan_window",
+            "fact": {
+              "value": "m/z 40-600 amu as printed",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "pre_insertion_wait_time",
+            "fact": {
+              "value": "some minutes",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "probe_tip_temperature",
+            "fact": {
+              "value": {
+                "number": 320,
+                "unit": "°C",
+                "qualifier": "approx",
+                "raw_text": "about 320 °C"
+              },
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "probe_heating_rate",
+            "fact": {
+              "value": "rapidly",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "nominal_molecular_weight",
+        "fact": {
+          "value": 364,
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page5:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "sci_peak_list",
+        "fact": {
+          "value": [
+            {
+              "fragment_code": "a",
+              "m_z": 365,
+              "relative_abundance_percent": 100
+            },
+            {
+              "fragment_code": "b",
+              "m_z": 347,
+              "relative_abundance_percent": 51
+            },
+            {
+              "fragment_code": "c",
+              "m_z": 221,
+              "relative_abundance_percent": 6
+            },
+            {
+              "fragment_code": "d",
+              "m_z": 220,
+              "relative_abundance_percent": 3
+            },
+            {
+              "fragment_code": "e",
+              "m_z": 191,
+              "relative_abundance_percent": 1
+            },
+            {
+              "fragment_code": "f",
+              "m_z": 189,
+              "relative_abundance_percent": 17
+            },
+            {
+              "fragment_code": "g",
+              "m_z": 125,
+              "relative_abundance_percent": 10
+            },
+            {
+              "fragment_code": "h",
+              "m_z": 109,
+              "relative_abundance_percent": 19
+            }
+          ],
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page3:image",
+            "doc_cb96b79d136f980f:page5:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "spectral_normalization",
+        "fact": {
+          "value": "relative to the base peak",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image",
+            "doc_cb96b79d136f980f:page3:image"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "The analyte is represented as an analytical sample, not as a synthetic reactant or product.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page2:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Fragment codes a-h follow the generic ion structures drawn on page 4; blank Table 1 cells are not converted into zero-abundance peaks.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page4:image",
+          "doc_cb96b79d136f980f:page5:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "No reagent gas was applied in SCI.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page4:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The named sample structure and alkene/sulfoxide stereochemistry have not been independently structure-verified; SMILES remains null.",
+        "Exact ion-source pressure, pre-insertion wait duration, and scan timing are not reported.",
+        "The paper reports relative abundance values but no uncertainty or replicate count.",
+        "The ion-fragment structural assignments remain mechanistic interpretations rather than verified structures."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cb96b79d136f980f:sci_sample_f",
+    "document_id": "doc_cb96b79d136f980f",
+    "source_reaction_id": "sci_sample_f",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cb96b79d136f980f:page2:image",
+      "doc_cb96b79d136f980f:page3:image",
+      "doc_cb96b79d136f980f:page5:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "sample_F",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "sample F",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1-[(E)-1'-iodo-2'-(phenylsulfinyl)ethenyl]-1-cyclohexanol",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "sample_mass",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "ug",
+                "qualifier": "approx",
+                "raw_text": "about 1 μg"
+              },
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "sci_mass_spectrometry",
+        "participant_ids": [
+          "sample_F"
+        ],
+        "conditions": [
+          {
+            "name": "instrument",
+            "fact": {
+              "value": "HP 5989A mass spectrometer",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "ionization_mode",
+            "fact": {
+              "value": "self-chemical ionization (SCI)",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "electron_energy",
+            "fact": {
+              "value": "70 eV",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "filament_emission_current",
+            "fact": {
+              "value": "300 μA",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "source_temperature",
+            "fact": {
+              "value": {
+                "number": 300,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "scan_window",
+            "fact": {
+              "value": "m/z 40-600 amu as printed",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "pre_insertion_wait_time",
+            "fact": {
+              "value": "some minutes",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "probe_tip_temperature",
+            "fact": {
+              "value": {
+                "number": 320,
+                "unit": "°C",
+                "qualifier": "approx",
+                "raw_text": "about 320 °C"
+              },
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "probe_heating_rate",
+            "fact": {
+              "value": "rapidly",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "nominal_molecular_weight",
+        "fact": {
+          "value": 376,
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page5:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "sci_peak_list",
+        "fact": {
+          "value": [
+            {
+              "fragment_code": "a",
+              "m_z": 377,
+              "relative_abundance_percent": 69
+            },
+            {
+              "fragment_code": "b",
+              "m_z": 359,
+              "relative_abundance_percent": 100
+            },
+            {
+              "fragment_code": "c",
+              "m_z": 233,
+              "relative_abundance_percent": 4
+            },
+            {
+              "fragment_code": "d",
+              "m_z": 232,
+              "relative_abundance_percent": 3
+            },
+            {
+              "fragment_code": "g",
+              "m_z": 125,
+              "relative_abundance_percent": 12
+            },
+            {
+              "fragment_code": "h",
+              "m_z": 109,
+              "relative_abundance_percent": 9
+            }
+          ],
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page3:image",
+            "doc_cb96b79d136f980f:page5:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "spectral_normalization",
+        "fact": {
+          "value": "relative to the base peak",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image",
+            "doc_cb96b79d136f980f:page3:image"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "The analyte is represented as an analytical sample, not as a synthetic reactant or product.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page2:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Fragment codes a-h follow the generic ion structures drawn on page 4; blank Table 1 cells are not converted into zero-abundance peaks.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page4:image",
+          "doc_cb96b79d136f980f:page5:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "No reagent gas was applied in SCI.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page4:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The named sample structure and alkene/sulfoxide stereochemistry have not been independently structure-verified; SMILES remains null.",
+        "Exact ion-source pressure, pre-insertion wait duration, and scan timing are not reported.",
+        "The paper reports relative abundance values but no uncertainty or replicate count.",
+        "The ion-fragment structural assignments remain mechanistic interpretations rather than verified structures."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cb96b79d136f980f:sci_sample_g",
+    "document_id": "doc_cb96b79d136f980f",
+    "source_reaction_id": "sci_sample_g",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cb96b79d136f980f:page2:image",
+      "doc_cb96b79d136f980f:page3:image",
+      "doc_cb96b79d136f980f:page5:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "sample_G",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "sample G",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "(E)-3-iodo-2-methyl-4-(phenylsulfinyl)-3-octen-2-ol",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "sample_mass",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "ug",
+                "qualifier": "approx",
+                "raw_text": "about 1 μg"
+              },
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "sci_mass_spectrometry",
+        "participant_ids": [
+          "sample_G"
+        ],
+        "conditions": [
+          {
+            "name": "instrument",
+            "fact": {
+              "value": "HP 5989A mass spectrometer",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "ionization_mode",
+            "fact": {
+              "value": "self-chemical ionization (SCI)",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "electron_energy",
+            "fact": {
+              "value": "70 eV",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "filament_emission_current",
+            "fact": {
+              "value": "300 μA",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "source_temperature",
+            "fact": {
+              "value": {
+                "number": 300,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "scan_window",
+            "fact": {
+              "value": "m/z 40-600 amu as printed",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "pre_insertion_wait_time",
+            "fact": {
+              "value": "some minutes",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "probe_tip_temperature",
+            "fact": {
+              "value": {
+                "number": 320,
+                "unit": "°C",
+                "qualifier": "approx",
+                "raw_text": "about 320 °C"
+              },
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "probe_heating_rate",
+            "fact": {
+              "value": "rapidly",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "nominal_molecular_weight",
+        "fact": {
+          "value": 392,
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page5:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "sci_peak_list",
+        "fact": {
+          "value": [
+            {
+              "fragment_code": "a",
+              "m_z": 393,
+              "relative_abundance_percent": 45
+            },
+            {
+              "fragment_code": "b",
+              "m_z": 375,
+              "relative_abundance_percent": 100
+            },
+            {
+              "fragment_code": "c",
+              "m_z": 249,
+              "relative_abundance_percent": 3
+            },
+            {
+              "fragment_code": "d",
+              "m_z": 248,
+              "relative_abundance_percent": 4
+            },
+            {
+              "fragment_code": "g",
+              "m_z": 125,
+              "relative_abundance_percent": 4
+            },
+            {
+              "fragment_code": "h",
+              "m_z": 109,
+              "relative_abundance_percent": 1
+            }
+          ],
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page3:image",
+            "doc_cb96b79d136f980f:page5:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "spectral_normalization",
+        "fact": {
+          "value": "relative to the base peak",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image",
+            "doc_cb96b79d136f980f:page3:image"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "The analyte is represented as an analytical sample, not as a synthetic reactant or product.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page2:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Fragment codes a-h follow the generic ion structures drawn on page 4; blank Table 1 cells are not converted into zero-abundance peaks.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page4:image",
+          "doc_cb96b79d136f980f:page5:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "No reagent gas was applied in SCI.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page4:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The named sample structure and alkene/sulfoxide stereochemistry have not been independently structure-verified; SMILES remains null.",
+        "Exact ion-source pressure, pre-insertion wait duration, and scan timing are not reported.",
+        "The paper reports relative abundance values but no uncertainty or replicate count.",
+        "The ion-fragment structural assignments remain mechanistic interpretations rather than verified structures."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cb96b79d136f980f:ei_sample_e_comparison",
+    "document_id": "doc_cb96b79d136f980f",
+    "source_reaction_id": "ei_sample_e_comparison",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cb96b79d136f980f:page2:image",
+      "doc_cb96b79d136f980f:page4:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "sample_E",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "sample E",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "(E)-2-iodo-4,4-dimethyl-1-(phenylsulfinyl)-1-penten-3-ol",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "sample_mass",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "ug",
+                "qualifier": "approx",
+                "raw_text": "about 1 μg"
+              },
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "electron_impact_mass_spectrometry",
+        "participant_ids": [
+          "sample_E"
+        ],
+        "conditions": [
+          {
+            "name": "instrument",
+            "fact": {
+              "value": "HP 5989A mass spectrometer",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "ionization_mode",
+            "fact": {
+              "value": "electron impact ionization (EI)",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "electron_energy",
+            "fact": {
+              "value": "70 eV",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "filament_emission_current",
+            "fact": {
+              "value": "300 μA",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "source_temperature",
+            "fact": {
+              "value": {
+                "number": 300,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "scan_window",
+            "fact": {
+              "value": "m/z 40-600 amu as printed",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "pre_insertion_wait_time",
+            "fact": {
+              "value": "some minutes",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "probe_tip_temperature",
+            "fact": {
+              "value": {
+                "number": 320,
+                "unit": "°C",
+                "qualifier": "approx",
+                "raw_text": "about 320 °C"
+              },
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "probe_heating_rate",
+            "fact": {
+              "value": "rapidly",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "labeled_ei_m_z_peaks",
+        "fact": {
+          "value": [
+            41,
+            57,
+            69,
+            77,
+            109,
+            127,
+            133,
+            149,
+            189,
+            273,
+            291
+          ],
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page4:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "molecular_ion_observed",
+        "fact": {
+          "value": false,
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page4:image"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Figure 2 is the EI mass spectrum of sample E; the paper states that EI spectra of these compounds show no molecular ions.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page4:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Only labeled m/z positions were transcribed; bar heights were not digitized into exact relative abundances.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page4:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The EI figure provides no tabulated exact relative abundance values.",
+        "The named sample structure remains unverified and its SMILES is null.",
+        "Exact ion-source pressure, pre-insertion wait duration, and scan timing are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cb96b79d136f980f:mechanism_sci_self_protonation_fragmentation",
+    "document_id": "doc_cb96b79d136f980f",
+    "source_reaction_id": "mechanism_sci_self_protonation_fragmentation",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cb96b79d136f980f:page1:image",
+      "doc_cb96b79d136f980f:page3:image",
+      "doc_cb96b79d136f980f:page4:image",
+      "doc_cb96b79d136f980f:page5:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "xh_plus",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "XH+",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "proton-donating fragment ion",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "neutral_m",
+        "role": "reactant",
+        "label": {
+          "value": "M",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "neutral analyte molecule",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "mh_plus",
+        "role": "product",
+        "label": {
+          "value": "MH+",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page1:image",
+            "doc_cb96b79d136f980f:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "protonated analyte molecule",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page1:image",
+            "doc_cb96b79d136f980f:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "neutral_x",
+        "role": "product",
+        "label": {
+          "value": "X",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "neutral fragment after proton transfer",
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "electron_impact_fragment_generation",
+        "participant_ids": [
+          "neutral_m",
+          "xh_plus"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "initial electron-impact fragmentation produces fragment ions",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "self_protonation",
+        "participant_ids": [
+          "xh_plus",
+          "neutral_m",
+          "mh_plus",
+          "neutral_x"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "XH+ + M -> MH+ + X",
+              "evidence_ids": [
+                "doc_cb96b79d136f980f:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "proposed_fragment_codes",
+        "fact": {
+          "value": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page4:image",
+            "doc_cb96b79d136f980f:page5:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "aromatic_fragment_m_z_values",
+        "fact": {
+          "value": [
+            51,
+            77
+          ],
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page4:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "alkene_fragment_m_z_values",
+        "fact": {
+          "value": [
+            41,
+            55,
+            69
+          ],
+          "evidence_ids": [
+            "doc_cb96b79d136f980f:page4:image"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "The page-4 structures a-h are proposed pathways/ion assignments for the SCI spectra, not isolated products.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page4:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The paper describes an initial EI stage followed, at higher analyte concentration, by ion-molecule reactions that yield a mixed EI/CI spectrum.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page4:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The assignments of m/z 51/77 to aromatic structures and 41/55/69 to alkene structures are stated as possibilities.",
+        "evidence_ids": [
+          "doc_cb96b79d136f980f:page4:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Generic species XH+, M, MH+, and X are not fully specified molecules and have no SMILES.",
+        "Fragment structures a-h contain generic R groups and remain unverified.",
+        "The proposed pathway is not direct evidence of isolated or independently observed intermediates."
+      ]
+    }
+  }
+]

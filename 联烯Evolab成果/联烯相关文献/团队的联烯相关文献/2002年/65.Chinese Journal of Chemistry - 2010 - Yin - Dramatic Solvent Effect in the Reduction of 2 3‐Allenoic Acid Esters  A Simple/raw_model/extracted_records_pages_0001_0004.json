@@ -1,0 +1,4015 @@
+[
+  {
+    "record_id": "doc_809f62cc21312ee8:table1_entry1",
+    "document_id": "doc_809f62cc21312ee8",
+    "source_reaction_id": "Table 1 entry 1",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_809f62cc21312ee8:page1:text",
+      "doc_809f62cc21312ee8:page1:image",
+      "doc_809f62cc21312ee8:page2:text",
+      "doc_809f62cc21312ee8:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-methyl-4-phenylbuta-2,3-dienoate",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCOC(=O)C(C)=C=Cc1ccccc1",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2-methyl-4-phenylbuta-2,3-dien-1-ol",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(=C=Cc1ccccc1)CO",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "dibal_h",
+        "role": "reagent",
+        "label": {
+          "value": "DIBAL-H",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "diisobutylaluminum hydride",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(C)C[AlH]CC(C)C",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 4.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "cyclohexane",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "cyclohexane",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C1CCCCC1",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reduction",
+        "participant_ids": [
+          "substrate",
+          "product",
+          "dibal_h",
+          "cyclohexane"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 1.5,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reaction_result",
+        "fact": {
+          "value": "complicated mixture",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page1:text",
+            "doc_809f62cc21312ee8:page1:image",
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield",
+        "fact": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page1:text",
+            "doc_809f62cc21312ee8:page1:image",
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page1:text",
+            "doc_809f62cc21312ee8:page1:image",
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The separate reaction-solvent column is printed as a dash; cyclohexane is specified as the solvent for DIBAL-H.",
+        "evidence_ids": [
+          "doc_809f62cc21312ee8:page2:text",
+          "doc_809f62cc21312ee8:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reaction scale and product isolation details are not reported for this optimization row.",
+        "Yield measurement basis is not reported.",
+        "Supporting information was not supplied or explicitly associated."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_809f62cc21312ee8:table1_entry2",
+    "document_id": "doc_809f62cc21312ee8",
+    "source_reaction_id": "Table 1 entry 2",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_809f62cc21312ee8:page1:text",
+      "doc_809f62cc21312ee8:page1:image",
+      "doc_809f62cc21312ee8:page2:text",
+      "doc_809f62cc21312ee8:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-methyl-4-phenylbuta-2,3-dienoate",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCOC(=O)C(C)=C=Cc1ccccc1",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2-methyl-4-phenylbuta-2,3-dien-1-ol",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(=C=Cc1ccccc1)CO",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "dibal_h",
+        "role": "reagent",
+        "label": {
+          "value": "DIBAL-H",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "diisobutylaluminum hydride",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(C)C[AlH]CC(C)C",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "diethyl_ether",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "diethyl ether",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCOCC",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cyclohexane",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "cyclohexane (solvent for DIBAL-H)",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C1CCCCC1",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reduction",
+        "participant_ids": [
+          "substrate",
+          "product",
+          "dibal_h",
+          "diethyl_ether",
+          "cyclohexane"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": -78,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 3.0,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 15,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page1:text",
+            "doc_809f62cc21312ee8:page1:image",
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page1:text",
+            "doc_809f62cc21312ee8:page1:image",
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reaction scale and product isolation details are not reported for this optimization row.",
+        "Yield measurement basis is not reported.",
+        "Supporting information was not supplied or explicitly associated."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_809f62cc21312ee8:table1_entry3",
+    "document_id": "doc_809f62cc21312ee8",
+    "source_reaction_id": "Table 1 entry 3",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_809f62cc21312ee8:page1:text",
+      "doc_809f62cc21312ee8:page1:image",
+      "doc_809f62cc21312ee8:page2:text",
+      "doc_809f62cc21312ee8:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-methyl-4-phenylbuta-2,3-dienoate",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCOC(=O)C(C)=C=Cc1ccccc1",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2-methyl-4-phenylbuta-2,3-dien-1-ol",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(=C=Cc1ccccc1)CO",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "dibal_h",
+        "role": "reagent",
+        "label": {
+          "value": "DIBAL-H",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "diisobutylaluminum hydride",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(C)C[AlH]CC(C)C",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 3.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "diethyl_ether",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "diethyl ether",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCOCC",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cyclohexane",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "cyclohexane (solvent for DIBAL-H)",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C1CCCCC1",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reduction",
+        "participant_ids": [
+          "substrate",
+          "product",
+          "dibal_h",
+          "diethyl_ether",
+          "cyclohexane"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "minimum": -140,
+                "maximum": -90,
+                "unit": "°C",
+                "raw_text": "−90—−140 °C (as printed)"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 3.5,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reaction_result",
+        "fact": {
+          "value": "complicated mixture",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page1:text",
+            "doc_809f62cc21312ee8:page1:image",
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "yield",
+        "fact": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page1:text",
+            "doc_809f62cc21312ee8:page1:image",
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page1:text",
+            "doc_809f62cc21312ee8:page1:image",
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reaction scale and product isolation details are not reported for this optimization row.",
+        "Yield measurement basis is not reported.",
+        "Supporting information was not supplied or explicitly associated."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_809f62cc21312ee8:table1_entry4_table2_entry1",
+    "document_id": "doc_809f62cc21312ee8",
+    "source_reaction_id": "Table 1 entry 4 / Table 2 entry 1 (1a to 2a)",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_809f62cc21312ee8:page1:text",
+      "doc_809f62cc21312ee8:page1:image",
+      "doc_809f62cc21312ee8:page2:text",
+      "doc_809f62cc21312ee8:page2:image",
+      "doc_809f62cc21312ee8:page3:text",
+      "doc_809f62cc21312ee8:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-methyl-4-phenylbuta-2,3-dienoate",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCOC(=O)C(C)=C=Cc1ccccc1",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 202,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2-methyl-4-phenylbuta-2,3-dien-1-ol",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(=C=Cc1ccccc1)CO",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "dibal_h",
+        "role": "reagent",
+        "label": {
+          "value": "DIBAL-H",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "diisobutylaluminum hydride",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(C)C[AlH]CC(C)C",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2.1,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 2.1,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "M",
+                "raw_text": "1.0 mol/L"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 2.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "methanol",
+        "role": "reagent",
+        "label": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "methanol (quench)",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CO",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 0.5,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "hydrochloric_acid",
+        "role": "reagent",
+        "label": {
+          "value": "HCl",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "aqueous hydrochloric acid",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cl",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 25,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solution_concentration",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "%"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "extraction_ether",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "diethyl ether (extraction)",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCOCC",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "sodium_sulfate",
+        "role": "reagent",
+        "label": {
+          "value": "Na2SO4",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "sodium sulfate (drying agent)",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Na+].[Na+].[O-]S(=O)(=O)[O-]",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reduction",
+        "participant_ids": [
+          "substrate",
+          "dibal_h",
+          "toluene"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "DIBAL-H solution was added dropwise to the substrate solution; completion was monitored by TLC.",
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": -78,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page1:text",
+                "doc_809f62cc21312ee8:page1:image",
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 5.0,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "quench_workup_purification",
+        "participant_ids": [
+          "methanol",
+          "hydrochloric_acid",
+          "extraction_ether",
+          "sodium_sulfate"
+        ],
+        "conditions": [
+          {
+            "name": "workup",
+            "fact": {
+              "value": "Quenched with methanol, washed with aqueous HCl, extracted with ether, dried over Na2SO4, filtered, and evaporated.",
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": "Silica-gel column chromatography; hexane/ethyl acetate 6:1 (v/v).",
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "product_mass",
+        "fact": {
+          "value": {
+            "number": 133,
+            "unit": "mg"
+          },
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 83,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page1:text",
+            "doc_809f62cc21312ee8:page1:image",
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated after silica-gel column chromatography",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "product_description",
+        "fact": {
+          "value": "white solid",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "melting_point",
+        "fact": {
+          "value": {
+            "minimum": 57,
+            "maximum": 58,
+            "unit": "°C",
+            "raw_text": "57–58 °C (petroleum ether)"
+          },
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page3:text",
+            "doc_809f62cc21312ee8:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "This is the same experiment reported as Table 1 entry 4 and Table 2 entry 1; it is represented once.",
+        "evidence_ids": [
+          "doc_809f62cc21312ee8:page2:text",
+          "doc_809f62cc21312ee8:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere is not reported.",
+        "Supporting information was not supplied or explicitly associated.",
+        "Candidate SMILES remain unverified against an independently curated structure source."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_809f62cc21312ee8:table2_entry2",
+    "document_id": "doc_809f62cc21312ee8",
+    "source_reaction_id": "Table 2 entry 2 (1b to 2b)",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_809f62cc21312ee8:page2:text",
+      "doc_809f62cc21312ee8:page2:image",
+      "doc_809f62cc21312ee8:page3:text",
+      "doc_809f62cc21312ee8:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1b",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-methyldeca-2,3-dienoate",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCOC(=O)C(C)=C=CCCCCCC",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 210,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "2b",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2-methyldeca-2,3-dien-1-ol",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(=C=CCCCCCC)CO",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "dibal_h",
+        "role": "reagent",
+        "label": {
+          "value": "DIBAL-H",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "diisobutylaluminum hydride",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(C)C[AlH]CC(C)C",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2.1,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 2.1,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "M",
+                "raw_text": "1.0 mol/L"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 2.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reduction",
+        "participant_ids": [
+          "substrate",
+          "dibal_h",
+          "toluene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": -78,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 3,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "product_mass",
+        "fact": {
+          "value": {
+            "number": 119,
+            "unit": "mg"
+          },
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image",
+            "doc_809f62cc21312ee8:page3:text",
+            "doc_809f62cc21312ee8:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 71,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image",
+            "doc_809f62cc21312ee8:page3:text",
+            "doc_809f62cc21312ee8:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image",
+            "doc_809f62cc21312ee8:page3:text",
+            "doc_809f62cc21312ee8:page3:image"
+          ],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "product_description",
+        "fact": {
+          "value": "yellow oil",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image",
+            "doc_809f62cc21312ee8:page3:text",
+            "doc_809f62cc21312ee8:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, workup, and purification are not reported in this product paragraph.",
+        "Yield measurement basis is not explicitly stated.",
+        "Supporting information was not supplied or explicitly associated.",
+        "Candidate SMILES remain unverified against an independently curated structure source."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_809f62cc21312ee8:table2_entry3",
+    "document_id": "doc_809f62cc21312ee8",
+    "source_reaction_id": "Table 2 entry 3 (1c to 2c)",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_809f62cc21312ee8:page1:text",
+      "doc_809f62cc21312ee8:page1:image",
+      "doc_809f62cc21312ee8:page2:text",
+      "doc_809f62cc21312ee8:page2:image",
+      "doc_809f62cc21312ee8:page3:text",
+      "doc_809f62cc21312ee8:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1c",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-allyl-4-phenylbuta-2,3-dienoate",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCOC(=O)C(CC=C)=C=Cc1ccccc1",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 228,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page1:text",
+                "doc_809f62cc21312ee8:page1:image",
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page1:text",
+                "doc_809f62cc21312ee8:page1:image",
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "2c",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2-allyl-4-phenylbuta-2,3-dien-1-ol",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=CCC(=C=Cc1ccccc1)CO",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "dibal_h",
+        "role": "reagent",
+        "label": {
+          "value": "DIBAL-H",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "diisobutylaluminum hydride",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(C)C[AlH]CC(C)C",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2.1,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 2.1,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page1:text",
+                "doc_809f62cc21312ee8:page1:image",
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "M",
+                "raw_text": "1.0 mol/L"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page1:text",
+                "doc_809f62cc21312ee8:page1:image",
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 2.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page1:text",
+                "doc_809f62cc21312ee8:page1:image",
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page1:text",
+                "doc_809f62cc21312ee8:page1:image",
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "unknown_product",
+        "role": "product",
+        "label": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "unknown product",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reduction",
+        "participant_ids": [
+          "substrate",
+          "dibal_h",
+          "toluene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": -78,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "product_mass",
+        "fact": {
+          "value": {
+            "number": 75,
+            "unit": "mg"
+          },
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page1:text",
+            "doc_809f62cc21312ee8:page1:image",
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image",
+            "doc_809f62cc21312ee8:page3:text",
+            "doc_809f62cc21312ee8:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 42,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page1:text",
+            "doc_809f62cc21312ee8:page1:image",
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image",
+            "doc_809f62cc21312ee8:page3:text",
+            "doc_809f62cc21312ee8:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page1:text",
+            "doc_809f62cc21312ee8:page1:image",
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image",
+            "doc_809f62cc21312ee8:page3:text",
+            "doc_809f62cc21312ee8:page3:image"
+          ],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "product_description",
+        "fact": {
+          "value": "yellow oil",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page1:text",
+            "doc_809f62cc21312ee8:page1:image",
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image",
+            "doc_809f62cc21312ee8:page3:text",
+            "doc_809f62cc21312ee8:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "co_product_observation",
+        "fact": {
+          "value": "an unknown product was also formed",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page1:text",
+            "doc_809f62cc21312ee8:page1:image",
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "unknown_product"
+        ]
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, workup, and purification are not reported in this product paragraph.",
+        "Yield measurement basis is not explicitly stated.",
+        "Supporting information was not supplied or explicitly associated.",
+        "Candidate SMILES remain unverified against an independently curated structure source."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_809f62cc21312ee8:table2_entry4",
+    "document_id": "doc_809f62cc21312ee8",
+    "source_reaction_id": "Table 2 entry 4 (1d to 2d)",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_809f62cc21312ee8:page2:text",
+      "doc_809f62cc21312ee8:page2:image",
+      "doc_809f62cc21312ee8:page3:text",
+      "doc_809f62cc21312ee8:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1d",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-methylocta-2,3-dienoate",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCOC(=O)C(C)=C=CCCCC",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 151,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.83,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "2d",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2-methylocta-2,3-dien-1-ol",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(=C=CCCCC)CO",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "dibal_h",
+        "role": "reagent",
+        "label": {
+          "value": "DIBAL-H",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "diisobutylaluminum hydride",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(C)C[AlH]CC(C)C",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2.1,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 2.1,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "M",
+                "raw_text": "1.0 mol/L"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 2.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reduction",
+        "participant_ids": [
+          "substrate",
+          "dibal_h",
+          "toluene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": -78,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "product_mass",
+        "fact": {
+          "value": {
+            "number": 88,
+            "unit": "mg"
+          },
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image",
+            "doc_809f62cc21312ee8:page3:text",
+            "doc_809f62cc21312ee8:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 76,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image",
+            "doc_809f62cc21312ee8:page3:text",
+            "doc_809f62cc21312ee8:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image",
+            "doc_809f62cc21312ee8:page3:text",
+            "doc_809f62cc21312ee8:page3:image"
+          ],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "product_description",
+        "fact": {
+          "value": "yellow oil",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image",
+            "doc_809f62cc21312ee8:page3:text",
+            "doc_809f62cc21312ee8:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, workup, and purification are not reported in this product paragraph.",
+        "Yield measurement basis is not explicitly stated.",
+        "Supporting information was not supplied or explicitly associated.",
+        "Candidate SMILES remain unverified against an independently curated structure source.",
+        "The table header gives 2.1 equiv DIBAL-H, while the product paragraph reports 2.1 mmol for 0.83 mmol substrate; the discrepancy is preserved."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_809f62cc21312ee8:table2_entry5",
+    "document_id": "doc_809f62cc21312ee8",
+    "source_reaction_id": "Table 2 entry 5 (1e to 2e)",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_809f62cc21312ee8:page2:text",
+      "doc_809f62cc21312ee8:page2:image",
+      "doc_809f62cc21312ee8:page3:text",
+      "doc_809f62cc21312ee8:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1e",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-methyl-4-(1-naphthyl)buta-2,3-dienoate",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCOC(=O)C(C)=C=Cc1cccc2ccccc12",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 133,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.5,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "2e",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2-methyl-4-(1-naphthyl)buta-2,3-dien-1-ol",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(=C=Cc1cccc2ccccc12)CO",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "dibal_h",
+        "role": "reagent",
+        "label": {
+          "value": "DIBAL-H",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "diisobutylaluminum hydride",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(C)C[AlH]CC(C)C",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2.1,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 1.08,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "M",
+                "raw_text": "1.0 mol/L"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1.08,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reduction",
+        "participant_ids": [
+          "substrate",
+          "dibal_h",
+          "toluene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": -78,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "product_mass",
+        "fact": {
+          "value": {
+            "number": 65,
+            "unit": "mg"
+          },
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image",
+            "doc_809f62cc21312ee8:page3:text",
+            "doc_809f62cc21312ee8:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 57,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image",
+            "doc_809f62cc21312ee8:page3:text",
+            "doc_809f62cc21312ee8:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image",
+            "doc_809f62cc21312ee8:page3:text",
+            "doc_809f62cc21312ee8:page3:image"
+          ],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "product_description",
+        "fact": {
+          "value": "white solid",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image",
+            "doc_809f62cc21312ee8:page3:text",
+            "doc_809f62cc21312ee8:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "melting_point",
+        "fact": {
+          "value": {
+            "minimum": 56,
+            "maximum": 57,
+            "unit": "°C",
+            "raw_text": "56–57 °C (petroleum ether)"
+          },
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page3:text",
+            "doc_809f62cc21312ee8:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, workup, and purification are not reported in this product paragraph.",
+        "Yield measurement basis is not explicitly stated.",
+        "Supporting information was not supplied or explicitly associated.",
+        "Candidate SMILES remain unverified against an independently curated structure source."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_809f62cc21312ee8:table2_entry6",
+    "document_id": "doc_809f62cc21312ee8",
+    "source_reaction_id": "Table 2 entry 6 (1f to 2f)",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_809f62cc21312ee8:page2:text",
+      "doc_809f62cc21312ee8:page2:image",
+      "doc_809f62cc21312ee8:page3:text",
+      "doc_809f62cc21312ee8:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1f",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-benzylbuta-2,3-dienoate",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCOC(=O)C(Cc1ccccc1)=C=C",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 5.05,
+                "unit": "g"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 25,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "2f",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2-benzylbuta-2,3-dien-1-ol",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=C(Cc1ccccc1)CO",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "dibal_h",
+        "role": "reagent",
+        "label": {
+          "value": "DIBAL-H",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "diisobutylaluminum hydride",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(C)C[AlH]CC(C)C",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2.1,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 52.5,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "concentration",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "M",
+                "raw_text": "1.0 mol/L"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 52.5,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 70,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reduction",
+        "participant_ids": [
+          "substrate",
+          "dibal_h",
+          "toluene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": -78,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 3,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "product_mass",
+        "fact": {
+          "value": {
+            "number": 3.42,
+            "unit": "g"
+          },
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image",
+            "doc_809f62cc21312ee8:page3:text",
+            "doc_809f62cc21312ee8:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 85,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image",
+            "doc_809f62cc21312ee8:page3:text",
+            "doc_809f62cc21312ee8:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image",
+            "doc_809f62cc21312ee8:page3:text",
+            "doc_809f62cc21312ee8:page3:image"
+          ],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "product_description",
+        "fact": {
+          "value": "yellow oil",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image",
+            "doc_809f62cc21312ee8:page3:text",
+            "doc_809f62cc21312ee8:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, workup, and purification are not reported in this product paragraph.",
+        "Yield measurement basis is not explicitly stated.",
+        "Supporting information was not supplied or explicitly associated.",
+        "Candidate SMILES remain unverified against an independently curated structure source."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_809f62cc21312ee8:table2_entry7",
+    "document_id": "doc_809f62cc21312ee8",
+    "source_reaction_id": "Table 2 entry 7 (1g to 2g)",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_809f62cc21312ee8:page2:text",
+      "doc_809f62cc21312ee8:page2:image",
+      "doc_809f62cc21312ee8:page3:text",
+      "doc_809f62cc21312ee8:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1g",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-propylbuta-2,3-dienoate",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCOC(=O)C(CCC)=C=C",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 7.7,
+                "unit": "g"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 50,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "2g",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2-propylbuta-2,3-dien-1-ol",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=C(CCC)CO",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "dibal_h",
+        "role": "reagent",
+        "label": {
+          "value": "DIBAL-H",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "diisobutylaluminum hydride",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(C)C[AlH]CC(C)C",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2.1,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 150,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page3:text",
+                "doc_809f62cc21312ee8:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reduction",
+        "participant_ids": [
+          "substrate",
+          "dibal_h",
+          "toluene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": -78,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 3,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "product_mass",
+        "fact": {
+          "value": {
+            "number": 2.94,
+            "unit": "g"
+          },
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image",
+            "doc_809f62cc21312ee8:page3:text",
+            "doc_809f62cc21312ee8:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 53,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image",
+            "doc_809f62cc21312ee8:page3:text",
+            "doc_809f62cc21312ee8:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image",
+            "doc_809f62cc21312ee8:page3:text",
+            "doc_809f62cc21312ee8:page3:image"
+          ],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "product_description",
+        "fact": {
+          "value": "yellow oil",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image",
+            "doc_809f62cc21312ee8:page3:text",
+            "doc_809f62cc21312ee8:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, workup, and purification are not reported in this product paragraph.",
+        "Yield measurement basis is not explicitly stated.",
+        "Supporting information was not supplied or explicitly associated.",
+        "Candidate SMILES remain unverified against an independently curated structure source."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_809f62cc21312ee8:table2_entry8",
+    "document_id": "doc_809f62cc21312ee8",
+    "source_reaction_id": "Table 2 entry 8 (1h to 2h)",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_809f62cc21312ee8:page2:text",
+      "doc_809f62cc21312ee8:page2:image",
+      "doc_809f62cc21312ee8:page4:text",
+      "doc_809f62cc21312ee8:page4:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1h",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 2-methylhepta-2,3-dienoate",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCOC(=O)C(C)=C=CCCC",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 2.6,
+                "unit": "g"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page4:text",
+                "doc_809f62cc21312ee8:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 16.8,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image",
+                "doc_809f62cc21312ee8:page4:text",
+                "doc_809f62cc21312ee8:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "2h",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2-methylhepta-2,3-dien-1-ol",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(=C=CCCC)CO",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "dibal_h",
+        "role": "reagent",
+        "label": {
+          "value": "DIBAL-H",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "diisobutylaluminum hydride",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(C)C[AlH]CC(C)C",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2.1,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "missing"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reduction",
+        "participant_ids": [
+          "substrate",
+          "dibal_h",
+          "toluene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": -78,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 3,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_809f62cc21312ee8:page2:text",
+                "doc_809f62cc21312ee8:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "product_mass",
+        "fact": {
+          "value": {
+            "number": 1.34,
+            "unit": "g"
+          },
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image",
+            "doc_809f62cc21312ee8:page4:text",
+            "doc_809f62cc21312ee8:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "yield",
+        "fact": {
+          "value": {
+            "number": 63,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image",
+            "doc_809f62cc21312ee8:page4:text",
+            "doc_809f62cc21312ee8:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image",
+            "doc_809f62cc21312ee8:page4:text",
+            "doc_809f62cc21312ee8:page4:image"
+          ],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "product_description",
+        "fact": {
+          "value": "yellow oil",
+          "evidence_ids": [
+            "doc_809f62cc21312ee8:page2:text",
+            "doc_809f62cc21312ee8:page2:image",
+            "doc_809f62cc21312ee8:page4:text",
+            "doc_809f62cc21312ee8:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Atmosphere, workup, and purification are not reported in this product paragraph.",
+        "Yield measurement basis is not explicitly stated.",
+        "Supporting information was not supplied or explicitly associated.",
+        "Candidate SMILES remain unverified against an independently curated structure source."
+      ]
+    }
+  }
+]

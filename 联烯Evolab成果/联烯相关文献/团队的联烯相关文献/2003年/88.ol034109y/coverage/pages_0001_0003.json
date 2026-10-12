@@ -1,0 +1,142 @@
+{
+  "document_id": "doc_4f67befc97ec7e2c",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract text, and abstract reaction graphic in the middle of the page",
+          "finding": "The graphic is a generic iodohydroxylation scheme for 1,2-allenyl sulfides using I2 in acetone/H2O (4:1) at room temperature to give generic (Z)-4; it is classified as a general scheme, not an individual experiment.",
+          "evidence_ids": [
+            "doc_4f67befc97ec7e2c:page1:text",
+            "doc_4f67befc97ec7e2c:page1:image"
+          ]
+        },
+        {
+          "region": "two-column introduction and references 1-5 below the abstract",
+          "finding": "Background and prior-literature discussion only; no independent experiment from the present paper is reported in this region.",
+          "evidence_ids": [
+            "doc_4f67befc97ec7e2c:page1:text",
+            "doc_4f67befc97ec7e2c:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_4f67befc97ec7e2c:abstract_general_scheme"
+      ],
+      "unresolved": [
+        "The abstract scheme contains generic R1/R2 groups and supplies no reaction time, scale, workup, purification, or yield.",
+        "Introductory references were not converted into experiments because they describe prior work rather than new experiments in this paper."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left Table 1, including reaction drawing, entries 1-7, and footnotes a-c",
+          "finding": "Seven distinct optimization experiments were extracted row by row. Each preserves solvent ratio, time, temperature, I2 loading (2 equiv except entry 4 at 4 equiv), product-specific isolated yields for 2a and (Z)-4a, and reported stereoisomer ratios; entries 4 and 5 retain the isolation-based ratio footnote.",
+          "evidence_ids": [
+            "doc_4f67befc97ec7e2c:page2:text",
+            "doc_4f67befc97ec7e2c:page2:image"
+          ]
+        },
+        {
+          "region": "lower-left Scheme 1 and adjacent explanatory prose",
+          "finding": "Paths a and b are proposed mechanistic alternatives leading through 3a to 2a or directly to (Z)-4a. They were recorded separately as mechanism records and were not treated as additional reported experiments or assigned Table 1 yields.",
+          "evidence_ids": [
+            "doc_4f67befc97ec7e2c:page2:text",
+            "doc_4f67befc97ec7e2c:page2:image"
+          ]
+        },
+        {
+          "region": "upper-right Table 2, including generic reaction header, entries 1-12, and footnotes a-e",
+          "finding": "Twelve substrate-scope experiments were extracted row by row with R1/R2 identity, substrate/product labels, I2 (2 equiv), acetone/H2O (4:1), room temperature, time, product yield and Z/E ratio. The corresponding aldehyde byproduct is retained as trace except for the explicit 14% or 18% footnoted rows.",
+          "evidence_ids": [
+            "doc_4f67befc97ec7e2c:page2:text",
+            "doc_4f67befc97ec7e2c:page2:image"
+          ]
+        },
+        {
+          "region": "lower-right Scheme 2 and its two-row oxidation table",
+          "finding": "Two independent oxidation experiments of (Z)-4d to sulfoxide (Z)-5d were extracted: m-CPBA (1.1 equiv)/CH2Cl2/rt/4 h/69% and H2O2 (4 equiv)/HOAc/rt/36 h/71%, with product dr 46:54 retained for each.",
+          "evidence_ids": [
+            "doc_4f67befc97ec7e2c:page2:text",
+            "doc_4f67befc97ec7e2c:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_4f67befc97ec7e2c:table1_entry_1",
+        "doc_4f67befc97ec7e2c:table1_entry_2",
+        "doc_4f67befc97ec7e2c:table1_entry_3",
+        "doc_4f67befc97ec7e2c:table1_entry_4",
+        "doc_4f67befc97ec7e2c:table1_entry_5",
+        "doc_4f67befc97ec7e2c:table1_entry_6",
+        "doc_4f67befc97ec7e2c:table1_entry_7",
+        "doc_4f67befc97ec7e2c:scheme1_path_a",
+        "doc_4f67befc97ec7e2c:scheme1_path_b",
+        "doc_4f67befc97ec7e2c:table2_entry_1",
+        "doc_4f67befc97ec7e2c:table2_entry_2",
+        "doc_4f67befc97ec7e2c:table2_entry_3",
+        "doc_4f67befc97ec7e2c:table2_entry_4",
+        "doc_4f67befc97ec7e2c:table2_entry_5",
+        "doc_4f67befc97ec7e2c:table2_entry_6",
+        "doc_4f67befc97ec7e2c:table2_entry_7",
+        "doc_4f67befc97ec7e2c:table2_entry_8",
+        "doc_4f67befc97ec7e2c:table2_entry_9",
+        "doc_4f67befc97ec7e2c:table2_entry_10",
+        "doc_4f67befc97ec7e2c:table2_entry_11",
+        "doc_4f67befc97ec7e2c:table2_entry_12",
+        "doc_4f67befc97ec7e2c:scheme2_mcpba",
+        "doc_4f67befc97ec7e2c:scheme2_h2o2"
+      ],
+      "unresolved": [
+        "The exact drawn connectivity of aldehyde 2a and the row-specific aldehyde byproducts was not encoded as SMILES because it could not be established confidently from the page image and labels alone.",
+        "Table 2 and Scheme 2 do not explicitly state the yield measurement basis.",
+        "Reaction scale, detailed operations, workup, and purification are missing from the main-text page; no SI was supplied or explicitly associated."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left Scheme 3 and its introductory sentence",
+          "finding": "One reported overall experiment converts 1n with I2 (2 equiv) in acetone/H2O (4:1) at 25 °C for 11 h to (Z)-6n in 85% yield and Z/E 97/3 via the bracketed iodohydroxylation product (Z)-4n.",
+          "evidence_ids": [
+            "doc_4f67befc97ec7e2c:page3:text",
+            "doc_4f67befc97ec7e2c:page3:image"
+          ]
+        },
+        {
+          "region": "upper-right Scheme 4 and adjacent mechanistic discussion",
+          "finding": "Scheme 4 is an assumed generic mechanism: sulfur-I2 complexation, intramolecular electrophilic iodine delivery to proposed (Z)-7, then hydrolysis to generic (Z)-4. It is classified as mechanism, not a reported experiment.",
+          "evidence_ids": [
+            "doc_4f67befc97ec7e2c:page3:text",
+            "doc_4f67befc97ec7e2c:page3:image"
+          ]
+        },
+        {
+          "region": "conclusion, acknowledgments, and Supporting Information statement in the lower half",
+          "finding": "No additional experiment is reported. The article states that typical procedures and analytical data are available as Supporting Information, but no SI file is present in this workspace and no association was inferred.",
+          "evidence_ids": [
+            "doc_4f67befc97ec7e2c:page3:text",
+            "doc_4f67befc97ec7e2c:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_4f67befc97ec7e2c:scheme3_1n_to_6n",
+        "doc_4f67befc97ec7e2c:scheme4_proposed_mechanism"
+      ],
+      "unresolved": [
+        "Scheme 3 provides only the overall 11 h duration; separate timing and conditions for iodohydroxylation versus dehydration are not reported.",
+        "No yield is reported for bracketed intermediate (Z)-4n, and the yield basis for (Z)-6n is not stated.",
+        "Supporting Information is mentioned but was not supplied or explicitly associated; detailed procedure, scale, workup, purification, and analytical data therefore remain missing."
+      ]
+    }
+  ]
+}
