@@ -1,0 +1,837 @@
+[
+  {
+    "record_id": "doc_cc2bd70aeb39d26b:scheme15_iodine_condition_from_page6_prose",
+    "document_id": "doc_cc2bd70aeb39d26b",
+    "source_reaction_id": "scheme15_iodine_condition_from_page6_prose",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cc2bd70aeb39d26b:page6:text",
+      "doc_cc2bd70aeb39d26b:page6:image",
+      "doc_cc2bd70aeb39d26b:page7:text",
+      "doc_cc2bd70aeb39d26b:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "s15_nbu_i_substrate",
+        "role": "reactant",
+        "label": {
+          "value": "3-n-butyl-3,4-pentadien-2-ol (Scheme 15 substrate)",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page6:text",
+            "doc_cc2bd70aeb39d26b:page6:image",
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": "C=C=C(CCCC)C(O)C",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page6:text",
+            "doc_cc2bd70aeb39d26b:page6:image",
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "s15_nbu_i_halogen",
+        "role": "reagent",
+        "label": {
+          "value": "I2",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page6:text",
+            "doc_cc2bd70aeb39d26b:page6:image",
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "iodine",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page6:text",
+            "doc_cc2bd70aeb39d26b:page6:image",
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[I][I]",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page6:text",
+            "doc_cc2bd70aeb39d26b:page6:image",
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "s15_nbu_i_mecn",
+        "role": "solvent",
+        "label": {
+          "value": "CH3CN",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "acetonitrile",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC#N",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "s15_nbu_i_water",
+        "role": "solvent",
+        "label": {
+          "value": "H2O",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "water",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "s15_nbu_i_product",
+        "role": "product",
+        "label": {
+          "value": "4-iodo-3-n-butylpent-4-en-2-one 15",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page6:text",
+            "doc_cc2bd70aeb39d26b:page6:image",
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": "C=C(I)C(CCCC)C(=O)C",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page6:text",
+            "doc_cc2bd70aeb39d26b:page6:image",
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "s15_nbu_i_substrate",
+          "s15_nbu_i_halogen",
+          "s15_nbu_i_mecn",
+          "s15_nbu_i_water",
+          "s15_nbu_i_product"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "CH3CN/H2O (ratio not reported)",
+              "evidence_ids": [
+                "doc_cc2bd70aeb39d26b:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_cc2bd70aeb39d26b:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "number": 49,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "s15_nbu_i_product"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Page 6 attributes this Scheme 15 product class to a 1,2-H shift from a 14-type cationic intermediate.",
+        "evidence_ids": [
+          "doc_cc2bd70aeb39d26b:page6:text",
+          "doc_cc2bd70aeb39d26b:page6:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "This review article summarizes cited reference 12; experiment-level details absent here require review against the original cited paper.",
+        "All machine constitutional structures and the source's 1,2-H-shift assignment remain unverified.",
+        "Halogen equivalents, CH3CN/H2O ratio, duration, atmosphere, workup, purification, and yield measurement basis are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cc2bd70aeb39d26b:scheme15_bromine_condition_from_page6_prose",
+    "document_id": "doc_cc2bd70aeb39d26b",
+    "source_reaction_id": "scheme15_bromine_condition_from_page6_prose",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cc2bd70aeb39d26b:page6:text",
+      "doc_cc2bd70aeb39d26b:page6:image",
+      "doc_cc2bd70aeb39d26b:page7:text",
+      "doc_cc2bd70aeb39d26b:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "s15_nbu_br_substrate",
+        "role": "reactant",
+        "label": {
+          "value": "3-n-butyl-3,4-pentadien-2-ol (Scheme 15 substrate)",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page6:text",
+            "doc_cc2bd70aeb39d26b:page6:image",
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": "C=C=C(CCCC)C(O)C",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page6:text",
+            "doc_cc2bd70aeb39d26b:page6:image",
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "s15_nbu_br_halogen",
+        "role": "reagent",
+        "label": {
+          "value": "Br2",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page6:text",
+            "doc_cc2bd70aeb39d26b:page6:image",
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "bromine",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page6:text",
+            "doc_cc2bd70aeb39d26b:page6:image",
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "BrBr",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page6:text",
+            "doc_cc2bd70aeb39d26b:page6:image",
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "s15_nbu_br_mecn",
+        "role": "solvent",
+        "label": {
+          "value": "CH3CN",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "acetonitrile",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC#N",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "s15_nbu_br_water",
+        "role": "solvent",
+        "label": {
+          "value": "H2O",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "water",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "s15_nbu_br_product",
+        "role": "product",
+        "label": {
+          "value": "4-bromo-3-n-butylpent-4-en-2-one 16",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page6:text",
+            "doc_cc2bd70aeb39d26b:page6:image",
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": "C=C(Br)C(CCCC)C(=O)C",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page6:text",
+            "doc_cc2bd70aeb39d26b:page6:image",
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "s15_nbu_br_substrate",
+          "s15_nbu_br_halogen",
+          "s15_nbu_br_mecn",
+          "s15_nbu_br_water",
+          "s15_nbu_br_product"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "CH3CN/H2O (ratio not reported)",
+              "evidence_ids": [
+                "doc_cc2bd70aeb39d26b:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_cc2bd70aeb39d26b:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "number": 46,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "s15_nbu_br_product"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Page 6 attributes this Scheme 15 product class to a 1,2-H shift from a 14-type cationic intermediate.",
+        "evidence_ids": [
+          "doc_cc2bd70aeb39d26b:page6:text",
+          "doc_cc2bd70aeb39d26b:page6:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "This review article summarizes cited reference 12; experiment-level details absent here require review against the original cited paper.",
+        "All machine constitutional structures and the source's 1,2-H-shift assignment remain unverified.",
+        "Halogen equivalents, CH3CN/H2O ratio, duration, atmosphere, workup, purification, and yield measurement basis are not reported.",
+        "The upper product drawing visibly carries an I label, while the explicit legend assigns X = Br to product 16; the brominated identity is retained from that legend but requires source review."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cc2bd70aeb39d26b:scheme15_iodine_nhexyl_product17",
+    "document_id": "doc_cc2bd70aeb39d26b",
+    "source_reaction_id": "scheme15_iodine_nhexyl_product17",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cc2bd70aeb39d26b:page6:text",
+      "doc_cc2bd70aeb39d26b:page6:image",
+      "doc_cc2bd70aeb39d26b:page7:text",
+      "doc_cc2bd70aeb39d26b:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "s15_nhex_i_substrate",
+        "role": "reactant",
+        "label": {
+          "value": "3-n-hexyl-3,4-pentadien-2-ol (Scheme 15 substrate)",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page6:text",
+            "doc_cc2bd70aeb39d26b:page6:image",
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": "C=C=C(CCCCCC)C(O)C",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page6:text",
+            "doc_cc2bd70aeb39d26b:page6:image",
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "s15_nhex_i_halogen",
+        "role": "reagent",
+        "label": {
+          "value": "I2",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page6:text",
+            "doc_cc2bd70aeb39d26b:page6:image",
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "iodine",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page6:text",
+            "doc_cc2bd70aeb39d26b:page6:image",
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[I][I]",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page6:text",
+            "doc_cc2bd70aeb39d26b:page6:image",
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "s15_nhex_i_mecn",
+        "role": "solvent",
+        "label": {
+          "value": "CH3CN",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "acetonitrile",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC#N",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "s15_nhex_i_water",
+        "role": "solvent",
+        "label": {
+          "value": "H2O",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "water",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "s15_nhex_i_product",
+        "role": "product",
+        "label": {
+          "value": "4-iodo-3-n-hexylpent-4-en-2-one 17",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page6:text",
+            "doc_cc2bd70aeb39d26b:page6:image",
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": "C=C(I)C(CCCCCC)C(=O)C",
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page6:text",
+            "doc_cc2bd70aeb39d26b:page6:image",
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reaction",
+        "participant_ids": [
+          "s15_nhex_i_substrate",
+          "s15_nhex_i_halogen",
+          "s15_nhex_i_mecn",
+          "s15_nhex_i_water",
+          "s15_nhex_i_product"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "CH3CN/H2O (ratio not reported)",
+              "evidence_ids": [
+                "doc_cc2bd70aeb39d26b:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_cc2bd70aeb39d26b:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "number": 52,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_cc2bd70aeb39d26b:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "s15_nhex_i_product"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "Page 6 attributes this Scheme 15 product class to a 1,2-H shift from a 14-type cationic intermediate.",
+        "evidence_ids": [
+          "doc_cc2bd70aeb39d26b:page6:text",
+          "doc_cc2bd70aeb39d26b:page6:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "This review article summarizes cited reference 12; experiment-level details absent here require review against the original cited paper.",
+        "All machine constitutional structures and the source's 1,2-H-shift assignment remain unverified.",
+        "Halogen equivalents, CH3CN/H2O ratio, duration, atmosphere, workup, purification, and yield measurement basis are not reported."
+      ]
+    }
+  }
+]

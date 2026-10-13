@@ -1,0 +1,2934 @@
+[
+  {
+    "record_id": "doc_d88f44f799f3b8b2:equation1_generic_allene_insertion",
+    "document_id": "doc_d88f44f799f3b8b2",
+    "source_reaction_id": "equation1_generic_allene_insertion",
+    "record_kind": "general_scheme",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_d88f44f799f3b8b2:page2:image",
+      "doc_d88f44f799f3b8b2:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "eq1_allene",
+        "role": "reactant",
+        "label": {
+          "value": "H2C=C=CH2",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "allene",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=C",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "eq1_mr",
+        "role": "reactant",
+        "label": {
+          "value": "LnM-R",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "generic metal-R complex",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "eq1_allyl_a",
+        "role": "product",
+        "label": {
+          "value": "A",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "generic transition-metal allyl complex",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "eq1_vinyl_b",
+        "role": "product",
+        "label": {
+          "value": "B",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "generic transition-metal vinyl complex",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "conceptual_allene_insertion",
+        "participant_ids": [
+          "eq1_allene",
+          "eq1_mr",
+          "eq1_allyl_a",
+          "eq1_vinyl_b"
+        ],
+        "conditions": []
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "possible_products",
+        "fact": {
+          "value": "allyl complex A or vinyl complex B",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "eq1_allyl_a",
+          "eq1_vinyl_b"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Equation 1 illustrates two possible insertion connectivities and does not report an executed experiment.",
+        "evidence_ids": [
+          "doc_d88f44f799f3b8b2:page2:image",
+          "doc_d88f44f799f3b8b2:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Ln, M, and R are generic; no experiment-specific quantities, conditions, or yield are supplied."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_d88f44f799f3b8b2:literature_fe_hydride_allene_vinyl",
+    "document_id": "doc_d88f44f799f3b8b2",
+    "source_reaction_id": "literature_fe_hydride_allene_vinyl",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_d88f44f799f3b8b2:page2:image",
+      "doc_d88f44f799f3b8b2:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "literature_fe_hydride_allene_vinyl_metal",
+        "role": "reactant",
+        "label": {
+          "value": "[FeH(H2)(dmpe)2]+",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "literature_fe_hydride_allene_vinyl_allene",
+        "role": "reactant",
+        "label": {
+          "value": "CH2=C=CH2",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "allene",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=C",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "literature_fe_hydride_allene_vinyl_product",
+        "role": "product",
+        "label": {
+          "value": "[Fe(C(CH3)=CH2)(dmpe)2]+",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reported_prior_reaction",
+        "participant_ids": [
+          "literature_fe_hydride_allene_vinyl_metal",
+          "literature_fe_hydride_allene_vinyl_allene",
+          "literature_fe_hydride_allene_vinyl_product"
+        ],
+        "conditions": []
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_prior_outcome",
+        "fact": {
+          "value": "vinyl complex reported",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "literature_fe_hydride_allene_vinyl_product"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Attributed to Hills et al., reference 17.",
+        "evidence_ids": [
+          "doc_d88f44f799f3b8b2:page2:image",
+          "doc_d88f44f799f3b8b2:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "This is cited prior work, not a present-paper experiment; quantities, conditions, workup, purification, and yield are not supplied on the inspected pages."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_d88f44f799f3b8b2:literature_zr_pyridyl_allene_mixture",
+    "document_id": "doc_d88f44f799f3b8b2",
+    "source_reaction_id": "literature_zr_pyridyl_allene_mixture",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_d88f44f799f3b8b2:page2:image",
+      "doc_d88f44f799f3b8b2:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "literature_zr_pyridyl_allene_mixture_metal",
+        "role": "reactant",
+        "label": {
+          "value": "[Cp2Zr(eta2-pyridyl)(THF)]+",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "literature_zr_pyridyl_allene_mixture_allene",
+        "role": "reactant",
+        "label": {
+          "value": "CH2=C=CH2",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "allene",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=C",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "literature_zr_pyridyl_allene_mixture_product",
+        "role": "product",
+        "label": {
+          "value": "mixture of vinyl and allyl complexes",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reported_prior_reaction",
+        "participant_ids": [
+          "literature_zr_pyridyl_allene_mixture_metal",
+          "literature_zr_pyridyl_allene_mixture_allene",
+          "literature_zr_pyridyl_allene_mixture_product"
+        ],
+        "conditions": []
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_prior_outcome",
+        "fact": {
+          "value": "vinyl/allyl mixture reported",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "literature_zr_pyridyl_allene_mixture_product"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Attributed to Guram and Jordan, reference 18.",
+        "evidence_ids": [
+          "doc_d88f44f799f3b8b2:page2:image",
+          "doc_d88f44f799f3b8b2:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "This is cited prior work, not a present-paper experiment; quantities, conditions, workup, purification, and yield are not supplied on the inspected pages.",
+        "Individual product structures and their ratio are not given in the inspected-page prose."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_d88f44f799f3b8b2:literature_erker_zr_hf_allene_vinyl",
+    "document_id": "doc_d88f44f799f3b8b2",
+    "source_reaction_id": "literature_erker_zr_hf_allene_vinyl",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_d88f44f799f3b8b2:page2:image",
+      "doc_d88f44f799f3b8b2:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "literature_erker_zr_hf_allene_vinyl_metal",
+        "role": "reactant",
+        "label": {
+          "value": "Cp2M(CH2CHCHCH2B(C6F5)3), M = Zr or Hf",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "literature_erker_zr_hf_allene_vinyl_allene",
+        "role": "reactant",
+        "label": {
+          "value": "CH2=C=CH2",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "allene",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=C",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "literature_erker_zr_hf_allene_vinyl_product",
+        "role": "product",
+        "label": {
+          "value": "Cp2M(C(=CH2)CH2CH2CHCHCH2B(C6F5)3",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reported_prior_reaction",
+        "participant_ids": [
+          "literature_erker_zr_hf_allene_vinyl_metal",
+          "literature_erker_zr_hf_allene_vinyl_allene",
+          "literature_erker_zr_hf_allene_vinyl_product"
+        ],
+        "conditions": []
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_prior_outcome",
+        "fact": {
+          "value": "vinyl complexes reported",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "literature_erker_zr_hf_allene_vinyl_product"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Attributed to Karl and Erker, reference 19; the source summarizes Zr and Hf congeners together.",
+        "evidence_ids": [
+          "doc_d88f44f799f3b8b2:page2:image",
+          "doc_d88f44f799f3b8b2:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "This is cited prior work, not a present-paper experiment; quantities, conditions, workup, purification, and yield are not supplied on the inspected pages.",
+        "The compact printed formula is retained as a label; connectivity and punctuation require source-paper review."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_d88f44f799f3b8b2:literature_ru_co_allene_allyl",
+    "document_id": "doc_d88f44f799f3b8b2",
+    "source_reaction_id": "literature_ru_co_allene_allyl",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_d88f44f799f3b8b2:page2:image",
+      "doc_d88f44f799f3b8b2:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "literature_ru_co_allene_allyl_metal",
+        "role": "reactant",
+        "label": {
+          "value": "RuHCl(CO)(PPh3)3",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "literature_ru_co_allene_allyl_allene",
+        "role": "reactant",
+        "label": {
+          "value": "CH2=C=CH2",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "allene",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=C",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "literature_ru_co_allene_allyl_product",
+        "role": "product",
+        "label": {
+          "value": "RuCl(eta3-C3H5)(CO)(PPh3)2",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reported_prior_reaction",
+        "participant_ids": [
+          "literature_ru_co_allene_allyl_metal",
+          "literature_ru_co_allene_allyl_allene",
+          "literature_ru_co_allene_allyl_product"
+        ],
+        "conditions": []
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_prior_outcome",
+        "fact": {
+          "value": "eta3-allyl complex reported",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "literature_ru_co_allene_allyl_product"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The page states that this RuHCl(CO)(PPh3)3 reaction had been shown previously (reference 9).",
+        "evidence_ids": [
+          "doc_d88f44f799f3b8b2:page2:image",
+          "doc_d88f44f799f3b8b2:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "This is cited prior work, not a present-paper experiment; quantities, conditions, workup, purification, and yield are not supplied on the inspected pages."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_d88f44f799f3b8b2:literature_ru_co_phenylallene_allyl",
+    "document_id": "doc_d88f44f799f3b8b2",
+    "source_reaction_id": "literature_ru_co_phenylallene_allyl",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_d88f44f799f3b8b2:page2:image",
+      "doc_d88f44f799f3b8b2:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "literature_ru_co_phenylallene_allyl_metal",
+        "role": "reactant",
+        "label": {
+          "value": "RuHCl(CO)(PPh3)3",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "literature_ru_co_phenylallene_allyl_allene",
+        "role": "reactant",
+        "label": {
+          "value": "CH2=C=CHPh",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "phenylallene",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=Cc1ccccc1",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "literature_ru_co_phenylallene_allyl_product",
+        "role": "product",
+        "label": {
+          "value": "RuCl(eta3-CH2CHCHPh)(CO)(PPh3)2",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reported_prior_reaction",
+        "participant_ids": [
+          "literature_ru_co_phenylallene_allyl_metal",
+          "literature_ru_co_phenylallene_allyl_allene",
+          "literature_ru_co_phenylallene_allyl_product"
+        ],
+        "conditions": []
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_prior_outcome",
+        "fact": {
+          "value": "eta3-allyl complex reported",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "literature_ru_co_phenylallene_allyl_product"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The page states that this RuHCl(CO)(PPh3)3 reaction had been shown previously (reference 9).",
+        "evidence_ids": [
+          "doc_d88f44f799f3b8b2:page2:image",
+          "doc_d88f44f799f3b8b2:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "This is cited prior work, not a present-paper experiment; quantities, conditions, workup, purification, and yield are not supplied on the inspected pages."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_d88f44f799f3b8b2:literature_ru_co_dimethylallene_allyl",
+    "document_id": "doc_d88f44f799f3b8b2",
+    "source_reaction_id": "literature_ru_co_dimethylallene_allyl",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_d88f44f799f3b8b2:page2:image",
+      "doc_d88f44f799f3b8b2:page2:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "literature_ru_co_dimethylallene_allyl_metal",
+        "role": "reactant",
+        "label": {
+          "value": "RuHCl(CO)(PPh3)3",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "literature_ru_co_dimethylallene_allyl_allene",
+        "role": "reactant",
+        "label": {
+          "value": "CH2=C=CMe2",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,1-dimethylallene",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=C(C)C",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "literature_ru_co_dimethylallene_allyl_product",
+        "role": "product",
+        "label": {
+          "value": "RuCl(eta3-CH2CHCMe2)(CO)(PPh3)2",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reported_prior_reaction",
+        "participant_ids": [
+          "literature_ru_co_dimethylallene_allyl_metal",
+          "literature_ru_co_dimethylallene_allyl_allene",
+          "literature_ru_co_dimethylallene_allyl_product"
+        ],
+        "conditions": []
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_prior_outcome",
+        "fact": {
+          "value": "eta3-allyl complex reported",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "literature_ru_co_dimethylallene_allyl_product"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The page states that this RuHCl(CO)(PPh3)3 reaction had been shown previously (reference 9).",
+        "evidence_ids": [
+          "doc_d88f44f799f3b8b2:page2:image",
+          "doc_d88f44f799f3b8b2:page2:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "This is cited prior work, not a present-paper experiment; quantities, conditions, workup, purification, and yield are not supplied on the inspected pages."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_d88f44f799f3b8b2:equation2_ru_methyl_allenoate_allyl_2",
+    "document_id": "doc_d88f44f799f3b8b2",
+    "source_reaction_id": "equation2_ru_methyl_allenoate_allyl_2",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_d88f44f799f3b8b2:page1:image",
+      "doc_d88f44f799f3b8b2:page1:text",
+      "doc_d88f44f799f3b8b2:page2:image",
+      "doc_d88f44f799f3b8b2:page2:text",
+      "doc_d88f44f799f3b8b2:page3:image",
+      "doc_d88f44f799f3b8b2:page3:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "eq2_ru_hydride_1",
+        "role": "reactant",
+        "label": {
+          "value": "1",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "RuHCl(CO)(PPh3)3",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "eq2_methyl_allenoate",
+        "role": "reactant",
+        "label": {
+          "value": "CH2=C=CHCO2Me",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "methyl buta-2,3-dienoate",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=CC(=O)OC",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "eq2_product_2",
+        "role": "product",
+        "label": {
+          "value": "2",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "Ru(eta3-CH2CHCHCO2Me)Cl(CO)(PPh3)2",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page2:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "allene_insertion",
+        "participant_ids": [
+          "eq2_ru_hydride_1",
+          "eq2_methyl_allenoate",
+          "eq2_product_2"
+        ],
+        "conditions": []
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_product_formation",
+        "fact": {
+          "value": "allyl complex 2 formed",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "eq2_product_2"
+        ]
+      },
+      {
+        "name": "structure_confirmation",
+        "fact": {
+          "value": "X-ray diffraction",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "eq2_product_2"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Page 3 reports allylic 1H NMR signals at 5.80 and 2.95-3.19 ppm; 13C signals at 103.5, 67.8, and 60.7 ppm; and 31P doublets at 39.5 and 28.9 ppm.",
+        "evidence_ids": [
+          "doc_d88f44f799f3b8b2:page3:text"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Tables 1 and 2 contain crystallographic data for 2 and are structural characterization, not separate reactions.",
+        "evidence_ids": [
+          "doc_d88f44f799f3b8b2:page3:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Pages 1-6 do not provide reaction quantities, solvent, time, temperature, atmosphere, workup, purification, or yield for equation 2.",
+        "The organoruthenium product structure is retained as a formula/name; no standard SMILES was assigned."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_d88f44f799f3b8b2:equation3_os_phenyl_allene_allyl",
+    "document_id": "doc_d88f44f799f3b8b2",
+    "source_reaction_id": "equation3_os_phenyl_allene_allyl",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_d88f44f799f3b8b2:page1:image",
+      "doc_d88f44f799f3b8b2:page1:text",
+      "doc_d88f44f799f3b8b2:page3:image",
+      "doc_d88f44f799f3b8b2:page3:text",
+      "doc_d88f44f799f3b8b2:page4:image",
+      "doc_d88f44f799f3b8b2:page4:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "eq3_phenyl_os_hydride_3",
+        "role": "reactant",
+        "label": {
+          "value": "3",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "OsHCl(CO)(PPh3)3",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "eq3_phenyl_allene",
+        "role": "reactant",
+        "label": {
+          "value": "CH2=C=CHPh",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "phenylallene",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=Cc1ccccc1",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "eq3_phenyl_product",
+        "role": "product",
+        "label": {
+          "value": "4",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "Os(eta3-CH2CHCHPh)Cl(CO)(PPh3)2",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "allene_insertion",
+        "participant_ids": [
+          "eq3_phenyl_os_hydride_3",
+          "eq3_phenyl_allene",
+          "eq3_phenyl_product"
+        ],
+        "conditions": []
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_product_formation",
+        "fact": {
+          "value": "eta3-allyl complex formed (R = Ph)",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "eq3_phenyl_product"
+        ]
+      },
+      {
+        "name": "structure_confirmation",
+        "fact": {
+          "value": "X-ray diffraction",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page2:image",
+            "doc_d88f44f799f3b8b2:page3:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "eq3_phenyl_product"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Equation 3 is a shared arrow for two separately listed R groups; this record represents one substrate case.",
+        "evidence_ids": [
+          "doc_d88f44f799f3b8b2:page4:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Pages 1-6 do not provide complete quantities, time, temperature, atmosphere, workup, purification, or yield for this equation-3 case.",
+        "The organo-osmium product structure is retained as a formula/name; no standard SMILES was assigned."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_d88f44f799f3b8b2:equation3_os_benzyl_allene_allyl",
+    "document_id": "doc_d88f44f799f3b8b2",
+    "source_reaction_id": "equation3_os_benzyl_allene_allyl",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_d88f44f799f3b8b2:page1:image",
+      "doc_d88f44f799f3b8b2:page1:text",
+      "doc_d88f44f799f3b8b2:page4:image",
+      "doc_d88f44f799f3b8b2:page4:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "eq3_benzyl_os_hydride_3",
+        "role": "reactant",
+        "label": {
+          "value": "3",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "OsHCl(CO)(PPh3)3",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "eq3_benzyl_allene",
+        "role": "reactant",
+        "label": {
+          "value": "CH2=C=CHCH2Ph",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "buta-2,3-dienylbenzene",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=CCc1ccccc1",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "eq3_benzyl_product",
+        "role": "product",
+        "label": {
+          "value": "5",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "Os(eta3-CH2CHCHCH2Ph)Cl(CO)(PPh3)2",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "allene_insertion",
+        "participant_ids": [
+          "eq3_benzyl_os_hydride_3",
+          "eq3_benzyl_allene",
+          "eq3_benzyl_product"
+        ],
+        "conditions": []
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_product_formation",
+        "fact": {
+          "value": "eta3-allyl complex formed (R = CH2Ph)",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "eq3_benzyl_product"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Equation 3 is a shared arrow for two separately listed R groups; this record represents one substrate case.",
+        "evidence_ids": [
+          "doc_d88f44f799f3b8b2:page4:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Pages 1-6 do not provide complete quantities, time, temperature, atmosphere, workup, purification, or yield for this equation-3 case.",
+        "The organo-osmium product structure is retained as a formula/name; no standard SMILES was assigned."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_d88f44f799f3b8b2:literature_equation4_os_tert_butyl_vinyl",
+    "document_id": "doc_d88f44f799f3b8b2",
+    "source_reaction_id": "literature_equation4_os_tert_butyl_vinyl",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_d88f44f799f3b8b2:page1:image",
+      "doc_d88f44f799f3b8b2:page1:text",
+      "doc_d88f44f799f3b8b2:page3:image",
+      "doc_d88f44f799f3b8b2:page3:text",
+      "doc_d88f44f799f3b8b2:page4:image",
+      "doc_d88f44f799f3b8b2:page4:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "literature_equation4_os_tert_butyl_vinyl_os_hydride",
+        "role": "reactant",
+        "label": {
+          "value": "6",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "OsHCl(PPh3)3",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "literature_equation4_os_tert_butyl_vinyl_allene",
+        "role": "reactant",
+        "label": {
+          "value": "CH2=C=CHCMe3",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "4,4-dimethyl-1,2-pentadiene",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=CC(C)(C)C",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "literature_equation4_os_tert_butyl_vinyl_product",
+        "role": "product",
+        "label": {
+          "value": "7",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "OsCl(C(CH3)=CHR)(CH2=C=CHR)(PPh3)2, R = CMe3",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reported_prior_insertion",
+        "participant_ids": [
+          "literature_equation4_os_tert_butyl_vinyl_os_hydride",
+          "literature_equation4_os_tert_butyl_vinyl_allene",
+          "literature_equation4_os_tert_butyl_vinyl_product"
+        ],
+        "conditions": []
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_prior_outcome",
+        "fact": {
+          "value": "vinyl complex 7 formed",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "literature_equation4_os_tert_butyl_vinyl_product"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The authors state that equation 4 had been shown previously in reference 20.",
+        "evidence_ids": [
+          "doc_d88f44f799f3b8b2:page4:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "This is cited prior work, not a present-paper experiment; pages 1-6 omit quantities, conditions, workup, purification, and yield.",
+        "The organo-osmium product structure is retained as a formula/name; no standard SMILES was assigned."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_d88f44f799f3b8b2:literature_equation4_os_phenyl_vinyl",
+    "document_id": "doc_d88f44f799f3b8b2",
+    "source_reaction_id": "literature_equation4_os_phenyl_vinyl",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_d88f44f799f3b8b2:page1:image",
+      "doc_d88f44f799f3b8b2:page1:text",
+      "doc_d88f44f799f3b8b2:page3:image",
+      "doc_d88f44f799f3b8b2:page3:text",
+      "doc_d88f44f799f3b8b2:page4:image",
+      "doc_d88f44f799f3b8b2:page4:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "literature_equation4_os_phenyl_vinyl_os_hydride",
+        "role": "reactant",
+        "label": {
+          "value": "6",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "OsHCl(PPh3)3",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "literature_equation4_os_phenyl_vinyl_allene",
+        "role": "reactant",
+        "label": {
+          "value": "CH2=C=CHPh",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "phenylallene",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=Cc1ccccc1",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "literature_equation4_os_phenyl_vinyl_product",
+        "role": "product",
+        "label": {
+          "value": "8",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "OsCl(C(CH3)=CHR)(CH2=C=CHR)(PPh3)2, R = Ph",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reported_prior_insertion",
+        "participant_ids": [
+          "literature_equation4_os_phenyl_vinyl_os_hydride",
+          "literature_equation4_os_phenyl_vinyl_allene",
+          "literature_equation4_os_phenyl_vinyl_product"
+        ],
+        "conditions": []
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_prior_outcome",
+        "fact": {
+          "value": "vinyl complex 8 formed",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "literature_equation4_os_phenyl_vinyl_product"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The authors state that equation 4 had been shown previously in reference 20.",
+        "evidence_ids": [
+          "doc_d88f44f799f3b8b2:page4:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "This is cited prior work, not a present-paper experiment; pages 1-6 omit quantities, conditions, workup, purification, and yield.",
+        "The organo-osmium product structure is retained as a formula/name; no standard SMILES was assigned."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_d88f44f799f3b8b2:literature_equation4_os_ethoxycarbonyl_vinyl",
+    "document_id": "doc_d88f44f799f3b8b2",
+    "source_reaction_id": "literature_equation4_os_ethoxycarbonyl_vinyl",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_d88f44f799f3b8b2:page1:image",
+      "doc_d88f44f799f3b8b2:page1:text",
+      "doc_d88f44f799f3b8b2:page3:image",
+      "doc_d88f44f799f3b8b2:page3:text",
+      "doc_d88f44f799f3b8b2:page4:image",
+      "doc_d88f44f799f3b8b2:page4:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "literature_equation4_os_ethoxycarbonyl_vinyl_os_hydride",
+        "role": "reactant",
+        "label": {
+          "value": "6",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "OsHCl(PPh3)3",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "literature_equation4_os_ethoxycarbonyl_vinyl_allene",
+        "role": "reactant",
+        "label": {
+          "value": "CH2=C=CHCO2Et",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl buta-2,3-dienoate",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=CC(=O)OCC",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "literature_equation4_os_ethoxycarbonyl_vinyl_product",
+        "role": "product",
+        "label": {
+          "value": "9",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "OsCl(C(CH3)=CHR)(CH2=C=CHR)(PPh3)2, R = CO2Et",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reported_prior_insertion",
+        "participant_ids": [
+          "literature_equation4_os_ethoxycarbonyl_vinyl_os_hydride",
+          "literature_equation4_os_ethoxycarbonyl_vinyl_allene",
+          "literature_equation4_os_ethoxycarbonyl_vinyl_product"
+        ],
+        "conditions": []
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_prior_outcome",
+        "fact": {
+          "value": "vinyl complex 9 formed",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page3:image",
+            "doc_d88f44f799f3b8b2:page3:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "literature_equation4_os_ethoxycarbonyl_vinyl_product"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The authors state that equation 4 had been shown previously in reference 20.",
+        "evidence_ids": [
+          "doc_d88f44f799f3b8b2:page4:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "This is cited prior work, not a present-paper experiment; pages 1-6 omit quantities, conditions, workup, purification, and yield.",
+        "The organo-osmium product structure is retained as a formula/name; no standard SMILES was assigned."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_d88f44f799f3b8b2:equation5_ru_tertbutyl_allene_vinyl_11",
+    "document_id": "doc_d88f44f799f3b8b2",
+    "source_reaction_id": "equation5_ru_tertbutyl_allene_vinyl_11",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_d88f44f799f3b8b2:page1:image",
+      "doc_d88f44f799f3b8b2:page1:text",
+      "doc_d88f44f799f3b8b2:page4:image",
+      "doc_d88f44f799f3b8b2:page4:text",
+      "doc_d88f44f799f3b8b2:page5:image",
+      "doc_d88f44f799f3b8b2:page5:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "eq5_ru_hydride_10",
+        "role": "reactant",
+        "label": {
+          "value": "10",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text",
+            "doc_d88f44f799f3b8b2:page5:image",
+            "doc_d88f44f799f3b8b2:page5:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "RuHCl(PPh3)3",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text",
+            "doc_d88f44f799f3b8b2:page5:image",
+            "doc_d88f44f799f3b8b2:page5:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "eq5_allene",
+        "role": "reactant",
+        "label": {
+          "value": "CH2=C=CHCMe3",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text",
+            "doc_d88f44f799f3b8b2:page5:image",
+            "doc_d88f44f799f3b8b2:page5:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "4,4-dimethyl-1,2-pentadiene",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text",
+            "doc_d88f44f799f3b8b2:page5:image",
+            "doc_d88f44f799f3b8b2:page5:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=CC(C)(C)C",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text",
+            "doc_d88f44f799f3b8b2:page5:image",
+            "doc_d88f44f799f3b8b2:page5:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "eq5_product_11",
+        "role": "product",
+        "label": {
+          "value": "11",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text",
+            "doc_d88f44f799f3b8b2:page5:image",
+            "doc_d88f44f799f3b8b2:page5:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "Ru(C(CH3)=CHCMe3)(eta2-1,2-CH2=C=CHCMe3)Cl(PPh3)2",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page1:image",
+            "doc_d88f44f799f3b8b2:page1:text",
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text",
+            "doc_d88f44f799f3b8b2:page5:image",
+            "doc_d88f44f799f3b8b2:page5:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "vinyl_complex_formation",
+        "participant_ids": [
+          "eq5_ru_hydride_10",
+          "eq5_allene",
+          "eq5_product_11"
+        ],
+        "conditions": []
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_product_formation",
+        "fact": {
+          "value": "vinyl complex 11 isolated",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "eq5_product_11"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Page 4 assigns a beta-agostic interaction from an unusually upfield methyl signal; page 5 continues the comparison with complex 7.",
+        "evidence_ids": [
+          "doc_d88f44f799f3b8b2:page4:text",
+          "doc_d88f44f799f3b8b2:page5:text"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Reported NMR features include 31P at 22.0 ppm, =CH2 at 0.30 ppm, =CH at 4.53 and 5.85 ppm, and an agostic methyl signal at 0.13 ppm.",
+        "evidence_ids": [
+          "doc_d88f44f799f3b8b2:page4:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Pages 1-6 do not provide reaction quantities, solvent, time, temperature, atmosphere, workup, purification, or yield for equation 5.",
+        "The equation does not state the allene stoichiometry; it was not inferred from the product formula.",
+        "The organoruthenium product structure is retained as a formula/name; no standard SMILES was assigned."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_d88f44f799f3b8b2:ru_hydride_phenylallene_unseparated_mixture",
+    "document_id": "doc_d88f44f799f3b8b2",
+    "source_reaction_id": "ru_hydride_phenylallene_unseparated_mixture",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_d88f44f799f3b8b2:page4:image",
+      "doc_d88f44f799f3b8b2:page4:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "ru_hydride_phenylallene_unseparated_mixture_ru",
+        "role": "reactant",
+        "label": {
+          "value": "10",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "RuHCl(PPh3)3",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ru_hydride_phenylallene_unseparated_mixture_allene",
+        "role": "reactant",
+        "label": {
+          "value": "CH2=C=CHPh",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "phenylallene",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=Cc1ccccc1",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ru_hydride_phenylallene_unseparated_mixture_mixture",
+        "role": "product",
+        "label": {
+          "value": "unseparated mixture",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "mixture of species not fully characterized",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "attempted_allene_reaction",
+        "participant_ids": [
+          "ru_hydride_phenylallene_unseparated_mixture_ru",
+          "ru_hydride_phenylallene_unseparated_mixture_allene",
+          "ru_hydride_phenylallene_unseparated_mixture_mixture"
+        ],
+        "conditions": []
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reaction_outcome",
+        "fact": {
+          "value": "mixture of species; products could not be separated and fully characterized",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ru_hydride_phenylallene_unseparated_mixture_mixture"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "This is an explicitly reported unsuccessful/indeterminate present-paper reaction, retained rather than omitted.",
+        "evidence_ids": [
+          "doc_d88f44f799f3b8b2:page4:image",
+          "doc_d88f44f799f3b8b2:page4:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "No individual product identity, yield, reaction quantities, solvent, time, temperature, atmosphere, workup, or purification is reported on pages 1-6."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_d88f44f799f3b8b2:ru_hydride_ethyl_allenoate_unseparated_mixture",
+    "document_id": "doc_d88f44f799f3b8b2",
+    "source_reaction_id": "ru_hydride_ethyl_allenoate_unseparated_mixture",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_d88f44f799f3b8b2:page4:image",
+      "doc_d88f44f799f3b8b2:page4:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "ru_hydride_ethyl_allenoate_unseparated_mixture_ru",
+        "role": "reactant",
+        "label": {
+          "value": "10",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "RuHCl(PPh3)3",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ru_hydride_ethyl_allenoate_unseparated_mixture_allene",
+        "role": "reactant",
+        "label": {
+          "value": "CH2=C=CHCO2Et",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl buta-2,3-dienoate",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=CC(=O)OCC",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ru_hydride_ethyl_allenoate_unseparated_mixture_mixture",
+        "role": "product",
+        "label": {
+          "value": "unseparated mixture",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "mixture of species not fully characterized",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "attempted_allene_reaction",
+        "participant_ids": [
+          "ru_hydride_ethyl_allenoate_unseparated_mixture_ru",
+          "ru_hydride_ethyl_allenoate_unseparated_mixture_allene",
+          "ru_hydride_ethyl_allenoate_unseparated_mixture_mixture"
+        ],
+        "conditions": []
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reaction_outcome",
+        "fact": {
+          "value": "mixture of species; products could not be separated and fully characterized",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page4:image",
+            "doc_d88f44f799f3b8b2:page4:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ru_hydride_ethyl_allenoate_unseparated_mixture_mixture"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "This is an explicitly reported unsuccessful/indeterminate present-paper reaction, retained rather than omitted.",
+        "evidence_ids": [
+          "doc_d88f44f799f3b8b2:page4:image",
+          "doc_d88f44f799f3b8b2:page4:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "No individual product identity, yield, reaction quantities, solvent, time, temperature, atmosphere, workup, or purification is reported on pages 1-6."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_d88f44f799f3b8b2:scheme1_pc1_phosphine_computational_pathways",
+    "document_id": "doc_d88f44f799f3b8b2",
+    "source_reaction_id": "scheme1_pc1_phosphine_computational_pathways",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_d88f44f799f3b8b2:page5:image",
+      "doc_d88f44f799f3b8b2:page5:text",
+      "doc_d88f44f799f3b8b2:page6:image",
+      "doc_d88f44f799f3b8b2:page6:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "pc1_precursor",
+        "role": "reactant",
+        "label": {
+          "value": "PC1",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page5:image",
+            "doc_d88f44f799f3b8b2:page5:text",
+            "doc_d88f44f799f3b8b2:page6:image",
+            "doc_d88f44f799f3b8b2:page6:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "OsHCl(eta2-allene)(PH3)3",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page5:image",
+            "doc_d88f44f799f3b8b2:page5:text",
+            "doc_d88f44f799f3b8b2:page6:image",
+            "doc_d88f44f799f3b8b2:page6:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "pc1_vinyl_product",
+        "role": "product",
+        "label": {
+          "value": "PR1-vinyl",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page5:image",
+            "doc_d88f44f799f3b8b2:page5:text",
+            "doc_d88f44f799f3b8b2:page6:image",
+            "doc_d88f44f799f3b8b2:page6:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "pc1_allyl_product",
+        "role": "product",
+        "label": {
+          "value": "PR1-allyl",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page5:image",
+            "doc_d88f44f799f3b8b2:page5:text",
+            "doc_d88f44f799f3b8b2:page6:image",
+            "doc_d88f44f799f3b8b2:page6:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "pc1_vinyl_pathway",
+        "participant_ids": [
+          "pc1_precursor",
+          "pc1_vinyl_product"
+        ],
+        "conditions": []
+      },
+      {
+        "step_id": "pc1_allyl_pathway",
+        "participant_ids": [
+          "pc1_precursor",
+          "pc1_allyl_product"
+        ],
+        "conditions": []
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "calculated_preferred_pathway",
+        "fact": {
+          "value": "vinyl pathway kinetically favored",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page5:text",
+            "doc_d88f44f799f3b8b2:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "pc1_vinyl_product"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Figure 3 relative free energies (electronic energies in parentheses), kcal/mol: PC1-allyl 0.0 (0.0), PC1-vinyl 2.2 (0.9), TS1-vinyl 15.5 (15.7), TS1-allyl 18.0 (17.8), PR1-vinyl -1.1 (-4.0), and PR1-allyl 2.6 (-0.5).",
+        "evidence_ids": [
+          "doc_d88f44f799f3b8b2:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "PH3 is the model phosphine ligand in the calculation; Scheme 1 is a mechanistic model, not an executed synthesis.",
+        "evidence_ids": [
+          "doc_d88f44f799f3b8b2:page5:image",
+          "doc_d88f44f799f3b8b2:page6:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Transition-state and organometallic intermediate structures were not converted to SMILES.",
+        "The energy unit kcal/mol is preserved in notes because it is outside the reaction-quantity schema's supported units."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_d88f44f799f3b8b2:scheme1_pc2_carbonyl_computational_pathways",
+    "document_id": "doc_d88f44f799f3b8b2",
+    "source_reaction_id": "scheme1_pc2_carbonyl_computational_pathways",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_d88f44f799f3b8b2:page5:image",
+      "doc_d88f44f799f3b8b2:page5:text",
+      "doc_d88f44f799f3b8b2:page6:image",
+      "doc_d88f44f799f3b8b2:page6:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "pc2_precursor",
+        "role": "reactant",
+        "label": {
+          "value": "PC2",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page5:image",
+            "doc_d88f44f799f3b8b2:page5:text",
+            "doc_d88f44f799f3b8b2:page6:image",
+            "doc_d88f44f799f3b8b2:page6:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "OsHCl(eta2-allene)(CO)(PH3)2",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page5:image",
+            "doc_d88f44f799f3b8b2:page5:text",
+            "doc_d88f44f799f3b8b2:page6:image",
+            "doc_d88f44f799f3b8b2:page6:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "pc2_vinyl_product",
+        "role": "product",
+        "label": {
+          "value": "PR2-vinyl",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page5:image",
+            "doc_d88f44f799f3b8b2:page5:text",
+            "doc_d88f44f799f3b8b2:page6:image",
+            "doc_d88f44f799f3b8b2:page6:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "pc2_allyl_product",
+        "role": "product",
+        "label": {
+          "value": "PR2-allyl",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page5:image",
+            "doc_d88f44f799f3b8b2:page5:text",
+            "doc_d88f44f799f3b8b2:page6:image",
+            "doc_d88f44f799f3b8b2:page6:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "pc2_vinyl_pathway",
+        "participant_ids": [
+          "pc2_precursor",
+          "pc2_vinyl_product"
+        ],
+        "conditions": []
+      },
+      {
+        "step_id": "pc2_allyl_pathway",
+        "participant_ids": [
+          "pc2_precursor",
+          "pc2_allyl_product"
+        ],
+        "conditions": []
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "calculated_preferred_pathway",
+        "fact": {
+          "value": "eta3-allyl pathway kinetically and thermodynamically favored",
+          "evidence_ids": [
+            "doc_d88f44f799f3b8b2:page5:text",
+            "doc_d88f44f799f3b8b2:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "pc2_allyl_product"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Figure 4 reports PH3-model and ONIOM/PPh3 relative free/electronic energies. Key barriers are TS2-vinyl 8.1 (9.0) and 8.0 (8.3) kcal/mol, and TS2-allyl 7.5 (8.8) and 6.1 (7.5) kcal/mol.",
+        "evidence_ids": [
+          "doc_d88f44f799f3b8b2:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Figure 4 product energies include PR2-vinyl -17.4 (-19.5) and -22.2 (-22.4) kcal/mol, and PR2-allyl -19.8 (-24.0) and -18.7 (-22.2) kcal/mol.",
+        "evidence_ids": [
+          "doc_d88f44f799f3b8b2:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Scheme 1 and Figure 4 are computational models, not executed syntheses.",
+        "evidence_ids": [
+          "doc_d88f44f799f3b8b2:page5:image",
+          "doc_d88f44f799f3b8b2:page6:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Transition-state and organometallic intermediate structures were not converted to SMILES.",
+        "The energy unit kcal/mol is preserved in notes because it is outside the reaction-quantity schema's supported units."
+      ]
+    }
+  }
+]

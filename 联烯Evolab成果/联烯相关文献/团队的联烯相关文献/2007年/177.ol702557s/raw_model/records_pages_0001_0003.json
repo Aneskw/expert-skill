@@ -1,0 +1,4781 @@
+[
+  {
+    "record_id": "doc_8e2572f72396a218:prior_cross_bisallene_cyclization",
+    "document_id": "doc_8e2572f72396a218",
+    "source_reaction_id": "prior_cross_bisallene_cyclization",
+    "record_kind": "literature_example",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_8e2572f72396a218:page1:text",
+      "doc_8e2572f72396a218:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "bisallene_a",
+        "role": "reactant",
+        "label": {
+          "value": "first 1,5-bisallene",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page1:text",
+            "doc_8e2572f72396a218:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "one of two different 1,5-bisallenes",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page1:text",
+            "doc_8e2572f72396a218:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "bisallene_b",
+        "role": "reactant",
+        "label": {
+          "value": "second 1,5-bisallene",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page1:text",
+            "doc_8e2572f72396a218:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "the other of two different 1,5-bisallenes",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page1:text",
+            "doc_8e2572f72396a218:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_mixture",
+        "role": "product",
+        "label": {
+          "value": "mixture of four products",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page1:text",
+            "doc_8e2572f72396a218:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "four cyclization products including two cross 18,19-norsteroid-like scaffolds",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page1:text",
+            "doc_8e2572f72396a218:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "prior_bimolecular_cyclization",
+        "participant_ids": [
+          "bisallene_a",
+          "bisallene_b",
+          "product_mixture"
+        ],
+        "conditions": []
+      }
+    ],
+    "outcomes": [],
+    "notes": [
+      {
+        "value": "The paper explicitly describes this as the authors' previously reported continuing study (reference 5), not as a new present-paper experiment.",
+        "evidence_ids": [
+          "doc_8e2572f72396a218:page1:text",
+          "doc_8e2572f72396a218:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The page gives no compound labels, quantities, catalyst, solvent, temperature, time, yields, or individual product structures for this cited study.",
+        "The four-product mixture and two isolated cross-scaffold structures require the cited publication for experiment-level resolution."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_8e2572f72396a218:equation1_prior_bisallene_dimerization",
+    "document_id": "doc_8e2572f72396a218",
+    "source_reaction_id": "equation1_prior_bisallene_dimerization",
+    "record_kind": "literature_example",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_8e2572f72396a218:page2:text",
+      "doc_8e2572f72396a218:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "prior_bisallene_1",
+        "role": "reactant",
+        "label": {
+          "value": "1",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "X-substituted 1,5-bisallene",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "unit": "equiv",
+                "number": 2
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "prior_rhodium_catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "trans-RhCl(CO)(PPh3)2",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "trans-chlorocarbonylbis(triphenylphosphine)rhodium(I)",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "prior_tetracycle_2",
+        "role": "product",
+        "label": {
+          "value": "2",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "generic X-substituted steroid-like tetracyclic skeleton",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "prior_bisallene_dimerization",
+        "participant_ids": [
+          "prior_bisallene_1",
+          "prior_rhodium_catalyst",
+          "prior_tetracycle_2"
+        ],
+        "conditions": []
+      }
+    ],
+    "outcomes": [],
+    "notes": [
+      {
+        "value": "Equation 1 is introduced as a recently reported reaction (reference 4); it is classified as prior literature even though the acknowledgments say the displayed result was reproduced.",
+        "evidence_ids": [
+          "doc_8e2572f72396a218:page2:text",
+          "doc_8e2572f72396a218:page2:image",
+          "doc_8e2572f72396a218:page3:text",
+          "doc_8e2572f72396a218:page3:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "X is generic, and catalyst loading, solvent, time, temperature, yield, atmosphere, workup, and purification are not reported with equation 1.",
+        "Generic substrate and tetracyclic product structures remain unverified."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_8e2572f72396a218:equation2_1a_3a_to_4aa",
+    "document_id": "doc_8e2572f72396a218",
+    "source_reaction_id": "equation2_1a_3a_to_4aa",
+    "record_kind": "reported_experiment",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_8e2572f72396a218:page1:text",
+      "doc_8e2572f72396a218:page1:image",
+      "doc_8e2572f72396a218:page2:text",
+      "doc_8e2572f72396a218:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "bisallene_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page1:text",
+            "doc_8e2572f72396a218:page1:image",
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,5-bisallene 1a",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page1:text",
+            "doc_8e2572f72396a218:page1:image",
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "unit": "mmol",
+                "number": 0.25
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page1:text",
+                "doc_8e2572f72396a218:page1:image",
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "monoallene",
+        "role": "reactant",
+        "label": {
+          "value": "3a",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page1:text",
+            "doc_8e2572f72396a218:page1:image",
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "dimethyl 2-(buta-2,3-dienyl)malonate 3a",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page1:text",
+            "doc_8e2572f72396a218:page1:image",
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=CC(C(=O)OC)C(=O)OC",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page1:text",
+            "doc_8e2572f72396a218:page1:image",
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "unit": "mmol",
+                "number": 0.625
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page1:text",
+                "doc_8e2572f72396a218:page1:image",
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "unit": "equiv",
+                "number": 2.5
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "rhodium_catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "trans-RhCl(CO)(PPh3)2",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page1:text",
+            "doc_8e2572f72396a218:page1:image",
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "trans-chlorocarbonylbis(triphenylphosphine)rhodium(I)",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page1:text",
+            "doc_8e2572f72396a218:page1:image",
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "unit": "mol%",
+                "number": 5
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page1:text",
+                "doc_8e2572f72396a218:page1:image",
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page1:text",
+            "doc_8e2572f72396a218:page1:image",
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page1:text",
+            "doc_8e2572f72396a218:page1:image",
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page1:text",
+            "doc_8e2572f72396a218:page1:image",
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "total_volume",
+            "fact": {
+              "value": {
+                "unit": "mL",
+                "number": 12
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page1:text",
+                "doc_8e2572f72396a218:page1:image",
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "receiving_solution_volume",
+            "fact": {
+              "value": {
+                "unit": "mL",
+                "number": 2
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page1:text",
+                "doc_8e2572f72396a218:page1:image",
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_4",
+        "role": "product",
+        "label": {
+          "value": "4aa",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page1:text",
+            "doc_8e2572f72396a218:page1:image",
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "condition_A_cyclization",
+        "participant_ids": [
+          "bisallene_1a",
+          "monoallene",
+          "rhodium_catalyst",
+          "toluene",
+          "product_4"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "unit": "°C",
+                "number": 80
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "syringe_pump_addition_time",
+            "fact": {
+              "value": {
+                "unit": "h",
+                "number": 10,
+                "qualifier": "approx",
+                "raw_text": "~10 h"
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Condition A: a solution of 1a was added by syringe pump to a 2 mL toluene solution of catalyst and 3a at 80 °C.",
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "unit": "%",
+            "number": 46
+          },
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_4"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_4"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The graphical abstract summarizes the same 1a + 3a to 4aa transformation and is linked as cross-page evidence rather than treated as a separate experiment.",
+        "evidence_ids": [
+          "doc_8e2572f72396a218:page1:text",
+          "doc_8e2572f72396a218:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The total post-addition reaction duration, atmosphere, workup, and purification are not stated in the main text.",
+        "The 1a and 4aa structures, including stereochemical details, remain unverified; the 3a SMILES is a tentative candidate from the legible drawing."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_8e2572f72396a218:table1_entry1_3b_4ab",
+    "document_id": "doc_8e2572f72396a218",
+    "source_reaction_id": "table1_entry1_3b_4ab",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_8e2572f72396a218:page2:text",
+      "doc_8e2572f72396a218:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "bisallene_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,5-bisallene 1a",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "unit": "mmol",
+                "number": 0.25
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "monoallene",
+        "role": "reactant",
+        "label": {
+          "value": "3b",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "phenylallene 3b",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=Cc1ccccc1",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "unit": "mmol",
+                "number": 0.625
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "rhodium_catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "trans-RhCl(CO)(PPh3)2",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "trans-chlorocarbonylbis(triphenylphosphine)rhodium(I)",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "unit": "mol%",
+                "number": 5
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "total_volume",
+            "fact": {
+              "value": {
+                "unit": "mL",
+                "number": 12
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "added_solution_volume",
+            "fact": {
+              "value": {
+                "unit": "mL",
+                "number": 10
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "receiving_solution_volume",
+            "fact": {
+              "value": {
+                "unit": "mL",
+                "number": 2
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_4",
+        "role": "product",
+        "label": {
+          "value": "4ab",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "byproduct_2a",
+        "role": "product",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "condition_B_cyclization",
+        "participant_ids": [
+          "bisallene_1a",
+          "monoallene",
+          "rhodium_catalyst",
+          "toluene",
+          "product_4",
+          "byproduct_2a"
+        ],
+        "conditions": [
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "unit": "h",
+                "number": 22
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "unit": "°C",
+                "number": 80
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "syringe_pump_addition_time",
+            "fact": {
+              "value": {
+                "unit": "h",
+                "number": 10,
+                "qualifier": "approx",
+                "raw_text": "~10 h"
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Condition B: a solution of 1a and the monoallene in 10 mL toluene was added by syringe pump to a 2 mL toluene solution of catalyst over ~10 h at 80 °C.",
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "unit": "%",
+            "number": 55
+          },
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_4"
+        ]
+      },
+      {
+        "name": "byproduct_2a_observation",
+        "fact": {
+          "value": "2a was contaminated with other uncharacterized mixtures",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "byproduct_2a"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The phenylallene 3b was described as freshly prepared.",
+        "evidence_ids": [
+          "doc_8e2572f72396a218:page2:text",
+          "doc_8e2572f72396a218:page2:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The structure of 4ab was confirmed by X-ray diffraction (Figure 1, left; CCDC 651338).",
+        "evidence_ids": [
+          "doc_8e2572f72396a218:page2:text",
+          "doc_8e2572f72396a218:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The table does not state the measurement basis for the product or byproduct yield.",
+        "Atmosphere, workup, and purification are not reported in the main text.",
+        "The complex 1a, 2a, and bicyclic product structures remain unverified; the monoallene SMILES is a tentative candidate from the legible structure/name."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_8e2572f72396a218:table1_entry2_3c_4ac",
+    "document_id": "doc_8e2572f72396a218",
+    "source_reaction_id": "table1_entry2_3c_4ac",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_8e2572f72396a218:page2:text",
+      "doc_8e2572f72396a218:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "bisallene_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,5-bisallene 1a",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "unit": "mmol",
+                "number": 0.25
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "monoallene",
+        "role": "reactant",
+        "label": {
+          "value": "3c",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N-Boc-protected buta-2,3-dienyl tosylamide 3c",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=CCN(S(=O)(=O)c1ccc(C)cc1)C(=O)OC(C)(C)C",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "unit": "mmol",
+                "number": 0.625
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "rhodium_catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "trans-RhCl(CO)(PPh3)2",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "trans-chlorocarbonylbis(triphenylphosphine)rhodium(I)",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "unit": "mol%",
+                "number": 5
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "total_volume",
+            "fact": {
+              "value": {
+                "unit": "mL",
+                "number": 12
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "receiving_solution_volume",
+            "fact": {
+              "value": {
+                "unit": "mL",
+                "number": 2
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_4",
+        "role": "product",
+        "label": {
+          "value": "4ac",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "byproduct_2a",
+        "role": "product",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "condition_A_cyclization",
+        "participant_ids": [
+          "bisallene_1a",
+          "monoallene",
+          "rhodium_catalyst",
+          "toluene",
+          "product_4",
+          "byproduct_2a"
+        ],
+        "conditions": [
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "unit": "h",
+                "number": 21
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "unit": "°C",
+                "number": 80
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "syringe_pump_addition_time",
+            "fact": {
+              "value": {
+                "unit": "h",
+                "number": 10,
+                "qualifier": "approx",
+                "raw_text": "~10 h"
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Condition A: a solution of 1a was added by syringe pump to a 2 mL toluene solution of catalyst and the monoallene over ~10 h at 80 °C.",
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "unit": "%",
+            "number": 55
+          },
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_4"
+        ]
+      },
+      {
+        "name": "byproduct_2a_observation",
+        "fact": {
+          "value": "2a was contaminated with other uncharacterized mixtures",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "byproduct_2a"
+        ]
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The table does not state the measurement basis for the product or byproduct yield.",
+        "Atmosphere, workup, and purification are not reported in the main text.",
+        "The complex 1a, 2a, and bicyclic product structures remain unverified; the monoallene SMILES is a tentative candidate from the legible structure/name."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_8e2572f72396a218:table1_entry3_3d_4ad",
+    "document_id": "doc_8e2572f72396a218",
+    "source_reaction_id": "table1_entry3_3d_4ad",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_8e2572f72396a218:page2:text",
+      "doc_8e2572f72396a218:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "bisallene_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,5-bisallene 1a",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "unit": "mmol",
+                "number": 0.25
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "monoallene",
+        "role": "reactant",
+        "label": {
+          "value": "3d",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N-Boc-protected penta-3,4-dienyl tosylamide 3d",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=CCCN(S(=O)(=O)c1ccc(C)cc1)C(=O)OC(C)(C)C",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "unit": "mmol",
+                "number": 0.625
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "rhodium_catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "trans-RhCl(CO)(PPh3)2",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "trans-chlorocarbonylbis(triphenylphosphine)rhodium(I)",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "unit": "mol%",
+                "number": 5
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "total_volume",
+            "fact": {
+              "value": {
+                "unit": "mL",
+                "number": 12
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "receiving_solution_volume",
+            "fact": {
+              "value": {
+                "unit": "mL",
+                "number": 2
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_4",
+        "role": "product",
+        "label": {
+          "value": "4ad",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "byproduct_2a",
+        "role": "product",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "condition_A_cyclization",
+        "participant_ids": [
+          "bisallene_1a",
+          "monoallene",
+          "rhodium_catalyst",
+          "toluene",
+          "product_4",
+          "byproduct_2a"
+        ],
+        "conditions": [
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "unit": "h",
+                "number": 24
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "unit": "°C",
+                "number": 80
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "syringe_pump_addition_time",
+            "fact": {
+              "value": {
+                "unit": "h",
+                "number": 10,
+                "qualifier": "approx",
+                "raw_text": "~10 h"
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Condition A: a solution of 1a was added by syringe pump to a 2 mL toluene solution of catalyst and the monoallene over ~10 h at 80 °C.",
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "unit": "%",
+            "number": 50
+          },
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_4"
+        ]
+      },
+      {
+        "name": "byproduct_2a_observation",
+        "fact": {
+          "value": "2a was contaminated with other uncharacterized mixtures",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "byproduct_2a"
+        ]
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The table does not state the measurement basis for the product or byproduct yield.",
+        "Atmosphere, workup, and purification are not reported in the main text.",
+        "The complex 1a, 2a, and bicyclic product structures remain unverified; the monoallene SMILES is a tentative candidate from the legible structure/name."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_8e2572f72396a218:table1_entry4_3e_4ae",
+    "document_id": "doc_8e2572f72396a218",
+    "source_reaction_id": "table1_entry4_3e_4ae",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_8e2572f72396a218:page2:text",
+      "doc_8e2572f72396a218:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "bisallene_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,5-bisallene 1a",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "unit": "mmol",
+                "number": 0.25
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "monoallene",
+        "role": "reactant",
+        "label": {
+          "value": "3e",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "penta-3,4-dien-1-ol 3e",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "OCCC=C=C",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "unit": "mmol",
+                "number": 0.625
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "rhodium_catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "trans-RhCl(CO)(PPh3)2",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "trans-chlorocarbonylbis(triphenylphosphine)rhodium(I)",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "unit": "mol%",
+                "number": 5
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "total_volume",
+            "fact": {
+              "value": {
+                "unit": "mL",
+                "number": 12
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "receiving_solution_volume",
+            "fact": {
+              "value": {
+                "unit": "mL",
+                "number": 2
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_4",
+        "role": "product",
+        "label": {
+          "value": "4ae",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "byproduct_2a",
+        "role": "product",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "condition_A_cyclization",
+        "participant_ids": [
+          "bisallene_1a",
+          "monoallene",
+          "rhodium_catalyst",
+          "toluene",
+          "product_4",
+          "byproduct_2a"
+        ],
+        "conditions": [
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "unit": "h",
+                "number": 22
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "unit": "°C",
+                "number": 80
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "syringe_pump_addition_time",
+            "fact": {
+              "value": {
+                "unit": "h",
+                "number": 10,
+                "qualifier": "approx",
+                "raw_text": "~10 h"
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Condition A: a solution of 1a was added by syringe pump to a 2 mL toluene solution of catalyst and the monoallene over ~10 h at 80 °C.",
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "unit": "%",
+            "number": 54
+          },
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_4"
+        ]
+      },
+      {
+        "name": "byproduct_2a_yield",
+        "fact": {
+          "value": {
+            "unit": "%",
+            "number": 18,
+            "qualifier": "lt",
+            "raw_text": "less than 18%"
+          },
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "byproduct_2a"
+        ]
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The table does not state the measurement basis for the product or byproduct yield.",
+        "Atmosphere, workup, and purification are not reported in the main text.",
+        "The complex 1a, 2a, and bicyclic product structures remain unverified; the monoallene SMILES is a tentative candidate from the legible structure/name."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_8e2572f72396a218:table1_entry5_3f_4af",
+    "document_id": "doc_8e2572f72396a218",
+    "source_reaction_id": "table1_entry5_3f_4af",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_8e2572f72396a218:page2:text",
+      "doc_8e2572f72396a218:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "bisallene_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,5-bisallene 1a",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "unit": "mmol",
+                "number": 0.25
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "monoallene",
+        "role": "reactant",
+        "label": {
+          "value": "3f",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "buta-2,3-dienyl phthalimide 3f",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=CCN1C(=O)c2ccccc2C1=O",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "unit": "mmol",
+                "number": 0.625
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "rhodium_catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "trans-RhCl(CO)(PPh3)2",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "trans-chlorocarbonylbis(triphenylphosphine)rhodium(I)",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "unit": "mol%",
+                "number": 5
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "total_volume",
+            "fact": {
+              "value": {
+                "unit": "mL",
+                "number": 12
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "receiving_solution_volume",
+            "fact": {
+              "value": {
+                "unit": "mL",
+                "number": 2
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_4",
+        "role": "product",
+        "label": {
+          "value": "4af",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "byproduct_2a",
+        "role": "product",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "condition_A_cyclization",
+        "participant_ids": [
+          "bisallene_1a",
+          "monoallene",
+          "rhodium_catalyst",
+          "toluene",
+          "product_4",
+          "byproduct_2a"
+        ],
+        "conditions": [
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "unit": "h",
+                "number": 24
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "unit": "°C",
+                "number": 80
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "syringe_pump_addition_time",
+            "fact": {
+              "value": {
+                "unit": "h",
+                "number": 10,
+                "qualifier": "approx",
+                "raw_text": "~10 h"
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Condition A: a solution of 1a was added by syringe pump to a 2 mL toluene solution of catalyst and the monoallene over ~10 h at 80 °C.",
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "unit": "%",
+            "number": 56
+          },
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_4"
+        ]
+      },
+      {
+        "name": "byproduct_2a_yield",
+        "fact": {
+          "value": {
+            "unit": "%",
+            "number": 18,
+            "qualifier": "lt",
+            "raw_text": "less than 18%"
+          },
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "byproduct_2a"
+        ]
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The table does not state the measurement basis for the product or byproduct yield.",
+        "Atmosphere, workup, and purification are not reported in the main text.",
+        "The complex 1a, 2a, and bicyclic product structures remain unverified; the monoallene SMILES is a tentative candidate from the legible structure/name."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_8e2572f72396a218:table1_entry6_3g_4ag",
+    "document_id": "doc_8e2572f72396a218",
+    "source_reaction_id": "table1_entry6_3g_4ag",
+    "record_kind": "substrate_scope_entry",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_8e2572f72396a218:page2:text",
+      "doc_8e2572f72396a218:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "bisallene_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,5-bisallene 1a",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "unit": "mmol",
+                "number": 0.25
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "monoallene",
+        "role": "reactant",
+        "label": {
+          "value": "3g",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "penta-3,4-dienyl phthalimide 3g",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=CCCN1C(=O)c2ccccc2C1=O",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "unit": "mmol",
+                "number": 0.625
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "rhodium_catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "trans-RhCl(CO)(PPh3)2",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "trans-chlorocarbonylbis(triphenylphosphine)rhodium(I)",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "unit": "mol%",
+                "number": 5
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "total_volume",
+            "fact": {
+              "value": {
+                "unit": "mL",
+                "number": 12
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "receiving_solution_volume",
+            "fact": {
+              "value": {
+                "unit": "mL",
+                "number": 2
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_4",
+        "role": "product",
+        "label": {
+          "value": "4ag",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "byproduct_2a",
+        "role": "product",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "condition_A_cyclization",
+        "participant_ids": [
+          "bisallene_1a",
+          "monoallene",
+          "rhodium_catalyst",
+          "toluene",
+          "product_4",
+          "byproduct_2a"
+        ],
+        "conditions": [
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "unit": "h",
+                "number": 24
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "unit": "°C",
+                "number": 80
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "syringe_pump_addition_time",
+            "fact": {
+              "value": {
+                "unit": "h",
+                "number": 10,
+                "qualifier": "approx",
+                "raw_text": "~10 h"
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Condition A: a solution of 1a was added by syringe pump to a 2 mL toluene solution of catalyst and the monoallene over ~10 h at 80 °C.",
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "unit": "%",
+            "number": 50
+          },
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_4"
+        ]
+      },
+      {
+        "name": "byproduct_2a_observation",
+        "fact": {
+          "value": "2a was contaminated with other uncharacterized mixtures",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "byproduct_2a"
+        ]
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The table does not state the measurement basis for the product or byproduct yield.",
+        "Atmosphere, workup, and purification are not reported in the main text.",
+        "The complex 1a, 2a, and bicyclic product structures remain unverified; the monoallene SMILES is a tentative candidate from the legible structure/name."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_8e2572f72396a218:scheme1_4ab_nphenylmaleimide_to_5ab",
+    "document_id": "doc_8e2572f72396a218",
+    "source_reaction_id": "scheme1_4ab_nphenylmaleimide_to_5ab",
+    "record_kind": "reported_experiment",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_8e2572f72396a218:page2:text",
+      "doc_8e2572f72396a218:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "diene_4ab",
+        "role": "reactant",
+        "label": {
+          "value": "4ab",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "maleimide",
+        "role": "reactant",
+        "label": {
+          "value": "N-phenyl maleimide",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N-phenylmaleimide",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O=C1C=CC(=O)N1c1ccccc1",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "tetracycle_5ab",
+        "role": "product",
+        "label": {
+          "value": "(±)-5ab",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "intermolecular_diels_alder",
+        "participant_ids": [
+          "diene_4ab",
+          "maleimide",
+          "toluene",
+          "tetracycle_5ab"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "reflux",
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "unit": "%",
+            "number": 91
+          },
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "tetracycle_5ab"
+        ]
+      },
+      {
+        "name": "diastereomeric_ratio",
+        "fact": {
+          "value": "higher than 6.3:1",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "tetracycle_5ab"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The structure of tetracyclic product 5ab was confirmed by X-ray diffraction (Figure 1, right; CCDC 651339).",
+        "evidence_ids": [
+          "doc_8e2572f72396a218:page2:text",
+          "doc_8e2572f72396a218:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reactant quantities, solvent volume, numerical reflux temperature, duration, atmosphere, workup, purification, and yield basis are not reported.",
+        "The 4ab and 5ab connectivity and relative stereochemistry remain unverified."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_8e2572f72396a218:scheme1_4ag_nethylmaleimide_to_5ag",
+    "document_id": "doc_8e2572f72396a218",
+    "source_reaction_id": "scheme1_4ag_nethylmaleimide_to_5ag",
+    "record_kind": "reported_experiment",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_8e2572f72396a218:page2:text",
+      "doc_8e2572f72396a218:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "diene_4ag",
+        "role": "reactant",
+        "label": {
+          "value": "4ag",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "maleimide",
+        "role": "reactant",
+        "label": {
+          "value": "N-ethyl maleimide",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N-ethylmaleimide",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCN1C(=O)C=CC1=O",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "tetracycle_5ag",
+        "role": "product",
+        "label": {
+          "value": "(±)-5ag",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "intermolecular_diels_alder",
+        "participant_ids": [
+          "diene_4ag",
+          "maleimide",
+          "toluene",
+          "tetracycle_5ag"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "reflux",
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page2:text",
+                "doc_8e2572f72396a218:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "unit": "%",
+            "number": 81
+          },
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "tetracycle_5ag"
+        ]
+      },
+      {
+        "name": "diastereomeric_ratio",
+        "fact": {
+          "value": "≥93.5:6.5",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page2:text",
+            "doc_8e2572f72396a218:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "tetracycle_5ag"
+        ]
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reactant quantities, solvent volume, numerical reflux temperature, duration, atmosphere, workup, purification, and yield basis are not reported.",
+        "The 4ag and 5ag connectivity and relative stereochemistry remain unverified."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_8e2572f72396a218:scheme2_4aa_to_tetracycle_6",
+    "document_id": "doc_8e2572f72396a218",
+    "source_reaction_id": "scheme2_4aa_to_tetracycle_6",
+    "record_kind": "reported_experiment",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_8e2572f72396a218:page1:text",
+      "doc_8e2572f72396a218:page1:image",
+      "doc_8e2572f72396a218:page3:text",
+      "doc_8e2572f72396a218:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "diene_4aa",
+        "role": "reactant",
+        "label": {
+          "value": "4aa",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page1:text",
+            "doc_8e2572f72396a218:page1:image",
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "bromocrotonate",
+        "role": "reactant",
+        "label": {
+          "value": "ethyl 4-bromocrotonate",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl 4-bromobut-2-enoate",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCOC(=O)C=CCBr",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "potassium_carbonate",
+        "role": "reagent",
+        "label": {
+          "value": "K2CO3",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "potassium carbonate",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[K+].[K+].[O-]C([O-])=O",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "tbab",
+        "role": "reagent",
+        "label": {
+          "value": "TBAB",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrabutylammonium bromide",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCCC[N+](CCCC)(CCCC)CCCC.[Br-]",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "dmf",
+        "role": "solvent",
+        "label": {
+          "value": "DMF",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N,N-dimethylformamide",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CN(C)C=O",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "dichloromethane",
+        "role": "solvent",
+        "label": {
+          "value": "CH2Cl2",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "dichloromethane",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "ClCCl",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "petroleum_ether",
+        "role": "solvent",
+        "label": {
+          "value": "petroleum ether",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "petroleum ether",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "tetracycle_6",
+        "role": "product",
+        "label": {
+          "value": "(±)-6",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page1:text",
+            "doc_8e2572f72396a218:page1:image",
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "allylation_intramolecular_diels_alder",
+        "participant_ids": [
+          "diene_4aa",
+          "bromocrotonate",
+          "potassium_carbonate",
+          "tbab",
+          "dmf",
+          "tetracycle_6"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "unit": "°C",
+                "number": 35
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page3:text",
+                "doc_8e2572f72396a218:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Allylation was followed immediately by cyclic Diels-Alder reaction.",
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page3:text",
+                "doc_8e2572f72396a218:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "major_diastereomer_recrystallization",
+        "participant_ids": [
+          "tetracycle_6",
+          "dichloromethane",
+          "petroleum_ether"
+        ],
+        "conditions": [
+          {
+            "name": "purification",
+            "fact": {
+              "value": "recrystallization from CH2Cl2 and petroleum ether",
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page3:text",
+                "doc_8e2572f72396a218:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "unit": "%",
+            "number": 85
+          },
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "tetracycle_6"
+        ]
+      },
+      {
+        "name": "diastereomeric_ratio",
+        "fact": {
+          "value": "≥10:1",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "tetracycle_6"
+        ]
+      },
+      {
+        "name": "ring_junction_selectivity",
+        "fact": {
+          "value": "C/D ring junction of the major diastereomer is trans",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "tetracycle_6"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The graphical abstract summarizes formation of 6 from 4aa; it is linked to this same experiment rather than counted separately.",
+        "evidence_ids": [
+          "doc_8e2572f72396a218:page1:text",
+          "doc_8e2572f72396a218:page1:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The major diastereomer was confirmed by X-ray diffraction (Figure 2, left; CCDC 651340).",
+        "evidence_ids": [
+          "doc_8e2572f72396a218:page3:text",
+          "doc_8e2572f72396a218:page3:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reactant/reagent quantities, solvent volume, duration, atmosphere, workup, and yield basis are not reported.",
+        "The alkene geometry of ethyl 4-bromocrotonate and the connectivity/relative stereochemistry of 4aa and 6 remain unverified."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_8e2572f72396a218:scheme3_stage1_4aa_to_7",
+    "document_id": "doc_8e2572f72396a218",
+    "source_reaction_id": "scheme3_stage1_4aa_to_7",
+    "record_kind": "reported_experiment",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_8e2572f72396a218:page3:text",
+      "doc_8e2572f72396a218:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "diene_4aa",
+        "role": "reactant",
+        "label": {
+          "value": "4aa",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "propargyl_bromide",
+        "role": "reactant",
+        "label": {
+          "value": "propargyl bromide",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "3-bromoprop-1-yne",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C#CCBr",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "potassium_carbonate",
+        "role": "reagent",
+        "label": {
+          "value": "K2CO3",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "potassium carbonate",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[K+].[K+].[O-]C([O-])=O",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "tbab",
+        "role": "reagent",
+        "label": {
+          "value": "TBAB",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrabutylammonium bromide",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCCC[N+](CCCC)(CCCC)CCCC.[Br-]",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "dmf",
+        "role": "solvent",
+        "label": {
+          "value": "DMF",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N,N-dimethylformamide",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CN(C)C=O",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "alkylation_product_7",
+        "role": "product",
+        "label": {
+          "value": "7",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "propargyl_alkylation",
+        "participant_ids": [
+          "diene_4aa",
+          "propargyl_bromide",
+          "potassium_carbonate",
+          "tbab",
+          "dmf",
+          "alkylation_product_7"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page3:text",
+                "doc_8e2572f72396a218:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "unit": "%",
+            "number": 99,
+            "qualifier": "gt",
+            "raw_text": ">99%"
+          },
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "alkylation_product_7"
+        ]
+      },
+      {
+        "name": "cycloaddition_observation",
+        "fact": {
+          "value": "No further Diels-Alder reaction occurred in this stage.",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "alkylation_product_7"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The prose describes the yield as almost quantitative; Scheme 3 prints >99%.",
+        "evidence_ids": [
+          "doc_8e2572f72396a218:page3:text",
+          "doc_8e2572f72396a218:page3:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reactant/reagent quantities, solvent volume, time, atmosphere, workup, purification, and yield basis are not reported.",
+        "The 4aa and 7 structures remain unverified."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_8e2572f72396a218:scheme3_stage2_7_to_8",
+    "document_id": "doc_8e2572f72396a218",
+    "source_reaction_id": "scheme3_stage2_7_to_8",
+    "record_kind": "reported_experiment",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_8e2572f72396a218:page3:text",
+      "doc_8e2572f72396a218:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "alkylation_product_7",
+        "role": "reactant",
+        "label": {
+          "value": "7",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "rhodium_catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "trans-RhCl(CO)(PPh3)2",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "trans-chlorocarbonylbis(triphenylphosphine)rhodium(I)",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "unit": "mol%",
+                "number": 5
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page3:text",
+                "doc_8e2572f72396a218:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "diels_alder_product_8",
+        "role": "product",
+        "label": {
+          "value": "8",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "rhodium_catalyzed_intramolecular_diels_alder",
+        "participant_ids": [
+          "alkylation_product_7",
+          "rhodium_catalyst",
+          "toluene",
+          "diels_alder_product_8"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "reflux",
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page3:text",
+                "doc_8e2572f72396a218:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "unit": "%",
+            "number": 98
+          },
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "diels_alder_product_8"
+        ]
+      },
+      {
+        "name": "diastereomeric_outcome",
+        "fact": {
+          "value": "mixture of diastereomeric products",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "diels_alder_product_8"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The paper notes that ring C in compound 8 may become somewhat aromatized in solvent if exposed to air.",
+        "evidence_ids": [
+          "doc_8e2572f72396a218:page3:text",
+          "doc_8e2572f72396a218:page3:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Substrate amount, solvent volume, numerical reflux temperature, time, atmosphere, workup, purification, yield basis, and diastereomer ratio are not reported.",
+        "The 7 and 8 structures and diastereomer assignments remain unverified."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_8e2572f72396a218:scheme3_stage3_8_to_9",
+    "document_id": "doc_8e2572f72396a218",
+    "source_reaction_id": "scheme3_stage3_8_to_9",
+    "record_kind": "reported_experiment",
+    "status": "needs_review",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_8e2572f72396a218:page1:text",
+      "doc_8e2572f72396a218:page1:image",
+      "doc_8e2572f72396a218:page3:text",
+      "doc_8e2572f72396a218:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "diels_alder_product_8",
+        "role": "reactant",
+        "label": {
+          "value": "8",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ddq",
+        "role": "reagent",
+        "label": {
+          "value": "DDQ",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,3-dichloro-5,6-dicyano-1,4-benzoquinone",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "N#CC1=C(Cl)C(=O)C(Cl)=C(C#N)C1=O",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "unit": "equiv",
+                "number": 3
+              },
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page3:text",
+                "doc_8e2572f72396a218:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "aromatic_tetracycle_9",
+        "role": "product",
+        "label": {
+          "value": "9",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page1:text",
+            "doc_8e2572f72396a218:page1:image",
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "ddq_aromatization_desulfonylation",
+        "participant_ids": [
+          "diels_alder_product_8",
+          "ddq",
+          "toluene",
+          "aromatic_tetracycle_9"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "reflux",
+              "evidence_ids": [
+                "doc_8e2572f72396a218:page3:text",
+                "doc_8e2572f72396a218:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "unit": "%",
+            "minimum": 55,
+            "maximum": 85,
+            "raw_text": "55-85%"
+          },
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "aromatic_tetracycle_9"
+        ]
+      },
+      {
+        "name": "reaction_outcome",
+        "fact": {
+          "value": "aromatization formed two aromatic six-membered rings, with desulfonylation accompanying dehydrogenation",
+          "evidence_ids": [
+            "doc_8e2572f72396a218:page3:text",
+            "doc_8e2572f72396a218:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "aromatic_tetracycle_9"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The graphical abstract summarizes formation of 9 from 4aa; the intervening Scheme 3 stages remain separate experiment records.",
+        "evidence_ids": [
+          "doc_8e2572f72396a218:page1:text",
+          "doc_8e2572f72396a218:page1:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The structure of 9 was confirmed by X-ray diffraction (Figure 2, right; CCDC 651337).",
+        "evidence_ids": [
+          "doc_8e2572f72396a218:page3:text",
+          "doc_8e2572f72396a218:page3:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "model",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Substrate amount, solvent volume, numerical reflux temperature, time, atmosphere, workup, purification, and yield basis are not reported.",
+        "The reason for the 55-85% yield range is not specified in the main text.",
+        "The 8 and 9 structures remain unverified."
+      ]
+    }
+  }
+]

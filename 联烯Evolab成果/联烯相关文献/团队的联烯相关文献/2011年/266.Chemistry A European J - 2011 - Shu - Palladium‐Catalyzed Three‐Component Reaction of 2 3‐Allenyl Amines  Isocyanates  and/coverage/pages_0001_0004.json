@@ -1,0 +1,215 @@
+{
+  "document_id": "doc_67d18eb52e5c651f",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, introduction, and lower-left Scheme 1",
+          "finding": "Scheme 1 shows example biologically active imidazolidinones and the prose cites prior syntheses; neither is a new experiment of this paper, so no reaction record was created for this region.",
+          "evidence_ids": [
+            "doc_67d18eb52e5c651f:page1:image",
+            "doc_67d18eb52e5c651f:page1:text"
+          ]
+        },
+        {
+          "region": "lower-right opening reaction discussion",
+          "finding": "The first THF experiment (72%, 22 h) and the CH3CN standard experiment (96%) corroborate Table 1 entries on page 2; the mechanistic challenge discussion corroborates Scheme 2 without constituting a separate batch.",
+          "evidence_ids": [
+            "doc_67d18eb52e5c651f:page1:image",
+            "doc_67d18eb52e5c651f:page1:text",
+            "doc_67d18eb52e5c651f:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_67d18eb52e5c651f:table1_entry1",
+        "doc_67d18eb52e5c651f:standard_4a",
+        "doc_67d18eb52e5c651f:scheme2_proposed_mechanism"
+      ],
+      "unresolved": [
+        "The article states that supporting information is available, but no SI file is explicitly associated in this dataset.",
+        "Scheme 1 structures are biological examples, not source experiments, and were not structure-extracted here."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left Scheme 2",
+          "finding": "Proposed mechanistic network through syn-M1/syn-M2 and anti-M1/anti-M2 was classified as one mechanism record; depicted alternative products were not assigned experimental yields.",
+          "evidence_ids": [
+            "doc_67d18eb52e5c651f:page2:image",
+            "doc_67d18eb52e5c651f:page2:text",
+            "doc_67d18eb52e5c651f:page1:text"
+          ]
+        },
+        {
+          "region": "middle-left Table 1 and footnotes",
+          "finding": "Nine solvent/catalyst optimization rows were inspected individually. Entry 6 is represented by the merged standard_4a record; entry 7 retains the Pd2(dba)3·CHCl3/PPh3 footnote override.",
+          "evidence_ids": [
+            "doc_67d18eb52e5c651f:page2:image",
+            "doc_67d18eb52e5c651f:page2:text"
+          ]
+        },
+        {
+          "region": "upper-right Table 2 and footnotes",
+          "finding": "Nine base/stoichiometry optimization rows were inspected individually. Entry 4 duplicates the standard 96% experiment and is merged into standard_4a; all other base and n1:n2:n3 changes remain independent records.",
+          "evidence_ids": [
+            "doc_67d18eb52e5c651f:page2:image",
+            "doc_67d18eb52e5c651f:page2:text"
+          ]
+        },
+        {
+          "region": "lower-right Table 3 and footnotes",
+          "finding": "Seventeen organic-halide scope rows were inspected individually. Entry 1 duplicates the standard 4a experiment and is merged; entries 2–17 are independent scope records with isolated yields and row-specific times.",
+          "evidence_ids": [
+            "doc_67d18eb52e5c651f:page2:image",
+            "doc_67d18eb52e5c651f:page2:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_67d18eb52e5c651f:scheme2_proposed_mechanism",
+        "doc_67d18eb52e5c651f:standard_4a",
+        "doc_67d18eb52e5c651f:table1_entry1",
+        "doc_67d18eb52e5c651f:table1_entry2",
+        "doc_67d18eb52e5c651f:table1_entry3",
+        "doc_67d18eb52e5c651f:table1_entry4",
+        "doc_67d18eb52e5c651f:table1_entry5",
+        "doc_67d18eb52e5c651f:table1_entry7",
+        "doc_67d18eb52e5c651f:table1_entry8",
+        "doc_67d18eb52e5c651f:table1_entry9",
+        "doc_67d18eb52e5c651f:table2_entry1",
+        "doc_67d18eb52e5c651f:table2_entry2",
+        "doc_67d18eb52e5c651f:table2_entry3",
+        "doc_67d18eb52e5c651f:table2_entry5",
+        "doc_67d18eb52e5c651f:table2_entry6",
+        "doc_67d18eb52e5c651f:table2_entry7",
+        "doc_67d18eb52e5c651f:table2_entry8",
+        "doc_67d18eb52e5c651f:table2_entry9",
+        "doc_67d18eb52e5c651f:table3_entry2",
+        "doc_67d18eb52e5c651f:table3_entry3",
+        "doc_67d18eb52e5c651f:table3_entry4",
+        "doc_67d18eb52e5c651f:table3_entry5",
+        "doc_67d18eb52e5c651f:table3_entry6",
+        "doc_67d18eb52e5c651f:table3_entry7",
+        "doc_67d18eb52e5c651f:table3_entry8",
+        "doc_67d18eb52e5c651f:table3_entry9",
+        "doc_67d18eb52e5c651f:table3_entry10",
+        "doc_67d18eb52e5c651f:table3_entry11",
+        "doc_67d18eb52e5c651f:table3_entry12",
+        "doc_67d18eb52e5c651f:table3_entry13",
+        "doc_67d18eb52e5c651f:table3_entry14",
+        "doc_67d18eb52e5c651f:table3_entry15",
+        "doc_67d18eb52e5c651f:table3_entry16",
+        "doc_67d18eb52e5c651f:table3_entry17"
+      ],
+      "unresolved": [
+        "Most table rows omit atmosphere, workup, purification, and exact batch masses; these details were not inferred.",
+        "The condensed source notation for Table 3 entry 3 (3c) is not expanded to a definitive connectivity or SMILES.",
+        "Scope-product structures remain machine-unverified even when labels and R groups are legible."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left continuation of Table 3 discussion",
+          "finding": "Narrative confirms 4k at 64%, 4q at 63%, and successful alkenyl-iodide rows 15–16; these statements corroborate the corresponding Table 3 records rather than create duplicates.",
+          "evidence_ids": [
+            "doc_67d18eb52e5c651f:page3:image",
+            "doc_67d18eb52e5c651f:page3:text",
+            "doc_67d18eb52e5c651f:page2:image"
+          ]
+        },
+        {
+          "region": "middle-left Scheme 3",
+          "finding": "Six distinct R1/R2/R3 substrate combinations (4r–4w) were extracted as separate scope records under the shared Pd(PPh3)4/K2CO3/CH3CN/70 °C header.",
+          "evidence_ids": [
+            "doc_67d18eb52e5c651f:page3:image",
+            "doc_67d18eb52e5c651f:page3:text"
+          ]
+        },
+        {
+          "region": "lower-left Equation (1)",
+          "finding": "Free 2,3-allenylamine hydrochloride 1d with 2a and 3a affords 4x in 54% at 70 °C for 12 h with 3 equiv K2CO3; extracted as a separate scope record.",
+          "evidence_ids": [
+            "doc_67d18eb52e5c651f:page3:image",
+            "doc_67d18eb52e5c651f:page3:text"
+          ]
+        },
+        {
+          "region": "right-column typical procedure for 4a",
+          "finding": "Detailed charges, argon handling, TLC endpoint, evaporation, chromatography, 72 mg product, and 96% isolated yield were merged into standard_4a rather than duplicated.",
+          "evidence_ids": [
+            "doc_67d18eb52e5c651f:page3:image",
+            "doc_67d18eb52e5c651f:page3:text",
+            "doc_67d18eb52e5c651f:page2:image"
+          ]
+        },
+        {
+          "region": "upper-right Figure 1",
+          "finding": "ORTEP image is characterization evidence for 4r, not an independent synthesis; it is linked to the Scheme 3 4r record.",
+          "evidence_ids": [
+            "doc_67d18eb52e5c651f:page3:image",
+            "doc_67d18eb52e5c651f:page3:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_67d18eb52e5c651f:standard_4a",
+        "doc_67d18eb52e5c651f:table3_entry11",
+        "doc_67d18eb52e5c651f:table3_entry15",
+        "doc_67d18eb52e5c651f:table3_entry16",
+        "doc_67d18eb52e5c651f:table3_entry17",
+        "doc_67d18eb52e5c651f:scheme3_4r",
+        "doc_67d18eb52e5c651f:scheme3_4s",
+        "doc_67d18eb52e5c651f:scheme3_4t",
+        "doc_67d18eb52e5c651f:scheme3_4u",
+        "doc_67d18eb52e5c651f:scheme3_4v",
+        "doc_67d18eb52e5c651f:scheme3_4w",
+        "doc_67d18eb52e5c651f:equation1_4x"
+      ],
+      "unresolved": [
+        "Scheme 3 does not state reaction times, substrate scales, solvent volumes, or yield measurement bases.",
+        "The detailed 4a procedure reports 3a as 0.28 mmol while table footnotes round it to 0.30 mmol; both values are retained.",
+        "Spectroscopic characterization was not converted into additional reaction batches."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "references [1]–[12] across both columns",
+          "finding": "This region contains cited prior literature and reviews only; it does not report new experimental batches from the present paper and generated no new records.",
+          "evidence_ids": [
+            "doc_67d18eb52e5c651f:page4:image",
+            "doc_67d18eb52e5c651f:page4:text"
+          ]
+        },
+        {
+          "region": "lower-right reference [13] and publication metadata",
+          "finding": "Crystal data and CCDC-778290 characterize product 4r; this evidence is linked to the existing Scheme 3 4r record and is not treated as a reaction experiment.",
+          "evidence_ids": [
+            "doc_67d18eb52e5c651f:page4:image",
+            "doc_67d18eb52e5c651f:page4:text",
+            "doc_67d18eb52e5c651f:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_67d18eb52e5c651f:scheme3_4r"
+      ],
+      "unresolved": [
+        "No new reaction conditions or synthetic batches are present on this page.",
+        "Crystal structure confirmation does not verify every machine-proposed SMILES or every scope-product structure."
+      ]
+    }
+  ]
+}

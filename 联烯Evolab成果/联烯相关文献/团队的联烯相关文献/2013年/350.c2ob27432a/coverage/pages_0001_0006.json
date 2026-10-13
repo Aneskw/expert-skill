@@ -1,0 +1,274 @@
+{
+  "document_id": "doc_6fa2317e77697e25",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 1 full rendered page",
+          "finding": "RSC Accepted Manuscript cover and publisher boilerplate only. No reaction arrow, table, experimental condition, current-paper outcome, or chemistry figure appears on this original PDF page.",
+          "evidence_ids": [
+            "doc_6fa2317e77697e25:page1:text",
+            "doc_6fa2317e77697e25:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "None for reaction extraction; this page is a publisher cover."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 2 title, abstract, author block, and ESI footnote",
+          "finding": "Article identity and aggregate Au-catalyzed route claim were reviewed. The ESI placeholder/availability text does not establish an associated SI file; source_mapping.json keeps SI association unestablished and no SI facts were used.",
+          "evidence_ids": [
+            "doc_6fa2317e77697e25:page2:text",
+            "doc_6fa2317e77697e25:page2:image"
+          ]
+        },
+        {
+          "region": "page 2 Figure 1 natural carbazole structures",
+          "finding": "Structures of isomukonidine, clausine L, mukonidine, glycosinine, mukonal, and clausine V are natural-product identity/context, not reaction arrows; no experiment was invented from the figure.",
+          "evidence_ids": [
+            "doc_6fa2317e77697e25:page2:text",
+            "doc_6fa2317e77697e25:page2:image"
+          ]
+        },
+        {
+          "region": "page 2 lower-right quantified prior-work paragraph",
+          "finding": "The Knölker p-chloranil oxidation was classified as a literature example with 22% mukonidine and 21% undesired biaryl product. Other cited syntheses are literature context and were not misclassified as current-paper experiments.",
+          "evidence_ids": [
+            "doc_6fa2317e77697e25:page2:text",
+            "doc_6fa2317e77697e25:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_6fa2317e77697e25:intro_knolker_p_chloranil_oxidation"
+      ],
+      "unresolved": [
+        "The cited oxidation omits scale, conditions, workup, yield basis, and the undesired biaryl structure.",
+        "The later cited multi-step routes and reagent-equivalent discussion do not map each quantity to a uniquely restated experiment on this page."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 3 upper-left continuation of cited prior work",
+          "finding": "Cadogan and Suzuki–Miyaura/Cadogan routes and the authors' earlier Pt/Au methods are cited literature/background; no current-paper record was created from these summaries.",
+          "evidence_ids": [
+            "doc_6fa2317e77697e25:page3:text",
+            "doc_6fa2317e77697e25:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 center-left Scheme 1",
+          "finding": "Generic retrosynthetic analysis with R1/R2/R3 groups was classified as general_scheme, not as a preparative experiment.",
+          "evidence_ids": [
+            "doc_6fa2317e77697e25:page3:text",
+            "doc_6fa2317e77697e25:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 upper-right Scheme 2 and adjacent narrative",
+          "finding": "Nine distinct arrows/transformations in the 1a route were mapped to the section records for crude 2a, 3a, 4a, 5a, isomukonidine 6a, clausine L 7a, mukonidine 8a, glycosinine 9a, and mukonal 10a. Overall route yields were retained as narrative context rather than new experiments.",
+          "evidence_ids": [
+            "doc_6fa2317e77697e25:page3:text",
+            "doc_6fa2317e77697e25:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 lower-right Scheme 3",
+          "finding": "Three distinct arrows in the 1b route were mapped to crude 2b, 3b, and clausine V 5b. The 74% 1b-to-3b yield spans the crude 2b stage; the 83% 3b-to-5b arrow remains a separate experiment.",
+          "evidence_ids": [
+            "doc_6fa2317e77697e25:page3:text",
+            "doc_6fa2317e77697e25:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_6fa2317e77697e25:scheme1_retrosynthetic_analysis",
+        "doc_6fa2317e77697e25:section1_crude_2a",
+        "doc_6fa2317e77697e25:section2_3a",
+        "doc_6fa2317e77697e25:section3_crude_2b",
+        "doc_6fa2317e77697e25:section4_3b",
+        "doc_6fa2317e77697e25:section5_4a",
+        "doc_6fa2317e77697e25:section6_5a",
+        "doc_6fa2317e77697e25:section7_isomukonidine_6a",
+        "doc_6fa2317e77697e25:section8_clausine_L_7a",
+        "doc_6fa2317e77697e25:section9_mukonidine_8a",
+        "doc_6fa2317e77697e25:section10_glycosinine_9a",
+        "doc_6fa2317e77697e25:section11_mukonal_10a",
+        "doc_6fa2317e77697e25:section12_clausine_V_5b"
+      ],
+      "unresolved": [
+        "Scheme 3 does not print the reaction time, quantities, workup, isolated mass, or yield basis for 3b→5b.",
+        "Candidate structures remain machine-unverified."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 4 acknowledgements",
+          "finding": "Nan Wang is thanked for reproducing 9a and 10a. These statements were linked to the existing glycosinine and mukonal records and do not create duplicate experiments because no separate conditions or outcomes are given.",
+          "evidence_ids": [
+            "doc_6fa2317e77697e25:page4:text",
+            "doc_6fa2317e77697e25:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 General information",
+          "finding": "Shared analytical instruments, solvent drying, and commercial-source statements were reviewed as materials context; they are not independent reactions.",
+          "evidence_ids": [
+            "doc_6fa2317e77697e25:page4:text",
+            "doc_6fa2317e77697e25:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 sections 1–2 and reaction drawings",
+          "finding": "The 1a→crude 2a and crude 2a→3a arrows were retained separately. Exact additions, temperatures, times, workup and chromatography were structured; the 77%/443.2 mg outcome is explicitly a combined 1a-to-3a isolated yield.",
+          "evidence_ids": [
+            "doc_6fa2317e77697e25:page4:text",
+            "doc_6fa2317e77697e25:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 sections 3–4 and reaction drawings",
+          "finding": "The analogous 1b→crude 2b and crude 2b→3b arrows were retained separately. Procedure-I/II inheritance and the Scheme-3 timing were reconciled; the 74%/943.7 mg outcome spans 1b to 3b.",
+          "evidence_ids": [
+            "doc_6fa2317e77697e25:page4:text",
+            "doc_6fa2317e77697e25:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_6fa2317e77697e25:section1_crude_2a",
+        "doc_6fa2317e77697e25:section2_3a",
+        "doc_6fa2317e77697e25:section3_crude_2b",
+        "doc_6fa2317e77697e25:section4_3b",
+        "doc_6fa2317e77697e25:section10_glycosinine_9a",
+        "doc_6fa2317e77697e25:section11_mukonal_10a"
+      ],
+      "unresolved": [
+        "Crude 2a and 2b have no isolated mass, yield, or purity.",
+        "The isolated yields of the AuCl cyclizations alone are not separated from the preceding crude-allenol stages."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 5 top continuation of 3b characterization",
+          "finding": "Characterization only; it supports the existing section-4 3b record and does not define another preparation.",
+          "evidence_ids": [
+            "doc_6fa2317e77697e25:page5:text",
+            "doc_6fa2317e77697e25:page5:image"
+          ]
+        },
+        {
+          "region": "page 5 sections 5–6 and reaction drawings",
+          "finding": "NBS bromination 3a→4a (93%) and O2/t-BuOK N-debenzylation 4a→5a (81%) were retained as two distinct experiments with exact quantities, conditions, workups, purifications, and isolated masses.",
+          "evidence_ids": [
+            "doc_6fa2317e77697e25:page5:text",
+            "doc_6fa2317e77697e25:page5:image"
+          ]
+        },
+        {
+          "region": "page 5 section 7 and reaction drawing",
+          "finding": "KH deprotonation, n-BuLi bromine–lithium exchange, and CO2 carboxylation of 5a to isomukonidine 6a were retained as one multistep experiment with 121.3 mg/50% combined isolated outcome.",
+          "evidence_ids": [
+            "doc_6fa2317e77697e25:page5:text",
+            "doc_6fa2317e77697e25:page5:image"
+          ]
+        },
+        {
+          "region": "page 5 section 8 and reaction drawing",
+          "finding": "Methylation of 6a with MeI/NaHCO3 in DMF to clausine L 7a was retained with 16 h, 151.7 mg, and 90% isolated yield.",
+          "evidence_ids": [
+            "doc_6fa2317e77697e25:page5:text",
+            "doc_6fa2317e77697e25:page5:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_6fa2317e77697e25:section4_3b",
+        "doc_6fa2317e77697e25:section5_4a",
+        "doc_6fa2317e77697e25:section6_5a",
+        "doc_6fa2317e77697e25:section7_isomukonidine_6a",
+        "doc_6fa2317e77697e25:section8_clausine_L_7a"
+      ],
+      "unresolved": [
+        "The CO2 flow rate/amount in section 7 is not reported.",
+        "All structure encodings remain machine candidates."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 6 top continuation of clausine L characterization",
+          "finding": "Characterization completes the cross-page section-8 product description; no duplicate methylation experiment was created.",
+          "evidence_ids": [
+            "doc_6fa2317e77697e25:page6:text",
+            "doc_6fa2317e77697e25:page6:image"
+          ]
+        },
+        {
+          "region": "page 6 section 9 and reaction drawing",
+          "finding": "BBr3 demethylation of 7a to mukonidine 8a was retained with the full −78/−20/room-temperature program, workup, 88.9 mg, and 65% isolated yield.",
+          "evidence_ids": [
+            "doc_6fa2317e77697e25:page6:text",
+            "doc_6fa2317e77697e25:page6:image"
+          ]
+        },
+        {
+          "region": "page 6 section 10 and reaction drawing",
+          "finding": "KH/n-BuLi/DMF formylation of 5a to glycosinine 9a was retained with quantities, staged temperatures/times, two-column purification, 133.8 mg, and 60% isolated yield.",
+          "evidence_ids": [
+            "doc_6fa2317e77697e25:page6:text",
+            "doc_6fa2317e77697e25:page6:image"
+          ]
+        },
+        {
+          "region": "page 6 section 11 and reaction drawing",
+          "finding": "BBr3 demethylation of 9a to mukonal 10a was retained with quantities, −78 °C/40 min and −20 °C/22 h stages, workup, 90.7 mg, and 86% isolated yield.",
+          "evidence_ids": [
+            "doc_6fa2317e77697e25:page6:text",
+            "doc_6fa2317e77697e25:page6:image"
+          ]
+        },
+        {
+          "region": "page 6 bottom section-12 heading",
+          "finding": "Only the heading for clausine V 5b appears. The existing Scheme-3 record is linked for identity; detailed quantities, time, workup, purification, isolated mass, and yield basis lie outside pages 1–6 and were not imported.",
+          "evidence_ids": [
+            "doc_6fa2317e77697e25:page6:text",
+            "doc_6fa2317e77697e25:page6:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_6fa2317e77697e25:section8_clausine_L_7a",
+        "doc_6fa2317e77697e25:section9_mukonidine_8a",
+        "doc_6fa2317e77697e25:section10_glycosinine_9a",
+        "doc_6fa2317e77697e25:section11_mukonal_10a",
+        "doc_6fa2317e77697e25:section12_clausine_V_5b"
+      ],
+      "unresolved": [
+        "Section 12's detailed procedure is outside the requested range; the page-3 Scheme 3 record therefore remains partial.",
+        "No Supporting Information file was supplied or explicitly associated."
+      ]
+    }
+  ]
+}

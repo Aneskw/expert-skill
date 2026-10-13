@@ -1,0 +1,183 @@
+{
+  "document_id": "doc_a10bd7ae7a17f1c1",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, and two-column Results and Discussion prose",
+          "finding": "The prose identifies the Pt-catalyzed allenol-to-carbazole transformation, narrates Table 1 optimization outcomes, summarizes Table 2 scope, and states that ESI exists; no SI file was supplied or associated.",
+          "evidence_ids": [
+            "doc_a10bd7ae7a17f1c1:page1:image",
+            "doc_a10bd7ae7a17f1c1:page1:text"
+          ]
+        },
+        {
+          "region": "lower-right Scheme 1",
+          "finding": "The upper arrow is cited prior work and is classified as a literature example; the lower arrow is a generic current-paper transformation to carbazole 3, while bracketed 2 is described as the envisioned rather than observed product.",
+          "evidence_ids": [
+            "doc_a10bd7ae7a17f1c1:page1:image",
+            "doc_a10bd7ae7a17f1c1:page1:text"
+          ]
+        },
+        {
+          "region": "right-column proposed-mechanism discussion above Scheme 1",
+          "finding": "Text proposes intermediates 4–7, water loss, a cyclic vinylic platinum carbene, and a 1,2-H shift; these are classified as mechanism content, not separate experiments.",
+          "evidence_ids": [
+            "doc_a10bd7ae7a17f1c1:page1:image",
+            "doc_a10bd7ae7a17f1c1:page1:text",
+            "doc_a10bd7ae7a17f1c1:page2:image",
+            "doc_a10bd7ae7a17f1c1:page2:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a10bd7ae7a17f1c1:table1_entry1",
+        "doc_a10bd7ae7a17f1c1:table1_entry2",
+        "doc_a10bd7ae7a17f1c1:table1_entry3",
+        "doc_a10bd7ae7a17f1c1:table1_entry4",
+        "doc_a10bd7ae7a17f1c1:table1_entry5",
+        "doc_a10bd7ae7a17f1c1:table1_entry6",
+        "doc_a10bd7ae7a17f1c1:table1_entry7",
+        "doc_a10bd7ae7a17f1c1:table1_entry8",
+        "doc_a10bd7ae7a17f1c1:table1_entry9",
+        "doc_a10bd7ae7a17f1c1:table1_entry10",
+        "doc_a10bd7ae7a17f1c1:table1_entry11",
+        "doc_a10bd7ae7a17f1c1:table2_entry1",
+        "doc_a10bd7ae7a17f1c1:table2_entry2",
+        "doc_a10bd7ae7a17f1c1:table2_entry3",
+        "doc_a10bd7ae7a17f1c1:table2_entry4",
+        "doc_a10bd7ae7a17f1c1:table2_entry5",
+        "doc_a10bd7ae7a17f1c1:table2_entry6",
+        "doc_a10bd7ae7a17f1c1:table2_entry7",
+        "doc_a10bd7ae7a17f1c1:table2_entry8",
+        "doc_a10bd7ae7a17f1c1:table2_entry9",
+        "doc_a10bd7ae7a17f1c1:table2_entry10",
+        "doc_a10bd7ae7a17f1c1:table2_entry11",
+        "doc_a10bd7ae7a17f1c1:table2_entry12",
+        "doc_a10bd7ae7a17f1c1:table2_entry13",
+        "doc_a10bd7ae7a17f1c1:table2_entry14",
+        "doc_a10bd7ae7a17f1c1:table2_entry15",
+        "doc_a10bd7ae7a17f1c1:table2_entry16",
+        "doc_a10bd7ae7a17f1c1:table2_entry17",
+        "doc_a10bd7ae7a17f1c1:table2_entry18",
+        "doc_a10bd7ae7a17f1c1:table2_entry19",
+        "doc_a10bd7ae7a17f1c1:scheme1_prior_interolecular_route",
+        "doc_a10bd7ae7a17f1c1:scheme1_current_generic_cyclization",
+        "doc_a10bd7ae7a17f1c1:scheme2_proposed_mechanism"
+      ],
+      "unresolved": [
+        "The supplied main paper points to ESI for procedures and characterization, but no SI was explicitly provided; operational details remain missing.",
+        "The lower Scheme 1 arrow shows PtCl4/THF while the prose/Table 1 initial PtCl4 experiment uses toluene; both source statements are retained in their own record contexts.",
+        "Most Table 2 compounds are defined through an R-group template and were not assigned SMILES without independent structure review."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left Table 1 including reaction drawing and footnotes",
+          "finding": "Eleven distinct optimization experiments were extracted row by row. Visual review confirms entry 6 is 3 h and 80% (not the OCR-joined '38 0'); entry 3 retains the table dash plus 92% recovered 1a; entry 4 includes 10 mol% AgOTf; parenthesized values in entries 5 and 11 are isolated yields.",
+          "evidence_ids": [
+            "doc_a10bd7ae7a17f1c1:page2:image",
+            "doc_a10bd7ae7a17f1c1:page2:text",
+            "doc_a10bd7ae7a17f1c1:page1:image",
+            "doc_a10bd7ae7a17f1c1:page1:text"
+          ]
+        },
+        {
+          "region": "upper-right Fig. 1 and middle-right Scheme 2",
+          "finding": "Fig. 1 is an ORTEP representation of 3g and not a reaction. Scheme 2 is a proposed catalytic mechanism and is represented by one mechanism record rather than by isolated experimental intermediates.",
+          "evidence_ids": [
+            "doc_a10bd7ae7a17f1c1:page2:image",
+            "doc_a10bd7ae7a17f1c1:page2:text",
+            "doc_a10bd7ae7a17f1c1:page1:image",
+            "doc_a10bd7ae7a17f1c1:page1:text"
+          ]
+        },
+        {
+          "region": "lower half Table 2 including generic arrow and all rows",
+          "finding": "Nineteen substrate-scope rows were extracted independently with row-specific R1–R5 assignments, 5 mol% PtCl2, toluene, room temperature, reaction time, and isolated yield linked to the row product.",
+          "evidence_ids": [
+            "doc_a10bd7ae7a17f1c1:page2:image",
+            "doc_a10bd7ae7a17f1c1:page2:text",
+            "doc_a10bd7ae7a17f1c1:page1:image",
+            "doc_a10bd7ae7a17f1c1:page1:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a10bd7ae7a17f1c1:table1_entry1",
+        "doc_a10bd7ae7a17f1c1:table1_entry2",
+        "doc_a10bd7ae7a17f1c1:table1_entry3",
+        "doc_a10bd7ae7a17f1c1:table1_entry4",
+        "doc_a10bd7ae7a17f1c1:table1_entry5",
+        "doc_a10bd7ae7a17f1c1:table1_entry6",
+        "doc_a10bd7ae7a17f1c1:table1_entry7",
+        "doc_a10bd7ae7a17f1c1:table1_entry8",
+        "doc_a10bd7ae7a17f1c1:table1_entry9",
+        "doc_a10bd7ae7a17f1c1:table1_entry10",
+        "doc_a10bd7ae7a17f1c1:table1_entry11",
+        "doc_a10bd7ae7a17f1c1:table2_entry1",
+        "doc_a10bd7ae7a17f1c1:table2_entry2",
+        "doc_a10bd7ae7a17f1c1:table2_entry3",
+        "doc_a10bd7ae7a17f1c1:table2_entry4",
+        "doc_a10bd7ae7a17f1c1:table2_entry5",
+        "doc_a10bd7ae7a17f1c1:table2_entry6",
+        "doc_a10bd7ae7a17f1c1:table2_entry7",
+        "doc_a10bd7ae7a17f1c1:table2_entry8",
+        "doc_a10bd7ae7a17f1c1:table2_entry9",
+        "doc_a10bd7ae7a17f1c1:table2_entry10",
+        "doc_a10bd7ae7a17f1c1:table2_entry11",
+        "doc_a10bd7ae7a17f1c1:table2_entry12",
+        "doc_a10bd7ae7a17f1c1:table2_entry13",
+        "doc_a10bd7ae7a17f1c1:table2_entry14",
+        "doc_a10bd7ae7a17f1c1:table2_entry15",
+        "doc_a10bd7ae7a17f1c1:table2_entry16",
+        "doc_a10bd7ae7a17f1c1:table2_entry17",
+        "doc_a10bd7ae7a17f1c1:table2_entry18",
+        "doc_a10bd7ae7a17f1c1:table2_entry19",
+        "doc_a10bd7ae7a17f1c1:scheme2_proposed_mechanism"
+      ],
+      "unresolved": [
+        "Reaction scale, atmosphere, workup, and purification are absent from the supplied main-text page.",
+        "The table does not provide unique machine-readable structures for most R-group-defined rows; these remain unverified and without SMILES."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "top-left conclusion continuation and acknowledgements",
+          "finding": "No new reaction row is introduced. The authors state that Table 2 entries 5, 6, and 13 were reproduced; this is linked as supplemental evidence to those existing records rather than counted as new experiments.",
+          "evidence_ids": [
+            "doc_a10bd7ae7a17f1c1:page3:image",
+            "doc_a10bd7ae7a17f1c1:page3:text"
+          ]
+        },
+        {
+          "region": "two-column Notes and references",
+          "finding": "The page consists mainly of cited prior literature and is not converted into experiments of the current paper. Footnote 13 supplies crystal data for 3g/CCDC 713481 and is linked as characterization context to Table 2 entry 7, not as a reaction outcome.",
+          "evidence_ids": [
+            "doc_a10bd7ae7a17f1c1:page3:image",
+            "doc_a10bd7ae7a17f1c1:page3:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a10bd7ae7a17f1c1:table2_entry5",
+        "doc_a10bd7ae7a17f1c1:table2_entry6",
+        "doc_a10bd7ae7a17f1c1:table2_entry7",
+        "doc_a10bd7ae7a17f1c1:table2_entry13"
+      ],
+      "unresolved": [
+        "The reproduced experiments are not accompanied by separate batch conditions or measurements on this page.",
+        "Cited papers were not treated as source documents, so their experimental details remain outside this extraction."
+      ]
+    }
+  ]
+}

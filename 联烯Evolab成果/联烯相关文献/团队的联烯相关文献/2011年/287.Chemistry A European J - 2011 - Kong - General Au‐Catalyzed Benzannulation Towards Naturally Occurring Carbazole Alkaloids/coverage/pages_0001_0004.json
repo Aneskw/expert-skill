@@ -1,0 +1,178 @@
+{
+  "document_id": "doc_9e20305837d2ecc2",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper title and two-column introductory prose",
+          "finding": "Title, motivation, biological context, and prose summaries of three prior synthetic strategies; prior work was classified as literature examples and not as experiments performed in this paper.",
+          "evidence_ids": ["doc_9e20305837d2ecc2:page1:image", "doc_9e20305837d2ecc2:page1:text"]
+        },
+        {
+          "region": "lower-left Scheme 1",
+          "finding": "Natural carbazole structures and an R-group/name/activity table; this is a compound overview with no reaction arrow or experimental condition, so no experiment record was created.",
+          "evidence_ids": ["doc_9e20305837d2ecc2:page1:image", "doc_9e20305837d2ecc2:page1:text"]
+        },
+        {
+          "region": "lower-right prior-art discussion continuing toward Scheme 2",
+          "finding": "Witulski, Knölker, and Kuethe routes are cited work. Reported regioisomer ratios and explicit oxidant equivalents were retained only in literature-example records; no present-paper batch is claimed.",
+          "evidence_ids": ["doc_9e20305837d2ecc2:page1:image", "doc_9e20305837d2ecc2:page1:text", "doc_9e20305837d2ecc2:page2:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_9e20305837d2ecc2:scheme2_literature_step1",
+        "doc_9e20305837d2ecc2:scheme2_literature_step2",
+        "doc_9e20305837d2ecc2:scheme2_literature_step3"
+      ],
+      "unresolved": [
+        "The cited routes are condensed summaries; their original experimental quantities, time, full yields, and complete substrate identities are not available on this page.",
+        "Scheme 1 structures were not converted to verified SMILES because they are contextual natural-product depictions, not reaction participants in a reported batch."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left Scheme 2",
+          "finding": "Three explicitly reported prior-literature strategies were separated as literature examples, including the 3.8:1 and 1.4:1 regioisomer ratios and visible Pd/Cu/HOAc or P(OEt)3 conditions.",
+          "evidence_ids": ["doc_9e20305837d2ecc2:page2:image", "doc_9e20305837d2ecc2:page2:text", "doc_9e20305837d2ecc2:page1:text"]
+        },
+        {
+          "region": "middle-left Scheme 3",
+          "finding": "The upper PtCl2 arrow is a generic previously reported carbazole synthesis and the lower Au arrow is the present strategic proposal; the variable-R strategy was retained as one general_scheme rather than fabricated substrate-scope experiments.",
+          "evidence_ids": ["doc_9e20305837d2ecc2:page2:image", "doc_9e20305837d2ecc2:page2:text"]
+        },
+        {
+          "region": "lower-left Scheme 4 and adjacent protecting-group prose",
+          "finding": "Two independent 2a-to-3a debenzylation conditions were extracted (MeLi, 53%; tBuOK/DMSO/THF/O2, 87%). General statements that N-Tosyl and N-Boc substrates failed lack batch-specific conditions and were not inflated into exact experiments.",
+          "evidence_ids": ["doc_9e20305837d2ecc2:page2:image", "doc_9e20305837d2ecc2:page2:text"]
+        },
+        {
+          "region": "right column and Scheme 5 discussion continued on page 3",
+          "finding": "Preparation and cyclization of 1b, bromination, N-debenzylation, Suzuki coupling, demethylation routes, and all explicitly named failed protocols were separated by arrow/condition. The PtCl2 and AuCl 1b-to-2b entries were linked to their page-4 batch details instead of duplicated.",
+          "evidence_ids": ["doc_9e20305837d2ecc2:page2:image", "doc_9e20305837d2ecc2:page2:text", "doc_9e20305837d2ecc2:page3:image", "doc_9e20305837d2ecc2:page4:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_9e20305837d2ecc2:scheme2_literature_step1",
+        "doc_9e20305837d2ecc2:scheme2_literature_step2",
+        "doc_9e20305837d2ecc2:scheme2_literature_step3",
+        "doc_9e20305837d2ecc2:scheme3_general_strategy",
+        "doc_9e20305837d2ecc2:scheme4_2a_to_3a_meli",
+        "doc_9e20305837d2ecc2:scheme4_2a_to_3a_tbuok",
+        "doc_9e20305837d2ecc2:scheme5_a_prepare_1b",
+        "doc_9e20305837d2ecc2:scheme5_1b_to_2b_ptcl2",
+        "doc_9e20305837d2ecc2:scheme5_1b_to_2b_aucl",
+        "doc_9e20305837d2ecc2:scheme5_b_2b_to_5b",
+        "doc_9e20305837d2ecc2:scheme5_c_5b_to_6b",
+        "doc_9e20305837d2ecc2:scheme5_d_5b_to_7b",
+        "doc_9e20305837d2ecc2:scheme5_pathA_7b_licl_failed",
+        "doc_9e20305837d2ecc2:scheme5_pathA_7b_etsna_failed",
+        "doc_9e20305837d2ecc2:scheme5_pathA_7b_phsh_failed",
+        "doc_9e20305837d2ecc2:scheme5_e_5b_to_8b_two_step",
+        "doc_9e20305837d2ecc2:scheme5_pathB_8b_tbuok_failed",
+        "doc_9e20305837d2ecc2:scheme5_pathB_8b_ddq_failed",
+        "doc_9e20305837d2ecc2:scheme5_pathB_8b_meli_failed",
+        "doc_9e20305837d2ecc2:scheme5_f_6b_to_9b",
+        "doc_9e20305837d2ecc2:scheme5_9b_direct_suzuki_failed",
+        "doc_9e20305837d2ecc2:scheme5_9b_tbs_route_failed"
+      ],
+      "unresolved": [
+        "Most Scheme 4/5 arrows omit one or more of reaction scale, atmosphere, time, workup, purification, or yield basis; absent values were not inferred.",
+        "The decomposition products from path A and the materials observed in failed path B/Suzuki trials are unidentified.",
+        "No SI file was explicitly provided or associated."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left Scheme 5 and caption",
+          "finding": "All labeled arrows a–h were transcribed as independent experiments or multi-stage records, including catalyst loadings, equivalents, temperatures, times, yields, two-step 60% yield, and one-pot 66% yield. Crossed paths A/B were linked to the distinct failed condition records described on page 2.",
+          "evidence_ids": ["doc_9e20305837d2ecc2:page3:image", "doc_9e20305837d2ecc2:page3:text", "doc_9e20305837d2ecc2:page2:text"]
+        },
+        {
+          "region": "upper-right Scheme 6 and caption",
+          "finding": "Allenol 1c preparation, AuCl cyclization, debenzylation, and six downstream arrows c–h were separated. The direct 3c-to-ester two-step route and clausine-N methylation route were kept distinct despite converging on clauszoline-L.",
+          "evidence_ids": ["doc_9e20305837d2ecc2:page3:image", "doc_9e20305837d2ecc2:page3:text"]
+        },
+        {
+          "region": "lower prose with overall route yields",
+          "finding": "Overall yields and step counts summarize complete routes and were not duplicated as individual batch outcomes because the corresponding arrow yields were already extracted.",
+          "evidence_ids": ["doc_9e20305837d2ecc2:page3:image", "doc_9e20305837d2ecc2:page3:text"]
+        },
+        {
+          "region": "lower-right Scheme 7",
+          "finding": "Natural-product structures proposed as future/general targets; no experimental arrow or result is shown, so no experiment records were created.",
+          "evidence_ids": ["doc_9e20305837d2ecc2:page3:image", "doc_9e20305837d2ecc2:page3:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_9e20305837d2ecc2:scheme5_a_prepare_1b",
+        "doc_9e20305837d2ecc2:scheme5_1b_to_2b_ptcl2",
+        "doc_9e20305837d2ecc2:scheme5_1b_to_2b_aucl",
+        "doc_9e20305837d2ecc2:scheme5_b_2b_to_5b",
+        "doc_9e20305837d2ecc2:scheme5_c_5b_to_6b",
+        "doc_9e20305837d2ecc2:scheme5_d_5b_to_7b",
+        "doc_9e20305837d2ecc2:scheme5_pathA_7b_licl_failed",
+        "doc_9e20305837d2ecc2:scheme5_pathA_7b_etsna_failed",
+        "doc_9e20305837d2ecc2:scheme5_pathA_7b_phsh_failed",
+        "doc_9e20305837d2ecc2:scheme5_e_5b_to_8b_two_step",
+        "doc_9e20305837d2ecc2:scheme5_pathB_8b_tbuok_failed",
+        "doc_9e20305837d2ecc2:scheme5_pathB_8b_ddq_failed",
+        "doc_9e20305837d2ecc2:scheme5_pathB_8b_meli_failed",
+        "doc_9e20305837d2ecc2:scheme5_f_6b_to_9b",
+        "doc_9e20305837d2ecc2:scheme5_g_9b_to_10b",
+        "doc_9e20305837d2ecc2:scheme5_h_10b_to_siamenol",
+        "doc_9e20305837d2ecc2:scheme6_a_prepare_1c",
+        "doc_9e20305837d2ecc2:scheme6_1c_to_2c_aucl",
+        "doc_9e20305837d2ecc2:scheme6_b_2c_to_3c",
+        "doc_9e20305837d2ecc2:scheme6_c_3c_to_clauszoline_k",
+        "doc_9e20305837d2ecc2:scheme6_d_3c_to_clausine_n",
+        "doc_9e20305837d2ecc2:scheme6_e_3c_to_clauszoline_l",
+        "doc_9e20305837d2ecc2:scheme6_f_clausine_n_to_clauszoline_l",
+        "doc_9e20305837d2ecc2:scheme6_g_clauszoline_l_to_clausine_m",
+        "doc_9e20305837d2ecc2:scheme6_h_clauszoline_k_to_3formyl7hydroxy"
+      ],
+      "unresolved": [
+        "Many arrows do not report reaction scale, exact time, atmosphere, workup, purification, or yield measurement basis.",
+        "Complex structure drawings are legible by label but remain unverified as machine SMILES.",
+        "Overall-route yields were not treated as independent experiments."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left Experimental Section, PtCl2 preparation of 2b",
+          "finding": "Detailed PtCl2 batch for 1b-to-2b was merged into the Scheme 5 PtCl2 record: reagent masses/mmol, 2 mL toluene, dry Schlenk/N2, 24 h at room temperature, TLC, evaporation, chromatography (20:1), product mass, and 61% isolated yield.",
+          "evidence_ids": ["doc_9e20305837d2ecc2:page4:image", "doc_9e20305837d2ecc2:page4:text", "doc_9e20305837d2ecc2:page3:image"]
+        },
+        {
+          "region": "middle-left AuCl reaction paragraph",
+          "finding": "Distinct AuCl batch for 1b-to-2b was merged into the Scheme 5 AuCl record: AuCl and 1b masses/mmol, 10 mL toluene, room temperature, 8 h, product mass, 81% yield, and 40:1 eluent.",
+          "evidence_ids": ["doc_9e20305837d2ecc2:page4:image", "doc_9e20305837d2ecc2:page4:text", "doc_9e20305837d2ecc2:page3:image"]
+        },
+        {
+          "region": "remaining acknowledgements, keywords, and references",
+          "finding": "No additional present-paper experiment is reported. The acknowledgement states that 3c and clauszoline-K results were reproduced but does not define a new condition set or batch.",
+          "evidence_ids": ["doc_9e20305837d2ecc2:page4:image", "doc_9e20305837d2ecc2:page4:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_9e20305837d2ecc2:scheme5_1b_to_2b_ptcl2",
+        "doc_9e20305837d2ecc2:scheme5_1b_to_2b_aucl"
+      ],
+      "unresolved": [
+        "The AuCl paragraph does not explicitly restate atmosphere, workup, or the word 'column chromatography'; those details were not inherited from the separate PtCl2 typical procedure.",
+        "The printed product characterization was not modeled as reaction conditions/outcomes beyond product identity and mass."
+      ]
+    }
+  ]
+}

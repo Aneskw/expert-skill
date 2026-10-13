@@ -1,0 +1,213 @@
+{
+  "document_id": "doc_a041da967eb86093",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 1 title, authors, journal metadata, and abstract text",
+          "finding": "The abstract describes the reaction class and oxidant systems; it does not report a row-specific experiment or yield.",
+          "evidence_ids": [
+            "doc_a041da967eb86093:page1:image",
+            "doc_a041da967eb86093:page1:text"
+          ]
+        },
+        {
+          "region": "page 1 abstract reaction arrow",
+          "finding": "Generic R-group cyclization-Heck scheme classified as a general_scheme, with Pd catalyst and alternative CaH2(cat.)/NaI(cat.)/O2 or BQ (1 equiv) systems; not treated as an individual experiment.",
+          "evidence_ids": [
+            "doc_a041da967eb86093:page1:image",
+            "doc_a041da967eb86093:page1:text"
+          ]
+        },
+        {
+          "region": "page 1 introduction and references 1-6",
+          "finding": "Background and cited prior work only; no experiments from the present paper were created from these citations.",
+          "evidence_ids": [
+            "doc_a041da967eb86093:page1:image",
+            "doc_a041da967eb86093:page1:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a041da967eb86093:page1_abstract_general_scheme"
+      ],
+      "unresolved": [
+        "Generic R groups prevent assignment of specific substrate/product structures.",
+        "The abstract arrow omits time, temperature, and exact Pd identity/loading."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 2 Scheme 1, left column",
+          "finding": "Proposed catalytic cycle classified as mechanism: cyclic nucleopalladation, alkene insertion, beta-H elimination, Pd(0) formation, and oxidant-mediated regeneration of Pd(II).",
+          "evidence_ids": [
+            "doc_a041da967eb86093:page2:image",
+            "doc_a041da967eb86093:page2:text"
+          ]
+        },
+        {
+          "region": "page 2 Scheme 2, upper right",
+          "finding": "Distinct reported experiment: 1a plus acrylonitrile with 4 equiv CuCl2, 4 equiv K2CO3, 5 mol% PdCl2(PhCN)2 in DMF at 60 °C gives 3a (34%) and E-2a (14%).",
+          "evidence_ids": [
+            "doc_a041da967eb86093:page2:image",
+            "doc_a041da967eb86093:page2:text"
+          ]
+        },
+        {
+          "region": "page 2 Table 1 reaction header, rows 1-14, and footnotes a-g",
+          "finding": "Fourteen independent optimization entries extracted row by row. Common 60 °C/24 h/DMF/PdCl2(PhCN)2 conditions, oxidant or halide column, CaH2/NaH overrides, atmosphere/apparatus exceptions, E-2a and Z-2a NMR yields, trace result, and measurement basis were preserved.",
+          "evidence_ids": [
+            "doc_a041da967eb86093:page2:image",
+            "doc_a041da967eb86093:page2:text"
+          ]
+        },
+        {
+          "region": "page 2 surrounding discussion and references 7-14",
+          "finding": "Discussion links the optimization conditions to Table 1; cited literature is not treated as experiments from this paper.",
+          "evidence_ids": [
+            "doc_a041da967eb86093:page2:image",
+            "doc_a041da967eb86093:page2:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a041da967eb86093:page2_scheme1_proposed_mechanism",
+        "doc_a041da967eb86093:scheme2_cucl2_k2co3",
+        "doc_a041da967eb86093:table1_entry01",
+        "doc_a041da967eb86093:table1_entry02",
+        "doc_a041da967eb86093:table1_entry03",
+        "doc_a041da967eb86093:table1_entry04",
+        "doc_a041da967eb86093:table1_entry05",
+        "doc_a041da967eb86093:table1_entry06",
+        "doc_a041da967eb86093:table1_entry07",
+        "doc_a041da967eb86093:table1_entry08",
+        "doc_a041da967eb86093:table1_entry09",
+        "doc_a041da967eb86093:table1_entry10",
+        "doc_a041da967eb86093:table1_entry11",
+        "doc_a041da967eb86093:table1_entry12",
+        "doc_a041da967eb86093:table1_entry13",
+        "doc_a041da967eb86093:table1_entry14"
+      ],
+      "unresolved": [
+        "Scheme 2 does not state time, atmosphere, workup, purification, or yield measurement basis.",
+        "Table 1 does not state amounts of 1a or acrylonitrile.",
+        "Table 1 product structures were not assigned SMILES because their connectivity/stereochemistry was not independently verified from the drawings."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 3 Table 2 reaction header, rows 1-16, and footnotes a-f",
+          "finding": "Sixteen independent substrate-scope entries extracted row by row, including all R-group labels, alkenes, conditions A/B, isolated yields, E/Z statements, the 100 °C override, and the 25% isolated 4a byproduct in entry 3.",
+          "evidence_ids": [
+            "doc_a041da967eb86093:page3:image",
+            "doc_a041da967eb86093:page3:text"
+          ]
+        },
+        {
+          "region": "page 3 lower-left discussion of Table 1",
+          "finding": "Provides context for entries 5-14 and explicitly states that 4a formation was less than 2%, if any; this evidence was merged into the corresponding Table 1 records rather than creating duplicates.",
+          "evidence_ids": [
+            "doc_a041da967eb86093:page3:image",
+            "doc_a041da967eb86093:page3:text"
+          ]
+        },
+        {
+          "region": "page 3 lower-right discussion of Table 2",
+          "finding": "Confirms scope interpretation and reports yields for 2i/2j that conflict with Table 2: prose 64%/66% versus table 61%/86%. Both source statements were retained and flagged unresolved.",
+          "evidence_ids": [
+            "doc_a041da967eb86093:page3:image",
+            "doc_a041da967eb86093:page3:text"
+          ]
+        },
+        {
+          "region": "page 3 references 15-17 and conclusion lead-in",
+          "finding": "Citations and summary only; no additional present-paper experiment was created.",
+          "evidence_ids": [
+            "doc_a041da967eb86093:page3:image",
+            "doc_a041da967eb86093:page3:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a041da967eb86093:table1_entry01",
+        "doc_a041da967eb86093:table1_entry02",
+        "doc_a041da967eb86093:table1_entry03",
+        "doc_a041da967eb86093:table1_entry04",
+        "doc_a041da967eb86093:table1_entry05",
+        "doc_a041da967eb86093:table1_entry06",
+        "doc_a041da967eb86093:table1_entry07",
+        "doc_a041da967eb86093:table1_entry08",
+        "doc_a041da967eb86093:table1_entry09",
+        "doc_a041da967eb86093:table1_entry10",
+        "doc_a041da967eb86093:table1_entry11",
+        "doc_a041da967eb86093:table1_entry12",
+        "doc_a041da967eb86093:table1_entry13",
+        "doc_a041da967eb86093:table1_entry14",
+        "doc_a041da967eb86093:table2_entry01",
+        "doc_a041da967eb86093:table2_entry02",
+        "doc_a041da967eb86093:table2_entry03",
+        "doc_a041da967eb86093:table2_entry04",
+        "doc_a041da967eb86093:table2_entry05",
+        "doc_a041da967eb86093:table2_entry06",
+        "doc_a041da967eb86093:table2_entry07",
+        "doc_a041da967eb86093:table2_entry08",
+        "doc_a041da967eb86093:table2_entry09",
+        "doc_a041da967eb86093:table2_entry10",
+        "doc_a041da967eb86093:table2_entry11",
+        "doc_a041da967eb86093:table2_entry12",
+        "doc_a041da967eb86093:table2_entry13",
+        "doc_a041da967eb86093:table2_entry14",
+        "doc_a041da967eb86093:table2_entry15",
+        "doc_a041da967eb86093:table2_entry16"
+      ],
+      "unresolved": [
+        "Source-internal conflicts remain for 2i (61% table versus 64% prose) and 2j (86% table versus 66% prose).",
+        "Condition B says overnight without a numeric duration or stated atmosphere.",
+        "Workup, purification, and complex substrate/product SMILES are not supplied in the main text."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 4 conclusion continuation",
+          "finding": "General conclusion that products were formed regio- and stereoselectively; no new experiment, table row, scheme arrow, or numeric result appears.",
+          "evidence_ids": [
+            "doc_a041da967eb86093:page4:image",
+            "doc_a041da967eb86093:page4:text"
+          ]
+        },
+        {
+          "region": "page 4 acknowledgements",
+          "finding": "Funding information only; no reaction record.",
+          "evidence_ids": [
+            "doc_a041da967eb86093:page4:image",
+            "doc_a041da967eb86093:page4:text"
+          ]
+        },
+        {
+          "region": "page 4 Supporting Information Available statement",
+          "finding": "The main text says synthesis and characterization for 2 and 3a are available online, but no SI file was explicitly supplied or associated; no SI facts were imported.",
+          "evidence_ids": [
+            "doc_a041da967eb86093:page4:image",
+            "doc_a041da967eb86093:page4:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Supporting information is mentioned but not provided or explicitly associated, so missing procedures and characterization remain unresolved."
+      ]
+    }
+  ]
+}

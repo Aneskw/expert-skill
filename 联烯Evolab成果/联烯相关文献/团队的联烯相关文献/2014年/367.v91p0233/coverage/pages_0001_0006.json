@@ -1,0 +1,184 @@
+{
+  "document_id": "doc_18eee00dad6b1629",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 1 full original rendered page",
+          "finding": "Organic Syntheses hazardous-chemical handling notice and publisher material only. No reaction arrow, table, procedure, condition, yield, failure result, or chemistry figure appears on this page.",
+          "evidence_ids": [
+            "doc_18eee00dad6b1629:page1:text",
+            "doc_18eee00dad6b1629:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "None for reaction extraction; page 1 is safety and publisher guidance only."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 2 title, author/checker block, and two-arrow reaction scheme",
+          "finding": "The original page shows the current Organic Syntheses preparation, not prior literature: arrow A converts protected propargyl ether 1 and cyclohexanecarboxaldehyde with (S)-α,α-diphenylprolinol/ZnBr2 in toluene at 130 °C to (R)-2; arrow B uses TBAF·3H2O in THF from 0 °C to room temperature to give (R)-3. These arrows map to two successive experimental records rather than one duplicated scheme record.",
+          "evidence_ids": [
+            "doc_18eee00dad6b1629:page2:text",
+            "doc_18eee00dad6b1629:page2:image"
+          ]
+        },
+        {
+          "region": "page 2 lower half, beginning of Procedure A",
+          "finding": "Procedure A begins with the 500-mL apparatus, 17.3 g/76.6 mmol ZnBr2, argon transfer, and vacuum/heat-gun drying. This cross-page procedure supports the first full-scale A record and the explicitly stated second full-scale repetition reported later in Note 19.",
+          "evidence_ids": [
+            "doc_18eee00dad6b1629:page2:text",
+            "doc_18eee00dad6b1629:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_18eee00dad6b1629:procedure_A_R2_first_full_scale",
+        "doc_18eee00dad6b1629:procedure_B_R3_first_full_scale",
+        "doc_18eee00dad6b1629:procedure_AB_second_full_scale_run"
+      ],
+      "unresolved": [
+        "The scheme does not give a separate single-stage yield for either arrow; the procedure text and notes supply a crude A mass and combined A+B yields."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 3 upper half, continuation of Procedure A",
+          "finding": "The original page provides exact full-scale reactant quantities, the 5 min pre-stir, 150+50+8 mL toluene additions, 1 min aldehyde addition, 3 min preheat stir, argon/Dean–Stark setup, 130 °C for 11 h, precipitate handling, concentration, chromatography, and 20.8 g crude (R)-2 outcome.",
+          "evidence_ids": [
+            "doc_18eee00dad6b1629:page3:text",
+            "doc_18eee00dad6b1629:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 lower half, Procedure B",
+          "finding": "The original page gives 20.80 g crude (R)-2, 200 mL THF, 32.0 g/101 mmol TBAF·3H2O, ice-bath-to-room-temperature operation, 2 h, exact workup and chromatography, and 9.42 g (R)-3 in 62% combined A+B yield with 99% ee.",
+          "evidence_ids": [
+            "doc_18eee00dad6b1629:page3:text",
+            "doc_18eee00dad6b1629:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_18eee00dad6b1629:procedure_A_R2_first_full_scale",
+        "doc_18eee00dad6b1629:procedure_B_R3_first_full_scale",
+        "doc_18eee00dad6b1629:procedure_AB_second_full_scale_run"
+      ],
+      "unresolved": [
+        "Procedure A has no isolated yield and Procedure B has no separate single-stage yield; the 62% value explicitly spans both steps."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 4 Notes 1–6",
+          "finding": "Apparatus drying, stir-bar dimensions, ZnBr2 storage/transfer/form, Dean–Stark dimensions/wrapping, and the need for efficient stirring were inspected and linked as operating/material context to Procedure A; they do not define separate experiments.",
+          "evidence_ids": [
+            "doc_18eee00dad6b1629:page4:text",
+            "doc_18eee00dad6b1629:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 Note 7",
+          "finding": "Reagent/solvent purities, suppliers, toluene distillation under argon, and cyclohexanecarboxaldehyde distillation were checked. These facts support the existing A/B records and are not independent reactions.",
+          "evidence_ids": [
+            "doc_18eee00dad6b1629:page4:text",
+            "doc_18eee00dad6b1629:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_18eee00dad6b1629:procedure_A_R2_first_full_scale",
+        "doc_18eee00dad6b1629:procedure_B_R3_first_full_scale",
+        "doc_18eee00dad6b1629:procedure_AB_second_full_scale_run"
+      ],
+      "unresolved": [
+        "Supplier and bulk-material specifications do not establish batch-specific assay values beyond those explicitly printed."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 5 Note 8",
+          "finding": "Compound 1 may be purchased or prepared from propargyl alcohol and TBSCl according to Radha's cited procedure. The cited precursor reaction is classified as a prior-literature example; the submitters' 68–74 °C/20 mmHg distillation, Na2SO4 drying ratio, and storage guidance are retained without claiming that this route supplied the main batch.",
+          "evidence_ids": [
+            "doc_18eee00dad6b1629:page5:text",
+            "doc_18eee00dad6b1629:page5:image"
+          ]
+        },
+        {
+          "region": "page 5 Notes 9–11",
+          "finding": "The crucial 5 min pre-stir, TLC Rf values for 1/2/3, vigorous-boil-to-reflux observation, approximately 2 mL water collection, and color changes were linked to Procedures A/B rather than treated as separate reactions.",
+          "evidence_ids": [
+            "doc_18eee00dad6b1629:page5:text",
+            "doc_18eee00dad6b1629:page5:image"
+          ]
+        },
+        {
+          "region": "page 5 Notes 12–15",
+          "finding": "CHCl3/CH2Br2 crude-NMR assay gives a 64–69% yield range across different A runs; the range remains aggregate and is not assigned to a specific isolated batch. The imine-removal rationale, vacuum handling, 300 g silica and exact 2.4 L petroleum ether/60 mL ether eluent were linked to Procedure A.",
+          "evidence_ids": [
+            "doc_18eee00dad6b1629:page5:text",
+            "doc_18eee00dad6b1629:page5:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_18eee00dad6b1629:procedure_A_R2_first_full_scale",
+        "doc_18eee00dad6b1629:procedure_B_R3_first_full_scale",
+        "doc_18eee00dad6b1629:note8_precursor_1_literature_preparation"
+      ],
+      "unresolved": [
+        "The note does not state whether commercial or prepared compound 1 was used for the reported main run; the cited precursor reaction lacks its experimental conditions and yield."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 6 upper half, continuation of Notes 15–19",
+          "finding": "The original page completes the Procedure-A chromatography/characterization context; gives the exact 390 g silica and two petroleum-ether/ethyl-acetate eluent stages for Procedure B; confirms 9.42 g product, 99% GC purity, yield basis on limiting (S)-α,α-diphenylprolinol, and a distinct second full-scale A+B run giving 9.82 g/65%.",
+          "evidence_ids": [
+            "doc_18eee00dad6b1629:page6:text",
+            "doc_18eee00dad6b1629:page6:image"
+          ]
+        },
+        {
+          "region": "page 6 lower half, Note 20 and Scheme 1",
+          "finding": "A separate racemic control preparation begins here for ee determination. The four visible operations are CuBr/4 Å sieves/toluene at 25 °C, copper removal, ZnI2/NaI in toluene at 110 °C, and TBAF·3H2O in THF from 0 °C to room temperature. The continuation on page 7 was used only as necessary text context; page 7 is not claimed as covered.",
+          "evidence_ids": [
+            "doc_18eee00dad6b1629:page6:text",
+            "doc_18eee00dad6b1629:page6:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_18eee00dad6b1629:procedure_A_R2_first_full_scale",
+        "doc_18eee00dad6b1629:procedure_B_R3_first_full_scale",
+        "doc_18eee00dad6b1629:procedure_AB_second_full_scale_run",
+        "doc_18eee00dad6b1629:scheme1_racemic_3"
+      ],
+      "unresolved": [
+        "The detailed racemic-control procedure continues on page 7; no page-7 visual coverage is claimed in this session.",
+        "The second full-scale run does not report ee or GC purity separately."
+      ]
+    }
+  ]
+}

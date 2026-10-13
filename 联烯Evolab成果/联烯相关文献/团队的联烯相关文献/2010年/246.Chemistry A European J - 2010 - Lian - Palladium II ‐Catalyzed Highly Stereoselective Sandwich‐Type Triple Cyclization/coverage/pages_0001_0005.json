@@ -1,0 +1,249 @@
+{
+  "document_id": "doc_1c07b578cf3ed9be",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper title and two-column introduction",
+          "finding": "Title/metadata and literature context inspected. Cited earlier allene cyclizations were not treated as experiments of this paper; the Ref. 7 monoallene branch is retained only as a literature_example.",
+          "evidence_ids": [
+            "doc_1c07b578cf3ed9be:page1:image",
+            "doc_1c07b578cf3ed9be:page1:text"
+          ]
+        },
+        {
+          "region": "right-middle Scheme 1",
+          "finding": "The upper arrow is a cited prior-work monoallene reaction; the lower arrow to product 3 is a question-marked hypothesis. They were classified as literature_example and general_scheme, not reported batches.",
+          "evidence_ids": [
+            "doc_1c07b578cf3ed9be:page1:image",
+            "doc_1c07b578cf3ed9be:page1:text"
+          ]
+        },
+        {
+          "region": "lower-right opening Results and Discussion",
+          "finding": "Two exploratory batches were identified: the Ref. 7-type conditions gave an unidentified inseparable mixture with expected 3a absent, and a distinct LiBr-free DMSO experiment at 60 °C for 2 h gave cis-4a (32%) and 5a (10%). Prose also supplies isolated yields for Table 1 entry 5 and the 5 mol% dppb loading for entry 9.",
+          "evidence_ids": [
+            "doc_1c07b578cf3ed9be:page1:image",
+            "doc_1c07b578cf3ed9be:page1:text",
+            "doc_1c07b578cf3ed9be:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_1c07b578cf3ed9be:scheme1_ref7_monoallene",
+        "doc_1c07b578cf3ed9be:scheme1_hypothetical_product3",
+        "doc_1c07b578cf3ed9be:scheme2_ref7_conditions_failure",
+        "doc_1c07b578cf3ed9be:scheme2_dmso_60c",
+        "doc_1c07b578cf3ed9be:table1_entry5",
+        "doc_1c07b578cf3ed9be:table1_entry9",
+        "doc_1c07b578cf3ed9be:table1_entry10"
+      ],
+      "unresolved": [
+        "Scheme 1 uses generic structures and omits catalyst identity/loading, time, temperature and yield for the cited branch.",
+        "The failed exploratory batch omits duration, quantities and identities of the mixture components.",
+        "The 60 °C DMSO batch has the same reported yields as Table 1 entry 1 at 70 °C; it was kept separate because the stated temperatures differ."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left Scheme 2",
+          "finding": "Both arrows were reconciled with the page-1 prose and represented once each: Pd(OAc)2/LiBr·H2O/BQ in HOAc at 60 °C gave an unidentified mixture with 3a not observed; [PdCl2(PhCN)2]/BQ in DMSO gave cis-4a and 5a.",
+          "evidence_ids": [
+            "doc_1c07b578cf3ed9be:page2:image",
+            "doc_1c07b578cf3ed9be:page2:text",
+            "doc_1c07b578cf3ed9be:page1:text"
+          ]
+        },
+        {
+          "region": "middle-left Table 1, reaction drawing, rows 1–11 and footnotes",
+          "finding": "All 11 optimization rows were extracted independently with shared 1a/2a/BQ/Pd loading, solvent volume, 70 °C, 2 h, argon/Schlenk conditions, NMR yield basis, product-specific yields, ligands, and literal 'not determined' outcomes. Entry 5 also retains prose-reported isolated yields.",
+          "evidence_ids": [
+            "doc_1c07b578cf3ed9be:page2:image",
+            "doc_1c07b578cf3ed9be:page2:text",
+            "doc_1c07b578cf3ed9be:page1:text"
+          ]
+        },
+        {
+          "region": "lower Scheme 3",
+          "finding": "The two RCM arrows were separated: cis-4c to cis-6a (10 mol% Grubbs 2nd, DCM reflux, 6 h, 83%) and cis-4g to cis-6b (same stated catalyst/solvent/temperature, 4 h, 67%).",
+          "evidence_ids": [
+            "doc_1c07b578cf3ed9be:page2:image",
+            "doc_1c07b578cf3ed9be:page2:text"
+          ]
+        },
+        {
+          "region": "right-column prose on racemic and optically active 2e–g",
+          "finding": "The explicitly reported racemic 2e result was retained as a diastereomeric mixture. Adjacent claims about enantioenriched substrates were linked to the three explicit Scheme 4 arrows on page 3 rather than duplicated here.",
+          "evidence_ids": [
+            "doc_1c07b578cf3ed9be:page2:image",
+            "doc_1c07b578cf3ed9be:page2:text",
+            "doc_1c07b578cf3ed9be:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_1c07b578cf3ed9be:scheme2_ref7_conditions_failure",
+        "doc_1c07b578cf3ed9be:scheme2_dmso_60c",
+        "doc_1c07b578cf3ed9be:table1_entry1",
+        "doc_1c07b578cf3ed9be:table1_entry2",
+        "doc_1c07b578cf3ed9be:table1_entry3",
+        "doc_1c07b578cf3ed9be:table1_entry4",
+        "doc_1c07b578cf3ed9be:table1_entry5",
+        "doc_1c07b578cf3ed9be:table1_entry6",
+        "doc_1c07b578cf3ed9be:table1_entry7",
+        "doc_1c07b578cf3ed9be:table1_entry8",
+        "doc_1c07b578cf3ed9be:table1_entry9",
+        "doc_1c07b578cf3ed9be:table1_entry10",
+        "doc_1c07b578cf3ed9be:table1_entry11",
+        "doc_1c07b578cf3ed9be:scheme3_rcm_6a",
+        "doc_1c07b578cf3ed9be:scheme3_rcm_6b",
+        "doc_1c07b578cf3ed9be:prose_racemic_2e_diastereomeric_mixture"
+      ],
+      "unresolved": [
+        "Table 1 entry 7 appears visually identical in catalyst, solvent and shared conditions to entry 5 but reports a different yield; no visible footnote explains the difference.",
+        "Table 1 does not explicitly state dppe/binap quantities for entries 10–11.",
+        "The racemic 2e sentence omits its coupling partner, detailed conditions, product labels, ratio and yield.",
+        "Scheme 3 does not state atmosphere, workup, purification or yield basis."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left Table 2, reaction drawing, rows 1–8 and footnotes",
+          "finding": "All eight substrate-scope rows were extracted independently with common catalyst, dppe, BQ, MeCN, argon, 70 °C and 2 h conditions and isolated product-specific yields. Row 1 is linked to the detailed page-4 batch rather than duplicated.",
+          "evidence_ids": [
+            "doc_1c07b578cf3ed9be:page3:image",
+            "doc_1c07b578cf3ed9be:page3:text",
+            "doc_1c07b578cf3ed9be:page4:image"
+          ]
+        },
+        {
+          "region": "middle-left Scheme 4a and 4b",
+          "finding": "Three arrows were extracted separately: (R)-2e (98.8% ee) with 1a to (R,S,R,R)-4i (63%), (S)-2f (98.1% ee) with 1d to (S,R,S,S)-4j (63%), and (S)-2g (87.7% ee) with 1d to (S,R,S,S)-4k (61%), each under the explicitly drawn Pd/dppe/BQ/MeCN, 70 °C, 2 h conditions.",
+          "evidence_ids": [
+            "doc_1c07b578cf3ed9be:page3:image",
+            "doc_1c07b578cf3ed9be:page3:text"
+          ]
+        },
+        {
+          "region": "right-column Figure 1 ORTEP panels a–c",
+          "finding": "ORTEP drawings for cis-4c, cis-6a and (S,R,S,S)-4k are structural characterization, not additional reaction batches; no duplicate records were created.",
+          "evidence_ids": [
+            "doc_1c07b578cf3ed9be:page3:image",
+            "doc_1c07b578cf3ed9be:page3:text"
+          ]
+        },
+        {
+          "region": "bottom mechanistic discussion continuing to page 4",
+          "finding": "The prose describes a proposed sequence through M1, M2-a/M2-b, cis-M3 and cis-M4. It was associated with the single Scheme 5 mechanism record, not treated as observed batch steps.",
+          "evidence_ids": [
+            "doc_1c07b578cf3ed9be:page3:image",
+            "doc_1c07b578cf3ed9be:page3:text",
+            "doc_1c07b578cf3ed9be:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_1c07b578cf3ed9be:table2_entry1",
+        "doc_1c07b578cf3ed9be:table2_entry2",
+        "doc_1c07b578cf3ed9be:table2_entry3",
+        "doc_1c07b578cf3ed9be:table2_entry4",
+        "doc_1c07b578cf3ed9be:table2_entry5",
+        "doc_1c07b578cf3ed9be:table2_entry6",
+        "doc_1c07b578cf3ed9be:table2_entry7",
+        "doc_1c07b578cf3ed9be:table2_entry8",
+        "doc_1c07b578cf3ed9be:scheme4_r2e_to_4i",
+        "doc_1c07b578cf3ed9be:scheme4_s2f_to_4j",
+        "doc_1c07b578cf3ed9be:scheme4_s2g_to_4k",
+        "doc_1c07b578cf3ed9be:scheme5_proposed_mechanism"
+      ],
+      "unresolved": [
+        "Table 2 entry 8 prints acid label 2a although its R1 = H and R2 = Me assignment matches 2b elsewhere; the source label was preserved without correction.",
+        "Most Table 2 rows lack batch workup and purification details because no SI was associated.",
+        "Scheme 4 omits substrate quantities, atmosphere, product ee, workup, purification and yield basis; absolute stereochemistry remains machine-unverified."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left Scheme 5",
+          "finding": "The complete catalytic cycle was classified as one proposed mechanism with six elementary steps (two anti-oxypalladations, inter-/intramolecular carbopalladation, reductive elimination and catalyst regeneration), not as six experiments.",
+          "evidence_ids": [
+            "doc_1c07b578cf3ed9be:page4:image",
+            "doc_1c07b578cf3ed9be:page4:text",
+            "doc_1c07b578cf3ed9be:page3:text"
+          ]
+        },
+        {
+          "region": "lower-left Experimental Section typical procedure",
+          "finding": "The detailed cis-4a batch was merged into Table 2 entry 1, adding exact masses/mmol, sequential addition under argon, 70 °C/TLC completion, CH2Cl2/K2CO3/water/Na2SO4 workup, silica chromatography, 76 mg product and 73% isolated yield.",
+          "evidence_ids": [
+            "doc_1c07b578cf3ed9be:page4:image",
+            "doc_1c07b578cf3ed9be:page4:text",
+            "doc_1c07b578cf3ed9be:page3:image"
+          ]
+        },
+        {
+          "region": "summary, acknowledgements and references 1–11",
+          "finding": "Summary statements and acknowledgements duplicate already represented scope claims; references are bibliographic context. Crystal data for cis-4c are characterization, not a reaction.",
+          "evidence_ids": [
+            "doc_1c07b578cf3ed9be:page4:image",
+            "doc_1c07b578cf3ed9be:page4:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_1c07b578cf3ed9be:scheme5_proposed_mechanism",
+        "doc_1c07b578cf3ed9be:table2_entry1"
+      ],
+      "unresolved": [
+        "The typical procedure states reaction completion by TLC rather than an elapsed time; the linked Table 2 arrow supplies 2 h.",
+        "The detailed quantities differ slightly from rounded/common Table 2 values (2a 0.59 vs 0.6 mmol; BQ 0.27 vs 0.25 mmol) and both source statements were retained.",
+        "No explicitly associated SI was provided, so characterization was not extended beyond the main-text paragraph."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left references 12–15",
+          "finding": "Crystal data for cis-6a and (S,R,S,S)-4k, the crude-NMR SI pointer, and a cited preparation of optically active acid are characterization/bibliographic context; no new reaction batch is stated.",
+          "evidence_ids": [
+            "doc_1c07b578cf3ed9be:page5:image",
+            "doc_1c07b578cf3ed9be:page5:text"
+          ]
+        },
+        {
+          "region": "upper-right references 15–17 and publication metadata",
+          "finding": "Continuation of crystallographic data plus citations concerning vinylpalladium intermediates and Pd/BQ oxidation; these support context only and do not add experiments of this paper.",
+          "evidence_ids": [
+            "doc_1c07b578cf3ed9be:page5:image",
+            "doc_1c07b578cf3ed9be:page5:text"
+          ]
+        },
+        {
+          "region": "remaining lower page",
+          "finding": "Blank publication-layout area; no figures, tables, arrows, footnotes or experimental prose present.",
+          "evidence_ids": [
+            "doc_1c07b578cf3ed9be:page5:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "The article points to Supporting Information, but no SI file was explicitly associated; no SI-only experiments or crude spectra were imported."
+      ]
+    }
+  ]
+}

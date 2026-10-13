@@ -1,0 +1,355 @@
+{
+  "document_id": "doc_78395315225fcab6",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 1 title, abstract, author block, and Supporting Information sentence",
+          "finding": "Article identity and aggregate 15–20-membered-macrocycle claim were inspected. The paper says SI is available, but source_mapping.json leaves SI association unestablished; no SI facts were imported.",
+          "evidence_ids": [
+            "doc_78395315225fcab6:page1:text",
+            "doc_78395315225fcab6:page1:image"
+          ]
+        },
+        {
+          "region": "page 1 left-column introduction",
+          "finding": "Macrocyclization methods, prior allene chemistry, and references 1–9 are literature/background. They do not uniquely restate external experiments and were not classified as current-paper records.",
+          "evidence_ids": [
+            "doc_78395315225fcab6:page1:text",
+            "doc_78395315225fcab6:page1:image"
+          ]
+        },
+        {
+          "region": "page 1 right-column Table 1 discussion",
+          "finding": "Narrative outcomes for Table 1 entries 1–14 were mapped to their row records, including separate E/Z isolated yields for entries 11, 13, and 14 and the distinct 1-g-scale entry 12. The prose label '1k' for the scale experiment conflicts with the Table 1 assignment to 1a and is left unresolved.",
+          "evidence_ids": [
+            "doc_78395315225fcab6:page1:text",
+            "doc_78395315225fcab6:page1:image"
+          ]
+        },
+        {
+          "region": "page 1 bottom-right equation (1) discussion",
+          "finding": "A distinct 1a/4-iodoanisole experiment was identified: expected (E)-3an 57%, (Z)-3an 3% by 1H NMR, and unexpected isolated (E)-3aa 9%; it is not merged with Table 1 by product identity.",
+          "evidence_ids": [
+            "doc_78395315225fcab6:page1:text",
+            "doc_78395315225fcab6:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_78395315225fcab6:table1_entry1",
+        "doc_78395315225fcab6:table1_entry2",
+        "doc_78395315225fcab6:table1_entry3",
+        "doc_78395315225fcab6:table1_entry4",
+        "doc_78395315225fcab6:table1_entry5",
+        "doc_78395315225fcab6:table1_entry6",
+        "doc_78395315225fcab6:table1_entry7",
+        "doc_78395315225fcab6:table1_entry8",
+        "doc_78395315225fcab6:table1_entry9",
+        "doc_78395315225fcab6:table1_entry10",
+        "doc_78395315225fcab6:table1_entry11",
+        "doc_78395315225fcab6:table1_entry12",
+        "doc_78395315225fcab6:table1_entry13",
+        "doc_78395315225fcab6:table1_entry14",
+        "doc_78395315225fcab6:eq1_anisyl_iodide"
+      ],
+      "unresolved": [
+        "The article's SI availability sentence does not establish a supplied/associated SI file.",
+        "The page-1 '1k' versus Table-1 '1a' conflict for the 1-g run cannot be resolved from pages 1–6.",
+        "The 57% (E)-3an yield basis is not explicitly stated."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 2 Table 1 reaction header and structures",
+          "finding": "Shared 1a/organic iodide/Pd(PPh3)4/K2CO3/DMA/N2/80 °C conditions, 2.0 equiv iodide, and E/Z macrocycle products were applied row-wise; structures were inspected but complex macrocycle SMILES remain unassigned.",
+          "evidence_ids": [
+            "doc_78395315225fcab6:page2:text",
+            "doc_78395315225fcab6:page2:image"
+          ]
+        },
+        {
+          "region": "page 2 Table 1 rows 1–14",
+          "finding": "Fourteen distinct scope experiments were retained with row times, crude-NMR E/Z ratios, isolated E yields, numeric Z yields where printed, and table dashes preserved for too-small-to-isolate Z fractions.",
+          "evidence_ids": [
+            "doc_78395315225fcab6:page2:text",
+            "doc_78395315225fcab6:page2:image"
+          ]
+        },
+        {
+          "region": "page 2 Table 1 footnotes a–h",
+          "finding": "0.067 M concentration, CH2Br2 internal standard, isolated-yield basis, Z-isomer isolation/contamination notes, 1-g scale, and the 4-equiv 2m override were structured on the corresponding rows.",
+          "evidence_ids": [
+            "doc_78395315225fcab6:page2:text",
+            "doc_78395315225fcab6:page2:image"
+          ]
+        },
+        {
+          "region": "page 2 lower equation (1)",
+          "finding": "The 4-iodoanisole experiment and three product-specific outcomes were retained separately from Table 1.",
+          "evidence_ids": [
+            "doc_78395315225fcab6:page2:text",
+            "doc_78395315225fcab6:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_78395315225fcab6:table1_entry1",
+        "doc_78395315225fcab6:table1_entry2",
+        "doc_78395315225fcab6:table1_entry3",
+        "doc_78395315225fcab6:table1_entry4",
+        "doc_78395315225fcab6:table1_entry5",
+        "doc_78395315225fcab6:table1_entry6",
+        "doc_78395315225fcab6:table1_entry7",
+        "doc_78395315225fcab6:table1_entry8",
+        "doc_78395315225fcab6:table1_entry9",
+        "doc_78395315225fcab6:table1_entry10",
+        "doc_78395315225fcab6:table1_entry11",
+        "doc_78395315225fcab6:table1_entry12",
+        "doc_78395315225fcab6:table1_entry13",
+        "doc_78395315225fcab6:table1_entry14",
+        "doc_78395315225fcab6:eq1_anisyl_iodide",
+        "doc_78395315225fcab6:scheme1_unexpected_E3aa_mechanism"
+      ],
+      "unresolved": [
+        "Complex source structures are machine-unverified; the E/Z labels are retained textually.",
+        "Table 1 does not give absolute reactant amounts except through the later detailed entry-1 procedure."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 3 upper-left Figure 1",
+          "finding": "ORTEP representation supports the reported (E)-3aa structure/configuration but is characterization, not a new preparation; it does not mark the machine structure verified.",
+          "evidence_ids": [
+            "doc_78395315225fcab6:page3:text",
+            "doc_78395315225fcab6:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 lower-left Scheme 1 and mechanism prose",
+          "finding": "The proposed IN-1/IN-2/IN-3 pathway for unexpected (E)-3aa was classified as mechanism, not separate observed experiments.",
+          "evidence_ids": [
+            "doc_78395315225fcab6:page3:text",
+            "doc_78395315225fcab6:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 Scheme 2 narrative",
+          "finding": "Three distinct heteroatom-tethered allene experiments were identified and linked to the page-4 arrows: 1b→(Z)-3ba, 1c→(E)-3ca, and 1d→(E)/(Z)-3da.",
+          "evidence_ids": [
+            "doc_78395315225fcab6:page3:text",
+            "doc_78395315225fcab6:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 Table 2 optimization discussion",
+          "finding": "Seven base/solvent rows were identified with distinct catalyst/base/solvent/time outcomes, yields and recoveries; row records cite the printed table on page 5.",
+          "evidence_ids": [
+            "doc_78395315225fcab6:page3:text",
+            "doc_78395315225fcab6:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 Table 3 and hydrogenation discussion",
+          "finding": "The shared optimized coupling conditions and Pd/C/H2 hydrogenation concept were linked to Table 3 rows 1–4 on page 6. Coupling and hydrogenation were retained as separate stages. Page-4 Table 4 prose experiments use the same hydrogenation context.",
+          "evidence_ids": [
+            "doc_78395315225fcab6:page3:text",
+            "doc_78395315225fcab6:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_78395315225fcab6:scheme1_unexpected_E3aa_mechanism",
+        "doc_78395315225fcab6:scheme2_1b",
+        "doc_78395315225fcab6:scheme2_1c",
+        "doc_78395315225fcab6:scheme2_1d",
+        "doc_78395315225fcab6:table2_entry1",
+        "doc_78395315225fcab6:table2_entry2",
+        "doc_78395315225fcab6:table2_entry3",
+        "doc_78395315225fcab6:table2_entry4",
+        "doc_78395315225fcab6:table2_entry5",
+        "doc_78395315225fcab6:table2_entry6",
+        "doc_78395315225fcab6:table2_entry7",
+        "doc_78395315225fcab6:table4_entry1_prose",
+        "doc_78395315225fcab6:table4_entry2_prose",
+        "doc_78395315225fcab6:table4_entry3_prose",
+        "doc_78395315225fcab6:table4_entry4_prose",
+        "doc_78395315225fcab6:table4_entry5_prose",
+        "doc_78395315225fcab6:table4_entry6_prose",
+        "doc_78395315225fcab6:table3_entry1_coupling",
+        "doc_78395315225fcab6:table3_entry1_hydrogenation",
+        "doc_78395315225fcab6:table3_entry2_coupling",
+        "doc_78395315225fcab6:table3_entry2_hydrogenation",
+        "doc_78395315225fcab6:table3_entry3_coupling",
+        "doc_78395315225fcab6:table3_entry3_hydrogenation",
+        "doc_78395315225fcab6:table3_entry4_coupling",
+        "doc_78395315225fcab6:table3_entry4_hydrogenation"
+      ],
+      "unresolved": [
+        "The Table 3 footnote [b] text for rows 1 and 4 is outside pages 1–6; exact catalyst overrides were not assigned.",
+        "Table 4 is not printed in this page range; only explicit page-4 prose facts were used."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 4 upper Scheme 2",
+          "finding": "Original arrows confirm three separate aza/oxa-macrocycle experiments with shared Pd(PPh3)4/K2CO3/DMA/N2/80 °C conditions, row times, yields, and the 1b crude-NMR Z/E result.",
+          "evidence_ids": [
+            "doc_78395315225fcab6:page4:text",
+            "doc_78395315225fcab6:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 lower-left Table 4 prose summary",
+          "finding": "Six distinct 3ha hydrogenation solvent/additive tests were retained from prose: two ineffective mixed solvents, a 0.1 mL CH2Cl2 test with ~95% recovery, 0.5-equiv CH2Cl2 with 5% recovery after 58 h, 0.5-equiv CHCl3 complete hydrogenation, and 1.0-equiv CHCl3 complete hydrogenation in 48 h.",
+          "evidence_ids": [
+            "doc_78395315225fcab6:page4:text",
+            "doc_78395315225fcab6:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 lower-right equation (2)",
+          "finding": "Distinct 1l/PhI coupling retained with Pd2(dba)3·CHCl3 5 mol%, TFP 10 mol%, K3PO4 4 equiv, DMA/N2/80 °C/12 h and separate isolated (E)-3la 69% and impure (Z)-3la 5% outcomes.",
+          "evidence_ids": [
+            "doc_78395315225fcab6:page4:text",
+            "doc_78395315225fcab6:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 conclusion",
+          "finding": "The conclusion summarizes method scope and chain-rigidity effects; it adds no independent experiment beyond the linked tables/schemes.",
+          "evidence_ids": [
+            "doc_78395315225fcab6:page4:text",
+            "doc_78395315225fcab6:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_78395315225fcab6:scheme2_1b",
+        "doc_78395315225fcab6:scheme2_1c",
+        "doc_78395315225fcab6:scheme2_1d",
+        "doc_78395315225fcab6:table4_entry1_prose",
+        "doc_78395315225fcab6:table4_entry2_prose",
+        "doc_78395315225fcab6:table4_entry3_prose",
+        "doc_78395315225fcab6:table4_entry4_prose",
+        "doc_78395315225fcab6:table4_entry5_prose",
+        "doc_78395315225fcab6:table4_entry6_prose",
+        "doc_78395315225fcab6:eq2_substrate_1l"
+      ],
+      "unresolved": [
+        "The Table 4 prose omits some row times, scales, and absolute solvent volumes.",
+        "The (Z)-3la fraction is only approximately 86% pure; impurity identity/composition is not stated."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 5 upper-left Table 2 rows 1–7 and footnotes",
+          "finding": "Seven independent base/solvent optimization experiments were retained with catalyst override, 0.067 M/0.1–0.2 mmol scale, row yields/E:Z/recoveries, NMR basis, and the 12 h entry-5 override.",
+          "evidence_ids": [
+            "doc_78395315225fcab6:page5:text",
+            "doc_78395315225fcab6:page5:image"
+          ]
+        },
+        {
+          "region": "page 5 lower-left regioselectivity prose",
+          "finding": "The anti-allylic-palladium steric rationale was classified as a mechanism. The referenced Scheme 3 drawing lies outside pages 1–6 and was not claimed as visually covered.",
+          "evidence_ids": [
+            "doc_78395315225fcab6:page5:text",
+            "doc_78395315225fcab6:page5:image"
+          ]
+        },
+        {
+          "region": "page 5 right-column General Experimental Methods",
+          "finding": "Analytical instruments, solvent drying, chromatography, and commercial-source statements were reviewed as general materials context, not independent reactions.",
+          "evidence_ids": [
+            "doc_78395315225fcab6:page5:text",
+            "doc_78395315225fcab6:page5:image"
+          ]
+        },
+        {
+          "region": "page 5 right-column Typical Procedure I",
+          "finding": "Exact entry-1 quantities, sequential charging, nitrogen atmosphere, TLC, workup, chromatography, 119.7 mg/82%, and crude E/Z 95/5 were merged with Table 1 entry 1 rather than duplicated.",
+          "evidence_ids": [
+            "doc_78395315225fcab6:page5:text",
+            "doc_78395315225fcab6:page5:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_78395315225fcab6:table2_entry1",
+        "doc_78395315225fcab6:table2_entry2",
+        "doc_78395315225fcab6:table2_entry3",
+        "doc_78395315225fcab6:table2_entry4",
+        "doc_78395315225fcab6:table2_entry5",
+        "doc_78395315225fcab6:table2_entry6",
+        "doc_78395315225fcab6:table2_entry7",
+        "doc_78395315225fcab6:scheme3_regioselectivity_rationale_prose",
+        "doc_78395315225fcab6:table1_entry1"
+      ],
+      "unresolved": [
+        "The referenced Scheme 3 image is outside this session's page range.",
+        "General methods do not establish experiment-specific workups for rows lacking a detailed procedure."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 6 Table 3 shared reaction header",
+          "finding": "The page shows the coupling followed by H2/Pd-C hydrogenation sequence. Shared standard conditions were applied only where no visible footnote marker signaled an override; each successive stage is a separate record.",
+          "evidence_ids": [
+            "doc_78395315225fcab6:page6:text",
+            "doc_78395315225fcab6:page6:image"
+          ]
+        },
+        {
+          "region": "page 6 Table 3 entries 1–4, coupling products",
+          "finding": "Four coupling experiments were retained with row substrate, macrocycle, 12/14 h time, isolated yield, and E/Z ratio. Rows 1 and 4 carry footnote [b], whose exact text is outside pages 1–6 and remains unresolved.",
+          "evidence_ids": [
+            "doc_78395315225fcab6:page6:text",
+            "doc_78395315225fcab6:page6:image"
+          ]
+        },
+        {
+          "region": "page 6 Table 3 entries 1–4, hydrogenation products",
+          "finding": "Four downstream hydrogenations were retained separately with H2 30 bar, Pd/C 10 mol%, room temperature, 48 h, row solvent pair, and isolated yield from product 3.",
+          "evidence_ids": [
+            "doc_78395315225fcab6:page6:text",
+            "doc_78395315225fcab6:page6:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_78395315225fcab6:table3_entry1_coupling",
+        "doc_78395315225fcab6:table3_entry1_hydrogenation",
+        "doc_78395315225fcab6:table3_entry2_coupling",
+        "doc_78395315225fcab6:table3_entry2_hydrogenation",
+        "doc_78395315225fcab6:table3_entry3_coupling",
+        "doc_78395315225fcab6:table3_entry3_hydrogenation",
+        "doc_78395315225fcab6:table3_entry4_coupling",
+        "doc_78395315225fcab6:table3_entry4_hydrogenation"
+      ],
+      "unresolved": [
+        "Table 3 continues on page 7, which is not claimed as covered.",
+        "Footnote [b] details for rows 1 and 4 are not printed on page 6.",
+        "Absolute scales, solvent volumes, workups, purification, and product masses are not printed for these rows."
+      ]
+    }
+  ]
+}

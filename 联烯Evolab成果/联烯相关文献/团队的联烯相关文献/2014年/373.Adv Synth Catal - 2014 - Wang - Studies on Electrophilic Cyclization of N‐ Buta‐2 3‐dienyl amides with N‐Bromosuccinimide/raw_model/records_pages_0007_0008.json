@@ -1,0 +1,4058 @@
+[
+  {
+    "record_id": "doc_892bf8dbc8e4e9f1:scheme3_elimination_3b",
+    "document_id": "doc_892bf8dbc8e4e9f1",
+    "source_reaction_id": "scheme3_elimination_3b",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_892bf8dbc8e4e9f1:page3:text",
+      "doc_892bf8dbc8e4e9f1:page3:image",
+      "doc_892bf8dbc8e4e9f1:page6:text",
+      "doc_892bf8dbc8e4e9f1:page6:image",
+      "doc_892bf8dbc8e4e9f1:page7:text",
+      "doc_892bf8dbc8e4e9f1:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "reactant_2c",
+        "role": "product",
+        "label": {
+          "value": "2c",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "5-(1-brovinyl)-2-(4-methoxycarbonylphenyl)-4,5-dihydrooxazole",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C(Br)C1CN=C(c2ccc(C(=O)OC)cc2)O1",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 312.1,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page6:text",
+                "doc_892bf8dbc8e4e9f1:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "mass"
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page6:text",
+                "doc_892bf8dbc8e4e9f1:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "tbaf3h2o",
+        "role": "reagent",
+        "label": {
+          "value": "TBAF·3H2O",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrabutylammonium fluoride trihydrate",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 3.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          },
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 945.3,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page6:text",
+                "doc_892bf8dbc8e4e9f1:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "mass"
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 3.0,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page6:text",
+                "doc_892bf8dbc8e4e9f1:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent_dmf",
+        "role": "solvent",
+        "label": {
+          "value": "DMF",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N,N-dimethylformamide",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CN(C)C=O",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page6:text",
+                "doc_892bf8dbc8e4e9f1:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "volume"
+          }
+        ]
+      },
+      {
+        "entity_id": "product_3b",
+        "role": "product",
+        "label": {
+          "value": "3b",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image",
+            "doc_892bf8dbc8e4e9f1:page7:text",
+            "doc_892bf8dbc8e4e9f1:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "5-ethynyl-2-(4-methoxycarbonylphenyl)-4,5-dihydrooxazole",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image",
+            "doc_892bf8dbc8e4e9f1:page7:text",
+            "doc_892bf8dbc8e4e9f1:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C#CC1CN=C(c2ccc(C(=O)OC)cc2)O1",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image",
+            "doc_892bf8dbc8e4e9f1:page7:text",
+            "doc_892bf8dbc8e4e9f1:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "isolated_mass",
+            "fact": {
+              "value": {
+                "number": 188.5,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page6:text",
+                "doc_892bf8dbc8e4e9f1:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "mass"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "TBAF_promoted_HBr_elimination",
+        "participant_ids": [
+          "reactant_2c",
+          "tbaf3h2o",
+          "solvent_dmf"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 100,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image",
+                "doc_892bf8dbc8e4e9f1:page6:text",
+                "doc_892bf8dbc8e4e9f1:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 7.5,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          },
+          {
+            "name": "monitoring",
+            "fact": {
+              "value": "TLC",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page6:text",
+                "doc_892bf8dbc8e4e9f1:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": "filter through a short pad of silica gel eluted with ether (50 mL), then evaporate",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page6:text",
+                "doc_892bf8dbc8e4e9f1:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "workup"
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": "silica-gel chromatography; petroleum ether/ethyl acetate = 10:1 to 5:1",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page6:text",
+                "doc_892bf8dbc8e4e9f1:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "purification"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 82,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3b"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3b"
+        ],
+        "category": "measurement_basis"
+      },
+      {
+        "name": "isolated_product_mass",
+        "fact": {
+          "value": {
+            "number": 188.5,
+            "unit": "mg"
+          },
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3b"
+        ],
+        "category": "mass"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 3 and the matching page-6 procedure are merged when both fall within pages 1–6.",
+        "evidence_ids": [
+          "doc_892bf8dbc8e4e9f1:page3:text",
+          "doc_892bf8dbc8e4e9f1:page3:image",
+          "doc_892bf8dbc8e4e9f1:page6:text",
+          "doc_892bf8dbc8e4e9f1:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "PDF page 7 continues characterization of the same 3b preparation begun on page 6; it does not describe a second elimination experiment.",
+        "evidence_ids": [
+          "doc_892bf8dbc8e4e9f1:page7:text",
+          "doc_892bf8dbc8e4e9f1:page7:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The page-7 acknowledgement states that Mr. Shangze Wu reproduced the preparation of 3b; no independent conditions or outcome are supplied, so no duplicate record is created.",
+        "evidence_ids": [
+          "doc_892bf8dbc8e4e9f1:page7:text",
+          "doc_892bf8dbc8e4e9f1:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The associated Supporting Information remains unestablished; no SI facts were used or inferred.",
+        "Candidate structures remain structure_verified=false; characterization and reproduction do not independently certify chemical correctness."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_892bf8dbc8e4e9f1:scheme3_elimination_3c",
+    "document_id": "doc_892bf8dbc8e4e9f1",
+    "source_reaction_id": "scheme3_elimination_3c",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_892bf8dbc8e4e9f1:page3:text",
+      "doc_892bf8dbc8e4e9f1:page3:image",
+      "doc_892bf8dbc8e4e9f1:page6:text",
+      "doc_892bf8dbc8e4e9f1:page6:image",
+      "doc_892bf8dbc8e4e9f1:page7:text",
+      "doc_892bf8dbc8e4e9f1:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "reactant_2g",
+        "role": "reactant",
+        "label": {
+          "value": "2g",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "5-(1-brovinyl)-2-(4-(trifluoromethyl)phenyl)-4,5-dihydrooxazole",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C(Br)C1CN=C(c2ccc(C(F)(F)F)cc2)O1",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 321.5,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "tbaf3h2o",
+        "role": "reagent",
+        "label": {
+          "value": "TBAF·3H2O",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrabutylammonium fluoride trihydrate",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 949.5,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 3.0,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 3.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image",
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent_dmf",
+        "role": "solvent",
+        "label": {
+          "value": "DMF",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N,N-dimethylformamide",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CN(C)C=O",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_3c",
+        "role": "product",
+        "label": {
+          "value": "3c",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "5-ethynyl-2-(4-(trifluoromethyl)phenyl)-4,5-dihydrooxazole",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C#CC1CN=C(c2ccc(C(F)(F)F)cc2)O1",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page7:text",
+            "doc_892bf8dbc8e4e9f1:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "isolated_mass",
+            "fact": {
+              "value": {
+                "number": 139.4,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "TBAF_promoted_HBr_elimination",
+        "participant_ids": [
+          "reactant_2g",
+          "tbaf3h2o",
+          "solvent_dmf"
+        ],
+        "conditions": [
+          {
+            "name": "procedure_assignment",
+            "fact": {
+              "value": "Typical Procedure II",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page6:text",
+                "doc_892bf8dbc8e4e9f1:page6:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_vessel",
+            "fact": {
+              "value": "dry Schlenk tube",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page6:text",
+                "doc_892bf8dbc8e4e9f1:page6:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 100,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image",
+                "doc_892bf8dbc8e4e9f1:page6:text",
+                "doc_892bf8dbc8e4e9f1:page6:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 5.0,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "monitoring",
+            "fact": {
+              "value": "TLC",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page6:text",
+                "doc_892bf8dbc8e4e9f1:page6:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": "filter through a short pad of silica gel eluted with ether (50 mL), then evaporate",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page6:text",
+                "doc_892bf8dbc8e4e9f1:page6:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": "silica-gel chromatography; petroleum ether/ethyl acetate = 10:1",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 58,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page7:text",
+            "doc_892bf8dbc8e4e9f1:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3c"
+        ]
+      },
+      {
+        "name": "isolated_product_mass",
+        "fact": {
+          "value": {
+            "number": 139.4,
+            "unit": "mg"
+          },
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page7:text",
+            "doc_892bf8dbc8e4e9f1:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3c"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated yield after silica-gel chromatography",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image",
+            "doc_892bf8dbc8e4e9f1:page7:text",
+            "doc_892bf8dbc8e4e9f1:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3c"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 3, Typical Procedure II, and the page-7 compound paragraph describe the same 2g-to-3c experiment and are merged rather than duplicated.",
+        "evidence_ids": [
+          "doc_892bf8dbc8e4e9f1:page3:text",
+          "doc_892bf8dbc8e4e9f1:page3:image",
+          "doc_892bf8dbc8e4e9f1:page6:text",
+          "doc_892bf8dbc8e4e9f1:page6:image",
+          "doc_892bf8dbc8e4e9f1:page7:text",
+          "doc_892bf8dbc8e4e9f1:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The associated Supporting Information remains unestablished; no SI facts were used or inferred.",
+        "The product SMILES is a machine candidate derived from the fully specified source name/scheme and remains structure_verified=false pending expert review."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_892bf8dbc8e4e9f1:scheme3_CN_coupling_4a",
+    "document_id": "doc_892bf8dbc8e4e9f1",
+    "source_reaction_id": "scheme3_CN_coupling_4a",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_892bf8dbc8e4e9f1:page3:text",
+      "doc_892bf8dbc8e4e9f1:page3:image",
+      "doc_892bf8dbc8e4e9f1:page7:text",
+      "doc_892bf8dbc8e4e9f1:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "reactant_2a",
+        "role": "reactant",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "5-(1-brovinyl)-2-(phenyl)-4,5-dihydrooxazole",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C(Br)C1CN=C(c2ccccc2)O1",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 252.2,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "indole",
+        "role": "reactant",
+        "label": {
+          "value": "indole",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1H-indole",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "c1ccc2[nH]ccc2c1",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 235.9,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image",
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "cui",
+        "role": "catalyst",
+        "label": {
+          "value": "CuI",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(I) iodide",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Cu]I",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 38.5,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.2,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 20,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image",
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "et2nh",
+        "role": "reagent",
+        "label": {
+          "value": "Et2NH",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "diethylamine",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCNCC",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 27.4,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.4,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 40,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image",
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "k3po4",
+        "role": "reagent",
+        "label": {
+          "value": "K3PO4",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "potassium phosphate",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[K+].[K+].[K+].[O-]P([O-])([O-])=O",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 423.7,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image",
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent_dioxane",
+        "role": "solvent",
+        "label": {
+          "value": "1,4-dioxane",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,4-dioxane",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C1COCCO1",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_4a",
+        "role": "product",
+        "label": {
+          "value": "4a",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "5-[1-(1H-indol-1-yl)vinyl]-2-(phenyl)-4,5-dihydrooxazole",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C(n1ccc2ccccc21)C1CN=C(c2ccccc2)O1",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page7:text",
+            "doc_892bf8dbc8e4e9f1:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "isolated_mass",
+            "fact": {
+              "value": {
+                "number": 249.5,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "CuI_catalyzed_CN_coupling",
+        "participant_ids": [
+          "reactant_2a",
+          "indole",
+          "cui",
+          "et2nh",
+          "k3po4",
+          "solvent_dioxane"
+        ],
+        "conditions": [
+          {
+            "name": "procedure_assignment",
+            "fact": {
+              "value": "Typical Procedure III",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_vessel",
+            "fact": {
+              "value": "screw-capped reaction tube with a Teflon-lined septum",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "tube evacuated and backfilled with argon three times; additions made under argon",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "sealing_operation",
+            "fact": {
+              "value": "reaction tube sealed before heating",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 130,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 48,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": "filter through a short pad of silica gel eluted with ethyl acetate (50 mL), then evaporate",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": "silica-gel chromatography; petroleum ether/ethyl acetate = 20:1 to 10:1 to 5:1",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 86,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page7:text",
+            "doc_892bf8dbc8e4e9f1:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_4a"
+        ]
+      },
+      {
+        "name": "isolated_product_mass",
+        "fact": {
+          "value": {
+            "number": 249.5,
+            "unit": "mg"
+          },
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page7:text",
+            "doc_892bf8dbc8e4e9f1:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_4a"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated yield after silica-gel chromatography",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page7:text",
+            "doc_892bf8dbc8e4e9f1:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_4a"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 3 and the matching page-7 Typical Procedure III/compound paragraph describe the same experiment and are merged rather than duplicated.",
+        "evidence_ids": [
+          "doc_892bf8dbc8e4e9f1:page3:text",
+          "doc_892bf8dbc8e4e9f1:page3:image",
+          "doc_892bf8dbc8e4e9f1:page7:text",
+          "doc_892bf8dbc8e4e9f1:page7:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Diethylamine is explicitly described by the article as the ligand; the schema retains it as a reagent with its 40 mol% loading.",
+        "evidence_ids": [
+          "doc_892bf8dbc8e4e9f1:page3:text",
+          "doc_892bf8dbc8e4e9f1:page3:image",
+          "doc_892bf8dbc8e4e9f1:page7:text",
+          "doc_892bf8dbc8e4e9f1:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The associated Supporting Information remains unestablished; no SI facts were used or inferred.",
+        "The product SMILES is a machine candidate derived from the fully specified source name and Scheme 3; it remains structure_verified=false pending expert review.",
+        "The source says the reaction was complete but does not identify the completion-monitoring method."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_892bf8dbc8e4e9f1:scheme3_CN_coupling_4b",
+    "document_id": "doc_892bf8dbc8e4e9f1",
+    "source_reaction_id": "scheme3_CN_coupling_4b",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_892bf8dbc8e4e9f1:page3:text",
+      "doc_892bf8dbc8e4e9f1:page3:image",
+      "doc_892bf8dbc8e4e9f1:page7:text",
+      "doc_892bf8dbc8e4e9f1:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "reactant_2g",
+        "role": "reactant",
+        "label": {
+          "value": "2g",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "5-(1-brovinyl)-2-(4-(trifluoromethyl)phenyl)-4,5-dihydrooxazole",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C(Br)C1CN=C(c2ccc(C(F)(F)F)cc2)O1",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 321.2,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "indole",
+        "role": "reactant",
+        "label": {
+          "value": "indole",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1H-indole",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "c1ccc2[nH]ccc2c1",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 234.3,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image",
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "cui",
+        "role": "catalyst",
+        "label": {
+          "value": "CuI",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(I) iodide",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Cu]I",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 38.5,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.2,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 20,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image",
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "et2nh",
+        "role": "reagent",
+        "label": {
+          "value": "Et2NH",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "diethylamine",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCNCC",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 28.9,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.4,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 40,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image",
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "k3po4",
+        "role": "reagent",
+        "label": {
+          "value": "K3PO4",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "potassium phosphate",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[K+].[K+].[K+].[O-]P([O-])([O-])=O",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 423.1,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image",
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent_dioxane",
+        "role": "solvent",
+        "label": {
+          "value": "1,4-dioxane",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,4-dioxane",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C1COCCO1",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_4b",
+        "role": "product",
+        "label": {
+          "value": "4b",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "5-[1-(1H-indol-1-yl)vinyl]-2-(4-(trifluoromethyl)phenyl)-4,5-dihydrooxazole",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C(n1ccc2ccccc21)C1CN=C(c2ccc(C(F)(F)F)cc2)O1",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page7:text",
+            "doc_892bf8dbc8e4e9f1:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "isolated_mass",
+            "fact": {
+              "value": {
+                "number": 233.2,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "CuI_catalyzed_CN_coupling",
+        "participant_ids": [
+          "reactant_2g",
+          "indole",
+          "cui",
+          "et2nh",
+          "k3po4",
+          "solvent_dioxane"
+        ],
+        "conditions": [
+          {
+            "name": "procedure_assignment",
+            "fact": {
+              "value": "Typical Procedure III",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_vessel",
+            "fact": {
+              "value": "screw-capped reaction tube with a Teflon-lined septum",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "tube evacuated and backfilled with argon three times; additions made under argon",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "sealing_operation",
+            "fact": {
+              "value": "reaction tube sealed before heating",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 130,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 48,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": "filter through a short pad of silica gel eluted with ethyl acetate (50 mL), then evaporate",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": "silica-gel chromatography; petroleum ether/ethyl acetate = 10:1 to 5:1",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 65,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page7:text",
+            "doc_892bf8dbc8e4e9f1:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_4b"
+        ]
+      },
+      {
+        "name": "isolated_product_mass",
+        "fact": {
+          "value": {
+            "number": 233.2,
+            "unit": "mg"
+          },
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page7:text",
+            "doc_892bf8dbc8e4e9f1:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_4b"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated yield after silica-gel chromatography",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page7:text",
+            "doc_892bf8dbc8e4e9f1:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_4b"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 3 and the matching page-7 Typical Procedure III/compound paragraph describe the same experiment and are merged rather than duplicated.",
+        "evidence_ids": [
+          "doc_892bf8dbc8e4e9f1:page3:text",
+          "doc_892bf8dbc8e4e9f1:page3:image",
+          "doc_892bf8dbc8e4e9f1:page7:text",
+          "doc_892bf8dbc8e4e9f1:page7:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Diethylamine is explicitly described by the article as the ligand; the schema retains it as a reagent with its 40 mol% loading.",
+        "evidence_ids": [
+          "doc_892bf8dbc8e4e9f1:page3:text",
+          "doc_892bf8dbc8e4e9f1:page3:image",
+          "doc_892bf8dbc8e4e9f1:page7:text",
+          "doc_892bf8dbc8e4e9f1:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The associated Supporting Information remains unestablished; no SI facts were used or inferred.",
+        "The product SMILES is a machine candidate derived from the fully specified source name and Scheme 3; it remains structure_verified=false pending expert review.",
+        "The source says the reaction was complete but does not identify the completion-monitoring method."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_892bf8dbc8e4e9f1:scheme3_CN_coupling_4c",
+    "document_id": "doc_892bf8dbc8e4e9f1",
+    "source_reaction_id": "scheme3_CN_coupling_4c",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_892bf8dbc8e4e9f1:page3:text",
+      "doc_892bf8dbc8e4e9f1:page3:image",
+      "doc_892bf8dbc8e4e9f1:page7:text",
+      "doc_892bf8dbc8e4e9f1:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "reactant_2e",
+        "role": "reactant",
+        "label": {
+          "value": "2e",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "5-(1-brovinyl)-2-(3,5-dichlorophenyl)-4,5-dihydrooxazole",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C(Br)C1CN=C(c2cc(Cl)cc(Cl)c2)O1",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 321.8,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "indole",
+        "role": "reactant",
+        "label": {
+          "value": "indole",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1H-indole",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "c1ccc2[nH]ccc2c1",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 233.1,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image",
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "cui",
+        "role": "catalyst",
+        "label": {
+          "value": "CuI",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(I) iodide",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Cu]I",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 38.6,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.2,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 20,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image",
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "et2nh",
+        "role": "reagent",
+        "label": {
+          "value": "Et2NH",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "diethylamine",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCNCC",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 31.0,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.4,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 40,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image",
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "k3po4",
+        "role": "reagent",
+        "label": {
+          "value": "K3PO4",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "potassium phosphate",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[K+].[K+].[K+].[O-]P([O-])([O-])=O",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 423.1,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image",
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent_dioxane",
+        "role": "solvent",
+        "label": {
+          "value": "1,4-dioxane",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,4-dioxane",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C1COCCO1",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_4c",
+        "role": "product",
+        "label": {
+          "value": "4c",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "5-[1-(1H-indol-1-yl)vinyl]-2-(3,5-dichlorophenyl)-4,5-dihydrooxazole",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C(n1ccc2ccccc21)C1CN=C(c2cc(Cl)cc(Cl)c2)O1",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page7:text",
+            "doc_892bf8dbc8e4e9f1:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "isolated_mass",
+            "fact": {
+              "value": {
+                "number": 281.2,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "CuI_catalyzed_CN_coupling",
+        "participant_ids": [
+          "reactant_2e",
+          "indole",
+          "cui",
+          "et2nh",
+          "k3po4",
+          "solvent_dioxane"
+        ],
+        "conditions": [
+          {
+            "name": "procedure_assignment",
+            "fact": {
+              "value": "Typical Procedure III",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_vessel",
+            "fact": {
+              "value": "screw-capped reaction tube with a Teflon-lined septum",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "tube evacuated and backfilled with argon three times; additions made under argon",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "sealing_operation",
+            "fact": {
+              "value": "reaction tube sealed before heating",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 130,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 48,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": "filter through a short pad of silica gel eluted with ethyl acetate (50 mL), then evaporate",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": "two rounds of silica-gel chromatography; petroleum ether/ethyl acetate = 20:1 to 10:1 in each round",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page7:text",
+                "doc_892bf8dbc8e4e9f1:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 78,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page7:text",
+            "doc_892bf8dbc8e4e9f1:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_4c"
+        ]
+      },
+      {
+        "name": "isolated_product_mass",
+        "fact": {
+          "value": {
+            "number": 281.2,
+            "unit": "mg"
+          },
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page7:text",
+            "doc_892bf8dbc8e4e9f1:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_4c"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated yield after silica-gel chromatography",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page7:text",
+            "doc_892bf8dbc8e4e9f1:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_4c"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 3 and the matching page-7 Typical Procedure III/compound paragraph describe the same experiment and are merged rather than duplicated.",
+        "evidence_ids": [
+          "doc_892bf8dbc8e4e9f1:page3:text",
+          "doc_892bf8dbc8e4e9f1:page3:image",
+          "doc_892bf8dbc8e4e9f1:page7:text",
+          "doc_892bf8dbc8e4e9f1:page7:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Diethylamine is explicitly described by the article as the ligand; the schema retains it as a reagent with its 40 mol% loading.",
+        "evidence_ids": [
+          "doc_892bf8dbc8e4e9f1:page3:text",
+          "doc_892bf8dbc8e4e9f1:page3:image",
+          "doc_892bf8dbc8e4e9f1:page7:text",
+          "doc_892bf8dbc8e4e9f1:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The associated Supporting Information remains unestablished; no SI facts were used or inferred.",
+        "The product SMILES is a machine candidate derived from the fully specified source name and Scheme 3; it remains structure_verified=false pending expert review.",
+        "The source says the reaction was complete but does not identify the completion-monitoring method."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_892bf8dbc8e4e9f1:scope_1f_to_2f",
+    "document_id": "doc_892bf8dbc8e4e9f1",
+    "source_reaction_id": "scope_1f_to_2f",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_892bf8dbc8e4e9f1:page2:text",
+      "doc_892bf8dbc8e4e9f1:page2:image",
+      "doc_892bf8dbc8e4e9f1:page4:text",
+      "doc_892bf8dbc8e4e9f1:page4:image",
+      "doc_892bf8dbc8e4e9f1:page5:text",
+      "doc_892bf8dbc8e4e9f1:page5:image",
+      "doc_892bf8dbc8e4e9f1:page7:text",
+      "doc_892bf8dbc8e4e9f1:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1f",
+        "role": "reactant",
+        "label": {
+          "value": "1f",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page5:text",
+            "doc_892bf8dbc8e4e9f1:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N-(buta-2,3-dienyl)amide 1f (4-chlorophenyl)",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page5:text",
+            "doc_892bf8dbc8e4e9f1:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=CCNC(=O)c1ccc(Cl)cc1",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page5:text",
+            "doc_892bf8dbc8e4e9f1:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 207.1,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page2:text",
+                "doc_892bf8dbc8e4e9f1:page2:image",
+                "doc_892bf8dbc8e4e9f1:page4:text",
+                "doc_892bf8dbc8e4e9f1:page4:image",
+                "doc_892bf8dbc8e4e9f1:page5:text",
+                "doc_892bf8dbc8e4e9f1:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "mass"
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page2:text",
+                "doc_892bf8dbc8e4e9f1:page2:image",
+                "doc_892bf8dbc8e4e9f1:page4:text",
+                "doc_892bf8dbc8e4e9f1:page4:image",
+                "doc_892bf8dbc8e4e9f1:page5:text",
+                "doc_892bf8dbc8e4e9f1:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "electrophile",
+        "role": "reactant",
+        "label": {
+          "value": "NBS",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page5:text",
+            "doc_892bf8dbc8e4e9f1:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N-bromosuccinimide",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page5:text",
+            "doc_892bf8dbc8e4e9f1:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O=C1CCC(=O)N1Br",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page5:text",
+            "doc_892bf8dbc8e4e9f1:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.2,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page2:text",
+                "doc_892bf8dbc8e4e9f1:page2:image",
+                "doc_892bf8dbc8e4e9f1:page4:text",
+                "doc_892bf8dbc8e4e9f1:page4:image",
+                "doc_892bf8dbc8e4e9f1:page5:text",
+                "doc_892bf8dbc8e4e9f1:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1.2,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page2:text",
+                "doc_892bf8dbc8e4e9f1:page2:image",
+                "doc_892bf8dbc8e4e9f1:page4:text",
+                "doc_892bf8dbc8e4e9f1:page4:image",
+                "doc_892bf8dbc8e4e9f1:page5:text",
+                "doc_892bf8dbc8e4e9f1:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          },
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 213.9,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page2:text",
+                "doc_892bf8dbc8e4e9f1:page2:image",
+                "doc_892bf8dbc8e4e9f1:page4:text",
+                "doc_892bf8dbc8e4e9f1:page4:image",
+                "doc_892bf8dbc8e4e9f1:page5:text",
+                "doc_892bf8dbc8e4e9f1:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "mass"
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent_mecn",
+        "role": "solvent",
+        "label": {
+          "value": "CH3CN",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page5:text",
+            "doc_892bf8dbc8e4e9f1:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "acetonitrile",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page5:text",
+            "doc_892bf8dbc8e4e9f1:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC#N",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page5:text",
+            "doc_892bf8dbc8e4e9f1:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page2:text",
+                "doc_892bf8dbc8e4e9f1:page2:image",
+                "doc_892bf8dbc8e4e9f1:page4:text",
+                "doc_892bf8dbc8e4e9f1:page4:image",
+                "doc_892bf8dbc8e4e9f1:page5:text",
+                "doc_892bf8dbc8e4e9f1:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "volume"
+          }
+        ]
+      },
+      {
+        "entity_id": "product_2f",
+        "role": "product",
+        "label": {
+          "value": "2f",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page5:text",
+            "doc_892bf8dbc8e4e9f1:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "5-(1-brovinyl)-2-(4-chlorophenyl)-4,5-dihydrooxazole",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page5:text",
+            "doc_892bf8dbc8e4e9f1:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C(Br)C1CN=C(c2ccc(Cl)cc2)O1",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page5:text",
+            "doc_892bf8dbc8e4e9f1:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "isolated_mass",
+            "fact": {
+              "value": {
+                "number": 231.5,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page2:text",
+                "doc_892bf8dbc8e4e9f1:page2:image",
+                "doc_892bf8dbc8e4e9f1:page4:text",
+                "doc_892bf8dbc8e4e9f1:page4:image",
+                "doc_892bf8dbc8e4e9f1:page5:text",
+                "doc_892bf8dbc8e4e9f1:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "mass"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "standard_NBS_bromocyclization",
+        "participant_ids": [
+          "substrate_1f",
+          "electrophile",
+          "solvent_mecn"
+        ],
+        "conditions": [
+          {
+            "name": "procedure_assignment",
+            "fact": {
+              "value": "Typical Procedure I",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page4:text",
+                "doc_892bf8dbc8e4e9f1:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "reaction_vessel",
+            "fact": {
+              "value": "dry oven-dried Schlenk tube",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page4:text",
+                "doc_892bf8dbc8e4e9f1:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "argon",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page4:text",
+                "doc_892bf8dbc8e4e9f1:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "atmosphere"
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page2:text",
+                "doc_892bf8dbc8e4e9f1:page2:image",
+                "doc_892bf8dbc8e4e9f1:page4:text",
+                "doc_892bf8dbc8e4e9f1:page4:image",
+                "doc_892bf8dbc8e4e9f1:page5:text",
+                "doc_892bf8dbc8e4e9f1:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "min"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page2:text",
+                "doc_892bf8dbc8e4e9f1:page2:image",
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          },
+          {
+            "name": "monitoring",
+            "fact": {
+              "value": "TLC",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page4:text",
+                "doc_892bf8dbc8e4e9f1:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": "quench with saturated aqueous NaHCO3 and Na2S2O3; extract with ether; dry over anhydrous MgSO4; filter and evaporate",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page4:text",
+                "doc_892bf8dbc8e4e9f1:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "workup"
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": "silica-gel chromatography; petroleum ether/ethyl acetate = 20:1 to 10:1",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page2:text",
+                "doc_892bf8dbc8e4e9f1:page2:image",
+                "doc_892bf8dbc8e4e9f1:page4:text",
+                "doc_892bf8dbc8e4e9f1:page4:image",
+                "doc_892bf8dbc8e4e9f1:page5:text",
+                "doc_892bf8dbc8e4e9f1:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "purification"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 80,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page5:text",
+            "doc_892bf8dbc8e4e9f1:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_2f"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "isolated_product_mass",
+        "fact": {
+          "value": {
+            "number": 231.5,
+            "unit": "mg"
+          },
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page5:text",
+            "doc_892bf8dbc8e4e9f1:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_2f"
+        ],
+        "category": "mass"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated yield after silica-gel chromatography",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page5:text",
+            "doc_892bf8dbc8e4e9f1:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_2f"
+        ],
+        "category": "measurement_basis"
+      }
+    ],
+    "notes": [
+      {
+        "value": "The scope table/scheme and the matching compound paragraph describe the same 1.0 mmol experiment and are merged rather than duplicated.",
+        "evidence_ids": [
+          "doc_892bf8dbc8e4e9f1:page2:text",
+          "doc_892bf8dbc8e4e9f1:page2:image",
+          "doc_892bf8dbc8e4e9f1:page4:text",
+          "doc_892bf8dbc8e4e9f1:page4:image",
+          "doc_892bf8dbc8e4e9f1:page5:text",
+          "doc_892bf8dbc8e4e9f1:page5:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The page-7 acknowledgement states that Mr. Shangze Wu reproduced the preparation of 2f; no independent conditions or outcome are supplied, so no duplicate record is created.",
+        "evidence_ids": [
+          "doc_892bf8dbc8e4e9f1:page7:text",
+          "doc_892bf8dbc8e4e9f1:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The associated Supporting Information is unestablished; no SI-only solvent-drying, workup, or characterization facts were imported.",
+        "Candidate structures are evidence-linked and parseable where supplied but remain structure_verified=false pending expert review.",
+        "The exact workup volumes are supplied only for Typical Procedure I and are not separately restated for every derivative.",
+        "The reproduction acknowledgement supplies no separately tabulated quantities, conditions, or measurements."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_892bf8dbc8e4e9f1:scope_1o_to_2o",
+    "document_id": "doc_892bf8dbc8e4e9f1",
+    "source_reaction_id": "scope_1o_to_2o",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_892bf8dbc8e4e9f1:page2:text",
+      "doc_892bf8dbc8e4e9f1:page2:image",
+      "doc_892bf8dbc8e4e9f1:page3:text",
+      "doc_892bf8dbc8e4e9f1:page3:image",
+      "doc_892bf8dbc8e4e9f1:page4:text",
+      "doc_892bf8dbc8e4e9f1:page4:image",
+      "doc_892bf8dbc8e4e9f1:page6:text",
+      "doc_892bf8dbc8e4e9f1:page6:image",
+      "doc_892bf8dbc8e4e9f1:page7:text",
+      "doc_892bf8dbc8e4e9f1:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1o",
+        "role": "reactant",
+        "label": {
+          "value": "1o",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N-(buta-2,3-dienyl)amide 1o (butyl)",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=CCNC(=O)CCCC",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 152.9,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page2:text",
+                "doc_892bf8dbc8e4e9f1:page2:image",
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image",
+                "doc_892bf8dbc8e4e9f1:page4:text",
+                "doc_892bf8dbc8e4e9f1:page4:image",
+                "doc_892bf8dbc8e4e9f1:page6:text",
+                "doc_892bf8dbc8e4e9f1:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "mass"
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page2:text",
+                "doc_892bf8dbc8e4e9f1:page2:image",
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image",
+                "doc_892bf8dbc8e4e9f1:page4:text",
+                "doc_892bf8dbc8e4e9f1:page4:image",
+                "doc_892bf8dbc8e4e9f1:page6:text",
+                "doc_892bf8dbc8e4e9f1:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "electrophile",
+        "role": "reactant",
+        "label": {
+          "value": "NBS",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N-bromosuccinimide",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O=C1CCC(=O)N1Br",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.2,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page2:text",
+                "doc_892bf8dbc8e4e9f1:page2:image",
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image",
+                "doc_892bf8dbc8e4e9f1:page4:text",
+                "doc_892bf8dbc8e4e9f1:page4:image",
+                "doc_892bf8dbc8e4e9f1:page6:text",
+                "doc_892bf8dbc8e4e9f1:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1.2,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page2:text",
+                "doc_892bf8dbc8e4e9f1:page2:image",
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image",
+                "doc_892bf8dbc8e4e9f1:page4:text",
+                "doc_892bf8dbc8e4e9f1:page4:image",
+                "doc_892bf8dbc8e4e9f1:page6:text",
+                "doc_892bf8dbc8e4e9f1:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          },
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 213.6,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page2:text",
+                "doc_892bf8dbc8e4e9f1:page2:image",
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image",
+                "doc_892bf8dbc8e4e9f1:page4:text",
+                "doc_892bf8dbc8e4e9f1:page4:image",
+                "doc_892bf8dbc8e4e9f1:page6:text",
+                "doc_892bf8dbc8e4e9f1:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "mass"
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent_mecn",
+        "role": "solvent",
+        "label": {
+          "value": "CH3CN",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "acetonitrile",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC#N",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page2:text",
+                "doc_892bf8dbc8e4e9f1:page2:image",
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image",
+                "doc_892bf8dbc8e4e9f1:page4:text",
+                "doc_892bf8dbc8e4e9f1:page4:image",
+                "doc_892bf8dbc8e4e9f1:page6:text",
+                "doc_892bf8dbc8e4e9f1:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "volume"
+          }
+        ]
+      },
+      {
+        "entity_id": "product_2o",
+        "role": "product",
+        "label": {
+          "value": "2o",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "5-(1-brovinyl)-2-(butyl)-4,5-dihydrooxazole",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C(Br)C1CN=C(CCCC)O1",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "isolated_mass",
+            "fact": {
+              "value": {
+                "number": 60.2,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page2:text",
+                "doc_892bf8dbc8e4e9f1:page2:image",
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image",
+                "doc_892bf8dbc8e4e9f1:page4:text",
+                "doc_892bf8dbc8e4e9f1:page4:image",
+                "doc_892bf8dbc8e4e9f1:page6:text",
+                "doc_892bf8dbc8e4e9f1:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "mass"
+          }
+        ]
+      },
+      {
+        "entity_id": "unknown_side_product",
+        "role": "product",
+        "label": {
+          "value": "unknown side product",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "standard_NBS_bromocyclization",
+        "participant_ids": [
+          "substrate_1o",
+          "electrophile",
+          "solvent_mecn"
+        ],
+        "conditions": [
+          {
+            "name": "procedure_assignment",
+            "fact": {
+              "value": "Typical Procedure I",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page4:text",
+                "doc_892bf8dbc8e4e9f1:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "reaction_vessel",
+            "fact": {
+              "value": "dry oven-dried Schlenk tube",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page4:text",
+                "doc_892bf8dbc8e4e9f1:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "argon",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page4:text",
+                "doc_892bf8dbc8e4e9f1:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "atmosphere"
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page2:text",
+                "doc_892bf8dbc8e4e9f1:page2:image",
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image",
+                "doc_892bf8dbc8e4e9f1:page4:text",
+                "doc_892bf8dbc8e4e9f1:page4:image",
+                "doc_892bf8dbc8e4e9f1:page6:text",
+                "doc_892bf8dbc8e4e9f1:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "min"
+              },
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page2:text",
+                "doc_892bf8dbc8e4e9f1:page2:image",
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          },
+          {
+            "name": "monitoring",
+            "fact": {
+              "value": "TLC",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page4:text",
+                "doc_892bf8dbc8e4e9f1:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": "quench with saturated aqueous NaHCO3 and Na2S2O3; extract with ether; dry over anhydrous MgSO4; filter and evaporate",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page4:text",
+                "doc_892bf8dbc8e4e9f1:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "workup"
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": "silica-gel chromatography; petroleum ether/ethyl acetate = 20:1 to 5:1",
+              "evidence_ids": [
+                "doc_892bf8dbc8e4e9f1:page2:text",
+                "doc_892bf8dbc8e4e9f1:page2:image",
+                "doc_892bf8dbc8e4e9f1:page3:text",
+                "doc_892bf8dbc8e4e9f1:page3:image",
+                "doc_892bf8dbc8e4e9f1:page4:text",
+                "doc_892bf8dbc8e4e9f1:page4:image",
+                "doc_892bf8dbc8e4e9f1:page6:text",
+                "doc_892bf8dbc8e4e9f1:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "purification"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 26,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_2o"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "isolated_product_mass",
+        "fact": {
+          "value": {
+            "number": 60.2,
+            "unit": "mg"
+          },
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_2o"
+        ],
+        "category": "mass"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated yield after silica-gel chromatography",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page4:text",
+            "doc_892bf8dbc8e4e9f1:page4:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_2o"
+        ],
+        "category": "measurement_basis"
+      },
+      {
+        "name": "side_product_observation",
+        "fact": {
+          "value": "an unknown side product accompanied 2o",
+          "evidence_ids": [
+            "doc_892bf8dbc8e4e9f1:page2:text",
+            "doc_892bf8dbc8e4e9f1:page2:image",
+            "doc_892bf8dbc8e4e9f1:page3:text",
+            "doc_892bf8dbc8e4e9f1:page3:image",
+            "doc_892bf8dbc8e4e9f1:page6:text",
+            "doc_892bf8dbc8e4e9f1:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "unknown_side_product"
+        ],
+        "category": "other"
+      }
+    ],
+    "notes": [
+      {
+        "value": "The scope table/scheme and the matching compound paragraph describe the same 1.0 mmol experiment and are merged rather than duplicated.",
+        "evidence_ids": [
+          "doc_892bf8dbc8e4e9f1:page2:text",
+          "doc_892bf8dbc8e4e9f1:page2:image",
+          "doc_892bf8dbc8e4e9f1:page3:text",
+          "doc_892bf8dbc8e4e9f1:page3:image",
+          "doc_892bf8dbc8e4e9f1:page4:text",
+          "doc_892bf8dbc8e4e9f1:page4:image",
+          "doc_892bf8dbc8e4e9f1:page6:text",
+          "doc_892bf8dbc8e4e9f1:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The page-7 acknowledgement states that Mr. Shangze Wu reproduced the preparation of 2o; no independent conditions or outcome are supplied, so no duplicate record is created.",
+        "evidence_ids": [
+          "doc_892bf8dbc8e4e9f1:page7:text",
+          "doc_892bf8dbc8e4e9f1:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The associated Supporting Information is unestablished; no SI-only solvent-drying, workup, or characterization facts were imported.",
+        "Candidate structures are evidence-linked and parseable where supplied but remain structure_verified=false pending expert review.",
+        "The exact workup volumes are supplied only for Typical Procedure I and are not separately restated for every derivative.",
+        "The reproduction acknowledgement supplies no separately tabulated quantities, conditions, or measurements."
+      ]
+    }
+  }
+]

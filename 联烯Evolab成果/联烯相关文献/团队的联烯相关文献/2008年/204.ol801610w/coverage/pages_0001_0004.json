@@ -1,0 +1,169 @@
+{
+  "document_id": "doc_f253050572b06387",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, graphical abstract, abstract, and introductory columns on the original page",
+          "finding": "The graphical abstract is a present-paper generic two-stage reaction scheme and is represented as a general_scheme, not as an extra executed experiment. The remaining text is title/abstract/introduction and cited prior-work context; it contains no independent row-level experiment.",
+          "evidence_ids": [
+            "doc_f253050572b06387:page1:image",
+            "doc_f253050572b06387:page1:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_f253050572b06387:general_scheme_cyclization_isomerization"
+      ],
+      "unresolved": [
+        "Generic R-group structures in the graphical abstract do not support complete SMILES.",
+        "The abstract supplies high-level claims rather than a complete experimental procedure."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left Scheme 1",
+          "finding": "The upper methyl-propiolate branch is explicitly labeled previous work and is classified as a literature_example; the lower terminal-alkynone branch summarizes this work and is merged with the page-1 general scheme.",
+          "evidence_ids": [
+            "doc_f253050572b06387:page2:image",
+            "doc_f253050572b06387:page2:text"
+          ]
+        },
+        {
+          "region": "upper-right Table 1, reaction drawing, rows 1-9, and footnotes a-e",
+          "finding": "Nine independent optimization entries were extracted. Row-specific 1.5 equiv alkynone, 1.5 equiv BF3.Et2O, and 0.125 M substrate overrides were applied only to entries 7, 8, and 9, respectively; NMR yields of both 3a and 4a were retained separately.",
+          "evidence_ids": [
+            "doc_f253050572b06387:page2:image",
+            "doc_f253050572b06387:page2:text"
+          ]
+        },
+        {
+          "region": "lower-right Scheme 2 and adjacent isomerization/X-ray prose",
+          "finding": "The two-stage preparation of E-4a (70% NMR yield, E/Z = 99/1) is the same substrate/conditions/result as Table 2 entry 1 and is merged into that record instead of counted twice.",
+          "evidence_ids": [
+            "doc_f253050572b06387:page2:image",
+            "doc_f253050572b06387:page2:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_f253050572b06387:general_scheme_cyclization_isomerization",
+        "doc_f253050572b06387:scheme1_previous_methyl_propiolate",
+        "doc_f253050572b06387:table1_entry1",
+        "doc_f253050572b06387:table1_entry2",
+        "doc_f253050572b06387:table1_entry3",
+        "doc_f253050572b06387:table1_entry4",
+        "doc_f253050572b06387:table1_entry5",
+        "doc_f253050572b06387:table1_entry6",
+        "doc_f253050572b06387:table1_entry7",
+        "doc_f253050572b06387:table1_entry8",
+        "doc_f253050572b06387:table1_entry9",
+        "doc_f253050572b06387:table2_entry1_4a"
+      ],
+      "unresolved": [
+        "Table 1 does not assign CH2Br2 versus mesitylene to individual rows.",
+        "Table 1 omits atmosphere, workup, and purification.",
+        "The previous-work branch is generic and omits its cited procedure and yields."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left Figure 1 ORTEP",
+          "finding": "The ORTEP supports the identity of E-4a and is linked to Table 2 entry 1; it is not treated as an additional reaction.",
+          "evidence_ids": [
+            "doc_f253050572b06387:page3:image",
+            "doc_f253050572b06387:page3:text"
+          ]
+        },
+        {
+          "region": "left-column Table 2, generic arrow, rows 1-14, and footnotes a-b",
+          "finding": "Fourteen independent substrate-scope entries were extracted with the shared two-stage conditions, NMR yield, isolated yield in parentheses, and E/Z >= 99/1. Scheme 2 evidence is merged into entry 1.",
+          "evidence_ids": [
+            "doc_f253050572b06387:page3:image",
+            "doc_f253050572b06387:page3:text"
+          ]
+        },
+        {
+          "region": "upper-right Scheme 3 and preceding prose",
+          "finding": "One present-paper experiment was extracted: nonterminal alkynone gives only cycloisomerization product 3c in 87% NMR yield. The scheme labels the alkynone 2e while the prose calls it 2d; both source statements are preserved as an unresolved discrepancy.",
+          "evidence_ids": [
+            "doc_f253050572b06387:page3:image",
+            "doc_f253050572b06387:page3:text"
+          ]
+        },
+        {
+          "region": "center-right Scheme 4 and mechanistic discussion",
+          "finding": "The M1-M4 pathway is explicitly a proposed rationale and is classified as mechanism, not as an executed experiment.",
+          "evidence_ids": [
+            "doc_f253050572b06387:page3:image",
+            "doc_f253050572b06387:page3:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_f253050572b06387:table2_entry1_4a",
+        "doc_f253050572b06387:table2_entry2_4b",
+        "doc_f253050572b06387:table2_entry3_4c",
+        "doc_f253050572b06387:table2_entry4_4d",
+        "doc_f253050572b06387:table2_entry5_4e",
+        "doc_f253050572b06387:table2_entry6_4f",
+        "doc_f253050572b06387:table2_entry7_4g",
+        "doc_f253050572b06387:table2_entry8_4h",
+        "doc_f253050572b06387:table2_entry9_4i",
+        "doc_f253050572b06387:table2_entry10_4j",
+        "doc_f253050572b06387:table2_entry11_4k",
+        "doc_f253050572b06387:table2_entry12_4l",
+        "doc_f253050572b06387:table2_entry13_4m",
+        "doc_f253050572b06387:table2_entry14_4n",
+        "doc_f253050572b06387:scheme3_nonterminal_alkynone_cycloisomerization",
+        "doc_f253050572b06387:scheme4_proposed_mechanism"
+      ],
+      "unresolved": [
+        "Table 2 reports ranges/options for scale, solvent volume, DMSO volume, and NMR internal standard without row-specific assignments.",
+        "Table 2 omits atmosphere, workup, and purification.",
+        "Scheme 3 disagrees between label 2e in the drawing and 2d in prose.",
+        "All candidate structures and stereochemistry remain unverified."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "conclusion continuation and acknowledgments in the upper-left column",
+          "finding": "No new reaction arrow or independent experiment appears. The acknowledgment says Table 2 entries 2, 8, and 14 were reproduced; that evidence is merged into those existing records.",
+          "evidence_ids": [
+            "doc_f253050572b06387:page4:image",
+            "doc_f253050572b06387:page4:text"
+          ]
+        },
+        {
+          "region": "Supporting Information Available statement in the upper-right column",
+          "finding": "The paper states that SI is available online, but no SI file was supplied or explicitly associated in this workspace; no SI procedures were inferred or imported.",
+          "evidence_ids": [
+            "doc_f253050572b06387:page4:image",
+            "doc_f253050572b06387:page4:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_f253050572b06387:table2_entry2_4b",
+        "doc_f253050572b06387:table2_entry8_4h",
+        "doc_f253050572b06387:table2_entry14_4n"
+      ],
+      "unresolved": [
+        "Supporting Information is referenced but was not provided or explicitly associated.",
+        "The acknowledgment does not add experimental quantities or procedural details to the reproduced entries."
+      ]
+    }
+  ]
+}

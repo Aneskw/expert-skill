@@ -1,0 +1,171 @@
+{
+  "document_id": "doc_b324560c10c6f9bc",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 1 title, abstract, and introduction opening",
+          "finding": "Present-paper iodohydroxylation is introduced, but this region contains no row-level experimental procedure or reaction arrow.",
+          "evidence_ids": ["doc_b324560c10c6f9bc:page1:image", "doc_b324560c10c6f9bc:page1:text"]
+        },
+        {
+          "region": "page 1 lower-left prior-work discussion",
+          "finding": "Six cited prior-work reaction examples are described and were classified as literature_example records rather than present-paper experiments.",
+          "evidence_ids": ["doc_b324560c10c6f9bc:page1:image", "doc_b324560c10c6f9bc:page1:text"]
+        },
+        {
+          "region": "page 1 right-column discussion of Scheme 1 and Scheme 2",
+          "finding": "The authors discuss two generic prior-work stereochemical pathways and one proposed furanone-controlled mechanism; these were classified as mechanism records.",
+          "evidence_ids": ["doc_b324560c10c6f9bc:page1:image", "doc_b324560c10c6f9bc:page1:text"]
+        },
+        {
+          "region": "page 1 bottom-right paragraph continuing onto page 2",
+          "finding": "The open-air 1a/I2 experiment begins here and continues on page 2; it is linked to Table 1 entry 1 rather than duplicated.",
+          "evidence_ids": ["doc_b324560c10c6f9bc:page1:image", "doc_b324560c10c6f9bc:page1:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_b324560c10c6f9bc:literature_phenylallene_bromination_meoh",
+        "doc_b324560c10c6f9bc:literature_phenylallene_bromination_nonpolar",
+        "doc_b324560c10c6f9bc:literature_23pentadiene_iodomethoxylation",
+        "doc_b324560c10c6f9bc:literature_23pentadiene_methoxymercuration",
+        "doc_b324560c10c6f9bc:literature_phenylallene_sulfenyl_chloride",
+        "doc_b324560c10c6f9bc:literature_23pentadiene_iodine_azide",
+        "doc_b324560c10c6f9bc:scheme1_sulfoxide_mechanism",
+        "doc_b324560c10c6f9bc:scheme1_sulfide_selenide_mechanism",
+        "doc_b324560c10c6f9bc:scheme2_proposed_iodohydroxylation_mechanism",
+        "doc_b324560c10c6f9bc:table1_entry1"
+      ],
+      "unresolved": [
+        "The cited prior publications were not supplied and their omitted procedure details cannot be recovered from this page.",
+        "The main text states that supporting information is available online, but no SI file was supplied or explicitly associated."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 2 upper Scheme 1",
+          "finding": "Two generic pathways summarize earlier sulfoxide and sulfide/selenide halohydroxylation mechanisms; they are not present-paper row experiments.",
+          "evidence_ids": ["doc_b324560c10c6f9bc:page2:image", "doc_b324560c10c6f9bc:page2:text"]
+        },
+        {
+          "region": "page 2 middle Scheme 2",
+          "finding": "Proposed favored and disfavored iodohydroxylation pathways are shown with generic R groups and were recorded as one mechanism, not as isolated experiments.",
+          "evidence_ids": ["doc_b324560c10c6f9bc:page2:image", "doc_b324560c10c6f9bc:page2:text"]
+        },
+        {
+          "region": "page 2 lower-left optimization narrative",
+          "finding": "Narrative results map to Table 1 entries and were merged with the corresponding row records. The prose value of 51% for open-air Z-2a conflicts with the Table 1 value of 54% and both are retained.",
+          "evidence_ids": ["doc_b324560c10c6f9bc:page2:image", "doc_b324560c10c6f9bc:page2:text"]
+        },
+        {
+          "region": "page 2 lower-right substrate-scope narrative",
+          "finding": "The prose summarizes Table 2 scope, highlights the 51 h/62% 1f experiment, and states that Z-2k was supported by NOE and X-ray studies; row data are not duplicated here.",
+          "evidence_ids": ["doc_b324560c10c6f9bc:page2:image", "doc_b324560c10c6f9bc:page2:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_b324560c10c6f9bc:scheme1_sulfoxide_mechanism",
+        "doc_b324560c10c6f9bc:scheme1_sulfide_selenide_mechanism",
+        "doc_b324560c10c6f9bc:scheme2_proposed_iodohydroxylation_mechanism",
+        "doc_b324560c10c6f9bc:table1_entry1",
+        "doc_b324560c10c6f9bc:table1_entry2",
+        "doc_b324560c10c6f9bc:table1_entry3",
+        "doc_b324560c10c6f9bc:table1_entry4",
+        "doc_b324560c10c6f9bc:table1_entry5",
+        "doc_b324560c10c6f9bc:table1_entry6",
+        "doc_b324560c10c6f9bc:table1_entry8",
+        "doc_b324560c10c6f9bc:table1_entry9",
+        "doc_b324560c10c6f9bc:table1_entry7_table2_entry1_typical_z2a",
+        "doc_b324560c10c6f9bc:table2_entry6",
+        "doc_b324560c10c6f9bc:table2_entry11"
+      ],
+      "unresolved": [
+        "Scheme intermediates and generic R-group structures are not fully specified and therefore have no complete verified SMILES.",
+        "The prose/Table 1 yield conflict for the open-air experiment remains unresolved."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 3 upper Table 1 reaction drawing, nine rows, and footnotes",
+          "finding": "All nine optimization conditions were extracted row-by-row. Entry 7 is represented by the merged record shared with Table 2 entry 1 and the typical procedure. Open-air footnote b applies only to entry 1; table dashes for Z-7a are preserved without interpreting them as zero.",
+          "evidence_ids": ["doc_b324560c10c6f9bc:page3:image", "doc_b324560c10c6f9bc:page3:text"]
+        },
+        {
+          "region": "page 3 middle Table 2 generic arrow, twelve rows, and footnotes",
+          "finding": "All twelve substrate-scope rows were extracted. The generic arrow supplies common row context and was not counted as an extra experiment. Footnote b changes only entry 6 to 3.0 equivalents of I2.",
+          "evidence_ids": ["doc_b324560c10c6f9bc:page3:image", "doc_b324560c10c6f9bc:page3:text"]
+        },
+        {
+          "region": "page 3 lower-right Experimental Section opening",
+          "finding": "The exact charge quantities, argon atmosphere, room temperature, and 1 h reaction time for 1a are the start of the same experiment as Table 1 entry 7/Table 2 entry 1 and were merged into that record.",
+          "evidence_ids": ["doc_b324560c10c6f9bc:page3:image", "doc_b324560c10c6f9bc:page3:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_b324560c10c6f9bc:table1_entry1",
+        "doc_b324560c10c6f9bc:table1_entry2",
+        "doc_b324560c10c6f9bc:table1_entry3",
+        "doc_b324560c10c6f9bc:table1_entry4",
+        "doc_b324560c10c6f9bc:table1_entry5",
+        "doc_b324560c10c6f9bc:table1_entry6",
+        "doc_b324560c10c6f9bc:table1_entry8",
+        "doc_b324560c10c6f9bc:table1_entry9",
+        "doc_b324560c10c6f9bc:table1_entry7_table2_entry1_typical_z2a",
+        "doc_b324560c10c6f9bc:table2_entry2",
+        "doc_b324560c10c6f9bc:table2_entry3",
+        "doc_b324560c10c6f9bc:table2_entry4",
+        "doc_b324560c10c6f9bc:table2_entry5",
+        "doc_b324560c10c6f9bc:table2_entry6",
+        "doc_b324560c10c6f9bc:table2_entry7",
+        "doc_b324560c10c6f9bc:table2_entry8",
+        "doc_b324560c10c6f9bc:table2_entry9",
+        "doc_b324560c10c6f9bc:table2_entry10",
+        "doc_b324560c10c6f9bc:table2_entry11",
+        "doc_b324560c10c6f9bc:table2_entry12"
+      ],
+      "unresolved": [
+        "Table 2 does not explicitly state the yield measurement basis.",
+        "Workup and purification are absent for all scope rows except the merged 1a/Z-2a typical procedure.",
+        "Complex substrate/product structures and product stereochemical SMILES remain machine-unverified."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 4 upper-left Figure 1 ORTEP representation",
+          "finding": "The figure is structural evidence for Z-2k, not a reaction experiment; it was linked to Table 2 entry 11.",
+          "evidence_ids": ["doc_b324560c10c6f9bc:page4:image", "doc_b324560c10c6f9bc:page4:text"]
+        },
+        {
+          "region": "page 4 left-column completion of the typical procedure",
+          "finding": "Quench, extraction, washing, drying, evaporation, flash chromatography, isolated mass/yield, physical form, and characterization for Z-2a were merged into the Table 1 entry 7/Table 2 entry 1 record.",
+          "evidence_ids": ["doc_b324560c10c6f9bc:page4:image", "doc_b324560c10c6f9bc:page4:text"]
+        },
+        {
+          "region": "page 4 acknowledgements, references, and crystallographic note",
+          "finding": "No additional present-paper reaction experiment appears here. The note supplies crystal data/CCDC 642223 for Z-2k; citations are not mined as new experiments.",
+          "evidence_ids": ["doc_b324560c10c6f9bc:page4:image", "doc_b324560c10c6f9bc:page4:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_b324560c10c6f9bc:table1_entry7_table2_entry1_typical_z2a",
+        "doc_b324560c10c6f9bc:table2_entry11"
+      ],
+      "unresolved": [
+        "The Z-2k X-ray assignment supports identity but does not by itself make the machine-generated SMILES source-verified.",
+        "The online supplementary crystallographic data and other SI were not supplied or explicitly associated."
+      ]
+    }
+  ]
+}

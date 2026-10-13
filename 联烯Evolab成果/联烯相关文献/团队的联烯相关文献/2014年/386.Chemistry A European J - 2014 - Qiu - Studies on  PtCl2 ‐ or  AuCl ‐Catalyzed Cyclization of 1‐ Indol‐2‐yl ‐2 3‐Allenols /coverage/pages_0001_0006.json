@@ -1,0 +1,311 @@
+{
+  "document_id": "doc_49c1285b5e9c9b90",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 1 title, abstract, author block, and SI statement",
+          "finding": "Article identity and aggregate AuCl/PtCl2 cyclization claims inspected. The page states that SI exists online, but source mapping leaves SI association unestablished; no SI facts were imported.",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page1:text",
+            "doc_49c1285b5e9c9b90:page1:image"
+          ]
+        },
+        {
+          "region": "page 1 introduction, Equations (1)–(4)",
+          "finding": "Four distinct cited metal-carbene formation classes were classified as prior-literature examples: alpha-oxo Au carbene from activated alkynes, intramolecular leaving-group route, 1,5-enyne cyclopropyl carbene route, and allene cyclization route. Generic intermediates are not current-paper experiments.",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page1:text",
+            "doc_49c1285b5e9c9b90:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_49c1285b5e9c9b90:eq1_prior_oxo_gold_carbene",
+        "doc_49c1285b5e9c9b90:eq2_prior_intramolecular_leaving_group_carbene",
+        "doc_49c1285b5e9c9b90:eq3_prior_1_5_enyne_carbene",
+        "doc_49c1285b5e9c9b90:eq4_prior_allene_carbene"
+      ],
+      "unresolved": [
+        "Equations (1)–(4) contain generic R/LG/Nu/X groups and omit experiment-level conditions/yields.",
+        "No SI association was inferred."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 2 upper-left Equation (5)",
+          "finding": "The generic cyclic metal-carbene route summarizes cited work beginning in 2009 and is classified as mechanism, not a preparation of the drawn intermediate.",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image"
+          ]
+        },
+        {
+          "region": "page 2 lower-left Scheme 1 and surrounding comparison text",
+          "finding": "The PtCl2 cyclization is explicitly prior reference 14 (2012), with generic competing migration branches. It is retained as a literature example and not merged into current AuCl scope rows.",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image"
+          ]
+        },
+        {
+          "region": "page 2 right column computational methodology and start of Figure 1 discussion",
+          "finding": "The current DFT calculation uses 2a as model substrate with B3LYP/6-311G(d,p)/LANL2DZ and CPCM; it contributes to one cross-page mechanism record rather than a preparative experiment.",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_49c1285b5e9c9b90:eq5_prior_cyclic_metal_carbene_pathway",
+        "doc_49c1285b5e9c9b90:scheme1_prior_Pt_cyclization",
+        "doc_49c1285b5e9c9b90:figures1_2_DFT_cycloisomerization"
+      ],
+      "unresolved": [
+        "Scheme 1 does not restate catalyst loading, solvent, time, or yields from reference 14.",
+        "The DFT record is not a complete computational-data extraction."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 3 Figure 1 energy profile and mechanism prose",
+          "finding": "The Pt/Au cyclization, water-assisted elimination, and 1,2-H-shift pathways are calculated mechanisms. Key 31.0, 2.4, 18.1, and 11.3 kcal/mol barriers were retained without treating Int1–Int4 as isolated compounds.",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 Figure 2 optimized Int4 geometries",
+          "finding": "Bond lengths/Wiberg indices characterize the same DFT intermediates and do not create a separate reaction record.",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 lower-right Experimental studies paragraph",
+          "finding": "Two distinct current experiments are introduced: 2b gives 3b in 87% after 30 min, and 2c gives 3c in 88% after 1 h. The latter is the same run shown in Scheme 2 and Table 3 entry 1 and is merged across pages.",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_49c1285b5e9c9b90:figures1_2_DFT_cycloisomerization",
+        "doc_49c1285b5e9c9b90:scheme2_2b_to_3b",
+        "doc_49c1285b5e9c9b90:scheme2_table3_entry1_2c_to_3c"
+      ],
+      "unresolved": [
+        "Scheme 2 operational workup, purification, masses, and yield basis are not yet reported on pages 1–6.",
+        "Complex structures remain machine-unverified."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 4 upper-left Scheme 2",
+          "finding": "The displayed 2b and 2c AuCl/DCE reactions confirm the two current experiments introduced on page 3; 2c is cross-listed as Table 3 entry 1 and is not duplicated.",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page4:text",
+            "doc_49c1285b5e9c9b90:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 upper-right Table 1 entries 1–9 and footnotes",
+          "finding": "Nine independent catalyst/concentration optimization conditions were retained with row catalyst, DCE/toluene, time, combined NMR yield, regioisomer ratio, solvent-volume overrides, 1 mol% AuCl override, and the entry-8 AgSbF6 additive. Entry 6's 23% table-footnote versus 24% narrative recovery conflict is preserved.",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page4:text",
+            "doc_49c1285b5e9c9b90:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 lower-right Table 2 entries 1–8 and footnotes",
+          "finding": "Eight temperature/solvent rows were inspected. Table 2 entry 1 is identical to Table 1 entry 5 and is merged; entries 2–8 remain separate. The image resolves entry 5 as CH2Cl2/17 h/6%/92:8, and the toluene row retains 23% recovered 2d.",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page4:text",
+            "doc_49c1285b5e9c9b90:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 narrative introducing Table 3",
+          "finding": "The prose maps current 4,4-dialkyl scope experiments to Table 3 on page 5; no duplicate narrative-only records were created.",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page4:text",
+            "doc_49c1285b5e9c9b90:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_49c1285b5e9c9b90:scheme2_2b_to_3b",
+        "doc_49c1285b5e9c9b90:scheme2_table3_entry1_2c_to_3c",
+        "doc_49c1285b5e9c9b90:table1_entry1",
+        "doc_49c1285b5e9c9b90:table1_entry2",
+        "doc_49c1285b5e9c9b90:table1_entry3",
+        "doc_49c1285b5e9c9b90:table1_entry4",
+        "doc_49c1285b5e9c9b90:table1_entry5_table2_entry1",
+        "doc_49c1285b5e9c9b90:table1_entry6",
+        "doc_49c1285b5e9c9b90:table1_entry7",
+        "doc_49c1285b5e9c9b90:table1_entry8",
+        "doc_49c1285b5e9c9b90:table1_entry9",
+        "doc_49c1285b5e9c9b90:table1_entry5_table2_entry1",
+        "doc_49c1285b5e9c9b90:table2_entry2",
+        "doc_49c1285b5e9c9b90:table2_entry3",
+        "doc_49c1285b5e9c9b90:table2_entry4",
+        "doc_49c1285b5e9c9b90:table2_entry5",
+        "doc_49c1285b5e9c9b90:table2_entry6",
+        "doc_49c1285b5e9c9b90:table2_entry7",
+        "doc_49c1285b5e9c9b90:table2_entry8"
+      ],
+      "unresolved": [
+        "Table 1 entry 6 reports recovered 2d as 23% in the footnote and 24% in prose.",
+        "Optimization tables omit atmosphere, workup, purification, masses, and ratio method."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 5 upper-left Table 3 entries 1–7 and footnotes",
+          "finding": "Seven current AuCl scope experiments were retained with exact R-label strings, time, 0.2 mmol scale, catalyst/solvent overrides, N2, and isolated yields; entry 1 is merged with Scheme 2. Three numerical Ref. 14 Pt comparisons are separate literature-example records, while table dashes remain absence of a reported comparison rather than zero.",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ]
+        },
+        {
+          "region": "page 5 lower-left Table 4 entries 1–4 and footnote",
+          "finding": "Four current AuCl 4-alkyl-4-aryl experiments were retained separately. The Ref. 14 column is represented by four prior-literature records, including the explicit no-reaction result for 2n under the prior Pt process.",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ]
+        },
+        {
+          "region": "page 5 upper-right Table 5 entries 1–5",
+          "finding": "Five distinct current experiments were retained with combined isolated yields/ratios and separate post-recrystallization yields/ratios. Entry 4 is the independent 3 mmol (1.0770 g) repeat of 2p and is not merged with entry 3.",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ]
+        },
+        {
+          "region": "page 5 Figure 3 ORTEP and adjacent text",
+          "finding": "The ORTEP supports the source assignment of 3p and is characterization of Table 5, not a second preparation or machine-structure verification.",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_49c1285b5e9c9b90:scheme2_table3_entry1_2c_to_3c",
+        "doc_49c1285b5e9c9b90:table3_entry2",
+        "doc_49c1285b5e9c9b90:table3_entry3",
+        "doc_49c1285b5e9c9b90:table3_entry4",
+        "doc_49c1285b5e9c9b90:table3_entry5",
+        "doc_49c1285b5e9c9b90:table3_entry6",
+        "doc_49c1285b5e9c9b90:table3_entry7",
+        "doc_49c1285b5e9c9b90:table3_ref14_entry1",
+        "doc_49c1285b5e9c9b90:table3_ref14_entry2",
+        "doc_49c1285b5e9c9b90:table3_ref14_entry3",
+        "doc_49c1285b5e9c9b90:table4_entry1",
+        "doc_49c1285b5e9c9b90:table4_entry2",
+        "doc_49c1285b5e9c9b90:table4_entry3",
+        "doc_49c1285b5e9c9b90:table4_entry4",
+        "doc_49c1285b5e9c9b90:table4_ref14_entry1",
+        "doc_49c1285b5e9c9b90:table4_ref14_entry2",
+        "doc_49c1285b5e9c9b90:table4_ref14_entry3",
+        "doc_49c1285b5e9c9b90:table4_ref14_entry4",
+        "doc_49c1285b5e9c9b90:table5_entry1",
+        "doc_49c1285b5e9c9b90:table5_entry2",
+        "doc_49c1285b5e9c9b90:table5_entry3",
+        "doc_49c1285b5e9c9b90:table5_entry4",
+        "doc_49c1285b5e9c9b90:table5_entry5"
+      ],
+      "unresolved": [
+        "Current scope rows omit workups, purifications, masses, and selectivity analytical methods.",
+        "Reference-14 comparison conditions are only partially restated.",
+        "ORTEP does not certify candidate machine structures."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 6 left Table 6 entries 1–8 and footnotes",
+          "finding": "Eight independent AuCl scope rows were retained with row time/yield and footnote overrides for DCE volume and 10 mol% catalyst. The source says migration is exclusive but gives no numerical minor-isomer ratios.",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page6:text",
+            "doc_49c1285b5e9c9b90:page6:image"
+          ]
+        },
+        {
+          "region": "page 6 Figure 4 ORTEP",
+          "finding": "ORTEP characterization supports the assigned 3x structure but is not another preparation and does not verify a machine encoding.",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page6:text",
+            "doc_49c1285b5e9c9b90:page6:image"
+          ]
+        },
+        {
+          "region": "page 6 upper-right Equation (6)",
+          "finding": "A separate 2aa experiment gives cyclopropyl- and ethyl-migrated products 3aa/3aa' in 81% combined yield and 95:5 ratio after 2 h.",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page6:text",
+            "doc_49c1285b5e9c9b90:page6:image"
+          ]
+        },
+        {
+          "region": "page 6 center-right Scheme 3 graph and water-effect prose",
+          "finding": "Two molecular-sieve conditions were retained as separate conversion-profile experiments. Approximate graph points preserve the printed square/triangle legend. The graph labels the 'with 4 Å MS' curve as faster, while prose says adding sieves lowers the rate; this source conflict remains unresolved.",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page6:text",
+            "doc_49c1285b5e9c9b90:page6:image"
+          ]
+        },
+        {
+          "region": "page 6 lower-right theoretical-selectivity introduction",
+          "finding": "This prose introduces calculated migration barriers continued in Table 7 on page 7. No additional page-6 preparative experiment or complete Table 7 row is created.",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page6:text",
+            "doc_49c1285b5e9c9b90:page6:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_49c1285b5e9c9b90:table6_entry1",
+        "doc_49c1285b5e9c9b90:table6_entry2",
+        "doc_49c1285b5e9c9b90:table6_entry3",
+        "doc_49c1285b5e9c9b90:table6_entry4",
+        "doc_49c1285b5e9c9b90:table6_entry5",
+        "doc_49c1285b5e9c9b90:table6_entry6",
+        "doc_49c1285b5e9c9b90:table6_entry7",
+        "doc_49c1285b5e9c9b90:table6_entry8",
+        "doc_49c1285b5e9c9b90:eq6_2aa_cyclopropyl_vs_ethyl",
+        "doc_49c1285b5e9c9b90:scheme3_with_4A_MS",
+        "doc_49c1285b5e9c9b90:scheme3_without_4A_MS"
+      ],
+      "unresolved": [
+        "Scheme 3 graph/legend conflicts with its adjacent mechanistic prose about the molecular-sieve rate effect.",
+        "Graph points are approximate visual readings and the conversion analytical method is not stated.",
+        "Table 7 lies on page 7 and is outside this coverage claim."
+      ]
+    }
+  ]
+}

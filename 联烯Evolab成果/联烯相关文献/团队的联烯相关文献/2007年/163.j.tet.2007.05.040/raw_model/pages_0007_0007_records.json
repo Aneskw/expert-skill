@@ -1,0 +1,672 @@
+[
+  {
+    "record_id": "doc_e90694bb0bb41003:table2_entry13_16o",
+    "document_id": "doc_e90694bb0bb41003",
+    "source_reaction_id": "Table 2 entry 13; section 4.1.13",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_e90694bb0bb41003:page3:image",
+      "doc_e90694bb0bb41003:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "16o",
+          "evidence_ids": [
+            "doc_e90694bb0bb41003:page3:image",
+            "doc_e90694bb0bb41003:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "propargylic 2,3-allenoate 16o (R1=Ph, R2=Allyl, R3=TMS)",
+          "evidence_ids": [
+            "doc_e90694bb0bb41003:page3:image",
+            "doc_e90694bb0bb41003:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 70,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_e90694bb0bb41003:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.24,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_e90694bb0bb41003:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_17",
+        "role": "product",
+        "label": {
+          "value": "17o",
+          "evidence_ids": [
+            "doc_e90694bb0bb41003:page3:image",
+            "doc_e90694bb0bb41003:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "5-allyl-7-phenyl-8-(trimethylsilyl)-3-oxabicyclo[4.2.0]octa-1(8),5-dien-4-one",
+          "evidence_ids": [
+            "doc_e90694bb0bb41003:page3:image",
+            "doc_e90694bb0bb41003:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 45,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_e90694bb0bb41003:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": "dry toluene",
+          "evidence_ids": [
+            "doc_e90694bb0bb41003:page3:image",
+            "doc_e90694bb0bb41003:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_e90694bb0bb41003:page3:image",
+            "doc_e90694bb0bb41003:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_e90694bb0bb41003:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_e90694bb0bb41003:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "diels_alder_product",
+        "role": "product",
+        "label": {
+          "value": "18-type",
+          "evidence_ids": [
+            "doc_e90694bb0bb41003:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "corresponding Diels-Alder-aromatization product",
+          "evidence_ids": [
+            "doc_e90694bb0bb41003:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_intramolecular_2plus2_cycloaddition",
+        "participant_ids": [
+          "substrate",
+          "product_17",
+          "toluene",
+          "diels_alder_product"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "reflux",
+              "evidence_ids": [
+                "doc_e90694bb0bb41003:page3:image",
+                "doc_e90694bb0bb41003:page7:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 44,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_e90694bb0bb41003:page3:image",
+                "doc_e90694bb0bb41003:page7:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "argon",
+              "evidence_ids": [
+                "doc_e90694bb0bb41003:page7:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "atmosphere"
+          },
+          {
+            "name": "TLC_monitoring",
+            "fact": {
+              "value": "petroleum ether/ethyl acetate 5:1; until complete conversion",
+              "evidence_ids": [
+                "doc_e90694bb0bb41003:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": "rotary evaporation",
+              "evidence_ids": [
+                "doc_e90694bb0bb41003:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "workup"
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": "flash chromatography on silica gel; petroleum ether/ethyl ether 10:1",
+              "evidence_ids": [
+                "doc_e90694bb0bb41003:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "purification"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield_17o",
+        "fact": {
+          "value": {
+            "number": 64,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_e90694bb0bb41003:page3:image",
+            "doc_e90694bb0bb41003:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_17"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_e90694bb0bb41003:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "category": "measurement_basis"
+      },
+      {
+        "name": "Diels_Alder_product_result",
+        "fact": {
+          "value": "no Diels-Alder reaction products were found",
+          "evidence_ids": [
+            "doc_e90694bb0bb41003:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "diels_alder_product"
+        ],
+        "category": "other"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 2 substituents: R1=Ph, R2=Allyl, R3=TMS.",
+        "evidence_ids": [
+          "doc_e90694bb0bb41003:page3:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The exact preparation in section 4.1.13 supplies row-specific quantities and product mass; it is merged with the corresponding Table 2 row rather than counted twice.",
+        "evidence_ids": [
+          "doc_e90694bb0bb41003:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The substrate/product drawings and stereochemistry have not been independently structure-verified; no SMILES was forced.",
+        "Reflux is qualitative; no numerical bath or internal temperature is reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_e90694bb0bb41003:table2_entry14_16p",
+    "document_id": "doc_e90694bb0bb41003",
+    "source_reaction_id": "Table 2 entry 14; section 4.1.14",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_e90694bb0bb41003:page3:image",
+      "doc_e90694bb0bb41003:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "16p",
+          "evidence_ids": [
+            "doc_e90694bb0bb41003:page3:image",
+            "doc_e90694bb0bb41003:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "propargylic 2,3-allenoate 16p (R1=n-C6H13, R2=Me, R3=TMS)",
+          "evidence_ids": [
+            "doc_e90694bb0bb41003:page3:image",
+            "doc_e90694bb0bb41003:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 69,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_e90694bb0bb41003:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.24,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_e90694bb0bb41003:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_17",
+        "role": "product",
+        "label": {
+          "value": "17p",
+          "evidence_ids": [
+            "doc_e90694bb0bb41003:page3:image",
+            "doc_e90694bb0bb41003:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "7-hexyl-5-methyl-8-(trimethylsilyl)-3-oxabicyclo[4.2.0]octa-1(8),5-dien-4-one",
+          "evidence_ids": [
+            "doc_e90694bb0bb41003:page3:image",
+            "doc_e90694bb0bb41003:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 17,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_e90694bb0bb41003:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": "dry toluene",
+          "evidence_ids": [
+            "doc_e90694bb0bb41003:page3:image",
+            "doc_e90694bb0bb41003:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_e90694bb0bb41003:page3:image",
+            "doc_e90694bb0bb41003:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_e90694bb0bb41003:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_e90694bb0bb41003:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "diels_alder_product",
+        "role": "product",
+        "label": {
+          "value": "18-type",
+          "evidence_ids": [
+            "doc_e90694bb0bb41003:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "corresponding Diels-Alder-aromatization product",
+          "evidence_ids": [
+            "doc_e90694bb0bb41003:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "thermal_intramolecular_2plus2_cycloaddition",
+        "participant_ids": [
+          "substrate",
+          "product_17",
+          "toluene",
+          "diels_alder_product"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "reflux",
+              "evidence_ids": [
+                "doc_e90694bb0bb41003:page3:image",
+                "doc_e90694bb0bb41003:page7:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 72,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_e90694bb0bb41003:page3:image",
+                "doc_e90694bb0bb41003:page7:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "argon",
+              "evidence_ids": [
+                "doc_e90694bb0bb41003:page7:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "atmosphere"
+          },
+          {
+            "name": "TLC_monitoring",
+            "fact": {
+              "value": "petroleum ether/ethyl acetate 5:1; until complete conversion",
+              "evidence_ids": [
+                "doc_e90694bb0bb41003:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "workup",
+            "fact": {
+              "value": "rotary evaporation",
+              "evidence_ids": [
+                "doc_e90694bb0bb41003:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "workup"
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": "flash chromatography on silica gel; petroleum ether/ethyl ether 10:1",
+              "evidence_ids": [
+                "doc_e90694bb0bb41003:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "purification"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield_17p",
+        "fact": {
+          "value": {
+            "number": 25,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_e90694bb0bb41003:page3:image",
+            "doc_e90694bb0bb41003:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_17"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_e90694bb0bb41003:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "category": "measurement_basis"
+      },
+      {
+        "name": "Diels_Alder_product_result",
+        "fact": {
+          "value": "no Diels-Alder reaction products were found",
+          "evidence_ids": [
+            "doc_e90694bb0bb41003:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "diels_alder_product"
+        ],
+        "category": "other"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 2 substituents: R1=n-C6H13, R2=Me, R3=TMS.",
+        "evidence_ids": [
+          "doc_e90694bb0bb41003:page3:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The exact preparation in section 4.1.14 supplies row-specific quantities and product mass; it is merged with the corresponding Table 2 row rather than counted twice.",
+        "evidence_ids": [
+          "doc_e90694bb0bb41003:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The substrate/product drawings and stereochemistry have not been independently structure-verified; no SMILES was forced.",
+        "Reflux is qualitative; no numerical bath or internal temperature is reported."
+      ]
+    }
+  }
+]

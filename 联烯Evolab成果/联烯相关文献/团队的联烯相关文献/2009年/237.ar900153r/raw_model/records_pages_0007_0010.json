@@ -1,0 +1,4055 @@
+[
+  {
+    "record_id": "doc_74147be4817c1957:scheme24_z_iodohydroxylation_allenyl_butenolides",
+    "document_id": "doc_74147be4817c1957",
+    "source_reaction_id": "scheme24_z_iodohydroxylation_allenyl_butenolides",
+    "record_kind": "general_scheme",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_74147be4817c1957:page7:image",
+      "doc_74147be4817c1957:page7:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "butenolide_35",
+        "role": "reactant",
+        "label": {
+          "value": "beta-(1,2-allenyl)butenolides 35 (R-group scope shown)",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "iodine",
+        "role": "reagent",
+        "label": {
+          "value": "I2",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "men02_water",
+        "role": "solvent",
+        "label": {
+          "value": "MeNO2:H2O (5:1)",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_36",
+        "role": "product",
+        "label": {
+          "value": "Z-iodohydroxylation products 36",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "butenolide_35",
+          "iodine",
+          "men02_water",
+          "product_36"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "MeNO2:H2O (5:1)",
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "Ar",
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "minimum": 1,
+                "maximum": 51,
+                "unit": "h",
+                "raw_text": "1–51 h"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield_range",
+        "fact": {
+          "value": {
+            "minimum": 49,
+            "maximum": 80,
+            "unit": "%",
+            "raw_text": "49–80%"
+          },
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_36"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "This Account summarizes cited prior work; the original experimental article and SI were not supplied.",
+        "Generic R-group and stereochemical structures retain source labels; no SMILES was assigned."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_74147be4817c1957:scheme25_steric_rationale_iodohydroxylation",
+    "document_id": "doc_74147be4817c1957",
+    "source_reaction_id": "scheme25_steric_rationale_iodohydroxylation",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_74147be4817c1957:page7:image",
+      "doc_74147be4817c1957:page7:text"
+    ],
+    "participants": [],
+    "steps": [],
+    "outcomes": [],
+    "notes": [
+      {
+        "value": "Proposed reversible iodine addition gives iodonium intermediates 37A and 37B; less-hindered water attack through 37A is used to rationalize formation of the Z product, while the E product is not formed.",
+        "evidence_ids": [
+          "doc_74147be4817c1957:page7:image",
+          "doc_74147be4817c1957:page7:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "This Account summarizes cited prior work; the original experimental article and SI were not supplied.",
+        "Generic R-group and stereochemical structures retain source labels; no SMILES was assigned."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_74147be4817c1957:scheme26_fluorohydroxylation_3_aryl_allenes",
+    "document_id": "doc_74147be4817c1957",
+    "source_reaction_id": "scheme26_fluorohydroxylation_3_aryl_allenes",
+    "record_kind": "general_scheme",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_74147be4817c1957:page7:image",
+      "doc_74147be4817c1957:page7:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "allene_38",
+        "role": "reactant",
+        "label": {
+          "value": "3-aryl-1,2-allenes 38, R=H/alkyl/aryl",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "selectfluor",
+        "role": "reagent",
+        "label": {
+          "value": "Selectfluor",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.2,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "mecn_water",
+        "role": "solvent",
+        "label": {
+          "value": "MeCN:H2O (10:1)",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_39",
+        "role": "product",
+        "label": {
+          "value": "regioselective fluorohydroxylation products 39",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "allene_38",
+          "selectfluor",
+          "mecn_water",
+          "product_39"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "MeCN:H2O (10:1)",
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "minimum": 2,
+                "maximum": 24,
+                "unit": "h",
+                "raw_text": "2–24 h"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield_range",
+        "fact": {
+          "value": {
+            "minimum": 37,
+            "maximum": 78,
+            "unit": "%",
+            "raw_text": "37–78%"
+          },
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_39"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "This Account summarizes cited prior work; the original experimental article and SI were not supplied.",
+        "Generic R-group and stereochemical structures retain source labels; no SMILES was assigned."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_74147be4817c1957:scheme27_i2_lactonization_23_allenoic_acids",
+    "document_id": "doc_74147be4817c1957",
+    "source_reaction_id": "scheme27_i2_lactonization_23_allenoic_acids",
+    "record_kind": "general_scheme",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_74147be4817c1957:page7:image",
+      "doc_74147be4817c1957:page7:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "allenoic_acid_40",
+        "role": "reactant",
+        "label": {
+          "value": "2,3-allenoic acids 40, R=alkyl",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "iodine",
+        "role": "reagent",
+        "label": {
+          "value": "I2",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "thf",
+        "role": "solvent",
+        "label": {
+          "value": "THF",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "k2co3",
+        "role": "reagent",
+        "label": {
+          "value": "K2CO3",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "iodobutenolide_41",
+        "role": "product",
+        "label": {
+          "value": "beta-iodobutenolides 41, X=I",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1_iodination",
+        "participant_ids": [
+          "allenoic_acid_40",
+          "iodine",
+          "thf"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "THF",
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 0,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "step2_base_treatment",
+        "participant_ids": [
+          "k2co3",
+          "iodobutenolide_41"
+        ],
+        "conditions": [
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield_range",
+        "fact": {
+          "value": {
+            "minimum": 81,
+            "maximum": 91,
+            "unit": "%",
+            "raw_text": "81–91% (combined Scheme 27 range)"
+          },
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "iodobutenolide_41"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The K2CO3 amount and second-stage temperature are not stated.",
+        "The 81–91% range is printed for the I2/NBS alternatives and is not assigned to a single substrate row or route.",
+        "The original experimental article and SI were not supplied."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_74147be4817c1957:scheme27_nbs_lactonization_23_allenoic_acids",
+    "document_id": "doc_74147be4817c1957",
+    "source_reaction_id": "scheme27_nbs_lactonization_23_allenoic_acids",
+    "record_kind": "general_scheme",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_74147be4817c1957:page7:image",
+      "doc_74147be4817c1957:page7:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "allenoic_acid_40",
+        "role": "reactant",
+        "label": {
+          "value": "2,3-allenoic acids 40, R=alkyl",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "nbs",
+        "role": "reagent",
+        "label": {
+          "value": "NBS",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "k2co3",
+        "role": "reagent",
+        "label": {
+          "value": "K2CO3",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "water",
+        "role": "solvent",
+        "label": {
+          "value": "H2O",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "bromobutenolide_41",
+        "role": "product",
+        "label": {
+          "value": "beta-bromobutenolides 41, X=Br",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "allenoic_acid_40",
+          "nbs",
+          "k2co3",
+          "water",
+          "bromobutenolide_41"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "H2O",
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield_range",
+        "fact": {
+          "value": {
+            "minimum": 81,
+            "maximum": 91,
+            "unit": "%",
+            "raw_text": "81–91% (combined Scheme 27 range)"
+          },
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "bromobutenolide_41"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "NBS and K2CO3 amounts are not stated.",
+        "The 81–91% range is printed for the I2/NBS alternatives and is not assigned to a single substrate row or route.",
+        "The original experimental article and SI were not supplied."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_74147be4817c1957:scheme27_phxcl_lactonization_23_allenoic_acids",
+    "document_id": "doc_74147be4817c1957",
+    "source_reaction_id": "scheme27_phxcl_lactonization_23_allenoic_acids",
+    "record_kind": "general_scheme",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_74147be4817c1957:page7:image",
+      "doc_74147be4817c1957:page7:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "allenoic_acid_42",
+        "role": "reactant",
+        "label": {
+          "value": "2,3-allenoic acids 42 (R-group scope shown)",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "phxcl",
+        "role": "reagent",
+        "label": {
+          "value": "PhXCl, X=Se or S",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "mecn",
+        "role": "solvent",
+        "label": {
+          "value": "MeCN",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "butenolide_43",
+        "role": "product",
+        "label": {
+          "value": "beta-phenylseleno/phenylthio butenolides 43",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "allenoic_acid_42",
+          "phxcl",
+          "mecn",
+          "butenolide_43"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "MeCN",
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "N2",
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 0,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "minimum": 7,
+                "maximum": 19.5,
+                "unit": "h",
+                "raw_text": "7–19.5 h"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield_range",
+        "fact": {
+          "value": {
+            "minimum": 49,
+            "maximum": 98,
+            "unit": "%",
+            "raw_text": "49–98%"
+          },
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "butenolide_43"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "PhSeCl and PhSCl are presented as alternatives with a combined scope range; route-specific loadings and yields are not shown.",
+        "Generic R-group structures retain source labels and no SMILES.",
+        "The original experimental article and SI were not supplied."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_74147be4817c1957:scheme27_selectfluor_lactonization_23_allenoic_acids",
+    "document_id": "doc_74147be4817c1957",
+    "source_reaction_id": "scheme27_selectfluor_lactonization_23_allenoic_acids",
+    "record_kind": "general_scheme",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_74147be4817c1957:page7:image",
+      "doc_74147be4817c1957:page7:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "allenoic_acid_42",
+        "role": "reactant",
+        "label": {
+          "value": "2,3-allenoic acids 42 (R-group scope shown)",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "selectfluor",
+        "role": "reagent",
+        "label": {
+          "value": "Selectfluor",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "minimum": 1.1,
+                "maximum": 1.5,
+                "unit": "equiv",
+                "raw_text": "1.1–1.5 equiv"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "water",
+        "role": "reagent",
+        "label": {
+          "value": "H2O (10 equiv with MeCN; alternatively H2O is the medium)",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "mecn_or_water",
+        "role": "solvent",
+        "label": {
+          "value": "MeCN with H2O (10 equiv), or H2O",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "fluorobutenolide_44",
+        "role": "product",
+        "label": {
+          "value": "beta-fluorobutenolides 44",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "allenoic_acid_42",
+          "selectfluor",
+          "water",
+          "mecn_or_water",
+          "fluorobutenolide_44"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "MeCN with H2O (10 equiv), or H2O",
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "minimum": 80,
+                "maximum": 100,
+                "unit": "°C",
+                "raw_text": "80–100 °C"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield_range",
+        "fact": {
+          "value": {
+            "minimum": 39,
+            "maximum": 96,
+            "unit": "%",
+            "raw_text": "39–96%"
+          },
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "fluorobutenolide_44"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reaction time is not stated; the 10-equivalent H2O amount applies to the MeCN option, not to neat/aqueous H2O as medium.",
+        "The original experimental article and SI were not supplied.",
+        "Generic R-group structures retain source labels and no SMILES."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_74147be4817c1957:scheme28_iodolactonization_45_allenoic_acids",
+    "document_id": "doc_74147be4817c1957",
+    "source_reaction_id": "scheme28_iodolactonization_45_allenoic_acids",
+    "record_kind": "general_scheme",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_74147be4817c1957:page7:image",
+      "doc_74147be4817c1957:page7:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "allenoic_acid_45",
+        "role": "reactant",
+        "label": {
+          "value": "4,5-allenoic acids 45 (R-group scope shown)",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "iodine",
+        "role": "reagent",
+        "label": {
+          "value": "I2",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "k2co3",
+        "role": "reagent",
+        "label": {
+          "value": "K2CO3",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "minimum": 0,
+                "maximum": 1.0,
+                "unit": "equiv",
+                "raw_text": "0 or 1.0 equiv"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "cyclohexane",
+        "role": "solvent",
+        "label": {
+          "value": "cyclohexane",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "lactone_46",
+        "role": "product",
+        "label": {
+          "value": "five-membered iodolactones 46",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "allenoic_acid_45",
+          "iodine",
+          "k2co3",
+          "cyclohexane",
+          "lactone_46"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "cyclohexane",
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page7:image",
+                "doc_74147be4817c1957:page7:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield_range",
+        "fact": {
+          "value": {
+            "minimum": 75,
+            "maximum": 88,
+            "unit": "%",
+            "raw_text": "75–88%"
+          },
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "lactone_46"
+        ]
+      },
+      {
+        "name": "reported_Z_E_ratio_range",
+        "fact": {
+          "value": "Z/E 97:3 to 99:1",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page7:image",
+            "doc_74147be4817c1957:page7:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "lactone_46"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "This Account summarizes cited prior work; the original experimental article and SI were not supplied.",
+        "Generic R-group and stereochemical structures retain source labels; no SMILES was assigned."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_74147be4817c1957:scheme29_nis_iodolactonization_n_c6h13",
+    "document_id": "doc_74147be4817c1957",
+    "source_reaction_id": "scheme29_nis_iodolactonization_n_c6h13",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_74147be4817c1957:page8:image",
+      "doc_74147be4817c1957:page8:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "allenoic_acid_47",
+        "role": "reactant",
+        "label": {
+          "value": "optically active 4,5-allenoic acid 47, R=n-C6H13",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "nis",
+        "role": "reagent",
+        "label": {
+          "value": "NIS",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "cs2co3",
+        "role": "reagent",
+        "label": {
+          "value": "Cs2CO3",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "ch2cl2",
+        "role": "solvent",
+        "label": {
+          "value": "CH2Cl2",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "lactone_48a",
+        "role": "product",
+        "label": {
+          "value": "Z-iodolactone 48A, R=n-C6H13",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "lactone_48b",
+        "role": "product",
+        "label": {
+          "value": "E-iodolactone 48B, R=n-C6H13",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "allenoic_acid_47",
+          "nis",
+          "cs2co3",
+          "ch2cl2",
+          "lactone_48a",
+          "lactone_48b"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "CH2Cl2",
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": -60,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_combined_yield_48a_48b",
+        "fact": {
+          "value": {
+            "number": 86,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "lactone_48a",
+          "lactone_48b"
+        ]
+      },
+      {
+        "name": "reported_ee",
+        "fact": {
+          "value": {
+            "number": 99,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "lactone_48a",
+          "lactone_48b"
+        ]
+      },
+      {
+        "name": "reported_Z_E_ratio",
+        "fact": {
+          "value": "Z/E = 85:15",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "lactone_48a",
+          "lactone_48b"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reaction time and yield measurement basis are not printed in Scheme 29.",
+        "The single ee value is printed for the depicted 48A/48B outcome and is not separately assigned to each isomer.",
+        "Absolute structures and stereochemistry remain unverified; no SMILES was assigned.",
+        "The original experimental article and SI were not supplied."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_74147be4817c1957:scheme29_nis_iodolactonization_n_c5h11",
+    "document_id": "doc_74147be4817c1957",
+    "source_reaction_id": "scheme29_nis_iodolactonization_n_c5h11",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_74147be4817c1957:page8:image",
+      "doc_74147be4817c1957:page8:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "allenoic_acid_47",
+        "role": "reactant",
+        "label": {
+          "value": "optically active 4,5-allenoic acid 47, R=n-C5H11",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "nis",
+        "role": "reagent",
+        "label": {
+          "value": "NIS",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "cs2co3",
+        "role": "reagent",
+        "label": {
+          "value": "Cs2CO3",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "ch2cl2",
+        "role": "solvent",
+        "label": {
+          "value": "CH2Cl2",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "lactone_48a",
+        "role": "product",
+        "label": {
+          "value": "Z-iodolactone 48A, R=n-C5H11",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "lactone_48b",
+        "role": "product",
+        "label": {
+          "value": "E-iodolactone 48B, R=n-C5H11",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "allenoic_acid_47",
+          "nis",
+          "cs2co3",
+          "ch2cl2",
+          "lactone_48a",
+          "lactone_48b"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "CH2Cl2",
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": -60,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_combined_yield_48a_48b",
+        "fact": {
+          "value": {
+            "number": 91,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "lactone_48a",
+          "lactone_48b"
+        ]
+      },
+      {
+        "name": "reported_ee",
+        "fact": {
+          "value": {
+            "number": 98,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "lactone_48a",
+          "lactone_48b"
+        ]
+      },
+      {
+        "name": "reported_Z_E_ratio",
+        "fact": {
+          "value": "Z/E = 79:21",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "lactone_48a",
+          "lactone_48b"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reaction time and yield measurement basis are not printed in Scheme 29.",
+        "The single ee value is printed for the depicted 48A/48B outcome and is not separately assigned to each isomer.",
+        "Absolute structures and stereochemistry remain unverified; no SMILES was assigned.",
+        "The original experimental article and SI were not supplied."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_74147be4817c1957:scheme29_sonogashira_kinetic_resolution_n_c6h13",
+    "document_id": "doc_74147be4817c1957",
+    "source_reaction_id": "scheme29_sonogashira_kinetic_resolution_n_c6h13",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_74147be4817c1957:page8:image",
+      "doc_74147be4817c1957:page8:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "iodolactone_mixture",
+        "role": "reactant",
+        "label": {
+          "value": "iodolactone mixture 48A/48B, R=n-C6H13",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "pd_catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "PdCl2(PPh3)2",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "minimum": 3.5,
+                "maximum": 4.5,
+                "unit": "mol%",
+                "raw_text": "3.5–4.5 mol%"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "cui",
+        "role": "catalyst",
+        "label": {
+          "value": "CuI",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "minimum": 3.5,
+                "maximum": 4.5,
+                "unit": "mol%",
+                "raw_text": "3.5–4.5 mol%"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "et2nh",
+        "role": "reagent",
+        "label": {
+          "value": "Et2NH",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "minimum": 0.35,
+                "maximum": 0.45,
+                "unit": "equiv",
+                "raw_text": "0.35–0.45 equiv"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "propargyl_alcohol",
+        "role": "reagent",
+        "label": {
+          "value": "propargyl alcohol",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "minimum": 0.35,
+                "maximum": 0.45,
+                "unit": "equiv",
+                "raw_text": "0.35–0.45 equiv"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "cross_coupled_product",
+        "role": "product",
+        "label": {
+          "value": "Sonogashira-coupled alkynyl lactone, R=n-C6H13",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "recovered_48a",
+        "role": "product",
+        "label": {
+          "value": "enriched Z-iodolactone 48A, R=n-C6H13",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "iodolactone_mixture",
+          "pd_catalyst",
+          "cui",
+          "et2nh",
+          "propargyl_alcohol",
+          "cross_coupled_product",
+          "recovered_48a"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "recovered_48a_yield",
+        "fact": {
+          "value": {
+            "number": 74,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "recovered_48a"
+        ]
+      },
+      {
+        "name": "reported_ee",
+        "fact": {
+          "value": {
+            "number": 99,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "recovered_48a"
+        ]
+      },
+      {
+        "name": "reported_Z_E_ratio",
+        "fact": {
+          "value": "Z/E = 99:1",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "recovered_48a"
+        ]
+      },
+      {
+        "name": "recovery_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Temperature, duration, solvent, workup, purification, cross-coupled-product yield, and recovery measurement basis are not printed in Scheme 29.",
+        "The loading ranges are shared across the two depicted substrate cases; exact case-specific values are not assigned.",
+        "Absolute structures and stereochemistry remain unverified; no SMILES was assigned.",
+        "The original experimental article and SI were not supplied."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_74147be4817c1957:scheme29_sonogashira_kinetic_resolution_n_c5h11",
+    "document_id": "doc_74147be4817c1957",
+    "source_reaction_id": "scheme29_sonogashira_kinetic_resolution_n_c5h11",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_74147be4817c1957:page8:image",
+      "doc_74147be4817c1957:page8:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "iodolactone_mixture",
+        "role": "reactant",
+        "label": {
+          "value": "iodolactone mixture 48A/48B, R=n-C5H11",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "pd_catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "PdCl2(PPh3)2",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "minimum": 3.5,
+                "maximum": 4.5,
+                "unit": "mol%",
+                "raw_text": "3.5–4.5 mol%"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "cui",
+        "role": "catalyst",
+        "label": {
+          "value": "CuI",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "minimum": 3.5,
+                "maximum": 4.5,
+                "unit": "mol%",
+                "raw_text": "3.5–4.5 mol%"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "et2nh",
+        "role": "reagent",
+        "label": {
+          "value": "Et2NH",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "minimum": 0.35,
+                "maximum": 0.45,
+                "unit": "equiv",
+                "raw_text": "0.35–0.45 equiv"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "propargyl_alcohol",
+        "role": "reagent",
+        "label": {
+          "value": "propargyl alcohol",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "minimum": 0.35,
+                "maximum": 0.45,
+                "unit": "equiv",
+                "raw_text": "0.35–0.45 equiv"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "cross_coupled_product",
+        "role": "product",
+        "label": {
+          "value": "Sonogashira-coupled alkynyl lactone, R=n-C5H11",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "recovered_48a",
+        "role": "product",
+        "label": {
+          "value": "enriched Z-iodolactone 48A, R=n-C5H11",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "iodolactone_mixture",
+          "pd_catalyst",
+          "cui",
+          "et2nh",
+          "propargyl_alcohol",
+          "cross_coupled_product",
+          "recovered_48a"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "recovered_48a_yield",
+        "fact": {
+          "value": {
+            "number": 63,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "recovered_48a"
+        ]
+      },
+      {
+        "name": "reported_ee",
+        "fact": {
+          "value": {
+            "number": 98,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "recovered_48a"
+        ]
+      },
+      {
+        "name": "reported_Z_E_ratio",
+        "fact": {
+          "value": "Z/E = 96:4",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "recovered_48a"
+        ]
+      },
+      {
+        "name": "recovery_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Temperature, duration, solvent, workup, purification, cross-coupled-product yield, and recovery measurement basis are not printed in Scheme 29.",
+        "The loading ranges are shared across the two depicted substrate cases; exact case-specific values are not assigned.",
+        "Absolute structures and stereochemistry remain unverified; no SMILES was assigned.",
+        "The original experimental article and SI were not supplied."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_74147be4817c1957:scheme30_anti_iodolactonization_rationale",
+    "document_id": "doc_74147be4817c1957",
+    "source_reaction_id": "scheme30_anti_iodolactonization_rationale",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_74147be4817c1957:page8:image",
+      "doc_74147be4817c1957:page8:text"
+    ],
+    "participants": [],
+    "steps": [],
+    "outcomes": [],
+    "notes": [
+      {
+        "value": "Scheme 30 proposes anti iodolactonization pathways to rationalize Z/E selectivity and axial-to-central chirality transfer; the depicted cationic paths are mechanistic, not separate batch experiments.",
+        "evidence_ids": [
+          "doc_74147be4817c1957:page8:image",
+          "doc_74147be4817c1957:page8:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "This Account summarizes cited prior work; the original experimental article and SI were not supplied.",
+        "Generic R-group and stereochemical structures retain source labels; no SMILES was assigned."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_74147be4817c1957:scheme31_chiral_induction_iodolactonization",
+    "document_id": "doc_74147be4817c1957",
+    "source_reaction_id": "scheme31_chiral_induction_iodolactonization",
+    "record_kind": "general_scheme",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_74147be4817c1957:page8:image",
+      "doc_74147be4817c1957:page8:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "allenoic_acid_49",
+        "role": "reactant",
+        "label": {
+          "value": "3-substituted optically active 4,5-allenoic acids 49, R1/R2=alkyl",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "iodine",
+        "role": "reagent",
+        "label": {
+          "value": "I2",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "cyclohexane",
+        "role": "solvent",
+        "label": {
+          "value": "cyclohexane",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "lactone_50",
+        "role": "product",
+        "label": {
+          "value": "trans iodolactones 50",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "allenoic_acid_49",
+          "iodine",
+          "cyclohexane",
+          "lactone_50"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "cyclohexane",
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield_range",
+        "fact": {
+          "value": {
+            "minimum": 72,
+            "maximum": 86,
+            "unit": "%",
+            "raw_text": "72–86%"
+          },
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "lactone_50"
+        ]
+      },
+      {
+        "name": "reported_ee",
+        "fact": {
+          "value": {
+            "number": 99,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "lactone_50"
+        ]
+      },
+      {
+        "name": "reported_Z_E_ratio_range",
+        "fact": {
+          "value": "Z/E 96:4 to 98:2",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "lactone_50"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reaction time and yield measurement basis are not printed in Scheme 31.",
+        "The substrate-level assignment within the 72–86% and Z/E ranges is not shown in this Account.",
+        "Generic R-group and stereochemical structures retain source labels; no SMILES was assigned.",
+        "The original experimental article and SI were not supplied."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_74147be4817c1957:scheme31_pi_allyl_cation_intermediate_51",
+    "document_id": "doc_74147be4817c1957",
+    "source_reaction_id": "scheme31_pi_allyl_cation_intermediate_51",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_74147be4817c1957:page8:image",
+      "doc_74147be4817c1957:page8:text"
+    ],
+    "participants": [],
+    "steps": [],
+    "outcomes": [],
+    "notes": [
+      {
+        "value": "The 1,2-chiral induction is rationalized through proposed pi-allyl cationic intermediate 51; intermediate 51 is not a separately reported isolated product or experiment.",
+        "evidence_ids": [
+          "doc_74147be4817c1957:page8:image",
+          "doc_74147be4817c1957:page8:text"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "This Account summarizes cited prior work; the original experimental article and SI were not supplied.",
+        "Generic R-group and stereochemical structures retain source labels; no SMILES was assigned."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_74147be4817c1957:scheme32_iodolactonization_23_allenoates",
+    "document_id": "doc_74147be4817c1957",
+    "source_reaction_id": "scheme32_iodolactonization_23_allenoates",
+    "record_kind": "general_scheme",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_74147be4817c1957:page8:image",
+      "doc_74147be4817c1957:page8:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "allenoate_52",
+        "role": "reactant",
+        "label": {
+          "value": "ethyl 2,3-allenoates 52 (R-group scope shown)",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "iodine",
+        "role": "reagent",
+        "label": {
+          "value": "I2",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "mecn_water",
+        "role": "solvent",
+        "label": {
+          "value": "MeCN:H2O (15:1)",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "iodobutenolide_53",
+        "role": "product",
+        "label": {
+          "value": "beta-iodobutenolides 53",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "allenoate_52",
+          "iodine",
+          "mecn_water",
+          "iodobutenolide_53"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "MeCN:H2O (15:1)",
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield_range",
+        "fact": {
+          "value": {
+            "minimum": 60,
+            "maximum": 94,
+            "unit": "%",
+            "raw_text": "60–94%"
+          },
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "iodobutenolide_53"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Reaction time, yield measurement basis, and substrate-level assignments within the scope range are not printed.",
+        "Generic R-group structures retain source labels and no SMILES.",
+        "The original experimental article and SI were not supplied."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_74147be4817c1957:scheme32_phsecl_lactonization_23_allenoates",
+    "document_id": "doc_74147be4817c1957",
+    "source_reaction_id": "scheme32_phsecl_lactonization_23_allenoates",
+    "record_kind": "general_scheme",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_74147be4817c1957:page8:image",
+      "doc_74147be4817c1957:page8:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "allenoate_52",
+        "role": "reactant",
+        "label": {
+          "value": "ethyl 2,3-allenoates 52 (R-group scope shown)",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "phsecl",
+        "role": "reagent",
+        "label": {
+          "value": "PhSeCl",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "mecn_water",
+        "role": "solvent",
+        "label": {
+          "value": "MeCN:H2O (10:1)",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "selenobutenolide_54",
+        "role": "product",
+        "label": {
+          "value": "beta-phenylselenobutenolides 54",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "allenoate_52",
+          "phsecl",
+          "mecn_water",
+          "selenobutenolide_54"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "MeCN:H2O (10:1)",
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "minimum": 1,
+                "maximum": 3.5,
+                "unit": "h",
+                "raw_text": "1–3.5 h"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield_range",
+        "fact": {
+          "value": {
+            "minimum": 48,
+            "maximum": 100,
+            "unit": "%",
+            "raw_text": "48–100%"
+          },
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "selenobutenolide_54"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The special R1=R2=H, R3=n-C3H7 row uses MeCN:H2O (1:1) and is represented separately.",
+        "Yield measurement basis and substrate-level assignments within the general scope range are not printed.",
+        "Generic R-group structures retain source labels and no SMILES.",
+        "The original experimental article and SI were not supplied."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_74147be4817c1957:scheme32_phsecl_special_1_to_1_solvent",
+    "document_id": "doc_74147be4817c1957",
+    "source_reaction_id": "scheme32_phsecl_special_1_to_1_solvent",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_74147be4817c1957:page8:image",
+      "doc_74147be4817c1957:page8:text"
+    ],
+    "participants": [
+      {
+        "entity_id": "allenoate_52_special",
+        "role": "reactant",
+        "label": {
+          "value": "ethyl 2,3-allenoate 52, R1=R2=H and R3=n-C3H7",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "phsecl",
+        "role": "reagent",
+        "label": {
+          "value": "PhSeCl",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "mecn_water",
+        "role": "solvent",
+        "label": {
+          "value": "MeCN:H2O (1:1)",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "selenobutenolide_54_special",
+        "role": "product",
+        "label": {
+          "value": "beta-phenylselenobutenolide 54, R1=R2=H and R3=n-C3H7",
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "step1",
+        "participant_ids": [
+          "allenoate_52_special",
+          "phsecl",
+          "mecn_water",
+          "selenobutenolide_54_special"
+        ],
+        "conditions": [
+          {
+            "name": "solvent",
+            "fact": {
+              "value": "MeCN:H2O (1:1)",
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "time",
+            "fact": {
+              "value": {
+                "minimum": 1,
+                "maximum": 3.5,
+                "unit": "h",
+                "raw_text": "1–3.5 h"
+              },
+              "evidence_ids": [
+                "doc_74147be4817c1957:page8:image",
+                "doc_74147be4817c1957:page8:text"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "number": 49,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_74147be4817c1957:page8:image",
+            "doc_74147be4817c1957:page8:text"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "selenobutenolide_54_special"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        }
+      }
+    ],
+    "notes": [],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The shared Scheme 32 duration range is retained because the special line overrides solvent and yield but does not print a time override; exact substrate-specific duration and yield measurement basis remain unknown.",
+        "The substrate and product drawings are fully substituted but their stereochemical/connectivity encoding remains unverified; no SMILES was assigned.",
+        "The original experimental article and SI were not supplied."
+      ]
+    }
+  }
+]

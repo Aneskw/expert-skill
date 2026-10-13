@@ -1,0 +1,1527 @@
+{
+  "reviewed_at": "2026-10-13T19:03:34.727367+08:00",
+  "scope": "PDF pages 2–7, targeted field and representation review of all 14 records; no full structure certification or exhaustive recall evaluation",
+  "original_dataset_sha256": "7a52bfc275dc325038460465106e1ba2705056a1489d084fa2e8e1b69b10e41f",
+  "chemical_accuracy_verified": false,
+  "strict_validation": {
+    "valid": true,
+    "errors": []
+  },
+  "changes": [
+    {
+      "path": "documents/0/title",
+      "before": null,
+      "after": "An Efficient Au-Catalyzed Synthesis of Isomukonidine, Clausine L, Mukonidine, Glycosinine, Mukonal, and Clausine V from Propadienyl Methyl Ether",
+      "evidence_ids": [
+        "doc_6fa2317e77697e25:page2:text",
+        "doc_6fa2317e77697e25:page2:image"
+      ],
+      "reason": "Title is present on PDF page 2; metadata was empty."
+    },
+    {
+      "record_id": "doc_6fa2317e77697e25:section1_crude_2a",
+      "path": "steps/0/conditions/7/category",
+      "before": "selectivity",
+      "after": "operation",
+      "reason": "The source describes a handling operation, not selectivity.",
+      "evidence_ids": [
+        "doc_6fa2317e77697e25:page4:text",
+        "doc_6fa2317e77697e25:page4:image"
+      ]
+    },
+    {
+      "record_id": "doc_6fa2317e77697e25:section3_crude_2b",
+      "path": "steps/0/conditions/8/category",
+      "before": "selectivity",
+      "after": "operation",
+      "reason": "The source describes a handling operation, not selectivity.",
+      "evidence_ids": [
+        "doc_6fa2317e77697e25:page4:text",
+        "doc_6fa2317e77697e25:page4:image"
+      ]
+    },
+    {
+      "record_id": "doc_6fa2317e77697e25:section7_isomukonidine_6a",
+      "path": "steps/0/conditions/5/category",
+      "before": "selectivity",
+      "after": "operation",
+      "reason": "The source describes a handling operation, not selectivity.",
+      "evidence_ids": [
+        "doc_6fa2317e77697e25:page5:text",
+        "doc_6fa2317e77697e25:page5:image"
+      ]
+    },
+    {
+      "record_id": "doc_6fa2317e77697e25:section7_isomukonidine_6a",
+      "path": "steps/0/conditions/7/category",
+      "before": "selectivity",
+      "after": "operation",
+      "reason": "The source describes a handling operation, not selectivity.",
+      "evidence_ids": [
+        "doc_6fa2317e77697e25:page5:text",
+        "doc_6fa2317e77697e25:page5:image"
+      ]
+    },
+    {
+      "record_id": "doc_6fa2317e77697e25:section8_clausine_L_7a",
+      "path": "steps/0/conditions/1/category",
+      "before": "selectivity",
+      "after": "operation",
+      "reason": "The source describes a handling operation, not selectivity.",
+      "evidence_ids": [
+        "doc_6fa2317e77697e25:page5:text",
+        "doc_6fa2317e77697e25:page5:image"
+      ]
+    },
+    {
+      "record_id": "doc_6fa2317e77697e25:section9_mukonidine_8a",
+      "path": "steps",
+      "before": [
+        {
+          "step_id": "BBr3_demethylation",
+          "participant_ids": [
+            "compound_7a",
+            "bbr3",
+            "ch2cl2"
+          ],
+          "conditions": [
+            {
+              "name": "atmosphere",
+              "fact": {
+                "value": "nitrogen",
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "atmosphere"
+            },
+            {
+              "name": "BBr3_addition_temperature",
+              "fact": {
+                "value": {
+                  "number": -78,
+                  "unit": "°C"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page3:text",
+                  "doc_6fa2317e77697e25:page3:image",
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "temperature"
+            },
+            {
+              "name": "BBr3_addition_time",
+              "fact": {
+                "value": {
+                  "number": 10,
+                  "unit": "min"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            },
+            {
+              "name": "time_at_minus_78",
+              "fact": {
+                "value": {
+                  "number": 1,
+                  "unit": "h"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            },
+            {
+              "name": "time_at_minus_20",
+              "fact": {
+                "value": {
+                  "number": 2.6,
+                  "unit": "h"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            },
+            {
+              "name": "time_at_room_temperature",
+              "fact": {
+                "value": {
+                  "number": 1,
+                  "unit": "h"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            },
+            {
+              "name": "monitoring",
+              "fact": {
+                "value": "TLC",
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            },
+            {
+              "name": "workup",
+              "fact": {
+                "value": "quench with saturated aqueous NaHCO3 (15 mL) at 0 °C; extract with ethyl acetate (20 mL ×3); wash with water; dry over Na2SO4; filter and evaporate",
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "workup"
+            },
+            {
+              "name": "purification",
+              "fact": {
+                "value": "silica-gel column chromatography; petroleum ether/ethyl acetate = 3:1",
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "purification"
+            }
+          ]
+        }
+      ],
+      "after": [
+        {
+          "step_id": "BBr3_addition",
+          "participant_ids": [
+            "compound_7a",
+            "bbr3",
+            "ch2cl2"
+          ],
+          "conditions": [
+            {
+              "name": "atmosphere",
+              "fact": {
+                "value": "nitrogen",
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "atmosphere"
+            },
+            {
+              "name": "BBr3_addition_temperature",
+              "fact": {
+                "value": {
+                  "number": -78,
+                  "unit": "°C"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page3:text",
+                  "doc_6fa2317e77697e25:page3:image",
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "temperature"
+            },
+            {
+              "name": "BBr3_addition_time",
+              "fact": {
+                "value": {
+                  "number": 10,
+                  "unit": "min"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            }
+          ]
+        },
+        {
+          "step_id": "hold_minus_78",
+          "participant_ids": [
+            "compound_7a",
+            "bbr3",
+            "ch2cl2"
+          ],
+          "conditions": [
+            {
+              "name": "time_at_minus_78",
+              "fact": {
+                "value": {
+                  "number": 1,
+                  "unit": "h"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            },
+            {
+              "name": "temperature",
+              "fact": {
+                "value": {
+                  "number": -78,
+                  "unit": "°C"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "source_checked"
+              },
+              "category": "temperature"
+            }
+          ]
+        },
+        {
+          "step_id": "warm_to_minus_20",
+          "participant_ids": [
+            "compound_7a",
+            "bbr3",
+            "ch2cl2"
+          ],
+          "conditions": [
+            {
+              "name": "temperature_start",
+              "fact": {
+                "value": {
+                  "number": -78,
+                  "unit": "°C"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "source_checked"
+              },
+              "category": "temperature"
+            },
+            {
+              "name": "temperature_end",
+              "fact": {
+                "value": {
+                  "number": -20,
+                  "unit": "°C"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "source_checked"
+              },
+              "category": "temperature"
+            },
+            {
+              "name": "transition_time",
+              "fact": {
+                "value": {
+                  "number": 5,
+                  "unit": "min"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "source_checked"
+              },
+              "category": "time"
+            }
+          ]
+        },
+        {
+          "step_id": "hold_minus_20",
+          "participant_ids": [
+            "compound_7a",
+            "bbr3",
+            "ch2cl2"
+          ],
+          "conditions": [
+            {
+              "name": "time_at_minus_20",
+              "fact": {
+                "value": {
+                  "number": 2.6,
+                  "unit": "h"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            },
+            {
+              "name": "temperature",
+              "fact": {
+                "value": {
+                  "number": -20,
+                  "unit": "°C"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "source_checked"
+              },
+              "category": "temperature"
+            }
+          ]
+        },
+        {
+          "step_id": "warm_and_hold_room_temperature",
+          "participant_ids": [
+            "compound_7a",
+            "bbr3",
+            "ch2cl2"
+          ],
+          "conditions": [
+            {
+              "name": "time_at_room_temperature",
+              "fact": {
+                "value": {
+                  "number": 1,
+                  "unit": "h"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            },
+            {
+              "name": "monitoring",
+              "fact": {
+                "value": "TLC",
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            },
+            {
+              "name": "temperature",
+              "fact": {
+                "value": "r.t.",
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "source_checked"
+              },
+              "category": "temperature"
+            }
+          ]
+        },
+        {
+          "step_id": "workup_and_purification",
+          "participant_ids": [
+            "compound_7a",
+            "bbr3",
+            "ch2cl2"
+          ],
+          "conditions": [
+            {
+              "name": "workup",
+              "fact": {
+                "value": "quench with saturated aqueous NaHCO3 (15 mL) at 0 °C; extract with ethyl acetate (20 mL ×3); wash with water; dry over Na2SO4; filter and evaporate",
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "workup"
+            },
+            {
+              "name": "purification",
+              "fact": {
+                "value": "silica-gel column chromatography; petroleum ether/ethyl acetate = 3:1",
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "purification"
+            }
+          ]
+        }
+      ],
+      "reason": "Associate each temperature/time with its source stage; add transitions explicitly shown in the reaction figure.",
+      "evidence_ids": [
+        "doc_6fa2317e77697e25:page6:text",
+        "doc_6fa2317e77697e25:page6:image"
+      ]
+    },
+    {
+      "record_id": "doc_6fa2317e77697e25:section11_mukonal_10a",
+      "path": "steps",
+      "before": [
+        {
+          "step_id": "BBr3_demethylation",
+          "participant_ids": [
+            "compound_9a",
+            "bbr3",
+            "ch2cl2"
+          ],
+          "conditions": [
+            {
+              "name": "atmosphere",
+              "fact": {
+                "value": "nitrogen",
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "atmosphere"
+            },
+            {
+              "name": "BBr3_addition_temperature",
+              "fact": {
+                "value": {
+                  "number": -78,
+                  "unit": "°C"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page3:text",
+                  "doc_6fa2317e77697e25:page3:image",
+                  "doc_6fa2317e77697e25:page4:text",
+                  "doc_6fa2317e77697e25:page4:image",
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "temperature"
+            },
+            {
+              "name": "BBr3_addition_time",
+              "fact": {
+                "value": {
+                  "number": 10,
+                  "unit": "min"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            },
+            {
+              "name": "time_at_minus_78",
+              "fact": {
+                "value": {
+                  "number": 40,
+                  "unit": "min"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            },
+            {
+              "name": "time_at_minus_20",
+              "fact": {
+                "value": {
+                  "number": 22,
+                  "unit": "h"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            },
+            {
+              "name": "monitoring",
+              "fact": {
+                "value": "TLC",
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            },
+            {
+              "name": "workup",
+              "fact": {
+                "value": "quench with saturated aqueous NaHCO3 (20 mL) at -20 °C; dilute with ethyl acetate (30 mL); extract with ethyl acetate (20 mL ×3); wash with water; dry over Na2SO4; filter and evaporate",
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "workup"
+            },
+            {
+              "name": "purification",
+              "fact": {
+                "value": "silica-gel column chromatography; petroleum ether/ethyl acetate = 5:1",
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "purification"
+            }
+          ]
+        }
+      ],
+      "after": [
+        {
+          "step_id": "BBr3_addition",
+          "participant_ids": [
+            "compound_9a",
+            "bbr3",
+            "ch2cl2"
+          ],
+          "conditions": [
+            {
+              "name": "atmosphere",
+              "fact": {
+                "value": "nitrogen",
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "atmosphere"
+            },
+            {
+              "name": "BBr3_addition_temperature",
+              "fact": {
+                "value": {
+                  "number": -78,
+                  "unit": "°C"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page3:text",
+                  "doc_6fa2317e77697e25:page3:image",
+                  "doc_6fa2317e77697e25:page4:text",
+                  "doc_6fa2317e77697e25:page4:image",
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "temperature"
+            },
+            {
+              "name": "BBr3_addition_time",
+              "fact": {
+                "value": {
+                  "number": 10,
+                  "unit": "min"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            }
+          ]
+        },
+        {
+          "step_id": "hold_minus_78",
+          "participant_ids": [
+            "compound_9a",
+            "bbr3",
+            "ch2cl2"
+          ],
+          "conditions": [
+            {
+              "name": "time_at_minus_78",
+              "fact": {
+                "value": {
+                  "number": 40,
+                  "unit": "min"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            },
+            {
+              "name": "temperature",
+              "fact": {
+                "value": {
+                  "number": -78,
+                  "unit": "°C"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "source_checked"
+              },
+              "category": "temperature"
+            }
+          ]
+        },
+        {
+          "step_id": "hold_minus_20",
+          "participant_ids": [
+            "compound_9a",
+            "bbr3",
+            "ch2cl2"
+          ],
+          "conditions": [
+            {
+              "name": "time_at_minus_20",
+              "fact": {
+                "value": {
+                  "number": 22,
+                  "unit": "h"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            },
+            {
+              "name": "monitoring",
+              "fact": {
+                "value": "TLC",
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            },
+            {
+              "name": "temperature",
+              "fact": {
+                "value": {
+                  "number": -20,
+                  "unit": "°C"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "source_checked"
+              },
+              "category": "temperature"
+            }
+          ]
+        },
+        {
+          "step_id": "workup_and_purification",
+          "participant_ids": [
+            "compound_9a",
+            "bbr3",
+            "ch2cl2"
+          ],
+          "conditions": [
+            {
+              "name": "workup",
+              "fact": {
+                "value": "quench with saturated aqueous NaHCO3 (20 mL) at -20 °C; dilute with ethyl acetate (30 mL); extract with ethyl acetate (20 mL ×3); wash with water; dry over Na2SO4; filter and evaporate",
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "workup"
+            },
+            {
+              "name": "purification",
+              "fact": {
+                "value": "silica-gel column chromatography; petroleum ether/ethyl acetate = 5:1",
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "purification"
+            }
+          ]
+        }
+      ],
+      "reason": "Associate each temperature/time with its source stage; add transitions explicitly shown in the reaction figure.",
+      "evidence_ids": [
+        "doc_6fa2317e77697e25:page6:text",
+        "doc_6fa2317e77697e25:page6:image"
+      ]
+    },
+    {
+      "record_id": "doc_6fa2317e77697e25:section10_glycosinine_9a",
+      "path": "steps",
+      "before": [
+        {
+          "step_id": "deprotonation_bromine_lithium_exchange_and_formylation",
+          "participant_ids": [
+            "compound_5a",
+            "kh",
+            "n_buli",
+            "dmf_reactant",
+            "thf"
+          ],
+          "conditions": [
+            {
+              "name": "initial_THF_volume",
+              "fact": {
+                "value": {
+                  "number": 25,
+                  "unit": "mL"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "volume"
+            },
+            {
+              "name": "initial_temperature",
+              "fact": {
+                "value": "r.t.",
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "temperature"
+            },
+            {
+              "name": "KH_stirring_time",
+              "fact": {
+                "value": {
+                  "number": 30,
+                  "unit": "min"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            },
+            {
+              "name": "exchange_temperature",
+              "fact": {
+                "value": {
+                  "number": -78,
+                  "unit": "°C"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page3:text",
+                  "doc_6fa2317e77697e25:page3:image",
+                  "doc_6fa2317e77697e25:page4:text",
+                  "doc_6fa2317e77697e25:page4:image",
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "temperature"
+            },
+            {
+              "name": "n_BuLi_addition_time",
+              "fact": {
+                "value": {
+                  "number": 5,
+                  "unit": "min"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            },
+            {
+              "name": "post_n_BuLi_stirring_time",
+              "fact": {
+                "value": {
+                  "number": 30,
+                  "unit": "min"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            },
+            {
+              "name": "DMF_solution_THF_volume",
+              "fact": {
+                "value": {
+                  "number": 2,
+                  "unit": "mL"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "volume"
+            },
+            {
+              "name": "DMF_addition_time",
+              "fact": {
+                "value": {
+                  "number": 5,
+                  "unit": "min"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            },
+            {
+              "name": "time_at_minus_30",
+              "fact": {
+                "value": {
+                  "number": 0.5,
+                  "unit": "h"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            },
+            {
+              "name": "time_at_room_temperature",
+              "fact": {
+                "value": {
+                  "number": 10,
+                  "unit": "min"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            },
+            {
+              "name": "workup",
+              "fact": {
+                "value": "quench with water (10 mL) at 0 °C; extract with ethyl acetate (20 mL ×3); wash with 5% HCl; dry over Na2SO4; filter and evaporate",
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "workup"
+            },
+            {
+              "name": "purification",
+              "fact": {
+                "value": "two silica-gel columns; petroleum ether/ethyl acetate = 5:1 to 3:1 in each round for the impure fraction",
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "purification"
+            }
+          ]
+        }
+      ],
+      "after": [
+        {
+          "step_id": "KH_deprotonation",
+          "participant_ids": [
+            "compound_5a",
+            "kh",
+            "n_buli",
+            "dmf_reactant",
+            "thf"
+          ],
+          "conditions": [
+            {
+              "name": "initial_THF_volume",
+              "fact": {
+                "value": {
+                  "number": 25,
+                  "unit": "mL"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "volume"
+            },
+            {
+              "name": "initial_temperature",
+              "fact": {
+                "value": "r.t.",
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "temperature"
+            },
+            {
+              "name": "KH_stirring_time",
+              "fact": {
+                "value": {
+                  "number": 30,
+                  "unit": "min"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            }
+          ]
+        },
+        {
+          "step_id": "n_BuLi_addition",
+          "participant_ids": [
+            "compound_5a",
+            "kh",
+            "n_buli",
+            "dmf_reactant",
+            "thf"
+          ],
+          "conditions": [
+            {
+              "name": "exchange_temperature",
+              "fact": {
+                "value": {
+                  "number": -78,
+                  "unit": "°C"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page3:text",
+                  "doc_6fa2317e77697e25:page3:image",
+                  "doc_6fa2317e77697e25:page4:text",
+                  "doc_6fa2317e77697e25:page4:image",
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "temperature"
+            },
+            {
+              "name": "n_BuLi_addition_time",
+              "fact": {
+                "value": {
+                  "number": 5,
+                  "unit": "min"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            },
+            {
+              "name": "n_BuLi_solution_solvent",
+              "fact": {
+                "value": "hexane",
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "source_checked"
+              },
+              "category": "solvent"
+            }
+          ]
+        },
+        {
+          "step_id": "hold_minus_78",
+          "participant_ids": [
+            "compound_5a",
+            "kh",
+            "n_buli",
+            "dmf_reactant",
+            "thf"
+          ],
+          "conditions": [
+            {
+              "name": "post_n_BuLi_stirring_time",
+              "fact": {
+                "value": {
+                  "number": 30,
+                  "unit": "min"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            },
+            {
+              "name": "temperature",
+              "fact": {
+                "value": {
+                  "number": -78,
+                  "unit": "°C"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "source_checked"
+              },
+              "category": "temperature"
+            }
+          ]
+        },
+        {
+          "step_id": "DMF_addition",
+          "participant_ids": [
+            "compound_5a",
+            "kh",
+            "n_buli",
+            "dmf_reactant",
+            "thf"
+          ],
+          "conditions": [
+            {
+              "name": "DMF_solution_THF_volume",
+              "fact": {
+                "value": {
+                  "number": 2,
+                  "unit": "mL"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "volume"
+            },
+            {
+              "name": "DMF_addition_time",
+              "fact": {
+                "value": {
+                  "number": 5,
+                  "unit": "min"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            },
+            {
+              "name": "temperature",
+              "fact": {
+                "value": {
+                  "number": -78,
+                  "unit": "°C"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "source_checked"
+              },
+              "category": "temperature"
+            }
+          ]
+        },
+        {
+          "step_id": "warm_to_minus_30",
+          "participant_ids": [
+            "compound_5a",
+            "kh",
+            "n_buli",
+            "dmf_reactant",
+            "thf"
+          ],
+          "conditions": [
+            {
+              "name": "temperature_start",
+              "fact": {
+                "value": {
+                  "number": -78,
+                  "unit": "°C"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "source_checked"
+              },
+              "category": "temperature"
+            },
+            {
+              "name": "temperature_end",
+              "fact": {
+                "value": {
+                  "number": -30,
+                  "unit": "°C"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "source_checked"
+              },
+              "category": "temperature"
+            },
+            {
+              "name": "transition_time",
+              "fact": {
+                "value": {
+                  "number": 5,
+                  "unit": "min"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "source_checked"
+              },
+              "category": "time"
+            }
+          ]
+        },
+        {
+          "step_id": "hold_minus_30",
+          "participant_ids": [
+            "compound_5a",
+            "kh",
+            "n_buli",
+            "dmf_reactant",
+            "thf"
+          ],
+          "conditions": [
+            {
+              "name": "time_at_minus_30",
+              "fact": {
+                "value": {
+                  "number": 0.5,
+                  "unit": "h"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            },
+            {
+              "name": "temperature",
+              "fact": {
+                "value": {
+                  "number": -30,
+                  "unit": "°C"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "source_checked"
+              },
+              "category": "temperature"
+            }
+          ]
+        },
+        {
+          "step_id": "warm_and_hold_room_temperature",
+          "participant_ids": [
+            "compound_5a",
+            "kh",
+            "n_buli",
+            "dmf_reactant",
+            "thf"
+          ],
+          "conditions": [
+            {
+              "name": "time_at_room_temperature",
+              "fact": {
+                "value": {
+                  "number": 10,
+                  "unit": "min"
+                },
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            },
+            {
+              "name": "temperature",
+              "fact": {
+                "value": "r.t.",
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "source_checked"
+              },
+              "category": "temperature"
+            }
+          ]
+        },
+        {
+          "step_id": "workup_and_purification",
+          "participant_ids": [
+            "compound_5a",
+            "kh",
+            "n_buli",
+            "dmf_reactant",
+            "thf"
+          ],
+          "conditions": [
+            {
+              "name": "workup",
+              "fact": {
+                "value": "quench with water (10 mL) at 0 °C; extract with ethyl acetate (20 mL ×3); wash with 5% HCl; dry over Na2SO4; filter and evaporate",
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "workup"
+            },
+            {
+              "name": "purification",
+              "fact": {
+                "value": "two silica-gel columns; petroleum ether/ethyl acetate = 5:1 to 3:1 in each round for the impure fraction",
+                "evidence_ids": [
+                  "doc_6fa2317e77697e25:page6:text",
+                  "doc_6fa2317e77697e25:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "purification"
+            }
+          ]
+        }
+      ],
+      "reason": "Associate each temperature/time with its source stage; add transitions explicitly shown in the reaction figure.",
+      "evidence_ids": [
+        "doc_6fa2317e77697e25:page6:text",
+        "doc_6fa2317e77697e25:page6:image"
+      ]
+    },
+    {
+      "record_id": "doc_6fa2317e77697e25:section1_crude_2a",
+      "path": "steps/0/conditions/n_BuLi_solution_solvent",
+      "before": null,
+      "after": {
+        "name": "n_BuLi_solution_solvent",
+        "fact": {
+          "value": "hexane",
+          "evidence_ids": [
+            "doc_6fa2317e77697e25:page4:text",
+            "doc_6fa2317e77697e25:page4:image"
+          ],
+          "verification": "source_checked"
+        },
+        "category": "solvent"
+      },
+      "reason": "Source explicitly states n-BuLi in hexane.",
+      "evidence_ids": [
+        "doc_6fa2317e77697e25:page4:text",
+        "doc_6fa2317e77697e25:page4:image"
+      ]
+    },
+    {
+      "record_id": "doc_6fa2317e77697e25:section3_crude_2b",
+      "path": "steps/0/conditions/n_BuLi_solution_solvent",
+      "before": null,
+      "after": {
+        "name": "n_BuLi_solution_solvent",
+        "fact": {
+          "value": "hexane",
+          "evidence_ids": [
+            "doc_6fa2317e77697e25:page4:text",
+            "doc_6fa2317e77697e25:page4:image"
+          ],
+          "verification": "source_checked"
+        },
+        "category": "solvent"
+      },
+      "reason": "Source explicitly states n-BuLi in hexane.",
+      "evidence_ids": [
+        "doc_6fa2317e77697e25:page4:text",
+        "doc_6fa2317e77697e25:page4:image"
+      ]
+    },
+    {
+      "record_id": "doc_6fa2317e77697e25:section7_isomukonidine_6a",
+      "path": "steps/0/conditions/n_BuLi_solution_solvent",
+      "before": null,
+      "after": {
+        "name": "n_BuLi_solution_solvent",
+        "fact": {
+          "value": "hexane",
+          "evidence_ids": [
+            "doc_6fa2317e77697e25:page5:text",
+            "doc_6fa2317e77697e25:page5:image"
+          ],
+          "verification": "source_checked"
+        },
+        "category": "solvent"
+      },
+      "reason": "Source explicitly states n-BuLi in hexane.",
+      "evidence_ids": [
+        "doc_6fa2317e77697e25:page5:text",
+        "doc_6fa2317e77697e25:page5:image"
+      ]
+    },
+    {
+      "record_id": "doc_6fa2317e77697e25:section10_glycosinine_9a",
+      "path": "steps/1/conditions/n_BuLi_solution_solvent",
+      "before": null,
+      "after": {
+        "name": "n_BuLi_solution_solvent",
+        "fact": {
+          "value": "hexane",
+          "evidence_ids": [
+            "doc_6fa2317e77697e25:page6:text",
+            "doc_6fa2317e77697e25:page6:image"
+          ],
+          "verification": "source_checked"
+        },
+        "category": "solvent"
+      },
+      "reason": "Source explicitly states n-BuLi in hexane.",
+      "evidence_ids": [
+        "doc_6fa2317e77697e25:page6:text",
+        "doc_6fa2317e77697e25:page6:image"
+      ]
+    },
+    {
+      "record_id": "doc_6fa2317e77697e25:section4_3b",
+      "path": "notes/source_discrepancy",
+      "before": null,
+      "after": {
+        "value": "Source discrepancy: the figure reports AuCl 5 mol%, whereas the experimental text reports 0.23 mmol AuCl and the preceding 1b charge is 4.0 mmol (a calculated 5.75 mol% relative to 1b). The crude 2b amount is not measured. Keep both reports; do not replace 0.23 mmol or claim a resolved loading.",
+        "evidence_ids": [
+          "doc_6fa2317e77697e25:page4:text",
+          "doc_6fa2317e77697e25:page4:image"
+        ],
+        "verification": "inferred"
+      },
+      "reason": "Keep figure and experimental-section reports separately; arithmetic is an explicit inference.",
+      "evidence_ids": [
+        "doc_6fa2317e77697e25:page4:text",
+        "doc_6fa2317e77697e25:page4:image"
+      ]
+    },
+    {
+      "record_id": "doc_6fa2317e77697e25:section9_mukonidine_8a",
+      "path": "notes/source_discrepancy",
+      "before": null,
+      "after": {
+        "value": "Source discrepancy: the figure reports BBr3 4.0 equiv, whereas the experimental text reports 2.2 mmol BBr3 and 0.57 mmol 7a (a calculated 3.86 equiv relative to 7a). Keep both reports; the source does not resolve the difference.",
+        "evidence_ids": [
+          "doc_6fa2317e77697e25:page6:text",
+          "doc_6fa2317e77697e25:page6:image"
+        ],
+        "verification": "inferred"
+      },
+      "reason": "Keep figure and experimental-section reports separately; arithmetic is an explicit inference.",
+      "evidence_ids": [
+        "doc_6fa2317e77697e25:page6:text",
+        "doc_6fa2317e77697e25:page6:image"
+      ]
+    }
+  ],
+  "markdown_fixes": [
+    "Display every participant amount from JSON",
+    "Display source discrepancy notes and unresolved issues"
+  ]
+}

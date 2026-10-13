@@ -1,0 +1,5624 @@
+[
+  {
+    "record_id": "doc_49c1285b5e9c9b90:table7_entry1",
+    "document_id": "doc_49c1285b5e9c9b90",
+    "source_reaction_id": "table7_entry1",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_49c1285b5e9c9b90:page2:text",
+      "doc_49c1285b5e9c9b90:page2:image",
+      "doc_49c1285b5e9c9b90:page7:text",
+      "doc_49c1285b5e9c9b90:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "model_substrate",
+        "role": "reactant",
+        "label": {
+          "value": "2k_1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled 4,4-disubstituted 1-(1-methylindol-2-yl)-2,3-allenol model 2k_1 (R1=Me, R2=Ph)",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "aucl",
+        "role": "catalyst",
+        "label": {
+          "value": "AuCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "gold(I) chloride",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "int4",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "gold-carbene intermediate Int4",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ts_r1",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "calculated 1,2-Me shift transition structure",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ts_r2",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "calculated 1,2-Ph shift transition structure",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "DFT_competitive_1_2_migration",
+        "participant_ids": [
+          "model_substrate",
+          "aucl",
+          "int4"
+        ],
+        "conditions": [
+          {
+            "name": "computational_method",
+            "fact": {
+              "value": "B3LYP; 6-311G(d,p) for C/H/N/O and LANL2DZ ECP for Au",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page2:text",
+                "doc_49c1285b5e9c9b90:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reported_temperature",
+            "fact": {
+              "value": {
+                "number": 298,
+                "unit": "K"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page2:text",
+                "doc_49c1285b5e9c9b90:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent_model",
+            "fact": {
+              "value": "CPCM 1,2-dichloroethane for DGsol",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page2:text",
+                "doc_49c1285b5e9c9b90:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "1_2_R1_shift_DG298",
+        "fact": {
+          "value": "19.0 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1"
+        ]
+      },
+      {
+        "name": "1_2_R1_shift_DGsol",
+        "fact": {
+          "value": "18.7 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1"
+        ]
+      },
+      {
+        "name": "1_2_R2_shift_DG298",
+        "fact": {
+          "value": "14.4 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r2"
+        ]
+      },
+      {
+        "name": "1_2_R2_shift_DGsol",
+        "fact": {
+          "value": "12.6 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r2"
+        ]
+      },
+      {
+        "name": "competitive_shift_DDG298",
+        "fact": {
+          "value": "4.6 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1",
+          "ts_r2"
+        ]
+      },
+      {
+        "name": "competitive_shift_DDGsol",
+        "fact": {
+          "value": "6.1 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1",
+          "ts_r2"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 7 is a DFT comparison of competitive 1,2-migration barriers and is classified as mechanism/computational evidence, not as a preparative experiment.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page2:text",
+          "doc_49c1285b5e9c9b90:page2:image",
+          "doc_49c1285b5e9c9b90:page7:text",
+          "doc_49c1285b5e9c9b90:page7:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The source states that the calculated preference captures the experimental trend qualitatively but not quantitatively.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page2:text",
+          "doc_49c1285b5e9c9b90:page2:image",
+          "doc_49c1285b5e9c9b90:page7:text",
+          "doc_49c1285b5e9c9b90:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI coordinates or energies were imported.",
+        "Transition structures and compact model structures remain source-labeled and structure_verified=false.",
+        "The record preserves the tabulated barriers but is not a complete computational dataset or a chemical-accuracy certification."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_49c1285b5e9c9b90:table7_entry2",
+    "document_id": "doc_49c1285b5e9c9b90",
+    "source_reaction_id": "table7_entry2",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_49c1285b5e9c9b90:page2:text",
+      "doc_49c1285b5e9c9b90:page2:image",
+      "doc_49c1285b5e9c9b90:page7:text",
+      "doc_49c1285b5e9c9b90:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "model_substrate",
+        "role": "reactant",
+        "label": {
+          "value": "2n_1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled 4,4-disubstituted 1-(1-methylindol-2-yl)-2,3-allenol model 2n_1 (R1=Et, R2=Ph)",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "aucl",
+        "role": "catalyst",
+        "label": {
+          "value": "AuCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "gold(I) chloride",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "int4",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "gold-carbene intermediate Int4",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ts_r1",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "calculated 1,2-Et shift transition structure",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ts_r2",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "calculated 1,2-Ph shift transition structure",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "DFT_competitive_1_2_migration",
+        "participant_ids": [
+          "model_substrate",
+          "aucl",
+          "int4"
+        ],
+        "conditions": [
+          {
+            "name": "computational_method",
+            "fact": {
+              "value": "B3LYP; 6-311G(d,p) for C/H/N/O and LANL2DZ ECP for Au",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page2:text",
+                "doc_49c1285b5e9c9b90:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reported_temperature",
+            "fact": {
+              "value": {
+                "number": 298,
+                "unit": "K"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page2:text",
+                "doc_49c1285b5e9c9b90:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent_model",
+            "fact": {
+              "value": "CPCM 1,2-dichloroethane for DGsol",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page2:text",
+                "doc_49c1285b5e9c9b90:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "1_2_R1_shift_DG298",
+        "fact": {
+          "value": "17.5 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1"
+        ]
+      },
+      {
+        "name": "1_2_R1_shift_DGsol",
+        "fact": {
+          "value": "15.8 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1"
+        ]
+      },
+      {
+        "name": "1_2_R2_shift_DG298",
+        "fact": {
+          "value": "14.3 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r2"
+        ]
+      },
+      {
+        "name": "1_2_R2_shift_DGsol",
+        "fact": {
+          "value": "12.6 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r2"
+        ]
+      },
+      {
+        "name": "competitive_shift_DDG298",
+        "fact": {
+          "value": "3.2 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1",
+          "ts_r2"
+        ]
+      },
+      {
+        "name": "competitive_shift_DDGsol",
+        "fact": {
+          "value": "3.2 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1",
+          "ts_r2"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 7 is a DFT comparison of competitive 1,2-migration barriers and is classified as mechanism/computational evidence, not as a preparative experiment.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page2:text",
+          "doc_49c1285b5e9c9b90:page2:image",
+          "doc_49c1285b5e9c9b90:page7:text",
+          "doc_49c1285b5e9c9b90:page7:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The source states that the calculated preference captures the experimental trend qualitatively but not quantitatively.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page2:text",
+          "doc_49c1285b5e9c9b90:page2:image",
+          "doc_49c1285b5e9c9b90:page7:text",
+          "doc_49c1285b5e9c9b90:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI coordinates or energies were imported.",
+        "Transition structures and compact model structures remain source-labeled and structure_verified=false.",
+        "The record preserves the tabulated barriers but is not a complete computational dataset or a chemical-accuracy certification."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_49c1285b5e9c9b90:table7_entry3",
+    "document_id": "doc_49c1285b5e9c9b90",
+    "source_reaction_id": "table7_entry3",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_49c1285b5e9c9b90:page2:text",
+      "doc_49c1285b5e9c9b90:page2:image",
+      "doc_49c1285b5e9c9b90:page7:text",
+      "doc_49c1285b5e9c9b90:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "model_substrate",
+        "role": "reactant",
+        "label": {
+          "value": "2d_1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled 4,4-disubstituted 1-(1-methylindol-2-yl)-2,3-allenol model 2d_1 (R1=Me, R2=Et)",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "aucl",
+        "role": "catalyst",
+        "label": {
+          "value": "AuCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "gold(I) chloride",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "int4",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "gold-carbene intermediate Int4",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ts_r1",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "calculated 1,2-Me shift transition structure",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ts_r2",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "calculated 1,2-Et shift transition structure",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "DFT_competitive_1_2_migration",
+        "participant_ids": [
+          "model_substrate",
+          "aucl",
+          "int4"
+        ],
+        "conditions": [
+          {
+            "name": "computational_method",
+            "fact": {
+              "value": "B3LYP; 6-311G(d,p) for C/H/N/O and LANL2DZ ECP for Au",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page2:text",
+                "doc_49c1285b5e9c9b90:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reported_temperature",
+            "fact": {
+              "value": {
+                "number": 298,
+                "unit": "K"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page2:text",
+                "doc_49c1285b5e9c9b90:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent_model",
+            "fact": {
+              "value": "CPCM 1,2-dichloroethane for DGsol",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page2:text",
+                "doc_49c1285b5e9c9b90:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "1_2_R1_shift_DG298",
+        "fact": {
+          "value": "17.8 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1"
+        ]
+      },
+      {
+        "name": "1_2_R1_shift_DGsol",
+        "fact": {
+          "value": "17.2 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1"
+        ]
+      },
+      {
+        "name": "1_2_R2_shift_DG298",
+        "fact": {
+          "value": "17.0 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r2"
+        ]
+      },
+      {
+        "name": "1_2_R2_shift_DGsol",
+        "fact": {
+          "value": "14.5 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r2"
+        ]
+      },
+      {
+        "name": "competitive_shift_DDG298",
+        "fact": {
+          "value": "0.8 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1",
+          "ts_r2"
+        ]
+      },
+      {
+        "name": "competitive_shift_DDGsol",
+        "fact": {
+          "value": "2.7 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1",
+          "ts_r2"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 7 is a DFT comparison of competitive 1,2-migration barriers and is classified as mechanism/computational evidence, not as a preparative experiment.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page2:text",
+          "doc_49c1285b5e9c9b90:page2:image",
+          "doc_49c1285b5e9c9b90:page7:text",
+          "doc_49c1285b5e9c9b90:page7:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The source states that the calculated preference captures the experimental trend qualitatively but not quantitatively.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page2:text",
+          "doc_49c1285b5e9c9b90:page2:image",
+          "doc_49c1285b5e9c9b90:page7:text",
+          "doc_49c1285b5e9c9b90:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI coordinates or energies were imported.",
+        "Transition structures and compact model structures remain source-labeled and structure_verified=false.",
+        "The record preserves the tabulated barriers but is not a complete computational dataset or a chemical-accuracy certification."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_49c1285b5e9c9b90:table7_entry4",
+    "document_id": "doc_49c1285b5e9c9b90",
+    "source_reaction_id": "table7_entry4",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_49c1285b5e9c9b90:page2:text",
+      "doc_49c1285b5e9c9b90:page2:image",
+      "doc_49c1285b5e9c9b90:page7:text",
+      "doc_49c1285b5e9c9b90:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "model_substrate",
+        "role": "reactant",
+        "label": {
+          "value": "2o_1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled 4,4-disubstituted 1-(1-methylindol-2-yl)-2,3-allenol model 2o_1 (R1=Me, R2=nPr)",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "aucl",
+        "role": "catalyst",
+        "label": {
+          "value": "AuCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "gold(I) chloride",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "int4",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "gold-carbene intermediate Int4",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ts_r1",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "calculated 1,2-Me shift transition structure",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ts_r2",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "calculated 1,2-nPr shift transition structure",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "DFT_competitive_1_2_migration",
+        "participant_ids": [
+          "model_substrate",
+          "aucl",
+          "int4"
+        ],
+        "conditions": [
+          {
+            "name": "computational_method",
+            "fact": {
+              "value": "B3LYP; 6-311G(d,p) for C/H/N/O and LANL2DZ ECP for Au",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page2:text",
+                "doc_49c1285b5e9c9b90:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reported_temperature",
+            "fact": {
+              "value": {
+                "number": 298,
+                "unit": "K"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page2:text",
+                "doc_49c1285b5e9c9b90:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent_model",
+            "fact": {
+              "value": "CPCM 1,2-dichloroethane for DGsol",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page2:text",
+                "doc_49c1285b5e9c9b90:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "1_2_R1_shift_DG298",
+        "fact": {
+          "value": "17.7 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1"
+        ]
+      },
+      {
+        "name": "1_2_R1_shift_DGsol",
+        "fact": {
+          "value": "17.0 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1"
+        ]
+      },
+      {
+        "name": "1_2_R2_shift_DG298",
+        "fact": {
+          "value": "17.2 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r2"
+        ]
+      },
+      {
+        "name": "1_2_R2_shift_DGsol",
+        "fact": {
+          "value": "14.1 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r2"
+        ]
+      },
+      {
+        "name": "competitive_shift_DDG298",
+        "fact": {
+          "value": "0.5 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1",
+          "ts_r2"
+        ]
+      },
+      {
+        "name": "competitive_shift_DDGsol",
+        "fact": {
+          "value": "2.9 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1",
+          "ts_r2"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 7 is a DFT comparison of competitive 1,2-migration barriers and is classified as mechanism/computational evidence, not as a preparative experiment.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page2:text",
+          "doc_49c1285b5e9c9b90:page2:image",
+          "doc_49c1285b5e9c9b90:page7:text",
+          "doc_49c1285b5e9c9b90:page7:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The source states that the calculated preference captures the experimental trend qualitatively but not quantitatively.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page2:text",
+          "doc_49c1285b5e9c9b90:page2:image",
+          "doc_49c1285b5e9c9b90:page7:text",
+          "doc_49c1285b5e9c9b90:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI coordinates or energies were imported.",
+        "Transition structures and compact model structures remain source-labeled and structure_verified=false.",
+        "The record preserves the tabulated barriers but is not a complete computational dataset or a chemical-accuracy certification."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_49c1285b5e9c9b90:table7_entry5",
+    "document_id": "doc_49c1285b5e9c9b90",
+    "source_reaction_id": "table7_entry5",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_49c1285b5e9c9b90:page2:text",
+      "doc_49c1285b5e9c9b90:page2:image",
+      "doc_49c1285b5e9c9b90:page7:text",
+      "doc_49c1285b5e9c9b90:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "model_substrate",
+        "role": "reactant",
+        "label": {
+          "value": "2s_1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled 4,4-disubstituted 1-(1-methylindol-2-yl)-2,3-allenol model 2s_1 (R1=Me, R2=iPr)",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "aucl",
+        "role": "catalyst",
+        "label": {
+          "value": "AuCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "gold(I) chloride",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "int4",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "gold-carbene intermediate Int4",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ts_r1",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "TS_Me",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ts_r2",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "TS_iPr",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "DFT_competitive_1_2_migration",
+        "participant_ids": [
+          "model_substrate",
+          "aucl",
+          "int4"
+        ],
+        "conditions": [
+          {
+            "name": "computational_method",
+            "fact": {
+              "value": "B3LYP; 6-311G(d,p) for C/H/N/O and LANL2DZ ECP for Au",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page2:text",
+                "doc_49c1285b5e9c9b90:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reported_temperature",
+            "fact": {
+              "value": {
+                "number": 298,
+                "unit": "K"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page2:text",
+                "doc_49c1285b5e9c9b90:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent_model",
+            "fact": {
+              "value": "CPCM 1,2-dichloroethane for DGsol",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page2:text",
+                "doc_49c1285b5e9c9b90:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "1_2_R1_shift_DG298",
+        "fact": {
+          "value": "20.6 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1"
+        ]
+      },
+      {
+        "name": "1_2_R1_shift_DGsol",
+        "fact": {
+          "value": "20.7 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1"
+        ]
+      },
+      {
+        "name": "1_2_R2_shift_DG298",
+        "fact": {
+          "value": "12.4 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r2"
+        ]
+      },
+      {
+        "name": "1_2_R2_shift_DGsol",
+        "fact": {
+          "value": "8.8 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r2"
+        ]
+      },
+      {
+        "name": "competitive_shift_DDG298",
+        "fact": {
+          "value": "8.2 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1",
+          "ts_r2"
+        ]
+      },
+      {
+        "name": "competitive_shift_DDGsol",
+        "fact": {
+          "value": "11.9 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1",
+          "ts_r2"
+        ]
+      },
+      {
+        "name": "TS_Me_Au_to_H_distance",
+        "fact": {
+          "value": "2.558 Å",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1"
+        ]
+      },
+      {
+        "name": "TS_Me_H_to_H_distance",
+        "fact": {
+          "value": "1.995 Å",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1"
+        ]
+      },
+      {
+        "name": "TS_Me_alpha_angle",
+        "fact": {
+          "value": "115.8°",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1"
+        ]
+      },
+      {
+        "name": "TS_iPr_alpha_angle",
+        "fact": {
+          "value": "117.9°",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r2"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 7 is a DFT comparison of competitive 1,2-migration barriers and is classified as mechanism/computational evidence, not as a preparative experiment.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page2:text",
+          "doc_49c1285b5e9c9b90:page2:image",
+          "doc_49c1285b5e9c9b90:page7:text",
+          "doc_49c1285b5e9c9b90:page7:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The source states that the calculated preference captures the experimental trend qualitatively but not quantitatively.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page2:text",
+          "doc_49c1285b5e9c9b90:page2:image",
+          "doc_49c1285b5e9c9b90:page7:text",
+          "doc_49c1285b5e9c9b90:page7:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Figure 5 is the detailed TS_Me/TS_iPr analysis for Table 7 entry 5 and is merged into that row rather than duplicated.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page2:text",
+          "doc_49c1285b5e9c9b90:page2:image",
+          "doc_49c1285b5e9c9b90:page7:text",
+          "doc_49c1285b5e9c9b90:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI coordinates or energies were imported.",
+        "Transition structures and compact model structures remain source-labeled and structure_verified=false.",
+        "The record preserves the tabulated barriers but is not a complete computational dataset or a chemical-accuracy certification."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_49c1285b5e9c9b90:table7_entry6",
+    "document_id": "doc_49c1285b5e9c9b90",
+    "source_reaction_id": "table7_entry6",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_49c1285b5e9c9b90:page2:text",
+      "doc_49c1285b5e9c9b90:page2:image",
+      "doc_49c1285b5e9c9b90:page7:text",
+      "doc_49c1285b5e9c9b90:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "model_substrate",
+        "role": "reactant",
+        "label": {
+          "value": "2t_1 or 2v_1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled 4,4-disubstituted 1-(1-methylindol-2-yl)-2,3-allenol model 2t_1 or 2v_1 (R1=Me, R2=Cyclopropyl)",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "aucl",
+        "role": "catalyst",
+        "label": {
+          "value": "AuCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "gold(I) chloride",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "int4",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "gold-carbene intermediate Int4",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ts_r1",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "calculated 1,2-Me shift transition structure",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ts_r2",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "calculated 1,2-Cyclopropyl shift transition structure",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "DFT_competitive_1_2_migration",
+        "participant_ids": [
+          "model_substrate",
+          "aucl",
+          "int4"
+        ],
+        "conditions": [
+          {
+            "name": "computational_method",
+            "fact": {
+              "value": "B3LYP; 6-311G(d,p) for C/H/N/O and LANL2DZ ECP for Au",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page2:text",
+                "doc_49c1285b5e9c9b90:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reported_temperature",
+            "fact": {
+              "value": {
+                "number": 298,
+                "unit": "K"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page2:text",
+                "doc_49c1285b5e9c9b90:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent_model",
+            "fact": {
+              "value": "CPCM 1,2-dichloroethane for DGsol",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page2:text",
+                "doc_49c1285b5e9c9b90:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "1_2_R1_shift_DG298",
+        "fact": {
+          "value": "22.6 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1"
+        ]
+      },
+      {
+        "name": "1_2_R1_shift_DGsol",
+        "fact": {
+          "value": "22.0 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1"
+        ]
+      },
+      {
+        "name": "1_2_R2_shift_DG298",
+        "fact": {
+          "value": "15.7 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r2"
+        ]
+      },
+      {
+        "name": "1_2_R2_shift_DGsol",
+        "fact": {
+          "value": "9.5 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r2"
+        ]
+      },
+      {
+        "name": "competitive_shift_DDG298",
+        "fact": {
+          "value": "6.9 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1",
+          "ts_r2"
+        ]
+      },
+      {
+        "name": "competitive_shift_DDGsol",
+        "fact": {
+          "value": "12.5 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1",
+          "ts_r2"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 7 is a DFT comparison of competitive 1,2-migration barriers and is classified as mechanism/computational evidence, not as a preparative experiment.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page2:text",
+          "doc_49c1285b5e9c9b90:page2:image",
+          "doc_49c1285b5e9c9b90:page7:text",
+          "doc_49c1285b5e9c9b90:page7:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The source states that the calculated preference captures the experimental trend qualitatively but not quantitatively.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page2:text",
+          "doc_49c1285b5e9c9b90:page2:image",
+          "doc_49c1285b5e9c9b90:page7:text",
+          "doc_49c1285b5e9c9b90:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI coordinates or energies were imported.",
+        "Transition structures and compact model structures remain source-labeled and structure_verified=false.",
+        "The record preserves the tabulated barriers but is not a complete computational dataset or a chemical-accuracy certification."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_49c1285b5e9c9b90:table7_entry7",
+    "document_id": "doc_49c1285b5e9c9b90",
+    "source_reaction_id": "table7_entry7",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_49c1285b5e9c9b90:page2:text",
+      "doc_49c1285b5e9c9b90:page2:image",
+      "doc_49c1285b5e9c9b90:page7:text",
+      "doc_49c1285b5e9c9b90:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "model_substrate",
+        "role": "reactant",
+        "label": {
+          "value": "2aa_1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled 4,4-disubstituted 1-(1-methylindol-2-yl)-2,3-allenol model 2aa_1 (R1=Et, R2=Cyclopropyl)",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "aucl",
+        "role": "catalyst",
+        "label": {
+          "value": "AuCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "gold(I) chloride",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "int4",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "gold-carbene intermediate Int4",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ts_r1",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "calculated 1,2-Et shift transition structure",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ts_r2",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "calculated 1,2-Cyclopropyl shift transition structure",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "DFT_competitive_1_2_migration",
+        "participant_ids": [
+          "model_substrate",
+          "aucl",
+          "int4"
+        ],
+        "conditions": [
+          {
+            "name": "computational_method",
+            "fact": {
+              "value": "B3LYP; 6-311G(d,p) for C/H/N/O and LANL2DZ ECP for Au",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page2:text",
+                "doc_49c1285b5e9c9b90:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reported_temperature",
+            "fact": {
+              "value": {
+                "number": 298,
+                "unit": "K"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page2:text",
+                "doc_49c1285b5e9c9b90:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solvent_model",
+            "fact": {
+              "value": "CPCM 1,2-dichloroethane for DGsol",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page2:text",
+                "doc_49c1285b5e9c9b90:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "1_2_R1_shift_DG298",
+        "fact": {
+          "value": "21.1 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1"
+        ]
+      },
+      {
+        "name": "1_2_R1_shift_DGsol",
+        "fact": {
+          "value": "17.1 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1"
+        ]
+      },
+      {
+        "name": "1_2_R2_shift_DG298",
+        "fact": {
+          "value": "15.4 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r2"
+        ]
+      },
+      {
+        "name": "1_2_R2_shift_DGsol",
+        "fact": {
+          "value": "9.1 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r2"
+        ]
+      },
+      {
+        "name": "competitive_shift_DDG298",
+        "fact": {
+          "value": "5.7 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1",
+          "ts_r2"
+        ]
+      },
+      {
+        "name": "competitive_shift_DDGsol",
+        "fact": {
+          "value": "8.0 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page7:text",
+            "doc_49c1285b5e9c9b90:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "ts_r1",
+          "ts_r2"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Table 7 is a DFT comparison of competitive 1,2-migration barriers and is classified as mechanism/computational evidence, not as a preparative experiment.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page2:text",
+          "doc_49c1285b5e9c9b90:page2:image",
+          "doc_49c1285b5e9c9b90:page7:text",
+          "doc_49c1285b5e9c9b90:page7:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The source states that the calculated preference captures the experimental trend qualitatively but not quantitatively.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page2:text",
+          "doc_49c1285b5e9c9b90:page2:image",
+          "doc_49c1285b5e9c9b90:page7:text",
+          "doc_49c1285b5e9c9b90:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI coordinates or energies were imported.",
+        "Transition structures and compact model structures remain source-labeled and structure_verified=false.",
+        "The record preserves the tabulated barriers but is not a complete computational dataset or a chemical-accuracy certification."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_49c1285b5e9c9b90:scheme2_2b_to_3b",
+    "document_id": "doc_49c1285b5e9c9b90",
+    "source_reaction_id": "scheme2_2b_to_3b",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_49c1285b5e9c9b90:page3:text",
+      "doc_49c1285b5e9c9b90:page3:image",
+      "doc_49c1285b5e9c9b90:page4:text",
+      "doc_49c1285b5e9c9b90:page4:image",
+      "doc_49c1285b5e9c9b90:page8:text",
+      "doc_49c1285b5e9c9b90:page8:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "2b",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image",
+            "doc_49c1285b5e9c9b90:page4:text",
+            "doc_49c1285b5e9c9b90:page4:image",
+            "doc_49c1285b5e9c9b90:page8:text",
+            "doc_49c1285b5e9c9b90:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-depicted 5-methyl, N-ethyl 1-(indol-2-yl)-2,3-allenol 2b",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image",
+            "doc_49c1285b5e9c9b90:page4:text",
+            "doc_49c1285b5e9c9b90:page4:image",
+            "doc_49c1285b5e9c9b90:page8:text",
+            "doc_49c1285b5e9c9b90:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 62.0,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page8:text",
+                "doc_49c1285b5e9c9b90:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.2,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page8:text",
+                "doc_49c1285b5e9c9b90:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "aucl",
+        "role": "catalyst",
+        "label": {
+          "value": "AuCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image",
+            "doc_49c1285b5e9c9b90:page4:text",
+            "doc_49c1285b5e9c9b90:page4:image",
+            "doc_49c1285b5e9c9b90:page8:text",
+            "doc_49c1285b5e9c9b90:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "AuCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image",
+            "doc_49c1285b5e9c9b90:page4:text",
+            "doc_49c1285b5e9c9b90:page4:image",
+            "doc_49c1285b5e9c9b90:page8:text",
+            "doc_49c1285b5e9c9b90:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 2.5,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page8:text",
+                "doc_49c1285b5e9c9b90:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.01,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page8:text",
+                "doc_49c1285b5e9c9b90:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page3:text",
+                "doc_49c1285b5e9c9b90:page3:image",
+                "doc_49c1285b5e9c9b90:page4:text",
+                "doc_49c1285b5e9c9b90:page4:image",
+                "doc_49c1285b5e9c9b90:page8:text",
+                "doc_49c1285b5e9c9b90:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "dce",
+        "role": "solvent",
+        "label": {
+          "value": "DCE",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image",
+            "doc_49c1285b5e9c9b90:page4:text",
+            "doc_49c1285b5e9c9b90:page4:image",
+            "doc_49c1285b5e9c9b90:page8:text",
+            "doc_49c1285b5e9c9b90:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,2-dichloroethane",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image",
+            "doc_49c1285b5e9c9b90:page4:text",
+            "doc_49c1285b5e9c9b90:page4:image",
+            "doc_49c1285b5e9c9b90:page8:text",
+            "doc_49c1285b5e9c9b90:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "ClCCCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image",
+            "doc_49c1285b5e9c9b90:page4:text",
+            "doc_49c1285b5e9c9b90:page4:image",
+            "doc_49c1285b5e9c9b90:page8:text",
+            "doc_49c1285b5e9c9b90:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page8:text",
+                "doc_49c1285b5e9c9b90:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "3b",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image",
+            "doc_49c1285b5e9c9b90:page4:text",
+            "doc_49c1285b5e9c9b90:page4:image",
+            "doc_49c1285b5e9c9b90:page8:text",
+            "doc_49c1285b5e9c9b90:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled carbazole 3b",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image",
+            "doc_49c1285b5e9c9b90:page4:text",
+            "doc_49c1285b5e9c9b90:page4:image",
+            "doc_49c1285b5e9c9b90:page8:text",
+            "doc_49c1285b5e9c9b90:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "isolated_mass",
+            "fact": {
+              "value": {
+                "number": 51.1,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page8:text",
+                "doc_49c1285b5e9c9b90:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "diethyl_ether",
+        "role": "solvent",
+        "label": {
+          "value": "Et2O",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page8:text",
+            "doc_49c1285b5e9c9b90:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "diethyl ether",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page8:text",
+            "doc_49c1285b5e9c9b90:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCOCC",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page8:text",
+            "doc_49c1285b5e9c9b90:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume_per_elution",
+            "fact": {
+              "value": {
+                "number": 20,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page8:text",
+                "doc_49c1285b5e9c9b90:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "petroleum_ether",
+        "role": "solvent",
+        "label": {
+          "value": "petroleum ether (30–60 °C)",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page8:text",
+            "doc_49c1285b5e9c9b90:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "petroleum ether",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page8:text",
+            "doc_49c1285b5e9c9b90:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "dichloromethane",
+        "role": "solvent",
+        "label": {
+          "value": "dichloromethane",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page8:text",
+            "doc_49c1285b5e9c9b90:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "dichloromethane",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page8:text",
+            "doc_49c1285b5e9c9b90:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "ClCCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page8:text",
+            "doc_49c1285b5e9c9b90:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "AuCl_cycloisomerization",
+        "participant_ids": [
+          "substrate",
+          "aucl",
+          "dce"
+        ],
+        "conditions": [
+          {
+            "name": "reaction_vessel",
+            "fact": {
+              "value": "dry Schlenk tube",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page8:text",
+                "doc_49c1285b5e9c9b90:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "N2",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page8:text",
+                "doc_49c1285b5e9c9b90:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "charging_operation",
+            "fact": {
+              "value": "AuCl (weighed in a glovebox), 2b, and DCE were added sequentially",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page8:text",
+                "doc_49c1285b5e9c9b90:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page3:text",
+                "doc_49c1285b5e9c9b90:page3:image",
+                "doc_49c1285b5e9c9b90:page4:text",
+                "doc_49c1285b5e9c9b90:page4:image",
+                "doc_49c1285b5e9c9b90:page8:text",
+                "doc_49c1285b5e9c9b90:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 0.5,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page8:text",
+                "doc_49c1285b5e9c9b90:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "monitoring",
+            "fact": {
+              "value": "TLC until complete",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page8:text",
+                "doc_49c1285b5e9c9b90:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "isolation_and_purification",
+        "participant_ids": [
+          "product",
+          "diethyl_ether",
+          "petroleum_ether",
+          "dichloromethane"
+        ],
+        "conditions": [
+          {
+            "name": "workup",
+            "fact": {
+              "value": "filter through a short silica-gel pad with Et2O (20 mL × 3), then evaporate",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page8:text",
+                "doc_49c1285b5e9c9b90:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "purification",
+            "fact": {
+              "value": "silica-gel column chromatography, petroleum ether (30–60 °C)/dichloromethane = 10:1",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page8:text",
+                "doc_49c1285b5e9c9b90:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 87,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page8:text",
+            "doc_49c1285b5e9c9b90:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated yield after column chromatography",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page8:text",
+            "doc_49c1285b5e9c9b90:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "isolated_product_mass",
+        "fact": {
+          "value": {
+            "number": 51.1,
+            "unit": "mg"
+          },
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page8:text",
+            "doc_49c1285b5e9c9b90:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "physical_state",
+        "fact": {
+          "value": "liquid",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page8:text",
+            "doc_49c1285b5e9c9b90:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The page-8 Typical procedure for 3b is the detailed execution of the Scheme 2 2b→3b experiment and is merged rather than duplicated.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page3:text",
+          "doc_49c1285b5e9c9b90:page3:image",
+          "doc_49c1285b5e9c9b90:page4:text",
+          "doc_49c1285b5e9c9b90:page4:image",
+          "doc_49c1285b5e9c9b90:page8:text",
+          "doc_49c1285b5e9c9b90:page8:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "The source-labeled substrate/product structures remain structure_verified=false; spectroscopy and a parseable candidate would not independently certify them.",
+        "The paper does not report a separate isolated purity value for 3b."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_49c1285b5e9c9b90:table3_entry4",
+    "document_id": "doc_49c1285b5e9c9b90",
+    "source_reaction_id": "table3_entry4",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_49c1285b5e9c9b90:page5:text",
+      "doc_49c1285b5e9c9b90:page5:image",
+      "doc_49c1285b5e9c9b90:page8:text",
+      "doc_49c1285b5e9c9b90:page8:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "2g",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled allenol 2g; Table 3 R1/R2/R3/R4/R5=Me/H/Me/Et/H",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.2,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "aucl",
+        "role": "catalyst",
+        "label": {
+          "value": "AuCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "AuCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "dce",
+        "role": "solvent",
+        "label": {
+          "value": "DCE",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,2-dichloroethane",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "ClCCCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "volume"
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "3g",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled carbazole 3g",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "AuCl_cycloisomerization",
+        "participant_ids": [
+          "substrate",
+          "aucl",
+          "dce"
+        ],
+        "conditions": [
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "N2",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "atmosphere"
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 87,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "measurement_basis"
+      }
+    ],
+    "notes": [
+      {
+        "value": "The page-8 acknowledgment states that W. Fan reproduced Table 3 entry 4 (2g→3g); no independent scale, conditions, yield, or run identifier is supplied, so no duplicate experiment is created.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page8:text",
+          "doc_49c1285b5e9c9b90:page8:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "The reproduction acknowledgment does not identify a separable run or supply additional quantitative facts.",
+        "Candidate structures remain structure_verified=false; reproduction does not certify machine structure encodings."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_49c1285b5e9c9b90:table4_entry4",
+    "document_id": "doc_49c1285b5e9c9b90",
+    "source_reaction_id": "table4_entry4",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_49c1285b5e9c9b90:page5:text",
+      "doc_49c1285b5e9c9b90:page5:image",
+      "doc_49c1285b5e9c9b90:page8:text",
+      "doc_49c1285b5e9c9b90:page8:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "2n",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled N-ethyl 4-alkyl-4-aryl allenol 2n; Table 4 R1/R2=Et/Ph",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.2,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "aucl",
+        "role": "catalyst",
+        "label": {
+          "value": "AuCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "AuCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "dce",
+        "role": "solvent",
+        "label": {
+          "value": "DCE",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,2-dichloroethane",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "ClCCCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "volume"
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "3n",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled carbazole 3n",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "AuCl_cycloisomerization",
+        "participant_ids": [
+          "substrate",
+          "aucl",
+          "dce"
+        ],
+        "conditions": [
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "N2",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "atmosphere"
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 3,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 53,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "measurement_basis"
+      }
+    ],
+    "notes": [
+      {
+        "value": "The page-8 acknowledgment states that W. Fan reproduced Table 4 entry 4 (2n→3n); no independent scale, conditions, yield, or run identifier is supplied, so no duplicate experiment is created.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page8:text",
+          "doc_49c1285b5e9c9b90:page8:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "The reproduction acknowledgment does not identify a separable run or supply additional quantitative facts.",
+        "Candidate structures remain structure_verified=false; reproduction does not certify machine structure encodings."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_49c1285b5e9c9b90:table5_entry2",
+    "document_id": "doc_49c1285b5e9c9b90",
+    "source_reaction_id": "table5_entry2",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_49c1285b5e9c9b90:page5:text",
+      "doc_49c1285b5e9c9b90:page5:image",
+      "doc_49c1285b5e9c9b90:page8:text",
+      "doc_49c1285b5e9c9b90:page8:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "2o",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled N-benzyl non-equivalent 4,4-dialkyl allenol 2o; Table 5 R1/R2=Me/Pr",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.2,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "aucl",
+        "role": "catalyst",
+        "label": {
+          "value": "AuCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "AuCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "dce",
+        "role": "solvent",
+        "label": {
+          "value": "DCE",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,2-dichloroethane",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "ClCCCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "volume"
+          }
+        ]
+      },
+      {
+        "entity_id": "major_product",
+        "role": "product",
+        "label": {
+          "value": "3o",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "major carbazole 3o",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "minor_product",
+        "role": "product",
+        "label": {
+          "value": "3o'",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "minor regioisomeric carbazole 3o'",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "AuCl_selective_cycloisomerization",
+        "participant_ids": [
+          "substrate",
+          "aucl",
+          "dce"
+        ],
+        "conditions": [
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "N2",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "atmosphere"
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 24,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "combined_isolated_yield",
+        "fact": {
+          "value": {
+            "number": 76,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "major_product",
+          "minor_product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "major_to_minor_ratio",
+        "fact": {
+          "value": "88:12",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "major_product",
+          "minor_product"
+        ],
+        "category": "selectivity"
+      },
+      {
+        "name": "yield_after_recrystallization",
+        "fact": {
+          "value": {
+            "number": 49,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "major_product",
+          "minor_product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "major_to_minor_ratio_after_recrystallization",
+        "fact": {
+          "value": "97:3",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "major_product",
+          "minor_product"
+        ],
+        "category": "selectivity"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "yield of isolated 3 and 3'; second yield reported after recrystallization",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "major_product",
+          "minor_product"
+        ],
+        "category": "measurement_basis"
+      }
+    ],
+    "notes": [
+      {
+        "value": "The pre- and post-recrystallization yields/ratios are retained as distinct outcomes.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page5:text",
+          "doc_49c1285b5e9c9b90:page5:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The page-8 acknowledgment states that W. Fan reproduced Table 5 entry 2 (2o→3o/3o'); no independent scale, conditions, yield, or run identifier is supplied, so no duplicate experiment is created.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page8:text",
+          "doc_49c1285b5e9c9b90:page8:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "The reproduction acknowledgment does not identify a separable run or supply additional quantitative facts.",
+        "Candidate structures remain structure_verified=false; reproduction does not certify machine structure encodings."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_49c1285b5e9c9b90:table6_entry5",
+    "document_id": "doc_49c1285b5e9c9b90",
+    "source_reaction_id": "table6_entry5",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_49c1285b5e9c9b90:page6:text",
+      "doc_49c1285b5e9c9b90:page6:image",
+      "doc_49c1285b5e9c9b90:page8:text",
+      "doc_49c1285b5e9c9b90:page8:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "2w",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page6:text",
+            "doc_49c1285b5e9c9b90:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled 4-methyl-4-alkyl allenol 2w; Table 6 R1/R2/R3/R4=cyclopropyl/H/Et/5-OMe",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page6:text",
+            "doc_49c1285b5e9c9b90:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.2,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page6:text",
+                "doc_49c1285b5e9c9b90:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "aucl",
+        "role": "catalyst",
+        "label": {
+          "value": "AuCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page6:text",
+            "doc_49c1285b5e9c9b90:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "AuCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page6:text",
+            "doc_49c1285b5e9c9b90:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page6:text",
+                "doc_49c1285b5e9c9b90:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "dce",
+        "role": "solvent",
+        "label": {
+          "value": "DCE",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page6:text",
+            "doc_49c1285b5e9c9b90:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,2-dichloroethane",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page6:text",
+            "doc_49c1285b5e9c9b90:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "ClCCCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page6:text",
+            "doc_49c1285b5e9c9b90:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page6:text",
+                "doc_49c1285b5e9c9b90:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "volume"
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "3w",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page6:text",
+            "doc_49c1285b5e9c9b90:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled carbazole 3w",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page6:text",
+            "doc_49c1285b5e9c9b90:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "AuCl_selective_cycloisomerization",
+        "participant_ids": [
+          "substrate",
+          "aucl",
+          "dce"
+        ],
+        "conditions": [
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "N2",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page6:text",
+                "doc_49c1285b5e9c9b90:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "atmosphere"
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page6:text",
+                "doc_49c1285b5e9c9b90:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page6:text",
+                "doc_49c1285b5e9c9b90:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 86,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page6:text",
+            "doc_49c1285b5e9c9b90:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page6:text",
+            "doc_49c1285b5e9c9b90:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "measurement_basis"
+      }
+    ],
+    "notes": [
+      {
+        "value": "The text describes migration of iPr/cyclopropyl/cyclobutyl/cyclohexyl over methyl as exclusive; no numerical minor-isomer ratio is printed for Table 6.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page6:text",
+          "doc_49c1285b5e9c9b90:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The page-8 acknowledgment states that W. Fan reproduced Table 6 entry 5 (2w→3w); no independent scale, conditions, yield, or run identifier is supplied, so no duplicate experiment is created.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page8:text",
+          "doc_49c1285b5e9c9b90:page8:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "The reproduction acknowledgment does not identify a separable run or supply additional quantitative facts.",
+        "Candidate structures remain structure_verified=false; reproduction does not certify machine structure encodings."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_49c1285b5e9c9b90:figures1_2_DFT_cycloisomerization",
+    "document_id": "doc_49c1285b5e9c9b90",
+    "source_reaction_id": "figures1_2_DFT_cycloisomerization",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_49c1285b5e9c9b90:page2:text",
+      "doc_49c1285b5e9c9b90:page2:image",
+      "doc_49c1285b5e9c9b90:page3:text",
+      "doc_49c1285b5e9c9b90:page3:image",
+      "doc_49c1285b5e9c9b90:page9:text",
+      "doc_49c1285b5e9c9b90:page9:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "4-unsubstituted 1-(indol-2-yl)-2,3-allenol model substrate 2a",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ptcl2",
+        "role": "catalyst",
+        "label": {
+          "value": "PtCl2",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "PtCl2",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "aucl",
+        "role": "catalyst",
+        "label": {
+          "value": "AuCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "AuCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "water_cluster",
+        "role": "reagent",
+        "label": {
+          "value": "(H2O)2 water cluster",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "two-molecule water cluster",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "int1",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "zwitterionic cyclic intermediate Int1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page2:text",
+            "doc_49c1285b5e9c9b90:page2:image",
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "int2",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "water-associated intermediate Int2",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "int3",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "hydroxonium intermediate Int3",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "int4",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "metal-carbene intermediate Int4",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "3a_M",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "calculated metal-coordinated carbazole product 3a_M",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "DFT_mechanistic_profile",
+        "participant_ids": [
+          "substrate",
+          "ptcl2",
+          "aucl",
+          "water_cluster"
+        ],
+        "conditions": [
+          {
+            "name": "computational_method",
+            "fact": {
+              "value": "B3LYP; 6-311G(d,p) for C/H/N/O and LANL2DZ ECP for Pt/Au; CPCM solvent corrections",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page2:text",
+                "doc_49c1285b5e9c9b90:page2:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "reported_temperature",
+            "fact": {
+              "value": {
+                "number": 298,
+                "unit": "K"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page2:text",
+                "doc_49c1285b5e9c9b90:page2:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "Pt_1_2_H_shift_activation_barrier",
+        "fact": {
+          "value": "18.1 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "int4"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "Au_1_2_H_shift_activation_barrier",
+        "fact": {
+          "value": "11.3 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "int4"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "direct_water_elimination_activation_free_energy",
+        "fact": {
+          "value": "31.0 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "int4"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "water_assisted_total_barrier",
+        "fact": {
+          "value": "2.4 kcal mol−1",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page3:text",
+            "doc_49c1285b5e9c9b90:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "int4"
+        ],
+        "category": "other"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Figures 1 and 2 report calculated pathways, bond lengths, and Wiberg indices; calculated stationary points are not isolated reaction records.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page2:text",
+          "doc_49c1285b5e9c9b90:page2:image",
+          "doc_49c1285b5e9c9b90:page3:text",
+          "doc_49c1285b5e9c9b90:page3:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Footnote 20 states that two H2O molecules modeled the water cluster and that using three H2O molecules gave almost the same energetic results; this supplements the existing DFT mechanism record.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page9:text",
+          "doc_49c1285b5e9c9b90:page9:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI coordinates or spectra were imported.",
+        "Calculated intermediates remain structure_verified=false and are not isolated compounds.",
+        "The existing record preserves headline barriers but is not a complete computational dataset."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_49c1285b5e9c9b90:table5_entry3",
+    "document_id": "doc_49c1285b5e9c9b90",
+    "source_reaction_id": "table5_entry3",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_49c1285b5e9c9b90:page5:text",
+      "doc_49c1285b5e9c9b90:page5:image",
+      "doc_49c1285b5e9c9b90:page9:text",
+      "doc_49c1285b5e9c9b90:page9:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "2p",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled N-benzyl non-equivalent 4,4-dialkyl allenol 2p; Table 5 R1/R2=Me/Pent",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.2,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "aucl",
+        "role": "catalyst",
+        "label": {
+          "value": "AuCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "AuCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "dce",
+        "role": "solvent",
+        "label": {
+          "value": "DCE",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,2-dichloroethane",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "ClCCCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "volume"
+          }
+        ]
+      },
+      {
+        "entity_id": "major_product",
+        "role": "product",
+        "label": {
+          "value": "3p",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "major carbazole 3p",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "minor_product",
+        "role": "product",
+        "label": {
+          "value": "3p'",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "minor regioisomeric carbazole 3p'",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "AuCl_selective_cycloisomerization",
+        "participant_ids": [
+          "substrate",
+          "aucl",
+          "dce"
+        ],
+        "conditions": [
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "N2",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "atmosphere"
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "combined_isolated_yield",
+        "fact": {
+          "value": {
+            "number": 68,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "major_product",
+          "minor_product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "major_to_minor_ratio",
+        "fact": {
+          "value": "90:10",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "major_product",
+          "minor_product"
+        ],
+        "category": "selectivity"
+      },
+      {
+        "name": "yield_after_recrystallization",
+        "fact": {
+          "value": {
+            "number": 55,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "major_product",
+          "minor_product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "major_to_minor_ratio_after_recrystallization",
+        "fact": {
+          "value": "98:2",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "major_product",
+          "minor_product"
+        ],
+        "category": "selectivity"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "yield of isolated 3 and 3'; second yield reported after recrystallization",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "major_product",
+          "minor_product"
+        ],
+        "category": "measurement_basis"
+      }
+    ],
+    "notes": [
+      {
+        "value": "The pre- and post-recrystallization yields/ratios are retained as distinct outcomes.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page5:text",
+          "doc_49c1285b5e9c9b90:page5:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Footnote 24 gives crystal data and CCDC-980888 for compound 3p. This characterizes the product assignment shared by the 0.2 mmol and 3 mmol 2p runs; it is not another preparation, does not verify a machine structure encoding, and is not treated as an associated paper SI file.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page9:text",
+          "doc_49c1285b5e9c9b90:page9:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; CCDC-980888 is a crystallographic deposition, not an inferred paper SI association.",
+        "Crystallography supports the source assignment of 3p but does not certify candidate machine structures.",
+        "The scope row still omits experiment-specific workup, purification, isolated mass, and selectivity analytical method."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_49c1285b5e9c9b90:table5_entry4",
+    "document_id": "doc_49c1285b5e9c9b90",
+    "source_reaction_id": "table5_entry4",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_49c1285b5e9c9b90:page5:text",
+      "doc_49c1285b5e9c9b90:page5:image",
+      "doc_49c1285b5e9c9b90:page9:text",
+      "doc_49c1285b5e9c9b90:page9:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "2p",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled N-benzyl non-equivalent 4,4-dialkyl allenol 2p; Table 5 R1/R2=Me/Pent",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 3.0,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          },
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 1.077,
+                "unit": "g"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "mass"
+          }
+        ]
+      },
+      {
+        "entity_id": "aucl",
+        "role": "catalyst",
+        "label": {
+          "value": "AuCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "AuCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "dce",
+        "role": "solvent",
+        "label": {
+          "value": "DCE",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,2-dichloroethane",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "ClCCCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "volume"
+          }
+        ]
+      },
+      {
+        "entity_id": "major_product",
+        "role": "product",
+        "label": {
+          "value": "3p",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "major carbazole 3p",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "minor_product",
+        "role": "product",
+        "label": {
+          "value": "3p'",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "minor regioisomeric carbazole 3p'",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "AuCl_selective_cycloisomerization",
+        "participant_ids": [
+          "substrate",
+          "aucl",
+          "dce"
+        ],
+        "conditions": [
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "N2",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "atmosphere"
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          },
+          {
+            "name": "scale_description",
+            "fact": {
+              "value": "3 mmol scale repeat",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page5:text",
+                "doc_49c1285b5e9c9b90:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "combined_isolated_yield",
+        "fact": {
+          "value": {
+            "number": 71,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "major_product",
+          "minor_product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "major_to_minor_ratio",
+        "fact": {
+          "value": "90:10",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "major_product",
+          "minor_product"
+        ],
+        "category": "selectivity"
+      },
+      {
+        "name": "yield_after_recrystallization",
+        "fact": {
+          "value": {
+            "number": 60,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "major_product",
+          "minor_product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "major_to_minor_ratio_after_recrystallization",
+        "fact": {
+          "value": "98:2",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "major_product",
+          "minor_product"
+        ],
+        "category": "selectivity"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "yield of isolated 3 and 3'; second yield reported after recrystallization",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page5:text",
+            "doc_49c1285b5e9c9b90:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "major_product",
+          "minor_product"
+        ],
+        "category": "measurement_basis"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Entry 4 is the separately conducted 3 mmol (1.0770 g) repeat of 2p and is not merged with entry 3.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page5:text",
+          "doc_49c1285b5e9c9b90:page5:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Footnote 24 gives crystal data and CCDC-980888 for compound 3p. This characterizes the product assignment shared by the 0.2 mmol and 3 mmol 2p runs; it is not another preparation, does not verify a machine structure encoding, and is not treated as an associated paper SI file.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page9:text",
+          "doc_49c1285b5e9c9b90:page9:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; CCDC-980888 is a crystallographic deposition, not an inferred paper SI association.",
+        "Crystallography supports the source assignment of 3p but does not certify candidate machine structures.",
+        "The scope row still omits experiment-specific workup, purification, isolated mass, and selectivity analytical method."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_49c1285b5e9c9b90:table6_entry6",
+    "document_id": "doc_49c1285b5e9c9b90",
+    "source_reaction_id": "table6_entry6",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_49c1285b5e9c9b90:page6:text",
+      "doc_49c1285b5e9c9b90:page6:image",
+      "doc_49c1285b5e9c9b90:page9:text",
+      "doc_49c1285b5e9c9b90:page9:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "2x",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page6:text",
+            "doc_49c1285b5e9c9b90:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled 4-methyl-4-alkyl allenol 2x; Table 6 R1/R2/R3/R4=cyclopropyl/Me/Et/H",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page6:text",
+            "doc_49c1285b5e9c9b90:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.2,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page6:text",
+                "doc_49c1285b5e9c9b90:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "aucl",
+        "role": "catalyst",
+        "label": {
+          "value": "AuCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page6:text",
+            "doc_49c1285b5e9c9b90:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "AuCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page6:text",
+            "doc_49c1285b5e9c9b90:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page6:text",
+                "doc_49c1285b5e9c9b90:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "dce",
+        "role": "solvent",
+        "label": {
+          "value": "DCE",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page6:text",
+            "doc_49c1285b5e9c9b90:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,2-dichloroethane",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page6:text",
+            "doc_49c1285b5e9c9b90:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "ClCCCl",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page6:text",
+            "doc_49c1285b5e9c9b90:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page6:text",
+                "doc_49c1285b5e9c9b90:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "volume"
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "3x",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page6:text",
+            "doc_49c1285b5e9c9b90:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled carbazole 3x",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page6:text",
+            "doc_49c1285b5e9c9b90:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "AuCl_selective_cycloisomerization",
+        "participant_ids": [
+          "substrate",
+          "aucl",
+          "dce"
+        ],
+        "conditions": [
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "N2",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page6:text",
+                "doc_49c1285b5e9c9b90:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "atmosphere"
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page6:text",
+                "doc_49c1285b5e9c9b90:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 3,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_49c1285b5e9c9b90:page6:text",
+                "doc_49c1285b5e9c9b90:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 76,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page6:text",
+            "doc_49c1285b5e9c9b90:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_49c1285b5e9c9b90:page6:text",
+            "doc_49c1285b5e9c9b90:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "measurement_basis"
+      }
+    ],
+    "notes": [
+      {
+        "value": "The text describes migration of iPr/cyclopropyl/cyclobutyl/cyclohexyl over methyl as exclusive; no numerical minor-isomer ratio is printed for Table 6.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page6:text",
+          "doc_49c1285b5e9c9b90:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Footnote 25 gives crystal data and CCDC-980889 for compound 3x. This is characterization of the existing Table 6 entry 6 product, not another preparation, does not verify a machine structure encoding, and is not treated as an associated paper SI file.",
+        "evidence_ids": [
+          "doc_49c1285b5e9c9b90:page9:text",
+          "doc_49c1285b5e9c9b90:page9:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; CCDC-980889 is a crystallographic deposition, not an inferred paper SI association.",
+        "Crystallography supports the source assignment of 3x but does not certify candidate machine structures.",
+        "The scope row still omits experiment-specific workup, purification, isolated mass, and a numerical minor-isomer ratio."
+      ]
+    }
+  }
+]
