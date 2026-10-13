@@ -1,0 +1,55 @@
+{
+  "version": "2.2",
+  "source_commit": "9ed5b08ce179dcc6f3a646978adb449de84f609e",
+  "target": "Evolab chemistry extraction skill bundle",
+  "regression_tests_passed": 31,
+  "native_validation": {
+    "state": "passed",
+    "version": "2.2",
+    "task_id": "dev-session-753d86aa88d4211b",
+    "records": 3,
+    "scope": "Source-only native extraction of PDF page 6; selected multistage temperatures, Markdown dosage completeness and discrepancy retention",
+    "strict_validation": true,
+    "coverage_validation": true,
+    "skill_resources_unchanged": true,
+    "markdown_amount_fields_checked": 45,
+    "stage_checks": [
+      {
+        "product": "8a",
+        "record_id": "doc_6fa2317e77697e25:page6_experiment_9_7a_to_8a",
+        "steps": 7,
+        "temperatures_C": [
+          -78,
+          -20
+        ]
+      },
+      {
+        "product": "9a",
+        "record_id": "doc_6fa2317e77697e25:page6_experiment_10_5a_to_9a",
+        "steps": 9,
+        "temperatures_C": [
+          -78,
+          -30
+        ]
+      },
+      {
+        "product": "10a",
+        "record_id": "doc_6fa2317e77697e25:page6_experiment_11_9a_to_10a",
+        "steps": 5,
+        "temperatures_C": [
+          -78,
+          -20
+        ]
+      }
+    ],
+    "chemical_accuracy_verified": false
+  },
+  "chemical_accuracy_verified": false,
+  "changes": [
+    "Operation category matches tokens instead of ratio substring",
+    "Markdown preserves all participant quantities and notes",
+    "Ordered temperature programs retain paired temperature/time and explicit ramps",
+    "Figure/prose discrepancies and combined-yield scope remain explicit",
+    "Source title is taken from the article heading"
+  ]
+}

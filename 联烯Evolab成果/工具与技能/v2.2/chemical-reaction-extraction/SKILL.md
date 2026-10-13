@@ -1,0 +1,36 @@
+---
+name: chemical-reaction-extraction
+description: Extract molecules, reaction participants, conditions and outcomes from scientific papers and supporting information into evidence-linked experimental records.
+---
+
+Extract reaction information at the level of individual experiments. The initial scope mirrors MinerU.Chem's molecules, reactants, products and conditions, with experimental steps, yields and provenance where reported. This is document understanding, not reaction prediction.
+
+Choose your own workflow, grouping, tools and inspection order based on the document. No fixed agent topology or model-call sequence is required. Read [the record schema](references/experiment.schema.json) before writing records. Read [quality rules](references/quality_rules.md) when interpreting experiments, and [structured fields](references/structured_fields.md) for quantities, footnotes and product-specific outcomes.
+
+Tools are executable workspace resources called through Evolab's existing harness shell tool. Resolve `scripts/reaction_tools.py` relative to this skill directory; use the Python interpreter specified in the project AGENTS.md.
+
+Available independent operations:
+
+- `prepare --folder PAPER_FOLDER --render --out DATASET_DIR`: import one original PDF, MinerU layout and raw chemical candidates. Alternatively `prepare --pdf MAIN.pdf --supplement SI.pdf --render --out DATASET_DIR` associates SI explicitly. Never overwrite an existing dataset.
+- `inspect --dataset DATASET_DIR/dataset.json --document DOCUMENT_ID --page N`: return page evidence and candidate hints. Page numbers are original PDF pages, starting at 1.
+- `crop --dataset DATASET_DIR/dataset.json --evidence IMAGE_EVIDENCE_ID --box X0 Y0 X1 Y1 --out CROP.png`: crop an original image using pixel coordinates, with a provenance sidecar. Inspect the resulting image using the harness image tool. Cite the parent evidence ID.
+- `merge --dataset DATASET_DIR/dataset.json --records RECORDS.json`: validate and atomically merge a JSON array. Machine submissions are always `needs_review`; self-declared review and verified SMILES are removed. Existing reviewed records cannot be overwritten this way.
+- `validate --dataset DATASET_DIR/dataset.json`: check schema, source hashes, evidence association, quantities and references. Use `--strict` on newly generated records. Passing this does not establish chemical correctness.
+- `audit --dataset DATASET_DIR/dataset.json`: surface advisory issues such as reagent quantities stranded in notes; resolve against the source or explicitly log the uncertainty.
+- `query --dataset DATASET_DIR/dataset.json --text TERM --include-unreviewed`: inspect candidates in the structured collection. Without the flag only reviewed records are returned. Use `--category yield`, `--category recovery` or `--category conversion` for distinct result classes; matched fields are classified by current rules even in legacy data, while original records remain unchanged.
+
+Every non-null fact requires original evidence. Unknown values are null with verification `missing`. Keep OCR fragments and uncertain structures as candidates; a parseable SMILES is not proof that the depicted molecule was recognized correctly. Do not infer a complete structure from an R-group, alias or unreadable drawing. For legible fully specified structures, attempt a candidate and retain the image evidence and uncertainty; do not systematically omit all structures simply because automatic certification is unavailable.
+
+Separate table rows, optimization entries and successive experimental stages. Shared table headers apply only to their own rows; footnotes can override them. Explicit footnote reagents and amounts must also be structured as participants/amounts, not merely preserved in notes. Associate product-specific yields with `target_entity_ids` and preserve their measurement basis. General schemes, mechanisms and prior-literature examples are not reported experiments. Do not merge distinct experiments merely because their product label matches.
+
+Keep the ordered temperature program as separate steps, pairing each temperature with its hold/addition time. A temperature mentioned only in a field name is insufficient: add the explicit temperature fact and its source evidence. Include timed warming transitions when reported; do not add stage times into a fabricated total. An operation such as warming, sequential charging or gas bubbling is not selectivity. Retain explicitly reported reagent-solution carriers separately from reaction-solvent charges.
+
+Compare figures with the experimental section. If equivalents/loading and measured charges disagree, preserve both with their separate evidence and an unresolved discrepancy; arithmetic is an explicit inference with a stated denominator, never a replacement for source values. A combined yield spanning several steps is not the isolated yield of its final step. Fill document titles from the actual article heading, not publisher cover examples or accepted-manuscript placeholder metadata.
+
+Check the generated Markdown as well as JSON: participants and every amount must be visible, along with source conflicts, notes, step sequence, yield basis and evidence. A record count includes nonexperimental record kinds; report their types instead of calling every record an experiment. Any skill evolved from these runs should encode these transferable checks and be tested on held-out source pages; do not copy this paper's numerical answers into a reusable skill.
+
+Keep product yield, recovered starting material/reagent and conversion separate. A paper may call recovered starting material a “yield”; use a recovery-specific name such as `recovered_starting_material_yield` so the tool assigns `recovery`, and cite the recovered entity. A stage yield may refer to an intermediate subsequently consumed in another stage; do not change its global role or call it recovered just because it is later a reactant. Discussions of unsuccessful loading increases are context, not an extra reagent dose for the current row. A table dash is not automatically zero or “not detected”; retain the source marker unless its meaning is explicitly defined.
+
+Preserve raw machine results. Do not certify machine output through consensus, schema checks or model confidence. Leave machine facts `unreviewed` and structures unverified. An external source review can promote selected facts separately. Missing SI must remain explicit; do not invent atmosphere, workup, yield basis or missing conditions.
+
+Write a coverage ledger mapping each inspected page/figure/table to record IDs, no-reaction findings or unresolved issues. Each region must cite existing source evidence including evidence from its own page; additional cross-page citations are allowed as context. Regions on a page must include its original page-image evidence. Numeric quantities need explicit units, with range/bound/approximation preserved; qualitative trace/r.t./reflux values must not be forced to zero or an assumed number. Text enumeration and a successful process exit do not establish extraction completeness. Save workflow decisions and failures so Evolab can evolve a reusable skill from the Session transcript. The evolved skill should encode transferable reading and validation rules, not memorize the pilot paper's answers.
