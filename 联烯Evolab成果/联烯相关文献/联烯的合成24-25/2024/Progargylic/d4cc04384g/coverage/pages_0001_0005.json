@@ -1,0 +1,239 @@
+{
+  "document_id": "doc_97407c3a1d19a517",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 1 full ChemComm issue cover",
+          "finding": "The original rendered page is the journal issue cover with cover art and a small communication title/author teaser. It contains no reaction arrow, experimental procedure, table row, condition, yield, failure, or mechanism to encode. The article title is verified on page 2 rather than inferred from the artwork.",
+          "evidence_ids": [
+            "doc_97407c3a1d19a517:page1:text",
+            "doc_97407c3a1d19a517:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "No current-paper experiment occurs on the cover page; the molecular artwork is decorative and was not treated as reaction evidence."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 2 title, author block, abstract, article metadata, and ESI link",
+          "finding": "Verified the actual article title, DOI, and aggregate claim. The publisher states that ESI is available, but no Supporting Information file is explicitly associated in the workspace, so no SI fact was imported.",
+          "evidence_ids": [
+            "doc_97407c3a1d19a517:page2:text",
+            "doc_97407c3a1d19a517:page2:image"
+          ]
+        },
+        {
+          "region": "page 2 lower-right Scheme 1a, four prior synthesis branches",
+          "finding": "Separated two general carbene/butatriene [2+1] routes and the Pd/organozinc and Cu/organomagnesium substitutions of alkynylcyclopropyl chlorides as four prior-literature records. They are not experiments of this paper and receive no current yield.",
+          "evidence_ids": [
+            "doc_97407c3a1d19a517:page2:text",
+            "doc_97407c3a1d19a517:page2:image"
+          ]
+        },
+        {
+          "region": "page 2 lower-right Scheme 1b, Pd-allenylidene cyclopropanation",
+          "finding": "Classified the strained-alkene Pd(OAc)2/PhCyP(O)H/AcOH/toluene arrow as cited Buono prior work, preserving the shown loadings without presenting it as a current experiment.",
+          "evidence_ids": [
+            "doc_97407c3a1d19a517:page2:text",
+            "doc_97407c3a1d19a517:page2:image"
+          ]
+        },
+        {
+          "region": "page 2 lower-right Scheme 1c, this-work generic concept",
+          "finding": "Classified γ-stannylated propargyl ester plus vinyl arene through a gold allenylidene/propargyl-cation resonance form to VDCP as a general scheme. Concrete current experiments are represented by Table 1 and Schemes 2–4.",
+          "evidence_ids": [
+            "doc_97407c3a1d19a517:page2:text",
+            "doc_97407c3a1d19a517:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_97407c3a1d19a517:scheme1a_prior_butatriene_alkene_cycloaddition",
+        "doc_97407c3a1d19a517:scheme1a_prior_butatriene_carbene_cycloaddition",
+        "doc_97407c3a1d19a517:scheme1a_prior_cyclopropyl_chloride_palladium_organozinc",
+        "doc_97407c3a1d19a517:scheme1a_prior_cyclopropyl_chloride_copper_organomagnesium",
+        "doc_97407c3a1d19a517:scheme1b_prior_palladium_allenylidene_cyclopropanation",
+        "doc_97407c3a1d19a517:scheme1c_current_generic_gold_cyclopropanation"
+      ],
+      "unresolved": [
+        "Generic R groups in Scheme 1 do not define unique structures or experiment-specific outcomes.",
+        "The stated ESI availability does not establish a workspace SI association."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 3 upper-left Fig. 1 representative gold(I) allenylidene complexes",
+          "finding": "Three literature complexes attributed to Hashmi, Bertrand, and Widenhoefer are contextual structures without a reaction arrow or current-paper preparation. They were not converted into experiments.",
+          "evidence_ids": [
+            "doc_97407c3a1d19a517:page3:text",
+            "doc_97407c3a1d19a517:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 lower-left Table 1 reaction header, entries 1–9, and footnotes a–g",
+          "finding": "Recorded all nine optimization/control rows independently, including catalyst identity, 1a/2a amounts, 5 mol% Au/Ag statements, CH2Cl2 volume/concentration, 25 °C, row-specific 7 h/24 h/12 h times, 0.04 M override, isolated yields, d.r., numeric 0%, no-reaction control, and entry-7 partial decomposition.",
+          "evidence_ids": [
+            "doc_97407c3a1d19a517:page3:text",
+            "doc_97407c3a1d19a517:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 lower-right Scheme 2 vinyl-arene scope",
+          "finding": "Recorded 13 ordinary scope experiments 3ab–3an, including 0% 3ad, trace 3ae, all printed yields/d.r., and a separate 1 mmol 3am scale-up at 80% rather than merging it with the ordinary 88% run.",
+          "evidence_ids": [
+            "doc_97407c3a1d19a517:page3:text",
+            "doc_97407c3a1d19a517:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 right-column scope discussion and limitations",
+          "finding": "Mapped prose to the Scheme 2 rows and retained three failure records: cis-stilbene, aliphatic alkenes, and benzofuran. The latter two remain incompletely specified classes because exact aliphatic substrates, charges, times, and detection limits are absent.",
+          "evidence_ids": [
+            "doc_97407c3a1d19a517:page3:text",
+            "doc_97407c3a1d19a517:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_97407c3a1d19a517:table1_entry1",
+        "doc_97407c3a1d19a517:table1_entry2",
+        "doc_97407c3a1d19a517:table1_entry3",
+        "doc_97407c3a1d19a517:table1_entry4",
+        "doc_97407c3a1d19a517:table1_entry5",
+        "doc_97407c3a1d19a517:table1_entry6",
+        "doc_97407c3a1d19a517:table1_entry7",
+        "doc_97407c3a1d19a517:table1_entry8",
+        "doc_97407c3a1d19a517:table1_entry9",
+        "doc_97407c3a1d19a517:scheme2_scope_3ab",
+        "doc_97407c3a1d19a517:scheme2_scope_3ac",
+        "doc_97407c3a1d19a517:scheme2_scope_3ad",
+        "doc_97407c3a1d19a517:scheme2_scope_3ae",
+        "doc_97407c3a1d19a517:scheme2_scope_3af",
+        "doc_97407c3a1d19a517:scheme2_scope_3ag",
+        "doc_97407c3a1d19a517:scheme2_scope_3ah",
+        "doc_97407c3a1d19a517:scheme2_scope_3ai",
+        "doc_97407c3a1d19a517:scheme2_scope_3aj",
+        "doc_97407c3a1d19a517:scheme2_scope_3ak",
+        "doc_97407c3a1d19a517:scheme2_scope_3al",
+        "doc_97407c3a1d19a517:scheme2_scope_3am",
+        "doc_97407c3a1d19a517:scheme2_scope_3an",
+        "doc_97407c3a1d19a517:scheme2_scaleup_3am",
+        "doc_97407c3a1d19a517:narrative_failure_cis_stilbene",
+        "doc_97407c3a1d19a517:narrative_failure_aliphatic_alkenes",
+        "doc_97407c3a1d19a517:narrative_failure_benzofuran"
+      ],
+      "unresolved": [
+        "Table 1 entry 8 prints 1a 0.2 mmol, solvent 1 mL, and 0.04 M; the apparent arithmetic conflict is preserved rather than repaired.",
+        "Scheme 2 omits absolute charges and reaction times; the failure classes omit exact row-level details.",
+        "Most complex scope structures remain source-labeled with null SMILES and all structures remain unverified."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 4 lower-left Scheme 3 propargyl-ester scope and footnote",
+          "finding": "Recorded 12 standard scope rows 3ba–3ma, the pivalate 1n/2c experiment to 3nc at 50 °C and 0.2 M (28%), and the distinct failed acetate analogue. Trace 3ja, all printed d.r. values, and the syn assignment for major 3hc are product-targeted.",
+          "evidence_ids": [
+            "doc_97407c3a1d19a517:page4:text",
+            "doc_97407c3a1d19a517:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 upper-right Scheme 4a–d mechanistic studies",
+          "finding": "Recorded four independent experiments: cis- and trans-deuterated styrene probes with 20% product and retained geometry/deuterium; (R)-1a giving 3ac in 40%, 2.5:1 d.r., and 0% ee; and SiMe3 analogue 1o giving a complex mixture.",
+          "evidence_ids": [
+            "doc_97407c3a1d19a517:page4:text",
+            "doc_97407c3a1d19a517:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 lower-right Scheme 5 proposed mechanism",
+          "finding": "Classified A–F as proposed/computed intermediates in one mechanism record rather than preparations. The page-5 qualitative DFT continuation is linked to the same record.",
+          "evidence_ids": [
+            "doc_97407c3a1d19a517:page4:text",
+            "doc_97407c3a1d19a517:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_97407c3a1d19a517:scheme3_scope_3ba",
+        "doc_97407c3a1d19a517:scheme3_scope_3ca",
+        "doc_97407c3a1d19a517:scheme3_scope_3da",
+        "doc_97407c3a1d19a517:scheme3_scope_3ea",
+        "doc_97407c3a1d19a517:scheme3_scope_3fa",
+        "doc_97407c3a1d19a517:scheme3_scope_3gc",
+        "doc_97407c3a1d19a517:scheme3_scope_3hc",
+        "doc_97407c3a1d19a517:scheme3_scope_3ia",
+        "doc_97407c3a1d19a517:scheme3_scope_3ja",
+        "doc_97407c3a1d19a517:scheme3_scope_3ka",
+        "doc_97407c3a1d19a517:scheme3_scope_3la",
+        "doc_97407c3a1d19a517:scheme3_scope_3ma",
+        "doc_97407c3a1d19a517:scheme3_scope_3nc_pivalate",
+        "doc_97407c3a1d19a517:scheme3_failure_3nc_acetate",
+        "doc_97407c3a1d19a517:scheme4_cis_deuterium_retention",
+        "doc_97407c3a1d19a517:scheme4_trans_deuterium_retention",
+        "doc_97407c3a1d19a517:scheme4_enantiomeric_memory_control",
+        "doc_97407c3a1d19a517:scheme4_silyl_analogue_complex_mixture",
+        "doc_97407c3a1d19a517:scheme5_proposed_gold_allenylidene_mechanism"
+      ],
+      "unresolved": [
+        "Scheme 3/4 omit absolute charges, reaction times, workups, purifications, masses, and several analytical bases.",
+        "The failed acetate analogue has no explicitly assigned temperature, concentration, time, or detection limit.",
+        "The detailed DFT calculations are referred to unassociated ESI and were not imported."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 5 upper-left continuation of Scheme 5 discussion",
+          "finding": "The text states that cyclopropane formation is stepwise, the first step is slower than the second, and Fa/Fb equilibration is inaccessible relative to closure. These qualitative computational conclusions enrich the existing mechanism record; no new experiment is created.",
+          "evidence_ids": [
+            "doc_97407c3a1d19a517:page5:text",
+            "doc_97407c3a1d19a517:page5:image"
+          ]
+        },
+        {
+          "region": "page 5 left-column conclusion, funding, data availability, and conflicts",
+          "finding": "Conclusion and administrative text add no independent reaction. The ESI is described as containing procedures, characterization, DFT, and spectra, but workspace SI association remains unestablished and no SI-only detail was inferred.",
+          "evidence_ids": [
+            "doc_97407c3a1d19a517:page5:text",
+            "doc_97407c3a1d19a517:page5:image"
+          ]
+        },
+        {
+          "region": "page 5 references 1–26",
+          "finding": "Bibliography and prior-literature citations only. External papers were not expanded into experiments of the current article.",
+          "evidence_ids": [
+            "doc_97407c3a1d19a517:page5:text",
+            "doc_97407c3a1d19a517:page5:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_97407c3a1d19a517:scheme5_proposed_gold_allenylidene_mechanism"
+      ],
+      "unresolved": [
+        "No numerical activation free energies are printed on this page.",
+        "The ESI statement does not establish an associated source file.",
+        "No new current-paper reaction operation or outcome occurs in the bibliography."
+      ]
+    }
+  ]
+}

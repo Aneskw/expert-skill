@@ -1,0 +1,1696 @@
+[
+  {
+    "record_id": "doc_ce41c22083bf9ede:table3_entry5_4e",
+    "document_id": "doc_ce41c22083bf9ede",
+    "source_reaction_id": "table3_entry5_4e",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_ce41c22083bf9ede:page2:text",
+      "doc_ce41c22083bf9ede:page2:image",
+      "doc_ce41c22083bf9ede:page3:text",
+      "doc_ce41c22083bf9ede:page3:image",
+      "doc_ce41c22083bf9ede:page6:text",
+      "doc_ce41c22083bf9ede:page6:image",
+      "doc_ce41c22083bf9ede:page7:text",
+      "doc_ce41c22083bf9ede:page7:image",
+      "doc_ce41c22083bf9ede:page8:text",
+      "doc_ce41c22083bf9ede:page8:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_3a",
+        "role": "reactant",
+        "label": {
+          "value": "3a",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page2:text",
+            "doc_ce41c22083bf9ede:page2:image",
+            "doc_ce41c22083bf9ede:page3:text",
+            "doc_ce41c22083bf9ede:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "methyl (2-methyl-5-((3-phenylprop-2-yn-1-yl)oxy)pent-3-yn-2-yl) carbonate",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page2:text",
+            "doc_ce41c22083bf9ede:page2:image",
+            "doc_ce41c22083bf9ede:page3:text",
+            "doc_ce41c22083bf9ede:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "COC(=O)OC(C)(C)C#CCOCC#Cc1ccccc1",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page2:text",
+            "doc_ce41c22083bf9ede:page2:image",
+            "doc_ce41c22083bf9ede:page3:text",
+            "doc_ce41c22083bf9ede:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_ce41c22083bf9ede:page3:text",
+                "doc_ce41c22083bf9ede:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "alkyne_4e",
+        "role": "reactant",
+        "label": {
+          "value": "4e",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page2:text",
+            "doc_ce41c22083bf9ede:page2:image",
+            "doc_ce41c22083bf9ede:page3:text",
+            "doc_ce41c22083bf9ede:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled functionalized alkyne 4e",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page2:text",
+            "doc_ce41c22083bf9ede:page2:image",
+            "doc_ce41c22083bf9ede:page3:text",
+            "doc_ce41c22083bf9ede:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.2,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_ce41c22083bf9ede:page3:text",
+                "doc_ce41c22083bf9ede:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "pdoac2",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd(OAc)2",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page2:text",
+            "doc_ce41c22083bf9ede:page2:image",
+            "doc_ce41c22083bf9ede:page3:text",
+            "doc_ce41c22083bf9ede:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium(II) acetate",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page2:text",
+            "doc_ce41c22083bf9ede:page2:image",
+            "doc_ce41c22083bf9ede:page3:text",
+            "doc_ce41c22083bf9ede:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(=O)O[Pd]OC(C)=O",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page2:text",
+            "doc_ce41c22083bf9ede:page2:image",
+            "doc_ce41c22083bf9ede:page3:text",
+            "doc_ce41c22083bf9ede:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_ce41c22083bf9ede:page2:text",
+                "doc_ce41c22083bf9ede:page2:image",
+                "doc_ce41c22083bf9ede:page3:text",
+                "doc_ce41c22083bf9ede:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "tfp",
+        "role": "reagent",
+        "label": {
+          "value": "TFP",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page2:text",
+            "doc_ce41c22083bf9ede:page2:image",
+            "doc_ce41c22083bf9ede:page3:text",
+            "doc_ce41c22083bf9ede:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tris(2-furyl)phosphine",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page2:text",
+            "doc_ce41c22083bf9ede:page2:image",
+            "doc_ce41c22083bf9ede:page3:text",
+            "doc_ce41c22083bf9ede:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "P(c1ccoc1)(c1ccoc1)c1ccoc1",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page2:text",
+            "doc_ce41c22083bf9ede:page2:image",
+            "doc_ce41c22083bf9ede:page3:text",
+            "doc_ce41c22083bf9ede:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_ce41c22083bf9ede:page2:text",
+                "doc_ce41c22083bf9ede:page2:image",
+                "doc_ce41c22083bf9ede:page3:text",
+                "doc_ce41c22083bf9ede:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "base",
+        "role": "reagent",
+        "label": {
+          "value": "Na2CO3",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page2:text",
+            "doc_ce41c22083bf9ede:page2:image",
+            "doc_ce41c22083bf9ede:page3:text",
+            "doc_ce41c22083bf9ede:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "sodium carbonate",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page2:text",
+            "doc_ce41c22083bf9ede:page2:image",
+            "doc_ce41c22083bf9ede:page3:text",
+            "doc_ce41c22083bf9ede:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Na+].[Na+].[O-]C([O-])=O",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page2:text",
+            "doc_ce41c22083bf9ede:page2:image",
+            "doc_ce41c22083bf9ede:page3:text",
+            "doc_ce41c22083bf9ede:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 3.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_ce41c22083bf9ede:page2:text",
+                "doc_ce41c22083bf9ede:page2:image",
+                "doc_ce41c22083bf9ede:page3:text",
+                "doc_ce41c22083bf9ede:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "water",
+        "role": "reagent",
+        "label": {
+          "value": "H2O",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page2:text",
+            "doc_ce41c22083bf9ede:page2:image",
+            "doc_ce41c22083bf9ede:page3:text",
+            "doc_ce41c22083bf9ede:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "water",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page2:text",
+            "doc_ce41c22083bf9ede:page2:image",
+            "doc_ce41c22083bf9ede:page3:text",
+            "doc_ce41c22083bf9ede:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page2:text",
+            "doc_ce41c22083bf9ede:page2:image",
+            "doc_ce41c22083bf9ede:page3:text",
+            "doc_ce41c22083bf9ede:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_ce41c22083bf9ede:page2:text",
+                "doc_ce41c22083bf9ede:page2:image",
+                "doc_ce41c22083bf9ede:page3:text",
+                "doc_ce41c22083bf9ede:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "CH3CN",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page2:text",
+            "doc_ce41c22083bf9ede:page2:image",
+            "doc_ce41c22083bf9ede:page3:text",
+            "doc_ce41c22083bf9ede:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "acetonitrile",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page2:text",
+            "doc_ce41c22083bf9ede:page2:image",
+            "doc_ce41c22083bf9ede:page3:text",
+            "doc_ce41c22083bf9ede:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC#N",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page2:text",
+            "doc_ce41c22083bf9ede:page2:image",
+            "doc_ce41c22083bf9ede:page3:text",
+            "doc_ce41c22083bf9ede:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 10.0,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_ce41c22083bf9ede:page2:text",
+                "doc_ce41c22083bf9ede:page2:image",
+                "doc_ce41c22083bf9ede:page3:text",
+                "doc_ce41c22083bf9ede:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "volume"
+          }
+        ]
+      },
+      {
+        "entity_id": "product_5",
+        "role": "product",
+        "label": {
+          "value": "5ae",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page2:text",
+            "doc_ce41c22083bf9ede:page2:image",
+            "doc_ce41c22083bf9ede:page3:text",
+            "doc_ce41c22083bf9ede:page3:image",
+            "doc_ce41c22083bf9ede:page7:text",
+            "doc_ce41c22083bf9ede:page7:image",
+            "doc_ce41c22083bf9ede:page8:text",
+            "doc_ce41c22083bf9ede:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled product 5ae",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page2:text",
+            "doc_ce41c22083bf9ede:page2:image",
+            "doc_ce41c22083bf9ede:page3:text",
+            "doc_ce41c22083bf9ede:page3:image",
+            "doc_ce41c22083bf9ede:page7:text",
+            "doc_ce41c22083bf9ede:page7:image",
+            "doc_ce41c22083bf9ede:page8:text",
+            "doc_ce41c22083bf9ede:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_6",
+        "role": "product",
+        "label": {
+          "value": "6ae",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page2:text",
+            "doc_ce41c22083bf9ede:page2:image",
+            "doc_ce41c22083bf9ede:page3:text",
+            "doc_ce41c22083bf9ede:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled product 6ae",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page2:text",
+            "doc_ce41c22083bf9ede:page2:image",
+            "doc_ce41c22083bf9ede:page3:text",
+            "doc_ce41c22083bf9ede:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "terminal_alkyne_scope",
+        "participant_ids": [
+          "substrate_3a",
+          "alkyne_4e",
+          "pdoac2",
+          "tfp",
+          "base",
+          "water",
+          "solvent"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 30,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_ce41c22083bf9ede:page3:text",
+                "doc_ce41c22083bf9ede:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 3.5,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_ce41c22083bf9ede:page3:text",
+                "doc_ce41c22083bf9ede:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "N2",
+              "evidence_ids": [
+                "doc_ce41c22083bf9ede:page3:text",
+                "doc_ce41c22083bf9ede:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "atmosphere"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "combined_isolated_yield",
+        "fact": {
+          "value": {
+            "number": 68,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page3:text",
+            "doc_ce41c22083bf9ede:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_5",
+          "product_6"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "combined isolated yield of products 5 and 6",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page3:text",
+            "doc_ce41c22083bf9ede:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_5",
+          "product_6"
+        ],
+        "category": "measurement_basis"
+      },
+      {
+        "name": "5_to_6_ratio",
+        "fact": {
+          "value": ">99/1",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page3:text",
+            "doc_ce41c22083bf9ede:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_5",
+          "product_6"
+        ],
+        "category": "selectivity"
+      },
+      {
+        "name": "selectivity_measurement_basis",
+        "fact": {
+          "value": "1H NMR analysis of the isolated product",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page3:text",
+            "doc_ce41c22083bf9ede:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_5",
+          "product_6"
+        ],
+        "category": "measurement_basis"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Each Table 3 arrow is a distinct terminal-alkyne scope experiment; the yield combines products 5 and 6 while the ratio is measured on the isolated product.",
+        "evidence_ids": [
+          "doc_ce41c22083bf9ede:page2:text",
+          "doc_ce41c22083bf9ede:page2:image",
+          "doc_ce41c22083bf9ede:page3:text",
+          "doc_ce41c22083bf9ede:page3:image",
+          "doc_ce41c22083bf9ede:page6:text",
+          "doc_ce41c22083bf9ede:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The page-6 acknowledgment says Yangguangyan Zheng reproduced 5ae; no independent run details are supplied, so no duplicate experiment is created.",
+        "evidence_ids": [
+          "doc_ce41c22083bf9ede:page2:text",
+          "doc_ce41c22083bf9ede:page2:image",
+          "doc_ce41c22083bf9ede:page3:text",
+          "doc_ce41c22083bf9ede:page3:image",
+          "doc_ce41c22083bf9ede:page6:text",
+          "doc_ce41c22083bf9ede:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Footnote 19 reports crystal data and CCDC 1849157 for 5ae. This supports the source structural assignment but is characterization, not another preparation, not an associated workspace Supporting Information file, and not verification of a machine structure encoding.",
+        "evidence_ids": [
+          "doc_ce41c22083bf9ede:page7:text",
+          "doc_ce41c22083bf9ede:page7:image",
+          "doc_ce41c22083bf9ede:page8:text",
+          "doc_ce41c22083bf9ede:page8:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; CCDC 1849157 is a crystallographic deposition and no SI fact was imported or inferred.",
+        "The compact 5ae/6ae products remain label-only with null SMILES and structure_verified=false; crystallography does not certify a machine structure encoding.",
+        "Absolute alkyne/catalyst/base/water masses, workup, purification, and individual regioisomer masses/yields are not reported in the associated main-text record.",
+        "The page-6 reproduction acknowledgment does not identify a separable run."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_ce41c22083bf9ede:scheme2b_4j",
+    "document_id": "doc_ce41c22083bf9ede",
+    "source_reaction_id": "scheme2b_4j",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_ce41c22083bf9ede:page4:text",
+      "doc_ce41c22083bf9ede:page4:image",
+      "doc_ce41c22083bf9ede:page8:text",
+      "doc_ce41c22083bf9ede:page8:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_3a",
+        "role": "reactant",
+        "label": {
+          "value": "3a",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "methyl (2-methyl-5-((3-phenylprop-2-yn-1-yl)oxy)pent-3-yn-2-yl) carbonate",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "COC(=O)OC(C)(C)C#CCOCC#Cc1ccccc1",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_ce41c22083bf9ede:page4:text",
+                "doc_ce41c22083bf9ede:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "alkyne",
+        "role": "reactant",
+        "label": {
+          "value": "4j",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "3-phenylprop-2-yn-1-ol",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "OCC#Cc1ccccc1",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.2,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_ce41c22083bf9ede:page4:text",
+                "doc_ce41c22083bf9ede:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "pdoac2",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd(OAc)2",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium(II) acetate",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(=O)O[Pd]OC(C)=O",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_ce41c22083bf9ede:page4:text",
+                "doc_ce41c22083bf9ede:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "tfp",
+        "role": "reagent",
+        "label": {
+          "value": "TFP",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tris(2-furyl)phosphine",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "P(c1ccoc1)(c1ccoc1)c1ccoc1",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_ce41c22083bf9ede:page4:text",
+                "doc_ce41c22083bf9ede:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "base",
+        "role": "reagent",
+        "label": {
+          "value": "Na2CO3",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "sodium carbonate",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Na+].[Na+].[O-]C([O-])=O",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 3.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_ce41c22083bf9ede:page4:text",
+                "doc_ce41c22083bf9ede:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "water",
+        "role": "reagent",
+        "label": {
+          "value": "H2O",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "water",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_ce41c22083bf9ede:page4:text",
+                "doc_ce41c22083bf9ede:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "CH3CN",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "acetonitrile",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC#N",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_5",
+        "role": "product",
+        "label": {
+          "value": "5aj",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image",
+            "doc_ce41c22083bf9ede:page8:text",
+            "doc_ce41c22083bf9ede:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled product 5aj",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image",
+            "doc_ce41c22083bf9ede:page8:text",
+            "doc_ce41c22083bf9ede:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_6",
+        "role": "product",
+        "label": {
+          "value": "6aj",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled product 6aj",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "regioselectivity_control",
+        "participant_ids": [
+          "substrate_3a",
+          "alkyne",
+          "pdoac2",
+          "tfp",
+          "base",
+          "water",
+          "solvent"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 30,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_ce41c22083bf9ede:page4:text",
+                "doc_ce41c22083bf9ede:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 47.3,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_ce41c22083bf9ede:page4:text",
+                "doc_ce41c22083bf9ede:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "N2",
+              "evidence_ids": [
+                "doc_ce41c22083bf9ede:page4:text",
+                "doc_ce41c22083bf9ede:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "atmosphere"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "combined_reported_yield",
+        "fact": {
+          "value": {
+            "number": 22,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_5",
+          "product_6"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_5",
+          "product_6"
+        ],
+        "category": "measurement_basis"
+      },
+      {
+        "name": "5_to_6_ratio",
+        "fact": {
+          "value": ">99/1",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_5",
+          "product_6"
+        ],
+        "category": "selectivity"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 2 gives a distinct control arrow for this alkyne.",
+        "evidence_ids": [
+          "doc_ce41c22083bf9ede:page4:text",
+          "doc_ce41c22083bf9ede:page4:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The page-8 crystal-data footnote reports CCDC 1849158 for 5aj. This supports the source regioisomer/structural assignment but is characterization, not another preparation, not an associated workspace Supporting Information file, and not verification of a machine structure encoding.",
+        "evidence_ids": [
+          "doc_ce41c22083bf9ede:page8:text",
+          "doc_ce41c22083bf9ede:page8:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; CCDC 1849158 is a crystallographic deposition and no SI fact was imported or inferred.",
+        "The compact 5aj product remains label-only with null SMILES and structure_verified=false; crystallography does not certify a machine structure encoding.",
+        "CH3CN volume, workup, purification, isolated masses, and yield/selectivity measurement bases are not reported in Scheme 2."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_ce41c22083bf9ede:scheme2b_4k",
+    "document_id": "doc_ce41c22083bf9ede",
+    "source_reaction_id": "scheme2b_4k",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_ce41c22083bf9ede:page4:text",
+      "doc_ce41c22083bf9ede:page4:image",
+      "doc_ce41c22083bf9ede:page8:text",
+      "doc_ce41c22083bf9ede:page8:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_3a",
+        "role": "reactant",
+        "label": {
+          "value": "3a",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "methyl (2-methyl-5-((3-phenylprop-2-yn-1-yl)oxy)pent-3-yn-2-yl) carbonate",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "COC(=O)OC(C)(C)C#CCOCC#Cc1ccccc1",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_ce41c22083bf9ede:page4:text",
+                "doc_ce41c22083bf9ede:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "alkyne",
+        "role": "reactant",
+        "label": {
+          "value": "4k",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1-phenylpropyne",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC#Cc1ccccc1",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.2,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_ce41c22083bf9ede:page4:text",
+                "doc_ce41c22083bf9ede:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "pdoac2",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd(OAc)2",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium(II) acetate",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(=O)O[Pd]OC(C)=O",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_ce41c22083bf9ede:page4:text",
+                "doc_ce41c22083bf9ede:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "tfp",
+        "role": "reagent",
+        "label": {
+          "value": "TFP",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tris(2-furyl)phosphine",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "P(c1ccoc1)(c1ccoc1)c1ccoc1",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_ce41c22083bf9ede:page4:text",
+                "doc_ce41c22083bf9ede:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "base",
+        "role": "reagent",
+        "label": {
+          "value": "Na2CO3",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "sodium carbonate",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Na+].[Na+].[O-]C([O-])=O",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 3.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_ce41c22083bf9ede:page4:text",
+                "doc_ce41c22083bf9ede:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "water",
+        "role": "reagent",
+        "label": {
+          "value": "H2O",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "water",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_ce41c22083bf9ede:page4:text",
+                "doc_ce41c22083bf9ede:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "CH3CN",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "acetonitrile",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC#N",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_5",
+        "role": "product",
+        "label": {
+          "value": "5ak",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image",
+            "doc_ce41c22083bf9ede:page8:text",
+            "doc_ce41c22083bf9ede:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled product 5ak",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image",
+            "doc_ce41c22083bf9ede:page8:text",
+            "doc_ce41c22083bf9ede:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_6",
+        "role": "product",
+        "label": {
+          "value": "6ak",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled product 6ak",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "regioselectivity_control",
+        "participant_ids": [
+          "substrate_3a",
+          "alkyne",
+          "pdoac2",
+          "tfp",
+          "base",
+          "water",
+          "solvent"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 30,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_ce41c22083bf9ede:page4:text",
+                "doc_ce41c22083bf9ede:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 72.0,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_ce41c22083bf9ede:page4:text",
+                "doc_ce41c22083bf9ede:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "N2",
+              "evidence_ids": [
+                "doc_ce41c22083bf9ede:page4:text",
+                "doc_ce41c22083bf9ede:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "atmosphere"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "combined_reported_yield",
+        "fact": {
+          "value": {
+            "number": 11,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_5",
+          "product_6"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_5",
+          "product_6"
+        ],
+        "category": "measurement_basis"
+      },
+      {
+        "name": "5_to_6_ratio",
+        "fact": {
+          "value": "92/8",
+          "evidence_ids": [
+            "doc_ce41c22083bf9ede:page4:text",
+            "doc_ce41c22083bf9ede:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_5",
+          "product_6"
+        ],
+        "category": "selectivity"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 2 gives a distinct control arrow for this alkyne.",
+        "evidence_ids": [
+          "doc_ce41c22083bf9ede:page4:text",
+          "doc_ce41c22083bf9ede:page4:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The page-8 crystal-data footnote reports CCDC 1855724 for 5ak. This supports the source regioisomer/structural assignment but is characterization, not another preparation, not an associated workspace Supporting Information file, and not verification of a machine structure encoding.",
+        "evidence_ids": [
+          "doc_ce41c22083bf9ede:page8:text",
+          "doc_ce41c22083bf9ede:page8:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; CCDC 1855724 is a crystallographic deposition and no SI fact was imported or inferred.",
+        "The compact 5ak product remains label-only with null SMILES and structure_verified=false; crystallography does not certify a machine structure encoding.",
+        "CH3CN volume, workup, purification, isolated masses, and yield/selectivity measurement bases are not reported in Scheme 2."
+      ]
+    }
+  }
+]

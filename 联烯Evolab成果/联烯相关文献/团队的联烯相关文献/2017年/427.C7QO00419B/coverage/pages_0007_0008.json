@@ -1,0 +1,68 @@
+{
+  "document_id": "doc_3d0243396cacb89f",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 7 reference list, references 7–11 and 13–16",
+          "finding": "Bibliography and prior-literature citations only; cited external papers were not expanded into current-paper experiments.",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page7:text",
+            "doc_3d0243396cacb89f:page7:image"
+          ]
+        },
+        {
+          "region": "page 7 footnote 12",
+          "finding": "The footnote states that X-ray single-crystal data for cis-5a, cis-6a, 7a, and 8 are in Supporting Information. This is characterization provenance for four existing records, not a new reaction. Because no SI file is explicitly associated, no SI crystallographic fact was imported.",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page7:text",
+            "doc_3d0243396cacb89f:page7:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_3d0243396cacb89f:scheme2_2b_benzaldehyde_to_cis5a",
+        "doc_3d0243396cacb89f:scheme2_2b_nitrone_to_cis6a",
+        "doc_3d0243396cacb89f:scheme2_2b_N_methylindole_to_7a",
+        "doc_3d0243396cacb89f:scheme3_eq2_byproduct8_control"
+      ],
+      "unresolved": [
+        "Supporting Information association remains unestablished despite the footnote's reference to SI crystal data.",
+        "The cited external literature was not treated as experiments of the current article."
+      ]
+    },
+    {
+      "page": 8,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 8 upper-left graphical-abstract reaction arrow",
+          "finding": "A generic allenyl malonate and Togni's reagent II are shown forming a generic CF3-substituted vinyl cyclopropane under 10 mol% Cu(OAc)2, 20 mol% phenanthroline, 1.0 equiv TBAI, 2.0 equiv K3PO4, CH2Cl2, and 50 °C. This summarizes the existing Scheme 1D reaction class and was merged into its general-scheme record rather than counted as a new run.",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page8:text",
+            "doc_3d0243396cacb89f:page8:image"
+          ]
+        },
+        {
+          "region": "page 8 graphical-abstract right-hand claim",
+          "finding": "The statement about further CF3 incorporation through C-C bond cleavage is an aggregate claim without a downstream structure, partner, condition set, time, or yield; it does not define another experiment.",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page8:text",
+            "doc_3d0243396cacb89f:page8:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_3d0243396cacb89f:scheme1D_current_generic_cyclopropanation_concept"
+      ],
+      "unresolved": [
+        "Generic R1/R2/R3 groups prevent unique substrate/product structure encoding.",
+        "The graphical abstract omits scale, time, atmosphere, yield, measurement basis, workup, and purification.",
+        "The downstream C-C bond-cleavage claim is not experiment-specific."
+      ]
+    }
+  ]
+}

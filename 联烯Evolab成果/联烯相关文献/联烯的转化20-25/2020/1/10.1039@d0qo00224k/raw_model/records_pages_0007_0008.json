@@ -1,0 +1,798 @@
+[
+  {
+    "record_id": "doc_783e8a8fe935fda8:table3_allenoate_scope_3ab",
+    "document_id": "doc_783e8a8fe935fda8",
+    "source_reaction_id": "table3_allenoate_scope_3ab",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_783e8a8fe935fda8:page4:text",
+      "doc_783e8a8fe935fda8:page4:image",
+      "doc_783e8a8fe935fda8:page7:text",
+      "doc_783e8a8fe935fda8:page7:image",
+      "doc_783e8a8fe935fda8:page8:text",
+      "doc_783e8a8fe935fda8:page8:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "nitrone",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page4:text",
+            "doc_783e8a8fe935fda8:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 1a",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page4:text",
+            "doc_783e8a8fe935fda8:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.2,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_783e8a8fe935fda8:page4:text",
+                "doc_783e8a8fe935fda8:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "allenoate",
+        "role": "reactant",
+        "label": {
+          "value": "2b (ethyl allenoate)",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page4:text",
+            "doc_783e8a8fe935fda8:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 2b (ethyl allenoate)",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page4:text",
+            "doc_783e8a8fe935fda8:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.4,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_783e8a8fe935fda8:page4:text",
+                "doc_783e8a8fe935fda8:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_783e8a8fe935fda8:page4:text",
+                "doc_783e8a8fe935fda8:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "C1",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page4:text",
+            "doc_783e8a8fe935fda8:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "Gimeracil",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page4:text",
+            "doc_783e8a8fe935fda8:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 50,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_783e8a8fe935fda8:page4:text",
+                "doc_783e8a8fe935fda8:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "DMF",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page4:text",
+            "doc_783e8a8fe935fda8:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N,N-dimethylformamide",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page4:text",
+            "doc_783e8a8fe935fda8:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CN(C)C=O",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page4:text",
+            "doc_783e8a8fe935fda8:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_783e8a8fe935fda8:page4:text",
+                "doc_783e8a8fe935fda8:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "volume"
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "3ab",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page4:text",
+            "doc_783e8a8fe935fda8:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 3ab",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page4:text",
+            "doc_783e8a8fe935fda8:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "standard_formal_4_plus_1_annulation",
+        "participant_ids": [
+          "nitrone",
+          "allenoate",
+          "catalyst",
+          "solvent"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 80,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_783e8a8fe935fda8:page4:text",
+                "doc_783e8a8fe935fda8:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "minimum": 3,
+                "maximum": 6,
+                "unit": "h",
+                "raw_text": "3–6 h"
+              },
+              "evidence_ids": [
+                "doc_783e8a8fe935fda8:page4:text",
+                "doc_783e8a8fe935fda8:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 85,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page4:text",
+            "doc_783e8a8fe935fda8:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page4:text",
+            "doc_783e8a8fe935fda8:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "measurement_basis"
+      },
+      {
+        "name": "structure_determination",
+        "fact": {
+          "value": "single-crystal X-ray diffraction",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page2:text",
+            "doc_783e8a8fe935fda8:page2:image",
+            "doc_783e8a8fe935fda8:page4:text",
+            "doc_783e8a8fe935fda8:page4:image",
+            "doc_783e8a8fe935fda8:page7:text",
+            "doc_783e8a8fe935fda8:page7:image",
+            "doc_783e8a8fe935fda8:page8:text",
+            "doc_783e8a8fe935fda8:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "CCDC_accession",
+        "fact": {
+          "value": "1974919",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page2:text",
+            "doc_783e8a8fe935fda8:page2:image",
+            "doc_783e8a8fe935fda8:page4:text",
+            "doc_783e8a8fe935fda8:page4:image",
+            "doc_783e8a8fe935fda8:page7:text",
+            "doc_783e8a8fe935fda8:page7:image",
+            "doc_783e8a8fe935fda8:page8:text",
+            "doc_783e8a8fe935fda8:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "other"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Each Table 3 product is a distinct allenoate-scope experiment under the shared caption conditions.",
+        "evidence_ids": [
+          "doc_783e8a8fe935fda8:page4:text",
+          "doc_783e8a8fe935fda8:page4:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Reference 16 identifies CCDC 1974919 as the crystallographic data for 3ab and continues on page 8 with the CCDC retrieval route. This is characterization provenance for the existing Table 3 experiment, not another preparation, not an associated workspace SI file, and not verification of a machine structure encoding.",
+        "evidence_ids": [
+          "doc_783e8a8fe935fda8:page7:text",
+          "doc_783e8a8fe935fda8:page7:image",
+          "doc_783e8a8fe935fda8:page8:text",
+          "doc_783e8a8fe935fda8:page8:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Compact, generic, and stereochemically complex structures remain source-labeled with null SMILES where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "The caption gives a 3–6 h range rather than an exact row time; atmosphere, workup, purification, and isolated mass are not reported.",
+        "CCDC 1974919 is a crystallographic deposition rather than an explicitly associated workspace Supporting Information file."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_783e8a8fe935fda8:scheme3_proposed_formal_4_plus_1_mechanism",
+    "document_id": "doc_783e8a8fe935fda8",
+    "source_reaction_id": "scheme3_proposed_formal_4_plus_1_mechanism",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_783e8a8fe935fda8:page5:text",
+      "doc_783e8a8fe935fda8:page5:image",
+      "doc_783e8a8fe935fda8:page8:text",
+      "doc_783e8a8fe935fda8:page8:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "nitrone_1",
+        "role": "reactant",
+        "label": {
+          "value": "N-vinyl fluorenone nitrone 1",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page5:text",
+            "doc_783e8a8fe935fda8:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound N-vinyl fluorenone nitrone 1",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page5:text",
+            "doc_783e8a8fe935fda8:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "allenoate_2",
+        "role": "reactant",
+        "label": {
+          "value": "allenoate 2",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page5:text",
+            "doc_783e8a8fe935fda8:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound allenoate 2",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page5:text",
+            "doc_783e8a8fe935fda8:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "catalyst_C1",
+        "role": "catalyst",
+        "label": {
+          "value": "C1",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page5:text",
+            "doc_783e8a8fe935fda8:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "Gimeracil",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page5:text",
+            "doc_783e8a8fe935fda8:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 50,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_783e8a8fe935fda8:page8:text",
+                "doc_783e8a8fe935fda8:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "intermediate_A",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "proposed intermediate A",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page5:text",
+            "doc_783e8a8fe935fda8:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound proposed intermediate A",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page5:text",
+            "doc_783e8a8fe935fda8:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "intermediate_B",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "proposed intermediate B",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page5:text",
+            "doc_783e8a8fe935fda8:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound proposed intermediate B",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page5:text",
+            "doc_783e8a8fe935fda8:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "intermediate_C",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "proposed intermediate C",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page5:text",
+            "doc_783e8a8fe935fda8:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound proposed intermediate C",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page5:text",
+            "doc_783e8a8fe935fda8:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "intermediate_D",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "proposed intermediate D",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page5:text",
+            "doc_783e8a8fe935fda8:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound proposed intermediate D",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page5:text",
+            "doc_783e8a8fe935fda8:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "compound_5",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "isomerization product 5",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page5:text",
+            "doc_783e8a8fe935fda8:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound isomerization product 5",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page5:text",
+            "doc_783e8a8fe935fda8:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3",
+        "role": "product",
+        "label": {
+          "value": "spirofluorenylpyrroline 3",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page5:text",
+            "doc_783e8a8fe935fda8:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound spirofluorenylpyrroline 3",
+          "evidence_ids": [
+            "doc_783e8a8fe935fda8:page5:text",
+            "doc_783e8a8fe935fda8:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "nucleophilic_addition",
+        "participant_ids": [
+          "nitrone_1",
+          "allenoate_2",
+          "catalyst_C1",
+          "intermediate_A"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "proposed 1,4-nucleophilic addition",
+              "evidence_ids": [
+                "doc_783e8a8fe935fda8:page5:text",
+                "doc_783e8a8fe935fda8:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "operation"
+          }
+        ]
+      },
+      {
+        "step_id": "three_three_rearrangement",
+        "participant_ids": [
+          "intermediate_A",
+          "intermediate_B"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "proposed [3,3]-rearrangement",
+              "evidence_ids": [
+                "doc_783e8a8fe935fda8:page5:text",
+                "doc_783e8a8fe935fda8:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "operation"
+          }
+        ]
+      },
+      {
+        "step_id": "selective_enolation_and_isomerization",
+        "participant_ids": [
+          "intermediate_B",
+          "intermediate_C",
+          "intermediate_D",
+          "compound_5",
+          "catalyst_C1"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "proposed selective enolation and C/D balance; competing isomerization gives 5",
+              "evidence_ids": [
+                "doc_783e8a8fe935fda8:page5:text",
+                "doc_783e8a8fe935fda8:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "operation"
+          }
+        ]
+      },
+      {
+        "step_id": "kinetic_cyclization",
+        "participant_ids": [
+          "intermediate_C",
+          "product_3",
+          "catalyst_C1"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "proposed intramolecular cyclization from the face opposite R2",
+              "evidence_ids": [
+                "doc_783e8a8fe935fda8:page5:text",
+                "doc_783e8a8fe935fda8:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "operation"
+          }
+        ]
+      }
+    ],
+    "outcomes": [],
+    "notes": [
+      {
+        "value": "Scheme 3 is the authors' plausible mechanism. A–D are proposed intermediates and are not reported as isolated experiments.",
+        "evidence_ids": [
+          "doc_783e8a8fe935fda8:page5:text",
+          "doc_783e8a8fe935fda8:page5:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Reference 17 states that the mechanism was proposed with reference to Anderson's work (reference 11) and that 50 mol% acidic Gimeracil may make intermediate A more plausible and facilitate enolation to intermediate C. This is mechanistic rationale, not an observed preparation of A or C.",
+        "evidence_ids": [
+          "doc_783e8a8fe935fda8:page8:text",
+          "doc_783e8a8fe935fda8:page8:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The proposed intermediates and elementary steps are not independently quantified or directly observed; no SI-only detail was imported.",
+        "Reference 17 provides literature-based mechanistic rationale only; intermediates A and C remain proposed and are not directly observed or quantified."
+      ]
+    }
+  }
+]

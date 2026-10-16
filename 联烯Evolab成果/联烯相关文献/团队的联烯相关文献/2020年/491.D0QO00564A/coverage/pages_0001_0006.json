@@ -1,0 +1,234 @@
+{
+  "document_id": "doc_8df0e71d29d5470a",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 1 full-page Organic Chemistry Frontiers accepted-manuscript cover and citation block",
+          "finding": "Publisher cover material and citation metadata only. No reaction arrow, table, experimental procedure, condition, yield, or mechanism occurs on this PDF page.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page1:text",
+            "doc_8df0e71d29d5470a:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "The cover shows a 2019 journal-cover date unrelated to the 2020 article publication and was not used as the article title or experimental evidence."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 2 upper title, abstract, author block, and placeholder ESI sentence",
+          "finding": "Verified the article title and that this is a DFT mechanism study. The accepted-manuscript ESI line is a placeholder and source_mapping.json leaves SI association unestablished; no SI fact was imported.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page2:text",
+            "doc_8df0e71d29d5470a:page2:image"
+          ]
+        },
+        {
+          "region": "page 2 center-right Scheme 1",
+          "finding": "Scheme 1 is a generic A3-coupling mechanism with competing beta-N-elimination/allene path a and protodemetalation/E-allylic-amine path b. Generic intermediates and cited amine classes were classified as mechanism, not current experiments.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page2:text",
+            "doc_8df0e71d29d5470a:page2:image"
+          ]
+        },
+        {
+          "region": "page 2 lower-right Scheme 2 top arrow",
+          "finding": "First cited deuterium-labeling experiment: 96%-displayed deuterated substrate, CuBr 60 mol%, CuCl 60 mol%, dioxane, 90 °C, 18 h, product-site labels 36/86/17%, and 32% NMR yield.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page2:text",
+            "doc_8df0e71d29d5470a:page2:image"
+          ]
+        },
+        {
+          "region": "page 2 lower-right Scheme 2 middle arrow",
+          "finding": "Second cited labeling experiment: CH3COOD 10.0 equiv, CuBr/CuCl each 60 mol%, dioxane, 90 °C, 10.5 h, product D label 52%, and 78% NMR yield.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page2:text",
+            "doc_8df0e71d29d5470a:page2:image"
+          ]
+        },
+        {
+          "region": "page 2 lower-right Scheme 2 bottom arrow",
+          "finding": "Third cited labeling experiment: 96%-displayed deuterated substrate plus CH3COOD 10.0 equiv, CuBr/CuCl each 60 mol%, dioxane, 90 °C, 18 h, product-site labels 50/93/81%, and 60% NMR yield.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page2:text",
+            "doc_8df0e71d29d5470a:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_8df0e71d29d5470a:scheme1_general_A3_competing_paths",
+        "doc_8df0e71d29d5470a:scheme2_eq1_deuterated_substrate",
+        "doc_8df0e71d29d5470a:scheme2_eq2_CH3COOD_labeling",
+        "doc_8df0e71d29d5470a:scheme2_eq3_deuterated_substrate_CH3COOD"
+      ],
+      "unresolved": [
+        "Scheme 2 compact isotope-resolved structures and atom numbering are not fully specified in text; labels and graphically displayed percentages are retained without asserted SMILES.",
+        "The three Scheme 2 arrows are prior experiments cited as reference 4, not newly performed experiments in this DFT paper.",
+        "The placeholder ESI statement does not establish a workspace SI association."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 3 upper-left continuation and Computational Methods",
+          "finding": "The prose identifies Scheme 2 as deuterium-labeling evidence from reference 4 and specifies the DFT levels, solvation model, and exact experimental benchmark compounds. Computational methods are not experimental reaction steps.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page3:text",
+            "doc_8df0e71d29d5470a:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 upper-right Scheme 3",
+          "finding": "Experimental benchmark: 2-methylbut-3-yn-2-ol, CyCHO, and 3-pyrroline with CuBr 20 mol% in toluene/4 Å molecular sieves at 40 °C for 24 h give E-allylic amine 4 in 88%; allene 5 is not observed. It is classified as a literature benchmark because the current article is theoretical.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page3:text",
+            "doc_8df0e71d29d5470a:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 Results and discussion plus Figure 1",
+          "finding": "Figure 1 is a computed free-energy profile from reactants through Int1–Int7 and TS1/TS2. Key barriers and the rate-determining 1,5-H transfer were recorded as mechanism facts, not experimental yields.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page3:text",
+            "doc_8df0e71d29d5470a:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_8df0e71d29d5470a:scheme3_experimental_benchmark",
+        "doc_8df0e71d29d5470a:figure1_computed_A3_and_15H_transfer"
+      ],
+      "unresolved": [
+        "Scheme 3 does not report scale, amounts, solvent volume, molecular-sieve amount, workup, purification, yield basis, or allene detection limit.",
+        "Computed intermediates are source labels and not independently observed structures."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 4 full text and lower Figure 2",
+          "finding": "Figure 2 compares computed cis/trans beta-N elimination with direct TS5/TS6 protodemetalation from Int7. The 24.9, 14.3, 14.2, and 13.5 kcal mol-1 barriers and product-release description are mechanistic calculations, not separate performed reactions.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page4:text",
+            "doc_8df0e71d29d5470a:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 right-column experimental comparison prose",
+          "finding": "The text says allylic amines are experimentally exclusive and allenes are not observed, then motivates assisted pathways. This supports the Scheme 3 benchmark and does not create a duplicate experiment.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page4:text",
+            "doc_8df0e71d29d5470a:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_8df0e71d29d5470a:figure2_competing_elimination_and_direct_protodemetalation",
+        "doc_8df0e71d29d5470a:scheme3_experimental_benchmark"
+      ],
+      "unresolved": [
+        "Figure 2 is entirely computational; none of its transition-state energies is an experimental reaction outcome."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 5 upper-left Figure 3 and accompanying prose",
+          "finding": "Computed one-water-assisted deprotonation/protodemetalation pathway: TS7 barrier 8.1 kcal mol-1 and TS8 almost barrierless in free energy. No experimental water dose or yield is reported.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page5:text",
+            "doc_8df0e71d29d5470a:page5:image"
+          ]
+        },
+        {
+          "region": "page 5 upper-right Figure 4 and accompanying prose",
+          "finding": "Computed (H2O)3-cluster pathway: deprotonation and intermolecular protodemetalation barriers 5.2 and 4.2 kcal mol-1. The three-water cluster is a model, not a reagent quantity from an experiment.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page5:text",
+            "doc_8df0e71d29d5470a:page5:image"
+          ]
+        },
+        {
+          "region": "page 5 lower-right Figure 5 and accompanying prose",
+          "finding": "Computed additional-3-pyrroline shuttle pathway: barrierless deprotonation and 2.3 kcal mol-1 TS11 protodemetalation. The additional pyrroline is a modeled assisting species without reported experimental equivalents.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page5:text",
+            "doc_8df0e71d29d5470a:page5:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_8df0e71d29d5470a:figure3_water_assisted_protodemetalation",
+        "doc_8df0e71d29d5470a:figure4_water_cluster_assisted_protodemetalation",
+        "doc_8df0e71d29d5470a:figure5_3pyrroline_assisted_protodemetalation"
+      ],
+      "unresolved": [
+        "All three page-5 figures are computed mechanisms; modeled assisting species have no experimental masses, volumes, equivalents, or yields."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 6 upper Figure 6 and left-column prose",
+          "finding": "Computed propargylic-alcohol-assisted pathway with 10.1 kcal mol-1 deprotonation and 1.8 kcal mol-1 protodemetalation barriers. Reactant 1 is modeled as a shuttle; no experimental shuttle loading is stated.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page6:text",
+            "doc_8df0e71d29d5470a:page6:image"
+          ]
+        },
+        {
+          "region": "page 6 left-center cited 1-octyne experimental comparison",
+          "finding": "A cited reference-4 control using 1-octyne under unstated standard conditions reports E-allylic amine at 20% NMR yield and propargylic amine at 70% NMR yield. Missing standard-condition details were not borrowed from another arrow, and reference-15 SI was not associated.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page6:text",
+            "doc_8df0e71d29d5470a:page6:image"
+          ]
+        },
+        {
+          "region": "page 6 lower-left Figure 7 and adjacent prose",
+          "finding": "Computed transition-state comparison: 27.7 kcal mol-1 for hydroxyl-containing TS2_1 versus 28.8 kcal mol-1 for 1-octyne TS15_1, with a displayed 2.51 Å O···H contact. This is not a second experiment.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page6:text",
+            "doc_8df0e71d29d5470a:page6:image"
+          ]
+        },
+        {
+          "region": "page 6 right-column Conclusions",
+          "finding": "Narrative synthesis of the computed pathways; it introduces no new experiment. The activation-energy summary table begins on the next PDF page and is not claimed as covered here.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page6:text",
+            "doc_8df0e71d29d5470a:page6:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_8df0e71d29d5470a:figure6_propargylic_alcohol_assisted_protodemetalation",
+        "doc_8df0e71d29d5470a:page6_cited_1octyne_control",
+        "doc_8df0e71d29d5470a:figure7_hydroxyl_effect_transition_state_comparison"
+      ],
+      "unresolved": [
+        "The cited 1-octyne standard conditions and NMR internal standard are not restated and were not inferred.",
+        "Reference 15 points to ESI for computed 1-octyne results, but SI association remains unestablished and no SI fact was imported.",
+        "The activation-energy summary table is on PDF page 7, outside this coverage ledger."
+      ]
+    }
+  ]
+}

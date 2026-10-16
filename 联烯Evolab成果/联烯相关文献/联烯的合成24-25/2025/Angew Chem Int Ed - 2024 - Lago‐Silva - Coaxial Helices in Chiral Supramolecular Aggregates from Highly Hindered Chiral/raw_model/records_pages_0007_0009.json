@@ -1,0 +1,736 @@
+[
+  {
+    "record_id": "doc_42a717d81b328a92:GFN2_xTB_P2_oligomer_cooperativity",
+    "document_id": "doc_42a717d81b328a92",
+    "source_reaction_id": "GFN2_xTB_P2_oligomer_cooperativity",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_42a717d81b328a92:page5:text",
+      "doc_42a717d81b328a92:page5:image",
+      "doc_42a717d81b328a92:page6:text",
+      "doc_42a717d81b328a92:page6:image",
+      "doc_42a717d81b328a92:page7:text",
+      "doc_42a717d81b328a92:page7:image",
+      "doc_42a717d81b328a92:page7:block7"
+    ],
+    "participants": [
+      {
+        "entity_id": "monomer_model",
+        "role": "reactant",
+        "label": {
+          "value": "methoxy-truncated model of (P)-2",
+          "evidence_ids": [
+            "doc_42a717d81b328a92:page5:text",
+            "doc_42a717d81b328a92:page5:image",
+            "doc_42a717d81b328a92:page6:text",
+            "doc_42a717d81b328a92:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound/state methoxy-truncated model of (P)-2",
+          "evidence_ids": [
+            "doc_42a717d81b328a92:page5:text",
+            "doc_42a717d81b328a92:page5:image",
+            "doc_42a717d81b328a92:page6:text",
+            "doc_42a717d81b328a92:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "oligomer_models",
+        "role": "product",
+        "label": {
+          "value": "optimized oligomer/16-mer models of (P)-2",
+          "evidence_ids": [
+            "doc_42a717d81b328a92:page5:text",
+            "doc_42a717d81b328a92:page5:image",
+            "doc_42a717d81b328a92:page6:text",
+            "doc_42a717d81b328a92:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound/state optimized oligomer/16-mer models of (P)-2",
+          "evidence_ids": [
+            "doc_42a717d81b328a92:page5:text",
+            "doc_42a717d81b328a92:page5:image",
+            "doc_42a717d81b328a92:page6:text",
+            "doc_42a717d81b328a92:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "truncate_side_chains",
+        "participant_ids": [
+          "monomer_model"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "replace dodecyloxy side chains by methoxy groups to reduce computational time",
+              "evidence_ids": [
+                "doc_42a717d81b328a92:page5:text",
+                "doc_42a717d81b328a92:page5:image",
+                "doc_42a717d81b328a92:page6:text",
+                "doc_42a717d81b328a92:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "operation"
+          }
+        ]
+      },
+      {
+        "step_id": "optimize_initial_oligomers",
+        "participant_ids": [
+          "monomer_model",
+          "oligomer_models"
+        ],
+        "conditions": [
+          {
+            "name": "computational_method",
+            "fact": {
+              "value": "GFN2-xTB",
+              "evidence_ids": [
+                "doc_42a717d81b328a92:page5:text",
+                "doc_42a717d81b328a92:page5:image",
+                "doc_42a717d81b328a92:page6:text",
+                "doc_42a717d81b328a92:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "oligomer_sizes",
+            "fact": {
+              "value": "n=2–8 plus monomer",
+              "evidence_ids": [
+                "doc_42a717d81b328a92:page5:text",
+                "doc_42a717d81b328a92:page5:image",
+                "doc_42a717d81b328a92:page6:text",
+                "doc_42a717d81b328a92:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "step_id": "optimize_16mer",
+        "participant_ids": [
+          "monomer_model",
+          "oligomer_models"
+        ],
+        "conditions": [
+          {
+            "name": "computational_method",
+            "fact": {
+              "value": "GFN2-xTB",
+              "evidence_ids": [
+                "doc_42a717d81b328a92:page6:text",
+                "doc_42a717d81b328a92:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "oligomer_size",
+            "fact": {
+              "value": "n=16",
+              "evidence_ids": [
+                "doc_42a717d81b328a92:page6:text",
+                "doc_42a717d81b328a92:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "step_id": "extract_and_single_point_oligomers",
+        "participant_ids": [
+          "oligomer_models"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "remove upper/lower terminal units to obtain n=12,10,8,6,4,2 oligomers and calculate single-point energies",
+              "evidence_ids": [
+                "doc_42a717d81b328a92:page6:text",
+                "doc_42a717d81b328a92:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "operation"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "lowest_energy_conformation",
+        "fact": {
+          "value": "extended ethylenediamide conformation forming an effective four-fold hydrogen-bond array",
+          "evidence_ids": [
+            "doc_42a717d81b328a92:page5:text",
+            "doc_42a717d81b328a92:page5:image",
+            "doc_42a717d81b328a92:page6:text",
+            "doc_42a717d81b328a92:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "oligomer_models"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "alternative_conformation_outcome",
+        "fact": {
+          "value": "seven-membered-pseudocycle conformers form stable dimers/trimers but develop structural defects that hinder growth into larger one-dimensional aggregates",
+          "evidence_ids": [
+            "doc_42a717d81b328a92:page5:text",
+            "doc_42a717d81b328a92:page5:image",
+            "doc_42a717d81b328a92:page6:text",
+            "doc_42a717d81b328a92:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "oligomer_models"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "binding_energy_trend",
+        "fact": {
+          "value": "binding energy per added molecular pair decays exponentially with oligomer size",
+          "evidence_ids": [
+            "doc_42a717d81b328a92:page6:text",
+            "doc_42a717d81b328a92:page6:image",
+            "doc_42a717d81b328a92:page7:text",
+            "doc_42a717d81b328a92:page7:image",
+            "doc_42a717d81b328a92:page7:block7"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "oligomer_models"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "cooperativity_interpretation",
+        "fact": {
+          "value": "computed trend supports cooperative supramolecular polymerization",
+          "evidence_ids": [
+            "doc_42a717d81b328a92:page6:text",
+            "doc_42a717d81b328a92:page6:image",
+            "doc_42a717d81b328a92:page7:text",
+            "doc_42a717d81b328a92:page7:image",
+            "doc_42a717d81b328a92:page7:block7"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "oligomer_models"
+        ],
+        "category": "other"
+      }
+    ],
+    "notes": [
+      {
+        "value": "This is a computational modeling series; modeled oligomers are not isolated chemical preparations.",
+        "evidence_ids": [
+          "doc_42a717d81b328a92:page5:text",
+          "doc_42a717d81b328a92:page5:image",
+          "doc_42a717d81b328a92:page6:text",
+          "doc_42a717d81b328a92:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Figure 6c visually completes this existing series with single-point binding energies for oligomers extracted from an optimized GFN2-xTB 16-mer; individual plotted energy values were not numerically transcribed because the article does not tabulate them on page 7.",
+        "evidence_ids": [
+          "doc_42a717d81b328a92:page7:text",
+          "doc_42a717d81b328a92:page7:image",
+          "doc_42a717d81b328a92:page7:block7"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association is unestablished; no SI-only procedure, spectrum, or synthesis detail was used or inferred.",
+        "The large dendritic chiral allenes and their aggregates remain source-labeled with null SMILES because safe complete stereochemical encoding from the compact drawings was uncertain; every structure remains structure_verified=false.",
+        "Full coordinates, convergence criteria, solvent model, exact individual plotted energies, terminal-removal details, and uncertainty are referred to unassociated SI or otherwise not printed in the main article.",
+        "Figure 6c plots individual binding-energy points but does not tabulate their exact numerical values; no coordinates were estimated from the graph."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_42a717d81b328a92:DFT_P2_structure_and_ECD_setup",
+    "document_id": "doc_42a717d81b328a92",
+    "source_reaction_id": "DFT_P2_structure_and_ECD_setup",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_42a717d81b328a92:page1:text",
+      "doc_42a717d81b328a92:page1:image",
+      "doc_42a717d81b328a92:page6:text",
+      "doc_42a717d81b328a92:page6:image",
+      "doc_42a717d81b328a92:page7:text",
+      "doc_42a717d81b328a92:page7:image",
+      "doc_42a717d81b328a92:page7:block5",
+      "doc_42a717d81b328a92:page7:block6"
+    ],
+    "participants": [
+      {
+        "entity_id": "p2_model",
+        "role": "reactant",
+        "label": {
+          "value": "methoxy-truncated (P)-2 monomer",
+          "evidence_ids": [
+            "doc_42a717d81b328a92:page1:text",
+            "doc_42a717d81b328a92:page1:image",
+            "doc_42a717d81b328a92:page6:text",
+            "doc_42a717d81b328a92:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound/state methoxy-truncated (P)-2 monomer",
+          "evidence_ids": [
+            "doc_42a717d81b328a92:page1:text",
+            "doc_42a717d81b328a92:page1:image",
+            "doc_42a717d81b328a92:page6:text",
+            "doc_42a717d81b328a92:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p2_oligomers",
+        "role": "product",
+        "label": {
+          "value": "DFT-refined (P)-2 dimer/trimer models",
+          "evidence_ids": [
+            "doc_42a717d81b328a92:page1:text",
+            "doc_42a717d81b328a92:page1:image",
+            "doc_42a717d81b328a92:page6:text",
+            "doc_42a717d81b328a92:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound/state DFT-refined (P)-2 dimer/trimer models",
+          "evidence_ids": [
+            "doc_42a717d81b328a92:page1:text",
+            "doc_42a717d81b328a92:page1:image",
+            "doc_42a717d81b328a92:page6:text",
+            "doc_42a717d81b328a92:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "p2_hexamer",
+        "role": "product",
+        "label": {
+          "value": "(P)-2 hexamer model built from the DFT trimer structural parameters",
+          "evidence_ids": [
+            "doc_42a717d81b328a92:page7:text",
+            "doc_42a717d81b328a92:page7:image",
+            "doc_42a717d81b328a92:page7:block6"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled computational state (P)-2 hexamer model built from the DFT trimer structural parameters",
+          "evidence_ids": [
+            "doc_42a717d81b328a92:page7:text",
+            "doc_42a717d81b328a92:page7:image",
+            "doc_42a717d81b328a92:page7:block6"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "DFT_geometry_optimization",
+        "participant_ids": [
+          "p2_model",
+          "p2_oligomers"
+        ],
+        "conditions": [
+          {
+            "name": "computational_method",
+            "fact": {
+              "value": "B3LYP/6-31G**",
+              "evidence_ids": [
+                "doc_42a717d81b328a92:page6:text",
+                "doc_42a717d81b328a92:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "modeled_sizes",
+            "fact": {
+              "value": "monomer, dimer, trimer",
+              "evidence_ids": [
+                "doc_42a717d81b328a92:page6:text",
+                "doc_42a717d81b328a92:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "step_id": "TD_DFT_ECD_calculation",
+        "participant_ids": [
+          "p2_model",
+          "p2_oligomers"
+        ],
+        "conditions": [
+          {
+            "name": "computational_method",
+            "fact": {
+              "value": "CAM-B3LYP/6-31G**",
+              "evidence_ids": [
+                "doc_42a717d81b328a92:page6:text",
+                "doc_42a717d81b328a92:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "modeled_sizes",
+            "fact": {
+              "value": "monomer and oligomers n=2–3",
+              "evidence_ids": [
+                "doc_42a717d81b328a92:page6:text",
+                "doc_42a717d81b328a92:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "step_id": "build_and_optimize_hexamer_from_trimer_parameters",
+        "participant_ids": [
+          "p2_oligomers",
+          "p2_hexamer"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "build a larger oligomer (hexamer, n=6) while maintaining the structural parameters of the trimer",
+              "evidence_ids": [
+                "doc_42a717d81b328a92:page7:text",
+                "doc_42a717d81b328a92:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "hexamer_size",
+            "fact": {
+              "value": "n=6",
+              "evidence_ids": [
+                "doc_42a717d81b328a92:page7:text",
+                "doc_42a717d81b328a92:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "geometry_optimization_method_from_prose",
+            "fact": {
+              "value": "GFN2-xTB",
+              "evidence_ids": [
+                "doc_42a717d81b328a92:page7:text",
+                "doc_42a717d81b328a92:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "figure_caption_method_wording",
+            "fact": {
+              "value": "hexamer optimized by sTDA-xTB",
+              "evidence_ids": [
+                "doc_42a717d81b328a92:page7:text",
+                "doc_42a717d81b328a92:page7:image",
+                "doc_42a717d81b328a92:page7:block6"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "sTDA_xTB_hexamer_ECD_calculation",
+        "participant_ids": [
+          "p2_hexamer"
+        ],
+        "conditions": [
+          {
+            "name": "computational_method",
+            "fact": {
+              "value": "sTDA-xTB",
+              "evidence_ids": [
+                "doc_42a717d81b328a92:page7:text",
+                "doc_42a717d81b328a92:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "modeled_size",
+            "fact": {
+              "value": "hexamer, n=6",
+              "evidence_ids": [
+                "doc_42a717d81b328a92:page7:text",
+                "doc_42a717d81b328a92:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "allene_stack_tilting_degree",
+        "fact": {
+          "value": "+23°",
+          "evidence_ids": [
+            "doc_42a717d81b328a92:page1:text",
+            "doc_42a717d81b328a92:page1:image",
+            "doc_42a717d81b328a92:page6:text",
+            "doc_42a717d81b328a92:page6:image",
+            "doc_42a717d81b328a92:page7:text",
+            "doc_42a717d81b328a92:page7:image",
+            "doc_42a717d81b328a92:page7:block5"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "p2_oligomers"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "internal_helix_orientation",
+        "fact": {
+          "value": "Pint",
+          "evidence_ids": [
+            "doc_42a717d81b328a92:page1:text",
+            "doc_42a717d81b328a92:page1:image",
+            "doc_42a717d81b328a92:page6:text",
+            "doc_42a717d81b328a92:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "p2_oligomers"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "external_four_helix_orientations",
+        "fact": {
+          "value": "P1/P2/P1'/P2'",
+          "evidence_ids": [
+            "doc_42a717d81b328a92:page1:text",
+            "doc_42a717d81b328a92:page1:image",
+            "doc_42a717d81b328a92:page6:text",
+            "doc_42a717d81b328a92:page6:image",
+            "doc_42a717d81b328a92:page7:text",
+            "doc_42a717d81b328a92:page7:image",
+            "doc_42a717d81b328a92:page7:block5"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "p2_oligomers"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "structural_observation",
+        "fact": {
+          "value": "the internal allene stack and all four external substituent motifs rotate in the P direction",
+          "evidence_ids": [
+            "doc_42a717d81b328a92:page6:text",
+            "doc_42a717d81b328a92:page6:image",
+            "doc_42a717d81b328a92:page7:text",
+            "doc_42a717d81b328a92:page7:image",
+            "doc_42a717d81b328a92:page7:block5"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "p2_oligomers"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "trimer_calculated_ECD_outcome",
+        "fact": {
+          "value": "the trimer does not reproduce the experimental aggregate ECD spectrum",
+          "evidence_ids": [
+            "doc_42a717d81b328a92:page7:text",
+            "doc_42a717d81b328a92:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "p2_oligomers"
+        ]
+      },
+      {
+        "name": "calculated_hexamer_ECD_pattern",
+        "fact": {
+          "value": "(+/−) bisignate trace matching the experimental ECD spectrum of (P)-2 in MCH",
+          "evidence_ids": [
+            "doc_42a717d81b328a92:page7:text",
+            "doc_42a717d81b328a92:page7:image",
+            "doc_42a717d81b328a92:page7:block6"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "p2_hexamer"
+        ]
+      },
+      {
+        "name": "first_positive_Cotton_band_assignment",
+        "fact": {
+          "value": "P helical orientation of the side chains containing ethylene-β-cyanostilbene derivatives",
+          "evidence_ids": [
+            "doc_42a717d81b328a92:page7:text",
+            "doc_42a717d81b328a92:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "p2_hexamer"
+        ]
+      },
+      {
+        "name": "external_four_helix_assignment_from_ECD_and_AFM",
+        "fact": {
+          "value": "the P-oriented ethylene-β-cyanostilbene side chains dictate the P orientation of the external four-helix",
+          "evidence_ids": [
+            "doc_42a717d81b328a92:page7:text",
+            "doc_42a717d81b328a92:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "p2_hexamer"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Page 7 completes the existing (P)-2 computational record: Figure 6a shows the +23° trimer geometry, and Figure 6b compares the experimental MCH ECD trace with the calculated hexamer trace. Computed agreement does not verify the machine structure.",
+        "evidence_ids": [
+          "doc_42a717d81b328a92:page7:text",
+          "doc_42a717d81b328a92:page7:image",
+          "doc_42a717d81b328a92:page7:block5",
+          "doc_42a717d81b328a92:page7:block6"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The main prose says the hexamer was built from trimer parameters and optimized by GFN2-xTB before sTDA-xTB ECD calculations, whereas the Figure 6 caption calls it a hexamer optimized by sTDA-xTB. Both source wordings are retained in the ordered steps without silently resolving the discrepancy.",
+        "evidence_ids": [
+          "doc_42a717d81b328a92:page7:text",
+          "doc_42a717d81b328a92:page7:image",
+          "doc_42a717d81b328a92:page7:block6"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association is unestablished; no SI-only procedure, spectrum, or synthesis detail was used or inferred.",
+        "The large dendritic chiral allenes and their aggregates remain source-labeled with null SMILES because safe complete stereochemical encoding from the compact drawings was uncertain; every structure remains structure_verified=false.",
+        "The (P)-2 tetramer was not calculated due to computational limitations; full settings, coordinates, spectral broadening/scaling, exact plotted ECD values, and uncertainty are unavailable in the main article or referred to unassociated SI.",
+        "Method-wording discrepancy: page-7 prose assigns hexamer geometry optimization to GFN2-xTB followed by sTDA-xTB ECD calculation, while the Figure 6 caption describes the hexamer as optimized by sTDA-xTB.",
+        "Figure 6b provides curves but no table of exact ECD intensities or peak coordinates; graph values were not estimated."
+      ]
+    }
+  }
+]

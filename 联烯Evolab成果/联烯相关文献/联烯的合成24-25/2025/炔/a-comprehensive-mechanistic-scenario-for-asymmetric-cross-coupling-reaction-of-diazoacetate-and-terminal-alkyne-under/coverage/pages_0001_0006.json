@@ -1,0 +1,274 @@
+{
+  "document_id": "doc_c86b4a8e06dde853",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 1 title, authors, abstract, graphical abstract, and article metadata",
+          "finding": "Verified the actual article title and classified the graphical abstract as a high-level summary of a computational comparison between copper-acetylide and copper-carbene mechanisms. It is not an experiment-specific reaction arrow.",
+          "evidence_ids": [
+            "doc_c86b4a8e06dde853:page1:text",
+            "doc_c86b4a8e06dde853:page1:image"
+          ]
+        },
+        {
+          "region": "page 1 lower-right Scheme 1",
+          "finding": "Classified coordination/nucleophilic attack and deprotonation to vinyl-metal or alkynyl-metal species as a generic activation-mode map, not a current-paper experiment.",
+          "evidence_ids": [
+            "doc_c86b4a8e06dde853:page1:text",
+            "doc_c86b4a8e06dde853:page1:image",
+            "doc_c86b4a8e06dde853:page1:block22"
+          ]
+        },
+        {
+          "region": "page 1 introduction and cited Sun et al. result",
+          "finding": "Linked the explicitly cited 87% yield, 97% ee, and >19:1 dr reaction to Scheme 2 on page 2 as one literature example. No separate current-paper experimental run was created.",
+          "evidence_ids": [
+            "doc_c86b4a8e06dde853:page1:text",
+            "doc_c86b4a8e06dde853:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_c86b4a8e06dde853:scheme1_terminal_alkyne_activation_modes",
+        "doc_c86b4a8e06dde853:scheme2_sun_cross_coupling_1a_2a",
+        "doc_c86b4a8e06dde853:copper_acetylide_mechanism_energy_profile",
+        "doc_c86b4a8e06dde853:copper_carbene_first_mechanism_energy_profile"
+      ],
+      "unresolved": [
+        "The graphical abstract is qualitative and does not supply experiment-specific charges or computational energies.",
+        "The publisher SI link does not establish workspace SI association."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 2 upper-left Scheme 2",
+          "finding": "Recorded the cited Sun et al. cross-coupling as a literature example: source-depicted 1a and 2a, Cu(tfacac)2/chiral Box ligand, DCM, 40 °C, product 3a, 87%, 97% ee, and >19:1 dr. Missing loadings/time were not inferred.",
+          "evidence_ids": [
+            "doc_c86b4a8e06dde853:page2:text",
+            "doc_c86b4a8e06dde853:page2:image",
+            "doc_c86b4a8e06dde853:page2:block5"
+          ]
+        },
+        {
+          "region": "page 2 upper-right Scheme 3",
+          "finding": "Classified the green copper-acetylide and red copper-carbene branches as two proposed mechanisms. Int-I through Int-IV are computed intermediates, not preparations.",
+          "evidence_ids": [
+            "doc_c86b4a8e06dde853:page2:text",
+            "doc_c86b4a8e06dde853:page2:image",
+            "doc_c86b4a8e06dde853:page2:block12"
+          ]
+        },
+        {
+          "region": "page 2 lower-left computational methods",
+          "finding": "Captured M06-L geometry optimization, mixed 6-31G(d,p)/SDD basis, IEF-PCM DCM, vibrational checks, and M06-L/def2-TZVP single-point refinement as computational conditions on mechanism/transition-state records.",
+          "evidence_ids": [
+            "doc_c86b4a8e06dde853:page2:text",
+            "doc_c86b4a8e06dde853:page2:image"
+          ]
+        },
+        {
+          "region": "page 2 lower-right copper-acetylide discussion",
+          "finding": "Recorded alkynation, carbenation/N2 loss, and insertion energy information. The prose barrier ordering for 6-ts-R/6-ts-S conflicts with Figure 1 and later text and is retained unresolved.",
+          "evidence_ids": [
+            "doc_c86b4a8e06dde853:page2:text",
+            "doc_c86b4a8e06dde853:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_c86b4a8e06dde853:scheme2_sun_cross_coupling_1a_2a",
+        "doc_c86b4a8e06dde853:copper_acetylide_mechanism_energy_profile",
+        "doc_c86b4a8e06dde853:copper_carbene_first_mechanism_energy_profile"
+      ],
+      "unresolved": [
+        "Page-2 prose assigns 27.6/31.6 kcal/mol to R/S in an order opposite Figure 1 and page-4 prose.",
+        "SI-only conformational/alternate-path data were not used."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 3 upper Figure 1 full copper-acetylide energy profile",
+          "finding": "Recorded every displayed stationary-point energy and the ordered alkynation, carbenation, insertion, aldol, and protonation sequence. R/S branches were kept distinct; Figure 1 supports 6-ts-S=27.6 and 6-ts-R=31.6 kcal/mol barriers relative to 5.",
+          "evidence_ids": [
+            "doc_c86b4a8e06dde853:page3:text",
+            "doc_c86b4a8e06dde853:page3:image",
+            "doc_c86b4a8e06dde853:page3:block4"
+          ]
+        },
+        {
+          "region": "page 3 lower-left stereochemical and aldol discussion",
+          "finding": "Recorded Re-to-R and Si-to-S mapping, 9-R/9-S energies, irreversibility statement, and 4.1 kcal/mol local aldol barrier. The later 6.4 kcal/mol summary is retained as a conflict.",
+          "evidence_ids": [
+            "doc_c86b4a8e06dde853:page3:text",
+            "doc_c86b4a8e06dde853:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 lower-right Scheme 4",
+          "finding": "Recorded the alternate Cu-I→12→13-ts→14→15-ts-S→7-S pathway with all displayed relative energies and its 44.8 kcal/mol overall barrier.",
+          "evidence_ids": [
+            "doc_c86b4a8e06dde853:page3:text",
+            "doc_c86b4a8e06dde853:page3:image",
+            "doc_c86b4a8e06dde853:page3:block11"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_c86b4a8e06dde853:copper_acetylide_mechanism_energy_profile",
+        "doc_c86b4a8e06dde853:copper_carbene_first_mechanism_energy_profile"
+      ],
+      "unresolved": [
+        "Aldol barrier is 4.1 kcal/mol in Figure 1/local prose but 6.4 kcal/mol in the later summary.",
+        "The paper references R and SR profiles in unassociated SI; they are not claimed as covered."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 4 upper-left pathway comparison and local reactivity discussion",
+          "finding": "Recorded the preferred 27.6 versus disfavored 44.8 kcal/mol overall barriers and the source's mechanistic interpretation. Local-reactivity values 0.51 and 0.14 are mentioned from SI Table S1 but were not imported as table evidence because SI is unassociated.",
+          "evidence_ids": [
+            "doc_c86b4a8e06dde853:page4:text",
+            "doc_c86b4a8e06dde853:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 middle-left Table 1",
+          "finding": "Recorded the two ASM rows independently: 6-ts-R and 6-ts-S activation, fragment distortion, and interaction energies.",
+          "evidence_ids": [
+            "doc_c86b4a8e06dde853:page4:text",
+            "doc_c86b4a8e06dde853:page4:image",
+            "doc_c86b4a8e06dde853:page4:block8"
+          ]
+        },
+        {
+          "region": "page 4 right-column AIM/NCI and stereoselectivity discussion",
+          "finding": "Linked the reported C-H···pi/C-H···O/LP···pi contact patterns to the corresponding 6-ts-R or 6-ts-S analysis records and retained the lower-S-path interpretation.",
+          "evidence_ids": [
+            "doc_c86b4a8e06dde853:page4:text",
+            "doc_c86b4a8e06dde853:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 lower-right ligand-effects introduction",
+          "finding": "Linked five named ligand comparisons to Table 2 on page 5. Ligand structures are only referred to unassociated SI Figure S4 and remain label-only.",
+          "evidence_ids": [
+            "doc_c86b4a8e06dde853:page4:text",
+            "doc_c86b4a8e06dde853:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_c86b4a8e06dde853:copper_acetylide_mechanism_energy_profile",
+        "doc_c86b4a8e06dde853:copper_carbene_first_mechanism_energy_profile",
+        "doc_c86b4a8e06dde853:table1_figure2_transition_state_6_ts_R",
+        "doc_c86b4a8e06dde853:table1_figure2_transition_state_6_ts_S",
+        "doc_c86b4a8e06dde853:table2_ligand_effect_ligand_1",
+        "doc_c86b4a8e06dde853:table2_ligand_effect_ligand_2",
+        "doc_c86b4a8e06dde853:table2_ligand_effect_ligand_3",
+        "doc_c86b4a8e06dde853:table2_ligand_effect_ligand_4",
+        "doc_c86b4a8e06dde853:table2_ligand_effect_ligand_5"
+      ],
+      "unresolved": [
+        "The statement that generation of 9-S is less favorable conflicts with the displayed lower S-path barrier.",
+        "Ligand structures and local-reactivity Table S1 are in unassociated SI and were not inferred."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 5 upper Figure 2 panels A and B",
+          "finding": "Visually read and recorded all six labeled AIM/NCI contacts for 6-ts-R and all eight for 6-ts-S, including distances and Laplacian-density values. These enrich the matching Table 1 transition-state rows rather than creating duplicate computations.",
+          "evidence_ids": [
+            "doc_c86b4a8e06dde853:page5:text",
+            "doc_c86b4a8e06dde853:page5:image",
+            "doc_c86b4a8e06dde853:page5:block4",
+            "doc_c86b4a8e06dde853:page5:block5"
+          ]
+        },
+        {
+          "region": "page 5 middle-left Table 2",
+          "finding": "Recorded all five ligand rows independently with printed ΔΔG‡, calculated ee, and experimental ee. Each is classified as a computational ligand-effect comparison, not a new synthetic experiment of this article.",
+          "evidence_ids": [
+            "doc_c86b4a8e06dde853:page5:text",
+            "doc_c86b4a8e06dde853:page5:image",
+            "doc_c86b4a8e06dde853:page5:block8",
+            "doc_c86b4a8e06dde853:page5:block9"
+          ]
+        },
+        {
+          "region": "page 5 conclusion",
+          "finding": "The conclusion restates the two computed pathways, the five-step preferred mechanism, 27.6/44.8 kcal/mol barriers, and ligand/NCI interpretation; no new reaction record is introduced.",
+          "evidence_ids": [
+            "doc_c86b4a8e06dde853:page5:text",
+            "doc_c86b4a8e06dde853:page5:image"
+          ]
+        },
+        {
+          "region": "page 5 Associated Content and Supporting Information statement",
+          "finding": "The paper lists online SI contents, but workspace SI association is unestablished. No Figure S1-S4, Table S1-S2, Cartesian coordinate, or SI-only result was imported.",
+          "evidence_ids": [
+            "doc_c86b4a8e06dde853:page5:text",
+            "doc_c86b4a8e06dde853:page5:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_c86b4a8e06dde853:copper_acetylide_mechanism_energy_profile",
+        "doc_c86b4a8e06dde853:copper_carbene_first_mechanism_energy_profile",
+        "doc_c86b4a8e06dde853:table1_figure2_transition_state_6_ts_R",
+        "doc_c86b4a8e06dde853:table1_figure2_transition_state_6_ts_S",
+        "doc_c86b4a8e06dde853:table2_ligand_effect_ligand_1",
+        "doc_c86b4a8e06dde853:table2_ligand_effect_ligand_2",
+        "doc_c86b4a8e06dde853:table2_ligand_effect_ligand_3",
+        "doc_c86b4a8e06dde853:table2_ligand_effect_ligand_4",
+        "doc_c86b4a8e06dde853:table2_ligand_effect_ligand_5"
+      ],
+      "unresolved": [
+        "The experimental conditions and measurement bases behind Table 2's exptl ee column are not printed in the covered pages.",
+        "The online SI statement does not establish association."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 6 left column author information, notes, acknowledgments, and references 1-10",
+          "finding": "Administrative/funding material and bibliography only; no current-paper reaction arrow, computational table, procedure, condition, or outcome occurs.",
+          "evidence_ids": [
+            "doc_c86b4a8e06dde853:page6:text",
+            "doc_c86b4a8e06dde853:page6:image"
+          ]
+        },
+        {
+          "region": "page 6 right column references 11-29",
+          "finding": "Bibliography/prior literature only. External cited experiments were not expanded into current-paper records.",
+          "evidence_ids": [
+            "doc_c86b4a8e06dde853:page6:text",
+            "doc_c86b4a8e06dde853:page6:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "No current-paper experiment or computational record enrichment occurs on page 6.",
+        "Referenced external work was not re-extracted as experiments of this article."
+      ]
+    }
+  ]
+}

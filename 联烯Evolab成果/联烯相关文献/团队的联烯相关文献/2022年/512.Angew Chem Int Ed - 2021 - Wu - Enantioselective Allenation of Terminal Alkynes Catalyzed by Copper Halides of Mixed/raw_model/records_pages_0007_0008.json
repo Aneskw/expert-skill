@@ -1,0 +1,4298 @@
+[
+  {
+    "record_id": "doc_90e2a3dc40c8e199:figure6_DFT_5cl_pathway",
+    "document_id": "doc_90e2a3dc40c8e199",
+    "source_reaction_id": "figure6_DFT_5cl_pathway",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_90e2a3dc40c8e199:page6:text",
+      "doc_90e2a3dc40c8e199:page6:image",
+      "doc_90e2a3dc40c8e199:page7:text",
+      "doc_90e2a3dc40c8e199:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "int6",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "(S,S)-5cl-CuBr2 complex Int6",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page6:text",
+            "doc_90e2a3dc40c8e199:page6:image",
+            "doc_90e2a3dc40c8e199:page7:text",
+            "doc_90e2a3dc40c8e199:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "int8",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "iminium intermediate Int8",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page6:text",
+            "doc_90e2a3dc40c8e199:page6:image",
+            "doc_90e2a3dc40c8e199:page7:text",
+            "doc_90e2a3dc40c8e199:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_Ra",
+        "role": "product",
+        "label": {
+          "value": "(Ra)-4cl",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page6:text",
+            "doc_90e2a3dc40c8e199:page6:image",
+            "doc_90e2a3dc40c8e199:page7:text",
+            "doc_90e2a3dc40c8e199:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_Sa",
+        "role": "product",
+        "label": {
+          "value": "(Sa)-4cl",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page6:text",
+            "doc_90e2a3dc40c8e199:page6:image",
+            "doc_90e2a3dc40c8e199:page7:text",
+            "doc_90e2a3dc40c8e199:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [],
+    "outcomes": [
+      {
+        "name": "reverse_1_5_H_transfer_barrier",
+        "fact": {
+          "value": "16.7 kcal mol−1",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page6:text",
+            "doc_90e2a3dc40c8e199:page6:image",
+            "doc_90e2a3dc40c8e199:page7:text",
+            "doc_90e2a3dc40c8e199:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "category": "other"
+      },
+      {
+        "name": "trans_beta_N_elimination_barrier",
+        "fact": {
+          "value": "16.0 kcal mol−1",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page6:text",
+            "doc_90e2a3dc40c8e199:page6:image",
+            "doc_90e2a3dc40c8e199:page7:text",
+            "doc_90e2a3dc40c8e199:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_Ra"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "int8_relative_free_energy",
+        "fact": {
+          "value": "3.0 kcal mol−1 higher than Int6",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page7:text",
+            "doc_90e2a3dc40c8e199:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "1_5_H_transfer_reversibility_interpretation",
+        "fact": {
+          "value": "reversible",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page7:text",
+            "doc_90e2a3dc40c8e199:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "competing_processes_interpretation",
+        "fact": {
+          "value": "trans beta-N-elimination (16.0 kcal mol−1) and reverse 1,5-H transfer (16.7 kcal mol−1) are both possible",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page7:text",
+            "doc_90e2a3dc40c8e199:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_Ra"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Figure 6 is a computed free-energy profile for the (S,S)-5cl pathway; it is not an additional experimental run.",
+        "evidence_ids": [
+          "doc_90e2a3dc40c8e199:page6:text",
+          "doc_90e2a3dc40c8e199:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Page 7 completes the Figure 6 discussion: Int8 is endothermic by 3.0 kcal mol−1 relative to Int6, so the 1,5-H transfer is interpreted as reversible; the authors use the near-equal competing barriers to rationalize the experimental 33% recovery of (S,S)-5cl.",
+        "evidence_ids": [
+          "doc_90e2a3dc40c8e199:page7:text",
+          "doc_90e2a3dc40c8e199:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Candidate structures remain structure_verified=false; parsing, visual inspection, DFT, and reproduction acknowledgments do not establish chemical correctness.",
+        "Figure S4 and computational-method details are cited to unassociated Supporting Information and were not imported.",
+        "The DFT profile rationalizes the experimental outcome but does not constitute an independent reaction experiment."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_90e2a3dc40c8e199:figure3B_a_initial",
+    "document_id": "doc_90e2a3dc40c8e199",
+    "source_reaction_id": "figure3B_a_initial",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_90e2a3dc40c8e199:page3:text",
+      "doc_90e2a3dc40c8e199:page3:image",
+      "doc_90e2a3dc40c8e199:page4:text",
+      "doc_90e2a3dc40c8e199:page4:image",
+      "doc_90e2a3dc40c8e199:page7:text",
+      "doc_90e2a3dc40c8e199:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "alkynal",
+        "role": "reactant",
+        "label": {
+          "value": "1c",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled 2-alkynal 1c",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.2,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "alkyne",
+        "role": "reactant",
+        "label": {
+          "value": "2l",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled terminal alkyne 2l",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "prolinol",
+        "role": "reagent",
+        "label": {
+          "value": "(S)-3",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "(S)-3 alpha,alpha-diphenylprolinol",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.2,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image",
+                "doc_90e2a3dc40c8e199:page4:text",
+                "doc_90e2a3dc40c8e199:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "catalyst",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Br[Cu]Br",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 30,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image",
+                "doc_90e2a3dc40c8e199:page4:text",
+                "doc_90e2a3dc40c8e199:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "cucl",
+        "role": "catalyst",
+        "label": {
+          "value": "CuCl",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(I) chloride",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cl[Cu]",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image",
+                "doc_90e2a3dc40c8e199:page4:text",
+                "doc_90e2a3dc40c8e199:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "dioxane",
+        "role": "solvent",
+        "label": {
+          "value": "1,4-dioxane",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,4-dioxane",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O1CCOCC1",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "intermediate",
+        "role": "product",
+        "label": {
+          "value": "(S,S)-5cl",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled 1,4-diyn-3-yl amine (S,S)-5cl",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "(Ra)-4cl [=(Ra)-6ba]",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image",
+            "doc_90e2a3dc40c8e199:page7:text",
+            "doc_90e2a3dc40c8e199:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled expected allene (Ra)-4cl [=(Ra)-6ba]",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image",
+            "doc_90e2a3dc40c8e199:page7:text",
+            "doc_90e2a3dc40c8e199:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "standard_EATA_regioselectivity_test",
+        "participant_ids": [
+          "alkynal",
+          "alkyne",
+          "prolinol",
+          "cubr2",
+          "cucl",
+          "dioxane"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 80,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "Ar",
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "atmosphere"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield_intermediate",
+        "fact": {
+          "value": {
+            "number": 30,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "intermediate"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "intermediate_diastereomeric_ratio",
+        "fact": {
+          "value": ">20:1",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "intermediate"
+        ],
+        "category": "selectivity"
+      },
+      {
+        "name": "expected_allene_observation",
+        "fact": {
+          "value": "not observed",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image",
+            "doc_90e2a3dc40c8e199:page7:text",
+            "doc_90e2a3dc40c8e199:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "other"
+      }
+    ],
+    "notes": [
+      {
+        "value": "The initial arrow and subsequent isolated-intermediate re-treatment are independent experiments and are not merged.",
+        "evidence_ids": [
+          "doc_90e2a3dc40c8e199:page3:text",
+          "doc_90e2a3dc40c8e199:page3:image",
+          "doc_90e2a3dc40c8e199:page4:text",
+          "doc_90e2a3dc40c8e199:page4:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Page 7 reiterates that silyl-substituted allenyne 4cl was not observed in the Figure 3B(a–c) experiments. The authors suggest decomposition or conversion to unknown species as the most probable explanation; this explanation is a hypothesis, not an identified product.",
+        "evidence_ids": [
+          "doc_90e2a3dc40c8e199:page7:text",
+          "doc_90e2a3dc40c8e199:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Candidate structures remain structure_verified=false; parsing, visual inspection, DFT, and reproduction acknowledgments do not establish chemical correctness.",
+        "Yield measurement bases, absolute scale, workup, purification, and masses are not reported.",
+        "The fate of expected silyl-substituted allenyne 4cl is unknown; decomposition/transformation is proposed but no species is identified."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_90e2a3dc40c8e199:figure3B_a_intermediate_retreatment",
+    "document_id": "doc_90e2a3dc40c8e199",
+    "source_reaction_id": "figure3B_a_intermediate_retreatment",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_90e2a3dc40c8e199:page3:text",
+      "doc_90e2a3dc40c8e199:page3:image",
+      "doc_90e2a3dc40c8e199:page4:text",
+      "doc_90e2a3dc40c8e199:page4:image",
+      "doc_90e2a3dc40c8e199:page7:text",
+      "doc_90e2a3dc40c8e199:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "intermediate",
+        "role": "reactant",
+        "label": {
+          "value": "(S,S)-5cl",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "isolated 1,4-diyn-3-yl amine (S,S)-5cl",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "catalyst",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Br[Cu]Br",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 30,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "cucl",
+        "role": "catalyst",
+        "label": {
+          "value": "CuCl",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(I) chloride",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cl[Cu]",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "dioxane",
+        "role": "solvent",
+        "label": {
+          "value": "1,4-dioxane",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,4-dioxane",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O1CCOCC1",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "(Ra)-4cl [=(Ra)-6ba]",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image",
+            "doc_90e2a3dc40c8e199:page7:text",
+            "doc_90e2a3dc40c8e199:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled allene (Ra)-4cl [=(Ra)-6ba]",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image",
+            "doc_90e2a3dc40c8e199:page7:text",
+            "doc_90e2a3dc40c8e199:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "standard_condition_intermediate_retreatment",
+        "participant_ids": [
+          "intermediate",
+          "cubr2",
+          "cucl",
+          "dioxane"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 80,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "Ar",
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "atmosphere"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "expected_allene_observation",
+        "fact": {
+          "value": "not formed",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image",
+            "doc_90e2a3dc40c8e199:page7:text",
+            "doc_90e2a3dc40c8e199:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "recovered_starting_material_yield",
+        "fact": {
+          "value": {
+            "number": 33,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image",
+            "doc_90e2a3dc40c8e199:page7:text",
+            "doc_90e2a3dc40c8e199:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "intermediate"
+        ],
+        "category": "recovery"
+      },
+      {
+        "name": "diastereomeric_ratio",
+        "fact": {
+          "value": ">20:1",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "intermediate"
+        ],
+        "category": "selectivity"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Page 7 reiterates that silyl-substituted allenyne 4cl was not observed in the Figure 3B(a–c) experiments. The authors suggest decomposition or conversion to unknown species as the most probable explanation; this explanation is a hypothesis, not an identified product.",
+        "evidence_ids": [
+          "doc_90e2a3dc40c8e199:page7:text",
+          "doc_90e2a3dc40c8e199:page7:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The page-7 prose explicitly identifies the 33% value as recovery of (S,S)-5cl and relates it to the reversible computed 1,5-H-transfer pathway.",
+        "evidence_ids": [
+          "doc_90e2a3dc40c8e199:page7:text",
+          "doc_90e2a3dc40c8e199:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Candidate structures remain structure_verified=false; parsing, visual inspection, DFT, and reproduction acknowledgments do not establish chemical correctness.",
+        "Absolute scale, yield/recovery measurement bases, workup, purification, and masses are not reported.",
+        "The fate of expected silyl-substituted allenyne 4cl is unknown; decomposition/transformation is proposed but no species is identified."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_90e2a3dc40c8e199:figure3B_b_initial",
+    "document_id": "doc_90e2a3dc40c8e199",
+    "source_reaction_id": "figure3B_b_initial",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_90e2a3dc40c8e199:page3:text",
+      "doc_90e2a3dc40c8e199:page3:image",
+      "doc_90e2a3dc40c8e199:page4:text",
+      "doc_90e2a3dc40c8e199:page4:image",
+      "doc_90e2a3dc40c8e199:page7:text",
+      "doc_90e2a3dc40c8e199:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "alkynal",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled 2-alkynal 1a",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.2,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "alkyne",
+        "role": "reactant",
+        "label": {
+          "value": "2l",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled terminal alkyne 2l",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "prolinol",
+        "role": "reagent",
+        "label": {
+          "value": "(S)-3",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "(S)-3 alpha,alpha-diphenylprolinol",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.2,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image",
+                "doc_90e2a3dc40c8e199:page4:text",
+                "doc_90e2a3dc40c8e199:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "catalyst",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Br[Cu]Br",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 30,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image",
+                "doc_90e2a3dc40c8e199:page4:text",
+                "doc_90e2a3dc40c8e199:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "cucl",
+        "role": "catalyst",
+        "label": {
+          "value": "CuCl",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(I) chloride",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cl[Cu]",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image",
+                "doc_90e2a3dc40c8e199:page4:text",
+                "doc_90e2a3dc40c8e199:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "dioxane",
+        "role": "solvent",
+        "label": {
+          "value": "1,4-dioxane",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,4-dioxane",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O1CCOCC1",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "intermediate",
+        "role": "product",
+        "label": {
+          "value": "(R,S)-5al",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled 1,4-diyn-3-yl amine (R,S)-5al",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "(Ra)-4al",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image",
+            "doc_90e2a3dc40c8e199:page7:text",
+            "doc_90e2a3dc40c8e199:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled expected allene (Ra)-4al",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image",
+            "doc_90e2a3dc40c8e199:page7:text",
+            "doc_90e2a3dc40c8e199:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "standard_EATA_regioselectivity_test",
+        "participant_ids": [
+          "alkynal",
+          "alkyne",
+          "prolinol",
+          "cubr2",
+          "cucl",
+          "dioxane"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 80,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "Ar",
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "atmosphere"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield_intermediate",
+        "fact": {
+          "value": {
+            "number": 43,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "intermediate"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "intermediate_diastereomeric_ratio",
+        "fact": {
+          "value": ">20:1",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "intermediate"
+        ],
+        "category": "selectivity"
+      },
+      {
+        "name": "expected_allene_observation",
+        "fact": {
+          "value": "not observed",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image",
+            "doc_90e2a3dc40c8e199:page7:text",
+            "doc_90e2a3dc40c8e199:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "other"
+      }
+    ],
+    "notes": [
+      {
+        "value": "The initial arrow and subsequent isolated-intermediate re-treatment are independent experiments and are not merged.",
+        "evidence_ids": [
+          "doc_90e2a3dc40c8e199:page3:text",
+          "doc_90e2a3dc40c8e199:page3:image",
+          "doc_90e2a3dc40c8e199:page4:text",
+          "doc_90e2a3dc40c8e199:page4:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Page 7 reiterates that silyl-substituted allenyne 4al was not observed in the Figure 3B(a–c) experiments. The authors suggest decomposition or conversion to unknown species as the most probable explanation; this explanation is a hypothesis, not an identified product.",
+        "evidence_ids": [
+          "doc_90e2a3dc40c8e199:page7:text",
+          "doc_90e2a3dc40c8e199:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Candidate structures remain structure_verified=false; parsing, visual inspection, DFT, and reproduction acknowledgments do not establish chemical correctness.",
+        "Yield measurement bases, absolute scale, workup, purification, and masses are not reported.",
+        "The fate of expected silyl-substituted allenyne 4al is unknown; decomposition/transformation is proposed but no species is identified."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_90e2a3dc40c8e199:figure3B_b_intermediate_retreatment",
+    "document_id": "doc_90e2a3dc40c8e199",
+    "source_reaction_id": "figure3B_b_intermediate_retreatment",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_90e2a3dc40c8e199:page3:text",
+      "doc_90e2a3dc40c8e199:page3:image",
+      "doc_90e2a3dc40c8e199:page4:text",
+      "doc_90e2a3dc40c8e199:page4:image",
+      "doc_90e2a3dc40c8e199:page7:text",
+      "doc_90e2a3dc40c8e199:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "intermediate",
+        "role": "reactant",
+        "label": {
+          "value": "(R,S)-5al",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "isolated 1,4-diyn-3-yl amine (R,S)-5al",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "catalyst",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Br[Cu]Br",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 30,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "cucl",
+        "role": "catalyst",
+        "label": {
+          "value": "CuCl",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(I) chloride",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cl[Cu]",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "dioxane",
+        "role": "solvent",
+        "label": {
+          "value": "1,4-dioxane",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,4-dioxane",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O1CCOCC1",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "(Ra)-4al",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image",
+            "doc_90e2a3dc40c8e199:page7:text",
+            "doc_90e2a3dc40c8e199:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled allene (Ra)-4al",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image",
+            "doc_90e2a3dc40c8e199:page7:text",
+            "doc_90e2a3dc40c8e199:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "standard_condition_intermediate_retreatment",
+        "participant_ids": [
+          "intermediate",
+          "cubr2",
+          "cucl",
+          "dioxane"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 80,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "Ar",
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "atmosphere"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "expected_allene_observation",
+        "fact": {
+          "value": "not formed",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image",
+            "doc_90e2a3dc40c8e199:page7:text",
+            "doc_90e2a3dc40c8e199:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "recovered_starting_material_yield",
+        "fact": {
+          "value": {
+            "number": 33,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "intermediate"
+        ],
+        "category": "recovery"
+      },
+      {
+        "name": "diastereomeric_ratio",
+        "fact": {
+          "value": ">20:1",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "intermediate"
+        ],
+        "category": "selectivity"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Page 7 reiterates that silyl-substituted allenyne 4al was not observed in the Figure 3B(a–c) experiments. The authors suggest decomposition or conversion to unknown species as the most probable explanation; this explanation is a hypothesis, not an identified product.",
+        "evidence_ids": [
+          "doc_90e2a3dc40c8e199:page7:text",
+          "doc_90e2a3dc40c8e199:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Candidate structures remain structure_verified=false; parsing, visual inspection, DFT, and reproduction acknowledgments do not establish chemical correctness.",
+        "Absolute scale, yield/recovery measurement bases, workup, purification, and masses are not reported.",
+        "The fate of expected silyl-substituted allenyne 4al is unknown; decomposition/transformation is proposed but no species is identified."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_90e2a3dc40c8e199:figure3B_c_initial",
+    "document_id": "doc_90e2a3dc40c8e199",
+    "source_reaction_id": "figure3B_c_initial",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_90e2a3dc40c8e199:page3:text",
+      "doc_90e2a3dc40c8e199:page3:image",
+      "doc_90e2a3dc40c8e199:page4:text",
+      "doc_90e2a3dc40c8e199:page4:image",
+      "doc_90e2a3dc40c8e199:page7:text",
+      "doc_90e2a3dc40c8e199:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "alkynal",
+        "role": "reactant",
+        "label": {
+          "value": "1b",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled 2-alkynal 1b",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.2,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "alkyne",
+        "role": "reactant",
+        "label": {
+          "value": "2m",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled terminal alkyne 2m",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "prolinol",
+        "role": "reagent",
+        "label": {
+          "value": "(S)-3",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "(S)-3 alpha,alpha-diphenylprolinol",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.2,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image",
+                "doc_90e2a3dc40c8e199:page4:text",
+                "doc_90e2a3dc40c8e199:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "catalyst",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Br[Cu]Br",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 30,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image",
+                "doc_90e2a3dc40c8e199:page4:text",
+                "doc_90e2a3dc40c8e199:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "cucl",
+        "role": "catalyst",
+        "label": {
+          "value": "CuCl",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(I) chloride",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cl[Cu]",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image",
+                "doc_90e2a3dc40c8e199:page4:text",
+                "doc_90e2a3dc40c8e199:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "dioxane",
+        "role": "solvent",
+        "label": {
+          "value": "1,4-dioxane",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,4-dioxane",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O1CCOCC1",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "intermediate",
+        "role": "product",
+        "label": {
+          "value": "(S,S)-5bm",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled 1,4-diyn-3-yl amine (S,S)-5bm",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "(Ra)-4bm",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image",
+            "doc_90e2a3dc40c8e199:page7:text",
+            "doc_90e2a3dc40c8e199:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled expected allene (Ra)-4bm",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image",
+            "doc_90e2a3dc40c8e199:page7:text",
+            "doc_90e2a3dc40c8e199:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "standard_EATA_regioselectivity_test",
+        "participant_ids": [
+          "alkynal",
+          "alkyne",
+          "prolinol",
+          "cubr2",
+          "cucl",
+          "dioxane"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 80,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "Ar",
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "atmosphere"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield_intermediate",
+        "fact": {
+          "value": {
+            "number": 39,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "intermediate"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "intermediate_diastereomeric_ratio",
+        "fact": {
+          "value": ">20:1",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "intermediate"
+        ],
+        "category": "selectivity"
+      },
+      {
+        "name": "expected_allene_observation",
+        "fact": {
+          "value": "not observed",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image",
+            "doc_90e2a3dc40c8e199:page7:text",
+            "doc_90e2a3dc40c8e199:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "other"
+      }
+    ],
+    "notes": [
+      {
+        "value": "The initial arrow and subsequent isolated-intermediate re-treatment are independent experiments and are not merged.",
+        "evidence_ids": [
+          "doc_90e2a3dc40c8e199:page3:text",
+          "doc_90e2a3dc40c8e199:page3:image",
+          "doc_90e2a3dc40c8e199:page4:text",
+          "doc_90e2a3dc40c8e199:page4:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Page 7 reiterates that silyl-substituted allenyne 4bm was not observed in the Figure 3B(a–c) experiments. The authors suggest decomposition or conversion to unknown species as the most probable explanation; this explanation is a hypothesis, not an identified product.",
+        "evidence_ids": [
+          "doc_90e2a3dc40c8e199:page7:text",
+          "doc_90e2a3dc40c8e199:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Candidate structures remain structure_verified=false; parsing, visual inspection, DFT, and reproduction acknowledgments do not establish chemical correctness.",
+        "Yield measurement bases, absolute scale, workup, purification, and masses are not reported.",
+        "The fate of expected silyl-substituted allenyne 4bm is unknown; decomposition/transformation is proposed but no species is identified."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_90e2a3dc40c8e199:figure3B_c_intermediate_retreatment",
+    "document_id": "doc_90e2a3dc40c8e199",
+    "source_reaction_id": "figure3B_c_intermediate_retreatment",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_90e2a3dc40c8e199:page3:text",
+      "doc_90e2a3dc40c8e199:page3:image",
+      "doc_90e2a3dc40c8e199:page4:text",
+      "doc_90e2a3dc40c8e199:page4:image",
+      "doc_90e2a3dc40c8e199:page7:text",
+      "doc_90e2a3dc40c8e199:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "intermediate",
+        "role": "reactant",
+        "label": {
+          "value": "(S,S)-5bm",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "isolated 1,4-diyn-3-yl amine (S,S)-5bm",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "catalyst",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Br[Cu]Br",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 30,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "cucl",
+        "role": "catalyst",
+        "label": {
+          "value": "CuCl",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(I) chloride",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cl[Cu]",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "dioxane",
+        "role": "solvent",
+        "label": {
+          "value": "1,4-dioxane",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,4-dioxane",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O1CCOCC1",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "(Ra)-4bm",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image",
+            "doc_90e2a3dc40c8e199:page7:text",
+            "doc_90e2a3dc40c8e199:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled allene (Ra)-4bm",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image",
+            "doc_90e2a3dc40c8e199:page7:text",
+            "doc_90e2a3dc40c8e199:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "standard_condition_intermediate_retreatment",
+        "participant_ids": [
+          "intermediate",
+          "cubr2",
+          "cucl",
+          "dioxane"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 80,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "Ar",
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "atmosphere"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "expected_allene_observation",
+        "fact": {
+          "value": "not formed",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image",
+            "doc_90e2a3dc40c8e199:page7:text",
+            "doc_90e2a3dc40c8e199:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "recovered_starting_material_yield",
+        "fact": {
+          "value": {
+            "number": 41,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "intermediate"
+        ],
+        "category": "recovery"
+      },
+      {
+        "name": "diastereomeric_ratio",
+        "fact": {
+          "value": ">20:1",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image",
+            "doc_90e2a3dc40c8e199:page4:text",
+            "doc_90e2a3dc40c8e199:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "intermediate"
+        ],
+        "category": "selectivity"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Page 7 reiterates that silyl-substituted allenyne 4bm was not observed in the Figure 3B(a–c) experiments. The authors suggest decomposition or conversion to unknown species as the most probable explanation; this explanation is a hypothesis, not an identified product.",
+        "evidence_ids": [
+          "doc_90e2a3dc40c8e199:page7:text",
+          "doc_90e2a3dc40c8e199:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Candidate structures remain structure_verified=false; parsing, visual inspection, DFT, and reproduction acknowledgments do not establish chemical correctness.",
+        "Absolute scale, yield/recovery measurement bases, workup, purification, and masses are not reported.",
+        "The fate of expected silyl-substituted allenyne 4bm is unknown; decomposition/transformation is proposed but no species is identified."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_90e2a3dc40c8e199:figure2A_entry3",
+    "document_id": "doc_90e2a3dc40c8e199",
+    "source_reaction_id": "figure2A_entry3",
+    "record_kind": "optimization_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_90e2a3dc40c8e199:page2:text",
+      "doc_90e2a3dc40c8e199:page2:image",
+      "doc_90e2a3dc40c8e199:page7:text",
+      "doc_90e2a3dc40c8e199:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "alkynal_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "3-tert-butyldimethylsilylpropynal 1a",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.2,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page2:text",
+                "doc_90e2a3dc40c8e199:page2:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "alkyne_2a",
+        "role": "reactant",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tertiary propargylic alcohol 2a",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page2:text",
+                "doc_90e2a3dc40c8e199:page2:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "prolinol",
+        "role": "reagent",
+        "label": {
+          "value": "(S)-3",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "(S)-alpha,alpha-diphenylprolinol",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.2,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page2:text",
+                "doc_90e2a3dc40c8e199:page2:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "cu2",
+        "role": "catalyst",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Br[Cu]Br",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 30,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page2:text",
+                "doc_90e2a3dc40c8e199:page2:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "cu1",
+        "role": "catalyst",
+        "label": {
+          "value": "CuCl",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(I) chloride",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cl[Cu]",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page2:text",
+                "doc_90e2a3dc40c8e199:page2:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "dioxane",
+        "role": "solvent",
+        "label": {
+          "value": "1,4-dioxane",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,4-dioxane",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O1CCOCC1",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_4aa",
+        "role": "product",
+        "label": {
+          "value": "(Ra)-4aa",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled chiral allenyne (Ra)-4aa",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "intermediate_5aa",
+        "role": "product",
+        "label": {
+          "value": "(R,S)-5aa",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled 1,4-diyn-3-yl amine (R,S)-5aa",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "regioisomer_6aa",
+        "role": "product",
+        "label": {
+          "value": "(Sa)-6aa",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "regioisomeric allene (Sa)-6aa",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "EATA_catalyst_screen",
+        "participant_ids": [
+          "alkynal_1a",
+          "alkyne_2a",
+          "prolinol",
+          "cu2",
+          "cu1",
+          "dioxane"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 80,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page2:text",
+                "doc_90e2a3dc40c8e199:page2:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page2:text",
+                "doc_90e2a3dc40c8e199:page2:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "Ar",
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page2:text",
+                "doc_90e2a3dc40c8e199:page2:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "atmosphere"
+          },
+          {
+            "name": "scale_description",
+            "fact": {
+              "value": "1.0 mmol scale",
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page2:text",
+                "doc_90e2a3dc40c8e199:page2:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "enantiomeric_excess",
+        "fact": {
+          "value": {
+            "number": 99,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_4aa"
+        ],
+        "category": "percentage"
+      },
+      {
+        "name": "intermediate_5aa_yield_source_marker",
+        "fact": {
+          "value": "/",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "intermediate_5aa"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "isolated_yield_4aa",
+        "fact": {
+          "value": {
+            "number": 60,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_4aa"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "isolated_yield_measurement_basis",
+        "fact": {
+          "value": "isolated yield at 1.0 mmol scale",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_4aa"
+        ],
+        "category": "measurement_basis"
+      },
+      {
+        "name": "regioisomer_6aa_observation",
+        "fact": {
+          "value": "not observed",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "regioisomer_6aa"
+        ],
+        "category": "other"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Figure 2A entry 3 and the (Ra)-4aa selected-scope example are the same standard-condition experiment and are not duplicated.",
+        "evidence_ids": [
+          "doc_90e2a3dc40c8e199:page2:text",
+          "doc_90e2a3dc40c8e199:page2:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Page 7 thanks Can Li for reproducing the result of (Ra)-4aa in Figure 2B. No independent run details are supplied, so the statement is provenance on the existing merged standard-condition record and creates no duplicate experiment.",
+        "evidence_ids": [
+          "doc_90e2a3dc40c8e199:page7:text",
+          "doc_90e2a3dc40c8e199:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association is unestablished; no SI facts were used or inferred.",
+        "Candidate structures remain structure_verified=false; parsing and visual inspection do not establish chemical correctness.",
+        "The slash in the intermediate-yield column is preserved as a source marker and is not forced to zero.",
+        "The reproduction acknowledgment does not identify a separable run."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_90e2a3dc40c8e199:scope_R_Sa_4ai",
+    "document_id": "doc_90e2a3dc40c8e199",
+    "source_reaction_id": "scope_R_Sa_4ai",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_90e2a3dc40c8e199:page2:text",
+      "doc_90e2a3dc40c8e199:page2:image",
+      "doc_90e2a3dc40c8e199:page7:text",
+      "doc_90e2a3dc40c8e199:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "alkynal",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled 2-alkynal 1a",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.2,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page2:text",
+                "doc_90e2a3dc40c8e199:page2:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "alkyne",
+        "role": "reactant",
+        "label": {
+          "value": "(R)-2i",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled terminal alkyne (R)-2i",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page2:text",
+                "doc_90e2a3dc40c8e199:page2:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "prolinol",
+        "role": "reagent",
+        "label": {
+          "value": "(R)-3",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "(R)-3 alpha,alpha-diphenylprolinol",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.2,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page2:text",
+                "doc_90e2a3dc40c8e199:page2:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "catalyst",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Br[Cu]Br",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 30,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page2:text",
+                "doc_90e2a3dc40c8e199:page2:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "cucl",
+        "role": "catalyst",
+        "label": {
+          "value": "CuCl",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(I) chloride",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cl[Cu]",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page2:text",
+                "doc_90e2a3dc40c8e199:page2:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "dioxane",
+        "role": "solvent",
+        "label": {
+          "value": "1,4-dioxane",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,4-dioxane",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O1CCOCC1",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "(R,Sa)-4ai",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled chiral allenyne (R,Sa)-4ai",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "standard_EATA_scope",
+        "participant_ids": [
+          "alkynal",
+          "alkyne",
+          "prolinol",
+          "cubr2",
+          "cucl",
+          "dioxane"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 80,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page2:text",
+                "doc_90e2a3dc40c8e199:page2:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page2:text",
+                "doc_90e2a3dc40c8e199:page2:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "Ar",
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page2:text",
+                "doc_90e2a3dc40c8e199:page2:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "atmosphere"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "number": 57,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "diastereomeric_excess",
+        "fact": {
+          "value": {
+            "number": 99,
+            "unit": "%",
+            "qualifier": "gt",
+            "raw_text": ">99% de"
+          },
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "measurement_basis"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Footnote b in Figure 2B specifies (R)-3 instead of (S)-3 for this entry.",
+        "evidence_ids": [
+          "doc_90e2a3dc40c8e199:page2:text",
+          "doc_90e2a3dc40c8e199:page2:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Page 7 thanks Can Li for reproducing the result of (R,Sa)-4ai in Figure 2B. No independent run details are supplied, so the statement is provenance on the existing scope record and creates no duplicate experiment.",
+        "evidence_ids": [
+          "doc_90e2a3dc40c8e199:page7:text",
+          "doc_90e2a3dc40c8e199:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association is unestablished; no SI facts were used or inferred.",
+        "Candidate structures remain structure_verified=false; parsing and visual inspection do not establish chemical correctness.",
+        "The yield measurement basis and absolute reaction scale are not printed for this selected scope example; full scope details are cited to unassociated SI/Table S2.",
+        "The reproduction acknowledgment does not identify a separable run."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_90e2a3dc40c8e199:figure2C_scaleup_4bk",
+    "document_id": "doc_90e2a3dc40c8e199",
+    "source_reaction_id": "figure2C_scaleup_4bk",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_90e2a3dc40c8e199:page2:text",
+      "doc_90e2a3dc40c8e199:page2:image",
+      "doc_90e2a3dc40c8e199:page3:text",
+      "doc_90e2a3dc40c8e199:page3:image",
+      "doc_90e2a3dc40c8e199:page7:text",
+      "doc_90e2a3dc40c8e199:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "alkynal_1b",
+        "role": "reactant",
+        "label": {
+          "value": "1b",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image",
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "3-trimethylsilylpropynal 1b",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image",
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.2,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page2:text",
+                "doc_90e2a3dc40c8e199:page2:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "alkyne_2k",
+        "role": "reactant",
+        "label": {
+          "value": "2k",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image",
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled terminal propargylic alcohol 2k",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image",
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page2:text",
+                "doc_90e2a3dc40c8e199:page2:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "prolinol",
+        "role": "reagent",
+        "label": {
+          "value": "(S)-3",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image",
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "(S)-3 alpha,alpha-diphenylprolinol",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image",
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 10.0,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page2:text",
+                "doc_90e2a3dc40c8e199:page2:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "catalyst",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image",
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image",
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Br[Cu]Br",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image",
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 30,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page2:text",
+                "doc_90e2a3dc40c8e199:page2:image",
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "cucl",
+        "role": "catalyst",
+        "label": {
+          "value": "CuCl",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image",
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(I) chloride",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image",
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cl[Cu]",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image",
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page2:text",
+                "doc_90e2a3dc40c8e199:page2:image",
+                "doc_90e2a3dc40c8e199:page3:text",
+                "doc_90e2a3dc40c8e199:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "dioxane",
+        "role": "solvent",
+        "label": {
+          "value": "1,4-dioxane",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image",
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,4-dioxane",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image",
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O1CCOCC1",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image",
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "(Ra)-4bk",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image",
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled primary allenol (Ra)-4bk",
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image",
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "scaleup_standard_EATA",
+        "participant_ids": [
+          "alkynal_1b",
+          "alkyne_2k",
+          "prolinol",
+          "cubr2",
+          "cucl",
+          "dioxane"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 80,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page2:text",
+                "doc_90e2a3dc40c8e199:page2:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 12,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page2:text",
+                "doc_90e2a3dc40c8e199:page2:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "Ar",
+              "evidence_ids": [
+                "doc_90e2a3dc40c8e199:page2:text",
+                "doc_90e2a3dc40c8e199:page2:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "atmosphere"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "number": 37,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "enantiomeric_excess",
+        "fact": {
+          "value": {
+            "number": 99,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_90e2a3dc40c8e199:page2:text",
+            "doc_90e2a3dc40c8e199:page2:image",
+            "doc_90e2a3dc40c8e199:page3:text",
+            "doc_90e2a3dc40c8e199:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "percentage"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "measurement_basis"
+      }
+    ],
+    "notes": [
+      {
+        "value": "The figure labels (S)-3 as 10.0 mmol and the prose calls this a 10 mmol scale-up; the basis of the scale is retained as printed.",
+        "evidence_ids": [
+          "doc_90e2a3dc40c8e199:page2:text",
+          "doc_90e2a3dc40c8e199:page2:image",
+          "doc_90e2a3dc40c8e199:page3:text",
+          "doc_90e2a3dc40c8e199:page3:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Page 7 thanks Can Li for reproducing an (Ra)-4bk result in Table S2. Because SI/Table S2 is unassociated and the acknowledgment does not state whether this is the same 10 mmol Figure 2C scale-up, the statement is retained only as unresolved provenance context and creates no duplicate experiment.",
+        "evidence_ids": [
+          "doc_90e2a3dc40c8e199:page7:text",
+          "doc_90e2a3dc40c8e199:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association is unestablished; no SI facts were used or inferred.",
+        "Candidate structures remain structure_verified=false; parsing and visual inspection do not establish chemical correctness.",
+        "The isolated/NMR basis of the 37% yield, solvent volume, workup, purification, and product mass are not reported in the main text.",
+        "The acknowledgment's Table S2 (Ra)-4bk result cannot be confidently equated with the Figure 2C 10 mmol scale-up without associated SI.",
+        "The reproduction acknowledgment does not identify a separable run."
+      ]
+    }
+  }
+]

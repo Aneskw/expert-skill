@@ -1,0 +1,161 @@
+{
+  "document_id": "doc_f01f4755a3c9bb37",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 1 title, abstract, author block, DOI, and SI availability sentence",
+          "finding": "Verified the article title/DOI and that this is a DFT mechanistic study. The paper mentions online Supporting Information, but workspace association is unestablished and no SI fact was imported.",
+          "evidence_ids": [
+            "doc_f01f4755a3c9bb37:page1:text",
+            "doc_f01f4755a3c9bb37:page1:image"
+          ]
+        },
+        {
+          "region": "page 1 center-right Scheme 1",
+          "finding": "The ZnI2-promoted A3-coupling/[1,5]-hydride-migration/beta-elimination drawing is prior mechanistic work supported by reference 9a; it is classified as a literature example, not a current experiment.",
+          "evidence_ids": [
+            "doc_f01f4755a3c9bb37:page1:text",
+            "doc_f01f4755a3c9bb37:page1:image"
+          ]
+        },
+        {
+          "region": "page 1 lower-right Scheme 2",
+          "finding": "The cited reference-10 reaction class uses terminal alkyne 1, pyrrolidine 2 (1.6 equiv), CdI2 (1.0 equiv), toluene, and 130 °C to give generic trisubstituted allene 3 (R = alkyl or aryl) in up to 76% yield. It is prior experimental literature rather than a new experiment in this paper.",
+          "evidence_ids": [
+            "doc_f01f4755a3c9bb37:page1:text",
+            "doc_f01f4755a3c9bb37:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_f01f4755a3c9bb37:scheme1_prior_ZnI2_ATA_mechanism",
+        "doc_f01f4755a3c9bb37:scheme2_prior_CdI2_allenylation"
+      ],
+      "unresolved": [
+        "Both schemes contain generic R groups and do not define unique product structures.",
+        "Scheme 2 does not report a unique substrate-specific yield basis or reaction time.",
+        "SI association remains unestablished."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 2 Results and Discussion text and Figure 1 free-energy profile",
+          "finding": "Current-paper DFT hydroamination of propyne with pyrrolidine was retained as a mechanism: CdI2 complexation, competing Markovnikov/anti-Markovnikov attack, disfavored direct proton transfer, and lower-barrier extra-pyrrolidine-assisted proton relay. No preparative yield or isolated intermediate occurs.",
+          "evidence_ids": [
+            "doc_f01f4755a3c9bb37:page2:text",
+            "doc_f01f4755a3c9bb37:page2:image"
+          ]
+        },
+        {
+          "region": "page 2 Figure 1 stationary-point structures and solid/dotted paths",
+          "finding": "TS1_1/TS1_2 and Int1–Int6_1 are calculated stationary points. The 25.6 versus 28.0 kcal mol^-1 barriers and the 50.9 kcal mol^-1 unfavorable direct transfer are preserved as source text, not interpreted as reaction times, temperatures, or experiments.",
+          "evidence_ids": [
+            "doc_f01f4755a3c9bb37:page2:text",
+            "doc_f01f4755a3c9bb37:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_f01f4755a3c9bb37:figure1_DFT_propyne_hydroamination"
+      ],
+      "unresolved": [
+        "The complete anti-Markovnikov pathway is cited to unassociated SI Figure S1.",
+        "Computed structures remain machine-unverified and energy units remain source text."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 3 upper-left continuation of Figure 1 discussion",
+          "finding": "Completes the extra-pyrrolidine proton-relay result, calculated Markovnikov preference, bond distances/charges, and comparison with prior experimental observation; no new experiment is created.",
+          "evidence_ids": [
+            "doc_f01f4755a3c9bb37:page3:text",
+            "doc_f01f4755a3c9bb37:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 main text and Figure 2 from Int1 through Int15/allene 3a",
+          "finding": "Current-paper DFT allene-formation mechanism was retained with proton shuttling, ketoniminium/1-alkynylcadmium generation, propargylamine formation, [1,5] hydride shift, beta-elimination, and allene release. The unsuccessful attempt to locate a direct proton-transfer transition state is preserved.",
+          "evidence_ids": [
+            "doc_f01f4755a3c9bb37:page3:text",
+            "doc_f01f4755a3c9bb37:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_f01f4755a3c9bb37:figure1_DFT_propyne_hydroamination",
+        "doc_f01f4755a3c9bb37:figure2_scheme3_DFT_allene_formation"
+      ],
+      "unresolved": [
+        "Compact organocadmium intermediates and allene 3a remain label-only/unverified.",
+        "No experimental quantities, workup, purification, or isolated yield are present on this page."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 4 left-column completion of Figure 2 discussion",
+          "finding": "Completes calculated [1,5] hydride migration (21.3 kcal mol^-1), beta-elimination (11.7 kcal mol^-1), and product release (+8.7 kcal mol^-1). These are mechanistic energies, not experimental outcomes.",
+          "evidence_ids": [
+            "doc_f01f4755a3c9bb37:page4:text",
+            "doc_f01f4755a3c9bb37:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 upper-right Scheme 3 and Conclusions",
+          "finding": "Scheme 3 is the generic summary of the Figure 1/Figure 2 mechanism and is linked to the same two records; it does not create another reaction. Hydroamination through TS1_1 is identified as the overall rate-determining step.",
+          "evidence_ids": [
+            "doc_f01f4755a3c9bb37:page4:text",
+            "doc_f01f4755a3c9bb37:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 Experimental Section: Computational Methods",
+          "finding": "Recorded Gaussian 09, B3LYP geometry optimization, basis sets, frequency/IRC checks, M06/SDD-6-311+G(d,p) single points, SMD toluene, and Gibbs free energies at 298 K. Propyne 1a (R = Me) is the stated working model.",
+          "evidence_ids": [
+            "doc_f01f4755a3c9bb37:page4:text",
+            "doc_f01f4755a3c9bb37:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_f01f4755a3c9bb37:figure1_DFT_propyne_hydroamination",
+        "doc_f01f4755a3c9bb37:figure2_scheme3_DFT_allene_formation"
+      ],
+      "unresolved": [
+        "This section reports computational rather than preparative methods; no physical reaction time, scale, workup, purification, or isolated yield exists.",
+        "Computed structures remain machine-unverified."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 5 conflict-of-interest statement, keywords, references 1–20, and manuscript dates",
+          "finding": "No current-paper reaction, free-energy figure, table, experimental operation, or yield occurs. References are bibliographic context and were not expanded into additional experiments.",
+          "evidence_ids": [
+            "doc_f01f4755a3c9bb37:page5:text",
+            "doc_f01f4755a3c9bb37:page5:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "No reaction record is associated with this references-only page.",
+        "Footnote 12 confirms SI contains anti-Markovnikov details, but no SI file is associated and none was inferred."
+      ]
+    }
+  ]
+}

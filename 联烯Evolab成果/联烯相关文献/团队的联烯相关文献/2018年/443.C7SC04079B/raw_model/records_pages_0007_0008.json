@@ -1,0 +1,987 @@
+[
+  {
+    "record_id": "doc_fa3f364a2a4099d3:table3_3ga",
+    "document_id": "doc_fa3f364a2a4099d3",
+    "source_reaction_id": "table3_3ga",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_fa3f364a2a4099d3:page4:text",
+      "doc_fa3f364a2a4099d3:page4:image",
+      "doc_fa3f364a2a4099d3:page5:text",
+      "doc_fa3f364a2a4099d3:page5:image",
+      "doc_fa3f364a2a4099d3:page7:text",
+      "doc_fa3f364a2a4099d3:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1g",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page4:text",
+            "doc_fa3f364a2a4099d3:page4:image",
+            "doc_fa3f364a2a4099d3:page5:text",
+            "doc_fa3f364a2a4099d3:page5:image",
+            "doc_fa3f364a2a4099d3:page7:text",
+            "doc_fa3f364a2a4099d3:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled N-(buta-2,3-dienyl)amide 1g",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page4:text",
+            "doc_fa3f364a2a4099d3:page4:image",
+            "doc_fa3f364a2a4099d3:page5:text",
+            "doc_fa3f364a2a4099d3:page5:image",
+            "doc_fa3f364a2a4099d3:page7:text",
+            "doc_fa3f364a2a4099d3:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.5,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_fa3f364a2a4099d3:page5:text",
+                "doc_fa3f364a2a4099d3:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "aryl_halide",
+        "role": "reactant",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page4:text",
+            "doc_fa3f364a2a4099d3:page4:image",
+            "doc_fa3f364a2a4099d3:page5:text",
+            "doc_fa3f364a2a4099d3:page5:image",
+            "doc_fa3f364a2a4099d3:page7:text",
+            "doc_fa3f364a2a4099d3:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "iodobenzene",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page4:text",
+            "doc_fa3f364a2a4099d3:page4:image",
+            "doc_fa3f364a2a4099d3:page5:text",
+            "doc_fa3f364a2a4099d3:page5:image",
+            "doc_fa3f364a2a4099d3:page7:text",
+            "doc_fa3f364a2a4099d3:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Ic1ccccc1",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page4:text",
+            "doc_fa3f364a2a4099d3:page4:image",
+            "doc_fa3f364a2a4099d3:page5:text",
+            "doc_fa3f364a2a4099d3:page5:image",
+            "doc_fa3f364a2a4099d3:page7:text",
+            "doc_fa3f364a2a4099d3:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_fa3f364a2a4099d3:page5:text",
+                "doc_fa3f364a2a4099d3:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_fa3f364a2a4099d3:page5:text",
+                "doc_fa3f364a2a4099d3:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "pd_catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd2(dba)3·CHCl3",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page4:text",
+            "doc_fa3f364a2a4099d3:page4:image",
+            "doc_fa3f364a2a4099d3:page5:text",
+            "doc_fa3f364a2a4099d3:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tris(dibenzylideneacetone)dipalladium chloroform adduct",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page4:text",
+            "doc_fa3f364a2a4099d3:page4:image",
+            "doc_fa3f364a2a4099d3:page5:text",
+            "doc_fa3f364a2a4099d3:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.0125,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_fa3f364a2a4099d3:page5:text",
+                "doc_fa3f364a2a4099d3:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand",
+        "role": "reagent",
+        "label": {
+          "value": "L10",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page4:text",
+            "doc_fa3f364a2a4099d3:page4:image",
+            "doc_fa3f364a2a4099d3:page5:text",
+            "doc_fa3f364a2a4099d3:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "Trost ligand L10",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page4:text",
+            "doc_fa3f364a2a4099d3:page4:image",
+            "doc_fa3f364a2a4099d3:page5:text",
+            "doc_fa3f364a2a4099d3:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.0375,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_fa3f364a2a4099d3:page5:text",
+                "doc_fa3f364a2a4099d3:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "base",
+        "role": "reagent",
+        "label": {
+          "value": "Cs2CO3",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page4:text",
+            "doc_fa3f364a2a4099d3:page4:image",
+            "doc_fa3f364a2a4099d3:page5:text",
+            "doc_fa3f364a2a4099d3:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "cesium carbonate",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page4:text",
+            "doc_fa3f364a2a4099d3:page4:image",
+            "doc_fa3f364a2a4099d3:page5:text",
+            "doc_fa3f364a2a4099d3:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Cs+].[Cs+].[O-]C([O-])=O",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page4:text",
+            "doc_fa3f364a2a4099d3:page4:image",
+            "doc_fa3f364a2a4099d3:page5:text",
+            "doc_fa3f364a2a4099d3:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_fa3f364a2a4099d3:page5:text",
+                "doc_fa3f364a2a4099d3:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "benzene",
+        "role": "solvent",
+        "label": {
+          "value": "benzene",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page4:text",
+            "doc_fa3f364a2a4099d3:page4:image",
+            "doc_fa3f364a2a4099d3:page5:text",
+            "doc_fa3f364a2a4099d3:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "benzene",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page4:text",
+            "doc_fa3f364a2a4099d3:page4:image",
+            "doc_fa3f364a2a4099d3:page5:text",
+            "doc_fa3f364a2a4099d3:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "c1ccccc1",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page4:text",
+            "doc_fa3f364a2a4099d3:page4:image",
+            "doc_fa3f364a2a4099d3:page5:text",
+            "doc_fa3f364a2a4099d3:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_fa3f364a2a4099d3:page5:text",
+                "doc_fa3f364a2a4099d3:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "volume"
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "(S)-3ga",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page4:text",
+            "doc_fa3f364a2a4099d3:page4:image",
+            "doc_fa3f364a2a4099d3:page5:text",
+            "doc_fa3f364a2a4099d3:page5:image",
+            "doc_fa3f364a2a4099d3:page7:text",
+            "doc_fa3f364a2a4099d3:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled chiral oxazoline (S)-3ga",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page4:text",
+            "doc_fa3f364a2a4099d3:page4:image",
+            "doc_fa3f364a2a4099d3:page5:text",
+            "doc_fa3f364a2a4099d3:page5:image",
+            "doc_fa3f364a2a4099d3:page7:text",
+            "doc_fa3f364a2a4099d3:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "room_temperature_premix",
+        "participant_ids": [
+          "substrate",
+          "aryl_halide",
+          "pd_catalyst",
+          "ligand",
+          "base",
+          "benzene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_fa3f364a2a4099d3:page5:text",
+                "doc_fa3f364a2a4099d3:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 0.5,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_fa3f364a2a4099d3:page5:text",
+                "doc_fa3f364a2a4099d3:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "Ar",
+              "evidence_ids": [
+                "doc_fa3f364a2a4099d3:page5:text",
+                "doc_fa3f364a2a4099d3:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "atmosphere"
+          }
+        ]
+      },
+      {
+        "step_id": "heated_reaction",
+        "participant_ids": [
+          "substrate",
+          "aryl_halide",
+          "pd_catalyst",
+          "ligand",
+          "base",
+          "benzene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 90,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_fa3f364a2a4099d3:page5:text",
+                "doc_fa3f364a2a4099d3:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 50,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_fa3f364a2a4099d3:page5:text",
+                "doc_fa3f364a2a4099d3:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "Ar",
+              "evidence_ids": [
+                "doc_fa3f364a2a4099d3:page5:text",
+                "doc_fa3f364a2a4099d3:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "atmosphere"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 90,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page5:text",
+            "doc_fa3f364a2a4099d3:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page5:text",
+            "doc_fa3f364a2a4099d3:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "measurement_basis"
+      },
+      {
+        "name": "enantiomeric_excess",
+        "fact": {
+          "value": {
+            "number": 90,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page5:text",
+            "doc_fa3f364a2a4099d3:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "percentage"
+      },
+      {
+        "name": "ee_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "measurement_basis"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Each Table 3 structure/yield/ee/time item is a distinct substrate-scope experiment under the shared header and row-specific footnotes.",
+        "evidence_ids": [
+          "doc_fa3f364a2a4099d3:page4:text",
+          "doc_fa3f364a2a4099d3:page4:image",
+          "doc_fa3f364a2a4099d3:page5:text",
+          "doc_fa3f364a2a4099d3:page5:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Page 7 footnote 46 reports crystal data and CCDC 1506167 for (S)-3ga. This supports the source absolute-configuration assignment but is characterization, not another preparation, not an associated SI file, and not verification of the machine structure encoding.",
+        "evidence_ids": [
+          "doc_fa3f364a2a4099d3:page7:text",
+          "doc_fa3f364a2a4099d3:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Every candidate structure remains structure_verified=false; graphical depiction, parsing, and crystallography do not certify a machine structure encoding.",
+        "Workup, purification, isolated product mass, and ee analytical method are not reported in the main article for this scope entry.",
+        "CCDC 1506167 is a crystallographic deposition and was not treated as an associated Supporting Information file."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_fa3f364a2a4099d3:scheme2B_current_generic_coupling_cyclization",
+    "document_id": "doc_fa3f364a2a4099d3",
+    "source_reaction_id": "scheme2B_current_generic_coupling_cyclization",
+    "record_kind": "general_scheme",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_fa3f364a2a4099d3:page3:text",
+      "doc_fa3f364a2a4099d3:page3:image",
+      "doc_fa3f364a2a4099d3:page8:text",
+      "doc_fa3f364a2a4099d3:page8:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "generic_allenamide",
+        "role": "reactant",
+        "label": {
+          "value": "generic N-(buta-2,3-dienyl)amide",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page3:text",
+            "doc_fa3f364a2a4099d3:page3:image",
+            "doc_fa3f364a2a4099d3:page8:text",
+            "doc_fa3f364a2a4099d3:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "generic_iodide",
+        "role": "reactant",
+        "label": {
+          "value": "R'I",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page3:text",
+            "doc_fa3f364a2a4099d3:page3:image",
+            "doc_fa3f364a2a4099d3:page8:text",
+            "doc_fa3f364a2a4099d3:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_fa3f364a2a4099d3:page8:text",
+                "doc_fa3f364a2a4099d3:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "pd_chiral",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd2(dba)3·CHCl3",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page8:text",
+            "doc_fa3f364a2a4099d3:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tris(dibenzylideneacetone)dipalladium chloroform adduct",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page8:text",
+            "doc_fa3f364a2a4099d3:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 2.5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_fa3f364a2a4099d3:page8:text",
+                "doc_fa3f364a2a4099d3:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "cs2co3",
+        "role": "reagent",
+        "label": {
+          "value": "Cs2CO3",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page3:text",
+            "doc_fa3f364a2a4099d3:page3:image",
+            "doc_fa3f364a2a4099d3:page8:text",
+            "doc_fa3f364a2a4099d3:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "cesium carbonate",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page3:text",
+            "doc_fa3f364a2a4099d3:page3:image",
+            "doc_fa3f364a2a4099d3:page8:text",
+            "doc_fa3f364a2a4099d3:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Cs+].[Cs+].[O-]C([O-])=O",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page3:text",
+            "doc_fa3f364a2a4099d3:page3:image",
+            "doc_fa3f364a2a4099d3:page8:text",
+            "doc_fa3f364a2a4099d3:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_fa3f364a2a4099d3:page8:text",
+                "doc_fa3f364a2a4099d3:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "generic_product",
+        "role": "product",
+        "label": {
+          "value": "generic chiral oxazoline",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page3:text",
+            "doc_fa3f364a2a4099d3:page3:image",
+            "doc_fa3f364a2a4099d3:page8:text",
+            "doc_fa3f364a2a4099d3:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "tro_st_ligand",
+        "role": "reagent",
+        "label": {
+          "value": "Trost ligand",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page8:text",
+            "doc_fa3f364a2a4099d3:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-depicted Trost ligand",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page8:text",
+            "doc_fa3f364a2a4099d3:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 7.5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_fa3f364a2a4099d3:page8:text",
+                "doc_fa3f364a2a4099d3:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "benzene",
+        "role": "solvent",
+        "label": {
+          "value": "benzene",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page8:text",
+            "doc_fa3f364a2a4099d3:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "benzene",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page8:text",
+            "doc_fa3f364a2a4099d3:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "c1ccccc1",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page8:text",
+            "doc_fa3f364a2a4099d3:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "graphical_abstract_summary_conditions",
+        "participant_ids": [
+          "generic_allenamide",
+          "generic_iodide",
+          "pd_chiral",
+          "tro_st_ligand",
+          "cs2co3",
+          "benzene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 90,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_fa3f364a2a4099d3:page8:text",
+                "doc_fa3f364a2a4099d3:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "aggregate_maximum_yield",
+        "fact": {
+          "value": {
+            "number": 92,
+            "unit": "%",
+            "raw_text": "up to 92% yield",
+            "upper_bound_inclusive": true
+          },
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page8:text",
+            "doc_fa3f364a2a4099d3:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "generic_product"
+        ]
+      },
+      {
+        "name": "aggregate_maximum_enantiomeric_excess",
+        "fact": {
+          "value": {
+            "number": 96,
+            "unit": "%",
+            "raw_text": "up to 96% ee",
+            "upper_bound_inclusive": true
+          },
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page8:text",
+            "doc_fa3f364a2a4099d3:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "generic_product"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 2B is the generic current reaction class; the 25 concrete scope experiments are recorded from Table 3.",
+        "evidence_ids": [
+          "doc_fa3f364a2a4099d3:page3:text",
+          "doc_fa3f364a2a4099d3:page3:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The page-8 graphical abstract repeats the current generic coupling-cyclization rather than reporting an independent run. Its 'up to' yield and ee are aggregate maxima and are not assigned to a single Table 3 experiment.",
+        "evidence_ids": [
+          "doc_fa3f364a2a4099d3:page8:text",
+          "doc_fa3f364a2a4099d3:page8:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Scheme 2B on page 3 abbreviates the catalyst system as cat. [Pd]/L*, while the page-8 graphical abstract specifies Pd2(dba)3·CHCl3 (2.5 mol%) and Trost ligand (7.5 mol%).",
+        "evidence_ids": [
+          "doc_fa3f364a2a4099d3:page3:text",
+          "doc_fa3f364a2a4099d3:page3:image",
+          "doc_fa3f364a2a4099d3:page8:text",
+          "doc_fa3f364a2a4099d3:page8:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Every candidate structure remains structure_verified=false; graphical depiction, parsing, and crystallography do not certify a machine structure encoding.",
+        "R1/R2 substituents are generic and do not define unique substrate or product structures.",
+        "The graphical abstract omits scale, reaction time, atmosphere, workup, purification, isolated mass, and analytical bases.",
+        "The displayed 'up to 92% yield' and 'up to 96% ee' are aggregate maxima, not outcomes of one independently specified experiment."
+      ]
+    }
+  }
+]

@@ -1,0 +1,88 @@
+{
+  "document_id": "doc_2ad41b40558583b6",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 7 upper Figure 3 and caption",
+          "finding": "The original page image was inspected at full resolution. Figure 3 is a computed regiodivergence/enantioselectivity model containing INT3B/INT4A intermediates and TS3B/TS4A/TS4B transition states, energy labels, and non-covalent-contact distances; it is classified as mechanism rather than a reported experiment. The figure's 11.1 kcal mol−1 TS3B-linear-R label conflicts with the page-6 prose value 11.8 kcal mol−1, so both are retained.",
+          "evidence_ids": [
+            "doc_2ad41b40558583b6:page7:image",
+            "doc_2ad41b40558583b6:page7:block5",
+            "doc_2ad41b40558583b6:page7:text",
+            "doc_2ad41b40558583b6:page6:text",
+            "doc_2ad41b40558583b6:page6:image"
+          ]
+        },
+        {
+          "region": "page 7 lower text, conclusions, acknowledgements, declarations, and references 1–4",
+          "finding": "The text interprets the Figure 3 C-H···O/N interactions and concludes the study; the remaining regions contain acknowledgements, conflict/data statements, keywords, and bibliography. No new reaction arrow, experimental run, condition row, or yield occurs.",
+          "evidence_ids": [
+            "doc_2ad41b40558583b6:page7:text",
+            "doc_2ad41b40558583b6:page7:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_2ad41b40558583b6:figure3_DFT_regiodivergence"
+      ],
+      "unresolved": [
+        "Source conflict for TS3B-linear-R: 11.1 kcal mol−1 in Figure 3 versus 11.8 kcal mol−1 in page-6 prose.",
+        "The page mentions supplementary material availability, but workspace SI association remains unestablished and no SI fact was imported.",
+        "No current-paper reaction experiment occurs on this page."
+      ]
+    },
+    {
+      "page": 8,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 8 full two-column references 5–64",
+          "finding": "The original page image was inspected at full resolution and contains bibliography/prior-literature citations only. No current-paper reaction arrow, table, experimental procedure, condition, outcome, or footnote-derived reagent appears; external cited papers were not expanded into experiments of this article.",
+          "evidence_ids": [
+            "doc_2ad41b40558583b6:page8:text",
+            "doc_2ad41b40558583b6:page8:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "No new reaction experiment or mechanism record occurs on this page."
+      ]
+    },
+    {
+      "page": 9,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 9 references 65–85 excluding footnote 71",
+          "finding": "The original page image was inspected at full resolution. These are bibliography, computational-method citation text, and manuscript dates; cited external papers were not converted into current-paper experiments.",
+          "evidence_ids": [
+            "doc_2ad41b40558583b6:page9:text",
+            "doc_2ad41b40558583b6:page9:image"
+          ]
+        },
+        {
+          "region": "page 9 left-column reference 71 crystallographic depositions",
+          "finding": "Reference 71 assigns CCDC 2468970 to existing scope product 34b and CCDC 2468971 to existing copper complex 43. The evidence was merged into those records; it does not define new preparations and was not treated as an SI association.",
+          "evidence_ids": [
+            "doc_2ad41b40558583b6:page9:text",
+            "doc_2ad41b40558583b6:page9:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_2ad41b40558583b6:table2_scope_34b",
+        "doc_2ad41b40558583b6:scheme2a_synthesis_complex_43"
+      ],
+      "unresolved": [
+        "CCDC 2468970 and 2468971 are crystallographic depositions, not explicitly associated workspace Supporting Information files.",
+        "Crystallography supports source assignments but does not verify the null/uncertain machine structure encodings.",
+        "No new reaction experiment occurs on this page."
+      ]
+    }
+  ]
+}

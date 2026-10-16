@@ -1,0 +1,794 @@
+[
+  {
+    "record_id": "doc_70a746e2eec591d3:scheme2a_bromination_2d_to_3b",
+    "document_id": "doc_70a746e2eec591d3",
+    "source_reaction_id": "scheme2a_bromination_2d_to_3b",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_70a746e2eec591d3:page3:text",
+      "doc_70a746e2eec591d3:page3:image",
+      "doc_70a746e2eec591d3:page4:text",
+      "doc_70a746e2eec591d3:page4:image",
+      "doc_70a746e2eec591d3:page8:text",
+      "doc_70a746e2eec591d3:page8:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "(R)-2d",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page3:text",
+            "doc_70a746e2eec591d3:page3:image",
+            "doc_70a746e2eec591d3:page4:text",
+            "doc_70a746e2eec591d3:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (R)-2d",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page3:text",
+            "doc_70a746e2eec591d3:page3:image",
+            "doc_70a746e2eec591d3:page4:text",
+            "doc_70a746e2eec591d3:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cubr2",
+        "role": "reagent",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page3:text",
+            "doc_70a746e2eec591d3:page3:image",
+            "doc_70a746e2eec591d3:page4:text",
+            "doc_70a746e2eec591d3:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page3:text",
+            "doc_70a746e2eec591d3:page3:image",
+            "doc_70a746e2eec591d3:page4:text",
+            "doc_70a746e2eec591d3:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Cu+2].[Br-].[Br-]",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page3:text",
+            "doc_70a746e2eec591d3:page3:image",
+            "doc_70a746e2eec591d3:page4:text",
+            "doc_70a746e2eec591d3:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 3.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_70a746e2eec591d3:page4:text",
+                "doc_70a746e2eec591d3:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "methanol",
+        "role": "solvent",
+        "label": {
+          "value": "MeOH",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page3:text",
+            "doc_70a746e2eec591d3:page3:image",
+            "doc_70a746e2eec591d3:page4:text",
+            "doc_70a746e2eec591d3:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "methanol",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page3:text",
+            "doc_70a746e2eec591d3:page3:image",
+            "doc_70a746e2eec591d3:page4:text",
+            "doc_70a746e2eec591d3:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CO",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page3:text",
+            "doc_70a746e2eec591d3:page3:image",
+            "doc_70a746e2eec591d3:page4:text",
+            "doc_70a746e2eec591d3:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "water",
+        "role": "solvent",
+        "label": {
+          "value": "H2O",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page3:text",
+            "doc_70a746e2eec591d3:page3:image",
+            "doc_70a746e2eec591d3:page4:text",
+            "doc_70a746e2eec591d3:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "water",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page3:text",
+            "doc_70a746e2eec591d3:page3:image",
+            "doc_70a746e2eec591d3:page4:text",
+            "doc_70a746e2eec591d3:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page3:text",
+            "doc_70a746e2eec591d3:page3:image",
+            "doc_70a746e2eec591d3:page4:text",
+            "doc_70a746e2eec591d3:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "(R)-3b",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page3:text",
+            "doc_70a746e2eec591d3:page3:image",
+            "doc_70a746e2eec591d3:page4:text",
+            "doc_70a746e2eec591d3:page4:image",
+            "doc_70a746e2eec591d3:page8:text",
+            "doc_70a746e2eec591d3:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (R)-3b",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page3:text",
+            "doc_70a746e2eec591d3:page3:image",
+            "doc_70a746e2eec591d3:page4:text",
+            "doc_70a746e2eec591d3:page4:image",
+            "doc_70a746e2eec591d3:page8:text",
+            "doc_70a746e2eec591d3:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "copper_mediated_bromination",
+        "participant_ids": [
+          "substrate",
+          "cubr2",
+          "methanol",
+          "water"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 90,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_70a746e2eec591d3:page4:text",
+                "doc_70a746e2eec591d3:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 12,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_70a746e2eec591d3:page4:text",
+                "doc_70a746e2eec591d3:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "number": 66,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page4:text",
+            "doc_70a746e2eec591d3:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "enantiomeric_ratio",
+        "fact": {
+          "value": "93:7",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page4:text",
+            "doc_70a746e2eec591d3:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "selectivity"
+      },
+      {
+        "name": "absolute_configuration_basis",
+        "fact": {
+          "value": "single-crystal X-ray diffraction",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page3:text",
+            "doc_70a746e2eec591d3:page3:image",
+            "doc_70a746e2eec591d3:page8:text",
+            "doc_70a746e2eec591d3:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "measurement_basis"
+      },
+      {
+        "name": "CCDC_accession",
+        "fact": {
+          "value": "1942085",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page8:text",
+            "doc_70a746e2eec591d3:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "other"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 2A contains two substrate-specific bromination arrows/results; they are separate experiments even though the displayed conditions are shared.",
+        "evidence_ids": [
+          "doc_70a746e2eec591d3:page3:text",
+          "doc_70a746e2eec591d3:page3:image",
+          "doc_70a746e2eec591d3:page4:text",
+          "doc_70a746e2eec591d3:page4:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The absolute configuration of (R)-3b was assigned by X-ray crystallography; CCDC 1942085 is cited later in the paper as characterization provenance, not an SI association or machine-structure verification.",
+        "evidence_ids": [
+          "doc_70a746e2eec591d3:page3:text",
+          "doc_70a746e2eec591d3:page3:image",
+          "doc_70a746e2eec591d3:page4:text",
+          "doc_70a746e2eec591d3:page4:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Reference 22 on page 8 assigns CCDC 1942085 to (R)-3b. This is crystallographic characterization provenance for the existing Scheme 2A bromination, not a second preparation, not a workspace SI association, and not verification of a machine structure encoding.",
+        "evidence_ids": [
+          "doc_70a746e2eec591d3:page8:text",
+          "doc_70a746e2eec591d3:page8:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Complex allene/product, NHC ligand, copper complex, and proposed/computed intermediate structures remain source-labeled where safe complete encoding was uncertain; every structure remains structure_verified=false.",
+        "The covered pages do not report absolute substrate charge, MeOH/H2O volumes or ratio, atmosphere, workup, purification, isolated mass, yield basis, or er measurement basis.",
+        "CCDC 1942085 is a crystallographic deposition and does not establish an associated workspace Supporting Information file."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_70a746e2eec591d3:figures2_3_computational_selectivity_analysis",
+    "document_id": "doc_70a746e2eec591d3",
+    "source_reaction_id": "figures2_3_computational_selectivity_analysis",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_70a746e2eec591d3:page5:text",
+      "doc_70a746e2eec591d3:page5:image",
+      "doc_70a746e2eec591d3:page6:text",
+      "doc_70a746e2eec591d3:page6:image",
+      "doc_70a746e2eec591d3:page8:text",
+      "doc_70a746e2eec591d3:page8:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "sim_es_copper_boryl_A",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "SIMes-Cu boryl complex A",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page5:text",
+            "doc_70a746e2eec591d3:page5:image",
+            "doc_70a746e2eec591d3:page6:text",
+            "doc_70a746e2eec591d3:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound SIMes-Cu boryl complex A",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page5:text",
+            "doc_70a746e2eec591d3:page5:image",
+            "doc_70a746e2eec591d3:page6:text",
+            "doc_70a746e2eec591d3:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "allene_1a",
+        "role": "reactant",
+        "label": {
+          "value": "cyclohexylallene 1a",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page5:text",
+            "doc_70a746e2eec591d3:page5:image",
+            "doc_70a746e2eec591d3:page6:text",
+            "doc_70a746e2eec591d3:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound cyclohexylallene 1a",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page5:text",
+            "doc_70a746e2eec591d3:page5:image",
+            "doc_70a746e2eec591d3:page6:text",
+            "doc_70a746e2eec591d3:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ncts",
+        "role": "reactant",
+        "label": {
+          "value": "NCTS",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page5:text",
+            "doc_70a746e2eec591d3:page5:image",
+            "doc_70a746e2eec591d3:page6:text",
+            "doc_70a746e2eec591d3:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound NCTS",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page5:text",
+            "doc_70a746e2eec591d3:page5:image",
+            "doc_70a746e2eec591d3:page6:text",
+            "doc_70a746e2eec591d3:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "transition_states",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "computed TS1/TS1a-c, TS2/TS2a-c, and TS3 families",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page5:text",
+            "doc_70a746e2eec591d3:page5:image",
+            "doc_70a746e2eec591d3:page6:text",
+            "doc_70a746e2eec591d3:page6:image",
+            "doc_70a746e2eec591d3:page8:text",
+            "doc_70a746e2eec591d3:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound computed TS1/TS1a-c, TS2/TS2a-c, and TS3 families",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page5:text",
+            "doc_70a746e2eec591d3:page5:image",
+            "doc_70a746e2eec591d3:page6:text",
+            "doc_70a746e2eec591d3:page6:image",
+            "doc_70a746e2eec591d3:page8:text",
+            "doc_70a746e2eec591d3:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "intermediates",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "computed intermediates B-E and stereoisomers",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page5:text",
+            "doc_70a746e2eec591d3:page5:image",
+            "doc_70a746e2eec591d3:page6:text",
+            "doc_70a746e2eec591d3:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound computed intermediates B-E and stereoisomers",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page5:text",
+            "doc_70a746e2eec591d3:page5:image",
+            "doc_70a746e2eec591d3:page6:text",
+            "doc_70a746e2eec591d3:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "chiral_copper_boryl",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "L11-CuB(pin) diastereomers",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page6:text",
+            "doc_70a746e2eec591d3:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound L11-CuB(pin) diastereomers",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page6:text",
+            "doc_70a746e2eec591d3:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_R_2a",
+        "role": "product",
+        "label": {
+          "value": "(R)-2a",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page5:text",
+            "doc_70a746e2eec591d3:page5:image",
+            "doc_70a746e2eec591d3:page6:text",
+            "doc_70a746e2eec591d3:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (R)-2a",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page5:text",
+            "doc_70a746e2eec591d3:page5:image",
+            "doc_70a746e2eec591d3:page6:text",
+            "doc_70a746e2eec591d3:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_S_2a",
+        "role": "product",
+        "label": {
+          "value": "(S)-2a",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page5:text",
+            "doc_70a746e2eec591d3:page5:image",
+            "doc_70a746e2eec591d3:page6:text",
+            "doc_70a746e2eec591d3:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (S)-2a",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page5:text",
+            "doc_70a746e2eec591d3:page5:image",
+            "doc_70a746e2eec591d3:page6:text",
+            "doc_70a746e2eec591d3:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [],
+    "outcomes": [
+      {
+        "name": "lowest_1_2_insertion_barrier",
+        "fact": {
+          "value": "15.7 kcal/mol",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page5:text",
+            "doc_70a746e2eec591d3:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "transition_states"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "achiral_cyanation_barriers",
+        "fact": {
+          "value": [
+            "20.4 kcal/mol",
+            "20.6 kcal/mol"
+          ],
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page5:text",
+            "doc_70a746e2eec591d3:page5:image",
+            "doc_70a746e2eec591d3:page6:text",
+            "doc_70a746e2eec591d3:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "transition_states"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "RaRa_L11_S_over_R_transition_state_preference",
+        "fact": {
+          "value": "2.1 kcal/mol",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page6:text",
+            "doc_70a746e2eec591d3:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "transition_states"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "TS1b_3_2_insertion_optimization_outcome",
+        "fact": {
+          "value": "converted to the 1,2-insertion transition state because the 3,2-insertion transition state was extremely unstable",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page8:text",
+            "doc_70a746e2eec591d3:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "transition_states"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "TS1c_energy_estimation_basis",
+        "fact": {
+          "value": "estimated from an approximate structure located in the flat transition-state region",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page8:text",
+            "doc_70a746e2eec591d3:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "transition_states"
+        ],
+        "category": "measurement_basis"
+      },
+      {
+        "name": "further_borocupration_of_2a_computational_feasibility",
+        "fact": {
+          "value": "preliminary calculations indicate that further borocupration of 2a is kinetically feasible",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page8:text",
+            "doc_70a746e2eec591d3:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_R_2a",
+          "product_S_2a"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "further_borocupration_catalytic_cycle_without_additional_proton_source",
+        "fact": {
+          "value": "not accessible in the absence of an additional proton source",
+          "evidence_ids": [
+            "doc_70a746e2eec591d3:page8:text",
+            "doc_70a746e2eec591d3:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_R_2a",
+          "product_S_2a"
+        ],
+        "category": "other"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Figures 2 and 3 report DFT free-energy/selectivity analysis. Computed transition states and intermediates are not reaction preparations, and agreement with experiment is not machine structure verification.",
+        "evidence_ids": [
+          "doc_70a746e2eec591d3:page5:text",
+          "doc_70a746e2eec591d3:page5:image",
+          "doc_70a746e2eec591d3:page6:text",
+          "doc_70a746e2eec591d3:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Footnote 27 qualifies the TS1b/TS1c computations: attempted 3,2-insertion optimization collapses to the 1,2-insertion transition state, and TS1c uses an approximate flat-region structure. These are computational caveats rather than experimental runs.",
+        "evidence_ids": [
+          "doc_70a746e2eec591d3:page8:text",
+          "doc_70a746e2eec591d3:page8:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Footnote 28 reports a current preliminary calculation that further borocupration of 2a is kinetically feasible but cannot complete a catalytic cycle without an added proton source. Its MeOH/trifunctionalization experimental comparison explicitly cites reference 14 and was not promoted to a current-paper experiment.",
+        "evidence_ids": [
+          "doc_70a746e2eec591d3:page8:text",
+          "doc_70a746e2eec591d3:page8:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The computational structures and energies are model results rather than independently isolated/quantified species; no experimental yield is assigned.",
+        "Supporting Information association remains unestablished; computational details referred to SI were not imported.",
+        "Footnote 27 refers to unassociated SI Figure S1 for additional TS1c structural detail; that SI-only detail was not imported.",
+        "Footnote 28 gives no numerical energy barrier for further borocupration and cites the MeOH experiment to external reference 14; no current-paper experimental condition or yield is available."
+      ]
+    }
+  }
+]

@@ -1,0 +1,293 @@
+{
+  "document_id": "doc_3d0243396cacb89f",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "full page accepted-manuscript cover",
+          "finding": "Publisher cover/citation page only; no reaction scheme, table, arrow, footnote, or experimental operation is present.",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page1:text",
+            "doc_3d0243396cacb89f:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "No chemistry record is supported by this cover page."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 2 title and author block",
+          "finding": "Verified the true article title and authors. Placeholder journal metadata/ESI DOI were not used as chemistry facts or SI association.",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page2:text",
+            "doc_3d0243396cacb89f:page2:image"
+          ]
+        },
+        {
+          "region": "page 2 abstract and introduction",
+          "finding": "The abstract states the aggregate Cu/1,10-phenanthroline trifluoromethylcyclopropanation and subsequent C-C bond-cleavage scope; the introduction is context and refers forward to Scheme 1 on page 3, so no prose-only duplicate experiment was created.",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page2:text",
+            "doc_3d0243396cacb89f:page2:image"
+          ]
+        },
+        {
+          "region": "page 2 ESI availability footnote",
+          "finding": "The manuscript claims online ESI availability, but source_mapping.json leaves both SI association fields unestablished; no SI file or SI-only fact was inferred.",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page2:text",
+            "doc_3d0243396cacb89f:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "The printed ESI DOI is a placeholder and no associated SI was provided.",
+        "No experiment-specific scale, condition set, or outcome belongs uniquely to the abstract."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 3 upper-left Scheme 1A/B",
+          "finding": "Bioactive and pesticide cyclopropanes are contextual structure examples, not reaction arrows or current-paper experiments.",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page3:text",
+            "doc_3d0243396cacb89f:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 Scheme 1C/D",
+          "finding": "Scheme 1C is cited prior Pd-catalyzed allenyl-malonate cyclization and is classified as a literature example. Scheme 1D is the generic current concept and is classified as a general scheme; neither receives a table yield.",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page3:text",
+            "doc_3d0243396cacb89f:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 lower-left Table 1 and initial-observation prose",
+          "finding": "Four distinct 1a catalyst rows were retained with NMR yield, Z/E ratio, recovery, non-detection of 2a, shared/footnoted reagents, and the entry-1 5 mol% narrative versus 15 mol% diagram conflict.",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page3:text",
+            "doc_3d0243396cacb89f:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 lower-right Table 2 entries 1-9 and discussion",
+          "finding": "Nine catalyst/loading rows were retained. Entries 1-4 explicitly give 2b exclusively with 3b not observed. Table 2 entry 7 is merged with identical Table 3 entry 1 (same conditions and 69%/16% outcomes).",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page3:text",
+            "doc_3d0243396cacb89f:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_3d0243396cacb89f:scheme1C_previous_Pd_allenyl_malonate_cyclization",
+        "doc_3d0243396cacb89f:scheme1D_current_generic_cyclopropanation_concept",
+        "doc_3d0243396cacb89f:table1_entry1",
+        "doc_3d0243396cacb89f:table1_entry2",
+        "doc_3d0243396cacb89f:table1_entry3",
+        "doc_3d0243396cacb89f:table1_entry4",
+        "doc_3d0243396cacb89f:table2_entry1",
+        "doc_3d0243396cacb89f:table2_entry2",
+        "doc_3d0243396cacb89f:table2_entry3",
+        "doc_3d0243396cacb89f:table2_entry4",
+        "doc_3d0243396cacb89f:table2_entry5",
+        "doc_3d0243396cacb89f:table2_entry6",
+        "doc_3d0243396cacb89f:table2_entry7_table3_entry1",
+        "doc_3d0243396cacb89f:table2_entry8",
+        "doc_3d0243396cacb89f:table2_entry9"
+      ],
+      "unresolved": [
+        "Table 1 entry 1 catalyst loading conflicts between narrative and diagram.",
+        "The prose cites Cu(OAc)2 as Table 2 entry 2 although the table visibly lists it as entry 1.",
+        "No workups, purifications, or isolated masses are given for Tables 1-2."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 4 top Table 2 footnotes",
+          "finding": "Footnotes c-e supply 1.0 equiv TBAI, 10 mol% Cu(OAc)2, or 5 mol% Cu(OAc)2/10 mol% L1 overrides for Table 2 entries 6-8 and complete the shared NMR basis.",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page4:text",
+            "doc_3d0243396cacb89f:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 left Table 3 entries 1-13",
+          "finding": "Thirteen ligand/base optimization conditions were reconciled. Entry 1 is the same run as Table 2 entry 7; entries 2-13 remain separate, including no-ligand/no-base rows and footnoted 2.5 equiv base, 2 equiv Togni reagent, and CuOAc replacement.",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page4:text",
+            "doc_3d0243396cacb89f:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 right Table 4 entries 1-11",
+          "finding": "Eleven independent 1 mmol substrate-scope rows were retained with row times, isolated yields, entry-10 3 equiv K3PO4/Togni overrides, and entry-11 Z/E = 1:3.",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page4:text",
+            "doc_3d0243396cacb89f:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 Table 4 entry-1 footnote and gram-scale prose",
+          "finding": "The ordinary 1 mmol/86% run and a separate 5 mmol/1.1061 g/79% repeat remain distinct. The repeat's exact charge list omits K3PO4 although the prose assigns standard conditions; this remains unresolved.",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page4:text",
+            "doc_3d0243396cacb89f:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_3d0243396cacb89f:table2_entry6",
+        "doc_3d0243396cacb89f:table2_entry7_table3_entry1",
+        "doc_3d0243396cacb89f:table2_entry8",
+        "doc_3d0243396cacb89f:table2_entry7_table3_entry1",
+        "doc_3d0243396cacb89f:table3_entry2",
+        "doc_3d0243396cacb89f:table3_entry3",
+        "doc_3d0243396cacb89f:table3_entry4",
+        "doc_3d0243396cacb89f:table3_entry5",
+        "doc_3d0243396cacb89f:table3_entry6",
+        "doc_3d0243396cacb89f:table3_entry7",
+        "doc_3d0243396cacb89f:table3_entry8",
+        "doc_3d0243396cacb89f:table3_entry9",
+        "doc_3d0243396cacb89f:table3_entry10",
+        "doc_3d0243396cacb89f:table3_entry11",
+        "doc_3d0243396cacb89f:table3_entry12",
+        "doc_3d0243396cacb89f:table3_entry13",
+        "doc_3d0243396cacb89f:table4_entry1",
+        "doc_3d0243396cacb89f:table4_entry2",
+        "doc_3d0243396cacb89f:table4_entry3",
+        "doc_3d0243396cacb89f:table4_entry4",
+        "doc_3d0243396cacb89f:table4_entry5",
+        "doc_3d0243396cacb89f:table4_entry6",
+        "doc_3d0243396cacb89f:table4_entry7",
+        "doc_3d0243396cacb89f:table4_entry8",
+        "doc_3d0243396cacb89f:table4_entry9",
+        "doc_3d0243396cacb89f:table4_entry10",
+        "doc_3d0243396cacb89f:table4_entry11",
+        "doc_3d0243396cacb89f:table4_entry1_gram_scale_repeat"
+      ],
+      "unresolved": [
+        "The gram-scale footnote omits K3PO4 despite the standard-condition assignment.",
+        "The analytical basis for Table 4 entry 11's Z/E ratio is not stated.",
+        "Scope workups, purifications, and product masses are absent except for the gram-scale product mass."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 5 upper-left Scheme 2",
+          "finding": "Four distinct Sc(OTf)3/DCE/30 °C arrows were retained: 2b/benzaldehyde to cis-5a, 2b/nitrone to cis-6a, 2c/nitrone to cis-6b, and 2b/N-methylindole to 7a, with displayed partner equivalents, times, and yields.",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ]
+        },
+        {
+          "region": "page 5 center-left Figure 1",
+          "finding": "ORTEPs of cis-5a, cis-6a, and 7a are characterization of Scheme 2 products and do not create duplicate preparations or verify machine structures.",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ]
+        },
+        {
+          "region": "page 5 upper-right Scheme 3A/B",
+          "finding": "Scheme 3A is structure/X-ray characterization of byproduct 8. Scheme 3B contains two independent potassium 2-iodobenzoate controls: no-copper/no-product and copper-complex/31% 8. The latter draws K3PO4 but prose says without K3PO4; both statements are preserved.",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ]
+        },
+        {
+          "region": "page 5 right Scheme 4 equations 1-4",
+          "finding": "Four separate radical-scavenger controls were retained with explicit additives and displayed outcomes: 21% NMR 2g with dinitrobenzene, no 2g with benzoquinone, 71% TEMPO-CF3 adduct, and 33% BHT-CF3 adduct, with non-formation of 2g where shown.",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ]
+        },
+        {
+          "region": "page 5 lower-right proposed-mechanism prose",
+          "finding": "The radical/copper mechanism begins here and continues as Scheme 5 on page 6; proposed species are represented once as a mechanism record, not preparations.",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_3d0243396cacb89f:scheme2_2b_benzaldehyde_to_cis5a",
+        "doc_3d0243396cacb89f:scheme2_2b_nitrone_to_cis6a",
+        "doc_3d0243396cacb89f:scheme2_2c_nitrone_to_cis6b",
+        "doc_3d0243396cacb89f:scheme2_2b_N_methylindole_to_7a",
+        "doc_3d0243396cacb89f:scheme3_eq1_no_copper_control",
+        "doc_3d0243396cacb89f:scheme3_eq2_byproduct8_control",
+        "doc_3d0243396cacb89f:scheme4_eq1_dinitrobenzene_control",
+        "doc_3d0243396cacb89f:scheme4_eq2_benzoquinone_control",
+        "doc_3d0243396cacb89f:scheme4_eq3_tempo_control",
+        "doc_3d0243396cacb89f:scheme4_eq4_bht_control",
+        "doc_3d0243396cacb89f:scheme5_proposed_radical_copper_mechanism"
+      ],
+      "unresolved": [
+        "Scheme 2 yield bases and operational workups are not reported.",
+        "Scheme 3 equation 2 conflicts on K3PO4 presence.",
+        "Radical-control scale, solvent volume, atmosphere, workup, and detection limits are not stated."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 6 upper-left Scheme 5",
+          "finding": "Scheme 5 is explicitly proposed: Cu(I) A, radical precursor B, Cu(II) C, syn/anti-D, Cu(III) E, product 2, and byproduct 8 are mechanistic species/pathways rather than isolated stepwise experiments.",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page6:text",
+            "doc_3d0243396cacb89f:page6:image"
+          ]
+        },
+        {
+          "region": "page 6 conclusion",
+          "finding": "Conclusion summarizes the reaction class and adds no independent experimental row, quantity, or yield.",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page6:text",
+            "doc_3d0243396cacb89f:page6:image"
+          ]
+        },
+        {
+          "region": "page 6 acknowledgments and references 1-7",
+          "finding": "Funding and prior-literature citations only; external references were not expanded into current-paper experiments.",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page6:text",
+            "doc_3d0243396cacb89f:page6:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_3d0243396cacb89f:scheme5_proposed_radical_copper_mechanism"
+      ],
+      "unresolved": [
+        "The authors explicitly state that the proposed mechanism requires further study and other possibilities may exist.",
+        "Generic R groups prevent unique encoding of most mechanistic structures."
+      ]
+    }
+  ]
+}

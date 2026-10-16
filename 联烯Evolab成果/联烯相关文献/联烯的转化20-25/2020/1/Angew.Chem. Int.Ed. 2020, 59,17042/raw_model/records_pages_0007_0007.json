@@ -1,0 +1,253 @@
+[
+  {
+    "record_id": "doc_a7587b567c3741d8:scheme3c_triazolylation_13b",
+    "document_id": "doc_a7587b567c3741d8",
+    "source_reaction_id": "scheme3c_triazolylation_13b",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_a7587b567c3741d8:page4:text",
+      "doc_a7587b567c3741d8:page4:image",
+      "doc_a7587b567c3741d8:page7:text",
+      "doc_a7587b567c3741d8:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "source-depicted dienyl quinoline-N-oxide 7 (R=Me)",
+          "evidence_ids": [
+            "doc_a7587b567c3741d8:page4:text",
+            "doc_a7587b567c3741d8:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound source-depicted dienyl quinoline-N-oxide 7 (R=Me)",
+          "evidence_ids": [
+            "doc_a7587b567c3741d8:page4:text",
+            "doc_a7587b567c3741d8:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "triazole_12",
+        "role": "reactant",
+        "label": {
+          "value": "N-sulfonylated 1,2,3-triazole 12",
+          "evidence_ids": [
+            "doc_a7587b567c3741d8:page4:text",
+            "doc_a7587b567c3741d8:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound N-sulfonylated 1,2,3-triazole 12",
+          "evidence_ids": [
+            "doc_a7587b567c3741d8:page4:text",
+            "doc_a7587b567c3741d8:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "dce",
+        "role": "solvent",
+        "label": {
+          "value": "DCE",
+          "evidence_ids": [
+            "doc_a7587b567c3741d8:page4:text",
+            "doc_a7587b567c3741d8:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,2-dichloroethane",
+          "evidence_ids": [
+            "doc_a7587b567c3741d8:page4:text",
+            "doc_a7587b567c3741d8:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "ClCCCl",
+          "evidence_ids": [
+            "doc_a7587b567c3741d8:page4:text",
+            "doc_a7587b567c3741d8:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "13b",
+          "evidence_ids": [
+            "doc_a7587b567c3741d8:page4:text",
+            "doc_a7587b567c3741d8:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 13b",
+          "evidence_ids": [
+            "doc_a7587b567c3741d8:page4:text",
+            "doc_a7587b567c3741d8:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "triazole_coupling",
+        "participant_ids": [
+          "substrate",
+          "triazole_12",
+          "dce"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_a7587b567c3741d8:page4:text",
+                "doc_a7587b567c3741d8:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "number": 86,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_a7587b567c3741d8:page4:text",
+            "doc_a7587b567c3741d8:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "measurement_basis"
+      },
+      {
+        "name": "structure_confirmation",
+        "fact": {
+          "value": "single-crystal X-ray diffraction",
+          "evidence_ids": [
+            "doc_a7587b567c3741d8:page4:text",
+            "doc_a7587b567c3741d8:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "CCDC_accession",
+        "fact": {
+          "value": "1584970",
+          "evidence_ids": [
+            "doc_a7587b567c3741d8:page4:text",
+            "doc_a7587b567c3741d8:page4:image",
+            "doc_a7587b567c3741d8:page7:text",
+            "doc_a7587b567c3741d8:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "other"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 3 on page 4 identifies 13b as the single-crystal X-ray structure and cites reference 24; reference 24 on page 7 gives CCDC 1584970. This is characterization provenance for the existing 13b experiment, not a separate preparation, not a workspace Supporting Information association, and not verification of the machine structure encoding.",
+        "evidence_ids": [
+          "doc_a7587b567c3741d8:page4:text",
+          "doc_a7587b567c3741d8:page4:image",
+          "doc_a7587b567c3741d8:page7:text",
+          "doc_a7587b567c3741d8:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI-only procedure, structure, or result was used or inferred.",
+        "Complex quinoline-N-oxides, allenes, products, metal complexes, generic R-group structures, and proposed intermediates remain source-labeled where safe complete encoding was uncertain; every structure remains structure_verified=false.",
+        "Absolute charges, DCE volume, reaction time, atmosphere, workup, purification, isolated mass, and yield basis are not reported.",
+        "CCDC 1584970 is an external crystallographic deposition; it does not establish a workspace Supporting Information association or verify the machine structure encoding."
+      ]
+    }
+  }
+]

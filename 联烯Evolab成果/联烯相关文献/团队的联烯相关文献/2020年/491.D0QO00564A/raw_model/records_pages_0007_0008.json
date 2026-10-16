@@ -1,0 +1,1408 @@
+[
+  {
+    "record_id": "doc_8df0e71d29d5470a:figure2_competing_elimination_and_direct_protodemetalation",
+    "document_id": "doc_8df0e71d29d5470a",
+    "source_reaction_id": "figure2_competing_elimination_and_direct_protodemetalation",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_8df0e71d29d5470a:page4:text",
+      "doc_8df0e71d29d5470a:page4:image",
+      "doc_8df0e71d29d5470a:page7:text",
+      "doc_8df0e71d29d5470a:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "int7",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "Int7",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page4:text",
+            "doc_8df0e71d29d5470a:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "computed iminium-CuBr intermediate Int7",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page4:text",
+            "doc_8df0e71d29d5470a:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "allene_5",
+        "role": "product",
+        "label": {
+          "value": "allene 5 (computed path a product)",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page4:text",
+            "doc_8df0e71d29d5470a:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "allylic_amine_4",
+        "role": "product",
+        "label": {
+          "value": "allylic amine 4 (computed path b product)",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page4:text",
+            "doc_8df0e71d29d5470a:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "pyrroline",
+        "role": "reagent",
+        "label": {
+          "value": "3-pyrroline",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page4:text",
+            "doc_8df0e71d29d5470a:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "3-pyrroline",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page4:text",
+            "doc_8df0e71d29d5470a:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C1=CCNC1",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page4:text",
+            "doc_8df0e71d29d5470a:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "cis_beta_N_elimination",
+        "participant_ids": [
+          "int7",
+          "allene_5"
+        ],
+        "conditions": [
+          {
+            "name": "computed_TS3_activation_barrier_relative_to_Int7",
+            "fact": {
+              "value": "24.9 kcal mol-1",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page4:text",
+                "doc_8df0e71d29d5470a:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "step_id": "trans_beta_N_elimination",
+        "participant_ids": [
+          "int7",
+          "allene_5"
+        ],
+        "conditions": [
+          {
+            "name": "computed_TS4_activation_barrier_relative_to_Int7",
+            "fact": {
+              "value": "14.3 kcal mol-1",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page4:text",
+                "doc_8df0e71d29d5470a:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "computed_overall_free_energy_change_relative_to_Int7",
+            "fact": {
+              "value": "-19.2 kcal mol-1",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page4:text",
+                "doc_8df0e71d29d5470a:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "table1_beta_N_elimination_activation_energy",
+            "fact": {
+              "value": "14.3 kcal mol-1",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page7:text",
+                "doc_8df0e71d29d5470a:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "direct_protodemetalation_TS5",
+        "participant_ids": [
+          "int7",
+          "allylic_amine_4"
+        ],
+        "conditions": [
+          {
+            "name": "computed_activation_barrier_relative_to_Int7",
+            "fact": {
+              "value": "14.2 kcal mol-1",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page4:text",
+                "doc_8df0e71d29d5470a:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "step_id": "hydroxyl_coordinated_direct_protodemetalation_TS6",
+        "participant_ids": [
+          "int7",
+          "allylic_amine_4"
+        ],
+        "conditions": [
+          {
+            "name": "computed_activation_barrier_relative_to_Int7",
+            "fact": {
+              "value": "13.5 kcal mol-1",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page4:text",
+                "doc_8df0e71d29d5470a:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Int7 rotates to hydroxyl-coordinated Int12 and proceeds through TS6",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page4:text",
+                "doc_8df0e71d29d5470a:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "operation"
+          },
+          {
+            "name": "table1_unassisted_protodemetalation_activation_energy",
+            "fact": {
+              "value": "13.5 kcal mol-1",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page7:text",
+                "doc_8df0e71d29d5470a:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "product_release",
+        "participant_ids": [
+          "allylic_amine_4",
+          "pyrroline"
+        ],
+        "conditions": [
+          {
+            "name": "computed_free_energy_change_relative_to_Int11",
+            "fact": {
+              "value": "-10.4 kcal mol-1",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page4:text",
+                "doc_8df0e71d29d5470a:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "operation",
+            "fact": {
+              "value": "CuBr coordinates to another 3-pyrroline molecule and releases allylic amine 4",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page4:text",
+                "doc_8df0e71d29d5470a:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "operation"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "computed_pathway_comparison",
+        "fact": {
+          "value": "direct TS6 protodemetalation is only 0.8 kcal mol-1 below trans beta-N elimination and is insufficient by itself to explain exclusive allylic-amine formation",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page4:text",
+            "doc_8df0e71d29d5470a:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "allylic_amine_4",
+          "allene_5"
+        ],
+        "category": "other"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Figure 2 is a computed mechanism. The text separately states that allylic amine is the only experimental product and allene is not observed; that benchmark is represented in the Scheme 3 literature record.",
+        "evidence_ids": [
+          "doc_8df0e71d29d5470a:page4:text",
+          "doc_8df0e71d29d5470a:page4:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Page-7 Table 1 summarizes the unassisted concerted protodemetalation barrier as 13.5 kcal mol-1 and the competing beta-N elimination barrier as 14.3 kcal mol-1; these are computed pathway values, not experimental yields.",
+        "evidence_ids": [
+          "doc_8df0e71d29d5470a:page7:text",
+          "doc_8df0e71d29d5470a:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Computed transition structures and intermediates are label-only; no experimental scale or measured yield belongs to Figure 2."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_8df0e71d29d5470a:figure3_water_assisted_protodemetalation",
+    "document_id": "doc_8df0e71d29d5470a",
+    "source_reaction_id": "figure3_water_assisted_protodemetalation",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_8df0e71d29d5470a:page5:text",
+      "doc_8df0e71d29d5470a:page5:image",
+      "doc_8df0e71d29d5470a:page7:text",
+      "doc_8df0e71d29d5470a:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "int7",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "Int7",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page5:text",
+            "doc_8df0e71d29d5470a:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "computed iminium-CuBr intermediate Int7",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page5:text",
+            "doc_8df0e71d29d5470a:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "water",
+        "role": "reagent",
+        "label": {
+          "value": "H2O",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page5:text",
+            "doc_8df0e71d29d5470a:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "water",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page5:text",
+            "doc_8df0e71d29d5470a:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page5:text",
+            "doc_8df0e71d29d5470a:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "allylic_amine_4",
+        "role": "product",
+        "label": {
+          "value": "allylic amine 4",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page5:text",
+            "doc_8df0e71d29d5470a:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "water_assisted_deprotonation",
+        "participant_ids": [
+          "int7",
+          "water"
+        ],
+        "conditions": [
+          {
+            "name": "computed_TS7_activation_barrier_relative_to_Int7",
+            "fact": {
+              "value": "8.1 kcal mol-1",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page5:text",
+                "doc_8df0e71d29d5470a:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "operation",
+            "fact": {
+              "value": "water abstracts H3 while the azacycle aromatizes",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page5:text",
+                "doc_8df0e71d29d5470a:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "operation"
+          },
+          {
+            "name": "table1_deprotonation_activation_energy",
+            "fact": {
+              "value": "8.1 kcal mol-1",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page7:text",
+                "doc_8df0e71d29d5470a:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "isomerization",
+        "participant_ids": [
+          "int7",
+          "water"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Int15 isomerizes to Int16",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page5:text",
+                "doc_8df0e71d29d5470a:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "operation"
+          }
+        ]
+      },
+      {
+        "step_id": "intramolecular_protodemetalation",
+        "participant_ids": [
+          "int7",
+          "water",
+          "allylic_amine_4"
+        ],
+        "conditions": [
+          {
+            "name": "computed_TS8_free_energy_description",
+            "fact": {
+              "value": "almost no free-energy barrier",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page5:text",
+                "doc_8df0e71d29d5470a:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "table1_protodemetalation_activation_energy",
+            "fact": {
+              "value": "No barrier",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page7:text",
+                "doc_8df0e71d29d5470a:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [],
+    "notes": [
+      {
+        "value": "Figure 3 is a computed one-water proton-shuttle pathway, not a performed experiment.",
+        "evidence_ids": [
+          "doc_8df0e71d29d5470a:page5:text",
+          "doc_8df0e71d29d5470a:page5:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Page-7 Table 1 summarizes the one-water model as 8.1 kcal mol-1 for deprotonation and 'No barrier' for protodemetalation; water remains a computed proton shuttle with no reported experimental dose.",
+        "evidence_ids": [
+          "doc_8df0e71d29d5470a:page7:text",
+          "doc_8df0e71d29d5470a:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Computed intermediate structures are label-only; no experimental water amount or yield belongs to this figure."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_8df0e71d29d5470a:figure4_water_cluster_assisted_protodemetalation",
+    "document_id": "doc_8df0e71d29d5470a",
+    "source_reaction_id": "figure4_water_cluster_assisted_protodemetalation",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_8df0e71d29d5470a:page5:text",
+      "doc_8df0e71d29d5470a:page5:image",
+      "doc_8df0e71d29d5470a:page7:text",
+      "doc_8df0e71d29d5470a:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "int7",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "Int7",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page5:text",
+            "doc_8df0e71d29d5470a:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "computed iminium-CuBr intermediate Int7",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page5:text",
+            "doc_8df0e71d29d5470a:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "water_cluster",
+        "role": "reagent",
+        "label": {
+          "value": "(H2O)3",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page5:text",
+            "doc_8df0e71d29d5470a:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "three-water cluster",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page5:text",
+            "doc_8df0e71d29d5470a:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "allylic_amine_4",
+        "role": "product",
+        "label": {
+          "value": "allylic amine 4",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page5:text",
+            "doc_8df0e71d29d5470a:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "water_cluster_assisted_deprotonation",
+        "participant_ids": [
+          "int7",
+          "water_cluster"
+        ],
+        "conditions": [
+          {
+            "name": "computed_TS9_activation_barrier",
+            "fact": {
+              "value": "5.2 kcal mol-1",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page5:text",
+                "doc_8df0e71d29d5470a:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "table1_deprotonation_activation_energy",
+            "fact": {
+              "value": "5.2 kcal mol-1",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page7:text",
+                "doc_8df0e71d29d5470a:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "intermolecular_protodemetalation",
+        "participant_ids": [
+          "int7",
+          "water_cluster",
+          "allylic_amine_4"
+        ],
+        "conditions": [
+          {
+            "name": "computed_TS10_activation_barrier",
+            "fact": {
+              "value": "4.2 kcal mol-1",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page5:text",
+                "doc_8df0e71d29d5470a:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "table1_protodemetalation_activation_energy",
+            "fact": {
+              "value": "4.2 kcal mol-1",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page7:text",
+                "doc_8df0e71d29d5470a:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [],
+    "notes": [
+      {
+        "value": "Figure 4 models a cluster of exactly three water molecules; this is a computed assisting species, not a reported experimental dose.",
+        "evidence_ids": [
+          "doc_8df0e71d29d5470a:page5:text",
+          "doc_8df0e71d29d5470a:page5:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Page-7 Table 1 summarizes the (H2O)3 model as 5.2 kcal mol-1 for deprotonation and 4.2 kcal mol-1 for protodemetalation; the cluster is a computational model rather than an experimental quantity.",
+        "evidence_ids": [
+          "doc_8df0e71d29d5470a:page7:text",
+          "doc_8df0e71d29d5470a:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Computed intermediate structures are label-only; no experimental water-cluster amount or yield belongs to this figure."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_8df0e71d29d5470a:figure5_3pyrroline_assisted_protodemetalation",
+    "document_id": "doc_8df0e71d29d5470a",
+    "source_reaction_id": "figure5_3pyrroline_assisted_protodemetalation",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_8df0e71d29d5470a:page5:text",
+      "doc_8df0e71d29d5470a:page5:image",
+      "doc_8df0e71d29d5470a:page7:text",
+      "doc_8df0e71d29d5470a:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "int7",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "Int7",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page5:text",
+            "doc_8df0e71d29d5470a:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "computed iminium-CuBr intermediate Int7",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page5:text",
+            "doc_8df0e71d29d5470a:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "extra_pyrroline",
+        "role": "reagent",
+        "label": {
+          "value": "additional 3-pyrroline",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page5:text",
+            "doc_8df0e71d29d5470a:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "3-pyrroline",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page5:text",
+            "doc_8df0e71d29d5470a:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C1=CCNC1",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page5:text",
+            "doc_8df0e71d29d5470a:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "allylic_amine_4",
+        "role": "product",
+        "label": {
+          "value": "allylic amine 4",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page5:text",
+            "doc_8df0e71d29d5470a:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "barrierless_deprotonation",
+        "participant_ids": [
+          "int7",
+          "extra_pyrroline"
+        ],
+        "conditions": [
+          {
+            "name": "computed_activation_barrier",
+            "fact": {
+              "value": "no barrier",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page5:text",
+                "doc_8df0e71d29d5470a:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "computed_free_energy_change",
+            "fact": {
+              "value": "-24.5 kcal mol-1",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page5:text",
+                "doc_8df0e71d29d5470a:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "operation",
+            "fact": {
+              "value": "additional 3-pyrroline abstracts H3 with azacycle aromatization",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page5:text",
+                "doc_8df0e71d29d5470a:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "operation"
+          },
+          {
+            "name": "table1_deprotonation_activation_energy",
+            "fact": {
+              "value": "No barrier",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page7:text",
+                "doc_8df0e71d29d5470a:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "intermolecular_protodemetalation",
+        "participant_ids": [
+          "int7",
+          "extra_pyrroline",
+          "allylic_amine_4"
+        ],
+        "conditions": [
+          {
+            "name": "computed_TS11_activation_barrier",
+            "fact": {
+              "value": "2.3 kcal mol-1",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page5:text",
+                "doc_8df0e71d29d5470a:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "table1_protodemetalation_activation_energy",
+            "fact": {
+              "value": "2.3 kcal mol-1",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page7:text",
+                "doc_8df0e71d29d5470a:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "computed_advantage_over_beta_N_elimination",
+        "fact": {
+          "value": "12.0 kcal mol-1 (14.3 kcal mol-1 beta-N elimination versus 2.3 kcal mol-1 3-pyrroline-assisted protodemetalation)",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page7:text",
+            "doc_8df0e71d29d5470a:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "allylic_amine_4"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Figure 5 is a computed proton-shuttle pathway. The additional 3-pyrroline is represented as a participant without an inferred experimental equivalent.",
+        "evidence_ids": [
+          "doc_8df0e71d29d5470a:page5:text",
+          "doc_8df0e71d29d5470a:page5:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Page-7 Table 1 and conclusion summarize the 3-pyrroline-assisted model as barrierless deprotonation followed by a 2.3 kcal mol-1 protodemetalation barrier; this is a computed selectivity explanation, not an experimental additive loading.",
+        "evidence_ids": [
+          "doc_8df0e71d29d5470a:page7:text",
+          "doc_8df0e71d29d5470a:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Computed intermediate structures are label-only; no experimental added 3-pyrroline amount or yield belongs to this figure."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_8df0e71d29d5470a:figure6_propargylic_alcohol_assisted_protodemetalation",
+    "document_id": "doc_8df0e71d29d5470a",
+    "source_reaction_id": "figure6_propargylic_alcohol_assisted_protodemetalation",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_8df0e71d29d5470a:page6:text",
+      "doc_8df0e71d29d5470a:page6:image",
+      "doc_8df0e71d29d5470a:page7:text",
+      "doc_8df0e71d29d5470a:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "int7",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "Int7",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page6:text",
+            "doc_8df0e71d29d5470a:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "computed iminium-CuBr intermediate Int7",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page6:text",
+            "doc_8df0e71d29d5470a:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "alkynol_1",
+        "role": "reagent",
+        "label": {
+          "value": "propargylic alcohol 1",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page6:text",
+            "doc_8df0e71d29d5470a:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2-methylbut-3-yn-2-ol",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page6:text",
+            "doc_8df0e71d29d5470a:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C#CC(C)(C)O",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page6:text",
+            "doc_8df0e71d29d5470a:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "allylic_amine_4",
+        "role": "product",
+        "label": {
+          "value": "allylic amine 4",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page6:text",
+            "doc_8df0e71d29d5470a:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "alkynol_assisted_deprotonation",
+        "participant_ids": [
+          "int7",
+          "alkynol_1"
+        ],
+        "conditions": [
+          {
+            "name": "computed_TS12_activation_barrier",
+            "fact": {
+              "value": "10.1 kcal mol-1",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page6:text",
+                "doc_8df0e71d29d5470a:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "table1_deprotonation_activation_energy",
+            "fact": {
+              "value": "10.1 kcal mol-1",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page7:text",
+                "doc_8df0e71d29d5470a:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "intramolecular_protodemetalation",
+        "participant_ids": [
+          "int7",
+          "alkynol_1",
+          "allylic_amine_4"
+        ],
+        "conditions": [
+          {
+            "name": "computed_TS13_activation_barrier",
+            "fact": {
+              "value": "1.8 kcal mol-1",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page6:text",
+                "doc_8df0e71d29d5470a:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "table1_protodemetalation_activation_energy",
+            "fact": {
+              "value": "1.8 kcal mol-1",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page7:text",
+                "doc_8df0e71d29d5470a:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [],
+    "notes": [
+      {
+        "value": "Figure 6 is a computed pathway in which reactant 1 also acts as a proton shuttle; no experimental shuttle loading is inferred.",
+        "evidence_ids": [
+          "doc_8df0e71d29d5470a:page6:text",
+          "doc_8df0e71d29d5470a:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Page-7 Table 1 summarizes the propargylic-alcohol-assisted model as 10.1 kcal mol-1 for deprotonation and 1.8 kcal mol-1 for protodemetalation; reactant 1 is modeled as a shuttle without a separate experimental dose.",
+        "evidence_ids": [
+          "doc_8df0e71d29d5470a:page7:text",
+          "doc_8df0e71d29d5470a:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Computed intermediate structures are label-only; no experimental propargylic-alcohol amount or yield belongs to Figure 6."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_8df0e71d29d5470a:figure7_hydroxyl_effect_transition_state_comparison",
+    "document_id": "doc_8df0e71d29d5470a",
+    "source_reaction_id": "figure7_hydroxyl_effect_transition_state_comparison",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_8df0e71d29d5470a:page6:text",
+      "doc_8df0e71d29d5470a:page6:image",
+      "doc_8df0e71d29d5470a:page7:text",
+      "doc_8df0e71d29d5470a:page7:image",
+      "doc_8df0e71d29d5470a:page8:text",
+      "doc_8df0e71d29d5470a:page8:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "alkynol_1",
+        "role": "reactant",
+        "label": {
+          "value": "2-methylbut-3-yn-2-ol system",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page6:text",
+            "doc_8df0e71d29d5470a:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2-methylbut-3-yn-2-ol",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page6:text",
+            "doc_8df0e71d29d5470a:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C#CC(C)(C)O",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page6:text",
+            "doc_8df0e71d29d5470a:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "octyne",
+        "role": "reactant",
+        "label": {
+          "value": "1-octyne system",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page6:text",
+            "doc_8df0e71d29d5470a:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1-octyne",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page6:text",
+            "doc_8df0e71d29d5470a:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C#CCCCCCC",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page6:text",
+            "doc_8df0e71d29d5470a:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "TS2_1",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "TS2_1",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page6:text",
+            "doc_8df0e71d29d5470a:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "computed hydroxyl-containing 1,5-H-transfer transition structure",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page6:text",
+            "doc_8df0e71d29d5470a:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "TS15_1",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "TS15_1",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page6:text",
+            "doc_8df0e71d29d5470a:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "computed 1-octyne 1,5-H-transfer transition structure",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page6:text",
+            "doc_8df0e71d29d5470a:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "computed_transition_state_comparison",
+        "participant_ids": [
+          "alkynol_1",
+          "octyne",
+          "TS2_1",
+          "TS15_1"
+        ],
+        "conditions": [
+          {
+            "name": "TS2_1_computed_activation_barrier",
+            "fact": {
+              "value": "27.7 kcal mol-1",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page6:text",
+                "doc_8df0e71d29d5470a:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "TS15_1_computed_activation_barrier",
+            "fact": {
+              "value": "28.8 kcal mol-1",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page6:text",
+                "doc_8df0e71d29d5470a:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "TS2_1_O_H_distance",
+            "fact": {
+              "value": "2.51 Å",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page6:text",
+                "doc_8df0e71d29d5470a:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "operation",
+            "fact": {
+              "value": "the hydroxyl-group hydrogen bond stabilizes TS2_1 relative to the 1-octyne transition structure",
+              "evidence_ids": [
+                "doc_8df0e71d29d5470a:page6:text",
+                "doc_8df0e71d29d5470a:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "operation"
+          }
+        ]
+      }
+    ],
+    "outcomes": [],
+    "notes": [
+      {
+        "value": "Figure 7 is a computed transition-state comparison, not a second experimental 1-octyne run.",
+        "evidence_ids": [
+          "doc_8df0e71d29d5470a:page6:text",
+          "doc_8df0e71d29d5470a:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The page-7 conclusion reiterates that hydrogen bonding by the terminal-alkyne hydroxyl group facilitates the rate-determining 1,5-H transfer. Page-8 footnote 15 directs the full computed 1-octyne results to Electronic Supplementary Information; no SI file is associated or imported.",
+        "evidence_ids": [
+          "doc_8df0e71d29d5470a:page7:text",
+          "doc_8df0e71d29d5470a:page7:image",
+          "doc_8df0e71d29d5470a:page8:text",
+          "doc_8df0e71d29d5470a:page8:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The compared transition structures are label-only and do not supply experimental scale, conditions, or yield.",
+        "Supporting Information association remains unestablished; page-8 footnote 15 was not used to infer or import unprovided 1-octyne calculations."
+      ]
+    }
+  }
+]

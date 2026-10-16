@@ -1,0 +1,1702 @@
+[
+  {
+    "record_id": "doc_3d0243396cacb89f:scheme2_2b_benzaldehyde_to_cis5a",
+    "document_id": "doc_3d0243396cacb89f",
+    "source_reaction_id": "scheme2_2b_benzaldehyde_to_cis5a",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_3d0243396cacb89f:page5:text",
+      "doc_3d0243396cacb89f:page5:image",
+      "doc_3d0243396cacb89f:page7:text",
+      "doc_3d0243396cacb89f:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "cyclopropane",
+        "role": "reactant",
+        "label": {
+          "value": "2b",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled trifluoromethylated vinyl cyclopropane 2b",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "COC(=O)C1(C(=O)OC)CC1C(C(F)(F)F)=C(C)C",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "coupling_partner",
+        "role": "reactant",
+        "label": {
+          "value": "benzaldehyde",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "benzaldehyde",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O=Cc1ccccc1",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 3,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_3d0243396cacb89f:page5:text",
+                "doc_3d0243396cacb89f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "scotf3",
+        "role": "catalyst",
+        "label": {
+          "value": "Sc(OTf)3",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "scandium(III) triflate",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_3d0243396cacb89f:page5:text",
+                "doc_3d0243396cacb89f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "dce",
+        "role": "solvent",
+        "label": {
+          "value": "DCE",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,2-dichloroethane",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "ClCCCl",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "cis-5a",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled ring-opening product cis-5a",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "ScOTf3_catalyzed_ring_opening",
+        "participant_ids": [
+          "cyclopropane",
+          "coupling_partner",
+          "scotf3",
+          "dce"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 30,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_3d0243396cacb89f:page5:text",
+                "doc_3d0243396cacb89f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 36,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_3d0243396cacb89f:page5:text",
+                "doc_3d0243396cacb89f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "number": 85,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "measurement_basis"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Each arrow in Scheme 2 is retained as an independent reaction. Figure 1 ORTEPs are characterization, not additional preparations.",
+        "evidence_ids": [
+          "doc_3d0243396cacb89f:page5:text",
+          "doc_3d0243396cacb89f:page5:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Page 7 footnote 12 states that X-ray single-crystal data for cis-5a, cis-6a, 7a, and 8 are in Supporting Information. No SI file is explicitly associated in the workspace, so no SI crystallographic fact was imported.",
+        "evidence_ids": [
+          "doc_3d0243396cacb89f:page7:text",
+          "doc_3d0243396cacb89f:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association is unestablished; no SI facts were used or inferred.",
+        "Every candidate structure remains structure_verified=false; parsing and visual inspection do not establish chemical correctness.",
+        "Absolute scale, DCE volume, atmosphere, workup, purification, isolated mass, and yield basis are not reported on pages 1–6.",
+        "The compact stereochemical product structure remains label-only with null SMILES.",
+        "Page 7 footnote 12 points to SI crystallographic data, but Supporting Information association remains unestablished."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_3d0243396cacb89f:scheme2_2b_nitrone_to_cis6a",
+    "document_id": "doc_3d0243396cacb89f",
+    "source_reaction_id": "scheme2_2b_nitrone_to_cis6a",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_3d0243396cacb89f:page5:text",
+      "doc_3d0243396cacb89f:page5:image",
+      "doc_3d0243396cacb89f:page7:text",
+      "doc_3d0243396cacb89f:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "cyclopropane",
+        "role": "reactant",
+        "label": {
+          "value": "2b",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled trifluoromethylated vinyl cyclopropane 2b",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "COC(=O)C1(C(=O)OC)CC1C(C(F)(F)F)=C(C)C",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "coupling_partner",
+        "role": "reactant",
+        "label": {
+          "value": "nitrone",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N-phenyl-C-phenylnitrone",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_3d0243396cacb89f:page5:text",
+                "doc_3d0243396cacb89f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "scotf3",
+        "role": "catalyst",
+        "label": {
+          "value": "Sc(OTf)3",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "scandium(III) triflate",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_3d0243396cacb89f:page5:text",
+                "doc_3d0243396cacb89f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "dce",
+        "role": "solvent",
+        "label": {
+          "value": "DCE",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,2-dichloroethane",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "ClCCCl",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "cis-6a",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled ring-opening product cis-6a",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "ScOTf3_catalyzed_ring_opening",
+        "participant_ids": [
+          "cyclopropane",
+          "coupling_partner",
+          "scotf3",
+          "dce"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 30,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_3d0243396cacb89f:page5:text",
+                "doc_3d0243396cacb89f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 12,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_3d0243396cacb89f:page5:text",
+                "doc_3d0243396cacb89f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "number": 81,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "measurement_basis"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Each arrow in Scheme 2 is retained as an independent reaction. Figure 1 ORTEPs are characterization, not additional preparations.",
+        "evidence_ids": [
+          "doc_3d0243396cacb89f:page5:text",
+          "doc_3d0243396cacb89f:page5:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Page 7 footnote 12 states that X-ray single-crystal data for cis-5a, cis-6a, 7a, and 8 are in Supporting Information. No SI file is explicitly associated in the workspace, so no SI crystallographic fact was imported.",
+        "evidence_ids": [
+          "doc_3d0243396cacb89f:page7:text",
+          "doc_3d0243396cacb89f:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association is unestablished; no SI facts were used or inferred.",
+        "Every candidate structure remains structure_verified=false; parsing and visual inspection do not establish chemical correctness.",
+        "Absolute scale, DCE volume, atmosphere, workup, purification, isolated mass, and yield basis are not reported on pages 1–6.",
+        "The compact stereochemical product structure remains label-only with null SMILES.",
+        "Page 7 footnote 12 points to SI crystallographic data, but Supporting Information association remains unestablished."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_3d0243396cacb89f:scheme2_2b_N_methylindole_to_7a",
+    "document_id": "doc_3d0243396cacb89f",
+    "source_reaction_id": "scheme2_2b_N_methylindole_to_7a",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_3d0243396cacb89f:page5:text",
+      "doc_3d0243396cacb89f:page5:image",
+      "doc_3d0243396cacb89f:page7:text",
+      "doc_3d0243396cacb89f:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "cyclopropane",
+        "role": "reactant",
+        "label": {
+          "value": "2b",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled trifluoromethylated vinyl cyclopropane 2b",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "COC(=O)C1(C(=O)OC)CC1C(C(F)(F)F)=C(C)C",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "coupling_partner",
+        "role": "reactant",
+        "label": {
+          "value": "N-methylindole",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N-methylindole",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cn1ccc2ccccc21",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_3d0243396cacb89f:page5:text",
+                "doc_3d0243396cacb89f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "scotf3",
+        "role": "catalyst",
+        "label": {
+          "value": "Sc(OTf)3",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "scandium(III) triflate",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_3d0243396cacb89f:page5:text",
+                "doc_3d0243396cacb89f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "dce",
+        "role": "solvent",
+        "label": {
+          "value": "DCE",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,2-dichloroethane",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "ClCCCl",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "7a",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled ring-opening product 7a",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "ScOTf3_catalyzed_ring_opening",
+        "participant_ids": [
+          "cyclopropane",
+          "coupling_partner",
+          "scotf3",
+          "dce"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 30,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_3d0243396cacb89f:page5:text",
+                "doc_3d0243396cacb89f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 12,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_3d0243396cacb89f:page5:text",
+                "doc_3d0243396cacb89f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "number": 90,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "measurement_basis"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Each arrow in Scheme 2 is retained as an independent reaction. Figure 1 ORTEPs are characterization, not additional preparations.",
+        "evidence_ids": [
+          "doc_3d0243396cacb89f:page5:text",
+          "doc_3d0243396cacb89f:page5:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Page 7 footnote 12 states that X-ray single-crystal data for cis-5a, cis-6a, 7a, and 8 are in Supporting Information. No SI file is explicitly associated in the workspace, so no SI crystallographic fact was imported.",
+        "evidence_ids": [
+          "doc_3d0243396cacb89f:page7:text",
+          "doc_3d0243396cacb89f:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association is unestablished; no SI facts were used or inferred.",
+        "Every candidate structure remains structure_verified=false; parsing and visual inspection do not establish chemical correctness.",
+        "Absolute scale, DCE volume, atmosphere, workup, purification, isolated mass, and yield basis are not reported on pages 1–6.",
+        "The compact stereochemical product structure remains label-only with null SMILES.",
+        "Page 7 footnote 12 points to SI crystallographic data, but Supporting Information association remains unestablished."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_3d0243396cacb89f:scheme3_eq2_byproduct8_control",
+    "document_id": "doc_3d0243396cacb89f",
+    "source_reaction_id": "scheme3_eq2_byproduct8_control",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_3d0243396cacb89f:page5:text",
+      "doc_3d0243396cacb89f:page5:image",
+      "doc_3d0243396cacb89f:page7:text",
+      "doc_3d0243396cacb89f:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "potassium_salt",
+        "role": "reactant",
+        "label": {
+          "value": "potassium 2-iodobenzoate",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "potassium 2-iodobenzoate",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[K+].[O-]C(=O)c1ccccc1I",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "Cu(OAc)2",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(II) acetate",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_3d0243396cacb89f:page5:text",
+                "doc_3d0243396cacb89f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand",
+        "role": "reagent",
+        "label": {
+          "value": "L2",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,10-phenanthroline",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "c1ccc2ncc3cccnc3c2c1",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 20,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_3d0243396cacb89f:page5:text",
+                "doc_3d0243396cacb89f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "k3po4",
+        "role": "reagent",
+        "label": {
+          "value": "K3PO4",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "potassium phosphate",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[K+].[K+].[K+].[O-]P([O-])([O-])=O",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "scheme_equivalents",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_3d0243396cacb89f:page5:text",
+                "doc_3d0243396cacb89f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "tbai",
+        "role": "reagent",
+        "label": {
+          "value": "TBAI",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrabutylammonium iodide",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCCC[N+](CCCC)(CCCC)CCCC.[I-]",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_3d0243396cacb89f:page5:text",
+                "doc_3d0243396cacb89f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "dcm",
+        "role": "solvent",
+        "label": {
+          "value": "CH2Cl2",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "dichloromethane",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "ClCCl",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "8",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "methylene bis(2-iodobenzoate) 8",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O=C(OCOC(=O)c1ccccc1I)c1ccccc1I",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "copper_complex_control",
+        "participant_ids": [
+          "potassium_salt",
+          "catalyst",
+          "ligand",
+          "k3po4",
+          "tbai",
+          "dcm"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 50,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_3d0243396cacb89f:page5:text",
+                "doc_3d0243396cacb89f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 12,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_3d0243396cacb89f:page5:text",
+                "doc_3d0243396cacb89f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield_8",
+        "fact": {
+          "value": {
+            "number": 31,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page5:text",
+            "doc_3d0243396cacb89f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "measurement_basis"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 3 equation 2 draws K3PO4 (2 equiv), whereas the adjacent prose says the control was run without allene and K3PO4; both source statements are preserved without correction.",
+        "evidence_ids": [
+          "doc_3d0243396cacb89f:page5:text",
+          "doc_3d0243396cacb89f:page5:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Page 7 footnote 12 states that X-ray single-crystal data for cis-5a, cis-6a, 7a, and 8 are in Supporting Information. No SI file is explicitly associated in the workspace, so no SI crystallographic fact was imported.",
+        "evidence_ids": [
+          "doc_3d0243396cacb89f:page7:text",
+          "doc_3d0243396cacb89f:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association is unestablished; no SI facts were used or inferred.",
+        "Every candidate structure remains structure_verified=false; parsing and visual inspection do not establish chemical correctness.",
+        "K3PO4 presence conflicts between the drawn arrow (2 equiv) and prose (without K3PO4).",
+        "Reactant amount, solvent volume, atmosphere, workup, purification, isolated mass, and yield basis are not reported.",
+        "Page 7 footnote 12 points to SI crystallographic data, but Supporting Information association remains unestablished."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_3d0243396cacb89f:scheme1D_current_generic_cyclopropanation_concept",
+    "document_id": "doc_3d0243396cacb89f",
+    "source_reaction_id": "scheme1D_current_generic_cyclopropanation_concept",
+    "record_kind": "general_scheme",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_3d0243396cacb89f:page3:text",
+      "doc_3d0243396cacb89f:page3:image",
+      "doc_3d0243396cacb89f:page8:text",
+      "doc_3d0243396cacb89f:page8:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "generic_allenyl_malonate",
+        "role": "reactant",
+        "label": {
+          "value": "generic allenyl malonate 1",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page3:text",
+            "doc_3d0243396cacb89f:page3:image",
+            "doc_3d0243396cacb89f:page8:text",
+            "doc_3d0243396cacb89f:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cf3_source",
+        "role": "reagent",
+        "label": {
+          "value": "Togni's reagent II",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "Togni's reagent II",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_3d0243396cacb89f:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "transition_metal",
+        "role": "catalyst",
+        "label": {
+          "value": "Cu(OAc)2",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(II) acetate",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_3d0243396cacb89f:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "desired_2",
+        "role": "product",
+        "label": {
+          "value": "trifluoromethylated vinyl cyclopropane 2",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page3:text",
+            "doc_3d0243396cacb89f:page3:image",
+            "doc_3d0243396cacb89f:page8:text",
+            "doc_3d0243396cacb89f:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "undesired_3",
+        "role": "product",
+        "label": {
+          "value": "five-membered product 3",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page3:text",
+            "doc_3d0243396cacb89f:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "phenanthroline",
+        "role": "reagent",
+        "label": {
+          "value": "Phen",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,10-phenanthroline",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "c1ccc2ncc3cccnc3c2c1",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 20,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_3d0243396cacb89f:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "tbai",
+        "role": "reagent",
+        "label": {
+          "value": "TBAI",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrabutylammonium iodide",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCCC[N+](CCCC)(CCCC)CCCC.[I-]",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_3d0243396cacb89f:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "k3po4",
+        "role": "reagent",
+        "label": {
+          "value": "K3PO4",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "potassium phosphate",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[K+].[K+].[K+].[O-]P([O-])([O-])=O",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_3d0243396cacb89f:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "dcm",
+        "role": "solvent",
+        "label": {
+          "value": "CH2Cl2",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "dichloromethane",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "ClCCl",
+          "evidence_ids": [
+            "doc_3d0243396cacb89f:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "graphic_abstract_generic_cyclopropanation",
+        "participant_ids": [
+          "generic_allenyl_malonate",
+          "cf3_source",
+          "transition_metal",
+          "phenanthroline",
+          "tbai",
+          "k3po4",
+          "dcm"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 50,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_3d0243396cacb89f:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [],
+    "notes": [
+      {
+        "value": "Scheme 1D is the authors' generic concept. The question mark and generic R groups do not define an experiment-specific outcome.",
+        "evidence_ids": [
+          "doc_3d0243396cacb89f:page3:text",
+          "doc_3d0243396cacb89f:page3:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The page-8 graphical abstract summarizes the same generic current cyclopropanation as Scheme 1D and is merged into that general-scheme record; it is not a separately performed experiment.",
+        "evidence_ids": [
+          "doc_3d0243396cacb89f:page8:text",
+          "doc_3d0243396cacb89f:page8:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The graphical abstract claims further CF3 incorporation into other organic skeletons via C-C bond cleavage, but it gives no downstream reactant, product, condition, or yield and therefore does not define another experiment.",
+        "evidence_ids": [
+          "doc_3d0243396cacb89f:page8:text",
+          "doc_3d0243396cacb89f:page8:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Generic R1/R2/R3 groups prevent unique structure encoding for the graphical-abstract substrate and product.",
+        "The graphical abstract reports no reaction scale, time, atmosphere, yield, measurement basis, workup, or purification.",
+        "The downstream C-C bond-cleavage claim is aggregate and does not identify an experiment-specific transformation."
+      ]
+    }
+  }
+]

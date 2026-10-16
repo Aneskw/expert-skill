@@ -1,0 +1,66 @@
+{
+  "document_id": "doc_fa3f364a2a4099d3",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 7 left column and upper-right references 12–45 and 47–51",
+          "finding": "Bibliography and prior-literature citations only; external papers were not expanded into experiments of the current article.",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page7:text",
+            "doc_fa3f364a2a4099d3:page7:image"
+          ]
+        },
+        {
+          "region": "page 7 lower-left to upper-right footnote 46 crystal data for (S)-3ga",
+          "finding": "Footnote 46 gives crystallographic parameters and CCDC 1506167 for the existing Table 3 product (S)-3ga. It is characterization, not a new preparation, not an SI association, and not machine-structure verification.",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page7:text",
+            "doc_fa3f364a2a4099d3:page7:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_fa3f364a2a4099d3:table3_3ga"
+      ],
+      "unresolved": [
+        "CCDC 1506167 is a crystallographic deposition rather than an explicitly associated workspace Supporting Information file.",
+        "The scope record still lacks workup, purification, isolated mass, and ee analytical method.",
+        "Crystallography supports the source assignment but does not certify a machine SMILES; the product remains label-only and structure_verified=false."
+      ]
+    },
+    {
+      "page": 8,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 8 upper-center graphical reaction arrow and Trost-ligand inset",
+          "finding": "The graphical abstract repeats the existing generic current-work coupling-cyclization and adds Pd2(dba)3·CHCl3 2.5 mol%, Trost ligand 7.5 mol%, Cs2CO3 2 equiv, aryl iodide 2 equiv, benzene, and 90 °C. It updates the general-scheme record rather than creating an experiment.",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page8:text",
+            "doc_fa3f364a2a4099d3:page8:image"
+          ]
+        },
+        {
+          "region": "page 8 product annotation and lower summary sentence",
+          "finding": "The generic oxazoline is annotated 'up to 92% yield' and 'up to 96% ee'; these are aggregate maxima and not attributed to a single independently specified run. The sentence is a graphical-summary conclusion, not a new reaction record.",
+          "evidence_ids": [
+            "doc_fa3f364a2a4099d3:page8:text",
+            "doc_fa3f364a2a4099d3:page8:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_fa3f364a2a4099d3:scheme2B_current_generic_coupling_cyclization"
+      ],
+      "unresolved": [
+        "Generic R1/R2 groups do not define unique structures.",
+        "Reaction time, scale, atmosphere, workup, purification, isolated mass, and analytical bases are absent from the graphical abstract.",
+        "The aggregate maxima cannot be assigned to one scope entry without inference."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6041 @@
+[
+  {
+    "record_id": "doc_c8d7aa1fd1d8269f:table4_scope_3v",
+    "document_id": "doc_c8d7aa1fd1d8269f",
+    "source_reaction_id": "table4_scope_3v",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c8d7aa1fd1d8269f:page5:text",
+      "doc_c8d7aa1fd1d8269f:page5:image",
+      "doc_c8d7aa1fd1d8269f:page6:text",
+      "doc_c8d7aa1fd1d8269f:page6:image",
+      "doc_c8d7aa1fd1d8269f:page7:text",
+      "doc_c8d7aa1fd1d8269f:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "(±)-3v",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (±)-3v",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "shared_caption_substrate_amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "nickel",
+        "role": "catalyst",
+        "label": {
+          "value": "Ni(OAc)2",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "nickel(II) acetate",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(=O)O[Ni]OC(C)=O",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand",
+        "role": "catalyst",
+        "label": {
+          "value": "(S,S)-Ph-BPE",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (S,S)-Ph-BPE",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "hydrogen",
+        "role": "reactant",
+        "label": {
+          "value": "H2",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "hydrogen",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[H][H]",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "CH2Cl2",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "dichloromethane",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "ClCCl",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "volume"
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "(S,E)-4v",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (S,E)-4v",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "recovered",
+        "role": "product",
+        "label": {
+          "value": "recovered (±)-3v",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound recovered (±)-3v",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "asymmetric_semihydrogenation",
+        "participant_ids": [
+          "substrate",
+          "nickel",
+          "ligand",
+          "hydrogen",
+          "solvent"
+        ],
+        "conditions": [
+          {
+            "name": "hydrogen_pressure",
+            "fact": {
+              "value": "1 atm",
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 12.5,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "conversion",
+        "fact": {
+          "value": "trace",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "substrate"
+        ],
+        "category": "conversion"
+      },
+      {
+        "name": "recovered_starting_material_observation",
+        "fact": {
+          "value": "recovered",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "recovered"
+        ],
+        "category": "recovery"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Each Table 4 structure/result block is a distinct scope experiment; footnotes b-k override only the conditions printed in that footnote.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page5:text",
+          "doc_c8d7aa1fd1d8269f:page5:image",
+          "doc_c8d7aa1fd1d8269f:page6:text",
+          "doc_c8d7aa1fd1d8269f:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The shared caption literally prints 0.1 mmol of (±)-1a although the table title, scheme, and row labels are 3a-3x. The printed quantity and row labels are both retained, and the label discrepancy is not silently corrected.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page5:text",
+          "doc_c8d7aa1fd1d8269f:page5:image",
+          "doc_c8d7aa1fd1d8269f:page6:text",
+          "doc_c8d7aa1fd1d8269f:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Page 7 states that thienyl-substituted allene 3v showed very poor conversion; this is the narrative description of the existing Table 4 trace-conversion row, not a second run.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page7:text",
+          "doc_c8d7aa1fd1d8269f:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "All candidate structures remain structure_verified=false; parsing, visual inspection, spectroscopy, crystallography, and calculations do not certify a machine structure encoding.",
+        "Table 4 shared-caption substrate-label conflict remains: the caption prints (±)-1a while displayed rows are 3a-3x.",
+        "Scope structures other than 3a/4a remain source-labeled with null SMILES.",
+        "Workup, purification, isolated masses, and the exact numerical temperature represented by r.t. are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c8d7aa1fd1d8269f:table4_scope_3w",
+    "document_id": "doc_c8d7aa1fd1d8269f",
+    "source_reaction_id": "table4_scope_3w",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c8d7aa1fd1d8269f:page5:text",
+      "doc_c8d7aa1fd1d8269f:page5:image",
+      "doc_c8d7aa1fd1d8269f:page6:text",
+      "doc_c8d7aa1fd1d8269f:page6:image",
+      "doc_c8d7aa1fd1d8269f:page7:text",
+      "doc_c8d7aa1fd1d8269f:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "(±)-3w",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (±)-3w",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "shared_caption_substrate_amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "nickel",
+        "role": "catalyst",
+        "label": {
+          "value": "Ni(OAc)2",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "nickel(II) acetate",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(=O)O[Ni]OC(C)=O",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand",
+        "role": "catalyst",
+        "label": {
+          "value": "(S,S)-Ph-BPE",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (S,S)-Ph-BPE",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "hydrogen",
+        "role": "reactant",
+        "label": {
+          "value": "H2",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "hydrogen",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[H][H]",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "CH2Cl2",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "dichloromethane",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "ClCCl",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "volume"
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "(S,E)-4w",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (S,E)-4w",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "recovered",
+        "role": "product",
+        "label": {
+          "value": "recovered (±)-3w",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound recovered (±)-3w",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "asymmetric_semihydrogenation",
+        "participant_ids": [
+          "substrate",
+          "nickel",
+          "ligand",
+          "hydrogen",
+          "solvent"
+        ],
+        "conditions": [
+          {
+            "name": "hydrogen_pressure",
+            "fact": {
+              "value": "1 atm",
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 12.5,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reaction_outcome",
+        "fact": {
+          "value": "no reaction",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "conversion_source_marker",
+        "fact": {
+          "value": "NR",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "substrate"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "recovered_starting_material_observation",
+        "fact": {
+          "value": "recovered",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "recovered"
+        ],
+        "category": "recovery"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Each Table 4 structure/result block is a distinct scope experiment; footnotes b-k override only the conditions printed in that footnote.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page5:text",
+          "doc_c8d7aa1fd1d8269f:page5:image",
+          "doc_c8d7aa1fd1d8269f:page6:text",
+          "doc_c8d7aa1fd1d8269f:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The shared caption literally prints 0.1 mmol of (±)-1a although the table title, scheme, and row labels are 3a-3x. The printed quantity and row labels are both retained, and the label discrepancy is not silently corrected.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page5:text",
+          "doc_c8d7aa1fd1d8269f:page5:image",
+          "doc_c8d7aa1fd1d8269f:page6:text",
+          "doc_c8d7aa1fd1d8269f:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Page 7 states that the tetrasubstituted allene bearing three alkyl substituents 3w gave no reaction; this is the narrative description of the existing Table 4 NR row, not a second run.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page7:text",
+          "doc_c8d7aa1fd1d8269f:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "All candidate structures remain structure_verified=false; parsing, visual inspection, spectroscopy, crystallography, and calculations do not certify a machine structure encoding.",
+        "Table 4 shared-caption substrate-label conflict remains: the caption prints (±)-1a while displayed rows are 3a-3x.",
+        "Scope structures other than 3a/4a remain source-labeled with null SMILES.",
+        "Workup, purification, isolated masses, and the exact numerical temperature represented by r.t. are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c8d7aa1fd1d8269f:table4_scope_3x",
+    "document_id": "doc_c8d7aa1fd1d8269f",
+    "source_reaction_id": "table4_scope_3x",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c8d7aa1fd1d8269f:page5:text",
+      "doc_c8d7aa1fd1d8269f:page5:image",
+      "doc_c8d7aa1fd1d8269f:page6:text",
+      "doc_c8d7aa1fd1d8269f:page6:image",
+      "doc_c8d7aa1fd1d8269f:page7:text",
+      "doc_c8d7aa1fd1d8269f:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "(±)-3x",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (±)-3x",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "shared_caption_substrate_amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "nickel",
+        "role": "catalyst",
+        "label": {
+          "value": "Ni(OAc)2",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "nickel(II) acetate",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(=O)O[Ni]OC(C)=O",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand",
+        "role": "catalyst",
+        "label": {
+          "value": "(S,S)-Ph-BPE",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (S,S)-Ph-BPE",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "hydrogen",
+        "role": "reactant",
+        "label": {
+          "value": "H2",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "hydrogen",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[H][H]",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "HFIP",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "hexafluoroisopropanol",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "OC(C(F)(F)F)C(F)(F)F",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "volume"
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "(S,E)-4x",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (S,E)-4x",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "recovered",
+        "role": "product",
+        "label": {
+          "value": "recovered (S)-3x",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound recovered (S)-3x",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "asymmetric_semihydrogenation",
+        "participant_ids": [
+          "substrate",
+          "nickel",
+          "ligand",
+          "hydrogen",
+          "solvent"
+        ],
+        "conditions": [
+          {
+            "name": "hydrogen_pressure",
+            "fact": {
+              "value": "30 atm",
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 25,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 40,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield_product",
+        "fact": {
+          "value": {
+            "number": 59,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "product_enantiomeric_excess",
+        "fact": {
+          "value": {
+            "number": 57,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "recovered_starting_material_yield",
+        "fact": {
+          "value": {
+            "number": 30,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "recovered"
+        ],
+        "category": "recovery"
+      },
+      {
+        "name": "recovered_allene_enantiomeric_excess",
+        "fact": {
+          "value": {
+            "number": 96,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "recovered"
+        ],
+        "category": "recovery"
+      },
+      {
+        "name": "conversion",
+        "fact": {
+          "value": {
+            "number": 64,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "substrate"
+        ],
+        "category": "conversion"
+      },
+      {
+        "name": "selectivity_factor_s",
+        "fact": {
+          "value": 12,
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product",
+          "recovered"
+        ],
+        "category": "selectivity"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product",
+          "recovered"
+        ],
+        "category": "measurement_basis"
+      },
+      {
+        "name": "conversion_measurement_basis",
+        "fact": {
+          "value": "crude 1H NMR analysis",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "substrate"
+        ],
+        "category": "measurement_basis"
+      },
+      {
+        "name": "ee_measurement_basis",
+        "fact": {
+          "value": "chiral HPLC analysis",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product",
+          "recovered"
+        ],
+        "category": "measurement_basis"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Each Table 4 structure/result block is a distinct scope experiment; footnotes b-k override only the conditions printed in that footnote.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page5:text",
+          "doc_c8d7aa1fd1d8269f:page5:image",
+          "doc_c8d7aa1fd1d8269f:page6:text",
+          "doc_c8d7aa1fd1d8269f:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The shared caption literally prints 0.1 mmol of (±)-1a although the table title, scheme, and row labels are 3a-3x. The printed quantity and row labels are both retained, and the label discrepancy is not silently corrected.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page5:text",
+          "doc_c8d7aa1fd1d8269f:page5:image",
+          "doc_c8d7aa1fd1d8269f:page6:text",
+          "doc_c8d7aa1fd1d8269f:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Page 7 restates the phosphine-oxide 3x experiment: product 4x 59% yield/57% ee, recovered 3x 30% yield/96% ee, and s = 12; it is merged with the existing Table 4 row.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page7:text",
+          "doc_c8d7aa1fd1d8269f:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "All candidate structures remain structure_verified=false; parsing, visual inspection, spectroscopy, crystallography, and calculations do not certify a machine structure encoding.",
+        "Table 4 shared-caption substrate-label conflict remains: the caption prints (±)-1a while displayed rows are 3a-3x.",
+        "Scope structures other than 3a/4a remain source-labeled with null SMILES.",
+        "Workup, purification, isolated masses, and the exact numerical temperature represented by r.t. are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c8d7aa1fd1d8269f:page7_trisubstituted_allene_without_Ts_mess",
+    "document_id": "doc_c8d7aa1fd1d8269f",
+    "source_reaction_id": "page7_trisubstituted_allene_without_Ts_mess",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c8d7aa1fd1d8269f:page7:text",
+      "doc_c8d7aa1fd1d8269f:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "1-(3,4-dimethylpenta-1,2-dien-1-yl)-4-methoxybenzene",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1-(3,4-dimethylpenta-1,2-dien-1-yl)-4-methoxybenzene",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "COc1ccc(C=C=C(C)C(C)C)cc1",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "mixture",
+        "role": "product",
+        "label": {
+          "value": "mess reaction system",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "unresolved reaction mixture",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "asymmetric_semihydrogenation_trial",
+        "participant_ids": [
+          "substrate"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "examined in the Ni-catalyzed asymmetric semihydrogenation transformation",
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page7:text",
+                "doc_c8d7aa1fd1d8269f:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reaction_outcome",
+        "fact": {
+          "value": "mess reaction system",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "mixture"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "This trisubstituted allene lacking the Ts group is described in the page-7 prose but is not displayed as a numbered Table 4 row.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page7:text",
+          "doc_c8d7aa1fd1d8269f:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "All candidate structures remain structure_verified=false; parsing, visual inspection, spectroscopy, crystallography, and calculations do not certify a machine structure encoding.",
+        "The prose does not print the exact catalyst/ligand loading, H2 pressure, solvent, substrate scale, temperature, time, mixture composition, workup, or analytical basis for this unsuccessful trial; Table 4 conditions were not inferred."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c8d7aa1fd1d8269f:scheme2a_scale_up_3a",
+    "document_id": "doc_c8d7aa1fd1d8269f",
+    "source_reaction_id": "scheme2a_scale_up_3a",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c8d7aa1fd1d8269f:page6:text",
+      "doc_c8d7aa1fd1d8269f:page6:image",
+      "doc_c8d7aa1fd1d8269f:page7:text",
+      "doc_c8d7aa1fd1d8269f:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "(±)-3a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "racemic tetrasubstituted allenyl sulfone 3a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccc(S(=O)(=O)C(c2ccccc2)=C=C(C)C(C)C)cc1",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 0.65,
+                "unit": "g"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page6:text",
+                "doc_c8d7aa1fd1d8269f:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "mass"
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 2.0,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page6:text",
+                "doc_c8d7aa1fd1d8269f:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "nickel",
+        "role": "catalyst",
+        "label": {
+          "value": "Ni(OAc)2",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "nickel(II) acetate",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(=O)O[Ni]OC(C)=O",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page6:text",
+                "doc_c8d7aa1fd1d8269f:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand",
+        "role": "catalyst",
+        "label": {
+          "value": "(S,S)-Ph-BPE",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (S,S)-Ph-BPE",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page6:text",
+                "doc_c8d7aa1fd1d8269f:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "hydrogen",
+        "role": "reactant",
+        "label": {
+          "value": "H2 balloon",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "hydrogen",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[H][H]",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "HFIP",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "hexafluoroisopropanol",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "OC(C(F)(F)F)C(F)(F)F",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "(S,E)-4a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "semihydrogenation product (S,E)-4a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccc(S(=O)(=O)C(c2ccccc2)=CC(C)C(C)C)cc1",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "recovered",
+        "role": "product",
+        "label": {
+          "value": "recovered (S)-3a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "enantioenriched recovered allene (S)-3a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccc(S(=O)(=O)C(c2ccccc2)=C=C(C)C(C)C)cc1",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "scale_up_semihydrogenation",
+        "participant_ids": [
+          "substrate",
+          "nickel",
+          "ligand",
+          "hydrogen",
+          "solvent"
+        ],
+        "conditions": [
+          {
+            "name": "hydrogen_atmosphere",
+            "fact": {
+              "value": "H2 balloon",
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page6:text",
+                "doc_c8d7aa1fd1d8269f:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page6:text",
+                "doc_c8d7aa1fd1d8269f:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 36,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page6:text",
+                "doc_c8d7aa1fd1d8269f:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield_product",
+        "fact": {
+          "value": {
+            "number": 43,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "product_enantiomeric_excess",
+        "fact": {
+          "value": {
+            "number": 93,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "recovered_starting_material_yield",
+        "fact": {
+          "value": {
+            "number": 47,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "recovered"
+        ],
+        "category": "recovery"
+      },
+      {
+        "name": "recovered_allene_enantiomeric_excess",
+        "fact": {
+          "value": {
+            "number": 93,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "recovered"
+        ],
+        "category": "recovery"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "yield as printed in Scheme 2a; isolation basis not explicitly restated",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product",
+          "recovered"
+        ],
+        "category": "measurement_basis"
+      },
+      {
+        "name": "ee_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product",
+          "recovered"
+        ],
+        "category": "measurement_basis"
+      }
+    ],
+    "notes": [
+      {
+        "value": "This 2 mmol/H2-balloon experiment is an independent scale-up and is not merged with the 0.1 mmol Table 4 entry for 3a.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page6:text",
+          "doc_c8d7aa1fd1d8269f:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Page 7 describes the 2 mmol/H2-balloon scale-up and repeats the separate 4a (43% yield, 93% ee) and recovered 3a (47% yield, 93% ee) outcomes; it is merged with Scheme 2a rather than duplicated.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page7:text",
+          "doc_c8d7aa1fd1d8269f:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "All candidate structures remain structure_verified=false; parsing, visual inspection, spectroscopy, crystallography, and calculations do not certify a machine structure encoding.",
+        "HFIP volume, workup, purification, isolated masses, exact H2 pressure, exact room temperature, and ee analytical method remain unreported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c8d7aa1fd1d8269f:scheme2b_4m_to_5",
+    "document_id": "doc_c8d7aa1fd1d8269f",
+    "source_reaction_id": "scheme2b_4m_to_5",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c8d7aa1fd1d8269f:page6:text",
+      "doc_c8d7aa1fd1d8269f:page6:image",
+      "doc_c8d7aa1fd1d8269f:page7:text",
+      "doc_c8d7aa1fd1d8269f:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "(S,E)-4m",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "enantioenriched semihydrogenation product (S,E)-4m",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "enantiomeric_excess",
+            "fact": {
+              "value": {
+                "number": 96,
+                "unit": "%"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page6:text",
+                "doc_c8d7aa1fd1d8269f:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "percentage"
+          }
+        ]
+      },
+      {
+        "entity_id": "magnesium",
+        "role": "reagent",
+        "label": {
+          "value": "Mg",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "magnesium",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Mg]",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "meoh",
+        "role": "solvent",
+        "label": {
+          "value": "MeOH",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "methanol",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CO",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "pdc",
+        "role": "catalyst",
+        "label": {
+          "value": "Pd/C",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "palladium on carbon",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "hydrogen",
+        "role": "reactant",
+        "label": {
+          "value": "H2",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "hydrogen",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[H][H]",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "5",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled saturated piperidine product 5",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "magnesium_methanol_detosylation",
+        "participant_ids": [
+          "substrate",
+          "magnesium",
+          "meoh"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "treatment with Mg in MeOH",
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page6:text",
+                "doc_c8d7aa1fd1d8269f:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "operation"
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            },
+            "category": "time"
+          }
+        ]
+      },
+      {
+        "step_id": "palladium_hydrogenation",
+        "participant_ids": [
+          "substrate",
+          "pdc",
+          "hydrogen"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "reduction in the presence of Pd/C and H2",
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page6:text",
+                "doc_c8d7aa1fd1d8269f:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "operation"
+          },
+          {
+            "name": "hydrogen_pressure",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            },
+            "category": "other"
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "number": 96,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "measurement_basis"
+      },
+      {
+        "name": "product_enantiomeric_excess",
+        "fact": {
+          "value": {
+            "number": 96,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "ee_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "measurement_basis"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 2b prints two ordered operations. The 96% yield is the reported overall transformation outcome to 5 and is not assigned to the Pd/C step alone.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page6:text",
+          "doc_c8d7aa1fd1d8269f:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Page 7 confirms the ordered Mg/MeOH detosylation followed by Pd/C-H2 reduction and the 96% overall product-5 outcome with maintained ee; no stage-only yield is assigned.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page7:text",
+          "doc_c8d7aa1fd1d8269f:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "All candidate structures remain structure_verified=false; parsing, visual inspection, spectroscopy, crystallography, and calculations do not certify a machine structure encoding.",
+        "Absolute scale, reagent/catalyst quantities, solvent volume, temperatures, stage times, H2 pressure, workup, purification, isolated mass, yield basis, ee method, and the Mg-stage yield remain unreported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c8d7aa1fd1d8269f:scheme3a_D2_CH2Cl2_TFE",
+    "document_id": "doc_c8d7aa1fd1d8269f",
+    "source_reaction_id": "scheme3a_D2_CH2Cl2_TFE",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c8d7aa1fd1d8269f:page7:text",
+      "doc_c8d7aa1fd1d8269f:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "(±)-3a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "racemic tetrasubstituted allenyl sulfone (±)-3a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccc(S(=O)(=O)C(c2ccccc2)=C=C(C)C(C)C)cc1",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "nickel",
+        "role": "catalyst",
+        "label": {
+          "value": "Ni(OAc)2",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "nickel(II) acetate",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(=O)O[Ni]OC(C)=O",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page7:text",
+                "doc_c8d7aa1fd1d8269f:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand",
+        "role": "catalyst",
+        "label": {
+          "value": "(S,S)-Ph-BPE",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (S,S)-Ph-BPE",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page7:text",
+                "doc_c8d7aa1fd1d8269f:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "gas",
+        "role": "reactant",
+        "label": {
+          "value": "D2",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "deuterium",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[2H][2H]",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "dcm",
+        "role": "solvent",
+        "label": {
+          "value": "CH2Cl2",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "dichloromethane",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "ClCCl",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "tfe",
+        "role": "solvent",
+        "label": {
+          "value": "TFE",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,2,2-trifluoroethanol",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "OCC(F)(F)F",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "4a-D",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "semihydrogenation product 4a-D",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "recovered",
+        "role": "product",
+        "label": {
+          "value": "recovered (S)-3a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "recovered enantioenriched allene (S)-3a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccc(S(=O)(=O)C(c2ccccc2)=C=C(C)C(C)C)cc1",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "deuterium_labeling_semihydrogenation",
+        "participant_ids": [
+          "substrate",
+          "nickel",
+          "ligand",
+          "gas",
+          "dcm",
+          "tfe"
+        ],
+        "conditions": [
+          {
+            "name": "gas_pressure",
+            "fact": {
+              "value": "1 atm",
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page7:text",
+                "doc_c8d7aa1fd1d8269f:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page7:text",
+                "doc_c8d7aa1fd1d8269f:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 12.5,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page7:text",
+                "doc_c8d7aa1fd1d8269f:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield_product",
+        "fact": {
+          "value": {
+            "number": 47,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "recovered_starting_material_yield",
+        "fact": {
+          "value": {
+            "number": 42,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "recovered"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product",
+          "recovered"
+        ]
+      },
+      {
+        "name": "deuterium_at_C2",
+        "fact": {
+          "value": {
+            "number": 95,
+            "unit": "%",
+            "qualifier": "gt",
+            "raw_text": ">95% D"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "deuterium_at_C3",
+        "fact": {
+          "value": {
+            "number": 95,
+            "unit": "%",
+            "qualifier": "gt",
+            "raw_text": ">95% D"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 3a shows deuterium at both C2 and C3 of 4a-D. The page-7 prose attributes both product deuterium atoms to D2.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page7:text",
+          "doc_c8d7aa1fd1d8269f:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "All candidate structures remain structure_verified=false; parsing, visual inspection, spectroscopy, crystallography, and calculations do not certify a machine structure encoding.",
+        "Substrate scale, individual solvent volumes/ratio, catalyst pre-complexation details, workup, purification, isolated masses, yield basis, recovered-allene ee, and isotope analytical method are not printed in Scheme 3.",
+        "The isotope-resolved product structure remains label-only where a complete isotope-specific SMILES was not safely asserted."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c8d7aa1fd1d8269f:scheme3b_H2_CD2Cl2_TFE_D",
+    "document_id": "doc_c8d7aa1fd1d8269f",
+    "source_reaction_id": "scheme3b_H2_CD2Cl2_TFE_D",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c8d7aa1fd1d8269f:page7:text",
+      "doc_c8d7aa1fd1d8269f:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "(±)-3a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "racemic tetrasubstituted allenyl sulfone (±)-3a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccc(S(=O)(=O)C(c2ccccc2)=C=C(C)C(C)C)cc1",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "nickel",
+        "role": "catalyst",
+        "label": {
+          "value": "Ni(OAc)2",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "nickel(II) acetate",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(=O)O[Ni]OC(C)=O",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page7:text",
+                "doc_c8d7aa1fd1d8269f:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand",
+        "role": "catalyst",
+        "label": {
+          "value": "(S,S)-Ph-BPE",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (S,S)-Ph-BPE",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page7:text",
+                "doc_c8d7aa1fd1d8269f:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "gas",
+        "role": "reactant",
+        "label": {
+          "value": "H2",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "hydrogen",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[H][H]",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cd2cl2",
+        "role": "solvent",
+        "label": {
+          "value": "CD2Cl2",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "dideuterated dichloromethane",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "ClC(Cl)([2H])[2H]",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "tfe_d",
+        "role": "solvent",
+        "label": {
+          "value": "TFE-D",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "O-deuterated 2,2,2-trifluoroethanol",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[2H]OCC(F)(F)F",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "4a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "semihydrogenation product 4a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccc(S(=O)(=O)C(c2ccccc2)=CC(C)C(C)C)cc1",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "recovered",
+        "role": "product",
+        "label": {
+          "value": "recovered (S)-3a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "recovered enantioenriched allene (S)-3a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccc(S(=O)(=O)C(c2ccccc2)=C=C(C)C(C)C)cc1",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "deuterium_labeling_semihydrogenation",
+        "participant_ids": [
+          "substrate",
+          "nickel",
+          "ligand",
+          "gas",
+          "cd2cl2",
+          "tfe_d"
+        ],
+        "conditions": [
+          {
+            "name": "gas_pressure",
+            "fact": {
+              "value": "1 atm",
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page7:text",
+                "doc_c8d7aa1fd1d8269f:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page7:text",
+                "doc_c8d7aa1fd1d8269f:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 12.5,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page7:text",
+                "doc_c8d7aa1fd1d8269f:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield_product",
+        "fact": {
+          "value": {
+            "number": 48,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "recovered_starting_material_yield",
+        "fact": {
+          "value": {
+            "number": 41,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "recovered"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product",
+          "recovered"
+        ]
+      },
+      {
+        "name": "product_deuterium_observation",
+        "fact": {
+          "value": "no deuterium atom detected/reported",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 3b uses two deuterated solvents under H2 yet gives unlabeled 4a, supporting the source assignment that product hydrogen atoms do not originate from these solvents.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page7:text",
+          "doc_c8d7aa1fd1d8269f:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "All candidate structures remain structure_verified=false; parsing, visual inspection, spectroscopy, crystallography, and calculations do not certify a machine structure encoding.",
+        "Substrate scale, individual solvent volumes/ratio, catalyst pre-complexation details, workup, purification, isolated masses, yield basis, recovered-allene ee, and isotope analytical method are not printed in Scheme 3.",
+        "The isotope-resolved product structure remains label-only where a complete isotope-specific SMILES was not safely asserted."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c8d7aa1fd1d8269f:scheme3c_H2_CH2Cl2_TFE_D",
+    "document_id": "doc_c8d7aa1fd1d8269f",
+    "source_reaction_id": "scheme3c_H2_CH2Cl2_TFE_D",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c8d7aa1fd1d8269f:page7:text",
+      "doc_c8d7aa1fd1d8269f:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "(±)-3a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "racemic tetrasubstituted allenyl sulfone (±)-3a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccc(S(=O)(=O)C(c2ccccc2)=C=C(C)C(C)C)cc1",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "nickel",
+        "role": "catalyst",
+        "label": {
+          "value": "Ni(OAc)2",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "nickel(II) acetate",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(=O)O[Ni]OC(C)=O",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page7:text",
+                "doc_c8d7aa1fd1d8269f:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand",
+        "role": "catalyst",
+        "label": {
+          "value": "(S,S)-Ph-BPE",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (S,S)-Ph-BPE",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page7:text",
+                "doc_c8d7aa1fd1d8269f:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "gas",
+        "role": "reactant",
+        "label": {
+          "value": "H2",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "hydrogen",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[H][H]",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "dcm",
+        "role": "solvent",
+        "label": {
+          "value": "CH2Cl2",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "dichloromethane",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "ClCCl",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "tfe_d",
+        "role": "solvent",
+        "label": {
+          "value": "TFE-D",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "O-deuterated 2,2,2-trifluoroethanol",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[2H]OCC(F)(F)F",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "4a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "semihydrogenation product 4a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccc(S(=O)(=O)C(c2ccccc2)=CC(C)C(C)C)cc1",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "recovered",
+        "role": "product",
+        "label": {
+          "value": "recovered (S)-3a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "recovered enantioenriched allene (S)-3a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccc(S(=O)(=O)C(c2ccccc2)=C=C(C)C(C)C)cc1",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "deuterium_labeling_semihydrogenation",
+        "participant_ids": [
+          "substrate",
+          "nickel",
+          "ligand",
+          "gas",
+          "dcm",
+          "tfe_d"
+        ],
+        "conditions": [
+          {
+            "name": "gas_pressure",
+            "fact": {
+              "value": "1 atm",
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page7:text",
+                "doc_c8d7aa1fd1d8269f:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page7:text",
+                "doc_c8d7aa1fd1d8269f:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 12.5,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page7:text",
+                "doc_c8d7aa1fd1d8269f:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield_product",
+        "fact": {
+          "value": {
+            "number": 46,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "recovered_starting_material_yield",
+        "fact": {
+          "value": {
+            "number": 42,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "recovered"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product",
+          "recovered"
+        ]
+      },
+      {
+        "name": "product_deuterium_observation",
+        "fact": {
+          "value": "no deuterium atom detected/reported",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Scheme 3c changes only the chlorinated solvent back to CH2Cl2 while retaining TFE-D; the page-7 prose describes the same no-deuterium result.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page7:text",
+          "doc_c8d7aa1fd1d8269f:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "All candidate structures remain structure_verified=false; parsing, visual inspection, spectroscopy, crystallography, and calculations do not certify a machine structure encoding.",
+        "Substrate scale, individual solvent volumes/ratio, catalyst pre-complexation details, workup, purification, isolated masses, yield basis, recovered-allene ee, and isotope analytical method are not printed in Scheme 3.",
+        "The isotope-resolved product structure remains label-only where a complete isotope-specific SMILES was not safely asserted."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c8d7aa1fd1d8269f:figure1_DFT_semihydrogenation_pathway",
+    "document_id": "doc_c8d7aa1fd1d8269f",
+    "source_reaction_id": "figure1_DFT_semihydrogenation_pathway",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c8d7aa1fd1d8269f:page7:text",
+      "doc_c8d7aa1fd1d8269f:page7:image",
+      "doc_c8d7aa1fd1d8269f:page8:text",
+      "doc_c8d7aa1fd1d8269f:page8:image",
+      "doc_c8d7aa1fd1d8269f:page9:text",
+      "doc_c8d7aa1fd1d8269f:page9:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "int1a",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "INT1A",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "calculated species INT1A",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "int2a",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "INT2A",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "calculated species INT2A",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "int3a",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "INT3A",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "calculated species INT3A",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "int3b",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "INT3B",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "calculated species INT3B",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ts4a",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "TS4A",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "calculated species TS4A",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "int4a",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "INT4A",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "calculated species INT4A",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "int5a_s",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "INT5A-S",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "calculated species INT5A-S",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "int5a_r",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "INT5A-R",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "calculated species INT5A-R",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ts6a_s",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "TS6A-S",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "calculated species TS6A-S",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ts6a_r",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "TS6A-R",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "calculated species TS6A-R",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "int6a_s",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "INT6A-S",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "calculated species INT6A-S",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "int6a_r",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "INT6A-R",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "calculated species INT6A-R",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ts7a_s",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "TS7A-S",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "calculated species TS7A-S",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ts7a_r",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "TS7A-R",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "calculated species TS7A-R",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ts7b_s",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "TS7B-S",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "calculated species TS7B-S",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "substrate_r",
+        "role": "reactant",
+        "label": {
+          "value": "(R)-3a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (R)-3a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccc(S(=O)(=O)C(c2ccccc2)=C=C(C)C(C)C)cc1",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "substrate_s",
+        "role": "reactant",
+        "label": {
+          "value": "(S)-3a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (S)-3a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccc(S(=O)(=O)C(c2ccccc2)=C=C(C)C(C)C)cc1",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "hydrogen",
+        "role": "reactant",
+        "label": {
+          "value": "H2",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "hydrogen",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[H][H]",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_s",
+        "role": "product",
+        "label": {
+          "value": "(S)-4a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (S)-4a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccc(S(=O)(=O)C(c2ccccc2)=CC(C)C(C)C)cc1",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_r",
+        "role": "product",
+        "label": {
+          "value": "(R)-4a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (R)-4a",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccc(S(=O)(=O)C(c2ccccc2)=CC(C)C(C)C)cc1",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [],
+    "outcomes": [],
+    "notes": [
+      {
+        "value": "Figure 1 is a DFT energy profile, frontier-orbital analysis, and comparison of H2 versus acetic-acid protonation; calculated intermediates/transition states are not isolated experiments.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page7:text",
+          "doc_c8d7aa1fd1d8269f:page7:image",
+          "doc_c8d7aa1fd1d8269f:page8:text",
+          "doc_c8d7aa1fd1d8269f:page8:image",
+          "doc_c8d7aa1fd1d8269f:page9:text",
+          "doc_c8d7aa1fd1d8269f:page9:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The calculated pathway starts from dimeric INT1A, forms cationic INT3A and Ni-H INT4A, differentiates (R)-3a/(S)-3a at TS6A-S/TS6A-R, and releases 4a after H2 protonation and ligand exchange.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page7:text",
+          "doc_c8d7aa1fd1d8269f:page7:image",
+          "doc_c8d7aa1fd1d8269f:page8:text",
+          "doc_c8d7aa1fd1d8269f:page8:image",
+          "doc_c8d7aa1fd1d8269f:page9:text",
+          "doc_c8d7aa1fd1d8269f:page9:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The source reports TS6A-S versus TS6A-R barriers of 12.7 versus 14.3 kcal/mol relative to INT4A, and TS7A-S versus TS7B-S barriers of 21.6 versus 31.9 kcal/mol; these are calculated energies, not reaction conditions or yields.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page7:text",
+          "doc_c8d7aa1fd1d8269f:page7:image",
+          "doc_c8d7aa1fd1d8269f:page8:text",
+          "doc_c8d7aa1fd1d8269f:page8:image",
+          "doc_c8d7aa1fd1d8269f:page9:text",
+          "doc_c8d7aa1fd1d8269f:page9:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "All Figure 1 species and energies are computational proposals; no independent quantities, experimental yields, observation status, or preparation records belong to them.",
+        "The calculation method is described in reference 83 and points to unassociated Supporting Information; no SI detail was imported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c8d7aa1fd1d8269f:figure2_distortion_interaction_stereochemical_model",
+    "document_id": "doc_c8d7aa1fd1d8269f",
+    "source_reaction_id": "figure2_distortion_interaction_stereochemical_model",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c8d7aa1fd1d8269f:page8:text",
+      "doc_c8d7aa1fd1d8269f:page8:image",
+      "doc_c8d7aa1fd1d8269f:page9:text",
+      "doc_c8d7aa1fd1d8269f:page9:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "ts6a_s",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "TS6A-S",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "calculated transition-state model TS6A-S",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ts6a_r",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "TS6A-R",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "calculated transition-state model TS6A-R",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ts6b_s",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "TS6B-S",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "calculated transition-state model TS6B-S",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ts6b_r",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "TS6B-R",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "calculated transition-state model TS6B-R",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ts6a_s_et",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "TS6A-S-Et",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "calculated transition-state model TS6A-S-Et",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ts6a_r_et",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "TS6A-R-Et",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "calculated transition-state model TS6A-R-Et",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page8:text",
+            "doc_c8d7aa1fd1d8269f:page8:image",
+            "doc_c8d7aa1fd1d8269f:page9:text",
+            "doc_c8d7aa1fd1d8269f:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [],
+    "outcomes": [],
+    "notes": [
+      {
+        "value": "Figure 2 is the authors' calculated distortion/interaction stereochemical model; it is not a set of experimental reaction runs.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page8:text",
+          "doc_c8d7aa1fd1d8269f:page8:image",
+          "doc_c8d7aa1fd1d8269f:page9:text",
+          "doc_c8d7aa1fd1d8269f:page9:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The model compares directed TS6A-S/TS6A-R, nondirected TS6B-S/TS6B-R, and ethyl-substituted TS6A-S-Et/TS6A-R-Et to rationalize kinetic resolution and the lower s-factors of linear-alkyl substrates.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page8:text",
+          "doc_c8d7aa1fd1d8269f:page8:image",
+          "doc_c8d7aa1fd1d8269f:page9:text",
+          "doc_c8d7aa1fd1d8269f:page9:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The page-8/9 discussion states that the combined catalyst/substrate distortion in TS6A-S is 12.2 kcal/mol lower than in TS6A-R and that elevated 70 °C/70 atm experimental conditions can overcome the selectivity barrier; the latter is explanatory context, not a new experiment.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page8:text",
+          "doc_c8d7aa1fd1d8269f:page8:image",
+          "doc_c8d7aa1fd1d8269f:page9:text",
+          "doc_c8d7aa1fd1d8269f:page9:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "All Figure 2 structures and energy components are calculated models rather than isolated or directly observed species.",
+        "No experimental participant amounts, yield, conversion, or selectivity outcome is assigned to this mechanism record."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c8d7aa1fd1d8269f:table4_scope_3i",
+    "document_id": "doc_c8d7aa1fd1d8269f",
+    "source_reaction_id": "table4_scope_3i",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c8d7aa1fd1d8269f:page5:text",
+      "doc_c8d7aa1fd1d8269f:page5:image",
+      "doc_c8d7aa1fd1d8269f:page6:text",
+      "doc_c8d7aa1fd1d8269f:page6:image",
+      "doc_c8d7aa1fd1d8269f:page7:text",
+      "doc_c8d7aa1fd1d8269f:page7:image",
+      "doc_c8d7aa1fd1d8269f:page12:text",
+      "doc_c8d7aa1fd1d8269f:page12:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "(±)-3i",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (±)-3i",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "shared_caption_substrate_amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "nickel",
+        "role": "catalyst",
+        "label": {
+          "value": "Ni(OAc)2",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "nickel(II) acetate",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(=O)O[Ni]OC(C)=O",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand",
+        "role": "catalyst",
+        "label": {
+          "value": "(S,S)-Ph-BPE",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (S,S)-Ph-BPE",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "hydrogen",
+        "role": "reactant",
+        "label": {
+          "value": "H2",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "hydrogen",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[H][H]",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "CH2Cl2",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "dichloromethane",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "ClCCl",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "volume"
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "(S,E)-4i",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (S,E)-4i",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "recovered",
+        "role": "product",
+        "label": {
+          "value": "recovered (S)-3i",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image",
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page12:text",
+            "doc_c8d7aa1fd1d8269f:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound recovered (S)-3i",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image",
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page12:text",
+            "doc_c8d7aa1fd1d8269f:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "asymmetric_semihydrogenation",
+        "participant_ids": [
+          "substrate",
+          "nickel",
+          "ligand",
+          "hydrogen",
+          "solvent"
+        ],
+        "conditions": [
+          {
+            "name": "hydrogen_pressure",
+            "fact": {
+              "value": "70 atm",
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 70,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 72,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield_product",
+        "fact": {
+          "value": {
+            "number": 46,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "product_enantiomeric_excess",
+        "fact": {
+          "value": {
+            "number": 97,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "recovered_starting_material_yield",
+        "fact": {
+          "value": {
+            "number": 49,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "recovered"
+        ],
+        "category": "recovery"
+      },
+      {
+        "name": "recovered_allene_enantiomeric_excess",
+        "fact": {
+          "value": {
+            "number": 99,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "recovered"
+        ],
+        "category": "recovery"
+      },
+      {
+        "name": "conversion",
+        "fact": {
+          "value": {
+            "number": 51,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "substrate"
+        ],
+        "category": "conversion"
+      },
+      {
+        "name": "selectivity_factor_s",
+        "fact": {
+          "value": 266,
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product",
+          "recovered"
+        ],
+        "category": "selectivity"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product",
+          "recovered"
+        ],
+        "category": "measurement_basis"
+      },
+      {
+        "name": "conversion_measurement_basis",
+        "fact": {
+          "value": "crude 1H NMR analysis",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "substrate"
+        ],
+        "category": "measurement_basis"
+      },
+      {
+        "name": "ee_measurement_basis",
+        "fact": {
+          "value": "chiral HPLC analysis",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product",
+          "recovered"
+        ],
+        "category": "measurement_basis"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Each Table 4 structure/result block is a distinct scope experiment; footnotes b-k override only the conditions printed in that footnote.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page5:text",
+          "doc_c8d7aa1fd1d8269f:page5:image",
+          "doc_c8d7aa1fd1d8269f:page6:text",
+          "doc_c8d7aa1fd1d8269f:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The shared caption literally prints 0.1 mmol of (±)-1a although the table title, scheme, and row labels are 3a-3x. The printed quantity and row labels are both retained, and the label discrepancy is not silently corrected.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page5:text",
+          "doc_c8d7aa1fd1d8269f:page5:image",
+          "doc_c8d7aa1fd1d8269f:page6:text",
+          "doc_c8d7aa1fd1d8269f:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Pages 7 and 12 identify (S)-3i with CCDC 2295422. This crystallographic provenance supports the source assignment but is not another preparation, not an explicitly associated workspace SI file, and not verification of a machine structure encoding.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page7:text",
+          "doc_c8d7aa1fd1d8269f:page7:image",
+          "doc_c8d7aa1fd1d8269f:page12:text",
+          "doc_c8d7aa1fd1d8269f:page12:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "All candidate structures remain structure_verified=false; parsing, visual inspection, spectroscopy, crystallography, and calculations do not certify a machine structure encoding.",
+        "Table 4 shared-caption substrate-label conflict remains: the caption prints (±)-1a while displayed rows are 3a-3x.",
+        "Scope structures remain source-labeled with null SMILES where safe encoding was uncertain.",
+        "CCDC 2295422 is a crystallographic deposition and was not treated as an associated Supporting Information file.",
+        "Workup, purification, isolated masses, and any unprinted analytical details remain missing."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_c8d7aa1fd1d8269f:table4_scope_3j",
+    "document_id": "doc_c8d7aa1fd1d8269f",
+    "source_reaction_id": "table4_scope_3j",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c8d7aa1fd1d8269f:page5:text",
+      "doc_c8d7aa1fd1d8269f:page5:image",
+      "doc_c8d7aa1fd1d8269f:page6:text",
+      "doc_c8d7aa1fd1d8269f:page6:image",
+      "doc_c8d7aa1fd1d8269f:page7:text",
+      "doc_c8d7aa1fd1d8269f:page7:image",
+      "doc_c8d7aa1fd1d8269f:page12:text",
+      "doc_c8d7aa1fd1d8269f:page12:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "(±)-3j",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (±)-3j",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "shared_caption_substrate_amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "nickel",
+        "role": "catalyst",
+        "label": {
+          "value": "Ni(OAc)2",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "nickel(II) acetate",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(=O)O[Ni]OC(C)=O",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand",
+        "role": "catalyst",
+        "label": {
+          "value": "(S,S)-Ph-BPE",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (S,S)-Ph-BPE",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 4,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "hydrogen",
+        "role": "reactant",
+        "label": {
+          "value": "H2",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "hydrogen",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[H][H]",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "CH2Cl2",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "dichloromethane",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "ClCCl",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "volume"
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "(R,E)-4j",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image",
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page12:text",
+            "doc_c8d7aa1fd1d8269f:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (R,E)-4j",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image",
+            "doc_c8d7aa1fd1d8269f:page7:text",
+            "doc_c8d7aa1fd1d8269f:page7:image",
+            "doc_c8d7aa1fd1d8269f:page12:text",
+            "doc_c8d7aa1fd1d8269f:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "recovered",
+        "role": "product",
+        "label": {
+          "value": "recovered (S)-3j",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound recovered (S)-3j",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image",
+            "doc_c8d7aa1fd1d8269f:page6:text",
+            "doc_c8d7aa1fd1d8269f:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "asymmetric_semihydrogenation",
+        "participant_ids": [
+          "substrate",
+          "nickel",
+          "ligand",
+          "hydrogen",
+          "solvent"
+        ],
+        "conditions": [
+          {
+            "name": "hydrogen_pressure",
+            "fact": {
+              "value": "1 atm",
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 30,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 36,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c8d7aa1fd1d8269f:page5:text",
+                "doc_c8d7aa1fd1d8269f:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield_product",
+        "fact": {
+          "value": {
+            "number": 48,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "product_enantiomeric_excess",
+        "fact": {
+          "value": {
+            "number": 99,
+            "unit": "%",
+            "qualifier": "gt",
+            "raw_text": ">99% ee"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "recovered_starting_material_yield",
+        "fact": {
+          "value": {
+            "number": 48,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "recovered"
+        ],
+        "category": "recovery"
+      },
+      {
+        "name": "recovered_allene_enantiomeric_excess",
+        "fact": {
+          "value": {
+            "number": 96,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "recovered"
+        ],
+        "category": "recovery"
+      },
+      {
+        "name": "conversion",
+        "fact": {
+          "value": {
+            "number": 49,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "substrate"
+        ],
+        "category": "conversion"
+      },
+      {
+        "name": "selectivity_factor_s",
+        "fact": {
+          "value": 780,
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product",
+          "recovered"
+        ],
+        "category": "selectivity"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product",
+          "recovered"
+        ],
+        "category": "measurement_basis"
+      },
+      {
+        "name": "conversion_measurement_basis",
+        "fact": {
+          "value": "crude 1H NMR analysis",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "substrate"
+        ],
+        "category": "measurement_basis"
+      },
+      {
+        "name": "ee_measurement_basis",
+        "fact": {
+          "value": "chiral HPLC analysis",
+          "evidence_ids": [
+            "doc_c8d7aa1fd1d8269f:page5:text",
+            "doc_c8d7aa1fd1d8269f:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product",
+          "recovered"
+        ],
+        "category": "measurement_basis"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Each Table 4 structure/result block is a distinct scope experiment; footnotes b-k override only the conditions printed in that footnote.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page5:text",
+          "doc_c8d7aa1fd1d8269f:page5:image",
+          "doc_c8d7aa1fd1d8269f:page6:text",
+          "doc_c8d7aa1fd1d8269f:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The shared caption literally prints 0.1 mmol of (±)-1a although the table title, scheme, and row labels are 3a-3x. The printed quantity and row labels are both retained, and the label discrepancy is not silently corrected.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page5:text",
+          "doc_c8d7aa1fd1d8269f:page5:image",
+          "doc_c8d7aa1fd1d8269f:page6:text",
+          "doc_c8d7aa1fd1d8269f:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Pages 7 and 12 identify (S,E)-4j with CCDC 2295423. This crystallographic provenance supports the source assignment but is not another preparation, not an explicitly associated workspace SI file, and not verification of a machine structure encoding.",
+        "evidence_ids": [
+          "doc_c8d7aa1fd1d8269f:page7:text",
+          "doc_c8d7aa1fd1d8269f:page7:image",
+          "doc_c8d7aa1fd1d8269f:page12:text",
+          "doc_c8d7aa1fd1d8269f:page12:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "All candidate structures remain structure_verified=false; parsing, visual inspection, spectroscopy, crystallography, and calculations do not certify a machine structure encoding.",
+        "Table 4 shared-caption substrate-label conflict remains: the caption prints (±)-1a while displayed rows are 3a-3x.",
+        "Scope structures remain source-labeled with null SMILES where safe encoding was uncertain.",
+        "CCDC 2295423 is a crystallographic deposition and was not treated as an associated Supporting Information file.",
+        "Workup, purification, isolated masses, and any unprinted analytical details remain missing."
+      ]
+    }
+  }
+]

@@ -1,0 +1,239 @@
+{
+  "document_id": "doc_051f2f1e1a4f4732",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 1 full rendered page",
+          "finding": "ChemComm Accepted Manuscript cover, citation line, and publisher boilerplate only; no reaction arrow, table, experimental condition, or chemistry figure appears.",
+          "evidence_ids": [
+            "doc_051f2f1e1a4f4732:page1:text",
+            "doc_051f2f1e1a4f4732:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "None for reaction extraction; the article title is not printed on this publisher cover and was taken from page 2."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 2 title, abstract, authors, and ESI statement",
+          "finding": "The article title was read as 'TfOH-catalyzed domino cycloisomerization/hydrolytic defluorination of 2,3-allenyl perfluoroalkyl ketones'. The page states ESI availability, but no SI file is explicitly associated in the workspace, so no SI facts were imported.",
+          "evidence_ids": [
+            "doc_051f2f1e1a4f4732:page2:text",
+            "doc_051f2f1e1a4f4732:page2:image"
+          ]
+        },
+        {
+          "region": "page 2 Scheme 1",
+          "finding": "The upper generic transition-metal cycloisomerization is explicitly previous work and is classified as a literature example; the lower H+/H2O transformation is this paper's generic reaction and is classified as a general scheme.",
+          "evidence_ids": [
+            "doc_051f2f1e1a4f4732:page2:text",
+            "doc_051f2f1e1a4f4732:page2:image"
+          ]
+        },
+        {
+          "region": "page 2 lower-right optimization narrative",
+          "finding": "The prose introduces Table 1 entries 1–8: AuCl3 gives 2a, AuCl/Au(PPh3)OTf/AgBF4/AgOTf fail, aged Sc(OTf)3 gives 3a, and CuOTf·PhH/Cu(OTf)2 return starting material. These statements are linked to the page-3 table rows rather than duplicated.",
+          "evidence_ids": [
+            "doc_051f2f1e1a4f4732:page2:text",
+            "doc_051f2f1e1a4f4732:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_051f2f1e1a4f4732:scheme1_previous_transition_metal_cycloisomerization",
+        "doc_051f2f1e1a4f4732:scheme1_current_generic_domino_reaction",
+        "doc_051f2f1e1a4f4732:table1_entry1",
+        "doc_051f2f1e1a4f4732:table1_entry2",
+        "doc_051f2f1e1a4f4732:table1_entry3",
+        "doc_051f2f1e1a4f4732:table1_entry4",
+        "doc_051f2f1e1a4f4732:table1_entry5",
+        "doc_051f2f1e1a4f4732:table1_entry6",
+        "doc_051f2f1e1a4f4732:table1_entry7",
+        "doc_051f2f1e1a4f4732:table1_entry8"
+      ],
+      "unresolved": [
+        "The generic Scheme 1 structures contain R groups and do not define unique machine structures.",
+        "The ESI DOI line is a placeholder and does not establish an SI association."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 3 upper-left Table 1 and footnotes",
+          "finding": "Eleven independent optimization rows were retained with catalyst identity/loading, scale/solvent footnote overrides, temperature, time, product-specific 1H-NMR yields, recovery, O2 atmosphere, added water, aged-reagent status, and CH2Br2 measurement basis.",
+          "evidence_ids": [
+            "doc_051f2f1e1a4f4732:page3:text",
+            "doc_051f2f1e1a4f4732:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 lower-left water-loading discussion",
+          "finding": "Three partial main-text records preserve the explicitly stated Table S1 results: decent 3a without added water, stopped conversion at 100 equiv H2O, and 5 mol% TfOH/60 °C giving 2a 88% plus 3a 12% after an unstated extended time. No SI association or unstated condition was inferred.",
+          "evidence_ids": [
+            "doc_051f2f1e1a4f4732:page3:text",
+            "doc_051f2f1e1a4f4732:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 upper-right Table 2 and footnotes",
+          "finding": "All thirteen substrate-scope rows were retained separately with shared conditions and row overrides. Entry 8 is a distinct 3.0 mmol repeat of entry 7; entries 1 and 13 use 0.2 mmol/2 mL, and entries 2–3 use 2.2 equiv H2O.",
+          "evidence_ids": [
+            "doc_051f2f1e1a4f4732:page3:text",
+            "doc_051f2f1e1a4f4732:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 lower-right Scheme 2",
+          "finding": "Two distinct applications of 3a were retained: MeLi/Et2O at -60 °C for 14 h gives 4a (80% isolated), and DIBAL-H/toluene at -78 °C for 12 h gives 5a (80% shown; basis not stated).",
+          "evidence_ids": [
+            "doc_051f2f1e1a4f4732:page3:text",
+            "doc_051f2f1e1a4f4732:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 bottom continuation",
+          "finding": "The sentence introducing 2a as a mechanistic starting point continues onto page 4 and is linked to the equation-1 experiment rather than counted separately.",
+          "evidence_ids": [
+            "doc_051f2f1e1a4f4732:page3:text",
+            "doc_051f2f1e1a4f4732:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_051f2f1e1a4f4732:table1_entry1",
+        "doc_051f2f1e1a4f4732:table1_entry2",
+        "doc_051f2f1e1a4f4732:table1_entry3",
+        "doc_051f2f1e1a4f4732:table1_entry4",
+        "doc_051f2f1e1a4f4732:table1_entry5",
+        "doc_051f2f1e1a4f4732:table1_entry6",
+        "doc_051f2f1e1a4f4732:table1_entry7",
+        "doc_051f2f1e1a4f4732:table1_entry8",
+        "doc_051f2f1e1a4f4732:table1_entry9",
+        "doc_051f2f1e1a4f4732:table1_entry10",
+        "doc_051f2f1e1a4f4732:table1_entry11",
+        "doc_051f2f1e1a4f4732:main_text_tableS1_no_added_water",
+        "doc_051f2f1e1a4f4732:main_text_tableS1_100eq_water_failure",
+        "doc_051f2f1e1a4f4732:main_text_tableS1_5molpct_tfoh_60C",
+        "doc_051f2f1e1a4f4732:table2_entry1",
+        "doc_051f2f1e1a4f4732:table2_entry2",
+        "doc_051f2f1e1a4f4732:table2_entry3",
+        "doc_051f2f1e1a4f4732:table2_entry4",
+        "doc_051f2f1e1a4f4732:table2_entry5",
+        "doc_051f2f1e1a4f4732:table2_entry6",
+        "doc_051f2f1e1a4f4732:table2_entry7",
+        "doc_051f2f1e1a4f4732:table2_entry8",
+        "doc_051f2f1e1a4f4732:table2_entry9",
+        "doc_051f2f1e1a4f4732:table2_entry10",
+        "doc_051f2f1e1a4f4732:table2_entry11",
+        "doc_051f2f1e1a4f4732:table2_entry12",
+        "doc_051f2f1e1a4f4732:table2_entry13",
+        "doc_051f2f1e1a4f4732:scheme2_meli_to_4a",
+        "doc_051f2f1e1a4f4732:scheme2_dibal_to_5a",
+        "doc_051f2f1e1a4f4732:eq1_2a_to_3a"
+      ],
+      "unresolved": [
+        "Table S1 itself is not associated; its main-text summaries omit several conditions and analytical details.",
+        "Table 2 omits atmosphere, workup, purification, and isolated masses.",
+        "Most complex row structures remain label-only and machine-unverified."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 4 upper-left equation 1",
+          "finding": "A distinct 2a/H2O/TfOH experiment in toluene at 100 °C for 2 h gives 3a in 97% isolated yield, supporting 2a as the key intermediate.",
+          "evidence_ids": [
+            "doc_051f2f1e1a4f4732:page4:text",
+            "doc_051f2f1e1a4f4732:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 left-center Scheme 3 path a",
+          "finding": "The two isolated arrows were retained separately: 1j/AuCl to 2j (98% isolated) and 2j/TfOH/H2-18O to carbonyl-labeled 3j-18O (81%, 65.8% 18O).",
+          "evidence_ids": [
+            "doc_051f2f1e1a4f4732:page4:text",
+            "doc_051f2f1e1a4f4732:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 left-center Scheme 3 path b",
+          "finding": "The sequential one-pot 1j→2j→3j-18O experiment was retained as one two-step record with two ordered 100 °C/12 h stages, direct second-stage additions, 75% two-step yield, and 56.6% 18O incorporation.",
+          "evidence_ids": [
+            "doc_051f2f1e1a4f4732:page4:text",
+            "doc_051f2f1e1a4f4732:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 right-center Scheme 4 and mechanism prose",
+          "finding": "M1–M6, cycles A/B, the 1,2-phenyl shift, water attack, and HF eliminations are a proposed mechanism, not preparations of the intermediates.",
+          "evidence_ids": [
+            "doc_051f2f1e1a4f4732:page4:text",
+            "doc_051f2f1e1a4f4732:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 lower-right acknowledgments and start of references",
+          "finding": "The reproduction statement says 'entry 7 of Table 3', although no Table 3 appears in the supplied article; no independent conditions/outcome are supplied, so no duplicate experiment is created. Remaining content begins bibliography.",
+          "evidence_ids": [
+            "doc_051f2f1e1a4f4732:page4:text",
+            "doc_051f2f1e1a4f4732:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_051f2f1e1a4f4732:eq1_2a_to_3a",
+        "doc_051f2f1e1a4f4732:scheme3_patha_1j_to_2j",
+        "doc_051f2f1e1a4f4732:scheme3_patha_2j_to_3j18O",
+        "doc_051f2f1e1a4f4732:scheme3_pathb_onepot_1j_to_3j18O",
+        "doc_051f2f1e1a4f4732:scheme4_proposed_domino_mechanism"
+      ],
+      "unresolved": [
+        "The isotope measurement method and several operational details/yield bases are not reported.",
+        "The acknowledgment's Table 3 reference cannot be reconciled with the supplied article and does not define a separate run."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 5 references 3–16",
+          "finding": "Bibliography/prior-literature citations only; external papers were not expanded into experiments of the current article.",
+          "evidence_ids": [
+            "doc_051f2f1e1a4f4732:page5:text",
+            "doc_051f2f1e1a4f4732:page5:image"
+          ]
+        },
+        {
+          "region": "page 5 footnote 15 crystal data",
+          "finding": "CCDC 993055 and crystal data characterize compound 3a, supporting the assignment associated with Table 1 entry 6; this is not a new preparation, does not verify the machine SMILES, and is not an SI association.",
+          "evidence_ids": [
+            "doc_051f2f1e1a4f4732:page5:text",
+            "doc_051f2f1e1a4f4732:page5:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_051f2f1e1a4f4732:table1_entry6"
+      ],
+      "unresolved": [
+        "Crystallography supports the source identity but does not certify a machine structure encoding.",
+        "No reaction operation or new outcome appears on this page."
+      ]
+    }
+  ]
+}

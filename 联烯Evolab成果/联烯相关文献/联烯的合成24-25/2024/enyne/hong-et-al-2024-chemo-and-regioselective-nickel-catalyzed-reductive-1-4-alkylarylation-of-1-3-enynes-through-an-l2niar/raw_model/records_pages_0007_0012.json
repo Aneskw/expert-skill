@@ -1,0 +1,4668 @@
+[
+  {
+    "record_id": "doc_cc3398ed66437a7d:preparation_complex_66",
+    "document_id": "doc_cc3398ed66437a7d",
+    "source_reaction_id": "preparation_complex_66",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cc3398ed66437a7d:page7:text",
+      "doc_cc3398ed66437a7d:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "aryl_bromide",
+        "role": "reactant",
+        "label": {
+          "value": "4-cyanophenyl bromide",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "4-bromobenzonitrile",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "N#Cc1ccc(Br)cc1",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ni0_complex",
+        "role": "reactant",
+        "label": {
+          "value": "Ni0(L5)(cod)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound Ni0(L5)(cod)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_complex",
+        "role": "product",
+        "label": {
+          "value": "NiII(L5)(p-NCC6H4)Br (66)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound NiII(L5)(p-NCC6H4)Br (66)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "oxidative_addition_preparation",
+        "participant_ids": [
+          "aryl_bromide",
+          "ni0_complex"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "prepared by oxidative addition using an adapted literature procedure",
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page7:text",
+                "doc_cc3398ed66437a7d:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 86,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_complex"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_complex"
+        ]
+      },
+      {
+        "name": "purity_assessment",
+        "fact": {
+          "value": "pure by elemental analysis",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_complex"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The main article reports the preparation and isolated yield but delegates the operational procedure to unassociated Supporting Information and an adapted literature method.",
+        "evidence_ids": [
+          "doc_cc3398ed66437a7d:page7:text",
+          "doc_cc3398ed66437a7d:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Nickel complexes, compact organic products, and proposed intermediates remain source-labeled where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "Solvent, reagent quantities, temperature, reaction time, atmosphere, workup, purification, and isolated mass are not reported in the main article."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cc3398ed66437a7d:preparation_complex_67",
+    "document_id": "doc_cc3398ed66437a7d",
+    "source_reaction_id": "preparation_complex_67",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cc3398ed66437a7d:page7:text",
+      "doc_cc3398ed66437a7d:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "aryl_bromide",
+        "role": "reactant",
+        "label": {
+          "value": "phenyl bromide",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "bromobenzene",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Brc1ccccc1",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ni0_complex",
+        "role": "reactant",
+        "label": {
+          "value": "Ni0(L5)(cod)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound Ni0(L5)(cod)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_complex",
+        "role": "product",
+        "label": {
+          "value": "NiII(L5)(Ph)Br (67)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound NiII(L5)(Ph)Br (67)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "oxidative_addition_preparation",
+        "participant_ids": [
+          "aryl_bromide",
+          "ni0_complex"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "prepared by oxidative addition using an adapted literature procedure",
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page7:text",
+                "doc_cc3398ed66437a7d:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 88,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_complex"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_complex"
+        ]
+      },
+      {
+        "name": "purity_assessment",
+        "fact": {
+          "value": "pure by elemental analysis",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_complex"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The main article reports the preparation and isolated yield but delegates the operational procedure to unassociated Supporting Information and an adapted literature method.",
+        "evidence_ids": [
+          "doc_cc3398ed66437a7d:page7:text",
+          "doc_cc3398ed66437a7d:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Nickel complexes, compact organic products, and proposed intermediates remain source-labeled where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "Solvent, reagent quantities, temperature, reaction time, atmosphere, workup, purification, and isolated mass are not reported in the main article."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cc3398ed66437a7d:scheme5_reduction_66_to_68",
+    "document_id": "doc_cc3398ed66437a7d",
+    "source_reaction_id": "scheme5_reduction_66_to_68",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cc3398ed66437a7d:page7:text",
+      "doc_cc3398ed66437a7d:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "precursor_complex",
+        "role": "reactant",
+        "label": {
+          "value": "NiII(L5)(p-NCC6H4)Br (66)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound NiII(L5)(p-NCC6H4)Br (66)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "kc8",
+        "role": "reagent",
+        "label": {
+          "value": "KC8",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "potassium graphite",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page7:text",
+                "doc_cc3398ed66437a7d:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "thf",
+        "role": "solvent",
+        "label": {
+          "value": "THF",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrahydrofuran",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C1CCOC1",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "reduced_complex",
+        "role": "product",
+        "label": {
+          "value": "Ni(L5)(p-NCC6H4) (68)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound Ni(L5)(p-NCC6H4) (68)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "kbr",
+        "role": "product",
+        "label": {
+          "value": "KBr",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "potassium bromide",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[K+].[Br-]",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "graphite",
+        "role": "product",
+        "label": {
+          "value": "graphite",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "graphite",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "KC8_reduction",
+        "participant_ids": [
+          "precursor_complex",
+          "kc8",
+          "thf"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page7:text",
+                "doc_cc3398ed66437a7d:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "N2",
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page7:text",
+                "doc_cc3398ed66437a7d:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 30,
+                "unit": "min"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page7:text",
+                "doc_cc3398ed66437a7d:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "EPR_rhombic_g_values",
+        "fact": {
+          "value": [
+            2.265,
+            2.128,
+            2.053
+          ],
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "reduced_complex"
+        ]
+      },
+      {
+        "name": "EPR_rhombic_signal_fraction_of_total_Ni",
+        "fact": {
+          "value": {
+            "number": 31,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "reduced_complex"
+        ]
+      },
+      {
+        "name": "minor_EPR_signal_g_value",
+        "fact": {
+          "value": 2.003,
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "minor_EPR_signal_peak_to_peak_separation",
+        "fact": {
+          "value": "13 G",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "minor_EPR_signal_fraction_of_total_Ni",
+        "fact": {
+          "value": {
+            "number": 1,
+            "unit": "%",
+            "qualifier": "lt",
+            "raw_text": "less than 1%"
+          },
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "EPR_measurement_temperature",
+        "fact": {
+          "value": {
+            "number": 100,
+            "unit": "K"
+          },
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "UV_vis_new_absorption_maximum",
+        "fact": {
+          "value": "376 nm",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "reduced_complex"
+        ]
+      },
+      {
+        "name": "UV_vis_shoulder",
+        "fact": {
+          "value": "475 nm",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "reduced_complex"
+        ]
+      },
+      {
+        "name": "HRMS_observed_m_over_z_for_68_plus_H",
+        "fact": {
+          "value": 341.0456,
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "reduced_complex"
+        ]
+      },
+      {
+        "name": "solution_identity_observation",
+        "fact": {
+          "value": "68 was the only identifiable Ni complex in solution",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "reduced_complex"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Complex 68 was generated in situ and characterized; the 31% value is EPR-quantified accumulation relative to total Ni, not an isolated chemical yield.",
+        "evidence_ids": [
+          "doc_cc3398ed66437a7d:page7:text",
+          "doc_cc3398ed66437a7d:page7:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The source depicts limiting NiI and NiII-ligand-radical resonance descriptions; it assigns the major species as best described by NiI(L5)(p-NCC6H4).",
+        "evidence_ids": [
+          "doc_cc3398ed66437a7d:page7:text",
+          "doc_cc3398ed66437a7d:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Nickel complexes, compact organic products, and proposed intermediates remain source-labeled where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "The absolute complex/KC8 amounts, THF volume, workup, isolation, and identities of the minor EPR species are not established in the main article."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cc3398ed66437a7d:scheme5_reduction_67_to_69",
+    "document_id": "doc_cc3398ed66437a7d",
+    "source_reaction_id": "scheme5_reduction_67_to_69",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cc3398ed66437a7d:page7:text",
+      "doc_cc3398ed66437a7d:page7:image",
+      "doc_cc3398ed66437a7d:page8:text",
+      "doc_cc3398ed66437a7d:page8:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "precursor_complex",
+        "role": "reactant",
+        "label": {
+          "value": "NiII(L5)(Ph)Br (67)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound NiII(L5)(Ph)Br (67)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "kc8",
+        "role": "reagent",
+        "label": {
+          "value": "KC8",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "potassium graphite",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page7:text",
+                "doc_cc3398ed66437a7d:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "thf",
+        "role": "solvent",
+        "label": {
+          "value": "THF",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrahydrofuran",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C1CCOC1",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "reduced_complex",
+        "role": "product",
+        "label": {
+          "value": "Ni(L5)(Ph) (69)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound Ni(L5)(Ph) (69)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "kbr",
+        "role": "product",
+        "label": {
+          "value": "KBr",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "potassium bromide",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[K+].[Br-]",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "graphite",
+        "role": "product",
+        "label": {
+          "value": "graphite",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "graphite",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "KC8_reduction",
+        "participant_ids": [
+          "precursor_complex",
+          "kc8",
+          "thf"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page7:text",
+                "doc_cc3398ed66437a7d:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "N2",
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page7:text",
+                "doc_cc3398ed66437a7d:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 30,
+                "unit": "min"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page7:text",
+                "doc_cc3398ed66437a7d:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "EPR_broad_signal_g_value",
+        "fact": {
+          "value": 2.22,
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "reduced_complex"
+        ]
+      },
+      {
+        "name": "EPR_broad_signal_fraction_of_total_Ni",
+        "fact": {
+          "value": {
+            "number": 71,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "reduced_complex"
+        ]
+      },
+      {
+        "name": "minor_EPR_signal_g_value",
+        "fact": {
+          "value": 2.002,
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "minor_EPR_signal_peak_to_peak_separation",
+        "fact": {
+          "value": "4 G",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "minor_EPR_signal_fraction_of_total_Ni",
+        "fact": {
+          "value": {
+            "number": 1,
+            "unit": "%",
+            "qualifier": "lt",
+            "raw_text": "less than 1%"
+          },
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "EPR_measurement_temperature",
+        "fact": {
+          "value": {
+            "number": 100,
+            "unit": "K"
+          },
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "precursor_UV_vis_absorption_maximum",
+        "fact": {
+          "value": "480 nm",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "precursor_complex"
+        ]
+      },
+      {
+        "name": "product_UV_vis_absorption_maxima",
+        "fact": {
+          "value": [
+            "378 nm",
+            "477 nm"
+          ],
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "reduced_complex"
+        ]
+      },
+      {
+        "name": "conversion_observation",
+        "fact": {
+          "value": "UV-vis spectra confirmed conversion of 67 into 69",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "reduced_complex"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Complex 69 was generated in situ and characterized; the 71% value is EPR-quantified accumulation relative to total Ni, not an isolated chemical yield.",
+        "evidence_ids": [
+          "doc_cc3398ed66437a7d:page7:text",
+          "doc_cc3398ed66437a7d:page7:image",
+          "doc_cc3398ed66437a7d:page8:text",
+          "doc_cc3398ed66437a7d:page8:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Nickel complexes, compact organic products, and proposed intermediates remain source-labeled where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "The absolute complex/KC8 amounts, THF volume, workup, isolation, and identity of the minor EPR species are not established in the main article."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cc3398ed66437a7d:scheme5_reduction_NiL5Br2_to_NiL5Br",
+    "document_id": "doc_cc3398ed66437a7d",
+    "source_reaction_id": "scheme5_reduction_NiL5Br2_to_NiL5Br",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cc3398ed66437a7d:page7:text",
+      "doc_cc3398ed66437a7d:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "precursor_complex",
+        "role": "reactant",
+        "label": {
+          "value": "NiII(L5)Br2",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound NiII(L5)Br2",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "kc8",
+        "role": "reagent",
+        "label": {
+          "value": "KC8",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "potassium graphite",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page7:text",
+                "doc_cc3398ed66437a7d:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "thf",
+        "role": "solvent",
+        "label": {
+          "value": "THF",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrahydrofuran",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C1CCOC1",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "reduced_complex",
+        "role": "product",
+        "label": {
+          "value": "NiI(L5)Br",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound NiI(L5)Br",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "kbr",
+        "role": "product",
+        "label": {
+          "value": "KBr",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "potassium bromide",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[K+].[Br-]",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "graphite",
+        "role": "product",
+        "label": {
+          "value": "graphite",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "graphite",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "KC8_reduction",
+        "participant_ids": [
+          "precursor_complex",
+          "kc8",
+          "thf"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page7:text",
+                "doc_cc3398ed66437a7d:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "N2",
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page7:text",
+                "doc_cc3398ed66437a7d:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 30,
+                "unit": "min"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page7:text",
+                "doc_cc3398ed66437a7d:page7:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "EPR_broad_signal_g_value",
+        "fact": {
+          "value": 2.126,
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "reduced_complex"
+        ]
+      },
+      {
+        "name": "narrow_EPR_signal_g_value",
+        "fact": {
+          "value": 2.002,
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "narrow_EPR_signal_peak_to_peak_separation",
+        "fact": {
+          "value": "4 G",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "EPR_measurement_temperature",
+        "fact": {
+          "value": {
+            "number": 100,
+            "unit": "K"
+          },
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "value": "The prose states that Ni(L5)Br was generated by the same method used for 66; the Scheme 5 lower arrow supplies THF, room temperature, N2, and 30 min.",
+        "evidence_ids": [
+          "doc_cc3398ed66437a7d:page7:text",
+          "doc_cc3398ed66437a7d:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Nickel complexes, compact organic products, and proposed intermediates remain source-labeled where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "The absolute complex/KC8 amounts, THF volume, workup, isolation, EPR quantification, and identity of the narrow-signal species are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cc3398ed66437a7d:scheme6_stoichiometric_68_with_1_and_3",
+    "document_id": "doc_cc3398ed66437a7d",
+    "source_reaction_id": "scheme6_stoichiometric_68_with_1_and_3",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cc3398ed66437a7d:page7:text",
+      "doc_cc3398ed66437a7d:page7:image",
+      "doc_cc3398ed66437a7d:page8:text",
+      "doc_cc3398ed66437a7d:page8:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "precursor_complex",
+        "role": "reactant",
+        "label": {
+          "value": "NiII(L5)(p-NCC6H4)Br (66)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound NiII(L5)(p-NCC6H4)Br (66)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "kc8",
+        "role": "reagent",
+        "label": {
+          "value": "KC8",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "potassium graphite",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page7:text",
+                "doc_cc3398ed66437a7d:page7:image",
+                "doc_cc3398ed66437a7d:page8:text",
+                "doc_cc3398ed66437a7d:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "thf",
+        "role": "solvent",
+        "label": {
+          "value": "THF",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrahydrofuran",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C1CCOC1",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "reduced_complex",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "Ni(L5)(p-NCC6H4) (68), generated in situ",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound Ni(L5)(p-NCC6H4) (68), generated in situ",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "enyne_1",
+        "role": "reactant",
+        "label": {
+          "value": "1",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 1",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents_relative_to_Ni",
+            "fact": {
+              "value": {
+                "number": 15,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page8:text",
+                "doc_cc3398ed66437a7d:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "alkyl_iodide_3",
+        "role": "reactant",
+        "label": {
+          "value": "3",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2-iodo-2-methylpropane",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(C)(C)I",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents_relative_to_Ni",
+            "fact": {
+              "value": {
+                "number": 15,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page8:text",
+                "doc_cc3398ed66437a7d:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "allene",
+        "role": "product",
+        "label": {
+          "value": "4",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 4",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "dimer_57",
+        "role": "product",
+        "label": {
+          "value": "57",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 57",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "generate_68_in_situ",
+        "participant_ids": [
+          "precursor_complex",
+          "kc8",
+          "thf"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page7:text",
+                "doc_cc3398ed66437a7d:page7:image",
+                "doc_cc3398ed66437a7d:page8:text",
+                "doc_cc3398ed66437a7d:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "N2",
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page7:text",
+                "doc_cc3398ed66437a7d:page7:image",
+                "doc_cc3398ed66437a7d:page8:text",
+                "doc_cc3398ed66437a7d:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 30,
+                "unit": "min"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page7:text",
+                "doc_cc3398ed66437a7d:page7:image",
+                "doc_cc3398ed66437a7d:page8:text",
+                "doc_cc3398ed66437a7d:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "add_enyne_and_alkyl_iodide",
+        "participant_ids": [
+          "reduced_complex",
+          "enyne_1",
+          "alkyl_iodide_3",
+          "thf"
+        ],
+        "conditions": [
+          {
+            "name": "addition_operation",
+            "fact": {
+              "value": "1 and 3 were added 30 min after KC8 was added to 66",
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page8:text",
+                "doc_cc3398ed66437a7d:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page8:text",
+                "doc_cc3398ed66437a7d:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "N2",
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page8:text",
+                "doc_cc3398ed66437a7d:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 12,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page8:text",
+                "doc_cc3398ed66437a7d:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "yield_wrt_Ni",
+        "fact": {
+          "value": {
+            "number": 32,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "allene"
+        ]
+      },
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "number": 14,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "dimer_57"
+        ]
+      },
+      {
+        "name": "yield_basis",
+        "fact": {
+          "value": "percent with respect to Ni",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "allene"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The 0.040 mmol Ni/0.60 mmol 1/0.60 mmol 3 values are described only as the catalytic standard-condition ratio used to choose 15 equivalents; they are not assigned as the absolute charges of this stoichiometric run.",
+        "evidence_ids": [
+          "doc_cc3398ed66437a7d:page7:text",
+          "doc_cc3398ed66437a7d:page7:image",
+          "doc_cc3398ed66437a7d:page8:text",
+          "doc_cc3398ed66437a7d:page8:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The in-situ 30 min generation stage and subsequent 12 h substrate reaction are retained as ordered steps rather than collapsed into a fabricated total time.",
+        "evidence_ids": [
+          "doc_cc3398ed66437a7d:page7:text",
+          "doc_cc3398ed66437a7d:page7:image",
+          "doc_cc3398ed66437a7d:page8:text",
+          "doc_cc3398ed66437a7d:page8:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Nickel complexes, compact organic products, and proposed intermediates remain source-labeled where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "The text explicitly gives 32% for 4 with respect to Ni but prints 14% for 57 without separately stating its basis; the 14% basis remains unresolved.",
+        "Absolute Ni-complex/KC8/substrate amounts, THF volume, workup, purification, isolated masses, and analytical yield method are not reported in the main article."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cc3398ed66437a7d:scheme6_stoichiometric_69_with_1_and_3",
+    "document_id": "doc_cc3398ed66437a7d",
+    "source_reaction_id": "scheme6_stoichiometric_69_with_1_and_3",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cc3398ed66437a7d:page7:text",
+      "doc_cc3398ed66437a7d:page7:image",
+      "doc_cc3398ed66437a7d:page8:text",
+      "doc_cc3398ed66437a7d:page8:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "precursor_complex",
+        "role": "reactant",
+        "label": {
+          "value": "NiII(L5)(Ph)Br (67)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound NiII(L5)(Ph)Br (67)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "kc8",
+        "role": "reagent",
+        "label": {
+          "value": "KC8",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "potassium graphite",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page7:text",
+                "doc_cc3398ed66437a7d:page7:image",
+                "doc_cc3398ed66437a7d:page8:text",
+                "doc_cc3398ed66437a7d:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "thf",
+        "role": "solvent",
+        "label": {
+          "value": "THF",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrahydrofuran",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C1CCOC1",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "reduced_complex",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "Ni(L5)(Ph) (69), generated in situ",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound Ni(L5)(Ph) (69), generated in situ",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "enyne_1",
+        "role": "reactant",
+        "label": {
+          "value": "1",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 1",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents_relative_to_Ni",
+            "fact": {
+              "value": {
+                "number": 15,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page8:text",
+                "doc_cc3398ed66437a7d:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "alkyl_iodide_3",
+        "role": "reactant",
+        "label": {
+          "value": "3",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2-iodo-2-methylpropane",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(C)(C)I",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents_relative_to_Ni",
+            "fact": {
+              "value": {
+                "number": 15,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page8:text",
+                "doc_cc3398ed66437a7d:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "allene",
+        "role": "product",
+        "label": {
+          "value": "expected Ph-coupled allene product",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound expected Ph-coupled allene product",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "dimer_57",
+        "role": "product",
+        "label": {
+          "value": "57",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 57",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page7:text",
+            "doc_cc3398ed66437a7d:page7:image",
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "generate_69_in_situ",
+        "participant_ids": [
+          "precursor_complex",
+          "kc8",
+          "thf"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page7:text",
+                "doc_cc3398ed66437a7d:page7:image",
+                "doc_cc3398ed66437a7d:page8:text",
+                "doc_cc3398ed66437a7d:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "N2",
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page7:text",
+                "doc_cc3398ed66437a7d:page7:image",
+                "doc_cc3398ed66437a7d:page8:text",
+                "doc_cc3398ed66437a7d:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 30,
+                "unit": "min"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page7:text",
+                "doc_cc3398ed66437a7d:page7:image",
+                "doc_cc3398ed66437a7d:page8:text",
+                "doc_cc3398ed66437a7d:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "add_enyne_and_alkyl_iodide",
+        "participant_ids": [
+          "reduced_complex",
+          "enyne_1",
+          "alkyl_iodide_3",
+          "thf"
+        ],
+        "conditions": [
+          {
+            "name": "addition_operation",
+            "fact": {
+              "value": "1 and 3 were added 30 min after KC8 was added to 67",
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page8:text",
+                "doc_cc3398ed66437a7d:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page8:text",
+                "doc_cc3398ed66437a7d:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "N2",
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page8:text",
+                "doc_cc3398ed66437a7d:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 12,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page8:text",
+                "doc_cc3398ed66437a7d:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "coupled_allene_observation",
+        "fact": {
+          "value": "not observed",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "allene"
+        ]
+      },
+      {
+        "name": "yield_wrt_Ni",
+        "fact": {
+          "value": {
+            "number": 20,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "dimer_57"
+        ]
+      },
+      {
+        "name": "yield_basis",
+        "fact": {
+          "value": "percent with respect to Ni",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "dimer_57"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The 0.040 mmol Ni/0.60 mmol 1/0.60 mmol 3 values are described only as the catalytic standard-condition ratio used to choose 15 equivalents; they are not assigned as the absolute charges of this stoichiometric run.",
+        "evidence_ids": [
+          "doc_cc3398ed66437a7d:page7:text",
+          "doc_cc3398ed66437a7d:page7:image",
+          "doc_cc3398ed66437a7d:page8:text",
+          "doc_cc3398ed66437a7d:page8:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The expected allene from the phenyl complex is not silently labeled compound 4; the source states that the coupled allene product was not delivered.",
+        "evidence_ids": [
+          "doc_cc3398ed66437a7d:page7:text",
+          "doc_cc3398ed66437a7d:page7:image",
+          "doc_cc3398ed66437a7d:page8:text",
+          "doc_cc3398ed66437a7d:page8:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Nickel complexes, compact organic products, and proposed intermediates remain source-labeled where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "Absolute Ni-complex/KC8/substrate amounts, THF volume, workup, purification, isolated mass, yield analytical method, and numerical non-detection limit are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cc3398ed66437a7d:scheme7_proposed_catalytic_cycle",
+    "document_id": "doc_cc3398ed66437a7d",
+    "source_reaction_id": "scheme7_proposed_catalytic_cycle",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cc3398ed66437a7d:page8:text",
+      "doc_cc3398ed66437a7d:page8:image",
+      "doc_cc3398ed66437a7d:page9:text",
+      "doc_cc3398ed66437a7d:page9:image",
+      "doc_cc3398ed66437a7d:page12:text",
+      "doc_cc3398ed66437a7d:page12:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "precatalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "NiX2/L2 precatalyst",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound NiX2/L2 precatalyst",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "mn",
+        "role": "reagent",
+        "label": {
+          "value": "Mn",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "manganese",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Mn]",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "tbai",
+        "role": "reagent",
+        "label": {
+          "value": "TBAI",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetra-n-butylammonium iodide",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCCC[N+](CCCC)(CCCC)CCCC.[I-]",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "aryl_iodide",
+        "role": "reactant",
+        "label": {
+          "value": "Ar-I",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound Ar-I",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "alkyl_iodide",
+        "role": "reactant",
+        "label": {
+          "value": "Alk-I",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound Alk-I",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "enyne",
+        "role": "reactant",
+        "label": {
+          "value": "generic 1,3-enyne",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound generic 1,3-enyne",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "intermediate_I",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "L2NiI-I (I)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound L2NiI-I (I)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "intermediate_II",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "L2NiIIIArI2 (II)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound L2NiIIIArI2 (II)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "intermediate_III",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "L2NiIIArI (III)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound L2NiIIArI (III)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "intermediate_IV",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "L2NiIAr (IV)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound L2NiIAr (IV)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "intermediate_V",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "alkyl radical (V)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound alkyl radical (V)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "intermediate_VI",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "propargyl radical resonance form (VI)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound propargyl radical resonance form (VI)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "intermediate_VII",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "allenyl radical resonance form (VII)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound allenyl radical resonance form (VII)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "intermediate_VIII",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "L2NiIII(aryl)(allenyl)I (VIII)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound L2NiIII(aryl)(allenyl)I (VIII)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "intermediate_IX",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "L2NiII I2 (IX)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound L2NiII I2 (IX)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "allene",
+        "role": "product",
+        "label": {
+          "value": "generic 1,4-alkylarylated allene",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound generic 1,4-alkylarylated allene",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page8:text",
+            "doc_cc3398ed66437a7d:page8:image",
+            "doc_cc3398ed66437a7d:page9:text",
+            "doc_cc3398ed66437a7d:page9:image",
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [],
+    "outcomes": [],
+    "notes": [
+      {
+        "value": "Scheme 7 is the authors' proposed cycle: precatalyst reduction, aryl-iodide oxidative addition/reduction, alkyl-iodide activation, radical addition to the enyne, capture by NiII, and reductive elimination.",
+        "evidence_ids": [
+          "doc_cc3398ed66437a7d:page8:text",
+          "doc_cc3398ed66437a7d:page8:image",
+          "doc_cc3398ed66437a7d:page9:text",
+          "doc_cc3398ed66437a7d:page9:image",
+          "doc_cc3398ed66437a7d:page12:text",
+          "doc_cc3398ed66437a7d:page12:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Footnote 29 states that VIII may form by selective capture at the allenyl carbon or by capture at the propargyl carbon followed by isomerization.",
+        "evidence_ids": [
+          "doc_cc3398ed66437a7d:page8:text",
+          "doc_cc3398ed66437a7d:page8:image",
+          "doc_cc3398ed66437a7d:page9:text",
+          "doc_cc3398ed66437a7d:page9:image",
+          "doc_cc3398ed66437a7d:page12:text",
+          "doc_cc3398ed66437a7d:page12:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Alternative routes to III are mentioned only in unassociated Supporting Information and were not imported.",
+        "evidence_ids": [
+          "doc_cc3398ed66437a7d:page8:text",
+          "doc_cc3398ed66437a7d:page8:image",
+          "doc_cc3398ed66437a7d:page9:text",
+          "doc_cc3398ed66437a7d:page9:image",
+          "doc_cc3398ed66437a7d:page12:text",
+          "doc_cc3398ed66437a7d:page12:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "I--IX and the radical/capture pathways are proposed species and steps with no independent quantities, yields, or observation status.",
+        "Supporting Information association remains unestablished; alternative SI-only routes and details were not used or inferred."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cc3398ed66437a7d:table2_enyne_scope_25",
+    "document_id": "doc_cc3398ed66437a7d",
+    "source_reaction_id": "table2_enyne_scope_25",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cc3398ed66437a7d:page3:text",
+      "doc_cc3398ed66437a7d:page3:image",
+      "doc_cc3398ed66437a7d:page4:text",
+      "doc_cc3398ed66437a7d:page4:image",
+      "doc_cc3398ed66437a7d:page9:text",
+      "doc_cc3398ed66437a7d:page9:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "enyne",
+        "role": "reactant",
+        "label": {
+          "value": "1,3-enyne precursor to 25",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page3:text",
+            "doc_cc3398ed66437a7d:page3:image",
+            "doc_cc3398ed66437a7d:page4:text",
+            "doc_cc3398ed66437a7d:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-depicted 1,3-enyne precursor to product 25",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page3:text",
+            "doc_cc3398ed66437a7d:page3:image",
+            "doc_cc3398ed66437a7d:page4:text",
+            "doc_cc3398ed66437a7d:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.6,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page3:text",
+                "doc_cc3398ed66437a7d:page3:image",
+                "doc_cc3398ed66437a7d:page4:text",
+                "doc_cc3398ed66437a7d:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "aryl_iodide",
+        "role": "reactant",
+        "label": {
+          "value": "2",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page3:text",
+            "doc_cc3398ed66437a7d:page3:image",
+            "doc_cc3398ed66437a7d:page4:text",
+            "doc_cc3398ed66437a7d:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "4-iodobenzonitrile",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page3:text",
+            "doc_cc3398ed66437a7d:page3:image",
+            "doc_cc3398ed66437a7d:page4:text",
+            "doc_cc3398ed66437a7d:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "N#Cc1ccc(I)cc1",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page3:text",
+            "doc_cc3398ed66437a7d:page3:image",
+            "doc_cc3398ed66437a7d:page4:text",
+            "doc_cc3398ed66437a7d:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.4,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page3:text",
+                "doc_cc3398ed66437a7d:page3:image",
+                "doc_cc3398ed66437a7d:page4:text",
+                "doc_cc3398ed66437a7d:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "alkyl_iodide",
+        "role": "reactant",
+        "label": {
+          "value": "3",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page3:text",
+            "doc_cc3398ed66437a7d:page3:image",
+            "doc_cc3398ed66437a7d:page4:text",
+            "doc_cc3398ed66437a7d:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2-iodo-2-methylpropane",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page3:text",
+            "doc_cc3398ed66437a7d:page3:image",
+            "doc_cc3398ed66437a7d:page4:text",
+            "doc_cc3398ed66437a7d:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(C)(C)I",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page3:text",
+            "doc_cc3398ed66437a7d:page3:image",
+            "doc_cc3398ed66437a7d:page4:text",
+            "doc_cc3398ed66437a7d:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.6,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page3:text",
+                "doc_cc3398ed66437a7d:page3:image",
+                "doc_cc3398ed66437a7d:page4:text",
+                "doc_cc3398ed66437a7d:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "nickel",
+        "role": "catalyst",
+        "label": {
+          "value": "NiCl2(py)4",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page3:text",
+            "doc_cc3398ed66437a7d:page3:image",
+            "doc_cc3398ed66437a7d:page4:text",
+            "doc_cc3398ed66437a7d:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "nickel(II) chloride tetrakis(pyridine)",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page3:text",
+            "doc_cc3398ed66437a7d:page3:image",
+            "doc_cc3398ed66437a7d:page4:text",
+            "doc_cc3398ed66437a7d:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page3:text",
+                "doc_cc3398ed66437a7d:page3:image",
+                "doc_cc3398ed66437a7d:page4:text",
+                "doc_cc3398ed66437a7d:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand",
+        "role": "reagent",
+        "label": {
+          "value": "L1",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page3:text",
+            "doc_cc3398ed66437a7d:page3:image",
+            "doc_cc3398ed66437a7d:page4:text",
+            "doc_cc3398ed66437a7d:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,2'-bipyridine",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page3:text",
+            "doc_cc3398ed66437a7d:page3:image",
+            "doc_cc3398ed66437a7d:page4:text",
+            "doc_cc3398ed66437a7d:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "n1ccccc1-c1ccccn1",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page3:text",
+            "doc_cc3398ed66437a7d:page3:image",
+            "doc_cc3398ed66437a7d:page4:text",
+            "doc_cc3398ed66437a7d:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 12,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page3:text",
+                "doc_cc3398ed66437a7d:page3:image",
+                "doc_cc3398ed66437a7d:page4:text",
+                "doc_cc3398ed66437a7d:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "mn",
+        "role": "reagent",
+        "label": {
+          "value": "Mn",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page3:text",
+            "doc_cc3398ed66437a7d:page3:image",
+            "doc_cc3398ed66437a7d:page4:text",
+            "doc_cc3398ed66437a7d:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "manganese",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page3:text",
+            "doc_cc3398ed66437a7d:page3:image",
+            "doc_cc3398ed66437a7d:page4:text",
+            "doc_cc3398ed66437a7d:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Mn]",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page3:text",
+            "doc_cc3398ed66437a7d:page3:image",
+            "doc_cc3398ed66437a7d:page4:text",
+            "doc_cc3398ed66437a7d:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page3:text",
+                "doc_cc3398ed66437a7d:page3:image",
+                "doc_cc3398ed66437a7d:page4:text",
+                "doc_cc3398ed66437a7d:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "tbai",
+        "role": "reagent",
+        "label": {
+          "value": "TBAI",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page3:text",
+            "doc_cc3398ed66437a7d:page3:image",
+            "doc_cc3398ed66437a7d:page4:text",
+            "doc_cc3398ed66437a7d:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetra-n-butylammonium iodide",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page3:text",
+            "doc_cc3398ed66437a7d:page3:image",
+            "doc_cc3398ed66437a7d:page4:text",
+            "doc_cc3398ed66437a7d:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCCC[N+](CCCC)(CCCC)CCCC.[I-]",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page3:text",
+            "doc_cc3398ed66437a7d:page3:image",
+            "doc_cc3398ed66437a7d:page4:text",
+            "doc_cc3398ed66437a7d:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 0.75,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page3:text",
+                "doc_cc3398ed66437a7d:page3:image",
+                "doc_cc3398ed66437a7d:page4:text",
+                "doc_cc3398ed66437a7d:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "solvent",
+        "role": "solvent",
+        "label": {
+          "value": "DMAc",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page3:text",
+            "doc_cc3398ed66437a7d:page3:image",
+            "doc_cc3398ed66437a7d:page4:text",
+            "doc_cc3398ed66437a7d:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N,N-dimethylacetamide",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page3:text",
+            "doc_cc3398ed66437a7d:page3:image",
+            "doc_cc3398ed66437a7d:page4:text",
+            "doc_cc3398ed66437a7d:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(=O)N(C)C",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page3:text",
+            "doc_cc3398ed66437a7d:page3:image",
+            "doc_cc3398ed66437a7d:page4:text",
+            "doc_cc3398ed66437a7d:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page3:text",
+                "doc_cc3398ed66437a7d:page3:image",
+                "doc_cc3398ed66437a7d:page4:text",
+                "doc_cc3398ed66437a7d:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "volume"
+          }
+        ]
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "25",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page3:text",
+            "doc_cc3398ed66437a7d:page3:image",
+            "doc_cc3398ed66437a7d:page4:text",
+            "doc_cc3398ed66437a7d:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 25",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page3:text",
+            "doc_cc3398ed66437a7d:page3:image",
+            "doc_cc3398ed66437a7d:page4:text",
+            "doc_cc3398ed66437a7d:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "scope_reductive_1_4_alkylarylation",
+        "participant_ids": [
+          "enyne",
+          "aryl_iodide",
+          "alkyl_iodide",
+          "nickel",
+          "ligand",
+          "mn",
+          "tbai",
+          "solvent"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page3:text",
+                "doc_cc3398ed66437a7d:page3:image",
+                "doc_cc3398ed66437a7d:page4:text",
+                "doc_cc3398ed66437a7d:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "N2",
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "atmosphere"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "minimum": 1,
+                "maximum": 12,
+                "unit": "h",
+                "raw_text": "1-12 h"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page3:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 79,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page3:text",
+            "doc_cc3398ed66437a7d:page3:image",
+            "doc_cc3398ed66437a7d:page4:text",
+            "doc_cc3398ed66437a7d:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated yield",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page3:text",
+            "doc_cc3398ed66437a7d:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "measurement_basis"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Each Table 2 product is a distinct substrate-scope experiment; the compact structure is retained by source label with null SMILES where safe stereochemical encoding was uncertain.",
+        "evidence_ids": [
+          "doc_cc3398ed66437a7d:page3:text",
+          "doc_cc3398ed66437a7d:page3:image",
+          "doc_cc3398ed66437a7d:page4:text",
+          "doc_cc3398ed66437a7d:page4:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Page 9 assigns CCDC 2150685 to product 25. This is crystallographic characterization provenance, not a second preparation, not an associated SI file, and not verification of a machine structure encoding.",
+        "evidence_ids": [
+          "doc_cc3398ed66437a7d:page9:text",
+          "doc_cc3398ed66437a7d:page9:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Nickel complexes, compact organic products, and proposed intermediates remain source-labeled where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "CCDC 2150685 is a crystallographic deposition rather than an explicitly associated workspace Supporting Information file.",
+        "The caption gives a shared 1-12 h range rather than an exact row time; workup, purification, and isolated product mass are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cc3398ed66437a7d:scheme2a_radical_dimerization",
+    "document_id": "doc_cc3398ed66437a7d",
+    "source_reaction_id": "scheme2a_radical_dimerization",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cc3398ed66437a7d:page5:text",
+      "doc_cc3398ed66437a7d:page5:image",
+      "doc_cc3398ed66437a7d:page6:text",
+      "doc_cc3398ed66437a7d:page6:image",
+      "doc_cc3398ed66437a7d:page9:text",
+      "doc_cc3398ed66437a7d:page9:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "enyne",
+        "role": "reactant",
+        "label": {
+          "value": "1",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page5:text",
+            "doc_cc3398ed66437a7d:page5:image",
+            "doc_cc3398ed66437a7d:page6:text",
+            "doc_cc3398ed66437a7d:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 1",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page5:text",
+            "doc_cc3398ed66437a7d:page5:image",
+            "doc_cc3398ed66437a7d:page6:text",
+            "doc_cc3398ed66437a7d:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.3,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page2:text",
+                "doc_cc3398ed66437a7d:page2:image",
+                "doc_cc3398ed66437a7d:page5:text",
+                "doc_cc3398ed66437a7d:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "alkyl_3",
+        "role": "reactant",
+        "label": {
+          "value": "3",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page5:text",
+            "doc_cc3398ed66437a7d:page5:image",
+            "doc_cc3398ed66437a7d:page6:text",
+            "doc_cc3398ed66437a7d:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2-iodo-2-methylpropane",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page5:text",
+            "doc_cc3398ed66437a7d:page5:image",
+            "doc_cc3398ed66437a7d:page6:text",
+            "doc_cc3398ed66437a7d:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(C)(C)I",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page5:text",
+            "doc_cc3398ed66437a7d:page5:image",
+            "doc_cc3398ed66437a7d:page6:text",
+            "doc_cc3398ed66437a7d:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.3,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page2:text",
+                "doc_cc3398ed66437a7d:page2:image",
+                "doc_cc3398ed66437a7d:page5:text",
+                "doc_cc3398ed66437a7d:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "nickel",
+        "role": "catalyst",
+        "label": {
+          "value": "NiCl2(py)4",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page5:text",
+            "doc_cc3398ed66437a7d:page5:image",
+            "doc_cc3398ed66437a7d:page6:text",
+            "doc_cc3398ed66437a7d:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound NiCl2(py)4",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page5:text",
+            "doc_cc3398ed66437a7d:page5:image",
+            "doc_cc3398ed66437a7d:page6:text",
+            "doc_cc3398ed66437a7d:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page2:text",
+                "doc_cc3398ed66437a7d:page2:image",
+                "doc_cc3398ed66437a7d:page5:text",
+                "doc_cc3398ed66437a7d:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand",
+        "role": "reagent",
+        "label": {
+          "value": "L1",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page5:text",
+            "doc_cc3398ed66437a7d:page5:image",
+            "doc_cc3398ed66437a7d:page6:text",
+            "doc_cc3398ed66437a7d:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2,2'-bipyridine",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page5:text",
+            "doc_cc3398ed66437a7d:page5:image",
+            "doc_cc3398ed66437a7d:page6:text",
+            "doc_cc3398ed66437a7d:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "n1ccccc1-c1ccccn1",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page5:text",
+            "doc_cc3398ed66437a7d:page5:image",
+            "doc_cc3398ed66437a7d:page6:text",
+            "doc_cc3398ed66437a7d:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 12,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page2:text",
+                "doc_cc3398ed66437a7d:page2:image",
+                "doc_cc3398ed66437a7d:page5:text",
+                "doc_cc3398ed66437a7d:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "mn",
+        "role": "reagent",
+        "label": {
+          "value": "Mn",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page5:text",
+            "doc_cc3398ed66437a7d:page5:image",
+            "doc_cc3398ed66437a7d:page6:text",
+            "doc_cc3398ed66437a7d:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "manganese",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page5:text",
+            "doc_cc3398ed66437a7d:page5:image",
+            "doc_cc3398ed66437a7d:page6:text",
+            "doc_cc3398ed66437a7d:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Mn]",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page5:text",
+            "doc_cc3398ed66437a7d:page5:image",
+            "doc_cc3398ed66437a7d:page6:text",
+            "doc_cc3398ed66437a7d:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page2:text",
+                "doc_cc3398ed66437a7d:page2:image",
+                "doc_cc3398ed66437a7d:page5:text",
+                "doc_cc3398ed66437a7d:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "tbai",
+        "role": "reagent",
+        "label": {
+          "value": "TBAI",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page5:text",
+            "doc_cc3398ed66437a7d:page5:image",
+            "doc_cc3398ed66437a7d:page6:text",
+            "doc_cc3398ed66437a7d:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetra-n-butylammonium iodide",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page5:text",
+            "doc_cc3398ed66437a7d:page5:image",
+            "doc_cc3398ed66437a7d:page6:text",
+            "doc_cc3398ed66437a7d:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCCC[N+](CCCC)(CCCC)CCCC.[I-]",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page5:text",
+            "doc_cc3398ed66437a7d:page5:image",
+            "doc_cc3398ed66437a7d:page6:text",
+            "doc_cc3398ed66437a7d:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 0.75,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page2:text",
+                "doc_cc3398ed66437a7d:page2:image",
+                "doc_cc3398ed66437a7d:page5:text",
+                "doc_cc3398ed66437a7d:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "dmac",
+        "role": "solvent",
+        "label": {
+          "value": "DMAc",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page5:text",
+            "doc_cc3398ed66437a7d:page5:image",
+            "doc_cc3398ed66437a7d:page6:text",
+            "doc_cc3398ed66437a7d:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N,N-dimethylacetamide",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page5:text",
+            "doc_cc3398ed66437a7d:page5:image",
+            "doc_cc3398ed66437a7d:page6:text",
+            "doc_cc3398ed66437a7d:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(=O)N(C)C",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page5:text",
+            "doc_cc3398ed66437a7d:page5:image",
+            "doc_cc3398ed66437a7d:page6:text",
+            "doc_cc3398ed66437a7d:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page2:text",
+                "doc_cc3398ed66437a7d:page2:image",
+                "doc_cc3398ed66437a7d:page5:text",
+                "doc_cc3398ed66437a7d:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "volume"
+          }
+        ]
+      },
+      {
+        "entity_id": "dimer_57",
+        "role": "product",
+        "label": {
+          "value": "57",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page5:text",
+            "doc_cc3398ed66437a7d:page5:image",
+            "doc_cc3398ed66437a7d:page6:text",
+            "doc_cc3398ed66437a7d:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 57",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page5:text",
+            "doc_cc3398ed66437a7d:page5:image",
+            "doc_cc3398ed66437a7d:page6:text",
+            "doc_cc3398ed66437a7d:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "standard_conditions_without_aryl_iodide",
+        "participant_ids": [
+          "enyne",
+          "alkyl_3",
+          "nickel",
+          "ligand",
+          "mn",
+          "tbai",
+          "dmac"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page2:text",
+                "doc_cc3398ed66437a7d:page2:image",
+                "doc_cc3398ed66437a7d:page5:text",
+                "doc_cc3398ed66437a7d:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "N2",
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page2:text",
+                "doc_cc3398ed66437a7d:page2:image",
+                "doc_cc3398ed66437a7d:page5:text",
+                "doc_cc3398ed66437a7d:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "atmosphere"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page2:text",
+                "doc_cc3398ed66437a7d:page2:image",
+                "doc_cc3398ed66437a7d:page5:text",
+                "doc_cc3398ed66437a7d:page5:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "conversion_of_1_accounted_for_by_isolated_57",
+        "fact": {
+          "value": {
+            "number": 38,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page5:text",
+            "doc_cc3398ed66437a7d:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "dimer_57"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "diastereomeric_ratio",
+        "fact": {
+          "value": "~1:1",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "dimer_57"
+        ],
+        "category": "selectivity"
+      },
+      {
+        "name": "structure_assignment_basis",
+        "fact": {
+          "value": "X-ray crystallography",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page5:text",
+            "doc_cc3398ed66437a7d:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "dimer_57"
+        ],
+        "category": "measurement_basis"
+      }
+    ],
+    "notes": [
+      {
+        "value": "The source states that isolated 57 accounted for 38% conversion of 1. This is retained as conversion-linked product accounting, not silently relabeled as an isolated yield.",
+        "evidence_ids": [
+          "doc_cc3398ed66437a7d:page5:text",
+          "doc_cc3398ed66437a7d:page5:image",
+          "doc_cc3398ed66437a7d:page6:text",
+          "doc_cc3398ed66437a7d:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Page 9 assigns CCDC 2150686 to radical dimer 57. This is crystallographic characterization provenance, not a second preparation, not an associated SI file, and not verification of a machine structure encoding.",
+        "evidence_ids": [
+          "doc_cc3398ed66437a7d:page9:text",
+          "doc_cc3398ed66437a7d:page9:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Nickel complexes, compact organic products, and proposed intermediates remain source-labeled where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "CCDC 2150686 is a crystallographic deposition rather than an explicitly associated workspace Supporting Information file.",
+        "Workup, purification, isolated mass, and exact analytical basis for the approximately 1:1 dr are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_cc3398ed66437a7d:footnote27_unassociated_SI_NiL5Br_stoichiometric_reaction",
+    "document_id": "doc_cc3398ed66437a7d",
+    "source_reaction_id": "footnote27_unassociated_SI_NiL5Br_stoichiometric_reaction",
+    "record_kind": "unresolved",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_cc3398ed66437a7d:page12:text",
+      "doc_cc3398ed66437a7d:page12:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "nil5br",
+        "role": "reactant",
+        "label": {
+          "value": "Ni(L5)Br",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound Ni(L5)Br",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "enyne_1",
+        "role": "reactant",
+        "label": {
+          "value": "1,3-enyne 1",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 1,3-enyne 1",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "alkyl_iodide_3",
+        "role": "reactant",
+        "label": {
+          "value": "alkyl iodide 3",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "2-iodo-2-methylpropane",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(C)(C)I",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "products",
+        "role": "product",
+        "label": {
+          "value": "unspecified products of SI Scheme S13",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound unspecified products of SI Scheme S13",
+          "evidence_ids": [
+            "doc_cc3398ed66437a7d:page12:text",
+            "doc_cc3398ed66437a7d:page12:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "stoichiometric_reaction_referred_to_SI",
+        "participant_ids": [
+          "nil5br",
+          "enyne_1",
+          "alkyl_iodide_3"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "stoichiometric reaction; details referred to Supporting Information Scheme S13",
+              "evidence_ids": [
+                "doc_cc3398ed66437a7d:page12:text",
+                "doc_cc3398ed66437a7d:page12:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reaction_outcome",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "products"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Footnote 27 establishes only that a stoichiometric Ni(L5)Br/1/3 reaction is discussed in Scheme S13; the SI is not associated, so no conditions, products, or yields were inferred.",
+        "evidence_ids": [
+          "doc_cc3398ed66437a7d:page12:text",
+          "doc_cc3398ed66437a7d:page12:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Nickel complexes, compact organic products, and proposed intermediates remain source-labeled where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "All quantities, solvent, temperature, time, atmosphere, workup, purification, products, yields, and analytical results are available only in unassociated SI Scheme S13 and remain missing."
+      ]
+    }
+  }
+]

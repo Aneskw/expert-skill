@@ -1,0 +1,3026 @@
+[
+  {
+    "record_id": "doc_f5dd4a27d21ce5b0:figure3d_nonlinear_effect_L1_product3a",
+    "document_id": "doc_f5dd4a27d21ce5b0",
+    "source_reaction_id": "figure3d_nonlinear_effect_L1_product3a",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f5dd4a27d21ce5b0:page6:text",
+      "doc_f5dd4a27d21ce5b0:page6:image",
+      "doc_f5dd4a27d21ce5b0:page7:text",
+      "doc_f5dd4a27d21ce5b0:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "ligand_L1",
+        "role": "reagent",
+        "label": {
+          "value": "L1 with varied ee",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound L1 with varied ee",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3a",
+        "role": "product",
+        "label": {
+          "value": "3a",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 3a",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "nonlinear_effect_series",
+        "participant_ids": [
+          "ligand_L1"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "vary ee of L1 and measure ee of product 3a",
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page6:text",
+                "doc_f5dd4a27d21ce5b0:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "operation"
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "linear_fit",
+        "fact": {
+          "value": "y = 0.98442x - 4.41429",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3a"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "R_squared",
+        "fact": {
+          "value": 0.99081,
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3a"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "nonlinear_effect_observation",
+        "fact": {
+          "value": "linear correlation",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image",
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3a"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "mechanistic_interpretation",
+        "fact": {
+          "value": "consistent with a monomeric ligated chromium catalyst in the stereodetermining addition",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image",
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3a"
+        ],
+        "category": "other"
+      }
+    ],
+    "notes": [
+      {
+        "value": "The plotted ligand/product ee points were not estimated because they are not tabulated; only the printed regression and R2 are structured.",
+        "evidence_ids": [
+          "doc_f5dd4a27d21ce5b0:page6:text",
+          "doc_f5dd4a27d21ce5b0:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Page 7 explicitly interprets the linear ligand/product-ee relationship as evidence for a monomeric ligated catalyst in the reductive 1,2-addition.",
+        "evidence_ids": [
+          "doc_f5dd4a27d21ce5b0:page7:text",
+          "doc_f5dd4a27d21ce5b0:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Compact scope substrates/products, ligands, metal complexes, and generic R-group structures remain source-labeled where safe stereochemical encoding was uncertain; every structure remains structure_verified=false.",
+        "Substrate charges, catalyst/additive doses, solvent, temperature, time, atmosphere, analytical methods, point values, and error estimates are not reported in the panel."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f5dd4a27d21ce5b0:figure3e_stern_volmer_quenching_series",
+    "document_id": "doc_f5dd4a27d21ce5b0",
+    "source_reaction_id": "figure3e_stern_volmer_quenching_series",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f5dd4a27d21ce5b0:page6:text",
+      "doc_f5dd4a27d21ce5b0:page6:image",
+      "doc_f5dd4a27d21ce5b0:page7:text",
+      "doc_f5dd4a27d21ce5b0:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "excited_ir",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "excited Ir photocatalyst",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound excited Ir photocatalyst",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "copc",
+        "role": "reagent",
+        "label": {
+          "value": "CoPc",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound CoPc",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "crcl2_L1",
+        "role": "reagent",
+        "label": {
+          "value": "CrCl2/L1",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound CrCl2/L1",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "hantzsch_ester",
+        "role": "reagent",
+        "label": {
+          "value": "Hantzsch ester",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound Hantzsch ester",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "enyne",
+        "role": "reagent",
+        "label": {
+          "value": "1,3-enyne (tested; no quenching reported)",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 1,3-enyne (tested; no quenching reported)",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "aldehyde",
+        "role": "reagent",
+        "label": {
+          "value": "aldehyde (tested; no quenching reported)",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound aldehyde (tested; no quenching reported)",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "stern_volmer_series",
+        "participant_ids": [
+          "excited_ir",
+          "copc",
+          "crcl2_L1",
+          "hantzsch_ester",
+          "enyne",
+          "aldehyde"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "measure Ir-photocatalyst luminescence quenching versus quencher concentration",
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page6:text",
+                "doc_f5dd4a27d21ce5b0:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "operation"
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "quenching_observation",
+        "fact": {
+          "value": "CoPc, CrCl2/L1, and Hantzsch ester quench the excited Ir photocatalyst; the 1,3-enyne and aldehydes do not",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image",
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "category": "other"
+      },
+      {
+        "name": "relative_quenching_observation",
+        "fact": {
+          "value": "Hantzsch ester is the more effective quencher at similar concentration",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image",
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "category": "other"
+      }
+    ],
+    "notes": [
+      {
+        "value": "The plotted points and slopes were not numerically estimated because the source does not tabulate them.",
+        "evidence_ids": [
+          "doc_f5dd4a27d21ce5b0:page6:text",
+          "doc_f5dd4a27d21ce5b0:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The page-7 narrative identifies Hantzsch ester as the most effective quencher at similar concentration and supports a reductive quenching pathway.",
+        "evidence_ids": [
+          "doc_f5dd4a27d21ce5b0:page7:text",
+          "doc_f5dd4a27d21ce5b0:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Compact scope substrates/products, ligands, metal complexes, and generic R-group structures remain source-labeled where safe stereochemical encoding was uncertain; every structure remains structure_verified=false.",
+        "Photophysical setup, exact photocatalyst concentration, point tables, fitted constants/slopes, temperature, replicates, and uncertainties are not reported on pages 1-6."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f5dd4a27d21ce5b0:figure3f_parallel_secondary_KIE",
+    "document_id": "doc_f5dd4a27d21ce5b0",
+    "source_reaction_id": "figure3f_parallel_secondary_KIE",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f5dd4a27d21ce5b0:page4:text",
+      "doc_f5dd4a27d21ce5b0:page4:image",
+      "doc_f5dd4a27d21ce5b0:page6:text",
+      "doc_f5dd4a27d21ce5b0:page6:image",
+      "doc_f5dd4a27d21ce5b0:page7:text",
+      "doc_f5dd4a27d21ce5b0:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "enyne_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 1a",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "aldehyde_2b_H",
+        "role": "reactant",
+        "label": {
+          "value": "2b-H",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 2b-H",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page6:text",
+                "doc_f5dd4a27d21ce5b0:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "aldehyde_2b_D",
+        "role": "reactant",
+        "label": {
+          "value": "2b-D",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 2b-D",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page6:text",
+                "doc_f5dd4a27d21ce5b0:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "crcl2",
+        "role": "catalyst",
+        "label": {
+          "value": "CrCl2",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "chromium(II) chloride",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Cr+2].[Cl-].[Cl-]",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 13,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page4:text",
+                "doc_f5dd4a27d21ce5b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand_L1",
+        "role": "reagent",
+        "label": {
+          "value": "L1",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound L1",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 20,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page4:text",
+                "doc_f5dd4a27d21ce5b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "coptp",
+        "role": "catalyst",
+        "label": {
+          "value": "CoTPP",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound CoTPP",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page4:text",
+                "doc_f5dd4a27d21ce5b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "ir_I",
+        "role": "catalyst",
+        "label": {
+          "value": "Ir-I",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound Ir-I",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page4:text",
+                "doc_f5dd4a27d21ce5b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "hantzsch_ester",
+        "role": "reagent",
+        "label": {
+          "value": "Hantzsch ester",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound Hantzsch ester",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page4:text",
+                "doc_f5dd4a27d21ce5b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "dme",
+        "role": "solvent",
+        "label": {
+          "value": "DME",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,2-dimethoxyethane",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "COCCOC",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_4p_H",
+        "role": "product",
+        "label": {
+          "value": "4p-H",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 4p-H",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_4p_D",
+        "role": "product",
+        "label": {
+          "value": "4p-D",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 4p-D",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "parallel_H_run",
+        "participant_ids": [
+          "enyne_1a",
+          "aldehyde_2b_H",
+          "crcl2",
+          "ligand_L1",
+          "coptp",
+          "ir_I",
+          "hantzsch_ester",
+          "dme"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "room temperature",
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page4:text",
+                "doc_f5dd4a27d21ce5b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "illumination",
+            "fact": {
+              "value": "70 W blue LED irradiation",
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page4:text",
+                "doc_f5dd4a27d21ce5b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 16,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page4:text",
+                "doc_f5dd4a27d21ce5b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          }
+        ]
+      },
+      {
+        "step_id": "parallel_D_run",
+        "participant_ids": [
+          "enyne_1a",
+          "aldehyde_2b_D",
+          "crcl2",
+          "ligand_L1",
+          "coptp",
+          "ir_I",
+          "hantzsch_ester",
+          "dme"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "room temperature",
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page4:text",
+                "doc_f5dd4a27d21ce5b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "illumination",
+            "fact": {
+              "value": "70 W blue LED irradiation",
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page4:text",
+                "doc_f5dd4a27d21ce5b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 16,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page4:text",
+                "doc_f5dd4a27d21ce5b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "parallel_secondary_KIE",
+        "fact": {
+          "value": 0.91,
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image",
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_4p_H",
+          "product_4p_D"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "rate_determining_step_interpretation",
+        "fact": {
+          "value": "inverse secondary isotope effect is consistent with aldehyde-carbonyl insertion into the chiral propargyl chromium species as the rate-determining step",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_4p_H",
+          "product_4p_D"
+        ],
+        "category": "other"
+      }
+    ],
+    "notes": [
+      {
+        "value": "This record represents the paired comparison series required to calculate the printed parallel KIE; unprinted individual yields/rates are not inferred.",
+        "evidence_ids": [
+          "doc_f5dd4a27d21ce5b0:page4:text",
+          "doc_f5dd4a27d21ce5b0:page4:image",
+          "doc_f5dd4a27d21ce5b0:page6:text",
+          "doc_f5dd4a27d21ce5b0:page6:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Compact scope substrates/products, ligands, metal complexes, and generic R-group structures remain source-labeled where safe stereochemical encoding was uncertain; every structure remains structure_verified=false.",
+        "The source does not report 1a amount, individual H/D rates or yields, atmosphere, workup, purification, or uncertainty for KIEp."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f5dd4a27d21ce5b0:figure3f_competition_secondary_KIE",
+    "document_id": "doc_f5dd4a27d21ce5b0",
+    "source_reaction_id": "figure3f_competition_secondary_KIE",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f5dd4a27d21ce5b0:page4:text",
+      "doc_f5dd4a27d21ce5b0:page4:image",
+      "doc_f5dd4a27d21ce5b0:page6:text",
+      "doc_f5dd4a27d21ce5b0:page6:image",
+      "doc_f5dd4a27d21ce5b0:page7:text",
+      "doc_f5dd4a27d21ce5b0:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "enyne_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 1a",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "aldehyde_mixture",
+        "role": "reactant",
+        "label": {
+          "value": "2b-H/2b-D mixture",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 2b-H/2b-D mixture",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "total_amount",
+            "fact": {
+              "value": {
+                "number": 0.2,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page6:text",
+                "doc_f5dd4a27d21ce5b0:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "H_to_D_ratio",
+            "fact": {
+              "value": "1:1",
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page6:text",
+                "doc_f5dd4a27d21ce5b0:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "selectivity"
+          }
+        ]
+      },
+      {
+        "entity_id": "crcl2",
+        "role": "catalyst",
+        "label": {
+          "value": "CrCl2",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "chromium(II) chloride",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Cr+2].[Cl-].[Cl-]",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 13,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page4:text",
+                "doc_f5dd4a27d21ce5b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand_L1",
+        "role": "reagent",
+        "label": {
+          "value": "L1",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound L1",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 20,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page4:text",
+                "doc_f5dd4a27d21ce5b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "coptp",
+        "role": "catalyst",
+        "label": {
+          "value": "CoTPP",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound CoTPP",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page4:text",
+                "doc_f5dd4a27d21ce5b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "ir_I",
+        "role": "catalyst",
+        "label": {
+          "value": "Ir-I",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound Ir-I",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page4:text",
+                "doc_f5dd4a27d21ce5b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "hantzsch_ester",
+        "role": "reagent",
+        "label": {
+          "value": "Hantzsch ester",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound Hantzsch ester",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page4:text",
+                "doc_f5dd4a27d21ce5b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "equivalents"
+          }
+        ]
+      },
+      {
+        "entity_id": "dme",
+        "role": "solvent",
+        "label": {
+          "value": "DME",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,2-dimethoxyethane",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "COCCOC",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_mixture",
+        "role": "product",
+        "label": {
+          "value": "4p-H/4p-D mixture",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 4p-H/4p-D mixture",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "competition_KIE_run",
+        "participant_ids": [
+          "enyne_1a",
+          "aldehyde_mixture",
+          "crcl2",
+          "ligand_L1",
+          "coptp",
+          "ir_I",
+          "hantzsch_ester",
+          "dme"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "room temperature",
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page4:text",
+                "doc_f5dd4a27d21ce5b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "illumination",
+            "fact": {
+              "value": "70 W blue LED irradiation",
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page4:text",
+                "doc_f5dd4a27d21ce5b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page6:text",
+                "doc_f5dd4a27d21ce5b0:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "product_4p_H_to_4p_D_ratio",
+        "fact": {
+          "value": "47:53",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_mixture"
+        ],
+        "category": "selectivity"
+      },
+      {
+        "name": "competition_secondary_KIE",
+        "fact": {
+          "value": 0.88,
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image",
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_mixture"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "rate_determining_step_interpretation",
+        "fact": {
+          "value": "inverse secondary isotope effect is consistent with aldehyde-carbonyl insertion into the chiral propargyl chromium species as the rate-determining step",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_mixture"
+        ],
+        "category": "other"
+      }
+    ],
+    "notes": [
+      {
+        "value": "The 0.2 mmol quantity is attached to the explicitly depicted 1:1 H/D aldehyde mixture; no separate isotopologue amounts are inferred.",
+        "evidence_ids": [
+          "doc_f5dd4a27d21ce5b0:page4:text",
+          "doc_f5dd4a27d21ce5b0:page4:image",
+          "doc_f5dd4a27d21ce5b0:page6:text",
+          "doc_f5dd4a27d21ce5b0:page6:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Compact scope substrates/products, ligands, metal complexes, and generic R-group structures remain source-labeled where safe stereochemical encoding was uncertain; every structure remains structure_verified=false.",
+        "The source does not report 1a amount, product yield, ratio analytical method, atmosphere, workup, purification, or uncertainty for KIEc."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f5dd4a27d21ce5b0:figure3g_deuterium_labelling_d3_HE",
+    "document_id": "doc_f5dd4a27d21ce5b0",
+    "source_reaction_id": "figure3g_deuterium_labelling_d3_HE",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f5dd4a27d21ce5b0:page4:text",
+      "doc_f5dd4a27d21ce5b0:page4:image",
+      "doc_f5dd4a27d21ce5b0:page6:text",
+      "doc_f5dd4a27d21ce5b0:page6:image",
+      "doc_f5dd4a27d21ce5b0:page7:text",
+      "doc_f5dd4a27d21ce5b0:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "enyne_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 1a",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.4,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page6:text",
+                "doc_f5dd4a27d21ce5b0:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "benzaldehyde",
+        "role": "reactant",
+        "label": {
+          "value": "PhCHO",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "benzaldehyde",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O=Cc1ccccc1",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "crcl2",
+        "role": "catalyst",
+        "label": {
+          "value": "CrCl2",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "chromium(II) chloride",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Cr+2].[Cl-].[Cl-]",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 13,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page4:text",
+                "doc_f5dd4a27d21ce5b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand_L1",
+        "role": "reagent",
+        "label": {
+          "value": "L1",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound L1",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 20,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page4:text",
+                "doc_f5dd4a27d21ce5b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "coptp",
+        "role": "catalyst",
+        "label": {
+          "value": "CoTPP",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound CoTPP",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page4:text",
+                "doc_f5dd4a27d21ce5b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "ir_I",
+        "role": "catalyst",
+        "label": {
+          "value": "Ir-I",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound Ir-I",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page4:text",
+            "doc_f5dd4a27d21ce5b0:page4:image",
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page4:text",
+                "doc_f5dd4a27d21ce5b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "d3_HE",
+        "role": "reagent",
+        "label": {
+          "value": "source-depicted d3-HE (printed site labels approximately 96% D and 70% D)",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound source-depicted d3-HE (printed site labels approximately 96% D and 70% D)",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "thf",
+        "role": "solvent",
+        "label": {
+          "value": "THF",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrahydrofuran",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C1CCOC1",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3a_D",
+        "role": "product",
+        "label": {
+          "value": "3a-D",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 3a-D",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "deuterium_labelling_under_modified_standard_conditions",
+        "participant_ids": [
+          "enyne_1a",
+          "benzaldehyde",
+          "crcl2",
+          "ligand_L1",
+          "coptp",
+          "ir_I",
+          "d3_HE",
+          "thf"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "room temperature",
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page4:text",
+                "doc_f5dd4a27d21ce5b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "illumination",
+            "fact": {
+              "value": "70 W blue LED irradiation",
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page4:text",
+                "doc_f5dd4a27d21ce5b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 16,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page4:text",
+                "doc_f5dd4a27d21ce5b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield_3a_D",
+        "fact": {
+          "value": {
+            "number": 70,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3a_D"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "deuterium_incorporation_at_C4",
+        "fact": {
+          "value": {
+            "number": 60,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image",
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3a_D"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "deuterium_location",
+        "fact": {
+          "value": "distal C4 position shown in Figure 3G",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page6:text",
+            "doc_f5dd4a27d21ce5b0:page6:image",
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3a_D"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "mechanistic_interpretation",
+        "fact": {
+          "value": "site-specific distal-C4 deuterium incorporation supports an irreversible MHAT step",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3a_D"
+        ],
+        "category": "other"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Figure 3G explicitly replaces the standard solvent/reductant pair with THF and d3-HE. The d3-HE drawing's two printed isotopic-enrichment annotations are retained in its source label rather than normalized into one unsupported reagent purity.",
+        "evidence_ids": [
+          "doc_f5dd4a27d21ce5b0:page4:text",
+          "doc_f5dd4a27d21ce5b0:page4:image",
+          "doc_f5dd4a27d21ce5b0:page6:text",
+          "doc_f5dd4a27d21ce5b0:page6:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Compact scope substrates/products, ligands, metal complexes, and generic R-group structures remain source-labeled where safe stereochemical encoding was uncertain; every structure remains structure_verified=false.",
+        "PhCHO and d3-HE amounts, THF volume, atmosphere, workup, purification, isolated mass, deuterium-analysis method, and uncertainty are not reported in the panel."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_f5dd4a27d21ce5b0:figure4_proposed_triple_catalytic_cycle_and_dft_profile",
+    "document_id": "doc_f5dd4a27d21ce5b0",
+    "source_reaction_id": "figure4_proposed_triple_catalytic_cycle_and_dft_profile",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_f5dd4a27d21ce5b0:page7:text",
+      "doc_f5dd4a27d21ce5b0:page7:image",
+      "doc_f5dd4a27d21ce5b0:page8:text",
+      "doc_f5dd4a27d21ce5b0:page8:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "hantzsch_ester",
+        "role": "reagent",
+        "label": {
+          "value": "Hantzsch ester (HE)",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "diethyl 2,6-dimethyl-1,4-dihydropyridine-3,5-dicarboxylate",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCOC(=O)C1=C(C)NC(C)=C1C(=O)OCC",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ir_photocatalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "Ir-I / Ir(III)-Ir(II) photocatalyst cycle",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled species Ir-I / Ir(III)-Ir(II) photocatalyst cycle",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cobalt_cycle",
+        "role": "catalyst",
+        "label": {
+          "value": "Co(I)/Co(II)/Co(III)-H cycle",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled species Co(I)/Co(II)/Co(III)-H cycle",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "chromium_L1_cycle",
+        "role": "catalyst",
+        "label": {
+          "value": "Cr(II)/Cr(III)-L1 cycle",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled species Cr(II)/Cr(III)-L1 cycle",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "model_enyne",
+        "role": "reactant",
+        "label": {
+          "value": "source-depicted model 1,3-enyne (Me-substituted, TBS-alkynyl)",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled species source-depicted model 1,3-enyne (Me-substituted, TBS-alkynyl)",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "benzaldehyde",
+        "role": "reactant",
+        "label": {
+          "value": "PhCHO",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "benzaldehyde",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O=Cc1ccccc1",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "propargyl_radical",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "propargyl radical generated by MHAT",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled species propargyl radical generated by MHAT",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "propargyl_chromium",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "chiral propargyl Cr(III)-L1 intermediate",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled species chiral propargyl Cr(III)-L1 intermediate",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "in1",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "monomeric chromium complex 5IN1",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled species monomeric chromium complex 5IN1",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "in2_R",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "propargyl chromium intermediate 4IN2-R",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled species propargyl chromium intermediate 4IN2-R",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "in2_S",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "propargyl chromium intermediate 4IN2-S",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled species propargyl chromium intermediate 4IN2-S",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "in3_RaR",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "aldehyde-coordinated intermediate 4IN3-RaR",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled species aldehyde-coordinated intermediate 4IN3-RaR",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "in4_RaR",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "O-bound chromium intermediate 4IN4-RaR",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled species O-bound chromium intermediate 4IN4-RaR",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "target_allenol",
+        "role": "product",
+        "label": {
+          "value": "TM-RaR alpha-allenol",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled species TM-RaR alpha-allenol",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "reductive_photocatalyst_quenching",
+        "participant_ids": [
+          "hantzsch_ester",
+          "ir_photocatalyst"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "HE reductively quenches excited Ir(III), producing Ir(II) and HE radical cation; subsequent deprotonation/electron transfer gives the oxidized HE species",
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page7:text",
+                "doc_f5dd4a27d21ce5b0:page7:image",
+                "doc_f5dd4a27d21ce5b0:page8:text",
+                "doc_f5dd4a27d21ce5b0:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "cobalt_and_chromium_reduction",
+        "participant_ids": [
+          "ir_photocatalyst",
+          "cobalt_cycle",
+          "chromium_L1_cycle"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Ir(II) reduces Co(II) to Co(I) and Cr(III) to Cr(II)",
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page7:text",
+                "doc_f5dd4a27d21ce5b0:page7:image",
+                "doc_f5dd4a27d21ce5b0:page8:text",
+                "doc_f5dd4a27d21ce5b0:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "cobalt_hydride_formation",
+        "participant_ids": [
+          "cobalt_cycle"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Co(I) combines with a proton to form Co(III)-H",
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page7:text",
+                "doc_f5dd4a27d21ce5b0:page7:image",
+                "doc_f5dd4a27d21ce5b0:page8:text",
+                "doc_f5dd4a27d21ce5b0:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "mhat_to_enyne",
+        "participant_ids": [
+          "cobalt_cycle",
+          "model_enyne",
+          "propargyl_radical"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Co(III)-H transfers H to the 1,3-enyne, releasing Co(II) and the propargyl radical",
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page7:text",
+                "doc_f5dd4a27d21ce5b0:page7:image",
+                "doc_f5dd4a27d21ce5b0:page8:text",
+                "doc_f5dd4a27d21ce5b0:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "radical_capture_by_chromium",
+        "participant_ids": [
+          "propargyl_radical",
+          "chromium_L1_cycle",
+          "propargyl_chromium",
+          "in1",
+          "in2_R",
+          "in2_S"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Cr(II)-L1 captures the propargyl radical to form stereogenic propargyl Cr(III) intermediates",
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page7:text",
+                "doc_f5dd4a27d21ce5b0:page7:image",
+                "doc_f5dd4a27d21ce5b0:page8:text",
+                "doc_f5dd4a27d21ce5b0:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "aldehyde_coordination",
+        "participant_ids": [
+          "propargyl_chromium",
+          "benzaldehyde",
+          "in3_RaR"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "benzaldehyde coordinates to the propargyl Cr(III) species",
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page7:text",
+                "doc_f5dd4a27d21ce5b0:page7:image",
+                "doc_f5dd4a27d21ce5b0:page8:text",
+                "doc_f5dd4a27d21ce5b0:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "enantioselective_nucleophilic_1_2_addition",
+        "participant_ids": [
+          "in3_RaR",
+          "in4_RaR"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "enantioselective 1,2-addition gives the O-bound chromium species",
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page7:text",
+                "doc_f5dd4a27d21ce5b0:page7:image",
+                "doc_f5dd4a27d21ce5b0:page8:text",
+                "doc_f5dd4a27d21ce5b0:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "proton_transfer_and_product_release",
+        "participant_ids": [
+          "in4_RaR",
+          "hantzsch_ester",
+          "target_allenol",
+          "chromium_L1_cycle"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "proton transfer/hydrolysis releases TM-RaR and Cr(III), which is reduced for the next cycle",
+              "evidence_ids": [
+                "doc_f5dd4a27d21ce5b0:page7:text",
+                "doc_f5dd4a27d21ce5b0:page7:image",
+                "doc_f5dd4a27d21ce5b0:page8:text",
+                "doc_f5dd4a27d21ce5b0:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "computed_C4_vs_C3_MHAT_transition_state_difference",
+        "fact": {
+          "value": "C4-path transition state is 6.5 kcal/mol lower than the C3-path transition state",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "propargyl_radical"
+        ]
+      },
+      {
+        "name": "computed_reverse_MHAT_free_energy_barrier",
+        "fact": {
+          "value": "23.4 kcal/mol",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "propargyl_radical"
+        ]
+      },
+      {
+        "name": "computed_preferred_product_configuration",
+        "fact": {
+          "value": "(Ra,R)",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "target_allenol"
+        ]
+      },
+      {
+        "name": "favored_transition_state_activation_free_energy",
+        "fact": {
+          "value": "4TS1-RaR: 9.9 kcal/mol",
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "target_allenol"
+        ]
+      },
+      {
+        "name": "alternative_transition_state_activation_free_energies",
+        "fact": {
+          "value": [
+            "4TS1-RaS: 19.7 kcal/mol",
+            "4TS1-SaR: 12.9 kcal/mol",
+            "4TS1-SaS: 22.3 kcal/mol"
+          ],
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image",
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "target_allenol"
+        ]
+      },
+      {
+        "name": "alternative_transition_state_relative_barrier_penalties",
+        "fact": {
+          "value": [
+            "4TS1-RaS: +9.8 kcal/mol",
+            "4TS1-SaR: +3.0 kcal/mol",
+            "4TS1-SaS: +12.4 kcal/mol"
+          ],
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page7:text",
+            "doc_f5dd4a27d21ce5b0:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "target_allenol"
+        ]
+      },
+      {
+        "name": "computed_reaction_profile_key_free_energies",
+        "fact": {
+          "value": [
+            "5IN1: 0.0 kcal/mol",
+            "4IN2-R: -2.5 kcal/mol",
+            "4IN2-S: -3.5 kcal/mol",
+            "4IN3-RaR: 4.7 kcal/mol",
+            "4TS1-RaR: 7.4 kcal/mol relative to 5IN1",
+            "4IN4-RaR: -10.6 kcal/mol",
+            "TM-RaR: -25.2 kcal/mol"
+          ],
+          "evidence_ids": [
+            "doc_f5dd4a27d21ce5b0:page8:text",
+            "doc_f5dd4a27d21ce5b0:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "target_allenol"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Figure 4A is a proposed catalytic cycle and Figure 4B-C are computational profiles/transition-state analyses; intermediates and transition states are not reported as isolated preparations.",
+        "evidence_ids": [
+          "doc_f5dd4a27d21ce5b0:page7:text",
+          "doc_f5dd4a27d21ce5b0:page7:image",
+          "doc_f5dd4a27d21ce5b0:page8:text",
+          "doc_f5dd4a27d21ce5b0:page8:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The profile value 7.4 kcal/mol is relative to 5IN1, whereas the text/Figure 4C activation barrier of 9.9 kcal/mol is measured from 4IN2-R at -2.5 kcal/mol; both source quantities are retained with their meanings.",
+        "evidence_ids": [
+          "doc_f5dd4a27d21ce5b0:page7:text",
+          "doc_f5dd4a27d21ce5b0:page7:image",
+          "doc_f5dd4a27d21ce5b0:page8:text",
+          "doc_f5dd4a27d21ce5b0:page8:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The page-7 prose calls the MHAT substrate '1,3-enyne 2a', while the article's experimental numbering and Figure 4 drawing identify the model enyne as the 1a-type enyne and PhCHO as the aldehyde. The source-label discrepancy is retained rather than silently normalized.",
+        "evidence_ids": [
+          "doc_f5dd4a27d21ce5b0:page7:text",
+          "doc_f5dd4a27d21ce5b0:page7:image",
+          "doc_f5dd4a27d21ce5b0:page8:text",
+          "doc_f5dd4a27d21ce5b0:page8:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; Figure S7/S8 details and SI-only computational methods were not imported.",
+        "The page-7 prose label '1,3-enyne 2a' conflicts with the article/figure assignment of the model enyne as 1a and benzaldehyde as 2a.",
+        "Oxidation-state drawings, intermediates, transition states, and stereochemical structures remain source-labeled with null SMILES and structure_verified=false.",
+        "Computed energies are preserved as verbatim unit-bearing strings because kcal/mol is not in the unchanged structured-quantity unit vocabulary."
+      ]
+    }
+  }
+]

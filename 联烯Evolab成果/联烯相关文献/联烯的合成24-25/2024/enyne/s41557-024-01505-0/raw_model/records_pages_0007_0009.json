@@ -1,0 +1,3935 @@
+[
+  {
+    "record_id": "doc_eae9311c933a0a19:figure2f_5g_to_18",
+    "document_id": "doc_eae9311c933a0a19",
+    "source_reaction_id": "figure2f_5g_to_18",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_eae9311c933a0a19:page3:text",
+      "doc_eae9311c933a0a19:page3:image",
+      "doc_eae9311c933a0a19:page5:text",
+      "doc_eae9311c933a0a19:page5:image",
+      "doc_eae9311c933a0a19:page7:text",
+      "doc_eae9311c933a0a19:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "5g",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page3:text",
+            "doc_eae9311c933a0a19:page3:image",
+            "doc_eae9311c933a0a19:page5:text",
+            "doc_eae9311c933a0a19:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 5g",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page3:text",
+            "doc_eae9311c933a0a19:page3:image",
+            "doc_eae9311c933a0a19:page5:text",
+            "doc_eae9311c933a0a19:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "dibal_h",
+        "role": "reagent",
+        "label": {
+          "value": "DIBAL-H",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page5:text",
+            "doc_eae9311c933a0a19:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "diisobutylaluminium hydride",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page5:text",
+            "doc_eae9311c933a0a19:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "18",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page3:text",
+            "doc_eae9311c933a0a19:page3:image",
+            "doc_eae9311c933a0a19:page5:text",
+            "doc_eae9311c933a0a19:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 18",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page3:text",
+            "doc_eae9311c933a0a19:page3:image",
+            "doc_eae9311c933a0a19:page5:text",
+            "doc_eae9311c933a0a19:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "ester_reduction",
+        "participant_ids": [
+          "substrate",
+          "dibal_h"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "number": 80,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page5:text",
+            "doc_eae9311c933a0a19:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "measurement_basis"
+      },
+      {
+        "name": "enantiomeric_excess",
+        "fact": {
+          "value": {
+            "number": 99,
+            "unit": "%",
+            "qualifier": "gt",
+            "raw_text": ">99%"
+          },
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page5:text",
+            "doc_eae9311c933a0a19:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "percentage"
+      },
+      {
+        "name": "ee_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "measurement_basis"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Page 7 restates that chiral allene 5g was reduced with DIBAL-H to alcohol 18; this is narrative evidence for the existing Figure 2f arrow, not a second preparation.",
+        "evidence_ids": [
+          "doc_eae9311c933a0a19:page7:text",
+          "doc_eae9311c933a0a19:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Complex benzazaborines, ligands, products, and proposed intermediates remain source-labeled where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "Figure 2f and its page-7 continuation do not report reagent quantities, time, temperature, atmosphere, workup, purification, isolated mass, or analytical bases."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_eae9311c933a0a19:figure2f_18_to_19",
+    "document_id": "doc_eae9311c933a0a19",
+    "source_reaction_id": "figure2f_18_to_19",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_eae9311c933a0a19:page3:text",
+      "doc_eae9311c933a0a19:page3:image",
+      "doc_eae9311c933a0a19:page5:text",
+      "doc_eae9311c933a0a19:page5:image",
+      "doc_eae9311c933a0a19:page7:text",
+      "doc_eae9311c933a0a19:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate",
+        "role": "reactant",
+        "label": {
+          "value": "18",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page3:text",
+            "doc_eae9311c933a0a19:page3:image",
+            "doc_eae9311c933a0a19:page5:text",
+            "doc_eae9311c933a0a19:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 18",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page3:text",
+            "doc_eae9311c933a0a19:page3:image",
+            "doc_eae9311c933a0a19:page5:text",
+            "doc_eae9311c933a0a19:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "nbs",
+        "role": "reagent",
+        "label": {
+          "value": "NBS",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page5:text",
+            "doc_eae9311c933a0a19:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N-bromosuccinimide",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page5:text",
+            "doc_eae9311c933a0a19:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O=C1CCC(=O)N1Br",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page5:text",
+            "doc_eae9311c933a0a19:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "19",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page3:text",
+            "doc_eae9311c933a0a19:page3:image",
+            "doc_eae9311c933a0a19:page5:text",
+            "doc_eae9311c933a0a19:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 19",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page3:text",
+            "doc_eae9311c933a0a19:page3:image",
+            "doc_eae9311c933a0a19:page5:text",
+            "doc_eae9311c933a0a19:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "bromoetherification",
+        "participant_ids": [
+          "substrate",
+          "nbs"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "number": 25,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page5:text",
+            "doc_eae9311c933a0a19:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "measurement_basis"
+      },
+      {
+        "name": "enantiomeric_excess",
+        "fact": {
+          "value": {
+            "number": 47,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page5:text",
+            "doc_eae9311c933a0a19:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "percentage"
+      },
+      {
+        "name": "ee_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "measurement_basis"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Page 7 restates that alcohol 18 underwent tandem bromoetherification to tetrahydrofuran-substituted 1,2-benzazaborine 19; this is narrative evidence for the existing Figure 2f arrow, not a second preparation.",
+        "evidence_ids": [
+          "doc_eae9311c933a0a19:page7:text",
+          "doc_eae9311c933a0a19:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Complex benzazaborines, ligands, products, and proposed intermediates remain source-labeled where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "Figure 2f and its page-7 continuation do not report reagent quantities, time, temperature, atmosphere, workup, purification, isolated mass, or analytical bases."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_eae9311c933a0a19:figure3_initial_rate_series_NH_2a",
+    "document_id": "doc_eae9311c933a0a19",
+    "source_reaction_id": "figure3_initial_rate_series_NH_2a",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_eae9311c933a0a19:page6:text",
+      "doc_eae9311c933a0a19:page6:image",
+      "doc_eae9311c933a0a19:page7:text",
+      "doc_eae9311c933a0a19:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "alkene_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "4-fluorostyrene",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=Cc1ccc(F)cc1",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "benzazaborine",
+        "role": "reactant",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 2a",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "copper_catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "CuOtBu/(S)-DTBM-Segphos",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound CuOtBu/(S)-DTBM-Segphos",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "3a",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 3a",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "initial_rate_concentration_series",
+        "participant_ids": [
+          "alkene_1a",
+          "benzazaborine",
+          "copper_catalyst",
+          "toluene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 18,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page6:text",
+                "doc_eae9311c933a0a19:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            },
+            "category": "time"
+          },
+          {
+            "name": "operation",
+            "fact": {
+              "value": "initial rates measured while varying reaction components",
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page6:text",
+                "doc_eae9311c933a0a19:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "operation"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "rate_orders",
+        "fact": {
+          "value": [
+            {
+              "component": "1a",
+              "order": "first"
+            },
+            {
+              "component": "2a",
+              "order": -0.6
+            },
+            {
+              "component": "Cu-catalyst",
+              "order": "first"
+            }
+          ],
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "rate_determining_step_interpretation",
+        "fact": {
+          "value": "alkene insertion into L*Cu-H species",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page7:text",
+            "doc_eae9311c933a0a19:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "borane_2a_rate_effect",
+        "fact": {
+          "value": "negative order (-0.6); 2a suppresses alkene insertion",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page7:text",
+            "doc_eae9311c933a0a19:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "resting_state_observation",
+        "fact": {
+          "value": "copper-dihydridoboron complex 1_H verified by 11B NMR spectroscopy",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page7:text",
+            "doc_eae9311c933a0a19:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The panel is retained as one kinetic series; unprinted concentration points and fit uncertainties were not estimated from the figure.",
+        "evidence_ids": [
+          "doc_eae9311c933a0a19:page6:text",
+          "doc_eae9311c933a0a19:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "CuOtBu was used as catalyst for the initial-rate experiment to improve experimental reproducibility.",
+        "evidence_ids": [
+          "doc_eae9311c933a0a19:page7:text",
+          "doc_eae9311c933a0a19:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Complex benzazaborines, ligands, products, and proposed intermediates remain source-labeled where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "Absolute concentrations, individual time points, replicate/error data, atmosphere, and rate-analysis details are not reported in the main article.",
+        "The cited Supplementary Figures 4-6 and 10 are unassociated and were not imported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_eae9311c933a0a19:figure3_initial_rate_series_NMe_2l",
+    "document_id": "doc_eae9311c933a0a19",
+    "source_reaction_id": "figure3_initial_rate_series_NMe_2l",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_eae9311c933a0a19:page6:text",
+      "doc_eae9311c933a0a19:page6:image",
+      "doc_eae9311c933a0a19:page7:text",
+      "doc_eae9311c933a0a19:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "alkene_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "4-fluorostyrene",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=Cc1ccc(F)cc1",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "benzazaborine",
+        "role": "reactant",
+        "label": {
+          "value": "2l",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 2l",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "copper_catalyst",
+        "role": "catalyst",
+        "label": {
+          "value": "CuOtBu/(S)-DTBM-Segphos",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound CuOtBu/(S)-DTBM-Segphos",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "3ai",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 3ai",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "initial_rate_concentration_series",
+        "participant_ids": [
+          "alkene_1a",
+          "benzazaborine",
+          "copper_catalyst",
+          "toluene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 18,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page6:text",
+                "doc_eae9311c933a0a19:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            },
+            "category": "time"
+          },
+          {
+            "name": "operation",
+            "fact": {
+              "value": "initial rates measured while varying reaction components",
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page6:text",
+                "doc_eae9311c933a0a19:page6:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "operation"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "rate_orders",
+        "fact": {
+          "value": [
+            {
+              "component": "1a",
+              "order": "zero"
+            },
+            {
+              "component": "2l",
+              "order": "first"
+            },
+            {
+              "component": "Cu-catalyst",
+              "order": "first"
+            }
+          ],
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "rate_determining_step_interpretation",
+        "fact": {
+          "value": "sigma-bond metathesis between the L*Cu-alkyl intermediate and N-Me-1,2-benzazaborine 2l",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page7:text",
+            "doc_eae9311c933a0a19:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The panel is retained as one kinetic series; unprinted concentration points and fit uncertainties were not estimated from the figure.",
+        "evidence_ids": [
+          "doc_eae9311c933a0a19:page6:text",
+          "doc_eae9311c933a0a19:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "CuOtBu was used as catalyst for the initial-rate experiment to improve experimental reproducibility.",
+        "evidence_ids": [
+          "doc_eae9311c933a0a19:page7:text",
+          "doc_eae9311c933a0a19:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Complex benzazaborines, ligands, products, and proposed intermediates remain source-labeled where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "Absolute concentrations, individual time points, replicate/error data, atmosphere, and rate-analysis details are not reported in the main article.",
+        "The cited Supplementary Figures 7-9 are unassociated and were not imported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_eae9311c933a0a19:figure3c_DFT_free_energy_profiles",
+    "document_id": "doc_eae9311c933a0a19",
+    "source_reaction_id": "figure3c_DFT_free_energy_profiles",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_eae9311c933a0a19:page6:text",
+      "doc_eae9311c933a0a19:page6:image",
+      "doc_eae9311c933a0a19:page7:text",
+      "doc_eae9311c933a0a19:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "alkene_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "4-fluorostyrene",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=Cc1ccc(F)cc1",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "benzazaborine_2a",
+        "role": "reactant",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 2a",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "benzazaborine_2l",
+        "role": "reactant",
+        "label": {
+          "value": "2l",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 2l",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "lcu_h",
+        "role": "catalyst",
+        "label": {
+          "value": "L*CuH",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound L*CuH",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "1_h",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "1_H",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 1_H",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "1_me",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "1_Me",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 1_Me",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ts1_r",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "TS1-R",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound TS1-R",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ts1_s",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "TS1-S",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound TS1-S",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "int1_r",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "Int1-R",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound Int1-R",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "h_ts2_r",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "H-TS2-R",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound H-TS2-R",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "me_ts2_r",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "Me-TS2-R",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound Me-TS2-R",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3a",
+        "role": "product",
+        "label": {
+          "value": "3a",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 3a",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3ai",
+        "role": "product",
+        "label": {
+          "value": "3ai",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 3ai",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [],
+    "outcomes": [
+      {
+        "name": "NH_path_alkene_insertion_barrier",
+        "fact": {
+          "value": "12.2 kcal mol−1",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image",
+            "doc_eae9311c933a0a19:page7:text",
+            "doc_eae9311c933a0a19:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "category": "other"
+      },
+      {
+        "name": "NH_path_sigma_bond_metathesis_barrier",
+        "fact": {
+          "value": "10.6 kcal mol−1",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image",
+            "doc_eae9311c933a0a19:page7:text",
+            "doc_eae9311c933a0a19:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "category": "other"
+      },
+      {
+        "name": "NMe_path_alkene_insertion_barrier",
+        "fact": {
+          "value": "10.9 kcal mol−1",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image",
+            "doc_eae9311c933a0a19:page7:text",
+            "doc_eae9311c933a0a19:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "category": "other"
+      },
+      {
+        "name": "NMe_path_sigma_bond_metathesis_barrier",
+        "fact": {
+          "value": "11.8 kcal mol−1",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image",
+            "doc_eae9311c933a0a19:page7:text",
+            "doc_eae9311c933a0a19:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "category": "other"
+      },
+      {
+        "name": "enantiodetermining_TS1_R_energy",
+        "fact": {
+          "value": "7.8 kcal mol−1",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "category": "other"
+      },
+      {
+        "name": "enantiodetermining_TS1_S_energy",
+        "fact": {
+          "value": "12.6 kcal mol−1",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "category": "other"
+      },
+      {
+        "name": "NH_path_benzazaborine_release_free_energy",
+        "fact": {
+          "value": "4.4 kcal mol−1 endergonic",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page7:text",
+            "doc_eae9311c933a0a19:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "NH_copper_dihydridoboron_complex_relative_free_energy",
+        "fact": {
+          "value": "−4.4 kcal mol−1",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page7:text",
+            "doc_eae9311c933a0a19:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "NMe_copper_dihydridoboron_complex_relative_free_energy",
+        "fact": {
+          "value": "−3.1 kcal mol−1",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page7:text",
+            "doc_eae9311c933a0a19:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      },
+      {
+        "name": "NH_path_rate_determining_step",
+        "fact": {
+          "value": "alkene insertion",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page7:text",
+            "doc_eae9311c933a0a19:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3a"
+        ]
+      },
+      {
+        "name": "NMe_path_rate_determining_step",
+        "fact": {
+          "value": "sigma-bond metathesis",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page7:text",
+            "doc_eae9311c933a0a19:page7:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3ai"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Figure 3c is a computed free-energy comparison. Transition states, resting states, and intermediates are computed/proposed species, not isolated preparations or yields.",
+        "evidence_ids": [
+          "doc_eae9311c933a0a19:page6:text",
+          "doc_eae9311c933a0a19:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Page 7 interprets the barrier switch as a combined effect of reduced copper-dihydridoboron-complex stability and a slight increase in the N-Me sigma-bond-metathesis barrier.",
+        "evidence_ids": [
+          "doc_eae9311c933a0a19:page7:text",
+          "doc_eae9311c933a0a19:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "The full computational protocol and coordinates are not reported in the main article; no SI material was associated or imported.",
+        "Computed structures remain source-labeled and are not machine-verified."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_eae9311c933a0a19:figure3d_proposed_catalytic_cycles",
+    "document_id": "doc_eae9311c933a0a19",
+    "source_reaction_id": "figure3d_proposed_catalytic_cycles",
+    "record_kind": "mechanism",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_eae9311c933a0a19:page6:text",
+      "doc_eae9311c933a0a19:page6:image",
+      "doc_eae9311c933a0a19:page7:text",
+      "doc_eae9311c933a0a19:page7:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "alkene_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "4-fluorostyrene",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=Cc1ccc(F)cc1",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "benzazaborine_2a",
+        "role": "reactant",
+        "label": {
+          "value": "2a (R=H)",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 2a (R=H)",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "benzazaborine_2l",
+        "role": "reactant",
+        "label": {
+          "value": "2l (R=Me)",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 2l (R=Me)",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cuotbu",
+        "role": "catalyst",
+        "label": {
+          "value": "CuOtBu + L*",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound CuOtBu + L*",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "lcuh",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "L*CuH",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound L*CuH",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "alkyl_copper",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "L*Cu-alkyl resting/intermediate state",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound L*Cu-alkyl resting/intermediate state",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "benzazaborine_resting_state",
+        "role": "unspecified_agent",
+        "label": {
+          "value": "copper-dihydridoboron resting state",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound copper-dihydridoboron resting state",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3a",
+        "role": "product",
+        "label": {
+          "value": "3a",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 3a",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_3ai",
+        "role": "product",
+        "label": {
+          "value": "3ai",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 3ai",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page6:text",
+            "doc_eae9311c933a0a19:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [],
+    "outcomes": [],
+    "notes": [
+      {
+        "value": "Figure 3d proposes different rate-determining steps and catalyst resting states for NH- and N-Me-1,2-benzazaborines. The depicted species are mechanistic proposals, not independent preparations.",
+        "evidence_ids": [
+          "doc_eae9311c933a0a19:page6:text",
+          "doc_eae9311c933a0a19:page6:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Page 7 states that the proposed cycle is based on the kinetic/DFT results and previous reports; it does not report independent preparations of the depicted intermediates or resting states.",
+        "evidence_ids": [
+          "doc_eae9311c933a0a19:page7:text",
+          "doc_eae9311c933a0a19:page7:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Proposed intermediates/resting states have no independent quantities or yields and remain source-labeled/unverified.",
+        "No Supporting Information association was inferred."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_eae9311c933a0a19:page9_general_alkene_hydroboration_procedure",
+    "document_id": "doc_eae9311c933a0a19",
+    "source_reaction_id": "page9_general_alkene_hydroboration_procedure",
+    "record_kind": "general_scheme",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_eae9311c933a0a19:page9:text",
+      "doc_eae9311c933a0a19:page9:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "alkene",
+        "role": "reactant",
+        "label": {
+          "value": "alkene substrate",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-variable alkene substrate",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.2,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "benzazaborine_2",
+        "role": "reactant",
+        "label": {
+          "value": "1,2-benzazaborine 2",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 1,2-benzazaborine 2",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.3,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "cucl",
+        "role": "catalyst",
+        "label": {
+          "value": "CuCl",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(I) chloride",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Cu]Cl",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 0.6,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 3,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand",
+        "role": "reagent",
+        "label": {
+          "value": "(S)-DTBM-Segphos",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (S)-DTBM-Segphos",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 7.8,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 3.3,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "naotbu",
+        "role": "reagent",
+        "label": {
+          "value": "NaOtBu",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "sodium tert-butoxide",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(C)(C)[O-].[Na+]",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 1.2,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "premix_toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene catalyst-premix charge",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 0.8,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "borane_carrier_toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene carrying benzazaborine 2",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 0.4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "alkene_carrier_toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene carrying alkene",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 0.4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "silica",
+        "role": "reagent",
+        "label": {
+          "value": "silica gel",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "silica gel",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "petroleum_ether",
+        "role": "solvent",
+        "label": {
+          "value": "petroleum ether chromatography eluent",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "petroleum ether",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ethyl_acetate",
+        "role": "solvent",
+        "label": {
+          "value": "ethyl acetate chromatography eluent",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl acetate",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCOC(C)=O",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "desired alkene-hydroboration product",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound desired alkene-hydroboration product",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "catalyst_base_premix",
+        "participant_ids": [
+          "cucl",
+          "ligand",
+          "naotbu",
+          "premix_toluene"
+        ],
+        "conditions": [
+          {
+            "name": "reaction_vessel",
+            "fact": {
+              "value": "10-mL Young tube",
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "high-purity argon glove box",
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "operation",
+            "fact": {
+              "value": "CuCl, (S)-DTBM-Segphos, NaOtBu, and 0.8 mL toluene were charged and stirred",
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "min"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "benzazaborine_solution_addition_and_premix",
+        "participant_ids": [
+          "benzazaborine_2",
+          "borane_carrier_toluene",
+          "cucl",
+          "ligand",
+          "naotbu"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "benzazaborine 2 solution in toluene was injected and stirred",
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "min"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "alkene_addition_and_reaction",
+        "participant_ids": [
+          "alkene",
+          "alkene_carrier_toluene",
+          "benzazaborine_2",
+          "cucl",
+          "ligand",
+          "naotbu"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "alkene solution was added; the Young tube was removed from the glove box and stirred until completion",
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "minimum": 28,
+                "maximum": 36,
+                "unit": "°C",
+                "raw_text": "room temperature (28–36 °C)"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": "upon completion",
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "argon",
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "silica_addition_and_solvent_removal",
+        "participant_ids": [
+          "silica",
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "workup",
+            "fact": {
+              "value": "a proper amount of silica gel was added to the reaction mixture, then solvent was removed",
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "silica_gel_purification",
+        "participant_ids": [
+          "product",
+          "petroleum_ether",
+          "ethyl_acetate"
+        ],
+        "conditions": [
+          {
+            "name": "purification",
+            "fact": {
+              "value": "silica-gel chromatography using petroleum ether and ethyl acetate",
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [],
+    "notes": [
+      {
+        "value": "This is a variable-substrate general procedure without a unique product identity or row-specific yield; it is not a duplicate of a Table 2 scope row.",
+        "evidence_ids": [
+          "doc_eae9311c933a0a19:page9:text",
+          "doc_eae9311c933a0a19:page9:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The method uses 0.20 mmol alkene and 0.30 mmol benzazaborine, whereas Table 2 prints 0.10 and 0.15 mmol. Both source scales are retained in their own records and no arithmetic scaling is performed.",
+        "evidence_ids": [
+          "doc_eae9311c933a0a19:page9:text",
+          "doc_eae9311c933a0a19:page9:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Complex benzazaborines, ligands, products, and proposed intermediates remain source-labeled where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "The two 10 min premixing stages do not have explicit temperatures.",
+        "The main reaction is run until completion with no numeric duration; silica-gel amount and chromatography solvent ratio/volumes are not reported.",
+        "The variable substrate/product labels do not define unique structures or a product-specific yield."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_eae9311c933a0a19:page9_general_enyne_hydroboration_procedure",
+    "document_id": "doc_eae9311c933a0a19",
+    "source_reaction_id": "page9_general_enyne_hydroboration_procedure",
+    "record_kind": "general_scheme",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_eae9311c933a0a19:page9:text",
+      "doc_eae9311c933a0a19:page9:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "enyne",
+        "role": "reactant",
+        "label": {
+          "value": "1,3-enyne substrate",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-variable 1,3-enyne substrate",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.2,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "benzazaborine_2",
+        "role": "reactant",
+        "label": {
+          "value": "1,2-benzazaborine 2",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 1,2-benzazaborine 2",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.3,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "cuoac",
+        "role": "catalyst",
+        "label": {
+          "value": "CuOAc",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(I) acetate",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(=O)O[Cu]",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 1.8,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand",
+        "role": "reagent",
+        "label": {
+          "value": "(S,S)-Ph-BPE",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (S,S)-Ph-BPE",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 6.0,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "premix_hexane",
+        "role": "solvent",
+        "label": {
+          "value": "hexane catalyst-premix charge",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "n-hexane",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCCCCC",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 0.8,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "borane_carrier_toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene carrying benzazaborine 2",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 0.2,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "enyne_carrier_hexane",
+        "role": "solvent",
+        "label": {
+          "value": "hexane carrying 1,3-enyne",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "n-hexane",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCCCCC",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 0.8,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "silica",
+        "role": "reagent",
+        "label": {
+          "value": "silica gel",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "silica gel",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "petroleum_ether",
+        "role": "solvent",
+        "label": {
+          "value": "petroleum ether chromatography eluent",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "petroleum ether",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "ethyl_acetate",
+        "role": "solvent",
+        "label": {
+          "value": "ethyl acetate chromatography eluent",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "ethyl acetate",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCOC(C)=O",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "desired allenyl 1,2-benzazaborine product",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound desired allenyl 1,2-benzazaborine product",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page9:text",
+            "doc_eae9311c933a0a19:page9:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "catalyst_ligand_premix",
+        "participant_ids": [
+          "cuoac",
+          "ligand",
+          "premix_hexane"
+        ],
+        "conditions": [
+          {
+            "name": "reaction_vessel",
+            "fact": {
+              "value": "10-mL Young tube",
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "high-purity argon glove box",
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "operation",
+            "fact": {
+              "value": "CuOAc, (S,S)-Ph-BPE, and 0.8 mL hexane were charged and stirred",
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "min"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "benzazaborine_solution_addition_and_premix",
+        "participant_ids": [
+          "benzazaborine_2",
+          "borane_carrier_toluene",
+          "cuoac",
+          "ligand"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "benzazaborine 2 solution in toluene was injected and stirred",
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "min"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "enyne_addition_and_reaction",
+        "participant_ids": [
+          "enyne",
+          "enyne_carrier_hexane",
+          "benzazaborine_2",
+          "cuoac",
+          "ligand"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "1,3-enyne solution was added; the Young tube was removed from the glove box and stirred until completion",
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "minimum": 28,
+                "maximum": 36,
+                "unit": "°C",
+                "raw_text": "room temperature (28–36 °C)"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": "upon completion",
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "argon",
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "silica_addition_and_solvent_removal",
+        "participant_ids": [
+          "silica",
+          "product"
+        ],
+        "conditions": [
+          {
+            "name": "workup",
+            "fact": {
+              "value": "a proper amount of silica gel was added to the reaction mixture, then solvent was removed",
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "silica_gel_purification",
+        "participant_ids": [
+          "product",
+          "petroleum_ether",
+          "ethyl_acetate"
+        ],
+        "conditions": [
+          {
+            "name": "purification",
+            "fact": {
+              "value": "silica-gel chromatography using petroleum ether and ethyl acetate",
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page9:text",
+                "doc_eae9311c933a0a19:page9:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [],
+    "notes": [
+      {
+        "value": "This is a variable-substrate general procedure without a unique product identity or row-specific yield; it is not a duplicate of a Table 2 enyne row.",
+        "evidence_ids": [
+          "doc_eae9311c933a0a19:page9:text",
+          "doc_eae9311c933a0a19:page9:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The method uses 0.20 mmol enyne and 0.30 mmol benzazaborine, whereas Table 2 prints 0.10 and 0.15 mmol. Both source scales are retained in their own records and no arithmetic scaling is performed.",
+        "evidence_ids": [
+          "doc_eae9311c933a0a19:page9:text",
+          "doc_eae9311c933a0a19:page9:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Complex benzazaborines, ligands, products, and proposed intermediates remain source-labeled where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "The two 10 min premixing stages do not have explicit temperatures.",
+        "The main reaction is run until completion with no numeric duration; silica-gel amount and chromatography solvent ratio/volumes are not reported.",
+        "The variable substrate/product labels do not define unique structures or a product-specific yield."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_eae9311c933a0a19:table2_styrene_scope_3b",
+    "document_id": "doc_eae9311c933a0a19",
+    "source_reaction_id": "table2_styrene_scope_3b",
+    "record_kind": "substrate_scope_entry",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_eae9311c933a0a19:page3:text",
+      "doc_eae9311c933a0a19:page3:image",
+      "doc_eae9311c933a0a19:page4:text",
+      "doc_eae9311c933a0a19:page4:image",
+      "doc_eae9311c933a0a19:page9:text",
+      "doc_eae9311c933a0a19:page9:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1",
+        "role": "reactant",
+        "label": {
+          "value": "styrene precursor to 3b",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page3:text",
+            "doc_eae9311c933a0a19:page3:image",
+            "doc_eae9311c933a0a19:page4:text",
+            "doc_eae9311c933a0a19:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound styrene precursor to 3b",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page3:text",
+            "doc_eae9311c933a0a19:page3:image",
+            "doc_eae9311c933a0a19:page4:text",
+            "doc_eae9311c933a0a19:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page4:text",
+                "doc_eae9311c933a0a19:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "benzazaborine_2",
+        "role": "reactant",
+        "label": {
+          "value": "2a",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page3:text",
+            "doc_eae9311c933a0a19:page3:image",
+            "doc_eae9311c933a0a19:page4:text",
+            "doc_eae9311c933a0a19:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,2-benzazaborine 2a",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page3:text",
+            "doc_eae9311c933a0a19:page3:image",
+            "doc_eae9311c933a0a19:page4:text",
+            "doc_eae9311c933a0a19:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.15,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page4:text",
+                "doc_eae9311c933a0a19:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "amount"
+          }
+        ]
+      },
+      {
+        "entity_id": "copper",
+        "role": "catalyst",
+        "label": {
+          "value": "CuCl",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page3:text",
+            "doc_eae9311c933a0a19:page3:image",
+            "doc_eae9311c933a0a19:page4:text",
+            "doc_eae9311c933a0a19:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(I) chloride",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page3:text",
+            "doc_eae9311c933a0a19:page3:image",
+            "doc_eae9311c933a0a19:page4:text",
+            "doc_eae9311c933a0a19:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Cu]Cl",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page3:text",
+            "doc_eae9311c933a0a19:page3:image",
+            "doc_eae9311c933a0a19:page4:text",
+            "doc_eae9311c933a0a19:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 3,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page4:text",
+                "doc_eae9311c933a0a19:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand",
+        "role": "reagent",
+        "label": {
+          "value": "(S)-DTBM-Segphos",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page3:text",
+            "doc_eae9311c933a0a19:page3:image",
+            "doc_eae9311c933a0a19:page4:text",
+            "doc_eae9311c933a0a19:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound (S)-DTBM-Segphos",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page3:text",
+            "doc_eae9311c933a0a19:page3:image",
+            "doc_eae9311c933a0a19:page4:text",
+            "doc_eae9311c933a0a19:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 3.3,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page4:text",
+                "doc_eae9311c933a0a19:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "naotbu",
+        "role": "reagent",
+        "label": {
+          "value": "NaOtBu",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page3:text",
+            "doc_eae9311c933a0a19:page3:image",
+            "doc_eae9311c933a0a19:page4:text",
+            "doc_eae9311c933a0a19:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "sodium tert-butoxide",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page3:text",
+            "doc_eae9311c933a0a19:page3:image",
+            "doc_eae9311c933a0a19:page4:text",
+            "doc_eae9311c933a0a19:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC(C)(C)[O-].[Na+]",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page3:text",
+            "doc_eae9311c933a0a19:page3:image",
+            "doc_eae9311c933a0a19:page4:text",
+            "doc_eae9311c933a0a19:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 6,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page4:text",
+                "doc_eae9311c933a0a19:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "other"
+          }
+        ]
+      },
+      {
+        "entity_id": "toluene",
+        "role": "solvent",
+        "label": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page3:text",
+            "doc_eae9311c933a0a19:page3:image",
+            "doc_eae9311c933a0a19:page4:text",
+            "doc_eae9311c933a0a19:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page3:text",
+            "doc_eae9311c933a0a19:page3:image",
+            "doc_eae9311c933a0a19:page4:text",
+            "doc_eae9311c933a0a19:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page3:text",
+            "doc_eae9311c933a0a19:page3:image",
+            "doc_eae9311c933a0a19:page4:text",
+            "doc_eae9311c933a0a19:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "3b",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page3:text",
+            "doc_eae9311c933a0a19:page3:image",
+            "doc_eae9311c933a0a19:page4:text",
+            "doc_eae9311c933a0a19:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound 3b",
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page3:text",
+            "doc_eae9311c933a0a19:page3:image",
+            "doc_eae9311c933a0a19:page4:text",
+            "doc_eae9311c933a0a19:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "asymmetric_hydroboration_scope",
+        "participant_ids": [
+          "substrate_1",
+          "benzazaborine_2",
+          "copper",
+          "ligand",
+          "naotbu",
+          "toluene"
+        ],
+        "conditions": [
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "room temperature",
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page4:text",
+                "doc_eae9311c933a0a19:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "temperature"
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "argon",
+              "evidence_ids": [
+                "doc_eae9311c933a0a19:page4:text",
+                "doc_eae9311c933a0a19:page4:image"
+              ],
+              "verification": "unreviewed"
+            },
+            "category": "atmosphere"
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            },
+            "category": "time"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield",
+        "fact": {
+          "value": {
+            "number": 70,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page4:text",
+            "doc_eae9311c933a0a19:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "yield"
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "measurement_basis"
+      },
+      {
+        "name": "enantiomeric_excess",
+        "fact": {
+          "value": {
+            "number": 98,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_eae9311c933a0a19:page4:text",
+            "doc_eae9311c933a0a19:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "percentage"
+      },
+      {
+        "name": "ee_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product"
+        ],
+        "category": "measurement_basis"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Each Table 2 product is a distinct substrate-scope experiment; the compact source structure is retained by label where safe stereochemical SMILES encoding was uncertain.",
+        "evidence_ids": [
+          "doc_eae9311c933a0a19:page3:text",
+          "doc_eae9311c933a0a19:page3:image",
+          "doc_eae9311c933a0a19:page4:text",
+          "doc_eae9311c933a0a19:page4:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "CCDC 2245401 is reported for 3b. This is characterization provenance, not another preparation, not an associated SI file, and not machine-structure verification.",
+        "evidence_ids": [
+          "doc_eae9311c933a0a19:page3:text",
+          "doc_eae9311c933a0a19:page3:image",
+          "doc_eae9311c933a0a19:page4:text",
+          "doc_eae9311c933a0a19:page4:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Page 9 Data availability assigns CCDC 2245401 to 3b. This is characterization provenance for the existing Table 2 experiment, not a second preparation, not an associated SI file, and not machine-structure verification.",
+        "evidence_ids": [
+          "doc_eae9311c933a0a19:page9:text",
+          "doc_eae9311c933a0a19:page9:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Complex benzazaborines, ligands, products, and proposed intermediates remain source-labeled where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "The Table 2 row and page-9 general alkene procedure use different absolute scales; the general-procedure charges were not transferred into this 0.10 mmol scope row.",
+        "Table 2 does not report the exact row time, isolated mass, yield measurement basis, or ee measurement basis.",
+        "CCDC 2245401 is a crystallographic deposition rather than an explicitly associated workspace Supporting Information file."
+      ]
+    }
+  }
+]

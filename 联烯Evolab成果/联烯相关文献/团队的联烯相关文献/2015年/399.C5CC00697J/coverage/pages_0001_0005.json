@@ -1,0 +1,263 @@
+{
+  "document_id": "doc_1345ff2adc66e6a7",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 1 full rendered page",
+          "finding": "ChemComm Accepted Manuscript publisher cover, citation line, and boilerplate only. No chemical structure, reaction arrow, table, experimental condition, outcome, or mechanism appears on this original PDF page.",
+          "evidence_ids": [
+            "doc_1345ff2adc66e6a7:page1:text",
+            "doc_1345ff2adc66e6a7:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "None for reaction extraction; the page is publisher cover material."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 2 title, author block, abstract, and article metadata",
+          "finding": "The actual article title was read from the heading. Aggregate 93–99% ee claims are introductory context and were not treated as row-level experiments.",
+          "evidence_ids": [
+            "doc_1345ff2adc66e6a7:page2:text",
+            "doc_1345ff2adc66e6a7:page2:image"
+          ]
+        },
+        {
+          "region": "page 2 introduction and Scheme 1 upper known-reports panel",
+          "finding": "The generic ZnBr2 or ZnBr2/CuBr terminal-alkyne allenylation is classified as a literature example. The boxed primary-propargyl-alcohol/CyCHO 6% (78% ee) poor result is a second cited prior-literature example, not a current experiment.",
+          "evidence_ids": [
+            "doc_1345ff2adc66e6a7:page2:text",
+            "doc_1345ff2adc66e6a7:page2:image"
+          ]
+        },
+        {
+          "region": "page 2 Scheme 1 lower 'This work' panel",
+          "finding": "The CuBr2/dioxane 70–130 °C transformation is a generic current-paper scheme with broad yield/ee ranges; row-level current experiments are captured in Tables 1–2 and Schemes 2–5/7.",
+          "evidence_ids": [
+            "doc_1345ff2adc66e6a7:page2:text",
+            "doc_1345ff2adc66e6a7:page2:image"
+          ]
+        },
+        {
+          "region": "page 2 lower-right optimization narrative",
+          "finding": "The prose maps to Table 1 entries 1–6 on page 3. It confirms 20 mol% CuBr2, the entry-3 60%/95% ee optimum, lower yield/ee at increased CuBr2 loading, and the separate CuBr comparison; no narrative duplicate was created.",
+          "evidence_ids": [
+            "doc_1345ff2adc66e6a7:page2:text",
+            "doc_1345ff2adc66e6a7:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_1345ff2adc66e6a7:scheme1_known_terminal_alkyne_allenylation",
+        "doc_1345ff2adc66e6a7:scheme1_known_primary_propargyl_alcohol_failure",
+        "doc_1345ff2adc66e6a7:scheme1_current_generic_allenol_synthesis",
+        "doc_1345ff2adc66e6a7:table1_entry1",
+        "doc_1345ff2adc66e6a7:table1_entry2",
+        "doc_1345ff2adc66e6a7:table1_entry3",
+        "doc_1345ff2adc66e6a7:table1_entry4",
+        "doc_1345ff2adc66e6a7:table1_entry5",
+        "doc_1345ff2adc66e6a7:table1_entry6"
+      ],
+      "unresolved": [
+        "The known-report condition variants are aggregated and the boxed 6% result does not restate its full procedure.",
+        "No Supporting Information association was inferred."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 3 upper-left Table 1 header, entries 1–6, and footnotes a–b",
+          "finding": "Six independent optimization experiments were retained with row-specific n1/n2/n3 values, CuBr2 or CuBr loading, 130 °C, 12 h or entry-1 16 h, isolated yields, and ee. The n1/n2/n3 header is preserved as shown rather than arithmetically rewritten.",
+          "evidence_ids": [
+            "doc_1345ff2adc66e6a7:page3:text",
+            "doc_1345ff2adc66e6a7:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 left column Table 2 header, entries 1–20, and footnotes a–e",
+          "finding": "Twenty independent scope experiments were retained. Footnote a 2-equiv substrate charges, b 50 mmol scale, c 70 °C/24 h, d 40 mol% CuBr2, and e 0 °C chromatography were applied only to marked rows. Rows giving the same product under different conditions remain separate.",
+          "evidence_ids": [
+            "doc_1345ff2adc66e6a7:page3:text",
+            "doc_1345ff2adc66e6a7:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 upper-right Scheme 2",
+          "finding": "Four distinct stereodivergent reactions of (S)- or (R)-1k with CyCHO and (S)- or (R)-3 were retained with individual yields, de, and ee values; absolute stereochemistry is kept in labels.",
+          "evidence_ids": [
+            "doc_1345ff2adc66e6a7:page3:text",
+            "doc_1345ff2adc66e6a7:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 lower-right Scheme 3",
+          "finding": "Two separate tertiary-allenol examples 4le/4me and one beta-allenol example 4ne were retained with shared displayed conditions and individual yields/ee.",
+          "evidence_ids": [
+            "doc_1345ff2adc66e6a7:page3:text",
+            "doc_1345ff2adc66e6a7:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 bottom-right Scheme 4 introduction",
+          "finding": "The prose introduces isolation/conversion of (S,S)-5ja and isotope-transfer controls drawn on page 4. Those four experiments use cross-page evidence and are not duplicated here.",
+          "evidence_ids": [
+            "doc_1345ff2adc66e6a7:page3:text",
+            "doc_1345ff2adc66e6a7:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_1345ff2adc66e6a7:table1_entry1",
+        "doc_1345ff2adc66e6a7:table1_entry2",
+        "doc_1345ff2adc66e6a7:table1_entry3",
+        "doc_1345ff2adc66e6a7:table1_entry4",
+        "doc_1345ff2adc66e6a7:table1_entry5",
+        "doc_1345ff2adc66e6a7:table1_entry6",
+        "doc_1345ff2adc66e6a7:table2_entry1",
+        "doc_1345ff2adc66e6a7:table2_entry2",
+        "doc_1345ff2adc66e6a7:table2_entry3",
+        "doc_1345ff2adc66e6a7:table2_entry4",
+        "doc_1345ff2adc66e6a7:table2_entry5",
+        "doc_1345ff2adc66e6a7:table2_entry6",
+        "doc_1345ff2adc66e6a7:table2_entry7",
+        "doc_1345ff2adc66e6a7:table2_entry8",
+        "doc_1345ff2adc66e6a7:table2_entry9",
+        "doc_1345ff2adc66e6a7:table2_entry10",
+        "doc_1345ff2adc66e6a7:table2_entry11",
+        "doc_1345ff2adc66e6a7:table2_entry12",
+        "doc_1345ff2adc66e6a7:table2_entry13",
+        "doc_1345ff2adc66e6a7:table2_entry14",
+        "doc_1345ff2adc66e6a7:table2_entry15",
+        "doc_1345ff2adc66e6a7:table2_entry16",
+        "doc_1345ff2adc66e6a7:table2_entry17",
+        "doc_1345ff2adc66e6a7:table2_entry18",
+        "doc_1345ff2adc66e6a7:table2_entry19",
+        "doc_1345ff2adc66e6a7:table2_entry20",
+        "doc_1345ff2adc66e6a7:scheme2_S_S_4ke",
+        "doc_1345ff2adc66e6a7:scheme2_R_S_4ke",
+        "doc_1345ff2adc66e6a7:scheme2_S_R_4ke",
+        "doc_1345ff2adc66e6a7:scheme2_R_R_4ke",
+        "doc_1345ff2adc66e6a7:scheme3_4le",
+        "doc_1345ff2adc66e6a7:scheme3_4me",
+        "doc_1345ff2adc66e6a7:scheme3_4ne",
+        "doc_1345ff2adc66e6a7:scheme4_eq1_short_time_isolation",
+        "doc_1345ff2adc66e6a7:scheme4_eq2_5ja_to_4ja",
+        "doc_1345ff2adc66e6a7:scheme4_eq3_deuterated_prolinol",
+        "doc_1345ff2adc66e6a7:scheme4_eq4_competitive_KIE"
+      ],
+      "unresolved": [
+        "Most table/scheme rows omit workup, purification, isolated masses, yield bases outside explicit table headings, and chiral analytical methods.",
+        "Complex stereochemical structures remain machine-unverified."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 4 upper-left Scheme 4 equations 1–4",
+          "finding": "Four independent controls were retained: 5 min isolation/timepoint with separate NMR and unlabeled percentages for 4ja/5ja; isolated 5ja conversion in dioxane-d8; (S)-3-D2 transfer experiment; and 1:1 H/D competitive KIE experiment. Product-specific yield, ee, de, D incorporation, and KH/KD outcomes are kept separate.",
+          "evidence_ids": [
+            "doc_1345ff2adc66e6a7:page4:text",
+            "doc_1345ff2adc66e6a7:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 middle-left Scheme 5 reaction arrows and yield-versus-time graph",
+          "finding": "Two distinct 25 mmol time-course comparisons were retained: (S)-3 gives changing 4ja/5ja yields, while pyrrolidine is described as extremely sluggish and its rac-4ja/5ja' curves stay near the plotted baseline. Exact graph coordinates were not digitized because they are not tabulated.",
+          "evidence_ids": [
+            "doc_1345ff2adc66e6a7:page4:text",
+            "doc_1345ff2adc66e6a7:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 upper-right Scheme 6",
+          "finding": "IN-1, trans-IN-2, IN-3, and IN-4 form a proposed catalytic cycle; they are classified as mechanism and not as isolated preparations.",
+          "evidence_ids": [
+            "doc_1345ff2adc66e6a7:page4:text",
+            "doc_1345ff2adc66e6a7:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 center-right Scheme 7",
+          "finding": "The separate CuBr control uses 2.0 mmol (S)-3, 130 °C/12 h and gives 4ja 50% by NMR/98% ee plus 5ja 31% by NMR. It is not merged with Table 1 entry 6, which has a different prolinol charge and isolated-yield outcome.",
+          "evidence_ids": [
+            "doc_1345ff2adc66e6a7:page4:text",
+            "doc_1345ff2adc66e6a7:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 conclusion and acknowledgements",
+          "finding": "Conclusion adds no new reaction record. The acknowledgment names no specific reproduced run or independent conditions/outcomes, so no duplicate experiment was created.",
+          "evidence_ids": [
+            "doc_1345ff2adc66e6a7:page4:text",
+            "doc_1345ff2adc66e6a7:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_1345ff2adc66e6a7:scheme4_eq1_short_time_isolation",
+        "doc_1345ff2adc66e6a7:scheme4_eq2_5ja_to_4ja",
+        "doc_1345ff2adc66e6a7:scheme4_eq3_deuterated_prolinol",
+        "doc_1345ff2adc66e6a7:scheme4_eq4_competitive_KIE",
+        "doc_1345ff2adc66e6a7:scheme5_prolinol_timecourse",
+        "doc_1345ff2adc66e6a7:scheme5_pyrrolidine_timecourse",
+        "doc_1345ff2adc66e6a7:scheme6_proposed_catalytic_cycle",
+        "doc_1345ff2adc66e6a7:scheme7_CuBr_control"
+      ],
+      "unresolved": [
+        "Scheme 4 unlabeled 21%/38% bases and Scheme 5 exact graph coordinates/measurement methods are not stated.",
+        "Mechanistic intermediates and isotope-resolved structures remain label-only/unverified."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 5 upper-left acknowledgements, affiliations, and ESI availability statement",
+          "finding": "No independently specified reproduced experiment is given. The ESI availability sentence does not establish a supplied/associated SI file; no SI facts were imported or inferred.",
+          "evidence_ids": [
+            "doc_1345ff2adc66e6a7:page5:text",
+            "doc_1345ff2adc66e6a7:page5:image"
+          ]
+        },
+        {
+          "region": "page 5 references 1–12",
+          "finding": "Bibliography and prior-work context only. External papers were not expanded into experiments of the current article.",
+          "evidence_ids": [
+            "doc_1345ff2adc66e6a7:page5:text",
+            "doc_1345ff2adc66e6a7:page5:image"
+          ]
+        },
+        {
+          "region": "page 5 lower-right reference 13, preparation of (Ra)-4jk",
+          "finding": "The full 50 mmol execution is the same experiment as Table 2 entry 6 and was merged into that row. Exact charges, two dioxane solution volumes, sequential nitrogen charging, 130 °C/12 h hold, TLC, cooling, workup, chromatography, 5.4270 g/60% isolated yield, and 95% ee/HPLC method were structured.",
+          "evidence_ids": [
+            "doc_1345ff2adc66e6a7:page5:text",
+            "doc_1345ff2adc66e6a7:page5:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_1345ff2adc66e6a7:table2_entry6"
+      ],
+      "unresolved": [
+        "Sequential charging and cooling durations are not reported.",
+        "The printed placeholder ESI DOI was not used to infer an association."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4254 @@
+{
+  "tool_version": "2.2",
+  "schema_version": "1.0",
+  "created_at": "2026-10-14T04:02:22.950673+00:00",
+  "documents": [
+    {
+      "document_id": "doc_8df0e71d29d5470a",
+      "sha256": "8df0e71d29d5470a7ce34e14db269cab9bfb101b0b83ebb35ad03bad9d56cfad",
+      "source_name": "source.pdf",
+      "source_pdf": "assets/doc_8df0e71d29d5470a/source.pdf",
+      "role": "main_text",
+      "parent_document_id": null,
+      "pages": 8,
+      "title": "DFT study on E-stereoselective reductive A3-coupling reaction of terminal alkynes with aldehydes and 3-pyrroline",
+      "doi": "10.1039/D0QO00564A",
+      "supplementary_material": {
+        "status": "unknown",
+        "note": "SI availability is not established from filename."
+      },
+      "evidence": [
+        {
+          "evidence_id": "doc_8df0e71d29d5470a:page1:text",
+          "document_id": "doc_8df0e71d29d5470a",
+          "page": 1,
+          "kind": "page_text",
+          "text": "rsc.li/frontiers-organic\nORGANIC  \nCHEMISTRY\nFRONTIERS\nVolume 6 | Number 1 | 7 January 2019\nORGANIC \nCHEMISTRY\nFR O N TIE RS\nrsc.li/frontiers-organic\nAccepted Manuscript\nThis is an Accepted Manuscript, which has been through the  \nRoyal Society of Chemistry peer review process and has been accepted \nfor publication.\nAccepted Manuscripts are published online shortly after acceptance, \nbefore technical editing, formatting and proof reading. Using this free \nservice, authors can make their results available to the community, in \ncitable form, before we publish the edited article. We will replace this \nAccepted Manuscript with the edited and formatted Advance Article as \nsoon as it is available.\nYou can find more information about Accepted Manuscripts in the \nInformation for Authors.\nPlease note that technical editing may introduce minor changes to the \ntext and/or graphics, which may alter content. The journal’s standard \nTerms & Conditions and the Ethical guidelines still apply. In no event \nshall the Royal Society of Chemistry be held responsible for any errors \nor omissions in this Accepted Manuscript or any consequences arising \nfrom the use of any information it contains. \nView Article Online\nView Journal\nThis article can be cited before page numbers have been issued, to do this please use:  Y. Yao, X. Zhang\nand S. Ma, Org. Chem. Front., 2020, DOI: 10.1039/D0QO00564A.",
+          "asset": null,
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "pypdf"
+        },
+        {
+          "evidence_id": "doc_8df0e71d29d5470a:page2:text",
+          "document_id": "doc_8df0e71d29d5470a",
+          "page": 2,
+          "kind": "page_text",
+          "text": "ARTICLE\nPlease do not adjust margins\nPlease do not adjust margins\na.Research Center for Molecular Recognition and Synthesis, Department of \nChemistry, Fudan University, 220 Handan Lu, Shanghai 200433, P. R. China. \nb.State Key Laboratory of Organometallic Chemistry, Shanghai Institute of Organic \nChemistry, Chinese Academy of Sciences, 345 Lingling Lu, Shanghai 200032, P. R. \nChina.\n E-mail: xzhang@sioc.ac.cn, masm@sioc.ac.cn\nElectronic Supplementary Information (ESI) available: [details of any \nsupplementary information available should be included here]. See DOI: \n10.1039/x0xx00000x\nReceived 00th January 20xx,\nAccepted 00th January 20xx\nDOI: 10.1039/x0xx00000x\nDFT study on E-steteoselective reductive A3 -coupling reaction of \nterminal alkynes with aldehydes and 3-pyrroline \nYuan Yao,a Xue Zhang*b and Shengming Ma*a,b\nThe mechanism of Cu(I)-catalyzed reductive A 3-coupling reaction of terminal alkynes with aldehydes and 3-pyrroline for \nsynthesis E-allylic amines has been studied by DFT calculations. The calculations suggest that the pathway selectivity is \ndetermined by the activation energy diﬀerence between β-N elimination and protodemetalation from the iminium \nintermediate (INT7) formed via the rate-limiting 1,5-H transfer of the CuBr-coordinated propargylic amine ( INT4). The \nstepwise intermolecular protodemetalation assisted by 3-pyrroline or water cluster proceeds more efficiently than β-N \nelimination, resulting in formation of allylic amine instead of allene as the final product. Notably, the aromatization of the \nazacycle (formed from 3-pyrroline or isoindoline) is essential driving force for the preference of the allylic amine products. \nIn addition, the formation of hydrogen bond between the hydroxyl group of terminal alkyne and the migrating hydrogen \nstablizes the transition state of 1,5-H transfer step, thus, increasing the reaction reactivity.\nIntroduction\nMetal-catalyzed three-component coupling of an alkyne, an \naldehyde and an amine (A3-coupling) is a straightforward \nprotocol for preparing propargylic amines,1 which serve as the \nkey intermediates for the syntheses of many organic \ncompounds.2 Mechanistically, the A3-coupling involves the \nreaction of the in situ generated metal alkynylide specie A with \nthe iminium ion B in situ generated from the condensation of \naldehyde with amine, resulting in the formation of the metal-\ncoordinated propargylic amine C, which undergoes 1,5-H \ntransfer to afford the iminium intermediate D (Scheme 1). \nSubsequent β-N elimination would produce the allene product \n(path a in Scheme 1).3 This mechanism has been supported by \nour detailed theoretical studies.3c It’s worth noting that the \namine in these reactions can be diisopropylamine, 2 f \ndicyclohexylamine, 2 g morpholine, 2 h pyrrolidine, 2 i , 2 k , 2 n \ndiphenylprolinol,2j,2m tetrahydroisoquinoline,2l azocane,2o and \nso on. Interestingly, E-allylic amines was obtained \nunexpectedly when terminal alkynes and aldehydes was \ntreated with 3-pyrroline or isoindoline in the presence of \ncopper(I) (path b in Scheme 1).4 We presumed that the E-allylic \namine is afforded through the protodemetalation process\nR1M\nR2\nN\nR3\nR4\nR1\n1,5-H transfer\nR4CHO\nH2O\nN\nR3'\nR4 R1\nM\npath a\nprotodemetalation\nN\nR4 R1\nM\npath b\nβ - N elimination\nM\nR4\n•\nR1\nA B C\nD\nR1\nM\nN\nH\nR2 R3\nR2\nH\nH\nNR2 R3\nR4\nN\nH\nR2\nR3\n= N\nH\nO\n, N\nH\n, N\nH\nOH\nPh\nPh , NH ,\npath a:\nN\nH\npath b:\nN\nH\n, etc.\nN\nH\nR2 R3\n=\nN\nH\niPr\nN\nH\niPr\n,,\n,\nN\nH\nM\nN\nH\nR2 R3\nScheme 1. (a) A general mechanism for metal-catalyzed A 3-coupling reaction followed \nby 1,5-H transfer and β-N elimination affording allene (ATA reaction). (b) Reductive A 3-\ncoupling for the synthesis of E-allylic amines.  \nN\nCy\nC6H13\nD\nD\nD\nD\n(96%)\nCuBr (60 mol%)\nCuCl (60 mol%)\ndioxane, 90 oC, 18 h\nN\nCy\nD\nC6H13\nD\n(86%)\n(17%)\nD\nD\n(36%)\n32% NMR yield\nN\nCy\nC6H13\nCH3COOD (10.0 eq)\nCuBr (60 mol%)\nCuCl (60 mol%)\ndioxane, 90 oC, 10.5 h\nN\n(52%)\n78% NMR yield\nCy\nD\nC6H13\nH\nN\nCy\nC6H13\nD\nD\nD\nD\n(96%)\nCH3COOD (10.0 eq)\nCuBr (60 mol%)\nCuCl (60 mol%)\ndioxane, 90 oC, 18 h\nN\nCy\nD\nC6H13\nD\n(93%)\n(81%)\nD\nD\n(50%)\n60% NMR yield\nScheme 2. Deuterium-labeling experiments.\nPage 1 of 7 Organic Chemistry Frontiers\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\nOrganic Chemistry Frontiers Accepted Manuscript\nPublished on 23 June 2020. Downloaded by Lund University on 6/23/2020 8:10:24 AM. \nView Article Online\nDOI: 10.1039/D0QO00564A",
+          "asset": null,
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "pypdf"
+        },
+        {
+          "evidence_id": "doc_8df0e71d29d5470a:page3:text",
+          "document_id": "doc_8df0e71d29d5470a",
+          "page": 3,
+          "kind": "page_text",
+          "text": "Journal Name  ARTICLE\nThis journal is © The Royal Society of Chemistry 20xx J. Name ., 2013, 00 , 1-3 | 2\nPlease do not adjust margins\nPlease do not adjust margins\nafter the generation of the iminium intermediate D. \nDeuterium-labeling experiments have been performed to \nconfirm that the β-position proton of E-allylic amines came \nfrom the azacycle and the α-position proton came from the \nproton in ambient environment (Scheme 2).4 Here, we sought \nto investigate the detailed reaction mechanism of this Cu(I)-\ncatalyzed5 reductive A3-coupling reaction, as well as the crucial \nrole of 3-pyrroline or isoindoline. The origin of the different \nchemoselectivity of affording allylic amine or allene was also \ndiscussed.\nComputational Methods\nDFT calculations were carried out with the Gaussian 09 \nsoftware.6 M06-2X,7 including Grimme’s D3 dispersion \ncorrections, was employed to performed geometry \noptimizations. The LANL2DZ8 basis set in conjunction with the \nLANL2DZ pseudopotential9 was used for Cu and Br atoms, \nwhile the 6-31G(d,p)10 basis set was used for the other atoms. \nGeometry optimizations were fully carried out. Harmonic \nvibration frequency calculations were conducted at the same \nlevel of theory to verify the stationary points to be minima (no \nimaginary frequency) or saddle points (one imaginary \nfrequency). Intrinsic reaction coordinate (IRC)11 calculations \nwere performed to confirm the connection of the transition \nstructures with their corresponding reactants and products. \nThe single point energies and solvent effects in toluene (ε = \n2.37) were computed with M06-2X-D3/SDD12-6-311++G(d,p) \nbasis sets by using SMD13 solvation model. The solution-phase \nGibbs free energy was used in the present discussions. The \ncalculations were carried out on the exact compounds applied \nexperimentally: 2-methybut-3-yn-2-ol (1), cyclohexanaldehyde \n(2) and 3-pyrroline (3) with copper (I) bromide as the catalyst \n(Scheme 3). \nOH\nCyCHO\nN\nH\nNCuBr (20 mol%)\ntoluene, 4 Å MS\n40 oC, 24 h3 41 2\nOHCy\n5\nNot observed88% yield\n•\nCy\nH H\nHO\nScheme 3.\nResults and discussion\nThe A3-coupling reaction proceeds initially from the sp C-H \nactivation of the terminal alkyne 1 by the metal catalyst and \nthe condensation of cyclohexanaldehyde 2 with 3-pyrroline 3, \naffording the ion pair Int3, which consists of copper alkynylide \nanion Int1 and iminium cation Int2. This process leads to an \nenergy increase of 4.0 kcal mol-1, accompanied by losing one \nmolecule of water. The subsequent electrophilic attack of \niminium Int2 to copper attached C1 via TS1 requires an energy \nbarrier of 10.1 kcal mol-1, providing propargyl amine-CuBr \ncomplex Int4. Subsequent isomerization of Int4 to Int5, \naffording the precursor for 1,5-H transfer, in which CuBr and \namino group are in the trans manner, is endergonic by 7.4 kcal \nmol-1 relative to Int4.\n With the envelope conformation of pyrrolidine moiety in \nInt5, there are two axial hydrogen atoms (H1 and H2 in Figure \n1) in the perfect orientation for transfer to the C2 atom. The \nsix- membered cyclic transition-state for the 1,5-H transfer has \nbeen located as TS2_1 and TS2_2 for the transfer of H1 and H2 \natom, respectively. The free energy barrier for 1,5-H1 transfer \nis calculated to be 27.7 kcal mol-1 (TS2_1 relative to Int4), \nwhich is lower by 1.8 kcal mol-1 than that for the 1,5-H2 \ntransfer (TS2_2), due to the fact that H1 is closer than H2 to C2 \n4.0\n10.1\n6.6\n-13.7 -8.6 -12.2\n0.0\n8.4\n-6.5\nC1\n27.7\nC2\n-21.1\nInt4\nInt3\nInt5\nTS1\nTS1 TS2_1\nInt6_1\nInt7\nTS2_1\nTS2_2\nInt6_2\nInt6_1\nInt6_2\nOH\nBrCu\nOH\nN\nCy\nH\nN\nH\nCy\nCuBr\nOH\nC1\nC2\nN\nH\nCy\nOH\nC1\nC2\nCuBr\nN\nH\nCy\nOH\nC1\nC2\nH2\nH1\nBrCu\nN\nH\nCy\nH1\nCuBr\nC\n1\nC2\nTS2_2\nN\nH\nCy\nCuBr\nC1 C2\nN\nH\nCy\nCuBr\nH\nOHC1 C2\nN\nH\nCy\nCuBr\nH\nOHC1 C2\nH\nCuBr\nH\nOHCy\nN\nTS2_1\nTS2_2\n1.32\n1.36\n1.34\n1.37\nH2\nOH OH\n10.1\nTS1\nInt4 Int5 Int7\n2.16\nCuBr\nCyCHO\n2\nN\nH\n3\nH2O\nBrCu\nOH\nInt1\nN\nCy\nH\nInt2\nCuBr-1\nC1 C2\nFigure 1. Free energy profile (ΔG in kcal mol-1) for the formation of propargylic amine and the subsequent 1,5-H transfer. Bond lengths are given in angstroms\nPage 2 of 7Organic Chemistry Frontiers\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\nOrganic Chemistry Frontiers Accepted Manuscript\nPublished on 23 June 2020. Downloaded by Lund University on 6/23/2020 8:10:24 AM. \nView Article Online\nDOI: 10.1039/D0QO00564A",
+          "asset": null,
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "pypdf"
+        },
+        {
+          "evidence_id": "doc_8df0e71d29d5470a:page4:text",
+          "document_id": "doc_8df0e71d29d5470a",
+          "page": 4,
+          "kind": "page_text",
+          "text": "Journal Name  ARTICLE\nThis journal is © The Royal Society of Chemistry 20xx J. Name ., 2013, 00 , 1-3 | 3\nPlease do not adjust margins\nPlease do not adjust margins\natom (2.80 Å vs. 3.03 Å). Hence, TS2_1 is more favorable, \nleading to the formation of N-allylic iminium-CuBr \nintermediate Int6_1, during which a σ bond between Cu(I) and \nC1 is formed. Subsequent isomerization of Int6_1 by single-\nbond rotation produces the more stable species Int7, which is \nexergonic by 3.6 kcal mol-1 relative to Int6_1. The 1,5-H \ntransfer step features the highest free energy barrier of the \nwhole profile (27.7 kcal mol-1, TS2_1), and may, thus, be rate-\ndetermining. \nFrom iminium intermediate Int7, there are two alternative \npathways: one is β-N elimination to produce allene product \n(path a in Figure 2), the other is protodemetalation process to \nafford the allylic amine (path b in Figure 2). The optimized \ntransition structure for path a has been located as TS3 and TS4, \nin which the C-N and C-Cu bonds are breaking simultaneously. \nThe cis elimination from Int7 proceeds through TS3, which \nrequires an energy barrier of 24.9 kcal mol-1 (TS3 relative to \nInt7). While the trans elimination through TS4 is much easier \nwith a barrier of 14.3 kcal mol-1. The precursor for TS4 is Int8, \nwhich is provided through the single-bond rotation of Int7. \nThus, we consider that the β-N elimination should be in trans \nmanner though TS4, which needs to overcome a free energy \nbarrier of 14.3 kcal mol-1 to afford Int9. Finally, allene 5 is \nreleased from Int9, with an overall exergonicity of 19.2 kcal mol-\n1 (relative to Int7).\nAn alternative pathway from allyl iminium-CuBr \nintermediate Int7 is the protodemetalation process to afford \nthe allylic amine (path b in Figure 2), which is the only product \nobtained experimentally. The direct intramolecular \nprotodemetalation of Int7 proceeds through a concerted five-\nmembered cyclic transition structure (TS5), in which the  \ndeprotonation of the alkyl hydrogen (H3) adjacent to the N \natom and protodemetalation of CuBr take place \nsimultaneously, leading to the CuBr-coordinated allylic amine \nInt11. This process is computed to be exergonic (ΔG = 40.8 kcal \nmol-1) and requires a 14.2 kcal mol-1 activation barrier (TS5 \nrelative to Int7). While Int7 can isomerize to a less stable species \nInt12 (1.0 kcal mol-1 higher in energy than Int7) through single-\nbond rotation with the hydroxyl group coordinating to Cu atom \n(d (Cu···O) = 2.41 Å). Int12 may serve as the precursor for \nprotodemetalation process as well, which also proceeds through \na concerted five-membered cyclic transition structure (TS6). TS6 \nneeds to overcome a free energy barrier of 13.5 kcal mol-1, \nwhich is lower in energy by 0.7 kcal mol-1 than TS5 (14.2 kcal \nmol-1), leading to Int11 as well. Thus, we consider that TS6 is \npreferable to TS5 for the direct intramolecular \nprotodemetalation of Int7. The final step of this process involves \nthe release of the product allylic amine 4 through CuBr \ncoordinated to another 3-pyrroline molecule, which is calculated \nto be exergonic by 10.4 kcal mol-1 (relative to Int11) due to the \nstrong coordination ability of nitrogen with CuBr. \nThe above mentioned computational results show that the \ndirect protodemetalation is preferred over β-N elimination both \nkinetically and thermodynamically, indicating that allyic amine \nshould be provided as the major product. However, in the \nexperiment, allylic amines are obtained as the only products,  \nand allenes are not observed at all. We don’t think that the free \nenergy difference of 0.8 kcal mol-1 could account for the \nexclusive formation of allylic amine. In addition, deuterium- \nlabeling experiments confirm that β-position proton of allylic \namines may come from not only the azacycle but also the \nmoisture in ambient environment (Scheme 2).4 Hence, the \nstepwise protodemetalation assisted by other molecules is taken \ninto account. When one molecule of water is taken into \nconsideration,14 the single bond C2-C3 in Int7 rotates to facilitate \nthe hydrogen bond forming between the hydroxyl group and the \nH4 in water, leading to the formation of the complex Int14, in \nwhich three hydrogen bonds are taking shape with water [d \n(O2···H3) = 2.23 Å, d (O1···H4) = 1.96 Å, d (Br···H5) = 2.73 Å] (Figure \n3). The deprotonation process of Int14 involves the abstraction \n-11.2\n1.3\nInt12\nTS6\n-53.0\nInt11\n-12.2\nInt7\n-7.0\nInt8\n2.1\nβ - N Elimination (path a) Protodemetalation (path b)\nTS4\n-18.7\nInt9\n-63.4\n4\n-31.4\n5\nInt9\nTS6\nInt10\n2.0\nTS5\nTS5\n14.3 13.5\n12.7\nTS3\nTS3\nTS4\nH\nCuBr\nH\nOHCy\nN\nN\nH\nCy\nBrCu\nH\nOH\nN\nH\nCy\nBrCu\nH\nOH\nH\nCuBr\nH\nOHCy\nN\n•\nCy\nH H\nBrCu OH\nN\n•\nCy\nH H\nHO\nN\nCuBr\nH H\nO1H\nCy\nN\nBrCu\nH3\nH H\nO1H\nCy\nN\nBrCu\nH3\nH H\nOHCy\nN\nBrCu\nH3\nH\nH3\nH\nO1H\nCy\nN\nCuBr\nN\nH\nH\nH3\nH\nO1H\nCy\nN\nNH\nCuBr\nTS3\n1.30\n1.62\n2.06\n1.29\n1.65\n2.08\nTS4\nTS5\nTS6Int13\nInt8 Int7 Int12 Int11\n2.14 2.07\n1.89\n2.08\nFigure 2. Free energy profile (ΔG in kcal mol-1) for either intramolecular protodemetalation or β-N elimination from Int7. Bond lengths are given in angstroms.\nPage 3 of 7 Organic Chemistry Frontiers\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\nOrganic Chemistry Frontiers Accepted Manuscript\nPublished on 23 June 2020. Downloaded by Lund University on 6/23/2020 8:10:24 AM. \nView Article Online\nDOI: 10.1039/D0QO00564A",
+          "asset": null,
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "pypdf"
+        },
+        {
+          "evidence_id": "doc_8df0e71d29d5470a:page5:text",
+          "document_id": "doc_8df0e71d29d5470a",
+          "page": 5,
+          "kind": "page_text",
+          "text": "Journal Name  ARTICLE\nThis journal is © The Royal Society of Chemistry 20xx J. Name ., 2013, 00 , 1-3 | 4\nPlease do not adjust margins\nPlease do not adjust margins\nInt7\n-4.1\n-11.4\nInt14\nTS7\n-15.6\nInt15\n-15.2\nInt16\n-15.6\nTS8\n-12.2\n-54.2\nInt17\nO2\nH2O\nTS7\n-63.4\n4 Int13\n8.1\nH\nCuBr\nH\nO1HCy\nN\nH\nH\nH\nO\nCy\nN CuBr\nNH\nCuBr\nC2 C3\nH\nCu\nH\nCy\nN C2 C3\nBr\nH3\nO1H\nH5\nH\nCu\nH\nCy\nN\nC2\nC3\nBr\nH3\nO1H\nH4\nH5\nH\nBrCu\nH\nO\nCy\nN\nH\nO2\nH4\nO2\nH\nBrCu\nH\nO\nCy\nN\nH\nBrCu\nH\nO\nCy\nN\nH\nH2O\nH\nH\nOH2\nH\nH\nH\nOH\nCy\nN\nN\nH\nH3\n1.31 1.36\nTS7\n2.09\n1.57\n1.14\nTS8\nH5\nH4\nH2O\nH H H\nH2O\nInt7\nTS8\nInt14\nInt15 Int16\nInt17\nFigure 3. Free energy profile ( Δ G in kcal mol-1) for H2O assisted stepwise \nprotodemetalation of Int7. Bond lengths are given in angstroms\nof the proton H3 from the azacycle by water and the subsequent \nprotonation of the hydroxyl group, affording the intermediate \nInt15, in which the protonated hydroxyl group is stabilized by \nthe hydrogen bond formed with water. This deprotonation \nprocess, accompanied by the aromatization of the azacycle of \nInt14, requires a free energy barrier of 8.1 kcal mol-1 (TS7, \nrelative to Int7). Isomerization of Int15 to Int16 facilitates the \nsubsequent protodemetalation process, which takes place \nintramolecularly through a concerted five-membered cyclic \ntransition state (TS8). TS8 is calculated to be higher in electronic \nenergy by only 1.8 kcal mol-1 than Int16. However, when the \nthermal correction and the solvent effect are taken into account, \nTS8 is slightly lower in free energy than intermediate Int16, \nindicating that the water-assisted protodemetalation could \nproceed with almost no barrier to afford the CuBr-coordinated \nallylic amine Int17. At last, the product allylic amine 4 can be \nobtained by the coordination of CuBr to another 3-pyrroline \nmolecule.\nWhen the water cluster, modeled by three molecules of water, \nis taking into account, a similar energy profile is obtained, which \nis showed in Figure 4. The water cluster assisted deprotonation \nrequires to overcome a lower energy barrier of 5.2 kcal mol-1. \nDifferent from one molecule water assisting pathway, the \nsubsequent protodemetalation takes place in an intermolecular \nway with an energy barrier of 4.2 kcal mol-1. \nCalculations show that the presence of water (or water cluster) \nturns the direct concerted protodemetalation into a reversible \nstepwise deprotonation-protodemetalation process, which \nrequires a much lower free energy barrier in total. Obviously, \nwater (or the water cluster) may act as a proton shuttle in this \nprocess, making the protodemetalation process more kinetically \nfavorable.\nInterestingly, when an additional 3-pyrroline is taken into \naccount as the proton shuttle, another kinetically favorable \npathway of stepwise deprotonation-protodemetalation process \nhas been discovered (Figure 5). All efforts to locate the \nhydrogen-bonding complex of 3-pyrroline with Int7 are \n4 Int13\nH\nCuBr\nH\nOHCy\nN\nNH\nCuBr\nH\nH\nH\nOH\nCy\nN\nInt7\n-9.6\n-14.8\nInt18\nTS9\n-28.4\nInt19\n-24.2\nTS10\n-12.2\n-47.4\nInt20\nTS9\nInt20\nInt7\n-63.4\n5.2\n4.2\nH\nCuBr\nH\nOH\nCy\nN\nH\nO\nH\nH\nO\nH\nH\nH2O\nN\nH\nH\nH7\nH\nOH\nCy\nN\n(H2O)3\n(H2O)3\n(H2O)3\nTS10\nTS9\n1.25\n1.44\n2.10 1.44\n1.24\nTS10\nBrCu\nH\nCuBr\nH\nOH\nCy\nN\nH\nO\nH\nH O\nH\nH\nH2O\nH\nCuBr\nH\nOH\nCy\nN\nH\nO\nH\nH O\nH\nH\nH2O\nInt18\nH\nCuBr\nH\nOH\nCy\nN\nH\nO\nH\nHOH\nH\nH2O\nInt19\nFigure 4. Free energy profile ( Δ G in kcal mol -1) for water cluster assisted stepwise \nprotodemetalation of Int7. Bond lengths are given in angstroms\nH\nCuBr\nH\nCy\nN N\nH\n-63.4\n-36.7\n-34.4\n-50.4\n-12.2\nInt7\nInt21 TS11\nTS11\nInt22\nH3\nH\nBrCu\nH\nCy\nN\nNH\n4 Int13\nNH\nCuBr\nH\nH\nH\nCy\nN\nTS11\nH\nCu\nH\nCy\nN\nHN\nH\nH\nBr\nH\n2.3\nOH\nOH\nOH\nOH\n1.25\n1.49 2.10\nH\nCuBr\nH\nCy\nN\nN\nH\nH\nOH\nInt21\nInt22\nInt7\nFigure 5. Free energy profile ( Δ G in kcal mol -1) for 3-pyrroline assisted stepwise \nprotodemetalation of Int7. Bond lengths are given in angstroms.\nunsuccessful. When the N atom of 3-pyrroline is approaching the \nproton H 3 of azacycle of Int7, the abstraction of H 3 takes place \nimmediately, indicating that the deprotonation process of Int7 \nrequires no barrier in the presence of 3-pyrroline. The abstraction \nof proton H 3 from Int7 produces Int21, which is exergonic by 24.5 \nkcal mol -1, accompanied by the aromatization of the azacycle. The \nsubsequent protodemetalation takes place intermolecularly by the \nprotonated 3-pyrroline through TS11 with an energy barrier of 2.3 \nkcal mol -1, affording the more stable CuBr-coordinated allyl amine \nInt22. Finally, the coordination of CuBr with 3-pyrroline releases \nallylic amine 4 to complete the whole process. Thus, an extra 3-\npyrroline molecule could also act as the proton shuttle to change \nthe concerted protodemetalation process to a stepwise \ndeprotonation-protodemetalation process. But different from the \nwater (or water cluster) involving pathway, the rate-limiting step of \nthe 3-pyrroline assisting process is the protodemetalation step with \nPage 4 of 7\nOrganic Chemistry Frontiers\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\nOrganic Chemistry Frontiers Accepted Manuscript\nPublished on 23 June 2020. Downloaded by Lund University on 6/23/2020 8:10:24 AM. \nView Article Online\nDOI: 10.1039/D0QO00564A",
+          "asset": null,
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "pypdf"
+        },
+        {
+          "evidence_id": "doc_8df0e71d29d5470a:page6:text",
+          "document_id": "doc_8df0e71d29d5470a",
+          "page": 6,
+          "kind": "page_text",
+          "text": "Journal Name  ARTICLE\nThis journal is © The Royal Society of Chemistry 20xx J. Name ., 2013, 00 , 1-3 | 5\nPlease do not adjust margins\nPlease do not adjust margins\n-2.1\n-9.8\nTS12\n-13.8\n-15.9\n-14.1\n-52.5\nInt7\n-12.2\n-63.4\nInt23\nInt26\nInt25\nInt24\nTS13\n10.1\n1.8\nInt24\nTS12\nInt25\nH\nCuBr\nH\nOH\nCy\nN\nH O H\nH\nCuBr\nH\nOH\nCy\nN\nH O H\nH\nCuBr\nH\nOHCy\nN H\nCuBr\nH\nO\nCy\nN\nH\nH\nOH\nH\nBrCu\nH\nO\nCy\nN H\nH\nOH\nH\nBrCu\nH\nO\nCy\nN\nH\nH\nOH\n4 Int13\nNH\nCuBr\nH\nH\nH\nOH\nCy\nN\nN\nH\nHO\nH\nBrCu\nH\nO\nCy\nN\nH\nH\nOH\nOH\nTS12\n1.37\n1.30\n2.09 1.55\n1.14\nTS13\nInt7 Int23 Int26\nTS13\nFigure 6. Free energy profile (ΔG in kcal mol-1) for propargylic alcohol assisted stepwise protodemetalation of Int7. Bond lengths are given in angstroms.\nthe activation barrier of only 2.3 kcal mol-1.\n   The propargylic alcohol 1, as one of the reactants, may also act \nas a proton shuttle to assist the protodemetalation process \n(Figure 6). The computed potential energy surface is \nqualitatively similar to that of the one molecule water assisting \npathway, but with more energy demanding in the deprotonation \nstep, which needs to overcome an activation barrier of 10.1 kcal \nmol-1 (TS12). The following protodemetalation proceeds \nintramolecularly with an energy barrier of 1.8 kcal mol-1.\nThe normal terminal alkynes with no hydroxy group present \nrelatively lower reactivities in the experimental studies.4 For \nexample, when using 1-octyne under the standard reaction \nconditions, the E-allylic amine was formed as well with a lower \nyield (20% NMR yield), accompanied with 70% NMR yield of \npropargylic amine.4 The effect of the hydroxyl group in 2-\nmethybut-3-yn-2-ol (1) was further rationalized by DFT \ncalculations on the comparison with the 1-octyne participated \n2.51\nTS2_1\n TS15_1\nN\nH\nCy\nH\nCuBr\nOH\nN\nH\nCy\nH\nC6H13\nCuBr\nΔ G = 27.7 kcal mol-1 Δ G = 28.8 kcal mol-1\nFigure 7. Optimized transition structures for 1,5-H transfer. Bond lengths are given \nin angstroms.\nsystem.15  The computed potential energy surfaces are \nqualitatively similar to that of 2-methybut-3-yn-2-ol (1) involved \none, but more free energy demanding in the rate-limiting 1,5-H \ntransfer step [28.8 kcal mol-1 (TS15_1) vs. 27.7 (TS2_1)], which is \nin accordance with the experimental observations. As shown in \nFigure 7, the hydrogen bond, formed between the hydroxyl \ngroup and the migrating hydrogen [d (O···H) = 2.51 Å] in TS2_1, \nfacilitates the 1,5-H transfer, resulting in the enhancive stability \nof TS2_1. \nConclusions\nThe activation energies for the stepwise deprotonation-\nprotodemetalation process of Int7 assisted by different species \nare listed separately in Table 1, together with the energy barrier \nof the β-N elimination process. It is obvious that the direct \nintramolecular pathway without the aid of other species is \nunfavorable, owing to the high energy demanding of 13.5 kcal \nmol-1. The presence of different assisting species makes the \nconcerted intramolecular process a irreversible stepwise \ndeprotonation-protodemetalation process, reducing the \nactivating barrier significantly. Among the four assisting species, \n3-pyrroline shows the highest activity in deprotonation step \nowing to the relatively strong basicity of N atom. Once the rate-\nlimiting 1,5-H transfer completes, the deprotonation-\nprotodemetalation process will take place immediately with the \naid of 3-pyrroline to afford the final allylic amine product. It is \nnoteworthy that without 3-pyrroline (or isoindoline) in the \nreaction system, other species, such as water cluster, could act \nas the proton shuttle to assist the protodemetalation as well, \nwhich is in agreement with the observation of deuterium-\nlabeling experiments (Scheme 2). Significantly, the aromatization \nof the azacycle is the essential driving force for the \nprotodemetalation process.\nPage 5 of 7 Organic Chemistry Frontiers\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\nOrganic Chemistry Frontiers Accepted Manuscript\nPublished on 23 June 2020. Downloaded by Lund University on 6/23/2020 8:10:24 AM. \nView Article Online\nDOI: 10.1039/D0QO00564A",
+          "asset": null,
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "pypdf"
+        },
+        {
+          "evidence_id": "doc_8df0e71d29d5470a:page7:text",
+          "document_id": "doc_8df0e71d29d5470a",
+          "page": 7,
+          "kind": "page_text",
+          "text": "Journal Name  ARTICLE\nThis journal is © The Royal Society of Chemistry 20xx J. Name ., 2013, 00 , 1-3 | 6\nPlease do not adjust margins\nPlease do not adjust margins\nTable 1. The summary of activation energies (ΔG in kcal mol-1) for the processes from Int7.\nProtodemetalation\nAssisting\nspecies nonea H2O (H2O)3 N\nH\nOH β-N\nelimination\nDeprotonation 8.1 5.2 No barrier 10.1\nProtodemetalation\n13.5\nNo barrier 4.2 2.3 1.8\n14.3\na: the protodemetalation proceeds in the concerted manner.\nThe pathway selectivity is determined by the activation \ne n e r g y  d i f f e r e n c e  b e t w e e n  β - N  e l i m i n a t i o n  a n d  t h e  \nprotodemetalation from the intermediate Int7 formed via the \n1,5-H transfer. Consistent with the experimental observations, \nwith 3-pyrroline, the protodemetalation is favored over β-N \nelimination by 12.0 kcal mol-1 (14.3 kcal mol-1 vs. 2.3 kcal mol-1), \nleading to the overwhelming formation of the allylic amine \nproduct. However, all the other amines listed in Scheme 1, other \nthan 3-pyrroline and isoindoline, completely reverse the \npathway selectivity, providing the allenes as the final products. \nDue to the lack of the driving force arising from the \naromatization of azacycle, the protodemetalation of the \nintermediate D (Scheme 1) is rather difficult. Therefore, the β-N \nelimination becomes the favorable pathway for the classical ATA \nreactions using the amines except 3-pyrroline or isoindoline. \nIn summary, the mechanism of this Cu (I)-catalyzed reductive \nA3-coupling reaction affording E-allylic amines was investigated \nby DFT calculations in detail. The calculations disclose that 3-\npyrroline (or isoindoline) serves not only as a reactant, but also \nas a shuttle in a proton relay to assist the protodemetalation \nstep, resulting in the production of allylic amine other than \nallene. Importantly, the calculations reveal the factors governing \nthe selectivity: the aromatization of the azacycle (formed from \n3-pyrroline or isoindoline) is essential driving force for the \npreference of the allylic amine products. Furthermore, we also \ndiscover that forming hydrogen bond with the migrating \nhydrogen to facilitate the rate-determining 1,5-H transfer step is \nthe key role of the hydroxyl group in terminal alkyne substrate \non the reactivity.\nConflicts of interest\nThere are no conflicts to declare.\nAcknowledgements\nFinancial support from Natural Science Foundation of Shanghai \n(19ZR1468500) and the National Natural Science Foundation of \nChina (Grant No. 21690063 for S. Ma) are greatly appreciated.\nNotes and references\n1 For selected review on synthesis of propargylic amines, see: \n(a) C. Wei, Z. Li and C. -J, Li, The development of A3-coupling \n(Aldehyde-Alkyne-Amine) and AA3-coupling (Asymmetric \nAldehyde-Alkyne-Amine), Synlett 2004, 9, 1472; (b) L. Zani \nand C. Bolm, Direct addition of alkynes to imines and related \nC=N electrophiles: a convenient access to propargylamines, \nChem. Commun., 2006, 4263; (c) W. -J, Yoo, L. Zhao and C, -J, \nLi, The A3-coupling (Aldehyde-Alkyne-Amine) reaction: a \nversatile method for the preparation of propargylamines, \nAldrichimica Acta, 2011, 44, 43; (d) V. A. Peshkov, O. P. \nPereshivko and E. V. Van der Eycken, A walk around the A3-\ncoupling, Chem. Soc. Rev., 2012, 41, 3790.\n2 For selected reviews of synthesis of allenes through \npropargylic amines, see: (a) R. K. Neﬀ and D. E. Frantz, \nRecent advances in the catalytic syntheses of allenes: a \ncritical assessment, ACS Catal., 2014, 4, 519. (b) J. Ye and S. \nMa, Conquering three-carbon axial chirality of allenes, Org. \nChem. Front., 2014, 1, 1210. (c) X. Huang and S. Ma, \nAllenation of terminal alkynes with aldehydes and ketones, \nAcc. Chem. Res., 2019, 52, 1301. For selected examples of \nsynthesis of allenes through propargylic amines, see: (d) V. \nK.-Y. Lo, M.-K. Wong and C. -M. Che, Gold-catalyzed highly \nenantioselective synthesis of axially chiral allenes, Org. Lett., \n2008, 10, 517; (e) V. K.-Y. Lo, C.-Y. Zhou, M.-K. Wong and C. -\nM. Che, Silver(I)-mediated highly enantioselective synthesis \nof axially chiral allenes under thermal and microwave-\nassisted conditions, Chem. Commun., 2010, 46, 213; (f) P. \nCrabbé, H. Fillion, D. André and J. -L. Luche, Efficient \nhomologation of acetylenes to allenes, J. Chem. Soc. Chem. \nCommun., 1979, 859; (g) J. Kuang and S. Ma,  An efficient \nsynthesis of terminal allenes from terminal 1-alkynes, J. Org. \nChem., 2009, 74, 1763; (h) J. Kuang and S. Ma, One-pot \nsynthesis of 1,3-disubstituted allenes from 1-alkynes, \naldehydes, and morpholine, J. Am. Chem. Soc., 2010, 132, \n1786; (i) J. Ye, S. Li, B. Chen, W. Fan, J. Kuang, J. Liu, Y. Liu, B. \nMiao, B. Wan, Y. Wang, X. Xie, Q. Yu, W. Yuan and S. Ma, \nCatalytic asymmetric synthesis of optically active allenes \nfrom terminal alkynes, Org. Lett., 2012, 14, 1346; (j) J. Ye, W. \nFan and S. Ma, tert-Butyldimethylsilyl-directed highly \nenantioselective approach to axially chiral α-allenols, Chem. -\nEur. J., 2013, 19, 716. (k) X. Tang, C. Zhu, T. Cao, J. Kuang, W. \nLin, S. Ni, J. Zhang and S. Ma, Cadmium iodide-mediated \nallenylation of terminal alkynes with ketones, Nature \nCommmun., 2013, 4, 2450. (l) G, -J, Jiang, Q, -H, Zheng, M, \nDou, L, -G, Zhuo, W. Meng and Z, -X, Yu, Mild-condition \nsynthesis of allenes from alkynes and aldehydes mediated by \ntetrahydroisoquinoline (THIQ), J. Org. Chem., 2013, 78, \n11783; (m) X. Huang, T. Cao, Y. Han, X. Jiang, W. Lin, J. Zhang \nand S. Ma, General CuBr2-catalyzed highly enantioselective \napproach for optically active allenols from terminal alkynols, \nChem. Commun., 2015, 51, 6956; (n) Q. Liu, X. Tang, Y. Cai \nand S. Ma, Catalytic one-pot synthesis of trisubstituted \nallenes from terminal alkynes and ketones, Org. Lett., 2017, \n19, 5174. (o) Q. Liu, T. Cao, Y. Han, X. Jiang, Y. Tang, Y. Zhai \nand S. Ma, Copper(I) iodide-catalyzed asymmetric synthesis \nof optically active tertiary α-allenols, Synlett, 2019, 30, 477. \n3 For computational investigation for synthesis of allenes \nthrough 1,5-H transfer and β-elimination, see (a) C. Liao, B. Li, \nJ. Wang and Y. Wang, Mechanism of silver(I)-catalyzed \nenantioselective synthesis of axially chiral allenes based on \npropargylamines, Chin. J. Chem., 2012, 30, 951; (b) M. \nH\nCuBr\nH\nOHCy\nN\nInt7\nH\nPage 6 of 7Organic Chemistry Frontiers\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\nOrganic Chemistry Frontiers Accepted Manuscript\nPublished on 23 June 2020. Downloaded by Lund University on 6/23/2020 8:10:24 AM. \nView Article Online\nDOI: 10.1039/D0QO00564A",
+          "asset": null,
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "pypdf"
+        },
+        {
+          "evidence_id": "doc_8df0e71d29d5470a:page8:text",
+          "document_id": "doc_8df0e71d29d5470a",
+          "page": 8,
+          "kind": "page_text",
+          "text": "Journal Name  ARTICLE\nThis journal is © The Royal Society of Chemistry 20xx J. Name ., 2013, 00 , 1-3 | 7\nPlease do not adjust margins\nPlease do not adjust margins\nGonzález, R. Á. Rodríguez, M. M. Cid and C. S. López, A \nstepwise retro-imino-ene as a key step in the mechanism of \nallene formation via the Crabbé acetylene homologation, J. \nComput. Chem., 2012, 33, 1236; (c) X. Zhang, A \ncomputational study of allene synthesis via the \nZnI2-promoted alleylation of terminal alkynes (ATA reaction), \nAsian J. Org. Chem., 2014, 3, 309; (d) Y. Han and X. Zhang, \nTheoretical studies of allene synthesis through cadmium \niodide-mediated allenylation of terminal alkynes, Asian J. \nOrg. Chem., 2017, 6, 1778.\n4 W. Fan, W. Yuan and S. Ma, Unexpected E-stereoselective \nreductive A3-coupling reaction of terminal alkynes with \naldehydes and amines, Nature Commmun., 2014, 5, 3884.\n5 For selected examples involve DFT calculations on Cu-\ncatalyzed or mediated reactions, see 3b and (a) K. Zhong, C. \nShan, L. Zhu, S. Liu, T. Zhang, F. Liu, B. Shen, Y. Lan and R. Bai, \nTheoretical study of the addition of Cu–carbenes to \nacetylenes to form chiral allenes, J. Am. Chem. Soc., 2019, \n141, 5772; (b) S. -J. Li and Y. Lan, Is Cu(III) a necessary \nintermediate in Cu-mediated coupling reactions? a \nmechanistic point of view, Chem. Commun., DOI: \n10.1039/d0cc01946a; (c) S. Liu, H. Liu, S. Liu, Z. Lu, C. Lu, X. \nLeng, Y. Lan and Q. Shen, C(sp3)‑ CF3 Reductive elimination \nfrom a five-coordinate neutral copper(III) complex, J. Am. \nChem. Soc., 2020, 142, 9785; (d) Y. Xiong, Z. Du, H. Chen, Z. \nYang, Q. Tan, C. Zhang, L. Zhu, Y. Lan and M. Zhang, Well-\ndesigned phosphine−urea ligand for highly diastereo- and \nenantioselective 1,3-dipolar cycloaddition of \nmethacrylonitrile: a combined experimental and theoretical \nstudy, J. Am. Chem. Soc., 2019, 141, 961; (e) L. A. López  and \nJ. González, Copper(I)-carbenes as key intermediates in the \n[3 + 2]-cyclization of pyridine derivatives with \nalkenyldiazoacetates: a computational study, Org. Biomol. \nChem., 2019, 17, 646. \n6 Gaussian 09, Revision A.02, M. J. Frisch, G. W. Trucks, H. B. \nSchlegel, G. E. Scuseria, M. A. Robb, J. R. Cheeseman, G. \nScalmani, V. Barone, B. Mennucci, G. A. Petersson, H. \nNakatsuji, M. Caricato, X. Li, H. P. Hratchian, A. F. Izmaylov, J. \nBloino, G. Zheng, J. L. Sonnenberg, M. Hada, M. Ehara, K. \nToyota, R. Fukuda, J. Hasegawa, M. Ishida, T. Nakajima, Y. \nHonda, O. Kitao, H. Nakai, T. Vreven, J. A. Montgomery, Jr., J. \nE. Peralta, F. Ogliaro, M. Bearpark, J. J. Heyd, E. Brothers, K. \nN. Kudin, V. N. Staroverov, R. Kobayashi, J. Normand, K. \nRaghavachari, A. Rendell, J. C. Burant, S. S. Iyengar, J. Tomasi, \nM. Cossi, N. Rega, J. M. Millam, M. Klene, J. E. Knox, J. B. \nCross, V. Bakken, C. Adamo, J. Jaramillo, R. Gomperts, R. E. \nStratmann, O. Yazyev, A. J. Austin, R. Cammi, C. Pomelli, J. W. \nOchterski, R. L. Martin, K. Morokuma, V. G. Zakrzewski, G. A. \nVoth, P. Salvador, J. J. Dannenberg, S. Dapprich, A. D. Daniels, \nO. Farkas, J. B. Foresman, J. V. Ortiz, J. Cioslowski, and D. J. \nFox, Gaussian, Inc., Wallingford CT, 2009.\n7 (a) Y. Zhao and D. G. Truhlar, Density functionals with broad \napplicability in chemistry, Acc. Chem. Res., 2008, 41, 157; (b) \nY. Zhao and D. G. Truhlar, The M06 suite of density \nfunctionals for main group thermochemistry, \nthermochemical kinetics, noncovalent interactions, excited \nstates, and transition elements: two new functionals and \nsystematic testing of four M06-class functionals and 12 other \nfunctionals, Theor. Chem. Acc., 2008, 120, 215.\n8 (a) K. Fukui, The Path of chemical reactions - the IRC \napproach, Acc. Chem. Res., 1981, 14, 363; (b) T. H. Dunning. \nJr., P. J. Hay in Modern Theoretical Chemistry (Ed: H. F. \nSchaefer, III.), Plenum Press, New York, 1977, pp.1-28.\n9 P. Schwerdtfeger, The pseudopotential approximation in \nelectronic structure theory, ChemPhysChem, 2011, 12, \n3143.\n10 (a) P. J. Hay and W. R. Wadt, Ab initio effective core \npotentials for molecular calculations. Potentials for the \ntransition metal atoms Sc to Hg, J. Chem. Phys., 1985, 82, \n270; (b) W. R. Wadt and P. J. Hay, Ab initio effective core \npotentials for molecular calculations. Potentials for main \ngroup elements Na to Bi, J. Chem. Phys., 1985, 82, 284; (c) P. \nJ. Hay and W. R. Wadt, Ab initio effective core potentials for \nmolecular calculations. Potentials for K to Au including the \noutermost core orbitals, J. Chem. Phys., 1985, 82, 299.\n11 (a) K. Fukui, Formulation of the reaction coordinate, J. Phys. \nChem., 1970, 74, 4161; (b) C. Gonzalez and H. B. Schlegel, An \nimproved algorithm for reaction path following, J. Chem. \nPhys., 1989, 90, 2154. (c) C. Gonzalez and H. B. Schlegel, \nReaction path following in mass-weighted internal \ncoordinates, J. Phys. Chem., 1990, 94, 5523.\n12 D. Andrae, U. Häußermann, M. Dolg, H. Stoll and H. Preuß, \nEnergy-adjustedab initio pseudopotentials for the second \nand third row transition elements, Theor. Chim. Acta, 1990, \n77, 123.\n13 A. V. Marenich, C. J. Cramer and D. G. Truhlar, Universal \nsolvation model based on solute electron density and on a \ncontinuum model of the solvent defined by the bulk \ndielectric constant and atomic surface tensions, J. Phys. \nChem., B, 2009, 113, 6378.\n14 For selected examples of DFT calculations demonstrating the \nproton transfer helped by water or an anion, see: (a) F.-Q. \nShi, X. Li, Y. Xia, L. Zhang and Z.-X. Yu, DFT study of the \nmechanisms of in water Au(I)-catalyzed tandem [3,3]-\nrearrangement/Nazarov reaction/[1,2]-hydrogen shift of \nenynyl acetates:  a proton-transport catalysis strategy in the \nwater-catalyzed [1,2]-hydrogen shift, J. Am. Chem. Soc., \n2007, 129, 15503; (b) A. Rossin, L. Gonsalvi, A. D. Phillips, O. \nMaresca, A. Lledós and M. Peruzzini, Water-assisted H-H \nbond splitting mediated by [CpRu(PTA)2Cl] (PTA=1,3,5-triaza-\n7-phosphaadamantane). A DFT analysis, Organometallics, \n2007, 26, 3289; (c) Y. Xia, Y. Liang, Y. Chen, M. Wang, L. Jiao, \nF. Huang, S. Liu, Y. Li and Z.-X. Yu, An unexpected role of a \ntrace amount of water in catalyzing proton transfer in \nphosphine-catalyzed (3 + 2) cycloaddition of allenoates and \nalkenes, J. Am. Chem. Soc., 2007, 129, 3470; (d) Y. Xia, A. S. \nDudnik, Y. Li and V. Gevorgyan, On the validity of Au-\nvinylidenes in the gold-catalyzed 1,2-migratory \ncycloisomerization of skipped propargylpyridines, Org. Lett., \n2010, 12, 5538; (e) Y. Qiu, C. Fu, X. Zhang and S. Ma, Studies \non [PtCl2]- or [AuCl]-catalyzed cyclization of \n1-(Indol-2-yl)-2,3-allenols: The effects of water/steric \nhindrance and 1,2-migration selectivity, Chem. -Eur.  J., 2014, \n20, 10314.\n15 All results for 1-octyne participated system, see Electronic \nSupplementary Information.\nPage 7 of 7 Organic Chemistry Frontiers\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\nOrganic Chemistry Frontiers Accepted Manuscript\nPublished on 23 June 2020. Downloaded by Lund University on 6/23/2020 8:10:24 AM. \nView Article Online\nDOI: 10.1039/D0QO00564A",
+          "asset": null,
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "pypdf"
+        },
+        {
+          "evidence_id": "doc_8df0e71d29d5470a:page1:image",
+          "document_id": "doc_8df0e71d29d5470a",
+          "page": 1,
+          "kind": "page_image",
+          "text": null,
+          "asset": "assets/doc_8df0e71d29d5470a/page1.jpg",
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "rendered_source_pdf"
+        },
+        {
+          "evidence_id": "doc_8df0e71d29d5470a:page2:image",
+          "document_id": "doc_8df0e71d29d5470a",
+          "page": 2,
+          "kind": "page_image",
+          "text": null,
+          "asset": "assets/doc_8df0e71d29d5470a/page2.jpg",
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "rendered_source_pdf"
+        },
+        {
+          "evidence_id": "doc_8df0e71d29d5470a:page3:image",
+          "document_id": "doc_8df0e71d29d5470a",
+          "page": 3,
+          "kind": "page_image",
+          "text": null,
+          "asset": "assets/doc_8df0e71d29d5470a/page3.jpg",
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "rendered_source_pdf"
+        },
+        {
+          "evidence_id": "doc_8df0e71d29d5470a:page4:image",
+          "document_id": "doc_8df0e71d29d5470a",
+          "page": 4,
+          "kind": "page_image",
+          "text": null,
+          "asset": "assets/doc_8df0e71d29d5470a/page4.jpg",
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "rendered_source_pdf"
+        },
+        {
+          "evidence_id": "doc_8df0e71d29d5470a:page5:image",
+          "document_id": "doc_8df0e71d29d5470a",
+          "page": 5,
+          "kind": "page_image",
+          "text": null,
+          "asset": "assets/doc_8df0e71d29d5470a/page5.jpg",
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "rendered_source_pdf"
+        },
+        {
+          "evidence_id": "doc_8df0e71d29d5470a:page6:image",
+          "document_id": "doc_8df0e71d29d5470a",
+          "page": 6,
+          "kind": "page_image",
+          "text": null,
+          "asset": "assets/doc_8df0e71d29d5470a/page6.jpg",
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "rendered_source_pdf"
+        },
+        {
+          "evidence_id": "doc_8df0e71d29d5470a:page7:image",
+          "document_id": "doc_8df0e71d29d5470a",
+          "page": 7,
+          "kind": "page_image",
+          "text": null,
+          "asset": "assets/doc_8df0e71d29d5470a/page7.jpg",
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "rendered_source_pdf"
+        },
+        {
+          "evidence_id": "doc_8df0e71d29d5470a:page8:image",
+          "document_id": "doc_8df0e71d29d5470a",
+          "page": 8,
+          "kind": "page_image",
+          "text": null,
+          "asset": "assets/doc_8df0e71d29d5470a/page8.jpg",
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "rendered_source_pdf"
+        }
+      ],
+      "coverage": {
+        "pages_processed": 8,
+        "semantic_extraction_complete": false,
+        "note": "Page/block enumeration is not proof of complete reaction extraction."
+      }
+    }
+  ],
+  "candidates": [],
+  "experiments": [
+    {
+      "record_id": "doc_8df0e71d29d5470a:scheme1_general_A3_competing_paths",
+      "document_id": "doc_8df0e71d29d5470a",
+      "source_reaction_id": "scheme1_general_A3_competing_paths",
+      "record_kind": "mechanism",
+      "status": "needs_review",
+      "completeness": "partial",
+      "evidence_ids": [
+        "doc_8df0e71d29d5470a:page2:text",
+        "doc_8df0e71d29d5470a:page2:image"
+      ],
+      "participants": [
+        {
+          "entity_id": "generic_terminal_alkyne",
+          "role": "reactant",
+          "label": {
+            "value": "generic terminal alkyne",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "generic_aldehyde",
+          "role": "reactant",
+          "label": {
+            "value": "R4CHO",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "generic_amine",
+          "role": "reactant",
+          "label": {
+            "value": "generic secondary amine",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "metal",
+          "role": "catalyst",
+          "label": {
+            "value": "M",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "generic metal catalyst",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "intermediate_A",
+          "role": "unspecified_agent",
+          "label": {
+            "value": "A",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "metal alkynylide intermediate A",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "intermediate_B",
+          "role": "unspecified_agent",
+          "label": {
+            "value": "B",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "iminium intermediate B",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "intermediate_C",
+          "role": "unspecified_agent",
+          "label": {
+            "value": "C",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "metal-coordinated propargylic amine C",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "intermediate_D",
+          "role": "unspecified_agent",
+          "label": {
+            "value": "D",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "allylic iminium-metal intermediate D",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "generic_allene",
+          "role": "product",
+          "label": {
+            "value": "generic allene (path a)",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "generic_E_allylic_amine",
+          "role": "product",
+          "label": {
+            "value": "generic E-allylic amine (path b)",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        }
+      ],
+      "steps": [
+        {
+          "step_id": "metal_alkynylide_and_iminium_formation",
+          "participant_ids": [
+            "generic_terminal_alkyne",
+            "generic_aldehyde",
+            "generic_amine",
+            "metal",
+            "intermediate_A",
+            "intermediate_B"
+          ],
+          "conditions": [
+            {
+              "name": "operation",
+              "fact": {
+                "value": "metal alkynylide A and iminium B form in situ with loss of water",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page2:text",
+                  "doc_8df0e71d29d5470a:page2:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "operation"
+            }
+          ]
+        },
+        {
+          "step_id": "A3_coupling",
+          "participant_ids": [
+            "intermediate_A",
+            "intermediate_B",
+            "intermediate_C"
+          ],
+          "conditions": [
+            {
+              "name": "operation",
+              "fact": {
+                "value": "electrophilic coupling affords metal-coordinated propargylic amine C",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page2:text",
+                  "doc_8df0e71d29d5470a:page2:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "operation"
+            }
+          ]
+        },
+        {
+          "step_id": "one_five_H_transfer",
+          "participant_ids": [
+            "intermediate_C",
+            "intermediate_D"
+          ],
+          "conditions": [
+            {
+              "name": "operation",
+              "fact": {
+                "value": "1,5-H transfer affords iminium intermediate D",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page2:text",
+                  "doc_8df0e71d29d5470a:page2:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "operation"
+            }
+          ]
+        },
+        {
+          "step_id": "competing_product_paths",
+          "participant_ids": [
+            "intermediate_D",
+            "generic_allene",
+            "generic_E_allylic_amine"
+          ],
+          "conditions": [
+            {
+              "name": "operation",
+              "fact": {
+                "value": "beta-N elimination gives allene (path a), whereas protodemetalation gives E-allylic amine (path b)",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page2:text",
+                  "doc_8df0e71d29d5470a:page2:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "operation"
+            }
+          ]
+        }
+      ],
+      "outcomes": [],
+      "notes": [
+        {
+          "value": "Scheme 1 is a generic mechanistic comparison. The path-a amines are cited prior ATA systems; 3-pyrroline and isoindoline are the path-b amines. No scheme-wide yield or experiment-specific scale belongs to this record.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page2:text",
+            "doc_8df0e71d29d5470a:page2:image"
+          ],
+          "verification": "unreviewed"
+        }
+      ],
+      "review": {
+        "method": "model",
+        "reviewer": null,
+        "checked_fields": [],
+        "unresolved": [
+          "Generic R groups, metal identity, exact structures, scale, temperature, time, and outcomes are not defined by Scheme 1."
+        ]
+      }
+    },
+    {
+      "record_id": "doc_8df0e71d29d5470a:scheme2_eq1_deuterated_substrate",
+      "document_id": "doc_8df0e71d29d5470a",
+      "source_reaction_id": "scheme2_eq1_deuterated_substrate",
+      "record_kind": "literature_example",
+      "status": "needs_review",
+      "completeness": "partial",
+      "evidence_ids": [
+        "doc_8df0e71d29d5470a:page2:text",
+        "doc_8df0e71d29d5470a:page2:image"
+      ],
+      "participants": [
+        {
+          "entity_id": "deuterated_propargylic_amine",
+          "role": "reactant",
+          "label": {
+            "value": "source-drawn deuterated isoindoline-derived propargylic amine",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": [
+            {
+              "name": "displayed_starting_deuterium_content",
+              "fact": {
+                "value": {
+                  "number": 96,
+                  "unit": "%"
+                },
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page2:text",
+                  "doc_8df0e71d29d5470a:page2:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            }
+          ]
+        },
+        {
+          "entity_id": "cubr",
+          "role": "catalyst",
+          "label": {
+            "value": "CuBr",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "copper(I) bromide",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": "[Cu]Br",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": [
+            {
+              "name": "catalyst_loading",
+              "fact": {
+                "value": {
+                  "number": 60,
+                  "unit": "mol%"
+                },
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page2:text",
+                  "doc_8df0e71d29d5470a:page2:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            }
+          ]
+        },
+        {
+          "entity_id": "cucl",
+          "role": "catalyst",
+          "label": {
+            "value": "CuCl",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "copper(I) chloride",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": "[Cu]Cl",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": [
+            {
+              "name": "catalyst_loading",
+              "fact": {
+                "value": {
+                  "number": 60,
+                  "unit": "mol%"
+                },
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page2:text",
+                  "doc_8df0e71d29d5470a:page2:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            }
+          ]
+        },
+        {
+          "entity_id": "dioxane",
+          "role": "solvent",
+          "label": {
+            "value": "dioxane",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "1,4-dioxane",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": "C1COCCO1",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "deuterated_E_allylic_amine",
+          "role": "product",
+          "label": {
+            "value": "source-drawn deuterated E-allylic amine",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        }
+      ],
+      "steps": [
+        {
+          "step_id": "deuterium_labeling_rearrangement",
+          "participant_ids": [
+            "deuterated_propargylic_amine",
+            "cubr",
+            "cucl",
+            "dioxane"
+          ],
+          "conditions": [
+            {
+              "name": "temperature",
+              "fact": {
+                "value": {
+                  "number": 90,
+                  "unit": "°C"
+                },
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page2:text",
+                  "doc_8df0e71d29d5470a:page2:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "temperature"
+            },
+            {
+              "name": "reaction_time",
+              "fact": {
+                "value": {
+                  "number": 18,
+                  "unit": "h"
+                },
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page2:text",
+                  "doc_8df0e71d29d5470a:page2:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "name": "NMR_yield",
+          "fact": {
+            "value": {
+              "number": 32,
+              "unit": "%"
+            },
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "target_entity_ids": [
+            "deuterated_E_allylic_amine"
+          ],
+          "category": "yield"
+        },
+        {
+          "name": "yield_measurement_basis",
+          "fact": {
+            "value": "NMR yield",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "target_entity_ids": [
+            "deuterated_E_allylic_amine"
+          ],
+          "category": "measurement_basis"
+        },
+        {
+          "name": "displayed_deuterium_content_azacycle_benzylic_site",
+          "fact": {
+            "value": {
+              "number": 36,
+              "unit": "%"
+            },
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "target_entity_ids": [
+            "deuterated_E_allylic_amine"
+          ],
+          "category": "other"
+        },
+        {
+          "name": "displayed_deuterium_content_alkene_site_adjacent_to_azacycle",
+          "fact": {
+            "value": {
+              "number": 86,
+              "unit": "%"
+            },
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "target_entity_ids": [
+            "deuterated_E_allylic_amine"
+          ],
+          "category": "other"
+        },
+        {
+          "name": "displayed_deuterium_content_alkene_site_adjacent_to_C6H13",
+          "fact": {
+            "value": {
+              "number": 17,
+              "unit": "%"
+            },
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "target_entity_ids": [
+            "deuterated_E_allylic_amine"
+          ],
+          "category": "other"
+        }
+      ],
+      "notes": [
+        {
+          "value": "Scheme 2 is explicitly tied to reference 4 in the text; this is a cited prior experiment, not a newly performed experiment in the DFT paper.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page2:text",
+            "doc_8df0e71d29d5470a:page2:image"
+          ],
+          "verification": "unreviewed"
+        }
+      ],
+      "review": {
+        "method": "model",
+        "reviewer": null,
+        "checked_fields": [],
+        "unresolved": [
+          "Supporting Information association is unestablished; no SI facts were used or inferred.",
+          "Every candidate structure remains structure_verified=false; parseability and visual inspection do not establish chemical correctness.",
+          "The isotope-resolved compact structures are retained as source labels with null SMILES.",
+          "Scale, reagent masses, dioxane volume, atmosphere, workup, purification, and NMR internal standard are not reported here.",
+          "The figure gives site percentages graphically; atom numbering is not supplied, so descriptive site names follow only the visible drawing."
+        ]
+      }
+    },
+    {
+      "record_id": "doc_8df0e71d29d5470a:scheme2_eq2_CH3COOD_labeling",
+      "document_id": "doc_8df0e71d29d5470a",
+      "source_reaction_id": "scheme2_eq2_CH3COOD_labeling",
+      "record_kind": "literature_example",
+      "status": "needs_review",
+      "completeness": "partial",
+      "evidence_ids": [
+        "doc_8df0e71d29d5470a:page2:text",
+        "doc_8df0e71d29d5470a:page2:image"
+      ],
+      "participants": [
+        {
+          "entity_id": "propargylic_amine",
+          "role": "reactant",
+          "label": {
+            "value": "source-drawn isoindoline-derived propargylic amine",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "acetic_acid_d",
+          "role": "reagent",
+          "label": {
+            "value": "CH3COOD",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "acetic acid-d",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": "CC(=O)O[2H]",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": [
+            {
+              "name": "equivalents",
+              "fact": {
+                "value": {
+                  "number": 10.0,
+                  "unit": "equiv"
+                },
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page2:text",
+                  "doc_8df0e71d29d5470a:page2:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "equivalents"
+            }
+          ]
+        },
+        {
+          "entity_id": "cubr",
+          "role": "catalyst",
+          "label": {
+            "value": "CuBr",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "copper(I) bromide",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": "[Cu]Br",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": [
+            {
+              "name": "catalyst_loading",
+              "fact": {
+                "value": {
+                  "number": 60,
+                  "unit": "mol%"
+                },
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page2:text",
+                  "doc_8df0e71d29d5470a:page2:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            }
+          ]
+        },
+        {
+          "entity_id": "cucl",
+          "role": "catalyst",
+          "label": {
+            "value": "CuCl",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "copper(I) chloride",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": "[Cu]Cl",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": [
+            {
+              "name": "catalyst_loading",
+              "fact": {
+                "value": {
+                  "number": 60,
+                  "unit": "mol%"
+                },
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page2:text",
+                  "doc_8df0e71d29d5470a:page2:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            }
+          ]
+        },
+        {
+          "entity_id": "dioxane",
+          "role": "solvent",
+          "label": {
+            "value": "dioxane",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "1,4-dioxane",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": "C1COCCO1",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "deuterated_E_allylic_amine",
+          "role": "product",
+          "label": {
+            "value": "source-drawn mono-deuterated E-allylic amine",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        }
+      ],
+      "steps": [
+        {
+          "step_id": "CH3COOD_labeling_rearrangement",
+          "participant_ids": [
+            "propargylic_amine",
+            "acetic_acid_d",
+            "cubr",
+            "cucl",
+            "dioxane"
+          ],
+          "conditions": [
+            {
+              "name": "temperature",
+              "fact": {
+                "value": {
+                  "number": 90,
+                  "unit": "°C"
+                },
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page2:text",
+                  "doc_8df0e71d29d5470a:page2:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "temperature"
+            },
+            {
+              "name": "reaction_time",
+              "fact": {
+                "value": {
+                  "number": 10.5,
+                  "unit": "h"
+                },
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page2:text",
+                  "doc_8df0e71d29d5470a:page2:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "name": "NMR_yield",
+          "fact": {
+            "value": {
+              "number": 78,
+              "unit": "%"
+            },
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "target_entity_ids": [
+            "deuterated_E_allylic_amine"
+          ],
+          "category": "yield"
+        },
+        {
+          "name": "yield_measurement_basis",
+          "fact": {
+            "value": "NMR yield",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "target_entity_ids": [
+            "deuterated_E_allylic_amine"
+          ],
+          "category": "measurement_basis"
+        },
+        {
+          "name": "displayed_deuterium_content_alkene_site",
+          "fact": {
+            "value": {
+              "number": 52,
+              "unit": "%"
+            },
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "target_entity_ids": [
+            "deuterated_E_allylic_amine"
+          ],
+          "category": "other"
+        }
+      ],
+      "notes": [
+        {
+          "value": "Scheme 2 is explicitly tied to reference 4; CH3COOD is a displayed reagent with 10.0 equivalents and is structured as a participant.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page2:text",
+            "doc_8df0e71d29d5470a:page2:image"
+          ],
+          "verification": "unreviewed"
+        }
+      ],
+      "review": {
+        "method": "model",
+        "reviewer": null,
+        "checked_fields": [],
+        "unresolved": [
+          "Supporting Information association is unestablished; no SI facts were used or inferred.",
+          "Every candidate structure remains structure_verified=false; parseability and visual inspection do not establish chemical correctness.",
+          "The compact substrate and isotope-resolved product are retained as labels with null SMILES.",
+          "Scale, reagent masses, dioxane volume, atmosphere, workup, purification, and NMR internal standard are not reported here."
+        ]
+      }
+    },
+    {
+      "record_id": "doc_8df0e71d29d5470a:scheme2_eq3_deuterated_substrate_CH3COOD",
+      "document_id": "doc_8df0e71d29d5470a",
+      "source_reaction_id": "scheme2_eq3_deuterated_substrate_CH3COOD",
+      "record_kind": "literature_example",
+      "status": "needs_review",
+      "completeness": "partial",
+      "evidence_ids": [
+        "doc_8df0e71d29d5470a:page2:text",
+        "doc_8df0e71d29d5470a:page2:image"
+      ],
+      "participants": [
+        {
+          "entity_id": "deuterated_propargylic_amine",
+          "role": "reactant",
+          "label": {
+            "value": "source-drawn deuterated isoindoline-derived propargylic amine",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": [
+            {
+              "name": "displayed_starting_deuterium_content",
+              "fact": {
+                "value": {
+                  "number": 96,
+                  "unit": "%"
+                },
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page2:text",
+                  "doc_8df0e71d29d5470a:page2:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            }
+          ]
+        },
+        {
+          "entity_id": "acetic_acid_d",
+          "role": "reagent",
+          "label": {
+            "value": "CH3COOD",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "acetic acid-d",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": "CC(=O)O[2H]",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": [
+            {
+              "name": "equivalents",
+              "fact": {
+                "value": {
+                  "number": 10.0,
+                  "unit": "equiv"
+                },
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page2:text",
+                  "doc_8df0e71d29d5470a:page2:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "equivalents"
+            }
+          ]
+        },
+        {
+          "entity_id": "cubr",
+          "role": "catalyst",
+          "label": {
+            "value": "CuBr",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "copper(I) bromide",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": "[Cu]Br",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": [
+            {
+              "name": "catalyst_loading",
+              "fact": {
+                "value": {
+                  "number": 60,
+                  "unit": "mol%"
+                },
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page2:text",
+                  "doc_8df0e71d29d5470a:page2:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            }
+          ]
+        },
+        {
+          "entity_id": "cucl",
+          "role": "catalyst",
+          "label": {
+            "value": "CuCl",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "copper(I) chloride",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": "[Cu]Cl",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": [
+            {
+              "name": "catalyst_loading",
+              "fact": {
+                "value": {
+                  "number": 60,
+                  "unit": "mol%"
+                },
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page2:text",
+                  "doc_8df0e71d29d5470a:page2:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            }
+          ]
+        },
+        {
+          "entity_id": "dioxane",
+          "role": "solvent",
+          "label": {
+            "value": "dioxane",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "1,4-dioxane",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": "C1COCCO1",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "deuterated_E_allylic_amine",
+          "role": "product",
+          "label": {
+            "value": "source-drawn multiply deuterated E-allylic amine",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        }
+      ],
+      "steps": [
+        {
+          "step_id": "combined_substrate_and_CH3COOD_labeling",
+          "participant_ids": [
+            "deuterated_propargylic_amine",
+            "acetic_acid_d",
+            "cubr",
+            "cucl",
+            "dioxane"
+          ],
+          "conditions": [
+            {
+              "name": "temperature",
+              "fact": {
+                "value": {
+                  "number": 90,
+                  "unit": "°C"
+                },
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page2:text",
+                  "doc_8df0e71d29d5470a:page2:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "temperature"
+            },
+            {
+              "name": "reaction_time",
+              "fact": {
+                "value": {
+                  "number": 18,
+                  "unit": "h"
+                },
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page2:text",
+                  "doc_8df0e71d29d5470a:page2:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "name": "NMR_yield",
+          "fact": {
+            "value": {
+              "number": 60,
+              "unit": "%"
+            },
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "target_entity_ids": [
+            "deuterated_E_allylic_amine"
+          ],
+          "category": "yield"
+        },
+        {
+          "name": "yield_measurement_basis",
+          "fact": {
+            "value": "NMR yield",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "target_entity_ids": [
+            "deuterated_E_allylic_amine"
+          ],
+          "category": "measurement_basis"
+        },
+        {
+          "name": "displayed_deuterium_content_azacycle_benzylic_site",
+          "fact": {
+            "value": {
+              "number": 50,
+              "unit": "%"
+            },
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "target_entity_ids": [
+            "deuterated_E_allylic_amine"
+          ],
+          "category": "other"
+        },
+        {
+          "name": "displayed_deuterium_content_alkene_site_adjacent_to_azacycle",
+          "fact": {
+            "value": {
+              "number": 93,
+              "unit": "%"
+            },
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "target_entity_ids": [
+            "deuterated_E_allylic_amine"
+          ],
+          "category": "other"
+        },
+        {
+          "name": "displayed_deuterium_content_alkene_site_adjacent_to_C6H13",
+          "fact": {
+            "value": {
+              "number": 81,
+              "unit": "%"
+            },
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page2:text",
+              "doc_8df0e71d29d5470a:page2:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "target_entity_ids": [
+            "deuterated_E_allylic_amine"
+          ],
+          "category": "other"
+        }
+      ],
+      "notes": [
+        {
+          "value": "Scheme 2 is explicitly tied to reference 4; the deuterated substrate and CH3COOD labeling experiment is distinct from the other two arrows.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page2:text",
+            "doc_8df0e71d29d5470a:page2:image"
+          ],
+          "verification": "unreviewed"
+        }
+      ],
+      "review": {
+        "method": "model",
+        "reviewer": null,
+        "checked_fields": [],
+        "unresolved": [
+          "Supporting Information association is unestablished; no SI facts were used or inferred.",
+          "Every candidate structure remains structure_verified=false; parseability and visual inspection do not establish chemical correctness.",
+          "The isotope-resolved compact structures are retained as source labels with null SMILES.",
+          "Scale, reagent masses, dioxane volume, atmosphere, workup, purification, and NMR internal standard are not reported here.",
+          "The figure gives site percentages graphically; atom numbering is not supplied, so descriptive site names follow only the visible drawing."
+        ]
+      }
+    },
+    {
+      "record_id": "doc_8df0e71d29d5470a:scheme3_experimental_benchmark",
+      "document_id": "doc_8df0e71d29d5470a",
+      "source_reaction_id": "scheme3_experimental_benchmark",
+      "record_kind": "literature_example",
+      "status": "needs_review",
+      "completeness": "partial",
+      "evidence_ids": [
+        "doc_8df0e71d29d5470a:page3:text",
+        "doc_8df0e71d29d5470a:page3:image"
+      ],
+      "participants": [
+        {
+          "entity_id": "alkynol_1",
+          "role": "reactant",
+          "label": {
+            "value": "1",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "2-methylbut-3-yn-2-ol",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": "C#CC(C)(C)O",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "aldehyde_2",
+          "role": "reactant",
+          "label": {
+            "value": "2 (CyCHO)",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "cyclohexanecarbaldehyde",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": "O=CC1CCCCC1",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "pyrroline_3",
+          "role": "reactant",
+          "label": {
+            "value": "3",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "3-pyrroline",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": "C1=CCNC1",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "cubr",
+          "role": "catalyst",
+          "label": {
+            "value": "CuBr",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "copper(I) bromide",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": "[Cu]Br",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": [
+            {
+              "name": "catalyst_loading",
+              "fact": {
+                "value": {
+                  "number": 20,
+                  "unit": "mol%"
+                },
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page3:text",
+                  "doc_8df0e71d29d5470a:page3:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            }
+          ]
+        },
+        {
+          "entity_id": "toluene",
+          "role": "solvent",
+          "label": {
+            "value": "toluene",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "toluene",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": "Cc1ccccc1",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "molecular_sieves",
+          "role": "reagent",
+          "label": {
+            "value": "4 Å MS",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "4 Å molecular sieves",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "E_allylic_amine_4",
+          "role": "product",
+          "label": {
+            "value": "E-allylic amine 4",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "allene_5",
+          "role": "product",
+          "label": {
+            "value": "allene 5",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        }
+      ],
+      "steps": [
+        {
+          "step_id": "CuBr_reductive_A3_coupling",
+          "participant_ids": [
+            "alkynol_1",
+            "aldehyde_2",
+            "pyrroline_3",
+            "cubr",
+            "toluene",
+            "molecular_sieves"
+          ],
+          "conditions": [
+            {
+              "name": "temperature",
+              "fact": {
+                "value": {
+                  "number": 40,
+                  "unit": "°C"
+                },
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page3:text",
+                  "doc_8df0e71d29d5470a:page3:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "temperature"
+            },
+            {
+              "name": "reaction_time",
+              "fact": {
+                "value": {
+                  "number": 24,
+                  "unit": "h"
+                },
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page3:text",
+                  "doc_8df0e71d29d5470a:page3:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "time"
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "name": "reported_yield",
+          "fact": {
+            "value": {
+              "number": 88,
+              "unit": "%"
+            },
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "target_entity_ids": [
+            "E_allylic_amine_4"
+          ],
+          "category": "yield"
+        },
+        {
+          "name": "yield_measurement_basis",
+          "fact": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "target_entity_ids": [
+            "E_allylic_amine_4"
+          ],
+          "category": "measurement_basis"
+        },
+        {
+          "name": "allene_observation",
+          "fact": {
+            "value": "not observed",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "target_entity_ids": [
+            "allene_5"
+          ],
+          "category": "other"
+        }
+      ],
+      "notes": [
+        {
+          "value": "The present article is a DFT study and uses this exact experimental system as its benchmark. It does not state that the experiment was newly performed here; the experimental chemistry originates from the prior reductive A3-coupling study cited as reference 4.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page3:text",
+            "doc_8df0e71d29d5470a:page3:image"
+          ],
+          "verification": "unreviewed"
+        }
+      ],
+      "review": {
+        "method": "model",
+        "reviewer": null,
+        "checked_fields": [],
+        "unresolved": [
+          "Supporting Information association is unestablished; no SI facts were used or inferred.",
+          "Every candidate structure remains structure_verified=false; parseability and visual inspection do not establish chemical correctness.",
+          "Reaction scale, reactant quantities, toluene volume, molecular-sieve amount, atmosphere, workup, purification, product mass, yield basis, and allene detection limit are not reported in Scheme 3.",
+          "The compact product structures are retained as source labels with null SMILES."
+        ]
+      }
+    },
+    {
+      "record_id": "doc_8df0e71d29d5470a:figure1_computed_A3_and_15H_transfer",
+      "document_id": "doc_8df0e71d29d5470a",
+      "source_reaction_id": "figure1_computed_A3_and_15H_transfer",
+      "record_kind": "mechanism",
+      "status": "needs_review",
+      "completeness": "partial",
+      "evidence_ids": [
+        "doc_8df0e71d29d5470a:page3:text",
+        "doc_8df0e71d29d5470a:page3:image"
+      ],
+      "participants": [
+        {
+          "entity_id": "alkynol_1",
+          "role": "reactant",
+          "label": {
+            "value": "1",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "2-methylbut-3-yn-2-ol",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": "C#CC(C)(C)O",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "aldehyde_2",
+          "role": "reactant",
+          "label": {
+            "value": "2",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "cyclohexanecarbaldehyde",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": "O=CC1CCCCC1",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "pyrroline_3",
+          "role": "reactant",
+          "label": {
+            "value": "3",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "3-pyrroline",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": "C1=CCNC1",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "cubr",
+          "role": "catalyst",
+          "label": {
+            "value": "CuBr",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "copper(I) bromide",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": "[Cu]Br",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "int1",
+          "role": "unspecified_agent",
+          "label": {
+            "value": "Int1",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "computed intermediate Int1",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "int2",
+          "role": "unspecified_agent",
+          "label": {
+            "value": "Int2",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "computed intermediate Int2",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "int3",
+          "role": "unspecified_agent",
+          "label": {
+            "value": "Int3",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "computed intermediate Int3",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "int4",
+          "role": "unspecified_agent",
+          "label": {
+            "value": "Int4",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "computed intermediate Int4",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "int5",
+          "role": "unspecified_agent",
+          "label": {
+            "value": "Int5",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "computed intermediate Int5",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "int6",
+          "role": "unspecified_agent",
+          "label": {
+            "value": "Int6",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "computed intermediate Int6",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "int7",
+          "role": "unspecified_agent",
+          "label": {
+            "value": "Int7",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "computed intermediate Int7",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        }
+      ],
+      "steps": [
+        {
+          "step_id": "ion_pair_formation",
+          "participant_ids": [
+            "alkynol_1",
+            "aldehyde_2",
+            "pyrroline_3",
+            "cubr",
+            "int1",
+            "int2",
+            "int3"
+          ],
+          "conditions": [
+            {
+              "name": "computed_free_energy_change",
+              "fact": {
+                "value": "4.0 kcal mol-1",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page3:text",
+                  "doc_8df0e71d29d5470a:page3:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            },
+            {
+              "name": "operation",
+              "fact": {
+                "value": "sp C-H activation and aldehyde/3-pyrroline condensation form ion pair Int3 with loss of one water molecule",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page3:text",
+                  "doc_8df0e71d29d5470a:page3:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "operation"
+            }
+          ]
+        },
+        {
+          "step_id": "electrophilic_attack_TS1",
+          "participant_ids": [
+            "int1",
+            "int2",
+            "int4"
+          ],
+          "conditions": [
+            {
+              "name": "computed_activation_barrier",
+              "fact": {
+                "value": "10.1 kcal mol-1",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page3:text",
+                  "doc_8df0e71d29d5470a:page3:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            },
+            {
+              "name": "operation",
+              "fact": {
+                "value": "electrophilic attack through TS1 gives propargyl amine-CuBr complex Int4",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page3:text",
+                  "doc_8df0e71d29d5470a:page3:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "operation"
+            }
+          ]
+        },
+        {
+          "step_id": "Int4_to_Int5_isomerization",
+          "participant_ids": [
+            "int4",
+            "int5"
+          ],
+          "conditions": [
+            {
+              "name": "computed_free_energy_change_relative_to_Int4",
+              "fact": {
+                "value": "7.4 kcal mol-1 endergonic",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page3:text",
+                  "doc_8df0e71d29d5470a:page3:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            }
+          ]
+        },
+        {
+          "step_id": "one_five_H_transfer",
+          "participant_ids": [
+            "int5",
+            "int6",
+            "int7"
+          ],
+          "conditions": [
+            {
+              "name": "computed_TS2_1_activation_barrier_relative_to_Int4",
+              "fact": {
+                "value": "27.7 kcal mol-1",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page3:text",
+                  "doc_8df0e71d29d5470a:page3:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            },
+            {
+              "name": "computed_TS2_2_difference",
+              "fact": {
+                "value": "1.8 kcal mol-1 higher than TS2_1",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page3:text",
+                  "doc_8df0e71d29d5470a:page3:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            },
+            {
+              "name": "operation",
+              "fact": {
+                "value": "H1 transfer through TS2_1 is favored; Int6_1 rotates to the more stable Int7",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page3:text",
+                  "doc_8df0e71d29d5470a:page3:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "operation"
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "name": "computed_rate_determining_step",
+          "fact": {
+            "value": "1,5-H transfer through TS2_1",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page3:text",
+              "doc_8df0e71d29d5470a:page3:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "target_entity_ids": [
+            "int7"
+          ],
+          "category": "other"
+        }
+      ],
+      "notes": [
+        {
+          "value": "This record represents a computed free-energy profile, not an experimental reaction. Geometry optimization used M06-2X-D3 with LANL2DZ for Cu/Br and 6-31G(d,p) for other atoms; single-point/SMD-toluene calculations used M06-2X-D3/SDD-6-311++G(d,p).",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page3:text",
+            "doc_8df0e71d29d5470a:page3:image"
+          ],
+          "verification": "unreviewed"
+        }
+      ],
+      "review": {
+        "method": "model",
+        "reviewer": null,
+        "checked_fields": [],
+        "unresolved": [
+          "Computed intermediates and transition structures are retained as source labels; no independent experimental amounts or yields belong to Figure 1."
+        ]
+      }
+    },
+    {
+      "record_id": "doc_8df0e71d29d5470a:figure2_competing_elimination_and_direct_protodemetalation",
+      "document_id": "doc_8df0e71d29d5470a",
+      "source_reaction_id": "figure2_competing_elimination_and_direct_protodemetalation",
+      "record_kind": "mechanism",
+      "status": "needs_review",
+      "completeness": "partial",
+      "evidence_ids": [
+        "doc_8df0e71d29d5470a:page4:text",
+        "doc_8df0e71d29d5470a:page4:image",
+        "doc_8df0e71d29d5470a:page7:text",
+        "doc_8df0e71d29d5470a:page7:image"
+      ],
+      "participants": [
+        {
+          "entity_id": "int7",
+          "role": "unspecified_agent",
+          "label": {
+            "value": "Int7",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page4:text",
+              "doc_8df0e71d29d5470a:page4:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "computed iminium-CuBr intermediate Int7",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page4:text",
+              "doc_8df0e71d29d5470a:page4:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "allene_5",
+          "role": "product",
+          "label": {
+            "value": "allene 5 (computed path a product)",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page4:text",
+              "doc_8df0e71d29d5470a:page4:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "allylic_amine_4",
+          "role": "product",
+          "label": {
+            "value": "allylic amine 4 (computed path b product)",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page4:text",
+              "doc_8df0e71d29d5470a:page4:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "pyrroline",
+          "role": "reagent",
+          "label": {
+            "value": "3-pyrroline",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page4:text",
+              "doc_8df0e71d29d5470a:page4:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "3-pyrroline",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page4:text",
+              "doc_8df0e71d29d5470a:page4:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": "C1=CCNC1",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page4:text",
+              "doc_8df0e71d29d5470a:page4:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": []
+        }
+      ],
+      "steps": [
+        {
+          "step_id": "cis_beta_N_elimination",
+          "participant_ids": [
+            "int7",
+            "allene_5"
+          ],
+          "conditions": [
+            {
+              "name": "computed_TS3_activation_barrier_relative_to_Int7",
+              "fact": {
+                "value": "24.9 kcal mol-1",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page4:text",
+                  "doc_8df0e71d29d5470a:page4:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            }
+          ]
+        },
+        {
+          "step_id": "trans_beta_N_elimination",
+          "participant_ids": [
+            "int7",
+            "allene_5"
+          ],
+          "conditions": [
+            {
+              "name": "computed_TS4_activation_barrier_relative_to_Int7",
+              "fact": {
+                "value": "14.3 kcal mol-1",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page4:text",
+                  "doc_8df0e71d29d5470a:page4:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            },
+            {
+              "name": "computed_overall_free_energy_change_relative_to_Int7",
+              "fact": {
+                "value": "-19.2 kcal mol-1",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page4:text",
+                  "doc_8df0e71d29d5470a:page4:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            },
+            {
+              "name": "table1_beta_N_elimination_activation_energy",
+              "fact": {
+                "value": "14.3 kcal mol-1",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page7:text",
+                  "doc_8df0e71d29d5470a:page7:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            }
+          ]
+        },
+        {
+          "step_id": "direct_protodemetalation_TS5",
+          "participant_ids": [
+            "int7",
+            "allylic_amine_4"
+          ],
+          "conditions": [
+            {
+              "name": "computed_activation_barrier_relative_to_Int7",
+              "fact": {
+                "value": "14.2 kcal mol-1",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page4:text",
+                  "doc_8df0e71d29d5470a:page4:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            }
+          ]
+        },
+        {
+          "step_id": "hydroxyl_coordinated_direct_protodemetalation_TS6",
+          "participant_ids": [
+            "int7",
+            "allylic_amine_4"
+          ],
+          "conditions": [
+            {
+              "name": "computed_activation_barrier_relative_to_Int7",
+              "fact": {
+                "value": "13.5 kcal mol-1",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page4:text",
+                  "doc_8df0e71d29d5470a:page4:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            },
+            {
+              "name": "operation",
+              "fact": {
+                "value": "Int7 rotates to hydroxyl-coordinated Int12 and proceeds through TS6",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page4:text",
+                  "doc_8df0e71d29d5470a:page4:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "operation"
+            },
+            {
+              "name": "table1_unassisted_protodemetalation_activation_energy",
+              "fact": {
+                "value": "13.5 kcal mol-1",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page7:text",
+                  "doc_8df0e71d29d5470a:page7:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            }
+          ]
+        },
+        {
+          "step_id": "product_release",
+          "participant_ids": [
+            "allylic_amine_4",
+            "pyrroline"
+          ],
+          "conditions": [
+            {
+              "name": "computed_free_energy_change_relative_to_Int11",
+              "fact": {
+                "value": "-10.4 kcal mol-1",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page4:text",
+                  "doc_8df0e71d29d5470a:page4:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            },
+            {
+              "name": "operation",
+              "fact": {
+                "value": "CuBr coordinates to another 3-pyrroline molecule and releases allylic amine 4",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page4:text",
+                  "doc_8df0e71d29d5470a:page4:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "operation"
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "name": "computed_pathway_comparison",
+          "fact": {
+            "value": "direct TS6 protodemetalation is only 0.8 kcal mol-1 below trans beta-N elimination and is insufficient by itself to explain exclusive allylic-amine formation",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page4:text",
+              "doc_8df0e71d29d5470a:page4:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "target_entity_ids": [
+            "allylic_amine_4",
+            "allene_5"
+          ],
+          "category": "other"
+        }
+      ],
+      "notes": [
+        {
+          "value": "Figure 2 is a computed mechanism. The text separately states that allylic amine is the only experimental product and allene is not observed; that benchmark is represented in the Scheme 3 literature record.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page4:text",
+            "doc_8df0e71d29d5470a:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        {
+          "value": "Page-7 Table 1 summarizes the unassisted concerted protodemetalation barrier as 13.5 kcal mol-1 and the competing beta-N elimination barrier as 14.3 kcal mol-1; these are computed pathway values, not experimental yields.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page7:text",
+            "doc_8df0e71d29d5470a:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      ],
+      "review": {
+        "method": "model",
+        "reviewer": null,
+        "checked_fields": [],
+        "unresolved": [
+          "Computed transition structures and intermediates are label-only; no experimental scale or measured yield belongs to Figure 2."
+        ]
+      }
+    },
+    {
+      "record_id": "doc_8df0e71d29d5470a:figure3_water_assisted_protodemetalation",
+      "document_id": "doc_8df0e71d29d5470a",
+      "source_reaction_id": "figure3_water_assisted_protodemetalation",
+      "record_kind": "mechanism",
+      "status": "needs_review",
+      "completeness": "partial",
+      "evidence_ids": [
+        "doc_8df0e71d29d5470a:page5:text",
+        "doc_8df0e71d29d5470a:page5:image",
+        "doc_8df0e71d29d5470a:page7:text",
+        "doc_8df0e71d29d5470a:page7:image"
+      ],
+      "participants": [
+        {
+          "entity_id": "int7",
+          "role": "unspecified_agent",
+          "label": {
+            "value": "Int7",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page5:text",
+              "doc_8df0e71d29d5470a:page5:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "computed iminium-CuBr intermediate Int7",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page5:text",
+              "doc_8df0e71d29d5470a:page5:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "water",
+          "role": "reagent",
+          "label": {
+            "value": "H2O",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page5:text",
+              "doc_8df0e71d29d5470a:page5:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "water",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page5:text",
+              "doc_8df0e71d29d5470a:page5:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": "O",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page5:text",
+              "doc_8df0e71d29d5470a:page5:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "allylic_amine_4",
+          "role": "product",
+          "label": {
+            "value": "allylic amine 4",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page5:text",
+              "doc_8df0e71d29d5470a:page5:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        }
+      ],
+      "steps": [
+        {
+          "step_id": "water_assisted_deprotonation",
+          "participant_ids": [
+            "int7",
+            "water"
+          ],
+          "conditions": [
+            {
+              "name": "computed_TS7_activation_barrier_relative_to_Int7",
+              "fact": {
+                "value": "8.1 kcal mol-1",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page5:text",
+                  "doc_8df0e71d29d5470a:page5:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            },
+            {
+              "name": "operation",
+              "fact": {
+                "value": "water abstracts H3 while the azacycle aromatizes",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page5:text",
+                  "doc_8df0e71d29d5470a:page5:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "operation"
+            },
+            {
+              "name": "table1_deprotonation_activation_energy",
+              "fact": {
+                "value": "8.1 kcal mol-1",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page7:text",
+                  "doc_8df0e71d29d5470a:page7:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            }
+          ]
+        },
+        {
+          "step_id": "isomerization",
+          "participant_ids": [
+            "int7",
+            "water"
+          ],
+          "conditions": [
+            {
+              "name": "operation",
+              "fact": {
+                "value": "Int15 isomerizes to Int16",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page5:text",
+                  "doc_8df0e71d29d5470a:page5:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "operation"
+            }
+          ]
+        },
+        {
+          "step_id": "intramolecular_protodemetalation",
+          "participant_ids": [
+            "int7",
+            "water",
+            "allylic_amine_4"
+          ],
+          "conditions": [
+            {
+              "name": "computed_TS8_free_energy_description",
+              "fact": {
+                "value": "almost no free-energy barrier",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page5:text",
+                  "doc_8df0e71d29d5470a:page5:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            },
+            {
+              "name": "table1_protodemetalation_activation_energy",
+              "fact": {
+                "value": "No barrier",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page7:text",
+                  "doc_8df0e71d29d5470a:page7:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            }
+          ]
+        }
+      ],
+      "outcomes": [],
+      "notes": [
+        {
+          "value": "Figure 3 is a computed one-water proton-shuttle pathway, not a performed experiment.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page5:text",
+            "doc_8df0e71d29d5470a:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        {
+          "value": "Page-7 Table 1 summarizes the one-water model as 8.1 kcal mol-1 for deprotonation and 'No barrier' for protodemetalation; water remains a computed proton shuttle with no reported experimental dose.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page7:text",
+            "doc_8df0e71d29d5470a:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      ],
+      "review": {
+        "method": "model",
+        "reviewer": null,
+        "checked_fields": [],
+        "unresolved": [
+          "Computed intermediate structures are label-only; no experimental water amount or yield belongs to this figure."
+        ]
+      }
+    },
+    {
+      "record_id": "doc_8df0e71d29d5470a:figure4_water_cluster_assisted_protodemetalation",
+      "document_id": "doc_8df0e71d29d5470a",
+      "source_reaction_id": "figure4_water_cluster_assisted_protodemetalation",
+      "record_kind": "mechanism",
+      "status": "needs_review",
+      "completeness": "partial",
+      "evidence_ids": [
+        "doc_8df0e71d29d5470a:page5:text",
+        "doc_8df0e71d29d5470a:page5:image",
+        "doc_8df0e71d29d5470a:page7:text",
+        "doc_8df0e71d29d5470a:page7:image"
+      ],
+      "participants": [
+        {
+          "entity_id": "int7",
+          "role": "unspecified_agent",
+          "label": {
+            "value": "Int7",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page5:text",
+              "doc_8df0e71d29d5470a:page5:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "computed iminium-CuBr intermediate Int7",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page5:text",
+              "doc_8df0e71d29d5470a:page5:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "water_cluster",
+          "role": "reagent",
+          "label": {
+            "value": "(H2O)3",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page5:text",
+              "doc_8df0e71d29d5470a:page5:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "three-water cluster",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page5:text",
+              "doc_8df0e71d29d5470a:page5:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "allylic_amine_4",
+          "role": "product",
+          "label": {
+            "value": "allylic amine 4",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page5:text",
+              "doc_8df0e71d29d5470a:page5:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        }
+      ],
+      "steps": [
+        {
+          "step_id": "water_cluster_assisted_deprotonation",
+          "participant_ids": [
+            "int7",
+            "water_cluster"
+          ],
+          "conditions": [
+            {
+              "name": "computed_TS9_activation_barrier",
+              "fact": {
+                "value": "5.2 kcal mol-1",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page5:text",
+                  "doc_8df0e71d29d5470a:page5:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            },
+            {
+              "name": "table1_deprotonation_activation_energy",
+              "fact": {
+                "value": "5.2 kcal mol-1",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page7:text",
+                  "doc_8df0e71d29d5470a:page7:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            }
+          ]
+        },
+        {
+          "step_id": "intermolecular_protodemetalation",
+          "participant_ids": [
+            "int7",
+            "water_cluster",
+            "allylic_amine_4"
+          ],
+          "conditions": [
+            {
+              "name": "computed_TS10_activation_barrier",
+              "fact": {
+                "value": "4.2 kcal mol-1",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page5:text",
+                  "doc_8df0e71d29d5470a:page5:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            },
+            {
+              "name": "table1_protodemetalation_activation_energy",
+              "fact": {
+                "value": "4.2 kcal mol-1",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page7:text",
+                  "doc_8df0e71d29d5470a:page7:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            }
+          ]
+        }
+      ],
+      "outcomes": [],
+      "notes": [
+        {
+          "value": "Figure 4 models a cluster of exactly three water molecules; this is a computed assisting species, not a reported experimental dose.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page5:text",
+            "doc_8df0e71d29d5470a:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        {
+          "value": "Page-7 Table 1 summarizes the (H2O)3 model as 5.2 kcal mol-1 for deprotonation and 4.2 kcal mol-1 for protodemetalation; the cluster is a computational model rather than an experimental quantity.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page7:text",
+            "doc_8df0e71d29d5470a:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      ],
+      "review": {
+        "method": "model",
+        "reviewer": null,
+        "checked_fields": [],
+        "unresolved": [
+          "Computed intermediate structures are label-only; no experimental water-cluster amount or yield belongs to this figure."
+        ]
+      }
+    },
+    {
+      "record_id": "doc_8df0e71d29d5470a:figure5_3pyrroline_assisted_protodemetalation",
+      "document_id": "doc_8df0e71d29d5470a",
+      "source_reaction_id": "figure5_3pyrroline_assisted_protodemetalation",
+      "record_kind": "mechanism",
+      "status": "needs_review",
+      "completeness": "partial",
+      "evidence_ids": [
+        "doc_8df0e71d29d5470a:page5:text",
+        "doc_8df0e71d29d5470a:page5:image",
+        "doc_8df0e71d29d5470a:page7:text",
+        "doc_8df0e71d29d5470a:page7:image"
+      ],
+      "participants": [
+        {
+          "entity_id": "int7",
+          "role": "unspecified_agent",
+          "label": {
+            "value": "Int7",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page5:text",
+              "doc_8df0e71d29d5470a:page5:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "computed iminium-CuBr intermediate Int7",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page5:text",
+              "doc_8df0e71d29d5470a:page5:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "extra_pyrroline",
+          "role": "reagent",
+          "label": {
+            "value": "additional 3-pyrroline",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page5:text",
+              "doc_8df0e71d29d5470a:page5:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "3-pyrroline",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page5:text",
+              "doc_8df0e71d29d5470a:page5:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": "C1=CCNC1",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page5:text",
+              "doc_8df0e71d29d5470a:page5:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "allylic_amine_4",
+          "role": "product",
+          "label": {
+            "value": "allylic amine 4",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page5:text",
+              "doc_8df0e71d29d5470a:page5:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        }
+      ],
+      "steps": [
+        {
+          "step_id": "barrierless_deprotonation",
+          "participant_ids": [
+            "int7",
+            "extra_pyrroline"
+          ],
+          "conditions": [
+            {
+              "name": "computed_activation_barrier",
+              "fact": {
+                "value": "no barrier",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page5:text",
+                  "doc_8df0e71d29d5470a:page5:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            },
+            {
+              "name": "computed_free_energy_change",
+              "fact": {
+                "value": "-24.5 kcal mol-1",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page5:text",
+                  "doc_8df0e71d29d5470a:page5:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            },
+            {
+              "name": "operation",
+              "fact": {
+                "value": "additional 3-pyrroline abstracts H3 with azacycle aromatization",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page5:text",
+                  "doc_8df0e71d29d5470a:page5:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "operation"
+            },
+            {
+              "name": "table1_deprotonation_activation_energy",
+              "fact": {
+                "value": "No barrier",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page7:text",
+                  "doc_8df0e71d29d5470a:page7:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            }
+          ]
+        },
+        {
+          "step_id": "intermolecular_protodemetalation",
+          "participant_ids": [
+            "int7",
+            "extra_pyrroline",
+            "allylic_amine_4"
+          ],
+          "conditions": [
+            {
+              "name": "computed_TS11_activation_barrier",
+              "fact": {
+                "value": "2.3 kcal mol-1",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page5:text",
+                  "doc_8df0e71d29d5470a:page5:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            },
+            {
+              "name": "table1_protodemetalation_activation_energy",
+              "fact": {
+                "value": "2.3 kcal mol-1",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page7:text",
+                  "doc_8df0e71d29d5470a:page7:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "name": "computed_advantage_over_beta_N_elimination",
+          "fact": {
+            "value": "12.0 kcal mol-1 (14.3 kcal mol-1 beta-N elimination versus 2.3 kcal mol-1 3-pyrroline-assisted protodemetalation)",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page7:text",
+              "doc_8df0e71d29d5470a:page7:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "target_entity_ids": [
+            "allylic_amine_4"
+          ],
+          "category": "other"
+        }
+      ],
+      "notes": [
+        {
+          "value": "Figure 5 is a computed proton-shuttle pathway. The additional 3-pyrroline is represented as a participant without an inferred experimental equivalent.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page5:text",
+            "doc_8df0e71d29d5470a:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        {
+          "value": "Page-7 Table 1 and conclusion summarize the 3-pyrroline-assisted model as barrierless deprotonation followed by a 2.3 kcal mol-1 protodemetalation barrier; this is a computed selectivity explanation, not an experimental additive loading.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page7:text",
+            "doc_8df0e71d29d5470a:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      ],
+      "review": {
+        "method": "model",
+        "reviewer": null,
+        "checked_fields": [],
+        "unresolved": [
+          "Computed intermediate structures are label-only; no experimental added 3-pyrroline amount or yield belongs to this figure."
+        ]
+      }
+    },
+    {
+      "record_id": "doc_8df0e71d29d5470a:figure6_propargylic_alcohol_assisted_protodemetalation",
+      "document_id": "doc_8df0e71d29d5470a",
+      "source_reaction_id": "figure6_propargylic_alcohol_assisted_protodemetalation",
+      "record_kind": "mechanism",
+      "status": "needs_review",
+      "completeness": "partial",
+      "evidence_ids": [
+        "doc_8df0e71d29d5470a:page6:text",
+        "doc_8df0e71d29d5470a:page6:image",
+        "doc_8df0e71d29d5470a:page7:text",
+        "doc_8df0e71d29d5470a:page7:image"
+      ],
+      "participants": [
+        {
+          "entity_id": "int7",
+          "role": "unspecified_agent",
+          "label": {
+            "value": "Int7",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page6:text",
+              "doc_8df0e71d29d5470a:page6:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "computed iminium-CuBr intermediate Int7",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page6:text",
+              "doc_8df0e71d29d5470a:page6:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "alkynol_1",
+          "role": "reagent",
+          "label": {
+            "value": "propargylic alcohol 1",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page6:text",
+              "doc_8df0e71d29d5470a:page6:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "2-methylbut-3-yn-2-ol",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page6:text",
+              "doc_8df0e71d29d5470a:page6:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": "C#CC(C)(C)O",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page6:text",
+              "doc_8df0e71d29d5470a:page6:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "allylic_amine_4",
+          "role": "product",
+          "label": {
+            "value": "allylic amine 4",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page6:text",
+              "doc_8df0e71d29d5470a:page6:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        }
+      ],
+      "steps": [
+        {
+          "step_id": "alkynol_assisted_deprotonation",
+          "participant_ids": [
+            "int7",
+            "alkynol_1"
+          ],
+          "conditions": [
+            {
+              "name": "computed_TS12_activation_barrier",
+              "fact": {
+                "value": "10.1 kcal mol-1",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page6:text",
+                  "doc_8df0e71d29d5470a:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            },
+            {
+              "name": "table1_deprotonation_activation_energy",
+              "fact": {
+                "value": "10.1 kcal mol-1",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page7:text",
+                  "doc_8df0e71d29d5470a:page7:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            }
+          ]
+        },
+        {
+          "step_id": "intramolecular_protodemetalation",
+          "participant_ids": [
+            "int7",
+            "alkynol_1",
+            "allylic_amine_4"
+          ],
+          "conditions": [
+            {
+              "name": "computed_TS13_activation_barrier",
+              "fact": {
+                "value": "1.8 kcal mol-1",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page6:text",
+                  "doc_8df0e71d29d5470a:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            },
+            {
+              "name": "table1_protodemetalation_activation_energy",
+              "fact": {
+                "value": "1.8 kcal mol-1",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page7:text",
+                  "doc_8df0e71d29d5470a:page7:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            }
+          ]
+        }
+      ],
+      "outcomes": [],
+      "notes": [
+        {
+          "value": "Figure 6 is a computed pathway in which reactant 1 also acts as a proton shuttle; no experimental shuttle loading is inferred.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page6:text",
+            "doc_8df0e71d29d5470a:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        {
+          "value": "Page-7 Table 1 summarizes the propargylic-alcohol-assisted model as 10.1 kcal mol-1 for deprotonation and 1.8 kcal mol-1 for protodemetalation; reactant 1 is modeled as a shuttle without a separate experimental dose.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page7:text",
+            "doc_8df0e71d29d5470a:page7:image"
+          ],
+          "verification": "unreviewed"
+        }
+      ],
+      "review": {
+        "method": "model",
+        "reviewer": null,
+        "checked_fields": [],
+        "unresolved": [
+          "Computed intermediate structures are label-only; no experimental propargylic-alcohol amount or yield belongs to Figure 6."
+        ]
+      }
+    },
+    {
+      "record_id": "doc_8df0e71d29d5470a:figure7_hydroxyl_effect_transition_state_comparison",
+      "document_id": "doc_8df0e71d29d5470a",
+      "source_reaction_id": "figure7_hydroxyl_effect_transition_state_comparison",
+      "record_kind": "mechanism",
+      "status": "needs_review",
+      "completeness": "partial",
+      "evidence_ids": [
+        "doc_8df0e71d29d5470a:page6:text",
+        "doc_8df0e71d29d5470a:page6:image",
+        "doc_8df0e71d29d5470a:page7:text",
+        "doc_8df0e71d29d5470a:page7:image",
+        "doc_8df0e71d29d5470a:page8:text",
+        "doc_8df0e71d29d5470a:page8:image"
+      ],
+      "participants": [
+        {
+          "entity_id": "alkynol_1",
+          "role": "reactant",
+          "label": {
+            "value": "2-methylbut-3-yn-2-ol system",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page6:text",
+              "doc_8df0e71d29d5470a:page6:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "2-methylbut-3-yn-2-ol",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page6:text",
+              "doc_8df0e71d29d5470a:page6:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": "C#CC(C)(C)O",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page6:text",
+              "doc_8df0e71d29d5470a:page6:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "octyne",
+          "role": "reactant",
+          "label": {
+            "value": "1-octyne system",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page6:text",
+              "doc_8df0e71d29d5470a:page6:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "1-octyne",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page6:text",
+              "doc_8df0e71d29d5470a:page6:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": "C#CCCCCCC",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page6:text",
+              "doc_8df0e71d29d5470a:page6:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "TS2_1",
+          "role": "unspecified_agent",
+          "label": {
+            "value": "TS2_1",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page6:text",
+              "doc_8df0e71d29d5470a:page6:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "computed hydroxyl-containing 1,5-H-transfer transition structure",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page6:text",
+              "doc_8df0e71d29d5470a:page6:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "TS15_1",
+          "role": "unspecified_agent",
+          "label": {
+            "value": "TS15_1",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page6:text",
+              "doc_8df0e71d29d5470a:page6:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "computed 1-octyne 1,5-H-transfer transition structure",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page6:text",
+              "doc_8df0e71d29d5470a:page6:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        }
+      ],
+      "steps": [
+        {
+          "step_id": "computed_transition_state_comparison",
+          "participant_ids": [
+            "alkynol_1",
+            "octyne",
+            "TS2_1",
+            "TS15_1"
+          ],
+          "conditions": [
+            {
+              "name": "TS2_1_computed_activation_barrier",
+              "fact": {
+                "value": "27.7 kcal mol-1",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page6:text",
+                  "doc_8df0e71d29d5470a:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            },
+            {
+              "name": "TS15_1_computed_activation_barrier",
+              "fact": {
+                "value": "28.8 kcal mol-1",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page6:text",
+                  "doc_8df0e71d29d5470a:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            },
+            {
+              "name": "TS2_1_O_H_distance",
+              "fact": {
+                "value": "2.51 Å",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page6:text",
+                  "doc_8df0e71d29d5470a:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            },
+            {
+              "name": "operation",
+              "fact": {
+                "value": "the hydroxyl-group hydrogen bond stabilizes TS2_1 relative to the 1-octyne transition structure",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page6:text",
+                  "doc_8df0e71d29d5470a:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "operation"
+            }
+          ]
+        }
+      ],
+      "outcomes": [],
+      "notes": [
+        {
+          "value": "Figure 7 is a computed transition-state comparison, not a second experimental 1-octyne run.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page6:text",
+            "doc_8df0e71d29d5470a:page6:image"
+          ],
+          "verification": "unreviewed"
+        },
+        {
+          "value": "The page-7 conclusion reiterates that hydrogen bonding by the terminal-alkyne hydroxyl group facilitates the rate-determining 1,5-H transfer. Page-8 footnote 15 directs the full computed 1-octyne results to Electronic Supplementary Information; no SI file is associated or imported.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page7:text",
+            "doc_8df0e71d29d5470a:page7:image",
+            "doc_8df0e71d29d5470a:page8:text",
+            "doc_8df0e71d29d5470a:page8:image"
+          ],
+          "verification": "unreviewed"
+        }
+      ],
+      "review": {
+        "method": "model",
+        "reviewer": null,
+        "checked_fields": [],
+        "unresolved": [
+          "The compared transition structures are label-only and do not supply experimental scale, conditions, or yield.",
+          "Supporting Information association remains unestablished; page-8 footnote 15 was not used to infer or import unprovided 1-octyne calculations."
+        ]
+      }
+    },
+    {
+      "record_id": "doc_8df0e71d29d5470a:page6_cited_1octyne_control",
+      "document_id": "doc_8df0e71d29d5470a",
+      "source_reaction_id": "page6_cited_1octyne_control",
+      "record_kind": "literature_example",
+      "status": "needs_review",
+      "completeness": "partial",
+      "evidence_ids": [
+        "doc_8df0e71d29d5470a:page6:text",
+        "doc_8df0e71d29d5470a:page6:image"
+      ],
+      "participants": [
+        {
+          "entity_id": "octyne",
+          "role": "reactant",
+          "label": {
+            "value": "1-octyne",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page6:text",
+              "doc_8df0e71d29d5470a:page6:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": "1-octyne",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page6:text",
+              "doc_8df0e71d29d5470a:page6:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles": {
+            "value": "C#CCCCCCC",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page6:text",
+              "doc_8df0e71d29d5470a:page6:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "smiles_parseable": true,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "E_allylic_amine",
+          "role": "product",
+          "label": {
+            "value": "E-allylic amine from 1-octyne",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page6:text",
+              "doc_8df0e71d29d5470a:page6:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        },
+        {
+          "entity_id": "propargylic_amine",
+          "role": "product",
+          "label": {
+            "value": "propargylic amine from 1-octyne",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page6:text",
+              "doc_8df0e71d29d5470a:page6:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "name": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles": {
+            "value": null,
+            "evidence_ids": [],
+            "verification": "missing"
+          },
+          "smiles_parseable": null,
+          "structure_verified": false,
+          "amounts": []
+        }
+      ],
+      "steps": [
+        {
+          "step_id": "reported_standard_conditions",
+          "participant_ids": [
+            "octyne"
+          ],
+          "conditions": [
+            {
+              "name": "condition_assignment",
+              "fact": {
+                "value": "standard reaction conditions (not restated on page 6)",
+                "evidence_ids": [
+                  "doc_8df0e71d29d5470a:page6:text",
+                  "doc_8df0e71d29d5470a:page6:image"
+                ],
+                "verification": "unreviewed"
+              },
+              "category": "other"
+            },
+            {
+              "name": "temperature",
+              "fact": {
+                "value": null,
+                "evidence_ids": [],
+                "verification": "missing"
+              },
+              "category": "temperature"
+            },
+            {
+              "name": "reaction_time",
+              "fact": {
+                "value": null,
+                "evidence_ids": [],
+                "verification": "missing"
+              },
+              "category": "time"
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "name": "NMR_yield_E_allylic_amine",
+          "fact": {
+            "value": {
+              "number": 20,
+              "unit": "%"
+            },
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page6:text",
+              "doc_8df0e71d29d5470a:page6:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "target_entity_ids": [
+            "E_allylic_amine"
+          ],
+          "category": "yield"
+        },
+        {
+          "name": "NMR_yield_propargylic_amine",
+          "fact": {
+            "value": {
+              "number": 70,
+              "unit": "%"
+            },
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page6:text",
+              "doc_8df0e71d29d5470a:page6:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "target_entity_ids": [
+            "propargylic_amine"
+          ],
+          "category": "yield"
+        },
+        {
+          "name": "yield_measurement_basis",
+          "fact": {
+            "value": "NMR yield",
+            "evidence_ids": [
+              "doc_8df0e71d29d5470a:page6:text",
+              "doc_8df0e71d29d5470a:page6:image"
+            ],
+            "verification": "unreviewed"
+          },
+          "target_entity_ids": [
+            "E_allylic_amine",
+            "propargylic_amine"
+          ],
+          "category": "measurement_basis"
+        }
+      ],
+      "notes": [
+        {
+          "value": "The page-6 sentence explicitly attributes this control to reference 4. Reference 15 points to Electronic Supplementary Information for all computed 1-octyne results; no SI file is associated in this workspace and no SI-only fact was imported.",
+          "evidence_ids": [
+            "doc_8df0e71d29d5470a:page6:text",
+            "doc_8df0e71d29d5470a:page6:image"
+          ],
+          "verification": "unreviewed"
+        }
+      ],
+      "review": {
+        "method": "model",
+        "reviewer": null,
+        "checked_fields": [],
+        "unresolved": [
+          "Supporting Information association is unestablished; no SI facts were used or inferred.",
+          "Every candidate structure remains structure_verified=false; parseability and visual inspection do not establish chemical correctness.",
+          "The standard reaction components, exact scale, temperature, time, solvent, atmosphere, workup, purification, and NMR internal standard are not restated on page 6 and were not inferred from another arrow.",
+          "The two products remain label-only with null SMILES."
+        ]
+      }
+    }
+  ],
+  "run_log": [
+    {
+      "event": "records_merged",
+      "count": 13,
+      "at": "2026-10-14T04:08:04.832487+00:00"
+    },
+    {
+      "event": "records_merged",
+      "count": 6,
+      "at": "2026-10-14T04:12:09.032602+00:00"
+    }
+  ],
+  "extraction_profile": {
+    "version": "2.2",
+    "resource_sha256": {
+      "SKILL.md": "f6ed414b0adbfc8712f8f793f92206b19e9611b0ad562f9c62abf9c946e2e641",
+      "scripts/reaction_tools.py": "f98f430ecde53ee217ce307094146507549db9fbb5e2ec37761504aa84a23af3",
+      "scripts/record_quality.py": "13ffd0543f21f5f9323c7898c567a7dd07d5b504b5b0a40c93b10dbf412c75dd",
+      "references/quality_rules.md": "2d1fcea8e089e888285d4a44c5231b3f5701146c0f39da5d8b495ea0d8150f53",
+      "references/structured_fields.md": "01929e0657eb0bbf3616049d112802814e9d811eaaec91332a9926c37cdfde79",
+      "references/experiment.schema.json": "56003a7f08cdf2ef63e72076f7dac267743aed832ada671a6c266a0942b60806"
+    }
+  }
+}

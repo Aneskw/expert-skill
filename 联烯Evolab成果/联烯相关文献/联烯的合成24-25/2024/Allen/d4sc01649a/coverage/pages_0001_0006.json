@@ -1,0 +1,290 @@
+{
+  "document_id": "doc_39f40dd70dfe33cf",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 1 title/author/abstract block",
+          "finding": "Verified the source title, DOI, and aggregate [4+3] method claim. The abstract is a summary and does not define additional row-level experiments.",
+          "evidence_ids": [
+            "doc_39f40dd70dfe33cf:page1:text",
+            "doc_39f40dd70dfe33cf:page1:image"
+          ]
+        },
+        {
+          "region": "page 1 introduction, prior Pd-TMM and methylene-TMM discussion",
+          "finding": "Separated prior generic Pd-TMM chemistry, Trost methylene-TMM [3+2] chemistry, and the authors' 2019 [3+2]/allylation prior work from the current [4+3] reaction class; linked them to the Scheme 1 classification records on page 2.",
+          "evidence_ids": [
+            "doc_39f40dd70dfe33cf:page1:text",
+            "doc_39f40dd70dfe33cf:page1:image"
+          ]
+        },
+        {
+          "region": "page 1 Figure 1 bioactive chiral exocyclic allenes",
+          "finding": "Natural-product and pharmaceutical structures are context examples, not reactions performed in this article; no experiment record was fabricated.",
+          "evidence_ids": [
+            "doc_39f40dd70dfe33cf:page1:text",
+            "doc_39f40dd70dfe33cf:page1:image"
+          ]
+        },
+        {
+          "region": "page 1 ESI/CCDC availability note",
+          "finding": "The article states ESI and crystallographic data availability, but workspace SI association is unestablished; no SI facts were inferred. CCDC identifiers are handled only where explicitly assigned on page 6.",
+          "evidence_ids": [
+            "doc_39f40dd70dfe33cf:page1:text",
+            "doc_39f40dd70dfe33cf:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_39f40dd70dfe33cf:scheme1a_prior_generic_Pd_TMM_profile",
+        "doc_39f40dd70dfe33cf:scheme1b_previous_methylene_TMM_3plus2",
+        "doc_39f40dd70dfe33cf:scheme1b_previous_tandem_3plus2_allylation",
+        "doc_39f40dd70dfe33cf:scheme1c_current_generic_4plus3"
+      ],
+      "unresolved": [
+        "Generic Scheme 1 substrate substituents and prior-work conditions are not fully specified on page 1.",
+        "No SI association was inferred from the availability note."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 2 upper-left Scheme 1a-c",
+          "finding": "Classified the prior generic TMM profile, two cited methylene-TMM prior-work branches, and the generic current [4+3] transformation; none was merged with the experiment-specific optimization/scope rows.",
+          "evidence_ids": [
+            "doc_39f40dd70dfe33cf:page2:text",
+            "doc_39f40dd70dfe33cf:page2:image"
+          ]
+        },
+        {
+          "region": "page 2 upper-right Table 1 reaction drawing and ligand structures",
+          "finding": "Recorded common 1a/2a scale, [Pd]/ligand loadings, solvent volume, Ar atmosphere, room temperature, source-labeled ligands L1-L7, and product 3aa without asserting uncertain compact SMILES.",
+          "evidence_ids": [
+            "doc_39f40dd70dfe33cf:page2:text",
+            "doc_39f40dd70dfe33cf:page2:image"
+          ]
+        },
+        {
+          "region": "page 2 Table 1 entries 1-13 and footnotes",
+          "finding": "All 13 optimization rows are independent records. Retained no-reaction, trace, dashes, signed ee source values, catalyst/ligand/solvent/time overrides, isolated-yield basis, dr by 1H NMR, ee by chiral HPLC, and entry-13 low loadings.",
+          "evidence_ids": [
+            "doc_39f40dd70dfe33cf:page2:text",
+            "doc_39f40dd70dfe33cf:page2:image"
+          ]
+        },
+        {
+          "region": "page 2 Results and Discussion narrative",
+          "finding": "Narrative yields/selectivities and optimal-condition statements map to the corresponding Table 1 rows; no prose duplicates were created. Entry 1 retains both the table's 5 mol% [Pd] expression and narrative 2.5 mol% Pd2(dba)3 precursor expression.",
+          "evidence_ids": [
+            "doc_39f40dd70dfe33cf:page2:text",
+            "doc_39f40dd70dfe33cf:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_39f40dd70dfe33cf:scheme1a_prior_generic_Pd_TMM_profile",
+        "doc_39f40dd70dfe33cf:scheme1b_previous_methylene_TMM_3plus2",
+        "doc_39f40dd70dfe33cf:scheme1b_previous_tandem_3plus2_allylation",
+        "doc_39f40dd70dfe33cf:scheme1c_current_generic_4plus3",
+        "doc_39f40dd70dfe33cf:table1_entry1",
+        "doc_39f40dd70dfe33cf:table1_entry2",
+        "doc_39f40dd70dfe33cf:table1_entry3",
+        "doc_39f40dd70dfe33cf:table1_entry4",
+        "doc_39f40dd70dfe33cf:table1_entry5",
+        "doc_39f40dd70dfe33cf:table1_entry6",
+        "doc_39f40dd70dfe33cf:table1_entry7",
+        "doc_39f40dd70dfe33cf:table1_entry8",
+        "doc_39f40dd70dfe33cf:table1_entry9",
+        "doc_39f40dd70dfe33cf:table1_entry10",
+        "doc_39f40dd70dfe33cf:table1_entry11",
+        "doc_39f40dd70dfe33cf:table1_entry12",
+        "doc_39f40dd70dfe33cf:table1_entry13"
+      ],
+      "unresolved": [
+        "Optimization rows omit workups, purifications, and isolated product masses.",
+        "Signed negative ee values are preserved as authored source text because negative percentage quantities are invalid under the workspace quantity rules."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 3 lower-left Scheme 2 reaction header, ten structures, values, caption, and footnote",
+          "finding": "All ten allene-TMM-donor scope rows 3aa-3ja were read from the original image and retained independently with row time/yield/dr/ee plus shared 0.20/0.10 mmol, Pd(dmdba)2/L7, mesitylene, Ar, and room-temperature conditions.",
+          "evidence_ids": [
+            "doc_39f40dd70dfe33cf:page3:text",
+            "doc_39f40dd70dfe33cf:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 upper/right Scheme 3 reaction header, twenty-four structures, values, caption, and footnote",
+          "finding": "All 24 azadiene scope rows 3bb-3by were read from the original image and retained independently with row time/yield/dr/ee plus shared 1b/azadiene charges and conditions.",
+          "evidence_ids": [
+            "doc_39f40dd70dfe33cf:page3:text",
+            "doc_39f40dd70dfe33cf:page3:image"
+          ]
+        },
+        {
+          "region": "page 3 scope discussion and X-ray depiction of 3ba",
+          "finding": "Narrative scope ranges and named examples map to Scheme 2/3 rows rather than creating duplicates. The 3ba ORTEP is characterization linked to the existing 3ba scope record, not another preparation.",
+          "evidence_ids": [
+            "doc_39f40dd70dfe33cf:page3:text",
+            "doc_39f40dd70dfe33cf:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_39f40dd70dfe33cf:scheme2_scope_3aa",
+        "doc_39f40dd70dfe33cf:scheme2_scope_3ba",
+        "doc_39f40dd70dfe33cf:scheme2_scope_3ca",
+        "doc_39f40dd70dfe33cf:scheme2_scope_3da",
+        "doc_39f40dd70dfe33cf:scheme2_scope_3ea",
+        "doc_39f40dd70dfe33cf:scheme2_scope_3fa",
+        "doc_39f40dd70dfe33cf:scheme2_scope_3ga",
+        "doc_39f40dd70dfe33cf:scheme2_scope_3ha",
+        "doc_39f40dd70dfe33cf:scheme2_scope_3ia",
+        "doc_39f40dd70dfe33cf:scheme2_scope_3ja",
+        "doc_39f40dd70dfe33cf:scheme3_scope_3bb",
+        "doc_39f40dd70dfe33cf:scheme3_scope_3bc",
+        "doc_39f40dd70dfe33cf:scheme3_scope_3bd",
+        "doc_39f40dd70dfe33cf:scheme3_scope_3be",
+        "doc_39f40dd70dfe33cf:scheme3_scope_3bf",
+        "doc_39f40dd70dfe33cf:scheme3_scope_3bg",
+        "doc_39f40dd70dfe33cf:scheme3_scope_3bh",
+        "doc_39f40dd70dfe33cf:scheme3_scope_3bi",
+        "doc_39f40dd70dfe33cf:scheme3_scope_3bj",
+        "doc_39f40dd70dfe33cf:scheme3_scope_3bk",
+        "doc_39f40dd70dfe33cf:scheme3_scope_3bl",
+        "doc_39f40dd70dfe33cf:scheme3_scope_3bm",
+        "doc_39f40dd70dfe33cf:scheme3_scope_3bn",
+        "doc_39f40dd70dfe33cf:scheme3_scope_3bo",
+        "doc_39f40dd70dfe33cf:scheme3_scope_3bp",
+        "doc_39f40dd70dfe33cf:scheme3_scope_3bq",
+        "doc_39f40dd70dfe33cf:scheme3_scope_3br",
+        "doc_39f40dd70dfe33cf:scheme3_scope_3bs",
+        "doc_39f40dd70dfe33cf:scheme3_scope_3bt",
+        "doc_39f40dd70dfe33cf:scheme3_scope_3bu",
+        "doc_39f40dd70dfe33cf:scheme3_scope_3bv",
+        "doc_39f40dd70dfe33cf:scheme3_scope_3bw",
+        "doc_39f40dd70dfe33cf:scheme3_scope_3bx",
+        "doc_39f40dd70dfe33cf:scheme3_scope_3by"
+      ],
+      "unresolved": [
+        "Main-text scope schemes omit workups, purifications, and isolated product masses.",
+        "Compact substrate/product stereostructures remain source-labeled and machine-unverified."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 4 Scheme 4a scale-up arrow",
+          "finding": "Recorded the independent 2.0 mmol 1b/1.0 mmol 2a scale-up with actual masses, Pd(dmdba)2/L7 loadings, mesitylene/Ar/room temperature, and 3ba 354 mg/90%/19:1 dr/96% ee. Reaction time and solvent volume are absent.",
+          "evidence_ids": [
+            "doc_39f40dd70dfe33cf:page4:text",
+            "doc_39f40dd70dfe33cf:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 Scheme 4b three transformation arrows",
+          "finding": "Separated 3ia→4 (1 M TBAF, 1.5 equiv, THF/air/r.t.), 4→5 (AuCl3 1 mol%, THF/Ar/r.t.), and 3ba→6 (TfOH, DCM/Ar/r.t.) as three experiments with product-specific yields/dr/ee. No unprinted reaction time or TfOH amount was inferred.",
+          "evidence_ids": [
+            "doc_39f40dd70dfe33cf:page4:text",
+            "doc_39f40dd70dfe33cf:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 Scheme 5 and mechanistic prose",
+          "finding": "Classified A/A', TS-1, TS-2 and paths a/b/c as a proposed mechanism. Disfavored paths b/c are not experimental failure records and ESI-only mechanistic detail was not imported.",
+          "evidence_ids": [
+            "doc_39f40dd70dfe33cf:page4:text",
+            "doc_39f40dd70dfe33cf:page4:image"
+          ]
+        },
+        {
+          "region": "page 4 conclusions/data availability/author contributions",
+          "finding": "Conclusions add no row-level experiment. Data availability points to ESI, but no SI association was established. Author-contribution statements do not define separable runs.",
+          "evidence_ids": [
+            "doc_39f40dd70dfe33cf:page4:text",
+            "doc_39f40dd70dfe33cf:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_39f40dd70dfe33cf:scheme4a_scaleup_3ba",
+        "doc_39f40dd70dfe33cf:scheme4b_3ia_to_4",
+        "doc_39f40dd70dfe33cf:scheme4b_4_to_5",
+        "doc_39f40dd70dfe33cf:scheme4b_3ba_to_6",
+        "doc_39f40dd70dfe33cf:scheme5_proposed_Pd_methylene_TMM_mechanism"
+      ],
+      "unresolved": [
+        "Scheme 4 does not report reaction times for the scale-up or transformations and omits several scales, reagent amounts, workups, purifications, and isolated masses.",
+        "Mechanistic details said to be in ESI remain unavailable/unassociated."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 5 author contributions/conflicts/acknowledgments",
+          "finding": "Administrative and provenance text only; it does not provide independent reaction conditions or run identifiers and creates no experiment record.",
+          "evidence_ids": [
+            "doc_39f40dd70dfe33cf:page5:text",
+            "doc_39f40dd70dfe33cf:page5:image"
+          ]
+        },
+        {
+          "region": "page 5 references 1-13",
+          "finding": "Bibliography and prior-literature citations only. External papers were not expanded into current-paper experiments.",
+          "evidence_ids": [
+            "doc_39f40dd70dfe33cf:page5:text",
+            "doc_39f40dd70dfe33cf:page5:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "No current-paper reaction arrow, table row, procedure, or new outcome occurs on this page."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 6 references 13(o)-20",
+          "finding": "Bibliography/prior-literature citations only; no current-paper experiment or condition was created from these references.",
+          "evidence_ids": [
+            "doc_39f40dd70dfe33cf:page6:text",
+            "doc_39f40dd70dfe33cf:page6:image"
+          ]
+        },
+        {
+          "region": "page 6 footnote 21, CCDC 2335107 and 2335108",
+          "finding": "The footnote assigns crystallographic depositions to existing products 3ba and 6. Evidence was linked to the Scheme 2 3ba scope record and Scheme 4 3ba→6 record without creating duplicate preparations or inferring SI association.",
+          "evidence_ids": [
+            "doc_39f40dd70dfe33cf:page6:text",
+            "doc_39f40dd70dfe33cf:page6:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_39f40dd70dfe33cf:scheme2_scope_3ba",
+        "doc_39f40dd70dfe33cf:scheme4b_3ba_to_6"
+      ],
+      "unresolved": [
+        "CCDC depositions are crystallographic data, not explicitly associated workspace SI files.",
+        "Crystallography supports source assignments but does not verify null machine SMILES or semantic accuracy."
+      ]
+    }
+  ]
+}

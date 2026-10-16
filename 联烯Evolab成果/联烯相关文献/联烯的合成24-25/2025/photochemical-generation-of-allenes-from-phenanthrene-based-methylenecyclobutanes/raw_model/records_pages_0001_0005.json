@@ -1,0 +1,5429 @@
+[
+  {
+    "record_id": "doc_ef8fee424f6846b0:scheme1a_prior_cyclobutanone_photofragmentation",
+    "document_id": "doc_ef8fee424f6846b0",
+    "source_reaction_id": "scheme1a_prior_cyclobutanone_photofragmentation",
+    "record_kind": "literature_example",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_ef8fee424f6846b0:page1:text",
+      "doc_ef8fee424f6846b0:page1:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "cyclobutanone_1",
+        "role": "reactant",
+        "label": {
+          "value": "cyclobutanone 1",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-depicted 1,1-diphenyl phenanthrene-based cyclobutanone 1",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "diphenylketene_2",
+        "role": "product",
+        "label": {
+          "value": "diphenylketene 2",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "diphenylketene",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "phenanthrene",
+        "role": "product",
+        "label": {
+          "value": "phenanthrene",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "phenanthrene",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "c1ccc2c(c1)c1ccccc1c2",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "laser_flash_photolysis",
+        "participant_ids": [
+          "cyclobutanone_1"
+        ],
+        "conditions": [
+          {
+            "name": "illumination",
+            "fact": {
+              "value": "laser flash photolysis at 266 nm",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page1:text",
+                "doc_ef8fee424f6846b0:page1:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [],
+    "notes": [
+      {
+        "value": "Scheme 1a and the adjacent prose describe the cited Tippmann and Curtis experiment, not a current-paper run.",
+        "evidence_ids": [
+          "doc_ef8fee424f6846b0:page1:text",
+          "doc_ef8fee424f6846b0:page1:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association is unestablished; no SI facts were used or inferred.",
+        "Complex phenanthrene-based cyclobutane precursors/products and the adamantylideneallene remain source-labeled with null SMILES where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "The cited example does not provide charges, solvent, temperature, time, workup, or yield in this article."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_ef8fee424f6846b0:scheme1b_current_generic_allene_photofragmentation",
+    "document_id": "doc_ef8fee424f6846b0",
+    "source_reaction_id": "scheme1b_current_generic_allene_photofragmentation",
+    "record_kind": "general_scheme",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_ef8fee424f6846b0:page1:text",
+      "doc_ef8fee424f6846b0:page1:image",
+      "doc_ef8fee424f6846b0:page2:text",
+      "doc_ef8fee424f6846b0:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "methylenecyclobutane_3",
+        "role": "reactant",
+        "label": {
+          "value": "generic phenanthrene-based methylenecyclobutane 3",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound generic phenanthrene-based methylenecyclobutane 3",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "allene_4",
+        "role": "product",
+        "label": {
+          "value": "generic allene 4",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound generic allene 4",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "phenanthrene",
+        "role": "product",
+        "label": {
+          "value": "phenanthrene",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "phenanthrene",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "c1ccc2c(c1)c1ccccc1c2",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "generic_photofragmentation",
+        "participant_ids": [
+          "methylenecyclobutane_3"
+        ],
+        "conditions": [
+          {
+            "name": "illumination",
+            "fact": {
+              "value": "hν",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page1:text",
+                "doc_ef8fee424f6846b0:page1:image",
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [],
+    "notes": [
+      {
+        "value": "The page-1 graphical abstract and Scheme 1b summarize the current reaction class. Concrete 5→10, 7→11, and 9→12 experiments are recorded separately.",
+        "evidence_ids": [
+          "doc_ef8fee424f6846b0:page1:text",
+          "doc_ef8fee424f6846b0:page1:image",
+          "doc_ef8fee424f6846b0:page2:text",
+          "doc_ef8fee424f6846b0:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association is unestablished; no SI facts were used or inferred.",
+        "Complex phenanthrene-based cyclobutane precursors/products and the adamantylideneallene remain source-labeled with null SMILES where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "The generic R1/R2 structures do not define one experiment-specific charge, time, or yield."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_ef8fee424f6846b0:tebbe_olefination_1_to_5",
+    "document_id": "doc_ef8fee424f6846b0",
+    "source_reaction_id": "tebbe_olefination_1_to_5",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_ef8fee424f6846b0:page1:text",
+      "doc_ef8fee424f6846b0:page1:image",
+      "doc_ef8fee424f6846b0:page2:text",
+      "doc_ef8fee424f6846b0:page2:image",
+      "doc_ef8fee424f6846b0:page3:text",
+      "doc_ef8fee424f6846b0:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "cyclobutanone",
+        "role": "reactant",
+        "label": {
+          "value": "cyclobutanone 1",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound cyclobutanone 1",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 200,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page1:text",
+                "doc_ef8fee424f6846b0:page1:image",
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.537,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page1:text",
+                "doc_ef8fee424f6846b0:page1:image",
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "thf",
+        "role": "solvent",
+        "label": {
+          "value": "THF",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrahydrofuran",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C1CCOC1",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 15.0,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page1:text",
+                "doc_ef8fee424f6846b0:page1:image",
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "tebbe",
+        "role": "reagent",
+        "label": {
+          "value": "Tebbe's reagent",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "Tebbe reagent",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "solution_volume",
+            "fact": {
+              "value": {
+                "number": 2.16,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page1:text",
+                "doc_ef8fee424f6846b0:page1:image",
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solution_concentration",
+            "fact": {
+              "value": {
+                "number": 0.5,
+                "unit": "M"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page1:text",
+                "doc_ef8fee424f6846b0:page1:image",
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1.08,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page1:text",
+                "doc_ef8fee424f6846b0:page1:image",
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "toluene_carrier",
+        "role": "solvent",
+        "label": {
+          "value": "toluene (Tebbe reagent solution carrier)",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "methylenecyclobutane 5",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound methylenecyclobutane 5",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "isolated_mass",
+            "fact": {
+              "value": {
+                "number": 136,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page1:text",
+                "doc_ef8fee424f6846b0:page1:image",
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "naoh",
+        "role": "reagent",
+        "label": {
+          "value": "aqueous NaOH",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "sodium hydroxide",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Na+].[OH-]",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "solution_volume",
+            "fact": {
+              "value": {
+                "number": 10.8,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solution_concentration",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "M"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "dcm",
+        "role": "solvent",
+        "label": {
+          "value": "CH2Cl2 (extraction solvent)",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "dichloromethane",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "ClCCl",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "extraction_volume_per_portion",
+            "fact": {
+              "value": {
+                "number": 10.0,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "water",
+        "role": "solvent",
+        "label": {
+          "value": "H2O (wash)",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "water",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "wash_volume_per_portion",
+            "fact": {
+              "value": {
+                "number": 10.0,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "brine",
+        "role": "reagent",
+        "label": {
+          "value": "brine (wash)",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "brine",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "wash_volume_per_portion",
+            "fact": {
+              "value": {
+                "number": 10.0,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "silica",
+        "role": "reagent",
+        "label": {
+          "value": "silica gel flash-column stationary phase",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "silica gel",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "hexanes",
+        "role": "solvent",
+        "label": {
+          "value": "hexanes (chromatography eluent)",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "hexanes",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCCCCC",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page1:text",
+            "doc_ef8fee424f6846b0:page1:image",
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "tebbe_olefination",
+        "participant_ids": [
+          "cyclobutanone",
+          "thf",
+          "tebbe",
+          "toluene_carrier"
+        ],
+        "conditions": [
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "argon",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "room temperature",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Tebbe reagent solution was added to the cyclobutanone solution and stirred",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "aqueous_quench",
+        "participant_ids": [
+          "naoh"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "quenched with aqueous NaOH",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "extraction_and_washing",
+        "participant_ids": [
+          "dcm",
+          "water",
+          "brine"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "aqueous layer extracted with CH2Cl2 three times; organic layer washed with H2O twice and brine three times",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "isolation",
+        "participant_ids": [
+          "silica",
+          "hexanes"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "rotary evaporation followed by silica-gel flash chromatography with hexanes",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 69,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "isolated_product_mass",
+        "fact": {
+          "value": {
+            "number": 136,
+            "unit": "mg"
+          },
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "melting_point",
+        "fact": {
+          "value": {
+            "minimum": 110.8,
+            "maximum": 113.1,
+            "unit": "°C",
+            "raw_text": "110.8–113.1 °C"
+          },
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The Scheme 2 arrow and page-3 procedure are the same experiment and are merged. All explicitly printed workup portions and repeat counts are retained without calculating total solvent volumes.",
+        "evidence_ids": [
+          "doc_ef8fee424f6846b0:page1:text",
+          "doc_ef8fee424f6846b0:page1:image",
+          "doc_ef8fee424f6846b0:page2:text",
+          "doc_ef8fee424f6846b0:page2:image",
+          "doc_ef8fee424f6846b0:page3:text",
+          "doc_ef8fee424f6846b0:page3:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association is unestablished; no SI facts were used or inferred.",
+        "Complex phenanthrene-based cyclobutane precursors/products and the adamantylideneallene remain source-labeled with null SMILES where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "The source does not report addition duration, exact vessel scale, rotary-evaporation conditions, chromatography column volume, or collected fraction details."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_ef8fee424f6846b0:tebbe_olefination_6_to_7",
+    "document_id": "doc_ef8fee424f6846b0",
+    "source_reaction_id": "tebbe_olefination_6_to_7",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_ef8fee424f6846b0:page2:text",
+      "doc_ef8fee424f6846b0:page2:image",
+      "doc_ef8fee424f6846b0:page3:text",
+      "doc_ef8fee424f6846b0:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "cyclobutanone",
+        "role": "reactant",
+        "label": {
+          "value": "cyclobutanone 6",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound cyclobutanone 6",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 50.0,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.169,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "thf",
+        "role": "solvent",
+        "label": {
+          "value": "THF",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrahydrofuran",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C1CCOC1",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 10.0,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "tebbe",
+        "role": "reagent",
+        "label": {
+          "value": "Tebbe's reagent",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "Tebbe reagent",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "solution_volume",
+            "fact": {
+              "value": {
+                "number": 0.68,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solution_concentration",
+            "fact": {
+              "value": {
+                "number": 0.5,
+                "unit": "M"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.34,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "toluene_carrier",
+        "role": "solvent",
+        "label": {
+          "value": "toluene (Tebbe reagent solution carrier)",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "methylenecyclobutane 7",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound methylenecyclobutane 7",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "isolated_mass",
+            "fact": {
+              "value": {
+                "number": 16.0,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "naoh",
+        "role": "reagent",
+        "label": {
+          "value": "aqueous NaOH",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "sodium hydroxide",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Na+].[OH-]",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "solution_volume",
+            "fact": {
+              "value": {
+                "number": 3.4,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solution_concentration",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "M"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "dcm",
+        "role": "solvent",
+        "label": {
+          "value": "CH2Cl2 (extraction solvent)",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "dichloromethane",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "ClCCl",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "extraction_volume_per_portion",
+            "fact": {
+              "value": {
+                "number": 10.0,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "brine",
+        "role": "reagent",
+        "label": {
+          "value": "brine (wash)",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "brine",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "wash_volume",
+            "fact": {
+              "value": {
+                "number": 10.0,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "na2so4",
+        "role": "reagent",
+        "label": {
+          "value": "Na2SO4 (drying agent)",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "sodium sulfate",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Na+].[Na+].[O-]S(=O)(=O)[O-]",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "silica",
+        "role": "reagent",
+        "label": {
+          "value": "silica gel flash-column stationary phase",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "silica gel",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "hexanes",
+        "role": "solvent",
+        "label": {
+          "value": "hexanes (chromatography eluent)",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "hexanes",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCCCCC",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "tebbe_olefination",
+        "participant_ids": [
+          "cyclobutanone",
+          "thf",
+          "tebbe",
+          "toluene_carrier"
+        ],
+        "conditions": [
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "argon",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "room temperature",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Tebbe reagent solution was added to the stirred cyclobutanone solution",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "aqueous_quench",
+        "participant_ids": [
+          "naoh"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "quenched with aqueous NaOH",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "extraction_wash_and_drying",
+        "participant_ids": [
+          "dcm",
+          "brine",
+          "na2so4"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "aqueous phase extracted with CH2Cl2 three times; combined organics washed with brine, dried over Na2SO4, filtered, and concentrated",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "isolation",
+        "participant_ids": [
+          "silica",
+          "hexanes"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "silica-gel flash chromatography with hexanes",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 32,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "isolated_product_mass",
+        "fact": {
+          "value": {
+            "number": 16.0,
+            "unit": "mg"
+          },
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "melting_point",
+        "fact": {
+          "value": {
+            "minimum": 87,
+            "maximum": 91,
+            "unit": "°C",
+            "raw_text": "87–91 °C"
+          },
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The Scheme 2 arrow and page-3 procedure are one experiment. The three 10.0 mL CH2Cl2 extractions remain a per-portion volume plus an operation repeat count.",
+        "evidence_ids": [
+          "doc_ef8fee424f6846b0:page2:text",
+          "doc_ef8fee424f6846b0:page2:image",
+          "doc_ef8fee424f6846b0:page3:text",
+          "doc_ef8fee424f6846b0:page3:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association is unestablished; no SI facts were used or inferred.",
+        "Complex phenanthrene-based cyclobutane precursors/products and the adamantylideneallene remain source-labeled with null SMILES where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "The source does not report addition duration, concentration after mixing, Na2SO4 amount, or chromatography column/fraction details."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_ef8fee424f6846b0:tebbe_olefination_8_to_9",
+    "document_id": "doc_ef8fee424f6846b0",
+    "source_reaction_id": "tebbe_olefination_8_to_9",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_ef8fee424f6846b0:page2:text",
+      "doc_ef8fee424f6846b0:page2:image",
+      "doc_ef8fee424f6846b0:page3:text",
+      "doc_ef8fee424f6846b0:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "cyclobutanone",
+        "role": "reactant",
+        "label": {
+          "value": "cyclobutanone 8",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound cyclobutanone 8",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 200,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.588,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "thf",
+        "role": "solvent",
+        "label": {
+          "value": "THF",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "tetrahydrofuran",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C1CCOC1",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 25.0,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "tebbe",
+        "role": "reagent",
+        "label": {
+          "value": "Tebbe's reagent",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "Tebbe reagent",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "solution_volume",
+            "fact": {
+              "value": {
+                "number": 2.3,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solution_concentration",
+            "fact": {
+              "value": {
+                "number": 0.5,
+                "unit": "M"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 1.15,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "toluene_carrier",
+        "role": "solvent",
+        "label": {
+          "value": "toluene (Tebbe reagent solution carrier)",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "toluene",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1ccccc1",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product",
+        "role": "product",
+        "label": {
+          "value": "methylenecyclobutane 9",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound methylenecyclobutane 9",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "isolated_mass",
+            "fact": {
+              "value": {
+                "number": 80.0,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "naoh",
+        "role": "reagent",
+        "label": {
+          "value": "aqueous NaOH",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "sodium hydroxide",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Na+].[OH-]",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "solution_volume",
+            "fact": {
+              "value": {
+                "number": 12.0,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "solution_concentration",
+            "fact": {
+              "value": {
+                "number": 0.1,
+                "unit": "M"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "dcm",
+        "role": "solvent",
+        "label": {
+          "value": "CH2Cl2 (extraction solvent)",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "dichloromethane",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "ClCCl",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "extraction_volume_per_portion",
+            "fact": {
+              "value": {
+                "number": 20.0,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "brine",
+        "role": "reagent",
+        "label": {
+          "value": "brine (wash)",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "brine",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "wash_volume",
+            "fact": {
+              "value": {
+                "number": 20.0,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "na2so4",
+        "role": "reagent",
+        "label": {
+          "value": "Na2SO4 (drying agent)",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "sodium sulfate",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "[Na+].[Na+].[O-]S(=O)(=O)[O-]",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "silica",
+        "role": "reagent",
+        "label": {
+          "value": "silica gel flash-column stationary phase",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "silica gel",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "hexanes",
+        "role": "solvent",
+        "label": {
+          "value": "hexanes (chromatography eluent)",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "hexanes",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCCCCC",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "tebbe_olefination",
+        "participant_ids": [
+          "cyclobutanone",
+          "thf",
+          "tebbe",
+          "toluene_carrier"
+        ],
+        "conditions": [
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "argon",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "room temperature",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 1.5,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "operation",
+            "fact": {
+              "value": "Tebbe reagent solution was added to the stirred cyclobutanone solution",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "aqueous_quench",
+        "participant_ids": [
+          "naoh"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "quenched by addition of aqueous NaOH",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "extraction_wash_and_drying",
+        "participant_ids": [
+          "dcm",
+          "brine",
+          "na2so4"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "aqueous layer extracted with CH2Cl2 three times; organic layer washed once with brine and dried over Na2SO4",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "isolation",
+        "participant_ids": [
+          "silica",
+          "hexanes"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "silica-gel flash-column chromatography with hexanes",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield",
+        "fact": {
+          "value": {
+            "number": 40,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "isolated_product_mass",
+        "fact": {
+          "value": {
+            "number": 80.0,
+            "unit": "mg"
+          },
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      },
+      {
+        "name": "melting_point",
+        "fact": {
+          "value": {
+            "minimum": 90,
+            "maximum": 93,
+            "unit": "°C",
+            "raw_text": "90–93 °C"
+          },
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The Scheme 2 arrow and page-3 procedure are one experiment. Repeated extraction/wash counts are retained in the ordered operation rather than converted to unprinted total volumes.",
+        "evidence_ids": [
+          "doc_ef8fee424f6846b0:page2:text",
+          "doc_ef8fee424f6846b0:page2:image",
+          "doc_ef8fee424f6846b0:page3:text",
+          "doc_ef8fee424f6846b0:page3:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association is unestablished; no SI facts were used or inferred.",
+        "Complex phenanthrene-based cyclobutane precursors/products and the adamantylideneallene remain source-labeled with null SMILES where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "The source does not report addition duration, concentration after mixing, Na2SO4 amount, or chromatography column/fraction details."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_ef8fee424f6846b0:photolysis_5_analytical",
+    "document_id": "doc_ef8fee424f6846b0",
+    "source_reaction_id": "photolysis_5_analytical",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_ef8fee424f6846b0:page2:text",
+      "doc_ef8fee424f6846b0:page2:image",
+      "doc_ef8fee424f6846b0:page3:text",
+      "doc_ef8fee424f6846b0:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "precursor",
+        "role": "reactant",
+        "label": {
+          "value": "precursor 5",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound precursor 5",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 8.3,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.03,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "benzene_d6",
+        "role": "solvent",
+        "label": {
+          "value": "C6D6",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "benzene-d6",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 0.75,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "m_xylene",
+        "role": "reagent",
+        "label": {
+          "value": "m-xylene (internal standard)",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "m-xylene",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1cccc(C)c1",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "uL"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 4.3,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.04,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "allene",
+        "role": "product",
+        "label": {
+          "value": "diphenylallene 10",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "1,1-diphenylpropadiene (diphenylallene)",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=C(c1ccccc1)c1ccccc1",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "phenanthrene",
+        "role": "product",
+        "label": {
+          "value": "phenanthrene",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "phenanthrene",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "c1ccc2c(c1)c1ccccc1c2",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "silica",
+        "role": "reagent",
+        "label": {
+          "value": "silica gel flash-column stationary phase",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "silica gel",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "hexanes",
+        "role": "solvent",
+        "label": {
+          "value": "hexanes (chromatography eluent)",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "hexanes",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCCCCC",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "photolysis_with_NMR_monitoring",
+        "participant_ids": [
+          "precursor",
+          "benzene_d6",
+          "m_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "photolyzed in a 5 mm quartz NMR tube positioned 30 cm from the light source",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "ambient temperature",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "illumination_wavelength",
+            "fact": {
+              "value": "280–400 nm",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "light_source",
+            "fact": {
+              "value": "Newport 200 W Xe(Hg) arc lamp, model 6290, with 280–400 dichroic mirror model 66245",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "monitoring_interval",
+            "fact": {
+              "value": {
+                "number": 15,
+                "unit": "min"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "monitoring_method",
+            "fact": {
+              "value": "1H NMR",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "attempted_isolation",
+        "participant_ids": [
+          "silica",
+          "hexanes"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "silica-gel flash-column chromatography with hexanes attempted",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "summary_NMR_yield_allene_10",
+        "fact": {
+          "value": {
+            "number": 56,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "allene"
+        ]
+      },
+      {
+        "name": "detailed_NMR_yield_allene_10",
+        "fact": {
+          "value": {
+            "number": 57,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "allene"
+        ]
+      },
+      {
+        "name": "NMR_yield_phenanthrene",
+        "fact": {
+          "value": {
+            "number": 74,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "phenanthrene"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "1H NMR using m-xylene as internal standard",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "allene",
+          "phenanthrene"
+        ]
+      },
+      {
+        "name": "precursor_conversion_observation",
+        "fact": {
+          "value": "5 fully reacted",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "precursor"
+        ]
+      },
+      {
+        "name": "product_identity_basis",
+        "fact": {
+          "value": "comparison with independently synthesized authentic sample and matching GC-MS retention time/fragmentation pattern",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "allene"
+        ]
+      },
+      {
+        "name": "isolation_outcome",
+        "fact": {
+          "value": "unsuccessful because precursor 5 and product 10 coeluted",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "allene"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The page-2 summary reports 56% 10, whereas the page-3 experimental paragraph reports 57%. Both product-targeted source values are preserved without choosing one.",
+        "evidence_ids": [
+          "doc_ef8fee424f6846b0:page2:text",
+          "doc_ef8fee424f6846b0:page2:image",
+          "doc_ef8fee424f6846b0:page3:text",
+          "doc_ef8fee424f6846b0:page3:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association is unestablished; no SI facts were used or inferred.",
+        "Complex phenanthrene-based cyclobutane precursors/products and the adamantylideneallene remain source-labeled with null SMILES where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "Source conflict for allene 10 NMR yield: 56% in the page-2 summary versus 57% in the page-3 detailed experiment.",
+        "No isolated yield or mass was obtained because 5 and 10 coeluted; lamp photon flux and vessel sealing/atmosphere are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_ef8fee424f6846b0:photolysis_7_analytical",
+    "document_id": "doc_ef8fee424f6846b0",
+    "source_reaction_id": "photolysis_7_analytical",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_ef8fee424f6846b0:page2:text",
+      "doc_ef8fee424f6846b0:page2:image",
+      "doc_ef8fee424f6846b0:page3:text",
+      "doc_ef8fee424f6846b0:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "precursor",
+        "role": "reactant",
+        "label": {
+          "value": "precursor 7",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound precursor 7",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 3.8,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.013,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "benzene_d6",
+        "role": "solvent",
+        "label": {
+          "value": "C6D6",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "benzene-d6",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 0.75,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "m_xylene",
+        "role": "reagent",
+        "label": {
+          "value": "m-xylene (internal standard)",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "m-xylene",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1cccc(C)c1",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 2.5,
+                "unit": "uL"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 2.2,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.02,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "allene",
+        "role": "product",
+        "label": {
+          "value": "phenylallene 11",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "phenylallene",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=Cc1ccccc1",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "phenanthrene",
+        "role": "product",
+        "label": {
+          "value": "phenanthrene",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "phenanthrene",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "c1ccc2c(c1)c1ccccc1c2",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "photolysis_with_NMR_monitoring",
+        "participant_ids": [
+          "precursor",
+          "benzene_d6",
+          "m_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "photolyzed in a 5 mm quartz NMR tube positioned 30 cm from the light source",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "ambient temperature",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "illumination_wavelength",
+            "fact": {
+              "value": "280–400 nm",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "light_source",
+            "fact": {
+              "value": "Newport 200 W Xe(Hg) arc lamp, model 6290, with 280–400 dichroic mirror model 66245",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 45,
+                "unit": "min"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "monitoring_interval",
+            "fact": {
+              "value": {
+                "number": 15,
+                "unit": "min"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "monitoring_method",
+            "fact": {
+              "value": "1H NMR",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "NMR_yield_allene_11",
+        "fact": {
+          "value": {
+            "number": 74,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "allene"
+        ]
+      },
+      {
+        "name": "NMR_yield_phenanthrene",
+        "fact": {
+          "value": {
+            "number": 95,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "phenanthrene"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "1H NMR using m-xylene as internal standard",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "allene",
+          "phenanthrene"
+        ]
+      },
+      {
+        "name": "precursor_conversion_observation",
+        "fact": {
+          "value": "7 fully reacted",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "precursor"
+        ]
+      },
+      {
+        "name": "product_identity_basis",
+        "fact": {
+          "value": "comparison with independently synthesized authentic sample and matching GC-MS retention time/fragmentation pattern",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "allene"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "This 3.8 mg NMR-scale experiment is distinct from the separate 20 mg isolation-scale photolysis reported later in the same paragraph.",
+        "evidence_ids": [
+          "doc_ef8fee424f6846b0:page2:text",
+          "doc_ef8fee424f6846b0:page2:image",
+          "doc_ef8fee424f6846b0:page3:text",
+          "doc_ef8fee424f6846b0:page3:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association is unestablished; no SI facts were used or inferred.",
+        "Complex phenanthrene-based cyclobutane precursors/products and the adamantylideneallene remain source-labeled with null SMILES where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "No workup, isolated mass, or isolated yield belongs to this analytical-scale run; lamp photon flux and vessel sealing/atmosphere are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_ef8fee424f6846b0:photolysis_9_analytical",
+    "document_id": "doc_ef8fee424f6846b0",
+    "source_reaction_id": "photolysis_9_analytical",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_ef8fee424f6846b0:page2:text",
+      "doc_ef8fee424f6846b0:page2:image",
+      "doc_ef8fee424f6846b0:page3:text",
+      "doc_ef8fee424f6846b0:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "precursor",
+        "role": "reactant",
+        "label": {
+          "value": "precursor 9",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound precursor 9",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 3.4,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.01,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "benzene_d6",
+        "role": "solvent",
+        "label": {
+          "value": "C6D6",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "benzene-d6",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 0.75,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "m_xylene",
+        "role": "reagent",
+        "label": {
+          "value": "m-xylene (internal standard)",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "m-xylene",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Cc1cccc(C)c1",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "volume",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "uL"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 4.3,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.04,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "allene",
+        "role": "product",
+        "label": {
+          "value": "adamantylideneallene 12",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "adamantylideneallene",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "phenanthrene",
+        "role": "product",
+        "label": {
+          "value": "phenanthrene",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "phenanthrene",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "c1ccc2c(c1)c1ccccc1c2",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "photolysis_with_NMR_monitoring",
+        "participant_ids": [
+          "precursor",
+          "benzene_d6",
+          "m_xylene"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "photolyzed in a 5 mm quartz NMR tube positioned 30 cm from the light source",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "ambient temperature",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "illumination_wavelength",
+            "fact": {
+              "value": "280–400 nm",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "light_source",
+            "fact": {
+              "value": "Newport 200 W Xe(Hg) arc lamp, model 6290, with 280–400 dichroic mirror model 66245",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 45,
+                "unit": "min"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "monitoring_interval",
+            "fact": {
+              "value": {
+                "number": 15,
+                "unit": "min"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "monitoring_method",
+            "fact": {
+              "value": "1H NMR",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image",
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "NMR_yield_allene_12",
+        "fact": {
+          "value": {
+            "number": 80,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "allene"
+        ]
+      },
+      {
+        "name": "NMR_yield_phenanthrene",
+        "fact": {
+          "value": {
+            "number": 96,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "phenanthrene"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "1H NMR using m-xylene as internal standard",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image",
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "allene",
+          "phenanthrene"
+        ]
+      },
+      {
+        "name": "precursor_conversion_observation",
+        "fact": {
+          "value": "9 fully reacted",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "precursor"
+        ]
+      },
+      {
+        "name": "product_identity_basis",
+        "fact": {
+          "value": "comparison with independently synthesized authentic sample and matching GC-MS retention time/fragmentation pattern",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "allene"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "This 3.4 mg NMR-scale experiment is distinct from the separate 50 mg isolation-scale photolysis whose result continues onto page 4.",
+        "evidence_ids": [
+          "doc_ef8fee424f6846b0:page2:text",
+          "doc_ef8fee424f6846b0:page2:image",
+          "doc_ef8fee424f6846b0:page3:text",
+          "doc_ef8fee424f6846b0:page3:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association is unestablished; no SI facts were used or inferred.",
+        "Complex phenanthrene-based cyclobutane precursors/products and the adamantylideneallene remain source-labeled with null SMILES where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "No workup, isolated mass, or isolated yield belongs to this analytical-scale run; lamp photon flux and vessel sealing/atmosphere are not reported."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_ef8fee424f6846b0:photolysis_7_isolation_scale",
+    "document_id": "doc_ef8fee424f6846b0",
+    "source_reaction_id": "photolysis_7_isolation_scale",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_ef8fee424f6846b0:page3:text",
+      "doc_ef8fee424f6846b0:page3:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "precursor",
+        "role": "reactant",
+        "label": {
+          "value": "precursor 7",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound precursor 7",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 20,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.068,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "benzene_d6",
+        "role": "solvent",
+        "label": {
+          "value": "C6D6",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "benzene-d6",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "allene",
+        "role": "product",
+        "label": {
+          "value": "phenylallene 11",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "phenylallene",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C=C=Cc1ccccc1",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "isolated_mass",
+            "fact": {
+              "value": {
+                "number": 2.3,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "phenanthrene",
+        "role": "product",
+        "label": {
+          "value": "phenanthrene",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "phenanthrene",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "c1ccc2c(c1)c1ccccc1c2",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "isolated_mass",
+            "fact": {
+              "value": {
+                "number": 5.6,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "silica",
+        "role": "reagent",
+        "label": {
+          "value": "silica gel flash-column stationary phase",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "silica gel",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "hexanes",
+        "role": "solvent",
+        "label": {
+          "value": "hexanes (chromatography eluent)",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "hexanes",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCCCCC",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "isolation_scale_photolysis",
+        "participant_ids": [
+          "precursor",
+          "benzene_d6"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "photolyzed in a 5 mm quartz NMR tube positioned 30 cm from the light source",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "ambient temperature",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "illumination_wavelength",
+            "fact": {
+              "value": "280–400 nm",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "light_source",
+            "fact": {
+              "value": "Newport 200 W Xe(Hg) arc lamp, model 6290, with 280–400 dichroic mirror model 66245",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "flash_chromatography",
+        "participant_ids": [
+          "silica",
+          "hexanes"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "silica-gel flash-column chromatography with hexanes",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield_allene_11",
+        "fact": {
+          "value": {
+            "number": 29,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "allene"
+        ]
+      },
+      {
+        "name": "isolated_mass_allene_11",
+        "fact": {
+          "value": {
+            "number": 2.3,
+            "unit": "mg"
+          },
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "allene"
+        ]
+      },
+      {
+        "name": "isolated_yield_phenanthrene",
+        "fact": {
+          "value": {
+            "number": 46,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "phenanthrene"
+        ]
+      },
+      {
+        "name": "isolated_mass_phenanthrene",
+        "fact": {
+          "value": {
+            "number": 5.6,
+            "unit": "mg"
+          },
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "phenanthrene"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated after silica-gel flash chromatography",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "allene",
+          "phenanthrene"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The article reports this as a separate 20 mg photolysis for isolation. General apparatus conditions apply to all photolysis reactions, but the analytical run's 0.75 mL solvent, m-xylene, 45 min endpoint, and NMR yields were not transferred.",
+        "evidence_ids": [
+          "doc_ef8fee424f6846b0:page3:text",
+          "doc_ef8fee424f6846b0:page3:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association is unestablished; no SI facts were used or inferred.",
+        "Complex phenanthrene-based cyclobutane precursors/products and the adamantylideneallene remain source-labeled with null SMILES where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "C6D6 volume, internal standard use, exact irradiation time, workup before chromatography, lamp photon flux, vessel sealing/atmosphere, and fraction details are not reported for this isolation-scale run."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_ef8fee424f6846b0:photolysis_9_isolation_scale",
+    "document_id": "doc_ef8fee424f6846b0",
+    "source_reaction_id": "photolysis_9_isolation_scale",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_ef8fee424f6846b0:page3:text",
+      "doc_ef8fee424f6846b0:page3:image",
+      "doc_ef8fee424f6846b0:page4:text",
+      "doc_ef8fee424f6846b0:page4:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "precursor",
+        "role": "reactant",
+        "label": {
+          "value": "precursor 9",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image",
+            "doc_ef8fee424f6846b0:page4:text",
+            "doc_ef8fee424f6846b0:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound precursor 9",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image",
+            "doc_ef8fee424f6846b0:page4:text",
+            "doc_ef8fee424f6846b0:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "mass",
+            "fact": {
+              "value": {
+                "number": 50,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image",
+                "doc_ef8fee424f6846b0:page4:text",
+                "doc_ef8fee424f6846b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.148,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image",
+                "doc_ef8fee424f6846b0:page4:text",
+                "doc_ef8fee424f6846b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "benzene_d6",
+        "role": "solvent",
+        "label": {
+          "value": "C6D6",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image",
+            "doc_ef8fee424f6846b0:page4:text",
+            "doc_ef8fee424f6846b0:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "benzene-d6",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image",
+            "doc_ef8fee424f6846b0:page4:text",
+            "doc_ef8fee424f6846b0:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "allene",
+        "role": "product",
+        "label": {
+          "value": "adamantylideneallene 12",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image",
+            "doc_ef8fee424f6846b0:page4:text",
+            "doc_ef8fee424f6846b0:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "adamantylideneallene",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image",
+            "doc_ef8fee424f6846b0:page4:text",
+            "doc_ef8fee424f6846b0:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "isolated_mass",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image",
+                "doc_ef8fee424f6846b0:page4:text",
+                "doc_ef8fee424f6846b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "phenanthrene",
+        "role": "product",
+        "label": {
+          "value": "phenanthrene",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image",
+            "doc_ef8fee424f6846b0:page4:text",
+            "doc_ef8fee424f6846b0:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "phenanthrene",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image",
+            "doc_ef8fee424f6846b0:page4:text",
+            "doc_ef8fee424f6846b0:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "c1ccc2c(c1)c1ccccc1c2",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image",
+            "doc_ef8fee424f6846b0:page4:text",
+            "doc_ef8fee424f6846b0:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "isolated_mass",
+            "fact": {
+              "value": {
+                "number": 22,
+                "unit": "mg"
+              },
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image",
+                "doc_ef8fee424f6846b0:page4:text",
+                "doc_ef8fee424f6846b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "silica",
+        "role": "reagent",
+        "label": {
+          "value": "silica gel flash-column stationary phase",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image",
+            "doc_ef8fee424f6846b0:page4:text",
+            "doc_ef8fee424f6846b0:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "silica gel",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image",
+            "doc_ef8fee424f6846b0:page4:text",
+            "doc_ef8fee424f6846b0:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "hexanes",
+        "role": "solvent",
+        "label": {
+          "value": "hexanes (chromatography eluent)",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image",
+            "doc_ef8fee424f6846b0:page4:text",
+            "doc_ef8fee424f6846b0:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "hexanes",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image",
+            "doc_ef8fee424f6846b0:page4:text",
+            "doc_ef8fee424f6846b0:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CCCCCC",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image",
+            "doc_ef8fee424f6846b0:page4:text",
+            "doc_ef8fee424f6846b0:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "isolation_scale_photolysis",
+        "participant_ids": [
+          "precursor",
+          "benzene_d6"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "photolyzed in a 5 mm quartz NMR tube positioned 30 cm from the light source",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image",
+                "doc_ef8fee424f6846b0:page4:text",
+                "doc_ef8fee424f6846b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "ambient temperature",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image",
+                "doc_ef8fee424f6846b0:page4:text",
+                "doc_ef8fee424f6846b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "illumination_wavelength",
+            "fact": {
+              "value": "280–400 nm",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image",
+                "doc_ef8fee424f6846b0:page4:text",
+                "doc_ef8fee424f6846b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "light_source",
+            "fact": {
+              "value": "Newport 200 W Xe(Hg) arc lamp, model 6290, with 280–400 dichroic mirror model 66245",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image",
+                "doc_ef8fee424f6846b0:page4:text",
+                "doc_ef8fee424f6846b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "flash_chromatography",
+        "participant_ids": [
+          "silica",
+          "hexanes"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "silica-gel flash chromatography with hexanes",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page3:text",
+                "doc_ef8fee424f6846b0:page3:image",
+                "doc_ef8fee424f6846b0:page4:text",
+                "doc_ef8fee424f6846b0:page4:image"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "isolated_yield_allene_12",
+        "fact": {
+          "value": {
+            "number": 21,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page4:text",
+            "doc_ef8fee424f6846b0:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "allene"
+        ]
+      },
+      {
+        "name": "isolated_mass_allene_12",
+        "fact": {
+          "value": {
+            "number": 5,
+            "unit": "mg"
+          },
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page4:text",
+            "doc_ef8fee424f6846b0:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "allene"
+        ]
+      },
+      {
+        "name": "isolated_yield_phenanthrene",
+        "fact": {
+          "value": {
+            "number": 84,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page4:text",
+            "doc_ef8fee424f6846b0:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "phenanthrene"
+        ]
+      },
+      {
+        "name": "isolated_mass_phenanthrene",
+        "fact": {
+          "value": {
+            "number": 22,
+            "unit": "mg"
+          },
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page4:text",
+            "doc_ef8fee424f6846b0:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "phenanthrene"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": "isolated after silica-gel flash chromatography",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page3:text",
+            "doc_ef8fee424f6846b0:page3:image",
+            "doc_ef8fee424f6846b0:page4:text",
+            "doc_ef8fee424f6846b0:page4:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "allene",
+          "phenanthrene"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "The sentence begins on page 3 and continues on page 4; both pages are evidence for one 50 mg isolation-scale experiment. General apparatus conditions apply, but analytical-run solvent volume, m-xylene, 45 min endpoint, and NMR yields were not transferred.",
+        "evidence_ids": [
+          "doc_ef8fee424f6846b0:page3:text",
+          "doc_ef8fee424f6846b0:page3:image",
+          "doc_ef8fee424f6846b0:page4:text",
+          "doc_ef8fee424f6846b0:page4:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association is unestablished; no SI facts were used or inferred.",
+        "Complex phenanthrene-based cyclobutane precursors/products and the adamantylideneallene remain source-labeled with null SMILES where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "C6D6 volume, internal standard use, exact irradiation time, workup before chromatography, lamp photon flux, vessel sealing/atmosphere, and fraction details are not reported for this isolation-scale run."
+      ]
+    }
+  },
+  {
+    "record_id": "doc_ef8fee424f6846b0:scheme4_potential_cyclic_allene_generation",
+    "document_id": "doc_ef8fee424f6846b0",
+    "source_reaction_id": "scheme4_potential_cyclic_allene_generation",
+    "record_kind": "general_scheme",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_ef8fee424f6846b0:page2:text",
+      "doc_ef8fee424f6846b0:page2:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "precursor_13",
+        "role": "reactant",
+        "label": {
+          "value": "hypothetical phenanthrene-based cyclic precursor 13",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound hypothetical phenanthrene-based cyclic precursor 13",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "cyclic_allene_14",
+        "role": "product",
+        "label": {
+          "value": "hypothetical strained cyclic allene 14",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled compound hypothetical strained cyclic allene 14",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "phenanthrene",
+        "role": "product",
+        "label": {
+          "value": "phenanthrene",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "phenanthrene",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "c1ccc2c(c1)c1ccccc1c2",
+          "evidence_ids": [
+            "doc_ef8fee424f6846b0:page2:text",
+            "doc_ef8fee424f6846b0:page2:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "proposed_photofragmentation",
+        "participant_ids": [
+          "precursor_13"
+        ],
+        "conditions": [
+          {
+            "name": "illumination",
+            "fact": {
+              "value": "hν (dashed prospective arrow)",
+              "evidence_ids": [
+                "doc_ef8fee424f6846b0:page2:text",
+                "doc_ef8fee424f6846b0:page2:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [],
+    "notes": [
+      {
+        "value": "Scheme 4 is labeled 'Potential Formation' and the prose says precursor 13 could potentially serve as a source of 14; it is not a reported experiment or observed product.",
+        "evidence_ids": [
+          "doc_ef8fee424f6846b0:page2:text",
+          "doc_ef8fee424f6846b0:page2:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association is unestablished; no SI facts were used or inferred.",
+        "Complex phenanthrene-based cyclobutane precursors/products and the adamantylideneallene remain source-labeled with null SMILES where safe encoding was uncertain; every structure remains structure_verified=false.",
+        "No preparation, charge, solvent, wavelength, time, temperature, yield, or observation is reported for 13→14."
+      ]
+    }
+  }
+]

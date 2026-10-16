@@ -1,0 +1,817 @@
+[
+  {
+    "record_id": "doc_c0660564fea7a436:scheme4d_nonlinear_effect_L7_3a",
+    "document_id": "doc_c0660564fea7a436",
+    "source_reaction_id": "scheme4d_nonlinear_effect_L7_3a",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_c0660564fea7a436:page5:text",
+      "doc_c0660564fea7a436:page5:image",
+      "doc_c0660564fea7a436:page6:text",
+      "doc_c0660564fea7a436:page6:image",
+      "doc_c0660564fea7a436:page6:block9",
+      "doc_c0660564fea7a436:page8:text",
+      "doc_c0660564fea7a436:page8:image",
+      "doc_c0660564fea7a436:page8:block12"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_1a",
+        "role": "reactant",
+        "label": {
+          "value": "1a",
+          "evidence_ids": [
+            "doc_c0660564fea7a436:page5:text",
+            "doc_c0660564fea7a436:page5:image",
+            "doc_c0660564fea7a436:page6:text",
+            "doc_c0660564fea7a436:page6:image",
+            "doc_c0660564fea7a436:page6:block9"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "(1-methyl-1,2-butadienyl)benzene",
+          "evidence_ids": [
+            "doc_c0660564fea7a436:page5:text",
+            "doc_c0660564fea7a436:page5:image",
+            "doc_c0660564fea7a436:page6:text",
+            "doc_c0660564fea7a436:page6:image",
+            "doc_c0660564fea7a436:page6:block9"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "CC=C=C(C)c1ccccc1",
+          "evidence_ids": [
+            "doc_c0660564fea7a436:page5:text",
+            "doc_c0660564fea7a436:page5:image",
+            "doc_c0660564fea7a436:page6:text",
+            "doc_c0660564fea7a436:page6:image",
+            "doc_c0660564fea7a436:page6:block9"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.2,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_c0660564fea7a436:page8:text",
+                "doc_c0660564fea7a436:page8:image",
+                "doc_c0660564fea7a436:page8:block12"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_c0660564fea7a436:page8:text",
+                "doc_c0660564fea7a436:page8:image",
+                "doc_c0660564fea7a436:page8:block12"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "ligand_L7",
+        "role": "reagent",
+        "label": {
+          "value": "(R)-L7 and (S)-L7 stock solutions in the desired ratio",
+          "evidence_ids": [
+            "doc_c0660564fea7a436:page8:text",
+            "doc_c0660564fea7a436:page8:image",
+            "doc_c0660564fea7a436:page8:block12"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-labeled enantiomeric L7 stock-solution mixture",
+          "evidence_ids": [
+            "doc_c0660564fea7a436:page8:text",
+            "doc_c0660564fea7a436:page8:image",
+            "doc_c0660564fea7a436:page8:block12"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "combined_stock_solution_volume",
+            "fact": {
+              "value": {
+                "number": 2,
+                "unit": "mL"
+              },
+              "evidence_ids": [
+                "doc_c0660564fea7a436:page8:text",
+                "doc_c0660564fea7a436:page8:image",
+                "doc_c0660564fea7a436:page8:block12"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "copper",
+        "role": "catalyst",
+        "label": {
+          "value": "CuBr2",
+          "evidence_ids": [
+            "doc_c0660564fea7a436:page8:text",
+            "doc_c0660564fea7a436:page8:image",
+            "doc_c0660564fea7a436:page8:block12"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "copper(II) bromide",
+          "evidence_ids": [
+            "doc_c0660564fea7a436:page8:text",
+            "doc_c0660564fea7a436:page8:image",
+            "doc_c0660564fea7a436:page8:block12"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "Br[Cu]Br",
+          "evidence_ids": [
+            "doc_c0660564fea7a436:page8:text",
+            "doc_c0660564fea7a436:page8:image",
+            "doc_c0660564fea7a436:page8:block12"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.01,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_c0660564fea7a436:page8:text",
+                "doc_c0660564fea7a436:page8:image",
+                "doc_c0660564fea7a436:page8:block12"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "catalyst_loading",
+            "fact": {
+              "value": {
+                "number": 5,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_c0660564fea7a436:page8:text",
+                "doc_c0660564fea7a436:page8:image",
+                "doc_c0660564fea7a436:page8:block12"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "nfsi",
+        "role": "reagent",
+        "label": {
+          "value": "NFSI",
+          "evidence_ids": [
+            "doc_c0660564fea7a436:page8:text",
+            "doc_c0660564fea7a436:page8:image",
+            "doc_c0660564fea7a436:page8:block12"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "N-fluorobenzenesulfonimide",
+          "evidence_ids": [
+            "doc_c0660564fea7a436:page8:text",
+            "doc_c0660564fea7a436:page8:image",
+            "doc_c0660564fea7a436:page8:block12"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "O=S(=O)(c1ccccc1)N(F)S(=O)(=O)c1ccccc1",
+          "evidence_ids": [
+            "doc_c0660564fea7a436:page8:text",
+            "doc_c0660564fea7a436:page8:image",
+            "doc_c0660564fea7a436:page8:block12"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.3,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_c0660564fea7a436:page8:text",
+                "doc_c0660564fea7a436:page8:image",
+                "doc_c0660564fea7a436:page8:block12"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 1.5,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_c0660564fea7a436:page8:text",
+                "doc_c0660564fea7a436:page8:image",
+                "doc_c0660564fea7a436:page8:block12"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "additive_A4",
+        "role": "reagent",
+        "label": {
+          "value": "A4",
+          "evidence_ids": [
+            "doc_c0660564fea7a436:page8:text",
+            "doc_c0660564fea7a436:page8:image",
+            "doc_c0660564fea7a436:page8:block12"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "4-(trans-4-butylcyclohexyl)phenol",
+          "evidence_ids": [
+            "doc_c0660564fea7a436:page8:text",
+            "doc_c0660564fea7a436:page8:image",
+            "doc_c0660564fea7a436:page8:block12"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.001,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_c0660564fea7a436:page8:text",
+                "doc_c0660564fea7a436:page8:image",
+                "doc_c0660564fea7a436:page8:block12"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "loading",
+            "fact": {
+              "value": {
+                "number": 1,
+                "unit": "mol%"
+              },
+              "evidence_ids": [
+                "doc_c0660564fea7a436:page8:text",
+                "doc_c0660564fea7a436:page8:image",
+                "doc_c0660564fea7a436:page8:block12"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "tmscn",
+        "role": "reactant",
+        "label": {
+          "value": "TMSCN",
+          "evidence_ids": [
+            "doc_c0660564fea7a436:page8:text",
+            "doc_c0660564fea7a436:page8:image",
+            "doc_c0660564fea7a436:page8:block12"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "trimethylsilyl cyanide",
+          "evidence_ids": [
+            "doc_c0660564fea7a436:page8:text",
+            "doc_c0660564fea7a436:page8:image",
+            "doc_c0660564fea7a436:page8:block12"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "C[Si](C)(C)C#N",
+          "evidence_ids": [
+            "doc_c0660564fea7a436:page8:text",
+            "doc_c0660564fea7a436:page8:image",
+            "doc_c0660564fea7a436:page8:block12"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": [
+          {
+            "name": "amount",
+            "fact": {
+              "value": {
+                "number": 0.6,
+                "unit": "mmol"
+              },
+              "evidence_ids": [
+                "doc_c0660564fea7a436:page8:text",
+                "doc_c0660564fea7a436:page8:image",
+                "doc_c0660564fea7a436:page8:block12"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "equivalents",
+            "fact": {
+              "value": {
+                "number": 3.0,
+                "unit": "equiv"
+              },
+              "evidence_ids": [
+                "doc_c0660564fea7a436:page8:text",
+                "doc_c0660564fea7a436:page8:image",
+                "doc_c0660564fea7a436:page8:block12"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "entity_id": "product_3a",
+        "role": "product",
+        "label": {
+          "value": "3a",
+          "evidence_ids": [
+            "doc_c0660564fea7a436:page5:text",
+            "doc_c0660564fea7a436:page5:image",
+            "doc_c0660564fea7a436:page6:text",
+            "doc_c0660564fea7a436:page6:image",
+            "doc_c0660564fea7a436:page6:block9"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "source-depicted axially chiral allenyl nitrile 3a",
+          "evidence_ids": [
+            "doc_c0660564fea7a436:page5:text",
+            "doc_c0660564fea7a436:page5:image",
+            "doc_c0660564fea7a436:page6:text",
+            "doc_c0660564fea7a436:page6:image",
+            "doc_c0660564fea7a436:page6:block9"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": "N#CC(C)=C=C(C)c1ccccc1",
+          "evidence_ids": [
+            "doc_c0660564fea7a436:page5:text",
+            "doc_c0660564fea7a436:page5:image",
+            "doc_c0660564fea7a436:page6:text",
+            "doc_c0660564fea7a436:page6:image",
+            "doc_c0660564fea7a436:page6:block9"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles_parseable": true,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "combine_enantiomeric_ligand_stock_solutions",
+        "participant_ids": [
+          "ligand_L7"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "add (R)-L7 and (S)-L7 stock solutions in the desired ratio to a total of 2 mL in a flame-dried 10 mL scintillation vial equipped with a stir bar",
+              "evidence_ids": [
+                "doc_c0660564fea7a436:page8:text",
+                "doc_c0660564fea7a436:page8:image",
+                "doc_c0660564fea7a436:page8:block12"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "apparatus",
+            "fact": {
+              "value": "flame-dried 10 mL scintillation vial equipped with a stir bar",
+              "evidence_ids": [
+                "doc_c0660564fea7a436:page8:text",
+                "doc_c0660564fea7a436:page8:image",
+                "doc_c0660564fea7a436:page8:block12"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "argon-purged",
+              "evidence_ids": [
+                "doc_c0660564fea7a436:page8:text",
+                "doc_c0660564fea7a436:page8:image",
+                "doc_c0660564fea7a436:page8:block12"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "source_reported_copper_prestir_before_addition",
+        "participant_ids": [
+          "copper"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "CuBr2 was allowed to stir for 10 min before being added to the scintillation vial; the source does not identify the pre-stir medium or temperature",
+              "evidence_ids": [
+                "doc_c0660564fea7a436:page8:text",
+                "doc_c0660564fea7a436:page8:image",
+                "doc_c0660564fea7a436:page8:block12"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 10,
+                "unit": "min"
+              },
+              "evidence_ids": [
+                "doc_c0660564fea7a436:page8:text",
+                "doc_c0660564fea7a436:page8:image",
+                "doc_c0660564fea7a436:page8:block12"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "copper_ligand_premixing",
+        "participant_ids": [
+          "ligand_L7",
+          "copper"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "stir the ligand/copper mixture at room temperature",
+              "evidence_ids": [
+                "doc_c0660564fea7a436:page8:text",
+                "doc_c0660564fea7a436:page8:image",
+                "doc_c0660564fea7a436:page8:block12"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": "r.t.",
+              "evidence_ids": [
+                "doc_c0660564fea7a436:page8:text",
+                "doc_c0660564fea7a436:page8:image",
+                "doc_c0660564fea7a436:page8:block12"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 30,
+                "unit": "min"
+              },
+              "evidence_ids": [
+                "doc_c0660564fea7a436:page8:text",
+                "doc_c0660564fea7a436:page8:image",
+                "doc_c0660564fea7a436:page8:block12"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "sequential_substrate_reagent_addition",
+        "participant_ids": [
+          "ligand_L7",
+          "copper",
+          "substrate_1a",
+          "nfsi",
+          "additive_A4",
+          "tmscn"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "sequentially add 1a, NFSI, A4, and TMSCN",
+              "evidence_ids": [
+                "doc_c0660564fea7a436:page8:text",
+                "doc_c0660564fea7a436:page8:image",
+                "doc_c0660564fea7a436:page8:block12"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 0,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_c0660564fea7a436:page8:text",
+                "doc_c0660564fea7a436:page8:image",
+                "doc_c0660564fea7a436:page8:block12"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "addition_time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "N2",
+              "evidence_ids": [
+                "doc_c0660564fea7a436:page8:text",
+                "doc_c0660564fea7a436:page8:image",
+                "doc_c0660564fea7a436:page8:block12"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      },
+      {
+        "step_id": "zero_degree_reaction_hold",
+        "participant_ids": [
+          "ligand_L7",
+          "copper",
+          "substrate_1a",
+          "nfsi",
+          "additive_A4",
+          "tmscn"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "stir the reaction mixture at the same temperature",
+              "evidence_ids": [
+                "doc_c0660564fea7a436:page8:text",
+                "doc_c0660564fea7a436:page8:image",
+                "doc_c0660564fea7a436:page8:block12"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": {
+                "number": 0,
+                "unit": "°C"
+              },
+              "evidence_ids": [
+                "doc_c0660564fea7a436:page8:text",
+                "doc_c0660564fea7a436:page8:image",
+                "doc_c0660564fea7a436:page8:block12"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": {
+                "number": 48,
+                "unit": "h"
+              },
+              "evidence_ids": [
+                "doc_c0660564fea7a436:page8:text",
+                "doc_c0660564fea7a436:page8:image",
+                "doc_c0660564fea7a436:page8:block12"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "atmosphere",
+            "fact": {
+              "value": "N2",
+              "evidence_ids": [
+                "doc_c0660564fea7a436:page8:text",
+                "doc_c0660564fea7a436:page8:image",
+                "doc_c0660564fea7a436:page8:block12"
+              ],
+              "verification": "unreviewed"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "nonlinear_effect_observation",
+        "fact": {
+          "value": "linear relationship between ee of L7 and ee of 3a",
+          "evidence_ids": [
+            "doc_c0660564fea7a436:page5:text",
+            "doc_c0660564fea7a436:page5:image",
+            "doc_c0660564fea7a436:page6:text",
+            "doc_c0660564fea7a436:page6:image",
+            "doc_c0660564fea7a436:page6:block9"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3a"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "R_squared",
+        "fact": {
+          "value": 0.9951,
+          "evidence_ids": [
+            "doc_c0660564fea7a436:page6:text",
+            "doc_c0660564fea7a436:page6:image",
+            "doc_c0660564fea7a436:page6:block9"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3a"
+        ],
+        "category": "other"
+      },
+      {
+        "name": "mechanistic_interpretation",
+        "fact": {
+          "value": "consistent with a monoligand copper active species",
+          "evidence_ids": [
+            "doc_c0660564fea7a436:page5:text",
+            "doc_c0660564fea7a436:page5:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_3a"
+        ],
+        "category": "other"
+      }
+    ],
+    "notes": [
+      {
+        "value": "Graph coordinates were visually inspected but not numerically estimated; only the printed R² and qualitative linear relationship are structured.",
+        "evidence_ids": [
+          "doc_c0660564fea7a436:page5:text",
+          "doc_c0660564fea7a436:page5:image",
+          "doc_c0660564fea7a436:page6:text",
+          "doc_c0660564fea7a436:page6:image",
+          "doc_c0660564fea7a436:page6:block9"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "Reference 18 is a current-paper methodological footnote for the Scheme 4d nonlinear-effect series, not an external literature experiment; its procedure is merged into the existing series record.",
+        "evidence_ids": [
+          "doc_c0660564fea7a436:page8:text",
+          "doc_c0660564fea7a436:page8:image",
+          "doc_c0660564fea7a436:page8:block12"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The source simultaneously prints A4 as 0.001 mmol and 1 mol% with 1a at 0.2 mmol. These printed values are retained unchanged; using the stated 1a denominator, 0.001/0.2 corresponds to 0.5 mol%, so the internal dose discrepancy remains unresolved.",
+        "evidence_ids": [
+          "doc_c0660564fea7a436:page8:text",
+          "doc_c0660564fea7a436:page8:image",
+          "doc_c0660564fea7a436:page8:block12"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The source wording says that CuBr2 was stirred for 10 min before being added to the scintillation vial but does not state the pre-stir solvent, vessel, or temperature; the step is retained exactly without supplying those details.",
+        "evidence_ids": [
+          "doc_c0660564fea7a436:page8:text",
+          "doc_c0660564fea7a436:page8:image",
+          "doc_c0660564fea7a436:page8:block12"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI facts were used or inferred.",
+        "Complex chiral ligand and product stereochemistry remain source-labeled where safe complete encoding was uncertain; every structure remains structure_verified=false.",
+        "A4 dose conflict in current-paper footnote 18: 0.001 mmol and 1 mol% are both printed for a 0.2 mmol 1a charge, although the stated quantities imply 0.5 mol%; no source value was corrected.",
+        "The individual (R)-L7 and (S)-L7 stock-solution volumes, stock concentrations, carrier solvent identity, CuBr2 pre-stir medium/vessel/temperature, sequential-addition duration, workup, purification, individual nonlinear-effect data coordinates, and analytical uncertainty are not reported on pages 7-8."
+      ]
+    }
+  }
+]

@@ -1,0 +1,168 @@
+[
+  {
+    "record_id": "doc_b86bf0cf14cf6c6e:footnote15_nosyl_deprotection_19b_to_20b",
+    "document_id": "doc_b86bf0cf14cf6c6e",
+    "source_reaction_id": "footnote15_nosyl_deprotection_19b_to_20b",
+    "record_kind": "reported_experiment",
+    "status": "candidate",
+    "completeness": "partial",
+    "evidence_ids": [
+      "doc_b86bf0cf14cf6c6e:page8:text",
+      "doc_b86bf0cf14cf6c6e:page8:image"
+    ],
+    "participants": [
+      {
+        "entity_id": "substrate_19b",
+        "role": "reactant",
+        "label": {
+          "value": "19b",
+          "evidence_ids": [
+            "doc_b86bf0cf14cf6c6e:page8:text",
+            "doc_b86bf0cf14cf6c6e:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "nosyl-protected indolenine-fused cyclobutane 19b",
+          "evidence_ids": [
+            "doc_b86bf0cf14cf6c6e:page8:text",
+            "doc_b86bf0cf14cf6c6e:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      },
+      {
+        "entity_id": "product_20b",
+        "role": "product",
+        "label": {
+          "value": "20b",
+          "evidence_ids": [
+            "doc_b86bf0cf14cf6c6e:page8:text",
+            "doc_b86bf0cf14cf6c6e:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "name": {
+          "value": "secondary amine obtained by nosyl deprotection of 19b",
+          "evidence_ids": [
+            "doc_b86bf0cf14cf6c6e:page8:text",
+            "doc_b86bf0cf14cf6c6e:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "smiles": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "smiles_parseable": null,
+        "structure_verified": false,
+        "amounts": []
+      }
+    ],
+    "steps": [
+      {
+        "step_id": "nosyl_group_deprotection",
+        "participant_ids": [
+          "substrate_19b",
+          "product_20b"
+        ],
+        "conditions": [
+          {
+            "name": "operation",
+            "fact": {
+              "value": "deprotect the nosyl group of compound 19b to afford the corresponding secondary amine 20b",
+              "evidence_ids": [
+                "doc_b86bf0cf14cf6c6e:page8:text",
+                "doc_b86bf0cf14cf6c6e:page8:image"
+              ],
+              "verification": "unreviewed"
+            }
+          },
+          {
+            "name": "temperature",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          },
+          {
+            "name": "reaction_time",
+            "fact": {
+              "value": null,
+              "evidence_ids": [],
+              "verification": "missing"
+            }
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "reported_yield_20b",
+        "fact": {
+          "value": {
+            "number": 57,
+            "unit": "%"
+          },
+          "evidence_ids": [
+            "doc_b86bf0cf14cf6c6e:page8:text",
+            "doc_b86bf0cf14cf6c6e:page8:image"
+          ],
+          "verification": "unreviewed"
+        },
+        "target_entity_ids": [
+          "product_20b"
+        ]
+      },
+      {
+        "name": "yield_measurement_basis",
+        "fact": {
+          "value": null,
+          "evidence_ids": [],
+          "verification": "missing"
+        },
+        "target_entity_ids": [
+          "product_20b"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "value": "Footnote 15 reports a current-paper post-functionalization experiment. It is distinct from the gold-catalyzed preparation of 19b and is not merged with that substrate-scope record.",
+        "evidence_ids": [
+          "doc_b86bf0cf14cf6c6e:page8:text",
+          "doc_b86bf0cf14cf6c6e:page8:image"
+        ],
+        "verification": "unreviewed"
+      },
+      {
+        "value": "The footnote delegates experimental details to Supporting Information. Workspace SI association is unestablished, so no deprotection reagent, condition, workup, or characterization fact was inferred.",
+        "evidence_ids": [
+          "doc_b86bf0cf14cf6c6e:page8:text",
+          "doc_b86bf0cf14cf6c6e:page8:image"
+        ],
+        "verification": "unreviewed"
+      }
+    ],
+    "review": {
+      "method": "none",
+      "reviewer": null,
+      "checked_fields": [],
+      "unresolved": [
+        "Supporting Information association remains unestablished; no SI-only procedure, reagent, spectrum, or result was used or inferred.",
+        "Deprotection reagent identities and charges, solvent, temperature, reaction time, atmosphere, workup, purification, isolated mass, and yield measurement basis are not reported on page 8.",
+        "The compact structures of 19b and 20b are not redrawn on page 8; their SMILES remain null and structure_verified=false."
+      ]
+    }
+  }
+]

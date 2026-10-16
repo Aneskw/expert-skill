@@ -1,0 +1,71 @@
+{
+  "document_id": "doc_b86bf0cf14cf6c6e",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 7 left column, continuation of reference 6 and references 7-11",
+          "finding": "The original rendered region contains bibliography and prior-literature citations only. It has no current-paper reaction arrow, table, procedure, reagent quantity, condition, outcome, failure, mechanism figure, footnote experiment, or compound-specific characterization mapping; external cited reactions were not imported.",
+          "evidence_ids": [
+            "doc_b86bf0cf14cf6c6e:page7:text",
+            "doc_b86bf0cf14cf6c6e:page7:image"
+          ]
+        },
+        {
+          "region": "page 7 right column, representative-example reference 12(a-v)",
+          "finding": "The full rendered column is bibliography describing prior gold-catalyzed indole/allene chemistry. These cited external experiments provide context for earlier discussion but are not experiments of the current article and create no record or existing-record update.",
+          "evidence_ids": [
+            "doc_b86bf0cf14cf6c6e:page7:text",
+            "doc_b86bf0cf14cf6c6e:page7:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "No current-paper experiment or existing-record enrichment occurs on page 7.",
+        "Referenced external experiments were not re-extracted as records of this article."
+      ]
+    },
+    {
+      "page": 8,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page 8 upper and middle left column, references 13 and 14",
+          "finding": "This region contains bibliography/prior-literature citations on gold-catalyzed cycloadditions and enantioselective annulations. No cited external experiment was imported as a current-paper record.",
+          "evidence_ids": [
+            "doc_b86bf0cf14cf6c6e:page8:text",
+            "doc_b86bf0cf14cf6c6e:page8:image"
+          ]
+        },
+        {
+          "region": "page 8 lower-left footnote 15",
+          "finding": "Footnote 15 explicitly reports one current-paper post-functionalization experiment: nosyl deprotection of 19b affords the corresponding secondary amine 20b in 57% yield. A separate partial reported-experiment record preserves the transformation and product-targeted yield; all operational details remain missing because they are delegated to unassociated Supporting Information.",
+          "evidence_ids": [
+            "doc_b86bf0cf14cf6c6e:page8:text",
+            "doc_b86bf0cf14cf6c6e:page8:image"
+          ]
+        },
+        {
+          "region": "page 8 remaining blank area and journal footer",
+          "finding": "No additional figure, table, arrow, procedure, footnote, or chemistry fact is visible in the remaining rendered page area.",
+          "evidence_ids": [
+            "doc_b86bf0cf14cf6c6e:page8:text",
+            "doc_b86bf0cf14cf6c6e:page8:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_b86bf0cf14cf6c6e:footnote15_nosyl_deprotection_19b_to_20b"
+      ],
+      "unresolved": [
+        "Footnote 15 does not report deprotection reagents, quantities, solvent, temperature, time, atmosphere, workup, purification, product mass, or yield basis.",
+        "The instruction to see Supporting Information does not establish a workspace SI association; no SI detail was inferred.",
+        "Structures 19b and 20b are not redrawn on page 8, so structure encodings remain null and unverified."
+      ]
+    }
+  ]
+}
